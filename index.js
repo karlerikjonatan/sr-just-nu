@@ -62,7 +62,7 @@ function generateHTML(dir) {
     <html>
     <head>
       <meta charset="UTF-8">
-      <title>Just nu</title>
+      <title>Just nu: 📸</title>
     </head>
     <body>
       ${files.map(f => `
