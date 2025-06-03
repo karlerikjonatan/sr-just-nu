@@ -9,14 +9,14 @@ async function ensureDir(dir) {
   return fs.promises.mkdir(dir, { recursive: true });
 }
 
-async function getMatchingH2Elements(page) {
-  const spanHandles = await page.$$('span');
-  const matchingParents = [];
+async function getElements(page) {
+  const spans = await page.$$('span');
+  const elements = [];
 
-  for (const span of spanHandles) {
+  for (const span of spans) {
     const text = await page.evaluate(el => el.textContent, span);
     if (text.includes('Just nu: ')) {
-      const parentH2Handle = await page.evaluateHandle(el => {
+      const parentElement = await page.evaluateHandle(el => {
         let parent = el;
         while (parent && parent.tagName !== 'H2') {
           parent = parent.parentElement;
@@ -24,12 +24,12 @@ async function getMatchingH2Elements(page) {
         return parent;
       }, span);
 
-      const element = parentH2Handle.asElement();
-      if (element) matchingParents.push(element);
+      const element = parentElement.asElement();
+      if (element) elements.push(element);
     }
   }
 
-  return matchingParents;
+  return elements;
 }
 
 async function saveScreenshots(elements, outputDir) {
@@ -78,15 +78,15 @@ async function main() {
     const page = await browser.newPage();
     await page.goto(URL, { waitUntil: 'networkidle2' });
 
-    const matchingH2s = await getMatchingH2Elements(page);
+    const elements = await getElements(page);
 
-    if (matchingH2s.length === 0) {
+    if (elements.length === 0) {
       console.log('No matching elements found');
       return;
     }
 
-    await saveScreenshots(matchingH2s, OUTPUT_DIR);
-    console.log(`Saved ${matchingH2s.length} screenshot(s)`);
+    await saveScreenshots(elements, OUTPUT_DIR);
+    console.log(`Saved ${elements.length} screenshot(s)`);
     generateHTML(OUTPUT_DIR);
     console.log('Generated HTML');
   } catch (err) {
