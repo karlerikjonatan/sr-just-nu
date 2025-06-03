@@ -55,20 +55,19 @@ const outputDir = path.join(__dirname, 'docs', 'screenshots');
 function generateHTML(dir) {
   const files = fs.readdirSync(dir)
     .filter(f => f.endsWith('.png'))
-    .sort()
-    .reverse();
+    .sort();
 
   const html = `
     <!DOCTYPE html>
     <html>
     <head>
       <meta charset="UTF-8">
-      <title>Just nu:</title>
+      <title>Just nu</title>
     </head>
     <body>
       ${files.map(f => `
         <div style="width: 712px; margin: 0 auto;">
-          <img src="screenshots/${f}">
+          <img src="screenshots/${f}" loading="lazy">
         </div>
       `).join('\n')}
     </body>
