@@ -1,5 +1,8 @@
 name: Screenshot
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: '0 * * * *'
@@ -30,4 +33,5 @@ jobs:
           git config user.email "github-actions@github.com"
           git add docs/
           git commit -m "Hourly screenshot update [skip ci]" || echo "No changes to commit"
-          git push
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:${{ github.ref_name }}
+
