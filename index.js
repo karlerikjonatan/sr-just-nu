@@ -46,7 +46,8 @@ async function saveScreenshots(elements, outputDir) {
 function generateHTML(dir) {
   const files = fs.readdirSync(dir)
     .filter(f => f.endsWith('.png'))
-    .sort();
+    .sort()
+    .reverse();
 
   const html = `
 <!DOCTYPE html>
