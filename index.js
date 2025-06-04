@@ -49,22 +49,7 @@ function generateHTML(dir) {
     .sort()
     .reverse();
 
-  const html = `
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Just nu: 📸</title>
-  </head>
-  <body>
-    ${files.map(f => `
-      <div style="width: 712px; margin: 0 auto;">
-        <img src="screenshots/${f}" loading="lazy">
-      </div>
-    `).join('\n')}
-  </body>
-</html>
-  `.trim();
+  const html = `<!DOCTYPE html><html lang="sv"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Just nu: 📸</title><style>*{margin:0;padding:0}img{display:block;height:auto;max-width:100%}body{align-items:center;display:flex;flex-direction:column;gap:0.25rem;padding:0.25rem}</style></head><body>${files.map(f => `<img src="screenshots/${f}" loading="lazy" width="768" height="32">`).join("")}</body></html>`;
 
   fs.writeFileSync(path.join(__dirname, 'docs', 'index.html'), html);
 }
