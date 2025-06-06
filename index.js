@@ -4,18 +4,42 @@ const path = require('path');
 
 const URL = 'https://www.sverigesradio.se';
 const OUTPUT_DIR = path.join(__dirname, 'docs', 'screenshots');
+const SEEN_TEXTS = path.join(__dirname, 'texts.json');
+
+function loadSeenTexts() {
+  if (fs.existsSync(SEEN_TEXTS)) {
+    try {
+      const data = fs.readFileSync(SEEN_TEXTS, 'utf-8');
+      return new Set(JSON.parse(data));
+    } catch (err) {
+      console.error('Error reading texts.json:', err);
+    }
+  }
+  return new Set();
+}
+
+function saveSeenTexts(seenTexts) {
+  try {
+    fs.writeFileSync(SEEN_TEXTS, JSON.stringify([...seenTexts]));
+  } catch (err) {
+    console.error('Error writing texts.json:', err);
+  }
+}
 
 async function ensureDir(dir) {
   return fs.promises.mkdir(dir, { recursive: true });
 }
 
-async function getElements(page) {
-  const spans = await page.$$('span');
+async function getElements(page, seenTexts) {
+  const spans = await page.$$('h2');
   const elements = [];
 
   for (const span of spans) {
-    const text = await page.evaluate(el => el.textContent, span);
-    if (text.includes('Just nu: ')) {
+    const text = await page.evaluate(el => el.textContent.trim(), span);
+
+    if (text.includes('Just nu:') && !seenTexts.has(text)) {
+      seenTexts.add(text);
+
       const parentElement = await page.evaluateHandle(el => {
         let parent = el;
         while (parent && parent.tagName !== 'H2') {
@@ -25,19 +49,19 @@ async function getElements(page) {
       }, span);
 
       const element = parentElement.asElement();
-      if (element) elements.push(element);
+      if (element) elements.push({ element, text });
     }
   }
 
   return elements;
 }
 
-async function saveScreenshots(elements, outputDir) {
+async function saveScreenshots(items, outputDir) {
   const timestamp = Date.now();
   await ensureDir(outputDir);
 
-  for (let i = 0; i < elements.length; i++) {
-    const element = elements[i];
+  for (let i = 0; i < items.length; i++) {
+    const { element } = items[i];
     const filename = `${timestamp}_${i}.png`;
     await element.screenshot({ path: path.join(outputDir, filename) });
   }
@@ -56,23 +80,30 @@ function generateHTML(dir) {
 
 async function main() {
   let browser;
+  const seenTexts = loadSeenTexts();
+
   try {
     browser = await puppeteer.launch({
       headless: 'new',
       args: ['--no-sandbox', '--disable-setuid-sandbox'],
     });
+
     const page = await browser.newPage();
     await page.goto(URL, { waitUntil: 'networkidle2' });
 
-    const elements = await getElements(page);
+    const elements = await getElements(page, seenTexts);
 
     if (elements.length === 0) {
-      console.log('No matching elements found');
+      console.log('No new matching elements found');
       return;
     }
 
     await saveScreenshots(elements, OUTPUT_DIR);
-    console.log(`Saved ${elements.length} screenshot(s)`);
+    console.log(`Saved ${elements.length} new screenshot(s)`);
+
+    saveSeenTexts(seenTexts);
+    console.log('Updated text.json');
+
     generateHTML(OUTPUT_DIR);
     console.log('Generated HTML');
   } catch (err) {
