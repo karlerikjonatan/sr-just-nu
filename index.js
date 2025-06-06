@@ -98,7 +98,7 @@ async function main() {
       return;
     }
 
-    await saveScreenshots(elements, OUTPUT_DIR);
+    await saveScreenshots(elements.reverse(), OUTPUT_DIR);
     console.log(`Saved ${elements.length} new screenshot(s)`);
 
     saveSeenTexts(seenTexts);
