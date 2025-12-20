@@ -31,8 +31,11 @@ async function ensureDir(dir) {
 }
 
 async function getElements(page, seenTexts) {
+  await page.$eval('[data-state="open"]', dialog => dialog.remove());
+
   const spans = await page.$$('h2');
   const elements = [];
+
 
   for (const span of spans) {
     const text = await page.evaluate(el => el.textContent.trim(), span);
