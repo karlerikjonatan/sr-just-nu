@@ -48,7 +48,6 @@ async function getElements(page, seenTexts) {
         let closestLink = null;
         let current = el;
 
-        // First check if the element itself is within an anchor
         while (current && !closestLink) {
           if (current.tagName === 'A' && current.href) {
             closestLink = current.href;
@@ -57,7 +56,6 @@ async function getElements(page, seenTexts) {
           current = current.parentElement;
         }
 
-        // If not found in parents, check siblings and children
         if (!closestLink) {
           let parent = el;
           while (parent && parent.tagName !== 'H2') {
