@@ -5,6 +5,7 @@ const path = require('path');
 const URL = 'https://www.sverigesradio.se';
 const OUTPUT_DIR = path.join(__dirname, 'docs', 'screenshots');
 const SEEN_TEXTS = path.join(__dirname, 'texts.json');
+const METADATA_FILE = path.join(OUTPUT_DIR, 'metadata.json');
 
 function loadSeenTexts() {
   if (fs.existsSync(SEEN_TEXTS)) {
@@ -30,6 +31,42 @@ async function ensureDir(dir) {
   return fs.promises.mkdir(dir, { recursive: true });
 }
 
+function loadMetadata() {
+  if (fs.existsSync(METADATA_FILE)) {
+    try {
+      return JSON.parse(fs.readFileSync(METADATA_FILE, 'utf-8'));
+    } catch (err) {
+      console.error('Error reading metadata.json:', err);
+    }
+  }
+  return [];
+}
+
+function saveMetadata(existing, newItems) {
+  const merged = new Map(existing.map(m => [m.filename, m.url]));
+  for (const item of newItems) {
+    merged.set(item.filename, item.url);
+  }
+  const arr = [...merged.entries()].map(([filename, url]) => ({ filename, url }));
+  try {
+    fs.writeFileSync(METADATA_FILE, JSON.stringify(arr, null, 2));
+  } catch (err) {
+    console.error('Error writing metadata.json:', err);
+  }
+  return arr;
+}
+
+function sanitizeUrl(url) {
+  if (!url) return null;
+  try {
+    const parsed = new URL(url);
+    if (parsed.protocol !== 'http:' && parsed.protocol !== 'https:') return null;
+    return url;
+  } catch {
+    return null;
+  }
+}
+
 async function getElements(page, seenTexts) {
   await page.$eval('[data-state="open"]', dialog => dialog.remove());
 
@@ -43,32 +80,6 @@ async function getElements(page, seenTexts) {
     if (text.includes('Just nu:') && !seenTexts.has(text)) {
       seenTexts.add(text);
 
-      const url = await page.evaluate(el => {
-        let closestLink = null;
-        let current = el;
-
-        while (current && !closestLink) {
-          if (current.tagName === 'A' && current.href) {
-            closestLink = current.href;
-            break;
-          }
-          current = current.parentElement;
-        }
-
-        if (!closestLink) {
-          let parent = el;
-          while (parent && parent.tagName !== 'H2') {
-            parent = parent.parentElement;
-          }
-          if (parent) {
-            const link = parent.querySelector('a[href]') || parent.closest('a[href]');
-            if (link) closestLink = link.href;
-          }
-        }
-
-        return closestLink;
-      }, span);
-
       const parentElement = await page.evaluateHandle(el => {
         let parent = el;
         while (parent && parent.tagName !== 'H2') {
@@ -78,7 +89,13 @@ async function getElements(page, seenTexts) {
       }, span);
 
       const element = parentElement.asElement();
-      if (element) elements.push({ element, text, url });
+      if (element) {
+        const url = await element.evaluate(el => {
+          const link = el.querySelector('a[href]') || el.closest('a[href]');
+          return link ? link.href : null;
+        });
+        elements.push({ element, text, url });
+      }
     }
   }
 
@@ -110,8 +127,8 @@ function generateHTML(dir, metadata = []) {
 
   const html = `<!DOCTYPE html><html lang="sv"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%B8%3C/text%3E%3C/svg%3E"><title>Just nu</title><style>*{margin:0;padding:0}img{display:block;height:auto;max-width:100%}body{align-items:center;display:flex;flex-direction:column;gap:0.25rem;padding:0.25rem}</style></head><body>${files.map(f => {
     const img = `<img src="screenshots/${f}" loading="lazy" width="768" height="32">`;
-    const url = urlMap.get(f);
-    return url ? `<a href="${url}" target="_blank" rel="noopener noreferrer">${img}</a>` : img;
+    const safeUrl = sanitizeUrl(urlMap.get(f));
+    return safeUrl ? `<a href="${safeUrl}" target="_blank" rel="noopener noreferrer">${img}</a>` : img;
   }).join("")}</body></html>`;
 
   fs.writeFileSync(path.join(__dirname, 'docs', 'index.html'), html);
@@ -137,13 +154,15 @@ async function main() {
       return;
     }
 
-    const metadata = await saveScreenshots(elements.reverse(), OUTPUT_DIR);
+    const newMetadata = await saveScreenshots(elements.reverse(), OUTPUT_DIR);
     console.log(`Saved ${elements.length} new screenshot(s)`);
 
     saveSeenTexts(seenTexts);
     console.log('Updated text.json');
 
-    generateHTML(OUTPUT_DIR, metadata);
+    const existingMetadata = loadMetadata();
+    const allMetadata = saveMetadata(existingMetadata, newMetadata);
+    generateHTML(OUTPUT_DIR, allMetadata);
     console.log('Generated HTML');
   } catch (err) {
     console.error('Error:', err);
