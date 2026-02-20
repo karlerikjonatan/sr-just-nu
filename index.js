@@ -44,7 +44,6 @@ async function getElements(page, seenTexts) {
       seenTexts.add(text);
 
       const url = await page.evaluate(el => {
-        // Find closest a tag
         let closestLink = null;
         let current = el;
 
