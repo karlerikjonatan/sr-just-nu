@@ -43,6 +43,35 @@ async function getElements(page, seenTexts) {
     if (text.includes('Just nu:') && !seenTexts.has(text)) {
       seenTexts.add(text);
 
+      const url = await page.evaluate(el => {
+        // Find closest a tag
+        let closestLink = null;
+        let current = el;
+
+        // First check if the element itself is within an anchor
+        while (current && !closestLink) {
+          if (current.tagName === 'A' && current.href) {
+            closestLink = current.href;
+            break;
+          }
+          current = current.parentElement;
+        }
+
+        // If not found in parents, check siblings and children
+        if (!closestLink) {
+          let parent = el;
+          while (parent && parent.tagName !== 'H2') {
+            parent = parent.parentElement;
+          }
+          if (parent) {
+            const link = parent.querySelector('a[href]') || parent.closest('a[href]');
+            if (link) closestLink = link.href;
+          }
+        }
+
+        return closestLink;
+      }, span);
+
       const parentElement = await page.evaluateHandle(el => {
         let parent = el;
         while (parent && parent.tagName !== 'H2') {
@@ -52,7 +81,7 @@ async function getElements(page, seenTexts) {
       }, span);
 
       const element = parentElement.asElement();
-      if (element) elements.push({ element, text });
+      if (element) elements.push({ element, text, url });
     }
   }
 
@@ -62,21 +91,31 @@ async function getElements(page, seenTexts) {
 async function saveScreenshots(items, outputDir) {
   const timestamp = Date.now();
   await ensureDir(outputDir);
+  const metadata = [];
 
   for (let i = 0; i < items.length; i++) {
-    const { element } = items[i];
+    const { element, url } = items[i];
     const filename = `${timestamp}_${i}.png`;
     await element.screenshot({ path: path.join(outputDir, filename) });
+    metadata.push({ filename, url });
   }
+
+  return metadata;
 }
 
-function generateHTML(dir) {
+function generateHTML(dir, metadata = []) {
   const files = fs.readdirSync(dir)
     .filter(f => f.endsWith('.png'))
     .sort()
     .reverse();
 
-  const html = `<!DOCTYPE html><html lang="sv"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%B8%3C/text%3E%3C/svg%3E"><title>Just nu</title><style>*{margin:0;padding:0}img{display:block;height:auto;max-width:100%}body{align-items:center;display:flex;flex-direction:column;gap:0.25rem;padding:0.25rem}</style></head><body>${files.map(f => `<img src="screenshots/${f}" loading="lazy" width="768" height="32">`).join("")}</body></html>`;
+  const urlMap = new Map(metadata.map(m => [m.filename, m.url]));
+
+  const html = `<!DOCTYPE html><html lang="sv"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%B8%3C/text%3E%3C/svg%3E"><title>Just nu</title><style>*{margin:0;padding:0}img{display:block;height:auto;max-width:100%}body{align-items:center;display:flex;flex-direction:column;gap:0.25rem;padding:0.25rem}</style></head><body>${files.map(f => {
+    const img = `<img src="screenshots/${f}" loading="lazy" width="768" height="32">`;
+    const url = urlMap.get(f);
+    return url ? `<a href="${url}" target="_blank" rel="noopener noreferrer">${img}</a>` : img;
+  }).join("")}</body></html>`;
 
   fs.writeFileSync(path.join(__dirname, 'docs', 'index.html'), html);
 }
@@ -101,13 +140,13 @@ async function main() {
       return;
     }
 
-    await saveScreenshots(elements.reverse(), OUTPUT_DIR);
+    const metadata = await saveScreenshots(elements.reverse(), OUTPUT_DIR);
     console.log(`Saved ${elements.length} new screenshot(s)`);
 
     saveSeenTexts(seenTexts);
     console.log('Updated text.json');
 
-    generateHTML(OUTPUT_DIR);
+    generateHTML(OUTPUT_DIR, metadata);
     console.log('Generated HTML');
   } catch (err) {
     console.error('Error:', err);
