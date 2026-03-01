@@ -69,7 +69,7 @@ function generateHTML(dir) {
     .sort()
     .reverse();
 
-  const html = `<!DOCTYPE html><html lang="sv"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%B8%3C/text%3E%3C/svg%3E"><title>Just nu</title><style>*{margin:0;padding:0}img{display:block;height:auto;max-width:100%}body{display:flex;flex-direction:column;gap:0.25rem;padding:0.25rem}</style></head><body>${files.map(f => `<img src="screenshots/${f}" loading="lazy" width="768" height="32">`).join("")}</body></html>`;
+  const html = `<!DOCTYPE html><html lang="sv"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%B8%3C/text%3E%3C/svg%3E"><title>Just nu:</title><style>*{margin:0;padding:0}img{display:block;height:auto;max-width:100%}body{display:flex;flex-direction:column;gap:0.25rem;padding:0.25rem}</style></head><body>${files.map(f => `<img src="screenshots/${f}" loading="lazy" width="768" height="32">`).join("")}</body></html>`;
 
   fs.writeFileSync(path.join(__dirname, 'docs', 'index.html'), html);
 }
