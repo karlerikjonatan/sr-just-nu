@@ -35,17 +35,17 @@ async function getElements(page, seenTexts) {
     for (const dialog of dialogs) dialog.remove();
   });
 
-  const spans = await page.$$('h2');
+  const headings = await page.$$('h2');
   const elements = [];
 
 
-  for (const span of spans) {
-    const text = await page.evaluate(el => (el.textContent || '').trim(), span);
+  for (const heading of headings) {
+    const text = await page.evaluate(el => (el.textContent || '').trim(), heading);
 
     if (text.includes('Just nu:') && !seenTexts.has(text)) {
       seenTexts.add(text);
 
-      elements.push({ element: span, text });
+      elements.push({ element: heading, text });
     }
   }
 
