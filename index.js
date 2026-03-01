@@ -31,28 +31,21 @@ async function ensureDir(dir) {
 }
 
 async function getElements(page, seenTexts) {
-  await page.$eval('[data-state="open"]', dialog => dialog.remove());
+  await page.$$eval('[data-state="open"]', dialogs => {
+    for (const dialog of dialogs) dialog.remove();
+  });
 
-  const spans = await page.$$('h2');
+  const headings = await page.$$('h2');
   const elements = [];
 
 
-  for (const span of spans) {
-    const text = await page.evaluate(el => el.textContent.trim(), span);
+  for (const heading of headings) {
+    const text = await page.evaluate(el => (el.textContent || '').trim(), heading);
 
     if (text.includes('Just nu:') && !seenTexts.has(text)) {
       seenTexts.add(text);
 
-      const parentElement = await page.evaluateHandle(el => {
-        let parent = el;
-        while (parent && parent.tagName !== 'H2') {
-          parent = parent.parentElement;
-        }
-        return parent;
-      }, span);
-
-      const element = parentElement.asElement();
-      if (element) elements.push({ element, text });
+      elements.push({ element: heading, text });
     }
   }
 
@@ -76,7 +69,7 @@ function generateHTML(dir) {
     .sort()
     .reverse();
 
-  const html = `<!DOCTYPE html><html lang="sv"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%B8%3C/text%3E%3C/svg%3E"><title>Just nu</title><style>*{margin:0;padding:0}img{display:block;height:auto;max-width:100%}body{align-items:center;display:flex;flex-direction:column;gap:0.25rem;padding:0.25rem}</style></head><body>${files.map(f => `<img src="screenshots/${f}" loading="lazy" width="768" height="32">`).join("")}</body></html>`;
+  const html = `<!DOCTYPE html><html lang="sv"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%B8%3C/text%3E%3C/svg%3E"><title>Just nu</title><style>*{margin:0;padding:0}img{display:block;height:auto;max-width:100%}body{display:flex;flex-direction:column;gap:0.25rem;padding:0.25rem}</style></head><body>${files.map(f => `<img src="screenshots/${f}" loading="lazy" width="768" height="32">`).join("")}</body></html>`;
 
   fs.writeFileSync(path.join(__dirname, 'docs', 'index.html'), html);
 }
@@ -105,7 +98,7 @@ async function main() {
     console.log(`Saved ${elements.length} new screenshot(s)`);
 
     saveSeenTexts(seenTexts);
-    console.log('Updated text.json');
+    console.log('Updated texts.json');
 
     generateHTML(OUTPUT_DIR);
     console.log('Generated HTML');
