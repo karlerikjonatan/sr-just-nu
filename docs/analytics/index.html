@@ -85,6 +85,21 @@
       font-size: .88rem;
     }
 
+    .word-button {
+      border: 0;
+      background: transparent;
+      color: inherit;
+      font: inherit;
+      padding: 0;
+      text-align: left;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .word-button:hover {
+      text-decoration: underline;
+    }
+
     .bar-wrap {
       background: #ecf2ff;
       border: 1px solid #cfdbf4;
@@ -115,6 +130,17 @@
       align-items: center;
       gap: .35rem;
       line-height: 1;
+    }
+
+    .tag-button {
+      color: inherit;
+      font: inherit;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .tag-button:hover {
+      text-decoration: underline;
     }
 
     .controls {
@@ -219,10 +245,6 @@
   </main>
 
   <script>
-    const APP = {
-      analytics: null
-    };
-
     const STOPWORDS = new Set([
       'just', 'nu', 'och', 'att', 'som', 'det', 'den', 'en', 'ett', 'på', 'av', 'för', 'med', 'till', 'i', 'om', 'är', 'har', 'efter', 'mot', 'från',
       'två', 'flera', 'stor', 'nya', 'ny', 'man', 'kvinna', 'person', 'uppgifter', 'uppgift', 'stopp', 'stoppad', 'avstängd', 'de', 'då'
@@ -306,8 +328,7 @@
           index,
           text: cleaned,
           lc: cleaned.toLowerCase(),
-          tokens: tokenize(cleaned),
-          wordCount: cleaned.split(/\s+/).filter(Boolean).length
+          tokens: tokenize(cleaned)
         };
       });
 
@@ -327,7 +348,31 @@
       };
     }
 
-    function renderBars(containerId, rows, formatter = (v) => Math.round(v)) {
+    function setSearchAndScroll(term) {
+      const search = document.getElementById('searchInput');
+      const section = document.getElementById('texts');
+      if (!search || !section) return;
+
+      const value = normalizeText(term);
+      if (!value) return;
+
+      search.value = value;
+      search.dispatchEvent(new Event('input', { bubbles: true }));
+      section.scrollIntoView({ behavior: 'auto', block: 'start' });
+      search.focus({ preventScroll: true });
+    }
+
+    function bindWordPicker(containerId) {
+      const container = document.getElementById(containerId);
+      if (!container) return;
+      container.addEventListener('click', (event) => {
+        const target = event.target.closest('[data-search-term]');
+        if (!target || !container.contains(target)) return;
+        setSearchAndScroll(target.getAttribute('data-search-term'));
+      });
+    }
+
+    function renderBars(containerId, rows) {
       const container = document.getElementById(containerId);
       if (!rows.length) {
         container.innerHTML = '<p class="muted">No data.</p>';
@@ -336,13 +381,14 @@
       const max = Math.max(...rows.map(r => r.value), 1);
       container.innerHTML = rows.map(r => {
         const pct = (r.value / max) * 100;
-        return `<div class="bar-row"><span>${escapeHtml(r.label)}</span><div class="bar-wrap"><div class="bar" style="width:${pct.toFixed(1)}%"></div></div><strong>${formatter(r.value)}</strong></div>`;
+        const label = `<button type="button" class="word-button" data-search-term="${escapeHtml(r.label)}">${escapeHtml(r.label)}</button>`;
+        return `<div class="bar-row">${label}<div class="bar-wrap"><div class="bar" style="width:${pct.toFixed(1)}%"></div></div><strong>${Math.round(r.value)}</strong></div>`;
       }).join('');
     }
 
     function renderTags(containerId, values) {
       const c = document.getElementById(containerId);
-      c.innerHTML = values.map(v => `<span class="tag">${escapeHtml(v)}</span>`).join('');
+      c.innerHTML = values.map(v => `<button type="button" class="tag tag-button" data-search-term="${escapeHtml(v)}">${escapeHtml(v)}</button>`).join('');
     }
 
     function renderOverview(texts, a) {
@@ -394,9 +440,11 @@
 
     async function main() {
       try {
+        bindWordPicker('topWords');
+        bindWordPicker('uniqueWords');
         const { texts } = await fetchDataset();
-        APP.analytics = computeAnalytics(texts);
-        renderAll(texts, APP.analytics);
+        const analytics = computeAnalytics(texts);
+        renderAll(texts, analytics);
       } catch (err) {
         document.getElementById('overview').innerHTML = '<div class="error">' + escapeHtml(err.message || String(err)) + '</div>';
       }
