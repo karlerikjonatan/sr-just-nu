@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light" />
+  <style>
+    :root {
+      --bg: #f3f7ff;
+      --card: #ffffff;
+      --border: #d6e2f5;
+      --text: #10213f;
+      --muted: #5b6f95;
+      --accent-2: #3e75dc;
+      --shadow: 0 8px 22px rgba(38, 72, 130, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: radial-gradient(circle at top right, #dce8ff 0, var(--bg) 44%);
+      color: var(--text);
+      line-height: 1.45;
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1rem;
+      display: grid;
+      gap: 1rem;
+    }
+
+    .grid {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 0.9rem;
+      box-shadow: var(--shadow);
+      animation: fadeIn .6s ease;
+    }
+
+    .card h2,
+    .card h3 {
+      margin: 0 0 0.6rem;
+      font-size: 1rem;
+    }
+
+    .metric {
+      font-size: clamp(1.2rem, 2.6vw, 2rem);
+      font-weight: 700;
+      letter-spacing: 0.2px;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .bar-list {
+      display: grid;
+      gap: .42rem;
+    }
+
+    .bar-row {
+      display: grid;
+      grid-template-columns: 130px 1fr auto;
+      gap: .5rem;
+      align-items: center;
+      font-size: .88rem;
+    }
+
+    .bar-wrap {
+      background: #ecf2ff;
+      border: 1px solid #cfdbf4;
+      border-radius: 999px;
+      overflow: hidden;
+      height: 16px;
+    }
+
+    .bar {
+      height: 100%;
+      width: 0;
+      background: var(--accent-2);
+      transition: width .55s ease;
+    }
+
+    .tag-cloud {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .48rem;
+    }
+
+    .tag {
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: #f5f9ff;
+      padding: .23rem .56rem;
+      display: inline-flex;
+      align-items: center;
+      gap: .35rem;
+      line-height: 1;
+    }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .6rem;
+      margin-bottom: .6rem;
+    }
+
+    .controls input {
+      background: #f8fbff;
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: .52rem .68rem;
+      min-width: 180px;
+    }
+
+    .texts {
+      display: grid;
+      gap: .45rem;
+      max-height: 33vh;
+      overflow: auto;
+      padding-right: .18rem;
+    }
+
+    .text-item {
+      background: #f8fbff;
+      border: 1px solid #d6e2f5;
+      border-radius: 10px;
+      padding: .56rem .62rem;
+    }
+
+    .score-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .35rem;
+      margin-top: .35rem;
+    }
+
+    .chip {
+      font-size: .75rem;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      padding: .15rem .46rem;
+      color: var(--muted);
+      background: #eef4ff;
+    }
+
+    .error {
+      border: 1px solid #5c2335;
+      background: #2d1320;
+      color: #ffc3d0;
+      border-radius: 12px;
+      padding: .8rem;
+      white-space: pre-wrap;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(4px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 700px) {
+      .bar-row {
+        grid-template-columns: 90px 1fr auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <section id="overview" class="grid"></section>
+
+    <section id="texts" class="card">
+      <h2>Text Explorer</h2>
+      <div class="controls">
+        <input id="searchInput" type="search" placeholder="Search texts…" />
+      </div>
+      <div id="textList" class="texts"></div>
+      <p id="textCount" class="muted"></p>
+    </section>
+
+    <section id="words" class="grid">
+      <article class="card">
+        <h2>Most Used Words</h2>
+        <div id="topWords" class="bar-list"></div>
+      </article>
+      <article class="card">
+        <h2>Unique Gems</h2>
+        <div id="uniqueWords" class="tag-cloud"></div>
+      </article>
+    </section>
+
+    <section id="clusters" class="grid">
+      <article class="card">
+        <h2>Simple Overlap Clusters</h2>
+        <div id="overlapClusters" class="bar-list"></div>
+      </article>
+    </section>
+  </main>
+
+  <script>
+    const APP = {
+      analytics: null
+    };
+
+    const STOPWORDS = new Set([
+      'just', 'nu', 'och', 'att', 'som', 'det', 'den', 'en', 'ett', 'på', 'av', 'för', 'med', 'till', 'i', 'om', 'är', 'har', 'efter', 'mot', 'från',
+      'två', 'flera', 'stor', 'nya', 'ny', 'man', 'kvinna', 'person', 'uppgifter', 'uppgift', 'stopp', 'stoppad', 'avstängd', 'de', 'då'
+    ]);
+
+    const MAX_DISPLAYED_TEXTS = 350;
+    const MAX_EXTRACTION_DEPTH = 6;
+    const CLUSTER_OVERLAP_THRESHOLD = 0.34;
+    const OVERLAP_CLUSTERS_LIMIT = 12;
+
+    const escapeHtml = (s) => s
+      .replaceAll('&', '&amp;')
+      .replaceAll('<', '&lt;')
+      .replaceAll('>', '&gt;')
+      .replaceAll('"', '&quot;')
+      .replaceAll("'", '&#39;');
+
+    function normalizeText(input) {
+      return String(input || '')
+        .replace(/\s+/g, ' ')
+        .replace(/^just nu:\s*/i, '')
+        .trim();
+    }
+
+    function tokenize(text) {
+      return normalizeText(text)
+        .toLowerCase()
+        .replace(/[^\p{L}\p{N}\s-]+/gu, ' ')
+        .split(/\s+/)
+        .map(w => w.replace(/^-+|-+$/g, ''))
+        .filter(w => w.length > 1 && !STOPWORDS.has(w));
+    }
+
+    function extractTexts(value, out = [], seen = new Set(), depth = 0) {
+      if (depth > MAX_EXTRACTION_DEPTH || value == null) return out;
+      if (typeof value === 'string') {
+        const cleaned = normalizeText(value);
+        if (cleaned) out.push(cleaned);
+        return out;
+      }
+      if (typeof value !== 'object') return out;
+      if (seen.has(value)) return out;
+      seen.add(value);
+
+      if (Array.isArray(value)) {
+        for (const item of value) extractTexts(item, out, seen, depth + 1);
+        return out;
+      }
+
+      const knownKeys = ['text', 'title', 'headline', 'message', 'name', 'value'];
+      let usedKnown = false;
+      for (const key of knownKeys) {
+        if (typeof value[key] === 'string') {
+          extractTexts(value[key], out, seen, depth + 1);
+          usedKnown = true;
+        }
+      }
+      if (!usedKnown) {
+        for (const v of Object.values(value)) extractTexts(v, out, seen, depth + 1);
+      }
+      return out;
+    }
+
+    function repoBasePath() {
+      const parts = location.pathname.split('/').filter(Boolean);
+      if (!parts.length) return '';
+      if (location.hostname.endsWith('github.io')) return `/${parts[0]}`;
+      return '';
+    }
+
+    async function fetchDataset() {
+      const base = repoBasePath();
+      const candidates = [
+        './text.json',
+        './texts.json',
+        '../text.json',
+        '../texts.json',
+        `${base}/text.json`,
+        `${base}/texts.json`,
+        'https://raw.githubusercontent.com/karlerikjonatan/sr-just-nu/main/texts.json',
+        'https://raw.githubusercontent.com/karlerikjonatan/sr-just-nu/main/text.json'
+      ];
+
+      const tried = [];
+      for (const url of candidates) {
+        try {
+          const res = await fetch(url, { cache: 'no-cache' });
+          tried.push(`${url} (${res.status})`);
+          if (!res.ok) continue;
+          const json = await res.json();
+          const texts = [...new Set(extractTexts(json).map(normalizeText).filter(Boolean))];
+          if (texts.length) {
+            return { texts };
+          }
+        } catch {
+          tried.push(`${url} (error)`);
+        }
+      }
+      throw new Error(`Could not load usable data. Tried:\n${tried.join('\n')}`);
+    }
+
+    function countMap(tokens) {
+      const map = new Map();
+      for (const t of tokens) map.set(t, (map.get(t) || 0) + 1);
+      return map;
+    }
+
+    function topBy(map, n) {
+      return [...map.entries()].sort((a, b) => b[1] - a[1]).slice(0, n);
+    }
+
+    function buildOverlapClusters(items) {
+      const clusters = [];
+      for (const item of items) {
+        let best = -1;
+        let bestScore = 0;
+        for (let i = 0; i < clusters.length; i++) {
+          const c = clusters[i];
+          let overlap = 0;
+          for (const t of item.tokens) if (c.tokenSet.has(t)) overlap++;
+          const ratio = overlap / Math.max(item.tokens.length, 1);
+          if (ratio > bestScore) { bestScore = ratio; best = i; }
+        }
+        if (bestScore >= CLUSTER_OVERLAP_THRESHOLD && best >= 0) {
+          const c = clusters[best];
+          c.items.push(item);
+          for (const t of item.tokens) c.tokenSet.add(t);
+        } else {
+          clusters.push({ items: [item], tokenSet: new Set(item.tokens) });
+        }
+      }
+
+      return clusters
+        .filter(c => c.items.length > 1)
+        .map(c => {
+          const tf = countMap(c.items.flatMap(i => i.tokens));
+          const label = topBy(tf, 2).map(([w]) => w).join(' + ') || 'misc';
+          return { label, size: c.items.length };
+        })
+        .sort((a, b) => b.size - a.size)
+        .slice(0, OVERLAP_CLUSTERS_LIMIT);
+    }
+
+    function computeAnalytics(texts) {
+      const items = texts.map((text, index) => {
+        const cleaned = normalizeText(text);
+        return {
+          index,
+          text: cleaned,
+          lc: cleaned.toLowerCase(),
+          tokens: tokenize(cleaned),
+          wordCount: cleaned.split(/\s+/).filter(Boolean).length
+        };
+      });
+
+      const allTokens = items.flatMap(i => i.tokens);
+      const freq = countMap(allTokens);
+      const topWords = [...freq.entries()].sort((a, b) => b[1] - a[1]);
+      const uniqueWords = [...freq.entries()]
+        .filter(([, c]) => c === 1)
+        .sort((a, b) => b[0].length - a[0].length)
+        .map(([w]) => w);
+      const overlapClusters = buildOverlapClusters(items);
+
+      return {
+        items,
+        topWords,
+        uniqueWords,
+        uniqueWordCount: freq.size,
+        overlapClusters
+      };
+    }
+
+    function renderBars(containerId, rows, formatter = (v) => Math.round(v)) {
+      const container = document.getElementById(containerId);
+      if (!rows.length) {
+        container.innerHTML = '<p class="muted">No data.</p>';
+        return;
+      }
+      const max = Math.max(...rows.map(r => r.value), 1);
+      container.innerHTML = rows.map(r => {
+        const pct = (r.value / max) * 100;
+        return `<div class="bar-row"><span>${escapeHtml(r.label)}</span><div class="bar-wrap"><div class="bar" style="width:${pct.toFixed(1)}%"></div></div><strong>${formatter(r.value)}</strong></div>`;
+      }).join('');
+    }
+
+    function renderTags(containerId, values) {
+      const c = document.getElementById(containerId);
+      c.innerHTML = values.map(v => `<span class="tag">${escapeHtml(v)}</span>`).join('');
+    }
+
+    function renderOverview(texts, a) {
+      const cards = [
+        { label: 'Total Texts', value: texts.length },
+        { label: 'Unique Words', value: a.uniqueWordCount.toLocaleString() }
+      ];
+
+      document.getElementById('overview').innerHTML = cards.map(c => `
+        <article class="card">
+          <h3>${escapeHtml(c.label)}</h3>
+          <div class="metric">${escapeHtml(String(c.value))}</div>
+        </article>
+      `).join('');
+    }
+
+    function renderExplorer(items) {
+      const list = document.getElementById('textList');
+      const search = document.getElementById('searchInput');
+      const count = document.getElementById('textCount');
+
+      function draw() {
+        const q = search.value.trim().toLowerCase();
+        const rows = items.filter(item => !q || item.lc.includes(q));
+
+        const capped = rows.slice(0, MAX_DISPLAYED_TEXTS);
+        list.innerHTML = capped.map(item => `
+          <article class="text-item">
+            <div>${escapeHtml(item.text)}</div>
+            <div class="score-chips">
+              <span class="chip">#${item.index + 1}</span>
+              <span class="chip">words ${item.wordCount}</span>
+            </div>
+          </article>
+        `).join('');
+        count.textContent = `Showing ${capped.length} of ${rows.length} matching texts.`;
+      }
+
+      search.addEventListener('input', draw);
+      draw();
+    }
+
+    function renderAll(texts, analytics) {
+      renderExplorer(analytics.items);
+      renderOverview(texts, analytics);
+      renderBars('topWords', analytics.topWords.map(([label, value]) => ({ label, value })));
+      renderTags('uniqueWords', analytics.uniqueWords);
+      renderBars('overlapClusters', analytics.overlapClusters.map(c => ({ label: c.label, value: c.size })));
+    }
+
+    async function main() {
+      try {
+        const { texts } = await fetchDataset();
+        APP.analytics = computeAnalytics(texts);
+        renderAll(texts, APP.analytics);
+      } catch (err) {
+        document.getElementById('overview').innerHTML = '<div class="error">' + escapeHtml(err.message || String(err)) + '</div>';
+      }
+    }
+
+    main();
+  </script>
+</body>
+
+</html>
