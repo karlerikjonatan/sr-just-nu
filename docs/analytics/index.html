@@ -200,7 +200,7 @@
     <section id="texts" class="card">
       <h2>Sök</h2>
       <div class="controls">
-        <input id="searchInput" type="search" placeholder="Just nu: ..." />
+        <input id="searchInput" type="search" placeholder="Just nu:" />
       </div>
       <div id="textList" class="texts"></div>
       <p id="textCount" class="muted"></p>
@@ -347,7 +347,7 @@
 
     function renderOverview(texts, a) {
       const cards = [
-        { label: 'Totalt antal Just nu:or', value: texts.length },
+        { label: 'Totalt antal texter', value: texts.length },
         { label: 'Unika ord', value: a.uniqueWordCount.toLocaleString() }
       ];
 
