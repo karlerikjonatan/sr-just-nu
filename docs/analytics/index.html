@@ -228,7 +228,7 @@
       'två', 'flera', 'stor', 'nya', 'ny', 'man', 'kvinna', 'person', 'uppgifter', 'uppgift', 'stopp', 'stoppad', 'avstängd', 'de', 'då'
     ]);
 
-    const MAX_DISPLAYED_TEXTS = 350;
+    const MAX_DISPLAYED_TEXTS = 100;
     const MAX_EXTRACTION_DEPTH = 6;
 
     const escapeHtml = (s) => s
@@ -363,10 +363,11 @@
       const list = document.getElementById('textList');
       const search = document.getElementById('searchInput');
       const count = document.getElementById('textCount');
+      const newestFirstItems = [...items].reverse();
 
       function draw() {
         const q = search.value.trim().toLowerCase();
-        const rows = items.filter(item => !q || item.lc.includes(q));
+        const rows = newestFirstItems.filter(item => !q || item.lc.includes(q));
 
         const capped = rows.slice(0, MAX_DISPLAYED_TEXTS);
         list.innerHTML = capped.map(item => `
@@ -374,7 +375,6 @@
             <div>${escapeHtml(item.text)}</div>
             <div class="score-chips">
               <span class="chip">#${item.index + 1}</span>
-              <span class="chip">words ${item.wordCount}</span>
             </div>
           </article>
         `).join('');
