@@ -4,7 +4,6 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Just nu:</title>
   <meta name="color-scheme" content="light" />
   <style>
     :root {
@@ -13,7 +12,6 @@
       --border: #d6e2f5;
       --text: #10213f;
       --muted: #5b6f95;
-      --accent: #16b39c;
       --accent-2: #3e75dc;
       --shadow: 0 8px 22px rgba(38, 72, 130, 0.12);
     }
@@ -229,8 +227,6 @@
 
   <script>
     const APP = {
-      loaded: false,
-      texts: [],
       analytics: null
     };
 
@@ -341,7 +337,7 @@
       return map;
     }
 
-    function topBy(map, n = 10) {
+    function topBy(map, n) {
       return [...map.entries()].sort((a, b) => b[1] - a[1]).slice(0, n);
     }
 
@@ -474,17 +470,10 @@
     }
 
     async function main() {
-      if (APP.loaded && APP.analytics) {
-        renderAll(APP.texts, APP.analytics);
-        return;
-      }
-
       try {
         const { texts } = await fetchDataset();
-        APP.texts = texts;
         APP.analytics = computeAnalytics(texts);
-        APP.loaded = true;
-        renderAll(APP.texts, APP.analytics);
+        renderAll(texts, APP.analytics);
       } catch (err) {
         document.getElementById('overview').innerHTML = '<div class="error">' + escapeHtml(err.message || String(err)) + '</div>';
       }
