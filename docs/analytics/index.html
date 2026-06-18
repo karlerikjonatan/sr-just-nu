@@ -293,42 +293,13 @@
       return out;
     }
 
-    function repoBasePath() {
-      const parts = location.pathname.split('/').filter(Boolean);
-      if (!parts.length) return '';
-      if (location.hostname.endsWith('github.io')) return `/${parts[0]}`;
-      return '';
-    }
-
     async function fetchDataset() {
-      const base = repoBasePath();
-      const candidates = [
-        './text.json',
-        './texts.json',
-        '../text.json',
-        '../texts.json',
-        `${base}/text.json`,
-        `${base}/texts.json`,
-        'https://raw.githubusercontent.com/karlerikjonatan/sr-just-nu/main/texts.json',
-        'https://raw.githubusercontent.com/karlerikjonatan/sr-just-nu/main/text.json'
-      ];
-
-      const tried = [];
-      for (const url of candidates) {
-        try {
-          const res = await fetch(url, { cache: 'no-cache' });
-          tried.push(`${url} (${res.status})`);
-          if (!res.ok) continue;
-          const json = await res.json();
-          const texts = [...new Set(extractTexts(json).map(normalizeText).filter(Boolean))];
-          if (texts.length) {
-            return { texts };
-          }
-        } catch {
-          tried.push(`${url} (error)`);
-        }
-      }
-      throw new Error(`Could not load usable data. Tried:\n${tried.join('\n')}`);
+      const url = 'https://raw.githubusercontent.com/karlerikjonatan/sr-just-nu/main/texts.json';
+      const res = await fetch(url, { cache: 'no-cache' });
+      if (!res.ok) throw new Error(`Could not load data from ${url} (${res.status})`);
+      const json = await res.json();
+      const texts = [...new Set(extractTexts(json).map(normalizeText).filter(Boolean))];
+      return { texts };
     }
 
     function countMap(tokens) {
