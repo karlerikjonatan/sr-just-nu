@@ -36,6 +36,8 @@ jobs:
           git config user.email "github-actions@github.com"
           git add docs/
           git add texts.json
+          if [ -f screenshot-links.json ]; then
+            git add screenshot-links.json
+          fi
           git commit -m "Just nu: 📸" || echo "No changes to commit"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:${{ github.ref_name }}
-
