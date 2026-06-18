@@ -4,18 +4,18 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>SR Just Nu — Analytics</title>
-  <meta name="color-scheme" content="dark light" />
+  <title>Just nu:</title>
+  <meta name="color-scheme" content="light" />
   <style>
     :root {
-      --bg: #080b14;
-      --card: #121a2b;
-      --border: #23314d;
-      --text: #e9f0ff;
-      --muted: #9cb0d9;
-      --accent: #55d6be;
-      --accent-2: #7ca6ff;
-      --shadow: 0 8px 26px rgba(0, 0, 0, 0.3);
+      --bg: #f3f7ff;
+      --card: #ffffff;
+      --border: #d6e2f5;
+      --text: #10213f;
+      --muted: #5b6f95;
+      --accent: #16b39c;
+      --accent-2: #3e75dc;
+      --shadow: 0 8px 22px rgba(38, 72, 130, 0.12);
     }
 
     * {
@@ -30,7 +30,7 @@
 
     body {
       font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-      background: radial-gradient(circle at top right, #18243f 0, var(--bg) 40%);
+      background: radial-gradient(circle at top right, #dce8ff 0, var(--bg) 44%);
       color: var(--text);
       line-height: 1.45;
     }
@@ -88,8 +88,8 @@
     }
 
     .bar-wrap {
-      background: #0c1220;
-      border: 1px solid #1e2a41;
+      background: #ecf2ff;
+      border: 1px solid #cfdbf4;
       border-radius: 999px;
       overflow: hidden;
       height: 16px;
@@ -98,7 +98,7 @@
     .bar {
       height: 100%;
       width: 0;
-      background: linear-gradient(90deg, var(--accent-2), var(--accent));
+      background: var(--accent-2);
       transition: width .55s ease;
     }
 
@@ -111,7 +111,7 @@
     .tag {
       border: 1px solid var(--border);
       border-radius: 999px;
-      background: #0c1220;
+      background: #f5f9ff;
       padding: .23rem .56rem;
       display: inline-flex;
       align-items: center;
@@ -127,7 +127,7 @@
     }
 
     .controls input {
-      background: #0d1524;
+      background: #f8fbff;
       color: var(--text);
       border: 1px solid var(--border);
       border-radius: 10px;
@@ -144,8 +144,8 @@
     }
 
     .text-item {
-      background: #0c1220;
-      border: 1px solid #1f2a42;
+      background: #f8fbff;
+      border: 1px solid #d6e2f5;
       border-radius: 10px;
       padding: .56rem .62rem;
     }
@@ -163,7 +163,7 @@
       border: 1px solid var(--border);
       padding: .15rem .46rem;
       color: var(--muted);
-      background: #111b2d;
+      background: #eef4ff;
     }
 
     .error {
