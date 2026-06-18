@@ -43,7 +43,7 @@ function loadScreenshotLinks() {
 
 function saveScreenshotLinks(screenshotLinks) {
   try {
-    fs.writeFileSync(SCREENSHOT_LINKS, JSON.stringify(screenshotLinks));
+    fs.writeFileSync(SCREENSHOT_LINKS, JSON.stringify(screenshotLinks, null, 2));
   } catch (err) {
     console.error('Error writing screenshot-links.json:', err);
   }
@@ -108,12 +108,21 @@ async function saveScreenshots(items, outputDir, screenshotLinks) {
     const { element, href } = items[i];
     const filename = `${timestamp}_${i}.png`;
     await element.screenshot({ path: path.join(outputDir, filename) });
-    screenshotLinks[filename] = href;
+    if (href) {
+      screenshotLinks[filename] = href;
+    }
   }
 }
 
 function escapeHtmlAttribute(value) {
-  return String(value).replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
+  const HTML_ESCAPE_MAP = {
+    '&': '&amp;',
+    '"': '&quot;',
+    "'": '&#39;',
+    '<': '&lt;',
+    '>': '&gt;',
+  };
+  return String(value).replace(/[&"'<>]/g, char => HTML_ESCAPE_MAP[char]);
 }
 
 function generateHTML(dir, screenshotLinks) {
@@ -122,11 +131,13 @@ function generateHTML(dir, screenshotLinks) {
     .sort()
     .reverse();
 
-  const html = `<!DOCTYPE html><html lang="sv"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%B8%3C/text%3E%3C/svg%3E"><title>Just nu:</title><style>*{margin:0;padding:0}img{display:block;height:auto;max-width:100%}body{display:flex;flex-direction:column;gap:0.25rem;padding:0.25rem}a{display:block}</style></head><body>${files.map(f => {
+  const images = files.map(f => {
     const imageHtml = `<img src="screenshots/${f}" loading="lazy" width="768" height="32">`;
     const href = screenshotLinks[f];
     return href ? `<a href="${escapeHtmlAttribute(href)}" target="_blank" rel="noopener noreferrer">${imageHtml}</a>` : imageHtml;
-  }).join("")}</body></html>`;
+  }).join("");
+
+  const html = `<!DOCTYPE html><html lang="sv"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%B8%3C/text%3E%3C/svg%3E"><title>Just nu:</title><style>*{margin:0;padding:0}img{display:block;height:auto;max-width:100%}body{display:flex;flex-direction:column;gap:0.25rem;padding:0.25rem}a{display:block}</style></head><body>${images}</body></html>`;
 
   fs.writeFileSync(path.join(__dirname, 'docs', 'index.html'), html);
 }
