@@ -199,6 +199,96 @@
       white-space: pre-wrap;
     }
 
+    .ai-settings {
+      display: grid;
+      gap: .5rem;
+      margin: .6rem 0;
+    }
+
+    .ai-settings label {
+      display: grid;
+      gap: .25rem;
+      font-size: .88rem;
+      color: var(--muted);
+    }
+
+    .ai-settings input {
+      background: #f8fbff;
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: .45rem .62rem;
+      font: inherit;
+      font-size: .88rem;
+    }
+
+    details > summary {
+      cursor: pointer;
+      font-size: .88rem;
+      color: var(--muted);
+      margin-bottom: .25rem;
+      user-select: none;
+    }
+
+    .ai-form {
+      display: grid;
+      gap: .5rem;
+      margin-top: .75rem;
+    }
+
+    .ai-form textarea {
+      background: #f8fbff;
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: .56rem .62rem;
+      font: inherit;
+      font-size: .95rem;
+      resize: vertical;
+      min-height: 4.5rem;
+    }
+
+    .ai-form textarea:focus,
+    .ai-settings input:focus {
+      outline: 2px solid var(--accent-2);
+      outline-offset: 1px;
+    }
+
+    .ai-submit {
+      justify-self: start;
+      background: var(--accent-2);
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      padding: .52rem 1.1rem;
+      font: inherit;
+      font-size: .95rem;
+      cursor: pointer;
+    }
+
+    .ai-submit:disabled {
+      opacity: .55;
+      cursor: not-allowed;
+    }
+
+    .ai-response {
+      margin-top: .75rem;
+      background: #f8fbff;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: .7rem .8rem;
+      font-size: .95rem;
+      white-space: pre-wrap;
+      line-height: 1.6;
+      min-height: 2.5rem;
+    }
+
+    .ai-hint {
+      margin-top: .5rem;
+      font-size: .8rem;
+      color: var(--muted);
+    }
+
     @keyframes fadeIn {
       from {
         opacity: 0;
@@ -230,6 +320,29 @@
       </div>
       <div id="textList" class="texts"></div>
       <p id="textCount" class="muted"></p>
+    </section>
+
+    <section id="ai" class="card">
+      <h2>Fråga AI</h2>
+      <details>
+        <summary>Inställningar</summary>
+        <div class="ai-settings">
+          <label>
+            Endpoint
+            <input id="aiEndpoint" type="url" value="http://localhost:11434/api/chat" />
+          </label>
+          <label>
+            Modell
+            <input id="aiModel" type="text" value="llama3.2" />
+          </label>
+        </div>
+      </details>
+      <div class="ai-form">
+        <textarea id="aiQuestion" placeholder="Vad är din uppfattning om E4?" rows="3"></textarea>
+        <button id="aiSubmit" class="ai-submit" type="button">Fråga</button>
+      </div>
+      <div id="aiResponse" class="ai-response" hidden></div>
+      <p class="ai-hint">Kräver <a href="https://ollama.com" target="_blank" rel="noopener noreferrer">Ollama</a> lokalt med <code>OLLAMA_ORIGINS=https://karlerikjonatan.github.io</code>.</p>
     </section>
 
     <section id="words" class="grid">
@@ -445,8 +558,74 @@
         const { texts } = await fetchDataset();
         const analytics = computeAnalytics(texts);
         renderAll(texts, analytics);
+        initAI(texts);
       } catch (err) {
         document.getElementById('overview').innerHTML = '<div class="error">' + escapeHtml(err.message || String(err)) + '</div>';
+      }
+    }
+
+    function initAI(texts) {
+      const submitBtn = document.getElementById('aiSubmit');
+      const questionEl = document.getElementById('aiQuestion');
+      const responseEl = document.getElementById('aiResponse');
+
+      submitBtn.addEventListener('click', () => askAI(texts, questionEl, submitBtn, responseEl));
+      questionEl.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) {
+          askAI(texts, questionEl, submitBtn, responseEl);
+        }
+      });
+    }
+
+    async function askAI(texts, questionEl, submitBtn, responseEl) {
+      const question = questionEl.value.trim();
+      if (!question) return;
+
+      const endpoint = document.getElementById('aiEndpoint').value.trim();
+      const model = document.getElementById('aiModel').value.trim();
+
+      const contextTexts = texts.slice(-500).join('\n');
+      const prompt = `Du är en assistent som analyserar nyhetsrubriker från Sveriges Radio. Nedan finns rubriker från sektionen "Just nu:":\n\n${contextTexts}\n\nFråga: ${question}`;
+
+      submitBtn.disabled = true;
+      responseEl.hidden = false;
+      responseEl.className = 'ai-response';
+      responseEl.textContent = '…';
+
+      try {
+        const res = await fetch(endpoint, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ model, messages: [{ role: 'user', content: prompt }], stream: true })
+        });
+
+        if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
+
+        const reader = res.body.getReader();
+        const decoder = new TextDecoder();
+        let text = '';
+
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+          for (const line of decoder.decode(value, { stream: true }).split('\n')) {
+            if (!line.trim()) continue;
+            try {
+              const data = JSON.parse(line);
+              if (data.message?.content) {
+                text += data.message.content;
+                responseEl.textContent = text;
+              }
+            } catch { /* partial line */ }
+          }
+        }
+
+        if (!text) responseEl.textContent = '(Inget svar)';
+      } catch (err) {
+        responseEl.className = 'error';
+        responseEl.textContent = `Fel: ${err.message}\n\nKontrollera att Ollama körs lokalt och att CORS är aktiverat:\nOLLAMA_ORIGINS=${location.origin} ollama serve`;
+      } finally {
+        submitBtn.disabled = false;
       }
     }
 
