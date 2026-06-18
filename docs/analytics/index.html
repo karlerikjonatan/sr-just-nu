@@ -520,7 +520,7 @@
       const tried = [];
       for (const url of candidates) {
         try {
-          const res = await fetch(url, { cache: 'no-store' });
+          const res = await fetch(url, { cache: 'no-cache' });
           tried.push(`${url} (${res.status})`);
           if (!res.ok) continue;
           const json = await res.json();
@@ -589,6 +589,7 @@
       return {
         index,
         text,
+        lc: text.toLowerCase(),
         tokens,
         wordCount,
         positive: clamp(positive, 0, 100),
@@ -854,7 +855,7 @@
       function draw() {
         const q = search.value.trim().toLowerCase();
         const mode = sort.value;
-        let rows = scored.filter(s => !q || s.text.toLowerCase().includes(q));
+        let rows = scored.filter(s => !q || s.lc.includes(q));
 
         if (mode === 'clickbait') rows.sort((a, b) => b.clickbait - a.clickbait);
         else if (mode === 'drama') rows.sort((a, b) => b.drama - a.drama);
