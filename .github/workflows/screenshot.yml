@@ -5,10 +5,10 @@ permissions:
 
 on:
   schedule:
-    - cron: '0 * * * *'
-    - cron: '15 * * * *'
-    - cron: '30 * * * *'
-    - cron: '45 * * * *'
+    - cron: "0 * * * *"
+    - cron: "15 * * * *"
+    - cron: "30 * * * *"
+    - cron: "45 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -22,7 +22,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
 
       - name: Install dependencies
         run: npm install
@@ -36,8 +36,6 @@ jobs:
           git config user.email "github-actions@github.com"
           git add docs/
           git add texts.json
-          if [ -f screenshot-links.json ]; then
-            git add screenshot-links.json
-          fi
+          git add screenshot-links.json
           git commit -m "Just nu: 📸" || echo "No changes to commit"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:${{ github.ref_name }}
