@@ -198,9 +198,9 @@
     <section id="overview" class="grid"></section>
 
     <section id="texts" class="card">
-      <h2>Text Explorer</h2>
+      <h2>Sök</h2>
       <div class="controls">
-        <input id="searchInput" type="search" placeholder="Search texts…" />
+        <input id="searchInput" type="search" placeholder="Just nu: ..." />
       </div>
       <div id="textList" class="texts"></div>
       <p id="textCount" class="muted"></p>
@@ -208,19 +208,12 @@
 
     <section id="words" class="grid">
       <article class="card">
-        <h2>Most Used Words</h2>
+        <h2>Vanligaste orden</h2>
         <div id="topWords" class="bar-list"></div>
       </article>
       <article class="card">
-        <h2>Unique Gems</h2>
+        <h2>Ord</h2>
         <div id="uniqueWords" class="tag-cloud"></div>
-      </article>
-    </section>
-
-    <section id="clusters" class="grid">
-      <article class="card">
-        <h2>Simple Overlap Clusters</h2>
-        <div id="overlapClusters" class="bar-list"></div>
       </article>
     </section>
   </main>
@@ -237,8 +230,6 @@
 
     const MAX_DISPLAYED_TEXTS = 350;
     const MAX_EXTRACTION_DEPTH = 6;
-    const CLUSTER_OVERLAP_THRESHOLD = 0.34;
-    const OVERLAP_CLUSTERS_LIMIT = 12;
 
     const escapeHtml = (s) => s
       .replaceAll('&', '&amp;')
@@ -308,42 +299,6 @@
       return map;
     }
 
-    function topBy(map, n) {
-      return [...map.entries()].sort((a, b) => b[1] - a[1]).slice(0, n);
-    }
-
-    function buildOverlapClusters(items) {
-      const clusters = [];
-      for (const item of items) {
-        let best = -1;
-        let bestScore = 0;
-        for (let i = 0; i < clusters.length; i++) {
-          const c = clusters[i];
-          let overlap = 0;
-          for (const t of item.tokens) if (c.tokenSet.has(t)) overlap++;
-          const ratio = overlap / Math.max(item.tokens.length, 1);
-          if (ratio > bestScore) { bestScore = ratio; best = i; }
-        }
-        if (bestScore >= CLUSTER_OVERLAP_THRESHOLD && best >= 0) {
-          const c = clusters[best];
-          c.items.push(item);
-          for (const t of item.tokens) c.tokenSet.add(t);
-        } else {
-          clusters.push({ items: [item], tokenSet: new Set(item.tokens) });
-        }
-      }
-
-      return clusters
-        .filter(c => c.items.length > 1)
-        .map(c => {
-          const tf = countMap(c.items.flatMap(i => i.tokens));
-          const label = topBy(tf, 2).map(([w]) => w).join(' + ') || 'misc';
-          return { label, size: c.items.length };
-        })
-        .sort((a, b) => b.size - a.size)
-        .slice(0, OVERLAP_CLUSTERS_LIMIT);
-    }
-
     function computeAnalytics(texts) {
       const items = texts.map((text, index) => {
         const cleaned = normalizeText(text);
@@ -363,14 +318,12 @@
         .filter(([, c]) => c === 1)
         .sort((a, b) => b[0].length - a[0].length)
         .map(([w]) => w);
-      const overlapClusters = buildOverlapClusters(items);
 
       return {
         items,
         topWords,
         uniqueWords,
-        uniqueWordCount: freq.size,
-        overlapClusters
+        uniqueWordCount: freq.size
       };
     }
 
@@ -394,8 +347,8 @@
 
     function renderOverview(texts, a) {
       const cards = [
-        { label: 'Total Texts', value: texts.length },
-        { label: 'Unique Words', value: a.uniqueWordCount.toLocaleString() }
+        { label: 'Totalt antal Just nu:or', value: texts.length },
+        { label: 'Unika ord', value: a.uniqueWordCount.toLocaleString() }
       ];
 
       document.getElementById('overview').innerHTML = cards.map(c => `
@@ -425,7 +378,7 @@
             </div>
           </article>
         `).join('');
-        count.textContent = `Showing ${capped.length} of ${rows.length} matching texts.`;
+        count.textContent = `Visar ${capped.length} av ${rows.length} matchande texter.`;
       }
 
       search.addEventListener('input', draw);
@@ -437,7 +390,6 @@
       renderOverview(texts, analytics);
       renderBars('topWords', analytics.topWords.map(([label, value]) => ({ label, value })));
       renderTags('uniqueWords', analytics.uniqueWords);
-      renderBars('overlapClusters', analytics.overlapClusters.map(c => ({ label: c.label, value: c.size })));
     }
 
     async function main() {
