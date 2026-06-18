@@ -418,6 +418,23 @@
     const SUPERLATIVES = ['största','värsta','första','massiv','historisk','extremt','ovanlig','sällsynta','rekord'];
     const LONG_WORD_WEIRDNESS_THRESHOLD = 14;
     const MAX_DISPLAYED_TEXTS = 350;
+    const MAX_EXTRACTION_DEPTH = 6;
+    const CLUSTER_OVERLAP_THRESHOLD = 0.34;
+    const SPARKLINE_SAMPLE_SIZE = 120;
+    const SPARKLINE_EXCITEMENT_WEIGHT = 0.2;
+    const SCORE_WEIGHTS = {
+      positiveWord: 14,
+      negativeWord: 13,
+      excitementWord: 12,
+      curiosityWord: 14,
+      urgencyWord: 12,
+      questionMark: 20,
+      curiosityPhrase: 10,
+      exclamationForExcitement: 18,
+      exclamationForUrgency: 10,
+      numberForExcitement: 8,
+      capsForUrgency: 70
+    };
     const CURIOSITY_PHRASE_REGEX = new RegExp(
       CURIOSITY_PHRASES.map(p => p.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|'),
       'gi'
@@ -451,7 +468,7 @@
     }
 
     function extractTexts(value, out = [], seen = new Set(), depth = 0) {
-      if (depth > 6 || value == null) return out;
+      if (depth > MAX_EXTRACTION_DEPTH || value == null) return out;
       if (typeof value === 'string') {
         const cleaned = normalizeText(value);
         if (cleaned) out.push(cleaned);
@@ -543,12 +560,12 @@
       const upperWords = words.filter(w => w.length > 2 && w === w.toUpperCase()).length;
       const capRatio = upperWords / wordCount;
 
-      const positive = countDict(tokens, DICTS.positive) * 14;
-      const negative = countDict(tokens, DICTS.negative) * 13;
-      const excitement = countDict(tokens, DICTS.excitement) * 12 + exMarks * 18 + nums * 8;
+      const positive = countDict(tokens, DICTS.positive) * SCORE_WEIGHTS.positiveWord;
+      const negative = countDict(tokens, DICTS.negative) * SCORE_WEIGHTS.negativeWord;
+      const excitement = countDict(tokens, DICTS.excitement) * SCORE_WEIGHTS.excitementWord + exMarks * SCORE_WEIGHTS.exclamationForExcitement + nums * SCORE_WEIGHTS.numberForExcitement;
       const curiosityPhraseHits = (lowers.match(CURIOSITY_PHRASE_REGEX) || []).length;
-      const curiosity = countDict(tokens, DICTS.curiosity) * 14 + qMarks * 20 + curiosityPhraseHits * 10;
-      const urgency = countDict(tokens, DICTS.urgency) * 12 + exMarks * 10 + capRatio * 70;
+      const curiosity = countDict(tokens, DICTS.curiosity) * SCORE_WEIGHTS.curiosityWord + qMarks * SCORE_WEIGHTS.questionMark + curiosityPhraseHits * SCORE_WEIGHTS.curiosityPhrase;
+      const urgency = countDict(tokens, DICTS.urgency) * SCORE_WEIGHTS.urgencyWord + exMarks * SCORE_WEIGHTS.exclamationForUrgency + capRatio * SCORE_WEIGHTS.capsForUrgency;
 
       const superlativeHits = SUPERLATIVES.reduce((a, p) => a + (lowers.includes(p) ? 1 : 0), 0);
       const emotionalHits = countDict(tokens, [...DICTS.excitement, ...DICTS.negative]);
@@ -561,7 +578,10 @@
 
       const drama = clamp((negative * 0.52 + excitement * 0.44 + exMarks * 7), 0, 100);
       const chaos = clamp((urgency * 0.44 + nums * 10 + negative * 0.2 + qMarks * 7), 0, 100);
-      const weirdness = clamp((text.match(/[”"'()]/g)?.length || 0) * 8 + nums * 5 + (words.some(w => w.length > LONG_WORD_WEIRDNESS_THRESHOLD) ? 16 : 0), 0, 100);
+      const punctuationWeirdness = (text.match(/[”"'()]/g)?.length || 0) * 8;
+      const numericWeirdness = nums * 5;
+      const longWordBonus = words.some(w => w.length > LONG_WORD_WEIRDNESS_THRESHOLD) ? 16 : 0;
+      const weirdness = clamp(punctuationWeirdness + numericWeirdness + longWordBonus, 0, 100);
       const hype = clamp((excitement * 0.65 + positive * 0.2 + clickbait * 0.24), 0, 100);
       const mystery = clamp((curiosity * 0.65 + qMarks * 24 + (lowers.includes('uppgifter') ? 12 : 0)), 0, 100);
       const viral = clamp((clickbait * 0.45 + hype * 0.32 + drama * 0.14 + curiosity * 0.18), 0, 100);
@@ -613,7 +633,7 @@
           const ratio = overlap / Math.max(item.tokens.length, 1);
           if (ratio > bestScore) { bestScore = ratio; best = i; }
         }
-        if (bestScore >= 0.34 && best >= 0) {
+        if (bestScore >= CLUSTER_OVERLAP_THRESHOLD && best >= 0) {
           const c = clusters[best];
           c.items.push(item);
           for (const t of item.tokens) c.tokenSet.add(t);
@@ -761,7 +781,7 @@
     }
 
     function renderSparkline(scored) {
-      const values = scored.slice(0, 120).map(s => (s.positive - s.negative) + s.excitement * 0.2);
+      const values = scored.slice(0, SPARKLINE_SAMPLE_SIZE).map(s => (s.positive - s.negative) + s.excitement * SPARKLINE_EXCITEMENT_WEIGHT);
       const w = 430, h = 120, pad = 10;
       const min = Math.min(...values, 0);
       const max = Math.max(...values, 1);
