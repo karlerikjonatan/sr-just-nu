@@ -1,0 +1,933 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SR Just Nu — Analytics</title>
+  <meta name="color-scheme" content="dark light" />
+  <style>
+    :root {
+      --bg: #080b14;
+      --bg-soft: #101626;
+      --card: #121a2b;
+      --border: #23314d;
+      --text: #e9f0ff;
+      --muted: #9cb0d9;
+      --accent: #55d6be;
+      --accent-2: #7ca6ff;
+      --danger: #ff6b8a;
+      --ok: #6bf3a3;
+      --warn: #ffd166;
+      --shadow: 0 8px 26px rgba(0, 0, 0, 0.3);
+    }
+
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: radial-gradient(circle at top right, #18243f 0, var(--bg) 40%);
+      color: var(--text);
+      line-height: 1.45;
+    }
+
+    a { color: inherit; }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      backdrop-filter: blur(8px);
+      background: color-mix(in srgb, var(--bg) 84%, transparent);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .topbar-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0.7rem 0.9rem;
+      display: flex;
+      gap: 0.7rem;
+      overflow-x: auto;
+      scrollbar-width: thin;
+    }
+
+    .topbar a {
+      text-decoration: none;
+      color: var(--muted);
+      white-space: nowrap;
+      font-size: 0.88rem;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 0.34rem 0.72rem;
+      transition: all .2s ease;
+    }
+
+    .topbar a:hover {
+      color: var(--text);
+      border-color: var(--accent-2);
+      transform: translateY(-1px);
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1rem;
+      display: grid;
+      gap: 1rem;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #111a2f, #0d1423 50%, #1a294d);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 1rem;
+      box-shadow: var(--shadow);
+      animation: fadeIn .6s ease;
+    }
+
+    h1 {
+      margin: 0 0 .35rem;
+      font-size: clamp(1.25rem, 2.4vw, 2.1rem);
+    }
+
+    .sub {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .status {
+      margin-top: .75rem;
+      font-size: .9rem;
+      color: var(--muted);
+    }
+
+    .grid {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 0.9rem;
+      box-shadow: var(--shadow);
+      animation: fadeIn .6s ease;
+    }
+
+    .card h2, .card h3 {
+      margin: 0 0 0.6rem;
+      font-size: 1rem;
+    }
+
+    .metric {
+      font-size: clamp(1.2rem, 2.6vw, 2rem);
+      font-weight: 700;
+      letter-spacing: 0.2px;
+    }
+
+    .muted { color: var(--muted); }
+
+    section { scroll-margin-top: 56px; }
+
+    .bar-list { display: grid; gap: .42rem; }
+    .bar-row {
+      display: grid;
+      grid-template-columns: 130px 1fr auto;
+      gap: .5rem;
+      align-items: center;
+      font-size: .88rem;
+    }
+
+    .bar-wrap {
+      background: #0c1220;
+      border: 1px solid #1e2a41;
+      border-radius: 999px;
+      overflow: hidden;
+      height: 16px;
+    }
+
+    .bar {
+      height: 100%;
+      width: 0;
+      background: linear-gradient(90deg, var(--accent-2), var(--accent));
+      transition: width .55s ease;
+    }
+
+    .tag-cloud {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .48rem;
+    }
+
+    .tag {
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: #0c1220;
+      padding: .23rem .56rem;
+      display: inline-flex;
+      align-items: center;
+      gap: .35rem;
+      line-height: 1;
+      animation: pulse 3s ease-in-out infinite;
+    }
+
+    .bubble-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .7rem;
+      align-items: center;
+    }
+
+    .bubble {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 999px;
+      color: #071019;
+      font-weight: 700;
+      text-align: center;
+      background: radial-gradient(circle at 30% 20%, #c0fff1, #4ebea7);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, .25);
+      padding: .3rem;
+    }
+
+    .winners { display: grid; gap: .6rem; }
+    .winner {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: #0c1322;
+      padding: .65rem .75rem;
+    }
+
+    .winner .title { font-size: .83rem; color: var(--muted); }
+    .winner .text { font-weight: 600; margin-top: .15rem; }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .6rem;
+      margin-bottom: .6rem;
+    }
+
+    .controls input, .controls select {
+      background: #0d1524;
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: .52rem .68rem;
+      min-width: 180px;
+    }
+
+    .texts {
+      display: grid;
+      gap: .45rem;
+      max-height: 66vh;
+      overflow: auto;
+      padding-right: .18rem;
+    }
+
+    .text-item {
+      background: #0c1220;
+      border: 1px solid #1f2a42;
+      border-radius: 10px;
+      padding: .56rem .62rem;
+    }
+
+    .score-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .35rem;
+      margin-top: .35rem;
+    }
+
+    .chip {
+      font-size: .75rem;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      padding: .15rem .46rem;
+      color: var(--muted);
+      background: #111b2d;
+    }
+
+    svg { width: 100%; height: auto; }
+
+    .error {
+      border: 1px solid #5c2335;
+      background: #2d1320;
+      color: #ffc3d0;
+      border-radius: 12px;
+      padding: .8rem;
+      white-space: pre-wrap;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.025); }
+    }
+
+    @media (max-width: 700px) {
+      .bar-row { grid-template-columns: 90px 1fr auto; }
+      .topbar a { font-size: .8rem; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="topbar" aria-label="Section navigation">
+    <div class="topbar-inner">
+      <a href="#overview">Overview</a>
+      <a href="#words">Words</a>
+      <a href="#themes">Themes</a>
+      <a href="#sentiment">Sentiment</a>
+      <a href="#clickbait">Clickbait</a>
+      <a href="#fun">Fun Scores</a>
+      <a href="#hall">Hall of Fame</a>
+      <a href="#texts">Text Explorer</a>
+    </div>
+  </nav>
+
+  <main>
+    <header class="hero">
+      <h1>SR Just Nu — Wrapped Analytics</h1>
+      <p class="sub">A tiny, deterministic dashboard powered by vanilla JS + lightweight SVG. No backend, no build.</p>
+      <p id="status" class="status">Loading dataset…</p>
+    </header>
+
+    <section id="overview" class="grid"></section>
+
+    <section id="words" class="grid">
+      <article class="card">
+        <h2>Most Used Words</h2>
+        <div id="topWords" class="bar-list"></div>
+      </article>
+      <article class="card">
+        <h2>Unique Gems (freq = 1)</h2>
+        <div id="uniqueWords" class="tag-cloud"></div>
+      </article>
+      <article class="card">
+        <h2>Longest Words</h2>
+        <div id="longWords" class="tag-cloud"></div>
+      </article>
+      <article class="card">
+        <h2>Word Frequency Distribution</h2>
+        <div id="histogram"></div>
+      </article>
+    </section>
+
+    <section id="themes" class="grid">
+      <article class="card">
+        <h2>Recurring Keywords</h2>
+        <div id="keywords" class="tag-cloud"></div>
+      </article>
+      <article class="card">
+        <h2>Theme Bubbles</h2>
+        <div id="themeBubbles" class="bubble-wrap"></div>
+      </article>
+      <article class="card">
+        <h2>Simple Overlap Clusters</h2>
+        <div id="clusters" class="bar-list"></div>
+      </article>
+    </section>
+
+    <section id="sentiment" class="grid">
+      <article class="card">
+        <h2>Sentiment & Emotion Averages</h2>
+        <div id="sentimentBars" class="bar-list"></div>
+      </article>
+      <article class="card">
+        <h2>Headline Mood Sparkline</h2>
+        <div id="sparkline"></div>
+      </article>
+    </section>
+
+    <section id="clickbait" class="grid">
+      <article class="card">
+        <h2>Top Clickbait-like Texts</h2>
+        <div id="clickbaitTop" class="winners"></div>
+      </article>
+      <article class="card">
+        <h2>Clickbait Factors</h2>
+        <div id="clickbaitFactors" class="bar-list"></div>
+      </article>
+    </section>
+
+    <section id="fun" class="grid">
+      <article class="card">
+        <h2>Fun Metric Averages</h2>
+        <div id="funBars" class="bar-list"></div>
+      </article>
+      <article class="card">
+        <h2>Top Viral Potential</h2>
+        <div id="viralTop" class="winners"></div>
+      </article>
+    </section>
+
+    <section id="hall" class="card">
+      <h2>Hall of Fame</h2>
+      <div id="hallOfFame" class="winners"></div>
+    </section>
+
+    <section id="texts" class="card">
+      <h2>Text Explorer</h2>
+      <div class="controls">
+        <input id="searchInput" type="search" placeholder="Search texts…" />
+        <select id="sortSelect">
+          <option value="new">Original order (newest first)</option>
+          <option value="clickbait">Most clickable</option>
+          <option value="drama">Most dramatic</option>
+          <option value="chaos">Most chaotic</option>
+          <option value="positive">Most positive</option>
+          <option value="negative">Most negative</option>
+        </select>
+      </div>
+      <div id="textList" class="texts"></div>
+      <p id="textCount" class="muted"></p>
+    </section>
+  </main>
+
+  <script>
+    const APP = {
+      loaded: false,
+      texts: [],
+      analytics: null,
+      scoredTexts: []
+    };
+
+    const STOPWORDS = new Set([
+      'just','nu','och','att','som','det','den','en','ett','på','av','för','med','till','i','om','är','har','efter','mot','från',
+      'två','flera','stor','nya','ny','man','kvinna','person','uppgifter','uppgift','stopp','stoppad','avstängd','de','då'
+    ]);
+
+    const DICTS = {
+      positive: ['vann','klar','hittad','frisk','segrare','mästare','räddad','frias','avblåst','tillbaka','sänker','prisas','överens'],
+      negative: ['död','döda','dödad','skadad','skadade','attack','brand','krock','olycka','skottlossning','mord','explosion','hot','stopp','kris','fängelse'],
+      excitement: ['drama','massiv','stor','stort','rekord','chock','rush','stormöte','final','vann','explosion','skräll'],
+      curiosity: ['uppgifter','misstänks','kan','varnar','fråga','mysterium','hemliga','oklart','bevaras','jagas'],
+      urgency: ['just','nu','akut','larm','varning','direkt','omedelbart','avstängd','stopp','utrymd','evakuera']
+    };
+
+    const CURIOSITY_PHRASES = ['du kommer inte','detta','kan ha','uppgifter om','vad hände','därför','så här'];
+    const SUPERLATIVES = ['största','värsta','första','massiv','historisk','extremt','ovanlig','sällsynta','rekord'];
+    const LONG_WORD_WEIRDNESS_THRESHOLD = 14;
+    const MAX_DISPLAYED_TEXTS = 350;
+    const MAX_EXTRACTION_DEPTH = 6;
+    const CLUSTER_OVERLAP_THRESHOLD = 0.34;
+    const SPARKLINE_SAMPLE_SIZE = 120;
+    const SPARKLINE_EXCITEMENT_WEIGHT = 0.2;
+    const SCORE_WEIGHTS = {
+      positiveWord: 14,
+      negativeWord: 13,
+      excitementWord: 12,
+      curiosityWord: 14,
+      urgencyWord: 12,
+      questionMark: 20,
+      curiosityPhrase: 10,
+      exclamationForExcitement: 18,
+      exclamationForUrgency: 10,
+      numberForExcitement: 8,
+      capsForUrgency: 70
+    };
+    const CURIOSITY_PHRASE_REGEX = new RegExp(
+      CURIOSITY_PHRASES.map(p => p.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|'),
+      'gi'
+    );
+
+    const statusEl = document.getElementById('status');
+
+    const clamp = (n, min, max) => Math.min(max, Math.max(min, n));
+
+    const escapeHtml = (s) => s
+      .replaceAll('&', '&amp;')
+      .replaceAll('<', '&lt;')
+      .replaceAll('>', '&gt;')
+      .replaceAll('"', '&quot;')
+      .replaceAll("'", '&#39;');
+
+    function normalizeText(input) {
+      return String(input || '')
+        .replace(/\s+/g, ' ')
+        .replace(/^just nu:\s*/i, '')
+        .trim();
+    }
+
+    function tokenize(text) {
+      return normalizeText(text)
+        .toLowerCase()
+        .replace(/[^\p{L}\p{N}\s-]+/gu, ' ')
+        .split(/\s+/)
+        .map(w => w.replace(/^-+|-+$/g, ''))
+        .filter(w => w.length > 1 && !STOPWORDS.has(w));
+    }
+
+    function extractTexts(value, out = [], seen = new Set(), depth = 0) {
+      if (depth > MAX_EXTRACTION_DEPTH || value == null) return out;
+      if (typeof value === 'string') {
+        const cleaned = normalizeText(value);
+        if (cleaned) out.push(cleaned);
+        return out;
+      }
+      if (typeof value !== 'object') return out;
+      if (seen.has(value)) return out;
+      seen.add(value);
+
+      if (Array.isArray(value)) {
+        for (const item of value) extractTexts(item, out, seen, depth + 1);
+        return out;
+      }
+
+      const knownKeys = ['text', 'title', 'headline', 'message', 'name', 'value'];
+      let usedKnown = false;
+      for (const key of knownKeys) {
+        if (typeof value[key] === 'string') {
+          extractTexts(value[key], out, seen, depth + 1);
+          usedKnown = true;
+        }
+      }
+      if (!usedKnown) {
+        for (const v of Object.values(value)) extractTexts(v, out, seen, depth + 1);
+      }
+      return out;
+    }
+
+    function repoBasePath() {
+      const parts = location.pathname.split('/').filter(Boolean);
+      if (!parts.length) return '';
+      if (location.hostname.endsWith('github.io')) return `/${parts[0]}`;
+      return '';
+    }
+
+    async function fetchDataset() {
+      const base = repoBasePath();
+      const candidates = [
+        './text.json',
+        './texts.json',
+        '../text.json',
+        '../texts.json',
+        `${base}/text.json`,
+        `${base}/texts.json`,
+        'https://raw.githubusercontent.com/karlerikjonatan/sr-just-nu/main/texts.json',
+        'https://raw.githubusercontent.com/karlerikjonatan/sr-just-nu/main/text.json'
+      ];
+
+      const tried = [];
+      for (const url of candidates) {
+        try {
+          const res = await fetch(url, { cache: 'no-cache' });
+          tried.push(`${url} (${res.status})`);
+          if (!res.ok) continue;
+          const json = await res.json();
+          const texts = [...new Set(extractTexts(json).map(normalizeText).filter(Boolean))];
+          if (texts.length) {
+            return { texts, source: url, tried };
+          }
+        } catch {
+          tried.push(`${url} (error)`);
+        }
+      }
+      throw new Error(`Could not load usable data. Tried:\n${tried.join('\n')}`);
+    }
+
+    function countMap(tokens) {
+      const map = new Map();
+      for (const t of tokens) map.set(t, (map.get(t) || 0) + 1);
+      return map;
+    }
+
+    function countDict(tokens, dict) {
+      let score = 0;
+      for (const t of tokens) if (dict.includes(t)) score += 1;
+      return score;
+    }
+
+    function scoreText(original, index) {
+      const text = normalizeText(original);
+      const tokens = tokenize(text);
+      const lowers = text.toLowerCase();
+      const words = text.split(/\s+/).filter(Boolean);
+      const wordCount = words.length || 1;
+
+      const qMarks = (text.match(/\?/g) || []).length;
+      const exMarks = (text.match(/!/g) || []).length;
+      const nums = (text.match(/\d+/g) || []).length;
+      const upperWords = words.filter(w => w.length > 2 && w === w.toUpperCase()).length;
+      const capRatio = upperWords / wordCount;
+
+      const positive = countDict(tokens, DICTS.positive) * SCORE_WEIGHTS.positiveWord;
+      const negative = countDict(tokens, DICTS.negative) * SCORE_WEIGHTS.negativeWord;
+      const excitement = countDict(tokens, DICTS.excitement) * SCORE_WEIGHTS.excitementWord + exMarks * SCORE_WEIGHTS.exclamationForExcitement + nums * SCORE_WEIGHTS.numberForExcitement;
+      const curiosityPhraseHits = (lowers.match(CURIOSITY_PHRASE_REGEX) || []).length;
+      const curiosity = countDict(tokens, DICTS.curiosity) * SCORE_WEIGHTS.curiosityWord + qMarks * SCORE_WEIGHTS.questionMark + curiosityPhraseHits * SCORE_WEIGHTS.curiosityPhrase;
+      const urgency = countDict(tokens, DICTS.urgency) * SCORE_WEIGHTS.urgencyWord + exMarks * SCORE_WEIGHTS.exclamationForUrgency + capRatio * SCORE_WEIGHTS.capsForUrgency;
+
+      const superlativeHits = SUPERLATIVES.reduce((a, p) => a + (lowers.includes(p) ? 1 : 0), 0);
+      const emotionalHits = countDict(tokens, [...DICTS.excitement, ...DICTS.negative]);
+
+      const clickbait = clamp(
+        qMarks * 20 + nums * 9 + superlativeHits * 12 + emotionalHits * 5 + curiosity * 0.2 + capRatio * 85 + curiosityPhraseHits * 4,
+        0,
+        100
+      );
+
+      const drama = clamp((negative * 0.52 + excitement * 0.44 + exMarks * 7), 0, 100);
+      const chaos = clamp((urgency * 0.44 + nums * 10 + negative * 0.2 + qMarks * 7), 0, 100);
+      const punctuationWeirdness = (text.match(/[”"'()]/g)?.length || 0) * 8;
+      const numericWeirdness = nums * 5;
+      const longWordBonus = words.some(w => w.length > LONG_WORD_WEIRDNESS_THRESHOLD) ? 16 : 0;
+      const weirdness = clamp(punctuationWeirdness + numericWeirdness + longWordBonus, 0, 100);
+      const hype = clamp((excitement * 0.65 + positive * 0.2 + clickbait * 0.24), 0, 100);
+      const mystery = clamp((curiosity * 0.65 + qMarks * 24 + (lowers.includes('uppgifter') ? 12 : 0)), 0, 100);
+      const viral = clamp((clickbait * 0.45 + hype * 0.32 + drama * 0.14 + curiosity * 0.18), 0, 100);
+
+      return {
+        index,
+        text,
+        lc: text.toLowerCase(),
+        tokens,
+        wordCount,
+        positive: clamp(positive, 0, 100),
+        negative: clamp(negative, 0, 100),
+        excitement: clamp(excitement, 0, 100),
+        curiosity: clamp(curiosity, 0, 100),
+        urgency: clamp(urgency, 0, 100),
+        clickbait,
+        drama,
+        chaos,
+        weirdness,
+        hype,
+        mystery,
+        viral,
+        qMarks,
+        exMarks,
+        nums,
+        capRatio,
+        superlativeHits,
+        emotionalHits
+      };
+    }
+
+    function average(arr, key) {
+      if (!arr.length) return 0;
+      return arr.reduce((s, i) => s + (i[key] || 0), 0) / arr.length;
+    }
+
+    function topBy(map, n = 10) {
+      return [...map.entries()].sort((a, b) => b[1] - a[1]).slice(0, n);
+    }
+
+    function buildOverlapClusters(scored) {
+      const clusters = [];
+      for (const item of scored) {
+        let best = -1;
+        let bestScore = 0;
+        for (let i = 0; i < clusters.length; i++) {
+          const c = clusters[i];
+          let overlap = 0;
+          for (const t of item.tokens) if (c.tokenSet.has(t)) overlap++;
+          const ratio = overlap / Math.max(item.tokens.length, 1);
+          if (ratio > bestScore) { bestScore = ratio; best = i; }
+        }
+        if (bestScore >= CLUSTER_OVERLAP_THRESHOLD && best >= 0) {
+          const c = clusters[best];
+          c.items.push(item);
+          for (const t of item.tokens) c.tokenSet.add(t);
+        } else {
+          clusters.push({ items: [item], tokenSet: new Set(item.tokens) });
+        }
+      }
+
+      return clusters
+        .filter(c => c.items.length > 1)
+        .map(c => {
+          const tf = countMap(c.items.flatMap(i => i.tokens));
+          const label = topBy(tf, 2).map(([w]) => w).join(' + ') || 'misc';
+          return { label, size: c.items.length };
+        })
+        .sort((a, b) => b.size - a.size)
+        .slice(0, 8);
+    }
+
+    function computeAnalytics(texts) {
+      const scored = texts.map((t, i) => scoreText(t, i));
+      const allTokens = scored.flatMap(s => s.tokens);
+      const freq = countMap(allTokens);
+      const topWords = topBy(freq, 14);
+      const uniqueWords = [...freq.entries()]
+        .filter(([, c]) => c === 1)
+        .sort((a, b) => b[0].length - a[0].length)
+        .slice(0, 20)
+        .map(([w]) => w);
+      const longestWords = [...new Set(allTokens)]
+        .sort((a, b) => b.length - a.length)
+        .slice(0, 18);
+
+      const bins = [
+        ['1', 0], ['2', 0], ['3', 0], ['4', 0], ['5', 0], ['6-10', 0], ['11+', 0]
+      ];
+      for (const c of freq.values()) {
+        if (c <= 5) bins[c - 1][1]++;
+        else if (c <= 10) bins[5][1]++;
+        else bins[6][1]++;
+      }
+
+      const keywordCandidates = [...freq.entries()]
+        .filter(([, c]) => c > 2)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 18);
+
+      const keywordThemes = keywordCandidates.slice(0, 10).map(([word, count]) => ({
+        word,
+        count,
+        texts: scored.filter(s => s.tokens.includes(word)).length
+      }));
+
+      const overlapClusters = buildOverlapClusters(scored);
+
+      const sentimentAverages = {
+        positive: average(scored, 'positive'),
+        negative: average(scored, 'negative'),
+        excitement: average(scored, 'excitement'),
+        curiosity: average(scored, 'curiosity'),
+        urgency: average(scored, 'urgency')
+      };
+
+      const clickbaitFactors = {
+        questionMarks: scored.reduce((s, x) => s + x.qMarks, 0),
+        numbers: scored.reduce((s, x) => s + x.nums, 0),
+        superlatives: scored.reduce((s, x) => s + x.superlativeHits, 0),
+        emotionalWords: scored.reduce((s, x) => s + x.emotionalHits, 0),
+        uppercaseSignals: scored.reduce((s, x) => s + x.capRatio, 0)
+      };
+
+      const funAverages = {
+        drama: average(scored, 'drama'),
+        chaos: average(scored, 'chaos'),
+        weirdness: average(scored, 'weirdness'),
+        hype: average(scored, 'hype'),
+        curiosity: average(scored, 'curiosity'),
+        mystery: average(scored, 'mystery'),
+        viral: average(scored, 'viral')
+      };
+
+      const vocabularyDiversity = freq.size / Math.max(allTokens.length, 1);
+
+      const hall = [
+        ['Most Dramatic 🏆', scored.reduce((a, b) => a.drama > b.drama ? a : b)],
+        ['Most Positive 🏆', scored.reduce((a, b) => a.positive > b.positive ? a : b)],
+        ['Most Negative 🏆', scored.reduce((a, b) => a.negative > b.negative ? a : b)],
+        ['Most Clickable 🏆', scored.reduce((a, b) => a.clickbait > b.clickbait ? a : b)],
+        ['Weirdest 🏆', scored.reduce((a, b) => a.weirdness > b.weirdness ? a : b)],
+        ['Most Curious 🏆', scored.reduce((a, b) => a.curiosity > b.curiosity ? a : b)],
+        ['Most Exciting 🏆', scored.reduce((a, b) => a.excitement > b.excitement ? a : b)]
+      ];
+
+      return {
+        scored,
+        topWords,
+        uniqueWords,
+        longestWords,
+        bins,
+        uniqueWordCount: freq.size,
+        tokenCount: allTokens.length,
+        keywordThemes,
+        overlapClusters,
+        sentimentAverages,
+        clickbaitFactors,
+        funAverages,
+        vocabularyDiversity,
+        hall
+      };
+    }
+
+    function renderBars(containerId, rows, formatter = (v) => Math.round(v)) {
+      const container = document.getElementById(containerId);
+      if (!rows.length) {
+        container.innerHTML = '<p class="muted">No data.</p>';
+        return;
+      }
+      const max = Math.max(...rows.map(r => r.value), 1);
+      container.innerHTML = rows.map(r => {
+        const pct = (r.value / max) * 100;
+        return `<div class="bar-row"><span>${escapeHtml(r.label)}</span><div class="bar-wrap"><div class="bar" style="width:${pct.toFixed(1)}%"></div></div><strong>${formatter(r.value)}</strong></div>`;
+      }).join('');
+    }
+
+    function renderTags(containerId, values, withCount = false) {
+      const c = document.getElementById(containerId);
+      c.innerHTML = values.map(v => {
+        if (withCount) return `<span class="tag">${escapeHtml(v.label)} <strong>${v.count}</strong></span>`;
+        return `<span class="tag">${escapeHtml(v)}</span>`;
+      }).join('');
+    }
+
+    function renderHistogram(bins) {
+      const max = Math.max(...bins.map(([, v]) => v), 1);
+      const w = 420, h = 180, pad = 28;
+      const barW = (w - pad * 2) / bins.length - 8;
+      const body = bins.map(([label, v], i) => {
+        const x = pad + i * ((w - pad * 2) / bins.length) + 4;
+        const bh = (v / max) * (h - 2 * pad);
+        const y = h - pad - bh;
+        return `<rect x="${x}" y="${y}" width="${barW}" height="${bh}" rx="4" fill="#6aa5ff" opacity="0.9" />
+                <text x="${x + barW / 2}" y="${h - 8}" fill="#9cb0d9" text-anchor="middle" font-size="11">${label}</text>`;
+      }).join('');
+      document.getElementById('histogram').innerHTML = `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="Word frequency histogram">${body}</svg>`;
+    }
+
+    function renderSparkline(scored) {
+      const values = scored.slice(0, SPARKLINE_SAMPLE_SIZE).map(s => (s.positive - s.negative) + s.excitement * SPARKLINE_EXCITEMENT_WEIGHT);
+      const w = 430, h = 120, pad = 10;
+      const min = Math.min(...values, 0);
+      const max = Math.max(...values, 1);
+      const range = (max - min) || 1;
+      const step = (w - pad * 2) / Math.max(values.length - 1, 1);
+      const path = values.map((v, i) => {
+        const x = pad + i * step;
+        const y = h - pad - ((v - min) / range) * (h - pad * 2);
+        return `${i ? 'L' : 'M'}${x.toFixed(1)} ${y.toFixed(1)}`;
+      }).join(' ');
+      document.getElementById('sparkline').innerHTML = `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="Mood sparkline">
+        <line x1="${pad}" y1="${h - pad}" x2="${w - pad}" y2="${h - pad}" stroke="#283a5a" stroke-width="1" />
+        <path d="${path}" fill="none" stroke="#55d6be" stroke-width="2.1" stroke-linecap="round" />
+      </svg>`;
+    }
+
+    function renderThemeBubbles(themes) {
+      const max = Math.max(...themes.map(t => t.texts), 1);
+      document.getElementById('themeBubbles').innerHTML = themes.slice(0, 10).map(t => {
+        const size = 52 + (t.texts / max) * 46;
+        return `<span class="bubble" style="width:${size}px;height:${size}px;font-size:${Math.max(11, size / 8)}px">${escapeHtml(t.word)}<br>${t.texts}</span>`;
+      }).join('');
+    }
+
+    function renderTopWinners(containerId, rows, metric) {
+      document.getElementById(containerId).innerHTML = rows.map(r => `
+        <div class="winner">
+          <div class="title">${metric}: <strong>${Math.round(r[metric])}</strong></div>
+          <div class="text">${escapeHtml(r.text)}</div>
+        </div>
+      `).join('');
+    }
+
+    function renderHall(hall) {
+      document.getElementById('hallOfFame').innerHTML = hall.map(([title, item]) => `
+        <div class="winner">
+          <div class="title">${title}</div>
+          <div class="text">${escapeHtml(item.text)}</div>
+        </div>
+      `).join('');
+    }
+
+    function renderOverview(texts, a, source) {
+      const cards = [
+        { label: 'Total Texts', value: texts.length },
+        { label: 'Unique Words', value: a.uniqueWordCount.toLocaleString() },
+        { label: 'Total Tokens', value: a.tokenCount.toLocaleString() },
+        { label: 'Vocabulary Diversity', value: `${(a.vocabularyDiversity * 100).toFixed(1)}%` },
+        { label: 'Avg Clickbait', value: Math.round(average(a.scored, 'clickbait')) },
+        { label: 'Avg Drama', value: Math.round(a.funAverages.drama) },
+        { label: 'Avg Viral Potential', value: Math.round(a.funAverages.viral) }
+      ];
+
+      document.getElementById('overview').innerHTML = cards.map(c => `
+        <article class="card">
+          <h3>${escapeHtml(c.label)}</h3>
+          <div class="metric">${escapeHtml(String(c.value))}</div>
+        </article>
+      `).join('');
+
+      statusEl.textContent = `Loaded ${texts.length.toLocaleString()} texts from ${source}`;
+    }
+
+    function renderExplorer(scored) {
+      const list = document.getElementById('textList');
+      const search = document.getElementById('searchInput');
+      const sort = document.getElementById('sortSelect');
+      const count = document.getElementById('textCount');
+
+      function draw() {
+        const q = search.value.trim().toLowerCase();
+        const mode = sort.value;
+        let rows = scored.filter(s => !q || s.lc.includes(q));
+
+        if (mode === 'clickbait') rows.sort((a, b) => b.clickbait - a.clickbait);
+        else if (mode === 'drama') rows.sort((a, b) => b.drama - a.drama);
+        else if (mode === 'chaos') rows.sort((a, b) => b.chaos - a.chaos);
+        else if (mode === 'positive') rows.sort((a, b) => b.positive - a.positive);
+        else if (mode === 'negative') rows.sort((a, b) => b.negative - a.negative);
+
+        const capped = rows.slice(0, MAX_DISPLAYED_TEXTS);
+        list.innerHTML = capped.map(s => `
+          <article class="text-item">
+            <div>${escapeHtml(s.text)}</div>
+            <div class="score-chips">
+              <span class="chip">clickbait ${Math.round(s.clickbait)}</span>
+              <span class="chip">drama ${Math.round(s.drama)}</span>
+              <span class="chip">chaos ${Math.round(s.chaos)}</span>
+              <span class="chip">viral ${Math.round(s.viral)}</span>
+              <span class="chip">mystery ${Math.round(s.mystery)}</span>
+            </div>
+          </article>
+        `).join('');
+        count.textContent = `Showing ${capped.length} of ${rows.length} matching texts.`;
+      }
+
+      search.addEventListener('input', draw);
+      sort.addEventListener('change', draw);
+      draw();
+    }
+
+    function renderAll(texts, analytics, source) {
+      renderOverview(texts, analytics, source);
+      renderBars('topWords', analytics.topWords.map(([label, value]) => ({ label, value })));
+      renderTags('uniqueWords', analytics.uniqueWords);
+      renderTags('longWords', analytics.longestWords);
+      renderHistogram(analytics.bins);
+      renderTags('keywords', analytics.keywordThemes.map(t => ({ label: t.word, count: t.count })), true);
+      renderThemeBubbles(analytics.keywordThemes);
+      renderBars('clusters', analytics.overlapClusters.map(c => ({ label: c.label, value: c.size })));
+      renderBars('sentimentBars', Object.entries(analytics.sentimentAverages).map(([label, value]) => ({ label, value })));
+      renderSparkline(analytics.scored);
+
+      const topClickbait = [...analytics.scored].sort((a, b) => b.clickbait - a.clickbait).slice(0, 6);
+      renderTopWinners('clickbaitTop', topClickbait, 'clickbait');
+
+      renderBars('clickbaitFactors', Object.entries(analytics.clickbaitFactors).map(([label, value]) => ({ label, value })), (v) => Number(v).toFixed(1));
+      renderBars('funBars', Object.entries(analytics.funAverages).map(([label, value]) => ({ label, value })));
+
+      const topViral = [...analytics.scored].sort((a, b) => b.viral - a.viral).slice(0, 6);
+      renderTopWinners('viralTop', topViral, 'viral');
+
+      renderHall(analytics.hall);
+      renderExplorer(analytics.scored);
+    }
+
+    async function main() {
+      if (APP.loaded && APP.analytics) {
+        renderAll(APP.texts, APP.analytics, 'memory cache');
+        return;
+      }
+
+      try {
+        const { texts, source } = await fetchDataset();
+        APP.texts = texts;
+        APP.analytics = computeAnalytics(texts);
+        APP.scoredTexts = APP.analytics.scored;
+        APP.loaded = true;
+        renderAll(APP.texts, APP.analytics, source);
+      } catch (err) {
+        statusEl.innerHTML = '<span class="error">' + escapeHtml(err.message || String(err)) + '</span>';
+      }
+    }
+
+    main();
+  </script>
+</body>
+</html>
