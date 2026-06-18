@@ -62,10 +62,43 @@
       font-size: 1rem;
     }
 
+    .card-title {
+      display: inline-flex;
+      align-items: center;
+      gap: .35rem;
+    }
+
     .metric {
       font-size: clamp(1.2rem, 2.6vw, 2rem);
       font-weight: 700;
       letter-spacing: 0.2px;
+    }
+
+    .metric-button {
+      border: 0;
+      background: transparent;
+      color: var(--accent-2);
+      font: inherit;
+      font-weight: inherit;
+      padding: 0;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .metric-button:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      opacity: 0.85;
+    }
+
+    .card-action {
+      border: 0;
+      background: transparent;
+      color: var(--muted);
+      font-size: .92rem;
+      line-height: 1;
+      padding: 0;
+      cursor: pointer;
     }
 
     .muted {
@@ -391,18 +424,44 @@
       c.innerHTML = values.map(v => `<button type="button" class="tag tag-button" data-search-term="${escapeHtml(v)}">${escapeHtml(v)}</button>`).join('');
     }
 
-    function renderOverview(texts, a) {
-      const cards = [
-        { label: 'Totalt antal texter', value: texts.length },
-        { label: 'Unika ord', value: a.uniqueWordCount.toLocaleString() }
-      ];
+    function pickRandomWord(topWords) {
+      return topWords.length
+        ? topWords[Math.floor(Math.random() * topWords.length)][0]
+        : '';
+    }
 
-      document.getElementById('overview').innerHTML = cards.map(c => `
+    function refreshRandomWord(topWords) {
+      const metricButton = document.getElementById('randomWordMetric');
+      if (!metricButton) return;
+
+      const randomWord = pickRandomWord(topWords);
+      metricButton.textContent = randomWord || '—';
+      metricButton.setAttribute('data-search-term', randomWord || '');
+    }
+
+    function renderOverview(texts, a) {
+      const randomWord = pickRandomWord(a.topWords);
+      const displayWord = randomWord || '—';
+
+      document.getElementById('overview').innerHTML = `
         <article class="card">
-          <h3>${escapeHtml(c.label)}</h3>
-          <div class="metric">${escapeHtml(String(c.value))}</div>
+          <h3>Totalt antal texter</h3>
+          <div class="metric">${escapeHtml(String(texts.length))}</div>
         </article>
-      `).join('');
+        <article class="card">
+          <h3>Unika ord</h3>
+          <div class="metric">${escapeHtml(String(a.uniqueWordCount.toLocaleString()))}</div>
+        </article>
+        <article class="card">
+          <h3 class="card-title">Slumpat ord <button type="button" id="refreshRandomWord" class="card-action" aria-label="Visa nytt slumpat ord" title="Visa nytt slumpat ord">🔄</button></h3>
+          <div class="metric"><button type="button" id="randomWordMetric" class="metric-button" data-search-term="${escapeHtml(randomWord)}">${escapeHtml(String(displayWord))}</button></div>
+        </article>
+      `;
+
+      const refreshButton = document.getElementById('refreshRandomWord');
+      if (refreshButton) {
+        refreshButton.addEventListener('click', () => refreshRandomWord(a.topWords));
+      }
     }
 
     function renderExplorer(items) {
@@ -440,6 +499,7 @@
 
     async function main() {
       try {
+        bindWordPicker('overview');
         bindWordPicker('topWords');
         bindWordPicker('uniqueWords');
         const { texts } = await fetchDataset();
