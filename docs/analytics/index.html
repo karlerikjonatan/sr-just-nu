@@ -403,7 +403,7 @@
 
     const STOPWORDS = new Set([
       'just','nu','och','att','som','det','den','en','ett','på','av','för','med','till','i','om','är','har','efter','mot','från',
-      'två','flera','stor','nya','ny','man','kvinna','person','uppgifter','uppgift','stopp','stoppad','avstängd','en','ett','de','då'
+      'två','flera','stor','nya','ny','man','kvinna','person','uppgifter','uppgift','stopp','stoppad','avstängd','de','då'
     ]);
 
     const DICTS = {
@@ -416,6 +416,12 @@
 
     const CURIOSITY_PHRASES = ['du kommer inte','detta','kan ha','uppgifter om','vad hände','därför','så här'];
     const SUPERLATIVES = ['största','värsta','första','massiv','historisk','extremt','ovanlig','sällsynta','rekord'];
+    const LONG_WORD_WEIRDNESS_THRESHOLD = 14;
+    const MAX_DISPLAYED_TEXTS = 350;
+    const CURIOSITY_PHRASE_REGEX = new RegExp(
+      CURIOSITY_PHRASES.map(p => p.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|'),
+      'gi'
+    );
 
     const statusEl = document.getElementById('status');
 
@@ -540,21 +546,22 @@
       const positive = countDict(tokens, DICTS.positive) * 14;
       const negative = countDict(tokens, DICTS.negative) * 13;
       const excitement = countDict(tokens, DICTS.excitement) * 12 + exMarks * 18 + nums * 8;
-      const curiosity = countDict(tokens, DICTS.curiosity) * 14 + qMarks * 20 + CURIOSITY_PHRASES.reduce((a, p) => a + (lowers.includes(p) ? 10 : 0), 0);
+      const curiosityPhraseHits = (lowers.match(CURIOSITY_PHRASE_REGEX) || []).length;
+      const curiosity = countDict(tokens, DICTS.curiosity) * 14 + qMarks * 20 + curiosityPhraseHits * 10;
       const urgency = countDict(tokens, DICTS.urgency) * 12 + exMarks * 10 + capRatio * 70;
 
       const superlativeHits = SUPERLATIVES.reduce((a, p) => a + (lowers.includes(p) ? 1 : 0), 0);
       const emotionalHits = countDict(tokens, [...DICTS.excitement, ...DICTS.negative]);
 
       const clickbait = clamp(
-        qMarks * 20 + nums * 9 + superlativeHits * 12 + emotionalHits * 5 + curiosity * 0.2 + capRatio * 85,
+        qMarks * 20 + nums * 9 + superlativeHits * 12 + emotionalHits * 5 + curiosity * 0.2 + capRatio * 85 + curiosityPhraseHits * 4,
         0,
         100
       );
 
       const drama = clamp((negative * 0.52 + excitement * 0.44 + exMarks * 7), 0, 100);
       const chaos = clamp((urgency * 0.44 + nums * 10 + negative * 0.2 + qMarks * 7), 0, 100);
-      const weirdness = clamp((text.match(/[”"'()]/g)?.length || 0) * 8 + nums * 5 + (words.some(w => w.length > 14) ? 16 : 0), 0, 100);
+      const weirdness = clamp((text.match(/[”"'()]/g)?.length || 0) * 8 + nums * 5 + (words.some(w => w.length > LONG_WORD_WEIRDNESS_THRESHOLD) ? 16 : 0), 0, 100);
       const hype = clamp((excitement * 0.65 + positive * 0.2 + clickbait * 0.24), 0, 100);
       const mystery = clamp((curiosity * 0.65 + qMarks * 24 + (lowers.includes('uppgifter') ? 12 : 0)), 0, 100);
       const viral = clamp((clickbait * 0.45 + hype * 0.32 + drama * 0.14 + curiosity * 0.18), 0, 100);
@@ -835,7 +842,7 @@
         else if (mode === 'positive') rows.sort((a, b) => b.positive - a.positive);
         else if (mode === 'negative') rows.sort((a, b) => b.negative - a.negative);
 
-        const capped = rows.slice(0, 350);
+        const capped = rows.slice(0, MAX_DISPLAYED_TEXTS);
         list.innerHTML = capped.map(s => `
           <article class="text-item">
             <div>${escapeHtml(s.text)}</div>
