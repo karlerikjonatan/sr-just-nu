@@ -112,47 +112,45 @@
       color: var(--muted);
     }
 
-    .bar-list {
+    .word-list {
       display: grid;
-      gap: .42rem;
+      gap: .4rem;
     }
 
-    .bar-row {
+    .word-item {
       display: grid;
-      grid-template-columns: 130px 1fr auto;
-      gap: .5rem;
+      grid-template-columns: 1fr auto;
+      gap: .8rem;
       align-items: center;
-      font-size: .88rem;
-    }
-
-    .word-button {
+      font-size: .9rem;
+      padding: .35rem 0;
       border: 0;
+      border-bottom: 1px solid #d6e2f5;
+      cursor: pointer;
       background: transparent;
       color: inherit;
       font: inherit;
-      padding: 0;
       text-align: left;
-      cursor: pointer;
-      text-decoration: none;
+      width: 100%;
     }
 
-    .word-button:hover {
+    .word-item:last-child {
+      border-bottom: none;
+    }
+
+    .word-name {
+      color: var(--text);
+      text-decoration: none;
+      transition: text-decoration .15s ease;
+    }
+
+    .word-item:hover .word-name {
       text-decoration: underline;
     }
 
-    .bar-wrap {
-      background: #ecf2ff;
-      border: 1px solid #cfdbf4;
-      border-radius: 999px;
-      overflow: hidden;
-      height: 16px;
-    }
-
-    .bar {
-      height: 100%;
-      width: 0;
-      background: var(--accent-2);
-      transition: width .55s ease;
+    .word-count {
+      color: var(--muted);
+      font-size: .85rem;
     }
 
     .tag-cloud {
@@ -252,8 +250,8 @@
     }
 
     @media (max-width: 700px) {
-      .bar-row {
-        grid-template-columns: 90px 1fr auto;
+      .word-item {
+        font-size: .85rem;
       }
     }
   </style>
@@ -276,10 +274,10 @@
     <section id="words" class="grid">
       <article class="card">
         <h2>Vanligaste orden</h2>
-        <div id="topWords" class="bar-list"></div>
+        <div id="topWords" class="word-list"></div>
       </article>
       <article class="card">
-        <h2>Ord</h2>
+        <h2>Ord <span class="muted" style="font-size:.8rem;font-weight:400">(nyast först)</span></h2>
         <div id="uniqueWords" class="tag-cloud"></div>
       </article>
     </section>
@@ -356,12 +354,6 @@
       return { texts };
     }
 
-    function countMap(tokens) {
-      const map = new Map();
-      for (const t of tokens) map.set(t, (map.get(t) || 0) + 1);
-      return map;
-    }
-
     function computeAnalytics(texts) {
       const items = texts.map((text, index) => {
         const cleaned = normalizeText(text);
@@ -373,19 +365,30 @@
         };
       });
 
-      const allTokens = items.flatMap(i => i.tokens);
-      const freq = countMap(allTokens);
-      const topWords = [...freq.entries()].sort((a, b) => b[1] - a[1]);
+      const freq = new Map();
+      for (const item of items) {
+        for (const token of item.tokens) {
+          const entry = freq.get(token) || { count: 0, lastIndex: 0 };
+          freq.set(token, { count: entry.count + 1, lastIndex: item.index });
+        }
+      }
+      const topWords = [...freq.entries()]
+        .map(([w, { count }]) => [w, count])
+        .sort((a, b) => b[1] - a[1]);
       const uniqueWords = [...freq.entries()]
-        .filter(([, c]) => c === 1)
-        .sort((a, b) => b[0].length - a[0].length)
+        .filter(([, { count }]) => count === 1)
+        .sort((a, b) => b[1].lastIndex - a[1].lastIndex)
         .map(([w]) => w);
 
+      const uniqueWordLastIndex = Object.fromEntries(
+        [...freq.entries()].filter(([, { count }]) => count === 1).map(([w, { lastIndex }]) => [w, lastIndex])
+      );
       return {
         items,
         topWords,
         uniqueWords,
-        uniqueWordCount: freq.size
+        uniqueWordCount: freq.size,
+        uniqueWordLastIndex
       };
     }
 
@@ -413,23 +416,27 @@
       });
     }
 
-    function renderBars(containerId, rows) {
+    function renderWordList(containerId, rows) {
       const container = document.getElementById(containerId);
       if (!rows.length) {
         container.innerHTML = '<p class="muted">No data.</p>';
         return;
       }
-      const max = Math.max(...rows.map(r => r.value), 1);
-      container.innerHTML = rows.map(r => {
-        const pct = (r.value / max) * 100;
-        const label = `<button type="button" class="word-button" data-search-term="${escapeHtml(r.label)}">${escapeHtml(r.label)}</button>`;
-        return `<div class="bar-row">${label}<div class="bar-wrap"><div class="bar" style="width:${pct.toFixed(1)}%"></div></div><strong>${Math.round(r.value)}</strong></div>`;
-      }).join('');
+      container.innerHTML = rows.map(r => `
+        <button type="button" class="word-item" data-search-term="${escapeHtml(r.label)}">
+          <div class="word-name">${escapeHtml(r.label)}</div>
+          <div class="word-count">${r.value}</div>
+        </button>
+      `).join('');
     }
 
-    function renderTags(containerId, values) {
+    function renderTags(containerId, values, lastIndexMap = {}) {
       const c = document.getElementById(containerId);
-      c.innerHTML = values.map(v => `<button type="button" class="tag tag-button" data-search-term="${escapeHtml(v)}">${escapeHtml(v)}</button>`).join('');
+      c.innerHTML = values.map(v => {
+        const idx = lastIndexMap[v];
+        const title = idx != null ? ` title="Text #${idx + 1}"` : '';
+        return `<button type="button" class="tag tag-button" data-search-term="${escapeHtml(v)}"${title}>${escapeHtml(v)}</button>`;
+      }).join('');
     }
 
     function pickRandomWord(topWords) {
@@ -518,8 +525,8 @@
     function renderAll(texts, analytics) {
       renderExplorer(analytics.items);
       renderOverview(texts, analytics);
-      renderBars('topWords', analytics.topWords.map(([label, value]) => ({ label, value })));
-      renderTags('uniqueWords', analytics.uniqueWords);
+      renderWordList('topWords', analytics.topWords.map(([label, value]) => ({ label, value })));
+      renderTags('uniqueWords', analytics.uniqueWords, analytics.uniqueWordLastIndex);
     }
 
     async function main() {
