@@ -471,6 +471,7 @@
       const uniqueWordLastIndex = Object.fromEntries(
         [...freq.entries()].filter(([, { count }]) => count === 1).map(([w, { lastIndex }]) => [w, lastIndex])
       );
+      const totalWordCount = [...freq.values()].reduce((sum, { count }) => sum + count, 0);
 
       const emotionCounts = new Map();
       for (const item of items) {
@@ -485,6 +486,7 @@
         uniqueWords,
         uniqueWordCount: freq.size,
         uniqueWordLastIndex,
+        totalWordCount,
         emotionCounts
       };
     }
@@ -583,7 +585,7 @@
       });
     }
 
-    function renderWordList(containerId, rows) {
+    function renderWordList(containerId, rows, totalCount = 0) {
       const container = document.getElementById(containerId);
       if (!rows.length) {
         container.innerHTML = '<p class="muted">No data.</p>';
@@ -592,7 +594,7 @@
       container.innerHTML = rows.map(r => `
         <button type="button" class="word-item" data-search-term="${escapeHtml(r.label)}">
           <div class="word-name">${escapeHtml(r.label)}</div>
-          <div class="word-count">${r.value}</div>
+          <div class="word-count">${r.value} (${totalCount ? ((r.value / totalCount) * 100).toFixed(1) : '0.0'}%)</div>
         </button>
       `).join('');
     }
@@ -693,7 +695,7 @@
       renderExplorer(analytics.items);
       renderOverview(texts, analytics);
       renderPieChart('emotionChart', analytics.emotionCounts);
-      renderWordList('topWords', analytics.topWords.map(([label, value]) => ({ label, value })));
+      renderWordList('topWords', analytics.topWords.map(([label, value]) => ({ label, value })), analytics.totalWordCount);
       renderTags('uniqueWords', analytics.uniqueWords, analytics.uniqueWordLastIndex);
     }
 
