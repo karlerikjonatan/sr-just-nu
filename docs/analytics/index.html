@@ -74,6 +74,13 @@
       letter-spacing: 0.2px;
     }
 
+    .overview-text {
+      font-size: .92rem;
+      line-height: 1.35;
+      color: var(--text);
+      overflow-wrap: anywhere;
+    }
+
     .metric-button {
       border: 0;
       background: transparent;
@@ -255,6 +262,7 @@
 <body>
   <main>
     <section id="overview" class="grid"></section>
+    <section id="overviewLengths" class="grid"></section>
 
     <section id="texts" class="card">
       <h2>Sök</h2>
@@ -442,6 +450,12 @@
     function renderOverview(texts, a) {
       const randomWord = pickRandomWord(a.topWords);
       const displayWord = randomWord || '—';
+      const longestText = texts.reduce((longest, current) => current.length > longest.length ? current : longest, '');
+      const shortestText = texts.reduce((shortest, current) => {
+        if (!current) return shortest;
+        if (!shortest) return current;
+        return current.length < shortest.length ? current : shortest;
+      }, '');
 
       document.getElementById('overview').innerHTML = `
         <article class="card">
@@ -455,6 +469,17 @@
         <article class="card">
           <h3 class="card-title">Slumpat ord <button type="button" id="refreshRandomWord" class="card-action" aria-label="Visa nytt slumpat ord" title="Visa nytt slumpat ord">🔄</button></h3>
           <div class="metric"><button type="button" id="randomWordMetric" class="metric-button" data-search-term="${escapeHtml(randomWord)}">${escapeHtml(String(displayWord))}</button></div>
+        </article>
+      `;
+
+      document.getElementById('overviewLengths').innerHTML = `
+        <article class="card">
+          <h3>Kortaste text</h3>
+          <div class="overview-text">${escapeHtml(shortestText || '—')}</div>
+        </article>
+        <article class="card">
+          <h3>Längsta text</h3>
+          <div class="overview-text">${escapeHtml(longestText || '—')}</div>
         </article>
       `;
 
