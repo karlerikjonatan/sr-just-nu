@@ -54,7 +54,7 @@ async function ensureDir(dir) {
 }
 
 async function getElements(page, seenTexts) {
-  await page.$$eval('[data-state="open"]', dialogs => {
+  await page.$$eval('[data-open]', dialogs => {
     for (const dialog of dialogs) dialog.remove();
   });
 
