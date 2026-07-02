@@ -291,6 +291,7 @@
 
     const MAX_DISPLAYED_TEXTS = 100;
     const MAX_EXTRACTION_DEPTH = 6;
+    const SEARCH_PARAM_KEY = 'search';
 
     const escapeHtml = (s) => s
       .replaceAll('&', '&amp;')
@@ -395,18 +396,42 @@
       };
     }
 
-    function setSearchAndScroll(term) {
+    function getSearchTermFromUrl() {
+      const params = new URLSearchParams(window.location.search);
+      return normalizeText(params.get(SEARCH_PARAM_KEY) || '');
+    }
+
+    function updateSearchParam(term) {
+      const normalized = normalizeText(term);
+      const url = new URL(window.location.href);
+
+      if (normalized) {
+        url.searchParams.set(SEARCH_PARAM_KEY, normalized);
+      } else {
+        url.searchParams.delete(SEARCH_PARAM_KEY);
+      }
+
+      const next = `${url.pathname}${url.search}${url.hash}`;
+      window.history.replaceState(null, '', next);
+    }
+
+    function setSearchAndScroll(term, options = {}) {
       const search = document.getElementById('searchInput');
       const section = document.getElementById('texts');
       if (!search || !section) return;
 
+      const { scroll = true, focus = true } = options;
       const value = normalizeText(term);
       if (!value) return;
 
       search.value = value;
       search.dispatchEvent(new Event('input', { bubbles: true }));
-      section.scrollIntoView({ behavior: 'auto', block: 'start' });
-      search.focus({ preventScroll: true });
+      if (scroll) {
+        section.scrollIntoView({ behavior: 'auto', block: 'start' });
+      }
+      if (focus) {
+        search.focus({ preventScroll: true });
+      }
     }
 
     function bindWordPicker(containerId) {
@@ -521,7 +546,10 @@
         count.textContent = `Visar ${capped.length} av ${rows.length} matchande texter.`;
       }
 
-      search.addEventListener('input', draw);
+      search.addEventListener('input', () => {
+        updateSearchParam(search.value);
+        draw();
+      });
       draw();
     }
 
@@ -540,6 +568,11 @@
         const { texts } = await fetchDataset();
         const analytics = computeAnalytics(texts);
         renderAll(texts, analytics);
+
+        const initialSearch = getSearchTermFromUrl();
+        if (initialSearch) {
+          setSearchAndScroll(initialSearch, { scroll: false, focus: false });
+        }
       } catch (err) {
         document.getElementById('overview').innerHTML = '<div class="error">' + escapeHtml(err.message || String(err)) + '</div>';
       }
