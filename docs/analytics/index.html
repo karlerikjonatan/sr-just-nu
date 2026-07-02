@@ -212,16 +212,6 @@
       padding: .56rem .62rem;
     }
 
-    .text-link {
-      color: var(--text);
-      text-decoration: none;
-    }
-
-    .text-link:hover {
-      text-decoration: underline;
-      text-underline-offset: 2px;
-    }
-
     .score-chips {
       display: flex;
       flex-wrap: wrap;
@@ -302,7 +292,6 @@
     const MAX_DISPLAYED_TEXTS = 100;
     const MAX_EXTRACTION_DEPTH = 6;
     const SEARCH_PARAM_KEY = 'search';
-    const SCREENSHOT_LINKS_URL = "https://raw.githubusercontent.com/karlerikjonatan/sr-just-nu/main/screenshot-links.json";
 
     const escapeHtml = (s) => s
       .replaceAll('&', '&amp;')
@@ -366,86 +355,14 @@
       return { texts };
     }
 
-    async function fetchScreenshotLinks() {
-      const res = await fetch(SCREENSHOT_LINKS_URL, { cache: 'no-cache' });
-      if (!res.ok) throw new Error(`Could not load screenshot links from ${SCREENSHOT_LINKS_URL} (${res.status})`);
-      const json = await res.json();
-      if (!json || typeof json !== 'object') return [];
-
-      return [...new Set(Object.values(json).filter(v => typeof v === 'string' && v.trim()))];
-    }
-
-    function slugifyForMatch(input) {
-      return String(input || '')
-        .toLowerCase()
-        .normalize('NFD')
-        .replace(/[\u0300-\u036f]/g, '')
-        .replace(/[^a-z0-9]+/g, '-')
-        .replace(/^-+|-+$/g, '')
-        .replace(/-{2,}/g, '-');
-    }
-
-    function getSlugFromUrl(url) {
-      try {
-        const u = new URL(String(url));
-        const segment = u.pathname.split('/').filter(Boolean).pop() || '';
-        return slugifyForMatch(segment);
-      } catch {
-        return '';
-      }
-    }
-
-    function buildScreenshotLinkResolver(links) {
-      const entries = links
-        .map((url) => ({
-          url,
-          slug: getSlugFromUrl(url)
-        }))
-        .filter((entry) => entry.slug);
-
-      const exact = new Map(entries.map((entry) => [entry.slug, entry.url]));
-
-      return function resolveScreenshotLink(text) {
-        const textSlug = slugifyForMatch(normalizeText(text));
-        if (!textSlug) return '';
-
-        if (exact.has(textSlug)) {
-          return exact.get(textSlug) || '';
-        }
-
-        const textTokens = textSlug.split('-').filter((t) => t.length > 2);
-        if (!textTokens.length) return '';
-
-        let bestUrl = '';
-        let bestScore = 0;
-
-        for (const entry of entries) {
-          const urlTokens = entry.slug.split('-').filter((t) => t.length > 2);
-          if (!urlTokens.length) continue;
-
-          const overlap = textTokens.reduce((count, token) => count + (urlTokens.includes(token) ? 1 : 0), 0);
-          if (!overlap) continue;
-
-          const score = overlap / Math.max(textTokens.length, urlTokens.length);
-          if (score > bestScore) {
-            bestScore = score;
-            bestUrl = entry.url;
-          }
-        }
-
-        return bestScore >= 0.45 ? bestUrl : '';
-      };
-    }
-
-    function computeAnalytics(texts, resolveScreenshotLink = () => '') {
+    function computeAnalytics(texts) {
       const items = texts.map((text, index) => {
         const cleaned = normalizeText(text);
         return {
           index,
           text: cleaned,
           lc: cleaned.toLowerCase(),
-          tokens: tokenize(cleaned),
-          screenshotUrl: resolveScreenshotLink(cleaned)
+          tokens: tokenize(cleaned)
         };
       });
 
@@ -620,10 +537,7 @@
         const capped = rows.slice(0, MAX_DISPLAYED_TEXTS);
         list.innerHTML = capped.map(item => `
           <article class="text-item">
-            <div>${item.screenshotUrl
-            ? `<a class="text-link" href="${escapeHtml(item.screenshotUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.text)}</a>`
-            : `<span>${escapeHtml(item.text)}</span>`}
-            </div>
+            <div><span>${escapeHtml(item.text)}</span></div>
             <div class="score-chips">
               <span class="chip">#${item.index + 1}</span>
             </div>
@@ -651,9 +565,8 @@
         bindWordPicker('overview');
         bindWordPicker('topWords');
         bindWordPicker('uniqueWords');
-        const [{ texts }, screenshotLinks] = await Promise.all([fetchDataset(), fetchScreenshotLinks()]);
-        const resolveScreenshotLink = buildScreenshotLinkResolver(screenshotLinks);
-        const analytics = computeAnalytics(texts, resolveScreenshotLink);
+        const { texts } = await fetchDataset();
+        const analytics = computeAnalytics(texts);
         renderAll(texts, analytics);
 
         const initialSearch = getSearchTermFromUrl();
