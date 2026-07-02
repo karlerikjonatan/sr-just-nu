@@ -254,28 +254,6 @@
         font-size: .85rem;
       }
     }
-
-    .legend-item {
-      display: grid;
-      grid-template-columns: 12px 1fr auto;
-      gap: .5rem;
-      align-items: center;
-      font-size: .88rem;
-      padding: .25rem 0;
-      border-bottom: 1px solid #d6e2f5;
-    }
-
-    .legend-item:last-child {
-      border-bottom: none;
-    }
-
-    .legend-color {
-      display: inline-block;
-      width: 12px;
-      height: 12px;
-      border-radius: 3px;
-      flex-shrink: 0;
-    }
   </style>
 </head>
 
@@ -283,11 +261,6 @@
   <main>
     <section id="overview" class="grid"></section>
     <section id="overviewLengths" class="grid"></section>
-
-    <section id="emotions" class="card">
-      <h2>Känsoläge</h2>
-      <div id="emotionChart"></div>
-    </section>
 
     <section id="texts" class="card">
       <h2>Sök</h2>
@@ -311,59 +284,6 @@
   </main>
 
   <script>
-    const EMOTION_CLASSIFICATION = {
-      "fear": [
-        "attack", "skottlossning", "explosion", "bomb", "terror", "hot",
-        "kniv", "skjuten", "granat", "krig", "drönarattack", "vapenvila bruten"
-      ],
-      "sadness": [
-        "död", "döda", "avliden", "omkom", "hittad död",
-        "drunkning", "förlust", "dog", "dödsfall"
-      ],
-      "anxiety": [
-        "försvunnen", "saknas", "sökinsats", "larm", "risk",
-        "varning", "beordras", "evakuera", "misstänkt",
-        "oklart", "oro", "hotad"
-      ],
-      "anger": [
-        "misshandel", "rån", "våldtäkt", "överfall",
-        "skadad av våld", "hatbrott", "attack mot",
-        "brott", "gripen", "anhållen", "åtalas"
-      ],
-      "shock": [
-        "explosion", "kraftig brand", "katastrof", "masskrock",
-        "skolskjutning", "flygkrasch", "ras", "kollaps",
-        "stor olycka", "tragisk"
-      ],
-      "stress": [
-        "trafikstopp", "avstängd", "förseningar", "kaos",
-        "störningar", "elnät nere", "systemfel",
-        "överbelastning", "köer"
-      ],
-      "fear_for_safety": [
-        "brand", "brinner", "skogsbrand", "rök",
-        "gasläcka", "smitta", "sjukdom", "förgiftning",
-        "utbrott", "bakterier"
-      ],
-      "relief": [
-        "räddad", "hittad vid liv", "kontrollerad",
-        "stabilt läge", "faran över", "återställd",
-        "tillbaka i drift"
-      ],
-      "joy": [
-        "vann", "seger", "guld", "rekord",
-        "finalvinst", "mästare", "succé"
-      ],
-      "surprise": [
-        "ovanlig", "sällsynt", "första gången",
-        "plötsligt", "oväntat"
-      ],
-      "neutral_information": [
-        "möte", "beslut", "rapport", "överens",
-        "förhandling", "avtal", "presenterar",
-        "policy", "utredning"
-      ]
-    }
     const STOPWORDS = new Set([
       'just', 'nu', 'och', 'att', 'som', 'det', 'den', 'en', 'ett', 'på', 'av', 'för', 'med', 'till', 'i', 'om', 'är', 'har', 'efter', 'mot', 'från',
       'två', 'flera', 'stor', 'nya', 'ny', 'man', 'kvinna', 'person', 'uppgifter', 'uppgift', 'stopp', 'stoppad', 'avstängd', 'de', 'då'
@@ -434,14 +354,6 @@
       return { texts };
     }
 
-    function classifyEmotions(lc) {
-      const matched = [];
-      for (const [emotion, keywords] of Object.entries(EMOTION_CLASSIFICATION)) {
-        if (keywords.some(kw => lc.includes(kw))) matched.push(emotion);
-      }
-      return matched;
-    }
-
     function computeAnalytics(texts) {
       const items = texts.map((text, index) => {
         const cleaned = normalizeText(text);
@@ -473,92 +385,14 @@
       );
       const totalWordCount = [...freq.values()].reduce((sum, { count }) => sum + count, 0);
 
-      const emotionCounts = new Map();
-      for (const item of items) {
-        for (const emotion of classifyEmotions(item.lc)) {
-          emotionCounts.set(emotion, (emotionCounts.get(emotion) || 0) + 1);
-        }
-      }
-
       return {
         items,
         topWords,
         uniqueWords,
         uniqueWordCount: freq.size,
         uniqueWordLastIndex,
-        totalWordCount,
-        emotionCounts
+        totalWordCount
       };
-    }
-
-    const EMOTION_COLORS = {
-      fear: '#c0392b',
-      sadness: '#4a90d9',
-      anxiety: '#7b5ea7',
-      anger: '#e74c3c',
-      shock: '#e67e22',
-      stress: '#f39c12',
-      fear_for_safety: '#d35400',
-      relief: '#27ae60',
-      joy: '#f1c40f',
-      surprise: '#1abc9c',
-      neutral_information: '#7f8c8d'
-    };
-
-    const EMOTION_LABELS = {
-      fear: 'Rädsla',
-      sadness: 'Sorg',
-      anxiety: 'Ångest',
-      anger: 'Ilska',
-      shock: 'Chock',
-      stress: 'Stress',
-      fear_for_safety: 'Fara',
-      relief: 'Lättnad',
-      joy: 'Glädje',
-      surprise: 'Förvåning',
-      neutral_information: 'Neutral information'
-    };
-
-    function renderPieChart(containerId, emotionCounts) {
-      const container = document.getElementById(containerId);
-      const entries = [...emotionCounts.entries()].sort((a, b) => b[1] - a[1]);
-      const total = entries.reduce((s, [, c]) => s + c, 0);
-      if (!total) {
-        container.innerHTML = '<p class="muted">No data.</p>';
-        return;
-      }
-
-      const cx = 100, cy = 100, r = 90;
-      let angle = -Math.PI / 2;
-
-      const paths = entries.map(([emotion, count]) => {
-        const slice = (count / total) * 2 * Math.PI;
-        const x1 = cx + r * Math.cos(angle);
-        const y1 = cy + r * Math.sin(angle);
-        angle += slice;
-        const x2 = cx + r * Math.cos(angle);
-        const y2 = cy + r * Math.sin(angle);
-        const large = slice > Math.PI ? 1 : 0;
-        const color = EMOTION_COLORS[emotion] || '#aaa';
-        return `<path d="M${cx},${cy} L${x1.toFixed(2)},${y1.toFixed(2)} A${r},${r} 0 ${large},1 ${x2.toFixed(2)},${y2.toFixed(2)} Z" fill="${color}" title="${escapeHtml(EMOTION_LABELS[emotion] || emotion)}: ${count}"/>`;
-      });
-
-      const legend = entries.map(([emotion, count]) => {
-        const pct = ((count / total) * 100).toFixed(1);
-        const color = EMOTION_COLORS[emotion] || '#aaa';
-        return `<div class="legend-item">
-          <span class="legend-color" style="background:${color}"></span>
-          <span class="legend-label">${escapeHtml(EMOTION_LABELS[emotion] || emotion)}</span>
-          <span class="word-count">${count} (${pct}%)</span>
-        </div>`;
-      }).join('');
-
-      container.innerHTML = `
-        <div style="display:flex;flex-wrap:wrap;gap:1.2rem;align-items:flex-start">
-          <svg viewBox="0 0 200 200" width="180" height="180" style="flex-shrink:0">${paths.join('')}</svg>
-          <div class="word-list" style="flex:1;min-width:180px">${legend}</div>
-        </div>
-      `;
     }
 
     function setSearchAndScroll(term) {
@@ -694,7 +528,6 @@
     function renderAll(texts, analytics) {
       renderExplorer(analytics.items);
       renderOverview(texts, analytics);
-      renderPieChart('emotionChart', analytics.emotionCounts);
       renderWordList('topWords', analytics.topWords.map(([label, value]) => ({ label, value })), analytics.totalWordCount);
       renderTags('uniqueWords', analytics.uniqueWords, analytics.uniqueWordLastIndex);
     }
