@@ -4,11 +4,10 @@ permissions:
   contents: write
 
 on:
+  # Every 10 min, offset off :00 — GitHub delays/drops runs scheduled at the top
+  # of the hour, and missed scheduled runs are never backfilled.
   schedule:
-    - cron: "0 * * * *"
-    - cron: "15 * * * *"
-    - cron: "30 * * * *"
-    - cron: "45 * * * *"
+    - cron: "7,17,27,37,47,57 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -30,6 +29,7 @@ jobs:
       - name: Take screenshot
         run: node index.js
 
+      # Commit the scraper's output back to the repo (repo-as-database).
       - name: Commit and push
         run: |
           git config user.name "github-actions"
