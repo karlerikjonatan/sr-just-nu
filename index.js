@@ -8,7 +8,7 @@ const OUTPUT_DIR = path.join(__dirname, 'docs', 'screenshots');
 // and the dataset the analytics dashboard fetches, so it only ever grows.
 const SEEN_TEXTS = path.join(__dirname, 'texts.json');
 // Map of screenshot filename -> source article URL, consumed by the gallery.
-const SCREENSHOT_LINKS = path.join(__dirname, 'screenshot-links.json');
+const SCREENSHOT_SOURCES = path.join(__dirname, 'screenshot-sources.json');
 
 function loadSeenTexts() {
   if (fs.existsSync(SEEN_TEXTS)) {
@@ -30,26 +30,26 @@ function saveSeenTexts(seenTexts) {
   }
 }
 
-function loadScreenshotLinks() {
-  if (fs.existsSync(SCREENSHOT_LINKS)) {
+function loadScreenshotSources() {
+  if (fs.existsSync(SCREENSHOT_SOURCES)) {
     try {
-      const data = JSON.parse(fs.readFileSync(SCREENSHOT_LINKS, 'utf-8'));
+      const data = JSON.parse(fs.readFileSync(SCREENSHOT_SOURCES, 'utf-8'));
       // Only accept a plain object map; guard against a corrupted/legacy shape.
       if (data && typeof data === 'object' && !Array.isArray(data)) {
         return data;
       }
     } catch (err) {
-      console.error('Error reading screenshot-links.json:', err);
+      console.error('Error reading screenshot-sources.json:', err);
     }
   }
   return {};
 }
 
-function saveScreenshotLinks(screenshotLinks) {
+function saveScreenshotSources(screenshotSources) {
   try {
-    fs.writeFileSync(SCREENSHOT_LINKS, JSON.stringify(screenshotLinks, null, 2));
+    fs.writeFileSync(SCREENSHOT_SOURCES, JSON.stringify(screenshotSources, null, 2));
   } catch (err) {
-    console.error('Error writing screenshot-links.json:', err);
+    console.error('Error writing screenshot-sources.json:', err);
   }
 }
 
@@ -108,7 +108,7 @@ async function getElements(page, seenTexts) {
   return elements;
 }
 
-async function saveScreenshots(items, outputDir, screenshotLinks) {
+async function saveScreenshots(items, outputDir, screenshotSources) {
   // One timestamp per run; `${timestamp}_${i}.png` is named so a plain
   // lexicographic filename sort is also chronological (see generateManifest).
   const timestamp = Date.now();
@@ -119,12 +119,12 @@ async function saveScreenshots(items, outputDir, screenshotLinks) {
     const filename = `${timestamp}_${i}.png`;
     await element.screenshot({ path: path.join(outputDir, filename) });
     if (href) {
-      screenshotLinks[filename] = href;
+      screenshotSources[filename] = href;
     }
   }
 }
 
-function generateManifest(dir, screenshotLinks) {
+function generateManifest(dir, screenshotSources) {
   // Filenames are timestamp-prefixed, so sort() is chronological and reverse()
   // gives newest-first — the order the gallery renders in.
   const files = fs.readdirSync(dir)
@@ -133,7 +133,7 @@ function generateManifest(dir, screenshotLinks) {
     .reverse();
 
   const manifest = files.map(f => {
-    const href = screenshotLinks[f];
+    const href = screenshotSources[f];
     return href ? { f, href } : { f };
   });
 
@@ -198,7 +198,7 @@ function generateHTML() {
 async function main() {
   let browser;
   const seenTexts = loadSeenTexts();
-  const screenshotLinks = loadScreenshotLinks();
+  const screenshotSources = loadScreenshotSources();
 
   try {
     browser = await puppeteer.launch({
@@ -221,15 +221,15 @@ async function main() {
     // getElements returns headings in page order (newest at the top). Reverse so
     // the batch is numbered oldest->newest; generateManifest's sort then restores
     // newest-first for display.
-    await saveScreenshots(elements.reverse(), OUTPUT_DIR, screenshotLinks);
+    await saveScreenshots(elements.reverse(), OUTPUT_DIR, screenshotSources);
     console.log(`Saved ${elements.length} new screenshot(s)`);
 
     saveSeenTexts(seenTexts);
     console.log('Updated texts.json');
-    saveScreenshotLinks(screenshotLinks);
-    console.log('Updated screenshot-links.json');
+    saveScreenshotSources(screenshotSources);
+    console.log('Updated screenshot-sources.json');
 
-    generateManifest(OUTPUT_DIR, screenshotLinks);
+    generateManifest(OUTPUT_DIR, screenshotSources);
     console.log('Generated screenshots.json');
     generateHTML();
     console.log('Generated HTML');

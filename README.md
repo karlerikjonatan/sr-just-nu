@@ -19,7 +19,7 @@ cron (GitHub Actions, every 10 min)
        ├─ Puppeteer loads sverigesradio.se
        ├─ finds new  <h2> headlines containing "Just nu:"
        ├─ screenshots each one → docs/screenshots/<timestamp>_<i>.png
-       ├─ updates texts.json (dedupe set) and screenshot-links.json
+       ├─ updates texts.json (dedupe set) and screenshot-sources.json
        └─ regenerates docs/screenshots.json + docs/index.html
   └─ git commit + push  →  GitHub Pages serves docs/
 ```
@@ -27,13 +27,13 @@ cron (GitHub Actions, every 10 min)
 ### The scraper — [`index.js`](index.js)
 
 1. Loads existing state: `texts.json` (a `Set` of headlines already seen, used to
-   avoid re-capturing) and `screenshot-links.json`.
+   avoid re-capturing) and `screenshot-sources.json`.
 2. Launches headless Chrome via Puppeteer and opens `sverigesradio.se`.
 3. Scans every `<h2>`, keeps those containing `Just nu:` that haven't been seen,
    and resolves each to its source article URL (nearest ancestor/related anchor,
    made absolute).
 4. Screenshots each matching element and records its article link.
-5. Persists `texts.json` and `screenshot-links.json`, then regenerates the gallery.
+5. Persists `texts.json` and `screenshot-sources.json`, then regenerates the gallery.
 6. If no new headlines are found, it exits without writing anything. On any error
    it exits non-zero so the Action run shows as failed.
 
@@ -57,14 +57,14 @@ Runs on cron every 10 minutes — at :07, :17, :27, :37, :47, and :57 past the h
 offset off the top of the hour where GitHub is most likely to delay scheduled runs
 (plus manual dispatch). Each run installs deps with `npm install`, runs
 `node index.js`, then commits and pushes any changes under `docs/`, `texts.json`,
-and `screenshot-links.json`.
+and `screenshot-sources.json`.
 
 ## Data / state files
 
 | File | Purpose |
 | --- | --- |
 | `texts.json` | Deduplication set of every headline seen (also the analytics dataset). |
-| `screenshot-links.json` | Map of `screenshot filename → source article URL`. |
+| `screenshot-sources.json` | Map of `screenshot filename → source article URL`. |
 | `docs/screenshots/*.png` | One screenshot per captured headline. |
 | `docs/screenshots.json` | Generated newest-first manifest driving the gallery. |
 
