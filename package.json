@@ -8,6 +8,6 @@
   },
   "homepage": "https://karlerikjonatan.github.io/sr-just-nu/",
   "dependencies": {
-    "puppeteer": "^24.10.0"
+    "puppeteer": "^25.3.0"
   }
 }
