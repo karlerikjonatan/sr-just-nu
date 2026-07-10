@@ -3,6 +3,11 @@ name: Screenshot
 permissions:
   contents: write
 
+# Serialize runs so an overlapping scheduled/dispatch run can't race on git push.
+concurrency:
+  group: screenshot
+  cancel-in-progress: false
+
 on:
   # Every 10 min, offset off :00 — GitHub delays/drops runs scheduled at the top
   # of the hour, and missed scheduled runs are never backfilled.
@@ -13,18 +18,29 @@ on:
 jobs:
   screenshot:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: "20"
+          node-version: "24"
+          cache: "npm"
+
+      # Cache Puppeteer's Chromium (~/.cache/puppeteer) so npm ci's postinstall
+      # doesn't re-download it every run; re-keyed when the lockfile (and thus the
+      # puppeteer version) changes.
+      - name: Cache Puppeteer browser
+        uses: actions/cache@v6
+        with:
+          path: ~/.cache/puppeteer
+          key: ${{ runner.os }}-puppeteer-${{ hashFiles('package-lock.json') }}
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Take screenshot
         run: node index.js
@@ -34,8 +50,9 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add docs/
-          git add texts.json
-          git add screenshot-sources.json
-          git commit -m "Just nu: 📸" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:${{ github.ref_name }}
+          git add docs/ texts.json screenshot-sources.json
+          if git commit -m "Just nu: 📸"; then
+            git push origin HEAD:${{ github.ref_name }}
+          else
+            echo "No changes to commit"
+          fi
