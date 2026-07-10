@@ -1,19 +1,47 @@
 <!doctype html>
-<html lang="en">
+<html lang="sv">
 
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="color-scheme" content="light" />
+  <meta name="color-scheme" content="light dark" />
+  <title>Just nu: · Analys</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%8A%3C/text%3E%3C/svg%3E" />
   <style>
     :root {
       --bg: #f3f7ff;
+      --bg-glow: #dce8ff;
       --card: #ffffff;
       --border: #d6e2f5;
       --text: #10213f;
       --muted: #5b6f95;
       --accent-2: #3e75dc;
       --shadow: 0 8px 22px rgba(38, 72, 130, 0.12);
+      --subtle-bg: #f8fbff;
+      --tag-bg: #f5f9ff;
+      --chip-bg: #eef4ff;
+      --error-bg: #fdecef;
+      --error-border: #f3b0be;
+      --error-text: #8a1c34;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0d1524;
+        --bg-glow: #16233c;
+        --card: #16223a;
+        --border: #26344f;
+        --text: #e7eefb;
+        --muted: #93a6c7;
+        --accent-2: #7aa2f0;
+        --shadow: 0 8px 22px rgba(0, 0, 0, 0.4);
+        --subtle-bg: #1b2942;
+        --tag-bg: #1b2942;
+        --chip-bg: #22314e;
+        --error-bg: #2d1320;
+        --error-border: #5c2335;
+        --error-text: #ffc3d0;
+      }
     }
 
     * {
@@ -28,7 +56,8 @@
 
     body {
       font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-      background: radial-gradient(circle at top right, #dce8ff 0, var(--bg) 44%);
+      background: radial-gradient(circle at top right, var(--bg-glow) 0, var(--bg) 44%);
+      background-attachment: fixed;
       color: var(--text);
       line-height: 1.45;
     }
@@ -125,7 +154,7 @@
       font-size: .9rem;
       padding: .35rem 0;
       border: 0;
-      border-bottom: 1px solid #d6e2f5;
+      border-bottom: 1px solid var(--border);
       cursor: pointer;
       background: transparent;
       color: inherit;
@@ -162,7 +191,7 @@
     .tag {
       border: 1px solid var(--border);
       border-radius: 999px;
-      background: #f5f9ff;
+      background: var(--tag-bg);
       padding: .23rem .56rem;
       display: inline-flex;
       align-items: center;
@@ -189,7 +218,7 @@
     }
 
     .controls input {
-      background: #f8fbff;
+      background: var(--subtle-bg);
       color: var(--text);
       border: 1px solid var(--border);
       border-radius: 10px;
@@ -206,8 +235,8 @@
     }
 
     .text-item {
-      background: #f8fbff;
-      border: 1px solid #d6e2f5;
+      background: var(--subtle-bg);
+      border: 1px solid var(--border);
       border-radius: 10px;
       padding: .56rem .62rem;
     }
@@ -225,13 +254,13 @@
       border: 1px solid var(--border);
       padding: .15rem .46rem;
       color: var(--muted);
-      background: #eef4ff;
+      background: var(--chip-bg);
     }
 
     .error {
-      border: 1px solid #5c2335;
-      background: #2d1320;
-      color: #ffc3d0;
+      border: 1px solid var(--error-border);
+      background: var(--error-bg);
+      color: var(--error-text);
       border-radius: 12px;
       padding: .8rem;
       white-space: pre-wrap;
@@ -273,312 +302,344 @@
 
     <section id="words" class="grid">
       <article class="card">
-        <h2>Vanligaste orden</h2>
+        <h2>Vanligaste orden <span class="muted" style="font-size:.8rem;font-weight:400">(topp 50)</span></h2>
         <div id="topWords" class="word-list"></div>
       </article>
       <article class="card">
-        <h2>Ord <span class="muted" style="font-size:.8rem;font-weight:400">(nyast först)</span></h2>
+        <h2>Ord <span class="muted" style="font-size:.8rem;font-weight:400">(nyast först · senaste 150)</span></h2>
         <div id="uniqueWords" class="tag-cloud"></div>
       </article>
     </section>
   </main>
 
   <script>
-    const STOPWORDS = new Set([
-      'just', 'nu', 'och', 'att', 'som', 'det', 'den', 'en', 'ett', 'på', 'av', 'för', 'med', 'till', 'i', 'om', 'är', 'har', 'efter', 'mot', 'från',
-      'två', 'flera', 'stor', 'nya', 'ny', 'man', 'kvinna', 'person', 'uppgifter', 'uppgift', 'stopp', 'stoppad', 'avstängd', 'de', 'då'
-    ]);
+    // Wrapped in an IIFE so none of these helpers leak onto window.
+    (function () {
+      'use strict';
 
-    const MAX_DISPLAYED_TEXTS = 100;
-    const MAX_EXTRACTION_DEPTH = 6;
-    const SEARCH_PARAM_KEY = 'search';
+      // Generic Swedish stopwords plus domain-noise terms (man, kvinna, person,
+      // uppgifter…) that would otherwise dominate the frequency counts.
+      const STOPWORDS = new Set([
+        'just', 'nu', 'och', 'att', 'som', 'det', 'den', 'en', 'ett', 'på', 'av', 'för', 'med', 'till', 'i', 'om', 'är', 'har', 'efter', 'mot', 'från',
+        'två', 'flera', 'stor', 'nya', 'ny', 'man', 'kvinna', 'person', 'uppgifter', 'uppgift', 'stopp', 'stoppad', 'avstängd', 'de', 'då'
+      ]);
 
-    const escapeHtml = (s) => s
-      .replaceAll('&', '&amp;')
-      .replaceAll('<', '&lt;')
-      .replaceAll('>', '&gt;')
-      .replaceAll('"', '&quot;')
-      .replaceAll("'", '&#39;');
+      const MAX_DISPLAYED_TEXTS = 100;
+      const MAX_EXTRACTION_DEPTH = 6;
+      const SEARCH_PARAM_KEY = 'search';
+      // The vocabulary is thousands of words; render only the top slice of each
+      // list so the DOM stays small.
+      const TOP_WORDS_LIMIT = 50;
+      const UNIQUE_TAGS_LIMIT = 150;
 
-    function normalizeText(input) {
-      return String(input || '')
-        .replace(/\s+/g, ' ')
-        .replace(/^just nu:\s*/i, '')
-        .trim();
-    }
+      const escapeHtml = (value) => String(value)
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#39;');
 
-    function tokenize(text) {
-      return normalizeText(text)
-        .toLowerCase()
-        .replace(/[^\p{L}\p{N}\s-]+/gu, ' ')
-        .split(/\s+/)
-        .map(w => w.replace(/^-+|-+$/g, ''))
-        .filter(w => w.length > 1 && !STOPWORDS.has(w));
-    }
+      const formatNumber = (n) => n.toLocaleString('sv-SE');
 
-    function extractTexts(value, out = [], seen = new Set(), depth = 0) {
-      if (depth > MAX_EXTRACTION_DEPTH || value == null) return out;
-      if (typeof value === 'string') {
-        const cleaned = normalizeText(value);
-        if (cleaned) out.push(cleaned);
-        return out;
-      }
-      if (typeof value !== 'object') return out;
-      if (seen.has(value)) return out;
-      seen.add(value);
-
-      if (Array.isArray(value)) {
-        for (const item of value) extractTexts(item, out, seen, depth + 1);
-        return out;
+      // Strips the "just nu:" prefix present on every headline (pure noise for
+      // search and word counts) and collapses whitespace.
+      function normalizeText(input) {
+        return String(input || '')
+          .replace(/\s+/g, ' ')
+          .replace(/^just nu:\s*/i, '')
+          .trim();
       }
 
-      const knownKeys = ['text', 'title', 'headline', 'message', 'name', 'value'];
-      let usedKnown = false;
-      for (const key of knownKeys) {
-        if (typeof value[key] === 'string') {
-          extractTexts(value[key], out, seen, depth + 1);
-          usedKnown = true;
+      function tokenize(text) {
+        return normalizeText(text)
+          .toLowerCase()
+          // \p{L}\p{N} keeps Unicode letters (incl. å/ä/ö) and digits, drops punctuation.
+          .replace(/[^\p{L}\p{N}\s-]+/gu, ' ')
+          .split(/\s+/)
+          .map(w => w.replace(/^-+|-+$/g, ''))
+          .filter(w => w.length > 1 && !STOPWORDS.has(w));
+      }
+
+      // Defensive, shape-agnostic walker: pulls headline strings out of whatever
+      // texts.json contains (prefers known text-ish keys, else recurses into all
+      // values), so the dashboard survives changes to the file's structure. The
+      // `seen` set guards against cycles; MAX_EXTRACTION_DEPTH bounds recursion.
+      function extractTexts(value, out = [], seen = new Set(), depth = 0) {
+        if (depth > MAX_EXTRACTION_DEPTH || value == null) return out;
+        if (typeof value === 'string') {
+          const cleaned = normalizeText(value);
+          if (cleaned) out.push(cleaned);
+          return out;
         }
-      }
-      if (!usedKnown) {
-        for (const v of Object.values(value)) extractTexts(v, out, seen, depth + 1);
-      }
-      return out;
-    }
+        if (typeof value !== 'object') return out;
+        if (seen.has(value)) return out;
+        seen.add(value);
 
-    async function fetchDataset() {
-      const url = 'https://raw.githubusercontent.com/karlerikjonatan/sr-just-nu/main/texts.json';
-      const res = await fetch(url, { cache: 'no-cache' });
-      if (!res.ok) throw new Error(`Could not load data from ${url} (${res.status})`);
-      const json = await res.json();
-      const texts = [...new Set(extractTexts(json).map(normalizeText).filter(Boolean))];
-      return { texts };
-    }
+        if (Array.isArray(value)) {
+          for (const item of value) extractTexts(item, out, seen, depth + 1);
+          return out;
+        }
 
-    function computeAnalytics(texts) {
-      const items = texts.map((text, index) => {
-        const cleaned = normalizeText(text);
-        return {
+        const knownKeys = ['text', 'title', 'headline', 'message', 'name', 'value'];
+        let usedKnown = false;
+        for (const key of knownKeys) {
+          if (typeof value[key] === 'string') {
+            extractTexts(value[key], out, seen, depth + 1);
+            usedKnown = true;
+          }
+        }
+        if (!usedKnown) {
+          for (const v of Object.values(value)) extractTexts(v, out, seen, depth + 1);
+        }
+        return out;
+      }
+
+      async function fetchDataset() {
+        // Fetched from raw.githubusercontent rather than same-origin because
+        // texts.json lives at the repo root, outside the docs/ tree Pages serves.
+        const url = 'https://raw.githubusercontent.com/karlerikjonatan/sr-just-nu/main/texts.json';
+        const res = await fetch(url, { cache: 'no-cache' });
+        if (!res.ok) throw new Error(`Could not load data from ${url} (${res.status})`);
+        const json = await res.json();
+        return [...new Set(extractTexts(json))];
+      }
+
+      function computeAnalytics(texts) {
+        const items = texts.map((text, index) => ({
           index,
-          text: cleaned,
-          lc: cleaned.toLowerCase(),
-          tokens: tokenize(cleaned)
+          text,
+          lc: text.toLowerCase(),
+          tokens: tokenize(text)
+        }));
+
+        // freq maps each word to its total count and lastIndex (its most-recent
+        // occurrence), the latter used to order unique words newest-first below.
+        const freq = new Map();
+        for (const item of items) {
+          for (const word of item.tokens) {
+            const entry = freq.get(word);
+            if (entry) {
+              entry.count += 1;
+              entry.lastIndex = item.index;
+            } else {
+              freq.set(word, { count: 1, lastIndex: item.index });
+            }
+          }
+        }
+
+        const topWords = [];
+        const uniqueEntries = [];
+        let totalWordCount = 0;
+        for (const [word, { count, lastIndex }] of freq) {
+          totalWordCount += count;
+          topWords.push([word, count]);
+          // count === 1: words that appeared in exactly one headline.
+          if (count === 1) uniqueEntries.push([word, lastIndex]);
+        }
+        topWords.sort((a, b) => b[1] - a[1]);
+        uniqueEntries.sort((a, b) => b[1] - a[1]);
+
+        return {
+          items,
+          topWords,
+          uniqueWords: uniqueEntries.map(([word]) => word),
+          uniqueWordCount: freq.size,
+          uniqueWordLastIndex: Object.fromEntries(uniqueEntries),
+          totalWordCount
         };
-      });
+      }
 
-      const freq = new Map();
-      for (const item of items) {
-        for (const token of item.tokens) {
-          const entry = freq.get(token) || { count: 0, lastIndex: 0 };
-          freq.set(token, { count: entry.count + 1, lastIndex: item.index });
+      function getSearchTermFromUrl() {
+        const params = new URLSearchParams(window.location.search);
+        return normalizeText(params.get(SEARCH_PARAM_KEY) || '');
+      }
+
+      // Mirrors the current query into ?search= via replaceState so the view is
+      // shareable/bookmarkable without adding browser-history entries per keystroke.
+      function updateSearchParam(term) {
+        const normalized = normalizeText(term);
+        const url = new URL(window.location.href);
+
+        if (normalized) {
+          url.searchParams.set(SEARCH_PARAM_KEY, normalized);
+        } else {
+          url.searchParams.delete(SEARCH_PARAM_KEY);
+        }
+
+        const next = `${url.pathname}${url.search}${url.hash}`;
+        window.history.replaceState(null, '', next);
+      }
+
+      function setSearchAndScroll(term, options = {}) {
+        const search = document.getElementById('searchInput');
+        const section = document.getElementById('texts');
+        if (!search || !section) return;
+
+        const { scroll = true, focus = true } = options;
+        const value = normalizeText(term);
+        if (!value) return;
+
+        search.value = value;
+        // Fire a synthetic input event to reuse the one handler that filters the
+        // list and syncs the URL, instead of duplicating that logic here.
+        search.dispatchEvent(new Event('input', { bubbles: true }));
+        if (scroll) {
+          section.scrollIntoView({ behavior: 'auto', block: 'start' });
+        }
+        if (focus) {
+          search.focus({ preventScroll: true });
         }
       }
-      const topWords = [...freq.entries()]
-        .map(([w, { count }]) => [w, count])
-        .sort((a, b) => b[1] - a[1]);
-      const uniqueWords = [...freq.entries()]
-        .filter(([, { count }]) => count === 1)
-        .sort((a, b) => b[1].lastIndex - a[1].lastIndex)
-        .map(([w]) => w);
 
-      const uniqueWordLastIndex = Object.fromEntries(
-        [...freq.entries()].filter(([, { count }]) => count === 1).map(([w, { lastIndex }]) => [w, lastIndex])
-      );
-      const totalWordCount = [...freq.values()].reduce((sum, { count }) => sum + count, 0);
-
-      return {
-        items,
-        topWords,
-        uniqueWords,
-        uniqueWordCount: freq.size,
-        uniqueWordLastIndex,
-        totalWordCount
-      };
-    }
-
-    function getSearchTermFromUrl() {
-      const params = new URLSearchParams(window.location.search);
-      return normalizeText(params.get(SEARCH_PARAM_KEY) || '');
-    }
-
-    function updateSearchParam(term) {
-      const normalized = normalizeText(term);
-      const url = new URL(window.location.href);
-
-      if (normalized) {
-        url.searchParams.set(SEARCH_PARAM_KEY, normalized);
-      } else {
-        url.searchParams.delete(SEARCH_PARAM_KEY);
+      function bindWordPicker(containerId) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+        container.addEventListener('click', (event) => {
+          const target = event.target.closest('[data-search-term]');
+          if (!target || !container.contains(target)) return;
+          setSearchAndScroll(target.getAttribute('data-search-term'));
+        });
       }
 
-      const next = `${url.pathname}${url.search}${url.hash}`;
-      window.history.replaceState(null, '', next);
-    }
-
-    function setSearchAndScroll(term, options = {}) {
-      const search = document.getElementById('searchInput');
-      const section = document.getElementById('texts');
-      if (!search || !section) return;
-
-      const { scroll = true, focus = true } = options;
-      const value = normalizeText(term);
-      if (!value) return;
-
-      search.value = value;
-      search.dispatchEvent(new Event('input', { bubbles: true }));
-      if (scroll) {
-        section.scrollIntoView({ behavior: 'auto', block: 'start' });
-      }
-      if (focus) {
-        search.focus({ preventScroll: true });
-      }
-    }
-
-    function bindWordPicker(containerId) {
-      const container = document.getElementById(containerId);
-      if (!container) return;
-      container.addEventListener('click', (event) => {
-        const target = event.target.closest('[data-search-term]');
-        if (!target || !container.contains(target)) return;
-        setSearchAndScroll(target.getAttribute('data-search-term'));
-      });
-    }
-
-    function renderWordList(containerId, rows, totalCount = 0) {
-      const container = document.getElementById(containerId);
-      if (!rows.length) {
-        container.innerHTML = '<p class="muted">No data.</p>';
-        return;
-      }
-      container.innerHTML = rows.map(r => `
-        <button type="button" class="word-item" data-search-term="${escapeHtml(r.label)}">
-          <div class="word-name">${escapeHtml(r.label)}</div>
-          <div class="word-count">${r.value} (${totalCount ? ((r.value / totalCount) * 100).toFixed(1) : '0.0'}%)</div>
-        </button>
-      `).join('');
-    }
-
-    function renderTags(containerId, values, lastIndexMap = {}) {
-      const c = document.getElementById(containerId);
-      c.innerHTML = values.map(v => {
-        const idx = lastIndexMap[v];
-        const title = idx != null ? ` title="Text #${idx + 1}"` : '';
-        return `<button type="button" class="tag tag-button" data-search-term="${escapeHtml(v)}"${title}>${escapeHtml(v)}</button>`;
-      }).join('');
-    }
-
-    function pickRandomWord(topWords) {
-      return topWords.length
-        ? topWords[Math.floor(Math.random() * topWords.length)][0]
-        : '';
-    }
-
-    function refreshRandomWord(topWords) {
-      const metricButton = document.getElementById('randomWordMetric');
-      if (!metricButton) return;
-
-      const randomWord = pickRandomWord(topWords);
-      metricButton.textContent = randomWord || '—';
-      metricButton.setAttribute('data-search-term', randomWord || '');
-    }
-
-    function renderOverview(texts, a) {
-      const randomWord = pickRandomWord(a.topWords);
-      const displayWord = randomWord || '—';
-      const longestText = texts.reduce((longest, current) => current.length > longest.length ? current : longest, '');
-      const shortestText = texts.reduce((shortest, current) => {
-        if (!current) return shortest;
-        if (!shortest) return current;
-        return current.length < shortest.length ? current : shortest;
-      }, '');
-
-      document.getElementById('overview').innerHTML = `
-        <article class="card">
-          <h3>Totalt antal texter</h3>
-          <div class="metric">${escapeHtml(String(texts.length))}</div>
-        </article>
-        <article class="card">
-          <h3>Unika ord</h3>
-          <div class="metric">${escapeHtml(String(a.uniqueWordCount.toLocaleString()))}</div>
-        </article>
-        <article class="card">
-          <h3 class="card-title">Slumpat ord <button type="button" id="refreshRandomWord" class="card-action" aria-label="Visa nytt slumpat ord" title="Visa nytt slumpat ord">🔄</button></h3>
-          <div class="metric"><button type="button" id="randomWordMetric" class="metric-button" data-search-term="${escapeHtml(randomWord)}">${escapeHtml(String(displayWord))}</button></div>
-        </article>
-      `;
-
-      document.getElementById('overviewLengths').innerHTML = `
-        <article class="card">
-          <h3>Kortaste text</h3>
-          <div class="overview-text">${escapeHtml(shortestText || '—')}</div>
-        </article>
-        <article class="card">
-          <h3>Längsta text</h3>
-          <div class="overview-text">${escapeHtml(longestText || '—')}</div>
-        </article>
-      `;
-
-      const refreshButton = document.getElementById('refreshRandomWord');
-      if (refreshButton) {
-        refreshButton.addEventListener('click', () => refreshRandomWord(a.topWords));
-      }
-    }
-
-    function renderExplorer(items) {
-      const list = document.getElementById('textList');
-      const search = document.getElementById('searchInput');
-      const count = document.getElementById('textCount');
-      const newestFirstItems = [...items].reverse();
-
-      function draw() {
-        const q = search.value.trim().toLowerCase();
-        const rows = newestFirstItems.filter(item => !q || item.lc.includes(q));
-
-        const capped = rows.slice(0, MAX_DISPLAYED_TEXTS);
-        list.innerHTML = capped.map(item => `
-          <article class="text-item">
-            <div><span>${escapeHtml(item.text)}</span></div>
-            <div class="score-chips">
-              <span class="chip">#${item.index + 1}</span>
-            </div>
-          </article>
+      function renderWordList(containerId, rows, totalCount = 0) {
+        const container = document.getElementById(containerId);
+        if (!rows.length) {
+          container.innerHTML = '<p class="muted">Ingen data.</p>';
+          return;
+        }
+        container.innerHTML = rows.map(row => `
+          <button type="button" class="word-item" data-search-term="${escapeHtml(row.label)}">
+            <div class="word-name">${escapeHtml(row.label)}</div>
+            <div class="word-count">${formatNumber(row.value)} (${totalCount ? ((row.value / totalCount) * 100).toFixed(1) : '0.0'}%)</div>
+          </button>
         `).join('');
-        count.textContent = `Visar ${capped.length} av ${rows.length} matchande texter.`;
       }
 
-      search.addEventListener('input', () => {
-        updateSearchParam(search.value);
-        draw();
-      });
-      draw();
-    }
+      function renderTags(containerId, values, lastIndexMap = {}) {
+        const container = document.getElementById(containerId);
+        container.innerHTML = values.map(word => {
+          const lastIndex = lastIndexMap[word];
+          const title = lastIndex != null ? ` title="Text #${lastIndex + 1}"` : '';
+          return `<button type="button" class="tag tag-button" data-search-term="${escapeHtml(word)}"${title}>${escapeHtml(word)}</button>`;
+        }).join('');
+      }
 
-    function renderAll(texts, analytics) {
-      renderExplorer(analytics.items);
-      renderOverview(texts, analytics);
-      renderWordList('topWords', analytics.topWords.map(([label, value]) => ({ label, value })), analytics.totalWordCount);
-      renderTags('uniqueWords', analytics.uniqueWords, analytics.uniqueWordLastIndex);
-    }
+      function pickRandomWord(topWords) {
+        return topWords.length
+          ? topWords[Math.floor(Math.random() * topWords.length)][0]
+          : '';
+      }
 
-    async function main() {
-      try {
-        bindWordPicker('overview');
-        bindWordPicker('topWords');
-        bindWordPicker('uniqueWords');
-        const { texts } = await fetchDataset();
-        const analytics = computeAnalytics(texts);
-        renderAll(texts, analytics);
+      function refreshRandomWord(topWords) {
+        const metricButton = document.getElementById('randomWordMetric');
+        if (!metricButton) return;
 
-        const initialSearch = getSearchTermFromUrl();
-        if (initialSearch) {
-          setSearchAndScroll(initialSearch, { scroll: false, focus: false });
+        const randomWord = pickRandomWord(topWords);
+        metricButton.textContent = randomWord || '—';
+        metricButton.setAttribute('data-search-term', randomWord || '');
+      }
+
+      function renderOverview(texts, analytics) {
+        const randomWord = pickRandomWord(analytics.topWords);
+        const displayWord = randomWord || '—';
+        const longestText = texts.reduce((longest, current) => current.length > longest.length ? current : longest, '');
+        const shortestText = texts.reduce((shortest, current) => {
+          if (!current) return shortest;
+          if (!shortest) return current;
+          return current.length < shortest.length ? current : shortest;
+        }, '');
+
+        document.getElementById('overview').innerHTML = `
+          <article class="card">
+            <h3>Totalt antal texter</h3>
+            <div class="metric">${escapeHtml(formatNumber(texts.length))}</div>
+          </article>
+          <article class="card">
+            <h3>Unika ord</h3>
+            <div class="metric">${escapeHtml(formatNumber(analytics.uniqueWordCount))}</div>
+          </article>
+          <article class="card">
+            <h3 class="card-title">Slumpat ord <button type="button" id="refreshRandomWord" class="card-action" aria-label="Visa nytt slumpat ord" title="Visa nytt slumpat ord">🔄</button></h3>
+            <div class="metric"><button type="button" id="randomWordMetric" class="metric-button" data-search-term="${escapeHtml(randomWord)}">${escapeHtml(displayWord)}</button></div>
+          </article>
+        `;
+
+        document.getElementById('overviewLengths').innerHTML = `
+          <article class="card">
+            <h3>Kortaste text</h3>
+            <div class="overview-text">${escapeHtml(shortestText || '—')}</div>
+          </article>
+          <article class="card">
+            <h3>Längsta text</h3>
+            <div class="overview-text">${escapeHtml(longestText || '—')}</div>
+          </article>
+        `;
+
+        const refreshButton = document.getElementById('refreshRandomWord');
+        if (refreshButton) {
+          refreshButton.addEventListener('click', () => refreshRandomWord(analytics.topWords));
         }
-      } catch (err) {
-        document.getElementById('overview').innerHTML = '<div class="error">' + escapeHtml(err.message || String(err)) + '</div>';
       }
-    }
 
-    main();
+      function renderSearchList(items) {
+        const list = document.getElementById('textList');
+        const search = document.getElementById('searchInput');
+        const count = document.getElementById('textCount');
+        // Items are oldest-first; reverse for display. The #N chip keeps each
+        // text's original 1-based position in the dataset.
+        const newestFirstItems = [...items].reverse();
+
+        function draw() {
+          const query = search.value.trim().toLowerCase();
+          const rows = newestFirstItems.filter(item => !query || item.lc.includes(query));
+
+          const capped = rows.slice(0, MAX_DISPLAYED_TEXTS);
+          list.innerHTML = capped.map(item => `
+            <article class="text-item">
+              <div><span>${escapeHtml(item.text)}</span></div>
+              <div class="score-chips">
+                <span class="chip">#${item.index + 1}</span>
+              </div>
+            </article>
+          `).join('');
+          count.textContent = `Visar ${capped.length} av ${rows.length} matchande texter.`;
+        }
+
+        search.addEventListener('input', () => {
+          updateSearchParam(search.value);
+          draw();
+        });
+        draw();
+      }
+
+      function renderAll(texts, analytics) {
+        renderSearchList(analytics.items);
+        renderOverview(texts, analytics);
+        renderWordList('topWords', analytics.topWords.slice(0, TOP_WORDS_LIMIT).map(([label, value]) => ({ label, value })), analytics.totalWordCount);
+        renderTags('uniqueWords', analytics.uniqueWords.slice(0, UNIQUE_TAGS_LIMIT), analytics.uniqueWordLastIndex);
+      }
+
+      async function main() {
+        try {
+          bindWordPicker('overview');
+          bindWordPicker('topWords');
+          bindWordPicker('uniqueWords');
+          document.getElementById('overview').innerHTML = '<article class="card"><p class="muted">Laddar…</p></article>';
+          const texts = await fetchDataset();
+          const analytics = computeAnalytics(texts);
+          renderAll(texts, analytics);
+
+          const initialSearch = getSearchTermFromUrl();
+          if (initialSearch) {
+            setSearchAndScroll(initialSearch, { scroll: false, focus: false });
+          }
+        } catch (err) {
+          document.getElementById('overview').innerHTML = '<div class="error">' + escapeHtml(err.message || String(err)) + '</div>';
+        }
+      }
+
+      main();
+    })();
   </script>
 </body>
 
