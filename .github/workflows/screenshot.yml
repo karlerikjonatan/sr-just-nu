@@ -48,8 +48,8 @@ jobs:
       # Commit the scraper's output back to the repo (repo-as-database).
       - name: Commit and push
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/ texts.json screenshot-sources.json
           if git commit -m "Just nu: 📸"; then
             git push origin HEAD:${{ github.ref_name }}
