@@ -130,9 +130,8 @@ function generateManifest(dir, screenshotSources, manifestPath = path.join(__dir
 }
 
 function generateHTML() {
-  // Static shell. The gallery is populated client-side from screenshots.json in
-  // batches so the page loads instantly regardless of archive size. Nodes are
-  // built with DOM APIs (never innerHTML), so scraped hrefs can't inject markup.
+  // Fetch the manifest once, then add image elements in batches as the user scrolls.
+  // Build nodes with DOM APIs so scraped hrefs are not interpolated into markup.
   const html = `<!DOCTYPE html>
 <html lang="sv">
 <head>
@@ -232,9 +231,8 @@ async function main({
       return;
     }
 
-    // getElements returns headings in page order (newest at the top). Reverse so
-    // the batch is numbered oldest->newest; generateManifest's sort then restores
-    // newest-first for display.
+    // The homepage lists newest first. Reverse this local result array in place so
+    // filenames are assigned oldest to newest; the manifest sorts newest first.
     await captureScreenshots(elements.reverse(), outputDir, screenshotSources);
     console.log(`Saved ${elements.length} new screenshot(s)`);
 

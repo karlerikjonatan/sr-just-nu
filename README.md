@@ -42,8 +42,8 @@ cron (GitHub Actions, every 5 min)
 A small static shell (**generated — do not hand-edit**). It fetches
 [`docs/screenshots.json`](docs/screenshots.json) — a newest-first manifest of
 `{ f, href? }` entries — and renders images in batches of 100 as you scroll, using
-an `IntersectionObserver`. This keeps the page and DOM small no matter how large
-the archive grows.
+an `IntersectionObserver`. The manifest is fetched up front; batching limits the
+number of image elements added to the page before they are needed.
 
 ### The analytics dashboard — [`docs/analytics/index.html`](docs/analytics/index.html)
 
@@ -80,7 +80,7 @@ node index.js
 
 This scrapes the live site and updates the files above. Open `docs/index.html` in a
 browser (via a local static server so `fetch` works, e.g. `npx serve docs`) to view
-the gallery.
+the gallery. Running the scraper locally can modify tracked archive files.
 
 Run the tests with `npm test`.
 
