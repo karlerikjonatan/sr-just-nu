@@ -654,7 +654,6 @@
       ]);
 
       const MAX_DISPLAYED_TEXTS = 100;
-      const MAX_EXTRACTION_DEPTH = 6;
       const SEARCH_PARAM_KEY = 'search';
       // The vocabulary is thousands of words; render only the top slice of each
       // list so the DOM stays small.
@@ -689,40 +688,6 @@
           .filter(w => w.length > 1 && !STOPWORDS.has(w));
       }
 
-      // Defensive, shape-agnostic walker: pulls headline strings out of whatever
-      // texts.json contains (prefers known text-ish keys, else recurses into all
-      // values), so the dashboard survives changes to the file's structure. The
-      // `seen` set guards against cycles; MAX_EXTRACTION_DEPTH bounds recursion.
-      function extractTexts(value, out = [], seen = new Set(), depth = 0) {
-        if (depth > MAX_EXTRACTION_DEPTH || value == null) return out;
-        if (typeof value === 'string') {
-          const cleaned = normalizeText(value);
-          if (cleaned) out.push(cleaned);
-          return out;
-        }
-        if (typeof value !== 'object') return out;
-        if (seen.has(value)) return out;
-        seen.add(value);
-
-        if (Array.isArray(value)) {
-          for (const item of value) extractTexts(item, out, seen, depth + 1);
-          return out;
-        }
-
-        const knownKeys = ['text', 'title', 'headline', 'message', 'name', 'value'];
-        let usedKnown = false;
-        for (const key of knownKeys) {
-          if (typeof value[key] === 'string') {
-            extractTexts(value[key], out, seen, depth + 1);
-            usedKnown = true;
-          }
-        }
-        if (!usedKnown) {
-          for (const v of Object.values(value)) extractTexts(v, out, seen, depth + 1);
-        }
-        return out;
-      }
-
       async function fetchDataset() {
         // Fetched from raw.githubusercontent rather than same-origin because
         // texts.json lives at the repo root, outside the docs/ tree Pages serves.
@@ -730,7 +695,10 @@
         const res = await fetch(url, { cache: 'no-cache' });
         if (!res.ok) throw new Error(`Could not load data from ${url} (${res.status})`);
         const json = await res.json();
-        return [...new Set(extractTexts(json))];
+        if (!Array.isArray(json) || !json.every(text => typeof text === 'string')) {
+          throw new Error('texts.json must be an array of strings');
+        }
+        return [...new Set(json.map(normalizeText).filter(Boolean))];
       }
 
       function computeAnalytics(texts) {
