@@ -7,6 +7,9 @@
     "url": "git+https://github.com/karlerikjonatan/sr-just-nu.git"
   },
   "homepage": "https://karlerikjonatan.github.io/sr-just-nu/",
+  "scripts": {
+    "test": "node --test"
+  },
   "dependencies": {
     "puppeteer": "^24.10.0"
   }

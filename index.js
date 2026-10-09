@@ -1,4 +1,3 @@
-const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
 
@@ -23,11 +22,7 @@ function loadSeenTexts() {
 }
 
 function saveSeenTexts(seenTexts) {
-  try {
-    fs.writeFileSync(SEEN_TEXTS, JSON.stringify([...seenTexts]));
-  } catch (err) {
-    console.error('Error writing texts.json:', err);
-  }
+  fs.writeFileSync(SEEN_TEXTS, JSON.stringify([...seenTexts]));
 }
 
 function loadScreenshotSources() {
@@ -46,15 +41,7 @@ function loadScreenshotSources() {
 }
 
 function saveScreenshotSources(screenshotSources) {
-  try {
-    fs.writeFileSync(SCREENSHOT_SOURCES, JSON.stringify(screenshotSources, null, 2));
-  } catch (err) {
-    console.error('Error writing screenshot-sources.json:', err);
-  }
-}
-
-async function ensureDir(dir) {
-  return fs.promises.mkdir(dir, { recursive: true });
+  fs.writeFileSync(SCREENSHOT_SOURCES, JSON.stringify(screenshotSources, null, 2));
 }
 
 async function getElements(page, seenTexts) {
@@ -109,10 +96,9 @@ async function getElements(page, seenTexts) {
 }
 
 async function saveScreenshots(items, outputDir, screenshotSources) {
-  // One timestamp per run; `${timestamp}_${i}.png` is named so a plain
-  // lexicographic filename sort is also chronological (see generateManifest).
+  // Use one timestamp per run; generateManifest sorts the numeric filename parts.
   const timestamp = Date.now();
-  await ensureDir(outputDir);
+  await fs.promises.mkdir(outputDir, { recursive: true });
 
   for (let i = 0; i < items.length; i++) {
     const { element, href } = items[i];
@@ -124,27 +110,47 @@ async function saveScreenshots(items, outputDir, screenshotSources) {
   }
 }
 
-function generateManifest(dir, screenshotSources) {
-  // Filenames are timestamp-prefixed, so sort() is chronological and reverse()
-  // gives newest-first — the order the gallery renders in.
+function generateManifest(dir, screenshotSources, manifestPath = path.join(__dirname, 'docs', 'screenshots.json')) {
+  // Compare the numeric filename components so multi-digit batch indices sort
+  // chronologically as well as timestamps.
   const files = fs.readdirSync(dir)
     .filter(f => f.endsWith('.png'))
-    .sort()
-    .reverse();
+    .sort((a, b) => {
+      const [, timestampA = '', indexA = ''] = a.match(/^(\d+)_(\d+)\.png$/) || [];
+      const [, timestampB = '', indexB = ''] = b.match(/^(\d+)_(\d+)\.png$/) || [];
+      return Number(timestampB) - Number(timestampA) || Number(indexB) - Number(indexA);
+    });
 
   const manifest = files.map(f => {
     const href = screenshotSources[f];
     return href ? { f, href } : { f };
   });
 
-  fs.writeFileSync(path.join(__dirname, 'docs', 'screenshots.json'), JSON.stringify(manifest));
+  fs.writeFileSync(manifestPath, JSON.stringify(manifest));
 }
 
 function generateHTML() {
-  // Static shell. The gallery is populated client-side from screenshots.json in
-  // batches so the page loads instantly regardless of archive size. Nodes are
-  // built with DOM APIs (never innerHTML), so scraped hrefs can't inject markup.
-  const html = `<!DOCTYPE html><html lang="sv"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%B8%3C/text%3E%3C/svg%3E"><title>Just nu:</title><style>*{margin:0;padding:0}img{display:block;height:auto;max-width:100%}body{display:flex;flex-direction:column;gap:0.25rem;padding:0.25rem}a{display:block}#sentinel{height:1px}</style></head><body><div id="gallery"></div><div id="sentinel"></div><script>
+  // Fetch the manifest once, then add image elements in batches as the user scrolls.
+  // Build nodes with DOM APIs so scraped hrefs are not interpolated into markup.
+  const html = `<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%B8%3C/text%3E%3C/svg%3E">
+  <title>Just nu:</title>
+  <style>
+    * { margin: 0; padding: 0; }
+    img { display: block; height: auto; max-width: 100%; }
+    body { display: flex; flex-direction: column; gap: 0.25rem; padding: 0.25rem; }
+    a { display: block; }
+    #sentinel { height: 1px; }
+  </style>
+</head>
+<body>
+  <div id="gallery"></div>
+  <div id="sentinel"></div>
+  <script>
 (function () {
   var BATCH = 100;
   var gallery = document.getElementById('gallery');
@@ -190,18 +196,25 @@ function generateHTML() {
     })
     .catch(function (err) { console.error('Could not load screenshots.json', err); });
 })();
-</script></body></html>`;
+  </script>
+</body>
+</html>`;
 
   fs.writeFileSync(path.join(__dirname, 'docs', 'index.html'), html);
 }
 
-async function main() {
+async function main({
+  launchBrowser = options => require('puppeteer').launch(options),
+  findElements = getElements,
+  captureScreenshots = saveScreenshots,
+  outputDir = OUTPUT_DIR,
+  seenTexts = loadSeenTexts(),
+  screenshotSources = loadScreenshotSources(),
+} = {}) {
   let browser;
-  const seenTexts = loadSeenTexts();
-  const screenshotSources = loadScreenshotSources();
 
   try {
-    browser = await puppeteer.launch({
+    browser = await launchBrowser({
       headless: true,
       // --no-sandbox is required to run Chrome as root in the CI container.
       args: ['--no-sandbox', '--disable-setuid-sandbox'],
@@ -210,7 +223,7 @@ async function main() {
     const page = await browser.newPage();
     await page.goto(URL, { waitUntil: 'networkidle2' });
 
-    const elements = await getElements(page, seenTexts);
+    const elements = await findElements(page, seenTexts);
 
     if (elements.length === 0) {
       // Nothing new: skip all writes so the workflow makes no commit this run.
@@ -218,10 +231,9 @@ async function main() {
       return;
     }
 
-    // getElements returns headings in page order (newest at the top). Reverse so
-    // the batch is numbered oldest->newest; generateManifest's sort then restores
-    // newest-first for display.
-    await saveScreenshots(elements.reverse(), OUTPUT_DIR, screenshotSources);
+    // The homepage lists newest first. Reverse this local result array in place so
+    // filenames are assigned oldest to newest; the manifest sorts newest first.
+    await captureScreenshots(elements.reverse(), outputDir, screenshotSources);
     console.log(`Saved ${elements.length} new screenshot(s)`);
 
     saveSeenTexts(seenTexts);
@@ -229,7 +241,7 @@ async function main() {
     saveScreenshotSources(screenshotSources);
     console.log('Updated screenshot-sources.json');
 
-    generateManifest(OUTPUT_DIR, screenshotSources);
+    generateManifest(outputDir, screenshotSources);
     console.log('Generated screenshots.json');
     generateHTML();
     console.log('Generated HTML');
@@ -247,4 +259,4 @@ if (require.main === module) {
   main();
 }
 
-module.exports = { generateManifest, generateHTML, getElements };
+module.exports = { generateManifest, generateHTML, getElements, main };

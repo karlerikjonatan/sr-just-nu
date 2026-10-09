@@ -14,7 +14,7 @@ There is no server and no database — **the repository itself is the database**
 GitHub provides the scheduler (Actions), compute, and hosting (Pages).
 
 ```
-cron (GitHub Actions, every 10 min)
+cron (GitHub Actions, every 5 min)
   └─ node index.js
        ├─ Puppeteer loads sverigesradio.se
        ├─ finds new  <h2> headlines containing "Just nu:"
@@ -42,8 +42,8 @@ cron (GitHub Actions, every 10 min)
 A small static shell (**generated — do not hand-edit**). It fetches
 [`docs/screenshots.json`](docs/screenshots.json) — a newest-first manifest of
 `{ f, href? }` entries — and renders images in batches of 100 as you scroll, using
-an `IntersectionObserver`. This keeps the page and DOM small no matter how large
-the archive grows.
+an `IntersectionObserver`. The manifest is fetched up front; batching limits the
+number of image elements added to the page before they are needed.
 
 ### The analytics dashboard — [`docs/analytics/index.html`](docs/analytics/index.html)
 
@@ -53,9 +53,10 @@ searchable list. Search terms deep-link via a `?search=` query parameter.
 
 ### The scheduler — [`.github/workflows/screenshot.yml`](.github/workflows/screenshot.yml)
 
-Runs on cron every 10 minutes — at :07, :17, :27, :37, :47, and :57 past the hour,
-offset off the top of the hour where GitHub is most likely to delay scheduled runs
-(plus manual dispatch). Each run installs deps with `npm install`, runs
+Runs on cron every 5 minutes — at :02, :07, :12, :17, :22, :27, :32, :37, :42,
+:47, :52, and :57 past the hour, offset off the top of the hour where GitHub is
+most likely to delay scheduled runs (plus manual dispatch). Each run installs deps
+with `npm ci`, runs
 `node index.js`, then commits and pushes any changes under `docs/`, `texts.json`,
 and `screenshot-sources.json`.
 
@@ -79,7 +80,9 @@ node index.js
 
 This scrapes the live site and updates the files above. Open `docs/index.html` in a
 browser (via a local static server so `fetch` works, e.g. `npx serve docs`) to view
-the gallery.
+the gallery. Running the scraper locally can modify tracked archive files.
+
+Run the tests with `npm test`.
 
 ## Tech
 
