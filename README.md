@@ -71,7 +71,8 @@ and `screenshot-sources.json`.
 
 ## Running locally
 
-Requires Node.js 20+.
+Requires Node.js 22.12 or later, matching the Puppeteer version in the lockfile.
+The GitHub Actions workflow currently uses Node.js 24.
 
 ```bash
 npm ci
