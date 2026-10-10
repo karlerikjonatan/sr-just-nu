@@ -3,16 +3,12 @@ name: Screenshot
 permissions:
   contents: write
 
-# Serialize runs so an overlapping scheduled/dispatch run can't race on git push.
+# Serialize runs so overlapping dispatch runs can't race on git push.
 concurrency:
   group: screenshot
   cancel-in-progress: false
 
 on:
-  # Every 5 min, offset off :00 — GitHub delays/drops runs scheduled at the top
-  # of the hour, and missed scheduled runs are never backfilled.
-  schedule:
-    - cron: "2,7,12,17,22,27,32,37,42,47,52,57 * * * *"
   workflow_dispatch:
 
 jobs:

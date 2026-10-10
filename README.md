@@ -11,10 +11,11 @@ alongside an analytics dashboard.
 ## How it works
 
 There is no server and no database — **the repository itself is the database**, and
-GitHub provides the scheduler (Actions), compute, and hosting (Pages).
+GitHub provides compute (Actions) and hosting (Pages), with cron-job.org providing
+the schedule through workflow dispatch.
 
 ```
-cron (GitHub Actions, every 5 min)
+cron (cron-job.org, every 5 min) → GitHub Actions workflow dispatch
   └─ node index.js
        ├─ Puppeteer loads sverigesradio.se
        ├─ finds new  <h2> headlines containing "Just nu:"
@@ -51,12 +52,11 @@ A standalone, dependency-free page that fetches `texts.json`, tokenizes the
 headlines (with a Swedish stopword list), and renders word-frequency stats plus a
 searchable list. Search terms deep-link via a `?search=` query parameter.
 
-### The scheduler — [`.github/workflows/screenshot.yml`](.github/workflows/screenshot.yml)
+### The workflow — [`.github/workflows/screenshot.yml`](.github/workflows/screenshot.yml)
 
-Runs on cron every 5 minutes — at :02, :07, :12, :17, :22, :27, :32, :37, :42,
-:47, :52, and :57 past the hour, offset off the top of the hour where GitHub is
-most likely to delay scheduled runs (plus manual dispatch). Each run installs deps
-with `npm ci`, runs
+Triggered by cron-job.org every 5 minutes via `workflow_dispatch`, or manually
+through GitHub Actions. There is no GitHub Actions schedule. Each run installs
+deps with `npm ci`, runs
 `node index.js`, then commits and pushes any changes under `docs/`, `texts.json`,
 and `screenshot-sources.json`.
 
