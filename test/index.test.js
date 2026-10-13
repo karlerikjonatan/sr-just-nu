@@ -4,7 +4,36 @@ const os = require('node:os');
 const path = require('node:path');
 const test = require('node:test');
 
-const { generateManifest, main } = require('../index');
+const { generateHTML, generateManifest, main } = require('../index');
+
+test('generateHTML sizes batches and eager loading to the viewport', t => {
+  const directory = fs.mkdtempSync(path.join(os.tmpdir(), 'sr-just-nu-'));
+  const htmlPath = path.join(directory, 'index.html');
+  const manifestPath = path.join(directory, 'manifest.json');
+  fs.writeFileSync(manifestPath, JSON.stringify([
+    { f: '123_0.png', alt: 'Just nu: test headline' },
+    { f: '122_0.png', alt: 'Just nu: another headline' },
+  ]));
+  t.after(() => fs.rmSync(directory, { recursive: true, force: true }));
+
+  generateHTML(htmlPath, manifestPath);
+  const html = fs.readFileSync(htmlPath, 'utf8');
+
+  assert.match(html, /function itemHeight\(item\)/);
+  assert.match(html, /function countForHeight\(start, height\)/);
+  assert.match(html, /countForHeight\(cursor, window\.innerHeight \* 2\)/);
+  assert.match(html, /countForHeight\(0, window\.innerHeight\)/);
+  assert.match(html, /img\.setAttribute\('width', item\.width\)/);
+  assert.match(html, /<link rel="preload" as="image" href="screenshots\/123_0\.png" fetchpriority="high">/);
+  assert.match(html, /<link rel="preload" as="image" href="screenshots\/122_0\.png">/);
+  assert.match(html, /meta name="description"/);
+  assert.match(html, /img\.setAttribute\('alt', item\.alt \|\| /);
+  assert.match(html, /var eagerCount = countForHeight\(0, window\.innerHeight\);/);
+  assert.match(html, /img\.setAttribute\('loading', cursor < eagerCount \? 'eager' : 'lazy'\);/);
+  assert.match(html, /img\.setAttribute\('decoding', 'async'\);/);
+  assert.match(html, /if \(cursor === 0\) img\.setAttribute\('fetchpriority', 'high'\);/);
+  assert.doesNotMatch(html, /setAttribute\('width', '768'\)/);
+});
 
 test('generateManifest sorts timestamp and batch index numerically, newest first', t => {
   const directory = fs.mkdtempSync(path.join(os.tmpdir(), 'sr-just-nu-'));
@@ -17,15 +46,40 @@ test('generateManifest sorts timestamp and batch index numerically, newest first
   for (const filename of filenames) {
     fs.writeFileSync(path.join(screenshotDir, filename), '');
   }
+  const pngHeader = Buffer.alloc(24);
+  Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]).copy(pngHeader);
+  pngHeader.write('IHDR', 12, 'ascii');
+  pngHeader.writeUInt32BE(688, 16);
+  pngHeader.writeUInt32BE(24, 20);
+  fs.writeFileSync(path.join(screenshotDir, '101_0.png'), pngHeader);
 
-  generateManifest(screenshotDir, {}, manifestPath);
+  generateManifest(screenshotDir, {
+    '101_0.png': { href: 'https://example.com/article', alt: 'Just nu: newest headline' },
+    '100_10.png': 'https://example.com/legacy-article',
+  }, manifestPath);
 
   const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
-  assert.deepEqual(manifest.map(item => item.f), [
-    '101_0.png',
-    '100_10.png',
-    '100_2.png',
-    '99_20.png',
+  assert.deepEqual(manifest, [
+    {
+      f: '101_0.png',
+      href: 'https://example.com/article',
+      alt: 'Just nu: newest headline',
+      width: 688,
+      height: 24,
+    },
+    {
+      f: '100_10.png',
+      href: 'https://example.com/legacy-article',
+      alt: 'Screenshot of a Just nu breaking-news headline',
+    },
+    {
+      f: '100_2.png',
+      alt: 'Screenshot of a Just nu breaking-news headline',
+    },
+    {
+      f: '99_20.png',
+      alt: 'Screenshot of a Just nu breaking-news headline',
+    },
   ]);
 });
 

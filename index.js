@@ -6,7 +6,7 @@ const OUTPUT_DIR = path.join(__dirname, 'docs', 'screenshots');
 // Stored as a JSON array but used as a Set. Doubles as the scraper's dedup store
 // and the dataset the analytics dashboard fetches, so it only ever grows.
 const SEEN_TEXTS = path.join(__dirname, 'texts.json');
-// Map of screenshot filename -> source article URL, consumed by the gallery.
+// Map of screenshot filename -> source article URL and captured headline.
 const SCREENSHOT_SOURCES = path.join(__dirname, 'screenshot-sources.json');
 
 function loadSeenTexts() {
@@ -42,6 +42,28 @@ function loadScreenshotSources() {
 
 function saveScreenshotSources(screenshotSources) {
   fs.writeFileSync(SCREENSHOT_SOURCES, JSON.stringify(screenshotSources, null, 2));
+}
+
+function getPngDimensions(filePath) {
+  const header = Buffer.alloc(24);
+  const fd = fs.openSync(filePath, 'r');
+
+  try {
+    if (fs.readSync(fd, header, 0, header.length, 0) !== header.length) return null;
+  } finally {
+    fs.closeSync(fd);
+  }
+
+  if (
+    !header.subarray(0, 8).equals(Buffer.from([137, 80, 78, 71, 13, 10, 26, 10])) ||
+    header.toString('ascii', 12, 16) !== 'IHDR'
+  ) {
+    return null;
+  }
+
+  const width = header.readUInt32BE(16);
+  const height = header.readUInt32BE(20);
+  return width > 0 && height > 0 ? { width, height } : null;
 }
 
 async function getElements(page, seenTexts) {
@@ -101,12 +123,10 @@ async function saveScreenshots(items, outputDir, screenshotSources) {
   await fs.promises.mkdir(outputDir, { recursive: true });
 
   for (let i = 0; i < items.length; i++) {
-    const { element, href } = items[i];
+    const { element, href, text } = items[i];
     const filename = `${timestamp}_${i}.png`;
     await element.screenshot({ path: path.join(outputDir, filename) });
-    if (href) {
-      screenshotSources[filename] = href;
-    }
+    screenshotSources[filename] = { href, alt: text };
   }
 }
 
@@ -121,17 +141,49 @@ function generateManifest(dir, screenshotSources, manifestPath = path.join(__dir
       return Number(timestampB) - Number(timestampA) || Number(indexB) - Number(indexA);
     });
 
+  // Dimensions never change, so reuse them from the previous manifest and only
+  // read PNG headers for files that are new.
+  let previous = [];
+  try {
+    previous = JSON.parse(fs.readFileSync(manifestPath, 'utf-8'));
+  } catch {}
+  const knownDimensions = new Map(previous.map(item => [item.f, item]));
+
   const manifest = files.map(f => {
-    const href = screenshotSources[f];
-    return href ? { f, href } : { f };
+    const source = screenshotSources[f];
+    const href = typeof source === 'string' ? source : source?.href;
+    const alt = typeof source === 'object' ? source?.alt : null;
+    const known = knownDimensions.get(f);
+    const dimensions = known?.width > 0 && known?.height > 0
+      ? { width: known.width, height: known.height }
+      : getPngDimensions(path.join(dir, f));
+    return {
+      f,
+      ...(href ? { href } : {}),
+      alt: typeof alt === 'string' && alt ? alt : 'Screenshot of a Just nu breaking-news headline',
+      ...(dimensions || {}),
+    };
   });
 
   fs.writeFileSync(manifestPath, JSON.stringify(manifest));
 }
 
-function generateHTML() {
-  // Fetch the manifest once, then add image elements in batches as the user scrolls.
+function generateHTML(
+  outputPath = path.join(__dirname, 'docs', 'index.html'),
+  manifestPath = path.join(__dirname, 'docs', 'screenshots.json'),
+) {
+  // Fetch the manifest once, then add image elements in viewport-sized batches.
   // Build nodes with DOM APIs so scraped hrefs are not interpolated into markup.
+  // The gallery fetches the manifest itself, so an absent or unreadable one only
+  // means no preload hints.
+  let manifest = [];
+  try {
+    manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf-8'));
+  } catch {}
+  const preloadLinks = manifest.slice(0, 8)
+    .filter(item => typeof item.f === 'string' && /^\d+_\d+\.png$/.test(item.f))
+    .map((item, i) => `  <link rel="preload" as="image" href="screenshots/${item.f}"${i === 0 ? ' fetchpriority="high"' : ''}>`)
+    .join('\n');
   const html = `<!DOCTYPE html>
 <html lang="sv">
 <head>
@@ -139,6 +191,8 @@ function generateHTML() {
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%B8%3C/text%3E%3C/svg%3E">
   <title>Just nu:</title>
+  <meta name="description" content="Ett bildarkiv över Sveriges Radios senaste Just nu-nyheter.">
+${preloadLinks}
   <style>
     * { margin: 0; padding: 0; }
     img { display: block; height: auto; max-width: 100%; }
@@ -152,22 +206,47 @@ function generateHTML() {
   <div id="sentinel"></div>
   <script>
 (function () {
-  var BATCH = 100;
+  var FALLBACK_IMAGE_WIDTH = 768;
+  var FALLBACK_IMAGE_HEIGHT = 32;
   var gallery = document.getElementById('gallery');
   var sentinel = document.getElementById('sentinel');
   var items = [];
   var cursor = 0;
 
+  function itemHeight(item) {
+    var contentWidth = gallery.clientWidth || window.innerWidth;
+    if (item.width > 0 && item.height > 0) {
+      return item.height * Math.min(1, contentWidth / item.width);
+    }
+    return FALLBACK_IMAGE_HEIGHT * Math.min(1, contentWidth / FALLBACK_IMAGE_WIDTH);
+  }
+
+  function countForHeight(start, height) {
+    var totalHeight = 0;
+    var count = 0;
+    while (start + count < items.length && totalHeight < height) {
+      totalHeight += itemHeight(items[start + count]);
+      count++;
+    }
+    return Math.max(count, 1);
+  }
+
   function renderBatch() {
-    var end = Math.min(cursor + BATCH, items.length);
+    var end = Math.min(cursor + countForHeight(cursor, window.innerHeight * 2), items.length);
+    var eagerCount = countForHeight(0, window.innerHeight);
     var frag = document.createDocumentFragment();
     for (; cursor < end; cursor++) {
       var item = items[cursor];
       var img = document.createElement('img');
       img.setAttribute('src', 'screenshots/' + item.f);
-      img.setAttribute('loading', 'lazy');
-      img.setAttribute('width', '768');
-      img.setAttribute('height', '32');
+      img.setAttribute('alt', item.alt || 'Screenshot of a Just nu breaking-news headline');
+      img.setAttribute('loading', cursor < eagerCount ? 'eager' : 'lazy');
+      img.setAttribute('decoding', 'async');
+      if (cursor === 0) img.setAttribute('fetchpriority', 'high');
+      if (item.width > 0 && item.height > 0) {
+        img.setAttribute('width', item.width);
+        img.setAttribute('height', item.height);
+      }
       if (item.href) {
         var a = document.createElement('a');
         a.setAttribute('href', item.href);
@@ -200,7 +279,7 @@ function generateHTML() {
 </body>
 </html>`;
 
-  fs.writeFileSync(path.join(__dirname, 'docs', 'index.html'), html);
+  fs.writeFileSync(outputPath, html);
 }
 
 async function main({
@@ -236,6 +315,7 @@ async function main({
     await captureScreenshots(elements.reverse(), outputDir, screenshotSources);
     console.log(`Saved ${elements.length} new screenshot(s)`);
 
+    // Write order matters: nothing is committed if any write below throws.
     saveSeenTexts(seenTexts);
     console.log('Updated texts.json');
     saveScreenshotSources(screenshotSources);

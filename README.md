@@ -33,7 +33,7 @@ cron (cron-job.org, every 5 min) → GitHub Actions workflow dispatch
 3. Scans every `<h2>`, keeps those containing `Just nu:` that haven't been seen,
    and resolves each to its source article URL (nearest ancestor/related anchor,
    made absolute).
-4. Screenshots each matching element and records its article link.
+4. Screenshots each matching element and records its article link and headline.
 5. Persists `texts.json` and `screenshot-sources.json`, then regenerates the gallery.
 6. If no new headlines are found, it exits without writing anything. On any error
    it exits non-zero so the Action run shows as failed.
@@ -42,9 +42,13 @@ cron (cron-job.org, every 5 min) → GitHub Actions workflow dispatch
 
 A small static shell (**generated — do not hand-edit**). It fetches
 [`docs/screenshots.json`](docs/screenshots.json) — a newest-first manifest of
-`{ f, href? }` entries — and renders images in batches of 100 as you scroll, using
-an `IntersectionObserver`. The manifest is fetched up front; batching limits the
-number of image elements added to the page before they are needed.
+`{ f, href?, alt, width?, height? }` entries — and renders images in
+viewport-sized batches as you scroll, using an `IntersectionObserver`. It preloads
+the first eight screenshots for fast LCP discovery, eagerly loads enough images to
+fill the initial viewport, and lazy-loads the rest. Batch sizes adapt to both
+viewport height and each image's dimensions. Screenshot alt text uses the captured
+headline; older archive images without saved headline metadata use a descriptive
+fallback.
 
 ### The analytics dashboard — [`docs/analytics/index.html`](docs/analytics/index.html)
 
@@ -65,7 +69,7 @@ and `screenshot-sources.json`.
 | File | Purpose |
 | --- | --- |
 | `texts.json` | Deduplication set of every headline seen (also the analytics dataset). |
-| `screenshot-sources.json` | Map of `screenshot filename → source article URL`. |
+| `screenshot-sources.json` | Map of screenshot filenames to source article URLs and captured headlines. |
 | `docs/screenshots/*.png` | One screenshot per captured headline. |
 | `docs/screenshots.json` | Generated newest-first manifest driving the gallery. |
 
