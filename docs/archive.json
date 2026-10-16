@@ -43156,6 +43156,10 @@
     {
       "id": "0bc383755c4572b0d83baea704cd0b11c71809e4cb038ebdb242343fa86a4bcc",
       "text": "Just nu: Polisen stoppar pendeltåg i Älvsjö"
+    },
+    {
+      "id": "afdb9dde21f4f2c46368c7c0f9a1024369a8442c177eef63e4556fbe4dc24e85",
+      "text": "Just nu: Person påkörd i Lerum"
     }
   ],
   "captures": [
@@ -107886,6 +107890,12 @@
       "headlineId": "0bc383755c4572b0d83baea704cd0b11c71809e4cb038ebdb242343fa86a4bcc",
       "articleUrl": "https://www.sverigesradio.se/artikel/inga-pendeltag-stannat-i-alvsjo-pa-polisens-order",
       "capturedAt": "2026-10-16T20:22:30.350Z"
+    },
+    {
+      "filename": "1792184253234_0.png",
+      "headlineId": "afdb9dde21f4f2c46368c7c0f9a1024369a8442c177eef63e4556fbe4dc24e85",
+      "articleUrl": "https://www.sverigesradio.se/artikel/person-pakord-av-bil-i-lerum-vaken-och-talbar",
+      "capturedAt": "2026-10-16T20:57:33.234Z"
     }
   ]
 }
