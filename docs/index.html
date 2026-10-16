@@ -53,14 +53,26 @@
     if (entries[0].isIntersecting && cursor < items.length) renderBatch();
   });
 
-  fetch('screenshots.json', { cache: 'no-cache' })
-    .then(function (res) { return res.json(); })
+  fetch('archive.json', { cache: 'no-cache' })
+    .then(function (res) {
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      return res.json();
+    })
     .then(function (data) {
-      items = data;
+      if (!data || data.schemaVersion !== 1 || !Array.isArray(data.captures)) {
+        throw new Error('Unsupported archive schema');
+      }
+      items = data.captures.slice().sort(function (a, b) {
+        var partsA = a.filename.slice(0, -4).split('_');
+        var partsB = b.filename.slice(0, -4).split('_');
+        return Number(partsB[0]) - Number(partsA[0]) || Number(partsB[1]) - Number(partsA[1]);
+      }).map(function (capture) {
+        return { f: capture.filename, href: capture.articleUrl };
+      });
       renderBatch();
       observer.observe(sentinel);
     })
-    .catch(function (err) { console.error('Could not load screenshots.json', err); });
+    .catch(function (err) { console.error('Could not load archive.json', err); });
 })();
   </script>
 </body>
