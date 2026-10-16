@@ -43128,6 +43128,10 @@
     {
       "id": "6c0a662c5aec46330d976ea2d20affddf2b22d672daaf840d8ae9197e73a1f4b",
       "text": "Just nu: Svensk gängkriminell gripen i Tyskland"
+    },
+    {
+      "id": "59d93d826c8f5b8c19746e8468da713d25e8f4f0f5e30b96da3cc2f4ba70345e",
+      "text": "Just nu: Väg avstängd efter olycka vid Getinge"
     }
   ],
   "captures": [
@@ -107816,6 +107820,12 @@
       "headlineId": null,
       "articleUrl": "https://www.sverigesradio.se/artikel/gangkriminell-gripen-i-tyskland-kopplas-till-grov-brottslighet-i-stockholm",
       "capturedAt": "2026-10-16T11:47:26.751Z"
+    },
+    {
+      "filename": "1792171348811_0.png",
+      "headlineId": "59d93d826c8f5b8c19746e8468da713d25e8f4f0f5e30b96da3cc2f4ba70345e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/e6-avstangd-efter-singelolycka--2",
+      "capturedAt": "2026-10-16T17:22:28.811Z"
     }
   ]
 }
