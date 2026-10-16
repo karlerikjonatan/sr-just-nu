@@ -43148,6 +43148,10 @@
     {
       "id": "589c5aa82c490cb370ef496bf5b1ce5b43d0d725221ebb5406d7f2d090b9752d",
       "text": "Just nu: Trumps nya talesperson petas"
+    },
+    {
+      "id": "d70c08032379b040acabe6b7ddc4ce63f24192de7ffa6d1f208711281a8b15ce",
+      "text": "Just nu: Man misstänks för grov misshandel i Orsa"
     }
   ],
   "captures": [
@@ -107866,6 +107870,12 @@
       "headlineId": "589c5aa82c490cb370ef496bf5b1ce5b43d0d725221ebb5406d7f2d090b9752d",
       "articleUrl": "https://www.sverigesradio.se/artikel/uppgifter-trumps-nya-talesperson-petas",
       "capturedAt": "2026-10-16T18:37:28.945Z"
+    },
+    {
+      "filename": "1792177046878_0.png",
+      "headlineId": "d70c08032379b040acabe6b7ddc4ce63f24192de7ffa6d1f208711281a8b15ce",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-anhallen-misstanks-for-grov-misshandel-i-orsa",
+      "capturedAt": "2026-10-16T18:57:26.878Z"
     }
   ]
 }
