@@ -43140,6 +43140,10 @@
     {
       "id": "9adde57bea5180f3d1d157c450c49d7bec27b9211ad7b73680198438d57aea23",
       "text": "Just nu: Möregårdh utslagen av 213-rankad"
+    },
+    {
+      "id": "078ba0a8106dbaf5d0357d7992fb14f94df24021318ed21716d8ac18089cbdcb",
+      "text": "Just nu: Uppgifter: Trumps nya talesperson petas"
     }
   ],
   "captures": [
@@ -107846,6 +107850,12 @@
       "headlineId": "9adde57bea5180f3d1d157c450c49d7bec27b9211ad7b73680198438d57aea23",
       "articleUrl": "https://www.sverigesradio.se/artikel/skrallen-moregardh-utslagen-av-213-rankad-norrman",
       "capturedAt": "2026-10-16T18:07:31.010Z"
+    },
+    {
+      "filename": "1792175253342_0.png",
+      "headlineId": "078ba0a8106dbaf5d0357d7992fb14f94df24021318ed21716d8ac18089cbdcb",
+      "articleUrl": "https://www.sverigesradio.se/artikel/uppgifter-trumps-nya-talesperson-petas",
+      "capturedAt": "2026-10-16T18:27:33.342Z"
     }
   ]
 }
