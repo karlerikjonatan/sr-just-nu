@@ -43152,6 +43152,10 @@
     {
       "id": "d70c08032379b040acabe6b7ddc4ce63f24192de7ffa6d1f208711281a8b15ce",
       "text": "Just nu: Man misstänks för grov misshandel i Orsa"
+    },
+    {
+      "id": "0bc383755c4572b0d83baea704cd0b11c71809e4cb038ebdb242343fa86a4bcc",
+      "text": "Just nu: Polisen stoppar pendeltåg i Älvsjö"
     }
   ],
   "captures": [
@@ -107876,6 +107880,12 @@
       "headlineId": "d70c08032379b040acabe6b7ddc4ce63f24192de7ffa6d1f208711281a8b15ce",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-anhallen-misstanks-for-grov-misshandel-i-orsa",
       "capturedAt": "2026-10-16T18:57:26.878Z"
+    },
+    {
+      "filename": "1792182150350_0.png",
+      "headlineId": "0bc383755c4572b0d83baea704cd0b11c71809e4cb038ebdb242343fa86a4bcc",
+      "articleUrl": "https://www.sverigesradio.se/artikel/inga-pendeltag-stannat-i-alvsjo-pa-polisens-order",
+      "capturedAt": "2026-10-16T20:22:30.350Z"
     }
   ]
 }
