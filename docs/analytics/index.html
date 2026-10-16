@@ -688,16 +688,15 @@
       }
 
       async function fetchDataset() {
-        // Fetched from raw.githubusercontent rather than same-origin because
-        // texts.json lives at the repo root, outside the docs/ tree Pages serves.
-        const url = 'https://raw.githubusercontent.com/karlerikjonatan/sr-just-nu/main/texts.json';
+        const url = '../archive.json';
         const res = await fetch(url, { cache: 'no-cache' });
         if (!res.ok) throw new Error(`Could not load data from ${url} (${res.status})`);
         const json = await res.json();
-        if (!Array.isArray(json) || !json.every(text => typeof text === 'string')) {
-          throw new Error('texts.json must be an array of strings');
+        if (!json || json.schemaVersion !== 1 || !Array.isArray(json.headlines) ||
+            !json.headlines.every(headline => headline && typeof headline.text === 'string')) {
+          throw new Error('Unsupported archive schema');
         }
-        return [...new Set(json.map(normalizeText).filter(Boolean))];
+        return [...new Set(json.headlines.map(headline => normalizeText(headline.text)).filter(Boolean))];
       }
 
       function computeAnalytics(texts) {

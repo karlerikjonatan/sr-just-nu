@@ -1,48 +1,9 @@
 const fs = require('fs');
 const path = require('path');
+const { ARCHIVE_PATH, capturedAt, headlineId, loadArchive, saveArchive, validateArchive } = require('./archive');
 
 const URL = 'https://www.sverigesradio.se';
 const OUTPUT_DIR = path.join(__dirname, 'docs', 'screenshots');
-// Stored as a JSON array but used as a Set. Doubles as the scraper's dedup store
-// and the dataset the analytics dashboard fetches, so it only ever grows.
-const SEEN_TEXTS = path.join(__dirname, 'texts.json');
-// Map of screenshot filename -> source article URL, consumed by the gallery.
-const SCREENSHOT_SOURCES = path.join(__dirname, 'screenshot-sources.json');
-
-function loadSeenTexts() {
-  if (fs.existsSync(SEEN_TEXTS)) {
-    try {
-      const data = fs.readFileSync(SEEN_TEXTS, 'utf-8');
-      return new Set(JSON.parse(data));
-    } catch (err) {
-      console.error('Error reading texts.json:', err);
-    }
-  }
-  return new Set();
-}
-
-function saveSeenTexts(seenTexts) {
-  fs.writeFileSync(SEEN_TEXTS, JSON.stringify([...seenTexts]));
-}
-
-function loadScreenshotSources() {
-  if (fs.existsSync(SCREENSHOT_SOURCES)) {
-    try {
-      const data = JSON.parse(fs.readFileSync(SCREENSHOT_SOURCES, 'utf-8'));
-      // Only accept a plain object map; guard against a corrupted/legacy shape.
-      if (data && typeof data === 'object' && !Array.isArray(data)) {
-        return data;
-      }
-    } catch (err) {
-      console.error('Error reading screenshot-sources.json:', err);
-    }
-  }
-  return {};
-}
-
-function saveScreenshotSources(screenshotSources) {
-  fs.writeFileSync(SCREENSHOT_SOURCES, JSON.stringify(screenshotSources, null, 2));
-}
 
 async function getElements(page, seenTexts) {
   // Remove Sveriges Radio's cookie/consent dialog overlays ([data-open]) so they
@@ -95,42 +56,52 @@ async function getElements(page, seenTexts) {
   return elements;
 }
 
-async function saveScreenshots(items, outputDir, screenshotSources) {
-  // Use one timestamp per run; generateManifest sorts the numeric filename parts.
-  const timestamp = Date.now();
+async function saveScreenshots(items, outputDir, archive, archivePath) {
   await fs.promises.mkdir(outputDir, { recursive: true });
-
-  for (let i = 0; i < items.length; i++) {
-    const { element, href } = items[i];
-    const filename = `${timestamp}_${i}.png`;
-    await element.screenshot({ path: path.join(outputDir, filename) });
-    if (href) {
-      screenshotSources[filename] = href;
+  const existing = new Set([
+    ...fs.readdirSync(outputDir),
+    ...archive.captures.map(capture => capture.filename),
+  ]);
+  let timestamp = Date.now();
+  // Interrupted runs may leave unreferenced images. Never overwrite those files.
+  while (items.some((_, i) => existing.has(`${timestamp}_${i}.png`))) timestamp++;
+  const stagingDirectory = fs.mkdtempSync(path.join(outputDir, '.capture-'));
+  const promoted = [];
+  const headlines = [];
+  const captures = [];
+  try {
+    for (let i = 0; i < items.length; i++) {
+      const { element, text, href } = items[i];
+      const filename = `${timestamp}_${i}.png`;
+      await element.screenshot({ path: path.join(stagingDirectory, filename) });
+      const id = headlineId(text);
+      headlines.push({ id, text });
+      captures.push({ filename, headlineId: id, articleUrl: href ?? null, capturedAt: capturedAt(filename) });
     }
+    const updated = validateArchive({
+      schemaVersion: 1,
+      // Capture oldest first, but retain the homepage's headline insertion order.
+      headlines: [...archive.headlines, ...headlines.reverse()],
+      captures: [...archive.captures, ...captures],
+    });
+    for (const { filename } of captures) {
+      const destination = path.join(outputDir, filename);
+      // Exclusive creation also protects against a concurrent local writer.
+      fs.linkSync(path.join(stagingDirectory, filename), destination);
+      promoted.push(destination);
+    }
+    fs.rmSync(stagingDirectory, { recursive: true });
+    saveArchive(updated, archivePath);
+  } catch (err) {
+    for (const filename of promoted) fs.unlinkSync(filename);
+    throw err;
+  } finally {
+    fs.rmSync(stagingDirectory, { recursive: true, force: true });
   }
 }
 
-function generateManifest(dir, screenshotSources, manifestPath = path.join(__dirname, 'docs', 'screenshots.json')) {
-  // Compare the numeric filename components so multi-digit batch indices sort
-  // chronologically as well as timestamps.
-  const files = fs.readdirSync(dir)
-    .filter(f => f.endsWith('.png'))
-    .sort((a, b) => {
-      const [, timestampA = '', indexA = ''] = a.match(/^(\d+)_(\d+)\.png$/) || [];
-      const [, timestampB = '', indexB = ''] = b.match(/^(\d+)_(\d+)\.png$/) || [];
-      return Number(timestampB) - Number(timestampA) || Number(indexB) - Number(indexA);
-    });
-
-  const manifest = files.map(f => {
-    const href = screenshotSources[f];
-    return href ? { f, href } : { f };
-  });
-
-  fs.writeFileSync(manifestPath, JSON.stringify(manifest));
-}
-
-function generateHTML() {
-  // Fetch the manifest once, then add image elements in batches as the user scrolls.
+function generateHTML(file = path.join(__dirname, 'docs', 'index.html')) {
+  // Fetch the archive once, then add image elements in batches as the user scrolls.
   // Build nodes with DOM APIs so scraped hrefs are not interpolated into markup.
   const html = `<!DOCTYPE html>
 <html lang="sv">
@@ -187,20 +158,32 @@ function generateHTML() {
     if (entries[0].isIntersecting && cursor < items.length) renderBatch();
   });
 
-  fetch('screenshots.json', { cache: 'no-cache' })
-    .then(function (res) { return res.json(); })
+  fetch('archive.json', { cache: 'no-cache' })
+    .then(function (res) {
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      return res.json();
+    })
     .then(function (data) {
-      items = data;
+      if (!data || data.schemaVersion !== 1 || !Array.isArray(data.captures)) {
+        throw new Error('Unsupported archive schema');
+      }
+      items = data.captures.slice().sort(function (a, b) {
+        var partsA = a.filename.slice(0, -4).split('_');
+        var partsB = b.filename.slice(0, -4).split('_');
+        return Number(partsB[0]) - Number(partsA[0]) || Number(partsB[1]) - Number(partsA[1]);
+      }).map(function (capture) {
+        return { f: capture.filename, href: capture.articleUrl };
+      });
       renderBatch();
       observer.observe(sentinel);
     })
-    .catch(function (err) { console.error('Could not load screenshots.json', err); });
+    .catch(function (err) { console.error('Could not load archive.json', err); });
 })();
   </script>
 </body>
 </html>`;
 
-  fs.writeFileSync(path.join(__dirname, 'docs', 'index.html'), html);
+  fs.writeFileSync(file, html);
 }
 
 async function main({
@@ -208,12 +191,14 @@ async function main({
   findElements = getElements,
   captureScreenshots = saveScreenshots,
   outputDir = OUTPUT_DIR,
-  seenTexts = loadSeenTexts(),
-  screenshotSources = loadScreenshotSources(),
+  archivePath = ARCHIVE_PATH,
+  generatePage = generateHTML,
 } = {}) {
   let browser;
 
   try {
+    const archive = loadArchive(archivePath);
+    const seenTexts = new Set(archive.headlines.map(headline => headline.text));
     browser = await launchBrowser({
       headless: true,
       // --no-sandbox is required to run Chrome as root in the CI container.
@@ -232,18 +217,12 @@ async function main({
     }
 
     // The homepage lists newest first. Reverse this local result array in place so
-    // filenames are assigned oldest to newest; the manifest sorts newest first.
-    await captureScreenshots(elements.reverse(), outputDir, screenshotSources);
+    // filenames are assigned oldest to newest; the gallery sorts newest first.
+    await captureScreenshots(elements.reverse(), outputDir, archive, archivePath);
     console.log(`Saved ${elements.length} new screenshot(s)`);
 
-    saveSeenTexts(seenTexts);
-    console.log('Updated texts.json');
-    saveScreenshotSources(screenshotSources);
-    console.log('Updated screenshot-sources.json');
-
-    generateManifest(outputDir, screenshotSources);
-    console.log('Generated screenshots.json');
-    generateHTML();
+    console.log('Updated archive.json');
+    generatePage();
     console.log('Generated HTML');
   } catch (err) {
     console.error('Error:', err);
@@ -259,4 +238,4 @@ if (require.main === module) {
   main();
 }
 
-module.exports = { generateManifest, generateHTML, getElements, main };
+module.exports = { generateHTML, getElements, saveScreenshots, main };
