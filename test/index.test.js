@@ -288,7 +288,7 @@ test('main captures new exact headlines once and preserves run ordering end to e
 });
 
 function htmlScript(html) {
-  return html.match(/<script>([\s\S]*?)<\/script>/)[1];
+  return html.match(/<script>([\s\S]*?)<\/script>/i)[1];
 }
 
 test('gallery reads unified archive, sorts numerically, and preserves image/link rendering', async t => {
