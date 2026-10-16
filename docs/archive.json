@@ -43136,6 +43136,10 @@
     {
       "id": "f2642e046faed04bb55ad00239d0d6b6074a474b6336799dd714af001ce692cc",
       "text": "Just nu: Långa köer på E6 vid Getinge"
+    },
+    {
+      "id": "9adde57bea5180f3d1d157c450c49d7bec27b9211ad7b73680198438d57aea23",
+      "text": "Just nu: Möregårdh utslagen av 213-rankad"
     }
   ],
   "captures": [
@@ -107836,6 +107840,12 @@
       "headlineId": "f2642e046faed04bb55ad00239d0d6b6074a474b6336799dd714af001ce692cc",
       "articleUrl": "https://www.sverigesradio.se/artikel/e6-avstangd-efter-singelolycka--2",
       "capturedAt": "2026-10-16T17:57:29.105Z"
+    },
+    {
+      "filename": "1792174051010_0.png",
+      "headlineId": "9adde57bea5180f3d1d157c450c49d7bec27b9211ad7b73680198438d57aea23",
+      "articleUrl": "https://www.sverigesradio.se/artikel/skrallen-moregardh-utslagen-av-213-rankad-norrman",
+      "capturedAt": "2026-10-16T18:07:31.010Z"
     }
   ]
 }
