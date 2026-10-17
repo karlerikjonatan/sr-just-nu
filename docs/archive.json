@@ -43180,6 +43180,10 @@
     {
       "id": "1a790f2ffa25582a26a4fd7c0763b2c17deba800ffe0e7cf87afb2e4bce66468",
       "text": "Just nu: Kvinna larmade om gruppvåldtäkt"
+    },
+    {
+      "id": "d8bb1fb3dc9012c91ad8889c61c68b7b10b4911e218058f71df7a308138dbdd0",
+      "text": "Just nu: Bilolycka på E16 utanför Mockfjärd"
     }
   ],
   "captures": [
@@ -107946,6 +107950,12 @@
       "headlineId": "1a790f2ffa25582a26a4fd7c0763b2c17deba800ffe0e7cf87afb2e4bce66468",
       "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-valdtakt-i-torslanda-inga-gripna",
       "capturedAt": "2026-10-17T05:57:26.036Z"
+    },
+    {
+      "filename": "1792228649292_0.png",
+      "headlineId": "d8bb1fb3dc9012c91ad8889c61c68b7b10b4911e218058f71df7a308138dbdd0",
+      "articleUrl": "https://www.sverigesradio.se/artikel/singelolycka-utanfor-mockfjard-vagen-avstangd",
+      "capturedAt": "2026-10-17T09:17:29.292Z"
     }
   ]
 }
