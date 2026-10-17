@@ -43172,6 +43172,10 @@
     {
       "id": "bcbec0308239bd12d24dc28bd83081814ce7b58da7f516fd35e955dbd85053f7",
       "text": "Just nu: Bilist körde in i bergvägg"
+    },
+    {
+      "id": "54773fd98c63f149fb83e219b52b04b0da5b75064079cb454d070f6d8ae5a69f",
+      "text": "Just nu: Misstänkt gruppvåldtäkt i Torslanda"
     }
   ],
   "captures": [
@@ -107926,6 +107930,12 @@
       "headlineId": "bcbec0308239bd12d24dc28bd83081814ce7b58da7f516fd35e955dbd85053f7",
       "articleUrl": "https://www.sverigesradio.se/artikel/olycka-i-kungsbacka-bilist-korde-in-i-bergvagg",
       "capturedAt": "2026-10-17T04:57:24.759Z"
+    },
+    {
+      "filename": "1792216348391_0.png",
+      "headlineId": "54773fd98c63f149fb83e219b52b04b0da5b75064079cb454d070f6d8ae5a69f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-valdtakt-i-torslanda-inga-gripna",
+      "capturedAt": "2026-10-17T05:52:28.391Z"
     }
   ]
 }
