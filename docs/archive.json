@@ -43260,6 +43260,10 @@
     {
       "id": "4562579bc5834855113ba03e48d22dbb07011b5f725de3a28ad1a4c6b1351e1a",
       "text": "Just nu: Drönare nedskjutna över Svarta havet"
+    },
+    {
+      "id": "5041cff6691b593c66294709af61bc2ded5617d0032aed1607705a69eb1dcf50",
+      "text": "Just nu: Sverige föll i EM-final efter rysare"
     }
   ],
   "captures": [
@@ -108146,6 +108150,12 @@
       "headlineId": "4562579bc5834855113ba03e48d22dbb07011b5f725de3a28ad1a4c6b1351e1a",
       "articleUrl": "https://www.sverigesradio.se/artikel/rumanien-har-skjutit-ned-tva-dronare-over-svarta-havet",
       "capturedAt": "2026-10-17T17:07:27.866Z"
+    },
+    {
+      "filename": "1792262551415_0.png",
+      "headlineId": "5041cff6691b593c66294709af61bc2ded5617d0032aed1607705a69eb1dcf50",
+      "articleUrl": "https://www.sverigesradio.se/artikel/sverige-foll-i-em-finalen-efter-rysare",
+      "capturedAt": "2026-10-17T18:42:31.415Z"
     }
   ]
 }
