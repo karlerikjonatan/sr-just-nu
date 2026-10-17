@@ -43240,6 +43240,10 @@
     {
       "id": "62bdd4a8313429648c2fb4913b02e17f3f7f3def343b9e5fb4a89880ed88bf2b",
       "text": "Just nu: Ölandsbron avstängd – lastbilstak flög av"
+    },
+    {
+      "id": "4ed18d5e4fda381218ed86de8c9050249ded90cbab68371cac5c9ddc5dec39bb",
+      "text": "Just nu: Fyrbilskrock på Tranebergsbron"
     }
   ],
   "captures": [
@@ -108096,6 +108100,12 @@
       "headlineId": "62bdd4a8313429648c2fb4913b02e17f3f7f3def343b9e5fb4a89880ed88bf2b",
       "articleUrl": "https://www.sverigesradio.se/artikel/lastbilskrock-pa-olandsbron",
       "capturedAt": "2026-10-17T14:57:30.211Z"
+    },
+    {
+      "filename": "1792250846745_0.png",
+      "headlineId": "4ed18d5e4fda381218ed86de8c9050249ded90cbab68371cac5c9ddc5dec39bb",
+      "articleUrl": "https://www.sverigesradio.se/artikel/fyrbilskrock-pa-tranebergsbron",
+      "capturedAt": "2026-10-17T15:27:26.745Z"
     }
   ]
 }
