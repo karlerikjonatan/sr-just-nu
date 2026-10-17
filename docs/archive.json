@@ -43176,6 +43176,10 @@
     {
       "id": "54773fd98c63f149fb83e219b52b04b0da5b75064079cb454d070f6d8ae5a69f",
       "text": "Just nu: Misstänkt gruppvåldtäkt i Torslanda"
+    },
+    {
+      "id": "1a790f2ffa25582a26a4fd7c0763b2c17deba800ffe0e7cf87afb2e4bce66468",
+      "text": "Just nu: Kvinna larmade om gruppvåldtäkt"
     }
   ],
   "captures": [
@@ -107936,6 +107940,12 @@
       "headlineId": "54773fd98c63f149fb83e219b52b04b0da5b75064079cb454d070f6d8ae5a69f",
       "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-valdtakt-i-torslanda-inga-gripna",
       "capturedAt": "2026-10-17T05:52:28.391Z"
+    },
+    {
+      "filename": "1792216646036_0.png",
+      "headlineId": "1a790f2ffa25582a26a4fd7c0763b2c17deba800ffe0e7cf87afb2e4bce66468",
+      "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-valdtakt-i-torslanda-inga-gripna",
+      "capturedAt": "2026-10-17T05:57:26.036Z"
     }
   ]
 }
