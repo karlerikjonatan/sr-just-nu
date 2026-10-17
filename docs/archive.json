@@ -43188,6 +43188,10 @@
     {
       "id": "097c753c40a0af68500dbcacab851b72024bf1791548a0a008882f801be86c90",
       "text": "Just nu: En till sjukus efter olycka på E16"
+    },
+    {
+      "id": "fa9f291681157facd69bacdc3bc2437b9856ebc78e26f3263382a423cab7a1ff",
+      "text": "Just nu: Sökinsats vid Orust – tom båt hittad"
     }
   ],
   "captures": [
@@ -107966,6 +107970,12 @@
       "headlineId": "097c753c40a0af68500dbcacab851b72024bf1791548a0a008882f801be86c90",
       "articleUrl": "https://www.sverigesradio.se/artikel/singelolycka-pa-e16-en-till-sjukhus",
       "capturedAt": "2026-10-17T10:37:26.965Z"
+    },
+    {
+      "filename": "1792236149922_0.png",
+      "headlineId": "fa9f291681157facd69bacdc3bc2437b9856ebc78e26f3263382a423cab7a1ff",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tom-bat-hittad-sokinsats-utanfor-orust",
+      "capturedAt": "2026-10-17T11:22:29.922Z"
     }
   ]
 }
