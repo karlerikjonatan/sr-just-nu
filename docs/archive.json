@@ -43256,6 +43256,10 @@
     {
       "id": "4c8aa8ffb29ccd161b7b9793fe26d330bd7273a51aff619e7563c80a1715f4cf",
       "text": "Just nu: Alexander Isak hjälte i comebacken"
+    },
+    {
+      "id": "4562579bc5834855113ba03e48d22dbb07011b5f725de3a28ad1a4c6b1351e1a",
+      "text": "Just nu: Drönare nedskjutna över Svarta havet"
     }
   ],
   "captures": [
@@ -108136,6 +108140,12 @@
       "headlineId": "4c8aa8ffb29ccd161b7b9793fe26d330bd7273a51aff619e7563c80a1715f4cf",
       "articleUrl": "https://www.sverigesradio.se/artikel/alexander-isak-hjalte-for-liverpool-i-comebacken",
       "capturedAt": "2026-10-17T16:17:30.647Z"
+    },
+    {
+      "filename": "1792256847866_0.png",
+      "headlineId": "4562579bc5834855113ba03e48d22dbb07011b5f725de3a28ad1a4c6b1351e1a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/rumanien-har-skjutit-ned-tva-dronare-over-svarta-havet",
+      "capturedAt": "2026-10-17T17:07:27.866Z"
     }
   ]
 }
