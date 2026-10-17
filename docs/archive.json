@@ -43184,6 +43184,10 @@
     {
       "id": "d8bb1fb3dc9012c91ad8889c61c68b7b10b4911e218058f71df7a308138dbdd0",
       "text": "Just nu: Bilolycka på E16 utanför Mockfjärd"
+    },
+    {
+      "id": "097c753c40a0af68500dbcacab851b72024bf1791548a0a008882f801be86c90",
+      "text": "Just nu: En till sjukus efter olycka på E16"
     }
   ],
   "captures": [
@@ -107956,6 +107960,12 @@
       "headlineId": "d8bb1fb3dc9012c91ad8889c61c68b7b10b4911e218058f71df7a308138dbdd0",
       "articleUrl": "https://www.sverigesradio.se/artikel/singelolycka-utanfor-mockfjard-vagen-avstangd",
       "capturedAt": "2026-10-17T09:17:29.292Z"
+    },
+    {
+      "filename": "1792233446965_0.png",
+      "headlineId": "097c753c40a0af68500dbcacab851b72024bf1791548a0a008882f801be86c90",
+      "articleUrl": "https://www.sverigesradio.se/artikel/singelolycka-pa-e16-en-till-sjukhus",
+      "capturedAt": "2026-10-17T10:37:26.965Z"
     }
   ]
 }
