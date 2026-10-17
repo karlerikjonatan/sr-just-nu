@@ -43248,6 +43248,10 @@
     {
       "id": "9dce8ba1c809505d8ed997bbc1eabc0b7e5a04929d9518534a029baddf154de9",
       "text": "Just nu: Drama på Ölandsbron – tak flög av"
+    },
+    {
+      "id": "d353bdca1ef8c1898a53dbaceb7de92b83f8d7a12d3c4a3843bbc5570c844a56",
+      "text": "Just nu: Bengaler mot plan – match skjuts upp"
     }
   ],
   "captures": [
@@ -108116,6 +108120,12 @@
       "headlineId": "9dce8ba1c809505d8ed997bbc1eabc0b7e5a04929d9518534a029baddf154de9",
       "articleUrl": "https://www.sverigesradio.se/artikel/lastbilskrock-pa-olandsbron",
       "capturedAt": "2026-10-17T15:52:34.736Z"
+    },
+    {
+      "filename": "1792252649228_0.png",
+      "headlineId": "d353bdca1ef8c1898a53dbaceb7de92b83f8d7a12d3c4a3843bbc5570c844a56",
+      "articleUrl": "https://www.sverigesradio.se/artikel/stormotet-uppskjutet-efter-bengaler-mot-planen",
+      "capturedAt": "2026-10-17T15:57:29.228Z"
     }
   ]
 }
