@@ -43208,6 +43208,10 @@
     {
       "id": "aa0d62c99efb36246a7bdd31ea2f7d60e3bbe48229d7bed5071eb93e0cc9cd6e",
       "text": "Just nu: Två anhållna – misstänkt våldtäkt mot barn"
+    },
+    {
+      "id": "1afeb3b01836f7db0b46e28b1ed1068c9e51971e35a4bb4e3a257d93faed0546",
+      "text": "Just nu: Kvinna hittad död i Linköping"
     }
   ],
   "captures": [
@@ -108016,6 +108020,12 @@
       "headlineId": "aa0d62c99efb36246a7bdd31ea2f7d60e3bbe48229d7bed5071eb93e0cc9cd6e",
       "articleUrl": "https://www.sverigesradio.se/artikel/polisen-utreder-misstankt-grovt-brott-pa-limhamn",
       "capturedAt": "2026-10-17T13:02:33.558Z"
+    },
+    {
+      "filename": "1792243051533_0.png",
+      "headlineId": "1afeb3b01836f7db0b46e28b1ed1068c9e51971e35a4bb4e3a257d93faed0546",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kvinna-hittad-dod-pa-t1-omradet-i-linkoping",
+      "capturedAt": "2026-10-17T13:17:31.533Z"
     }
   ]
 }
