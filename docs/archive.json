@@ -43232,6 +43232,10 @@
     {
       "id": "dfeec0e0ea987738888c2abff04c6a0b0555c86679a0bc60979c86d57f273a97",
       "text": "Just nu: Man död i Göteborg – två anhållna"
+    },
+    {
+      "id": "95fa9892b7c9c7ac25d21ea24927b7c38642ffe646e16deb03e5f4e87fcd994e",
+      "text": "Just nu: Kaos på Ölandsbron – lastbilstak flög av"
     }
   ],
   "captures": [
@@ -108076,6 +108080,12 @@
       "headlineId": "dfeec0e0ea987738888c2abff04c6a0b0555c86679a0bc60979c86d57f273a97",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-hittades-dod-tva-anhallna-for-mord",
       "capturedAt": "2026-10-17T14:37:27.246Z"
+    },
+    {
+      "filename": "1792248751277_0.png",
+      "headlineId": "95fa9892b7c9c7ac25d21ea24927b7c38642ffe646e16deb03e5f4e87fcd994e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lastbilskrock-pa-olandsbron",
+      "capturedAt": "2026-10-17T14:52:31.277Z"
     }
   ]
 }
