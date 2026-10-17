@@ -43220,6 +43220,14 @@
     {
       "id": "625628c096ed610fdcc2687c07ff7debc3bcff3a9de78f9337ce721508e07274",
       "text": "Just nu: Person hittad i vattnet i Eskilstuna"
+    },
+    {
+      "id": "6ddeae23b2dd3d36a973730c4ac731bbdbfe391aead2bc3aa9f46fdcd803e197",
+      "text": "Just nu: Man hittad död i Göteborg – två anhållna"
+    },
+    {
+      "id": "651ee3b43be2ea09e3e1e5596e127f50c13702cc979ffeccbe3b2813b88e243f",
+      "text": "Just nu: Sökinsats utanför Orust – tom fiskebåt"
     }
   ],
   "captures": [
@@ -108046,6 +108054,18 @@
       "headlineId": "625628c096ed610fdcc2687c07ff7debc3bcff3a9de78f9337ce721508e07274",
       "articleUrl": "https://www.sverigesradio.se/artikel/drunkningslarm-i-eskilstuna-en-person-i-vattnet",
       "capturedAt": "2026-10-17T14:17:30.597Z"
+    },
+    {
+      "filename": "1792247248468_0.png",
+      "headlineId": "651ee3b43be2ea09e3e1e5596e127f50c13702cc979ffeccbe3b2813b88e243f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/stor-sokinsats-utanfor-orust-tom-fiskebat-hittad-vid-klippor",
+      "capturedAt": "2026-10-17T14:27:28.468Z"
+    },
+    {
+      "filename": "1792247248468_1.png",
+      "headlineId": "6ddeae23b2dd3d36a973730c4ac731bbdbfe391aead2bc3aa9f46fdcd803e197",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-hittades-dod-tva-anhallna-for-mord",
+      "capturedAt": "2026-10-17T14:27:28.468Z"
     }
   ]
 }
