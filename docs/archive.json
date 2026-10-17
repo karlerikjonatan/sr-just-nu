@@ -43196,6 +43196,10 @@
     {
       "id": "4f50c6f52739356e2a9d937776476b2b6d2ae707264846ad1724dec9758ad451",
       "text": "Just nu: Flerbilskrock på E6 utanför Göteborg"
+    },
+    {
+      "id": "42d478c5486f94f69cf2799c740114a25cca4ef9f28f3f723adb31c9c9fc8caa",
+      "text": "Just nu: Svensk EM-medalj säkrad"
     }
   ],
   "captures": [
@@ -107986,6 +107990,12 @@
       "headlineId": "4f50c6f52739356e2a9d937776476b2b6d2ae707264846ad1724dec9758ad451",
       "articleUrl": "https://www.sverigesradio.se/artikel/flerbilskrock-vid-kallebacksmotet",
       "capturedAt": "2026-10-17T12:12:32.612Z"
+    },
+    {
+      "filename": "1792241549292_0.png",
+      "headlineId": "42d478c5486f94f69cf2799c740114a25cca4ef9f28f3f723adb31c9c9fc8caa",
+      "articleUrl": "https://www.sverigesradio.se/artikel/anton-kallberg-till-semifinal-svensk-medalj-sakrad",
+      "capturedAt": "2026-10-17T12:52:29.292Z"
     }
   ]
 }
