@@ -43192,6 +43192,10 @@
     {
       "id": "fa9f291681157facd69bacdc3bc2437b9856ebc78e26f3263382a423cab7a1ff",
       "text": "Just nu: Sökinsats vid Orust – tom båt hittad"
+    },
+    {
+      "id": "4f50c6f52739356e2a9d937776476b2b6d2ae707264846ad1724dec9758ad451",
+      "text": "Just nu: Flerbilskrock på E6 utanför Göteborg"
     }
   ],
   "captures": [
@@ -107976,6 +107980,12 @@
       "headlineId": "fa9f291681157facd69bacdc3bc2437b9856ebc78e26f3263382a423cab7a1ff",
       "articleUrl": "https://www.sverigesradio.se/artikel/tom-bat-hittad-sokinsats-utanfor-orust",
       "capturedAt": "2026-10-17T11:22:29.922Z"
+    },
+    {
+      "filename": "1792239152612_0.png",
+      "headlineId": "4f50c6f52739356e2a9d937776476b2b6d2ae707264846ad1724dec9758ad451",
+      "articleUrl": "https://www.sverigesradio.se/artikel/flerbilskrock-vid-kallebacksmotet",
+      "capturedAt": "2026-10-17T12:12:32.612Z"
     }
   ]
 }
