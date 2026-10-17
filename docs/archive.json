@@ -43236,6 +43236,10 @@
     {
       "id": "95fa9892b7c9c7ac25d21ea24927b7c38642ffe646e16deb03e5f4e87fcd994e",
       "text": "Just nu: Kaos på Ölandsbron – lastbilstak flög av"
+    },
+    {
+      "id": "62bdd4a8313429648c2fb4913b02e17f3f7f3def343b9e5fb4a89880ed88bf2b",
+      "text": "Just nu: Ölandsbron avstängd – lastbilstak flög av"
     }
   ],
   "captures": [
@@ -108086,6 +108090,12 @@
       "headlineId": "95fa9892b7c9c7ac25d21ea24927b7c38642ffe646e16deb03e5f4e87fcd994e",
       "articleUrl": "https://www.sverigesradio.se/artikel/lastbilskrock-pa-olandsbron",
       "capturedAt": "2026-10-17T14:52:31.277Z"
+    },
+    {
+      "filename": "1792249050211_0.png",
+      "headlineId": "62bdd4a8313429648c2fb4913b02e17f3f7f3def343b9e5fb4a89880ed88bf2b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lastbilskrock-pa-olandsbron",
+      "capturedAt": "2026-10-17T14:57:30.211Z"
     }
   ]
 }
