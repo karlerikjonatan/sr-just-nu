@@ -43244,6 +43244,10 @@
     {
       "id": "4ed18d5e4fda381218ed86de8c9050249ded90cbab68371cac5c9ddc5dec39bb",
       "text": "Just nu: Fyrbilskrock på Tranebergsbron"
+    },
+    {
+      "id": "9dce8ba1c809505d8ed997bbc1eabc0b7e5a04929d9518534a029baddf154de9",
+      "text": "Just nu: Drama på Ölandsbron – tak flög av"
     }
   ],
   "captures": [
@@ -108106,6 +108110,12 @@
       "headlineId": "4ed18d5e4fda381218ed86de8c9050249ded90cbab68371cac5c9ddc5dec39bb",
       "articleUrl": "https://www.sverigesradio.se/artikel/fyrbilskrock-pa-tranebergsbron",
       "capturedAt": "2026-10-17T15:27:26.745Z"
+    },
+    {
+      "filename": "1792252354736_0.png",
+      "headlineId": "9dce8ba1c809505d8ed997bbc1eabc0b7e5a04929d9518534a029baddf154de9",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lastbilskrock-pa-olandsbron",
+      "capturedAt": "2026-10-17T15:52:34.736Z"
     }
   ]
 }
