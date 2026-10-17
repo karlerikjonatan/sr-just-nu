@@ -43252,6 +43252,10 @@
     {
       "id": "d353bdca1ef8c1898a53dbaceb7de92b83f8d7a12d3c4a3843bbc5570c844a56",
       "text": "Just nu: Bengaler mot plan – match skjuts upp"
+    },
+    {
+      "id": "4c8aa8ffb29ccd161b7b9793fe26d330bd7273a51aff619e7563c80a1715f4cf",
+      "text": "Just nu: Alexander Isak hjälte i comebacken"
     }
   ],
   "captures": [
@@ -108126,6 +108130,12 @@
       "headlineId": "d353bdca1ef8c1898a53dbaceb7de92b83f8d7a12d3c4a3843bbc5570c844a56",
       "articleUrl": "https://www.sverigesradio.se/artikel/stormotet-uppskjutet-efter-bengaler-mot-planen",
       "capturedAt": "2026-10-17T15:57:29.228Z"
+    },
+    {
+      "filename": "1792253850647_0.png",
+      "headlineId": "4c8aa8ffb29ccd161b7b9793fe26d330bd7273a51aff619e7563c80a1715f4cf",
+      "articleUrl": "https://www.sverigesradio.se/artikel/alexander-isak-hjalte-for-liverpool-i-comebacken",
+      "capturedAt": "2026-10-17T16:17:30.647Z"
     }
   ]
 }
