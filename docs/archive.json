@@ -43200,6 +43200,10 @@
     {
       "id": "42d478c5486f94f69cf2799c740114a25cca4ef9f28f3f723adb31c9c9fc8caa",
       "text": "Just nu: Svensk EM-medalj säkrad"
+    },
+    {
+      "id": "3583e263c7d5ac101305709cac1c8179383b0c79470f4f3f52a105b8db9a7cff",
+      "text": "Just nu: Två gripna – misstänkt våldtäkt mot barn"
     }
   ],
   "captures": [
@@ -107996,6 +108000,12 @@
       "headlineId": "42d478c5486f94f69cf2799c740114a25cca4ef9f28f3f723adb31c9c9fc8caa",
       "articleUrl": "https://www.sverigesradio.se/artikel/anton-kallberg-till-semifinal-svensk-medalj-sakrad",
       "capturedAt": "2026-10-17T12:52:29.292Z"
+    },
+    {
+      "filename": "1792241851545_0.png",
+      "headlineId": "3583e263c7d5ac101305709cac1c8179383b0c79470f4f3f52a105b8db9a7cff",
+      "articleUrl": "https://www.sverigesradio.se/artikel/polisen-utreder-misstankt-grovt-brott-pa-limhamn",
+      "capturedAt": "2026-10-17T12:57:31.545Z"
     }
   ]
 }
