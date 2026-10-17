@@ -43212,6 +43212,10 @@
     {
       "id": "1afeb3b01836f7db0b46e28b1ed1068c9e51971e35a4bb4e3a257d93faed0546",
       "text": "Just nu: Kvinna hittad död i Linköping"
+    },
+    {
+      "id": "7fcf1275d74f697b33191051ea5efb22b4e5fd24774ab3ae9c98be1e127b6c98",
+      "text": "Just nu: Kvinna död – utreds som misstänkt mord"
     }
   ],
   "captures": [
@@ -108026,6 +108030,12 @@
       "headlineId": "1afeb3b01836f7db0b46e28b1ed1068c9e51971e35a4bb4e3a257d93faed0546",
       "articleUrl": "https://www.sverigesradio.se/artikel/kvinna-hittad-dod-pa-t1-omradet-i-linkoping",
       "capturedAt": "2026-10-17T13:17:31.533Z"
+    },
+    {
+      "filename": "1792244251598_0.png",
+      "headlineId": "7fcf1275d74f697b33191051ea5efb22b4e5fd24774ab3ae9c98be1e127b6c98",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kvinna-hittad-dod-pa-t1-omradet-i-linkoping",
+      "capturedAt": "2026-10-17T13:37:31.598Z"
     }
   ]
 }
