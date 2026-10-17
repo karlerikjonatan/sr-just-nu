@@ -43228,6 +43228,10 @@
     {
       "id": "651ee3b43be2ea09e3e1e5596e127f50c13702cc979ffeccbe3b2813b88e243f",
       "text": "Just nu: Sökinsats utanför Orust – tom fiskebåt"
+    },
+    {
+      "id": "dfeec0e0ea987738888c2abff04c6a0b0555c86679a0bc60979c86d57f273a97",
+      "text": "Just nu: Man död i Göteborg – två anhållna"
     }
   ],
   "captures": [
@@ -108066,6 +108070,12 @@
       "headlineId": "6ddeae23b2dd3d36a973730c4ac731bbdbfe391aead2bc3aa9f46fdcd803e197",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-hittades-dod-tva-anhallna-for-mord",
       "capturedAt": "2026-10-17T14:27:28.468Z"
+    },
+    {
+      "filename": "1792247847246_0.png",
+      "headlineId": "dfeec0e0ea987738888c2abff04c6a0b0555c86679a0bc60979c86d57f273a97",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-hittades-dod-tva-anhallna-for-mord",
+      "capturedAt": "2026-10-17T14:37:27.246Z"
     }
   ]
 }
