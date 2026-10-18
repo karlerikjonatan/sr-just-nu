@@ -43288,6 +43288,10 @@
     {
       "id": "217ef969e583fd5279166b9b52f5953f60a1529b0d03cf9e19e8be9f49d4a011",
       "text": "Just nu: Man död – hittades i vattnet"
+    },
+    {
+      "id": "43e3e892f9360bece8a9a323a37ff394336676c635c91a6a66317e0e55a21281",
+      "text": "Just nu: Kulusevski uttagen – redo för spel"
     }
   ],
   "captures": [
@@ -108216,6 +108220,12 @@
       "headlineId": "217ef969e583fd5279166b9b52f5953f60a1529b0d03cf9e19e8be9f49d4a011",
       "articleUrl": "https://www.sverigesradio.se/artikel/dod-man-bargades-ur-vattnet-vid-grundby-strand",
       "capturedAt": "2026-10-18T07:47:35.452Z"
+    },
+    {
+      "filename": "1792314748468_0.png",
+      "headlineId": "43e3e892f9360bece8a9a323a37ff394336676c635c91a6a66317e0e55a21281",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kulusevski-med-i-tottenhams-matchtrupp-forsta-gangen-pa-over-ett-ar",
+      "capturedAt": "2026-10-18T09:12:28.468Z"
     }
   ]
 }
