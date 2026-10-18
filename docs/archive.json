@@ -43316,6 +43316,10 @@
     {
       "id": "26e8e052c4d59a8c27518fa82a9a71f800b158f011c14b3db53cc6869c5a835d",
       "text": "Just nu: Olycka på E4 – flera fordon inblandade"
+    },
+    {
+      "id": "dd22be853b0bf40af42bb990f5faf3fd6c3ae8e06fc2db886168de2d131d63ce",
+      "text": "Just nu: Svensken finalklar – förste på 26 år"
     }
   ],
   "captures": [
@@ -108286,6 +108290,12 @@
       "headlineId": "26e8e052c4d59a8c27518fa82a9a71f800b158f011c14b3db53cc6869c5a835d",
       "articleUrl": "https://www.sverigesradio.se/artikel/olycka-pa-e4-flera-fordon-inblandade",
       "capturedAt": "2026-10-18T14:12:29.698Z"
+    },
+    {
+      "filename": "1792333047286_0.png",
+      "headlineId": "dd22be853b0bf40af42bb990f5faf3fd6c3ae8e06fc2db886168de2d131d63ce",
+      "articleUrl": "https://www.sverigesradio.se/artikel/anton-kallberg-klar-for-final-forste-svensk-pa-26-ar",
+      "capturedAt": "2026-10-18T14:17:27.286Z"
     }
   ]
 }
