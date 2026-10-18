@@ -43296,6 +43296,10 @@
     {
       "id": "869b7c7591fc6d5d5121c5057735887d35b58530a2c8261574ff2532d4e25e9f",
       "text": "Just nu: Kulusevski tillbaka efter över ett år"
+    },
+    {
+      "id": "144705dc36bc420d858e02fe20fc0b3eae913b65c38c47c39d245b128c59d957",
+      "text": "Just nu: Pojke till sjukhus – ”red” på dragkrok"
     }
   ],
   "captures": [
@@ -108236,6 +108240,12 @@
       "headlineId": "869b7c7591fc6d5d5121c5057735887d35b58530a2c8261574ff2532d4e25e9f",
       "articleUrl": "https://www.sverigesradio.se/artikel/kulusevski-med-i-tottenhams-matchtrupp-forsta-gangen-pa-over-ett-ar",
       "capturedAt": "2026-10-18T09:27:30.717Z"
+    },
+    {
+      "filename": "1792317154175_0.png",
+      "headlineId": "144705dc36bc420d858e02fe20fc0b3eae913b65c38c47c39d245b128c59d957",
+      "articleUrl": "https://www.sverigesradio.se/artikel/pojke-till-sjukhus-red-pa-dragkrok",
+      "capturedAt": "2026-10-18T09:52:34.175Z"
     }
   ]
 }
