@@ -43304,6 +43304,10 @@
     {
       "id": "2e46b57e05c88c32123facfa67049d6247c467b5d984d596cc94e19918bc3474",
       "text": "Just nu: Bilolycka mellan Enköping och Sala"
+    },
+    {
+      "id": "e7f057287136106bbb57a061f46c48aa26faf4e9429945b5c306a4a702b0177b",
+      "text": "Just nu: Stopp i tågen: Göteborg och Karlstad"
     }
   ],
   "captures": [
@@ -108256,6 +108260,12 @@
       "headlineId": "2e46b57e05c88c32123facfa67049d6247c467b5d984d596cc94e19918bc3474",
       "articleUrl": "https://www.sverigesradio.se/artikel/totalstopp-pa-vag-70-efter-singelolycka",
       "capturedAt": "2026-10-18T11:07:26.950Z"
+    },
+    {
+      "filename": "1792329150341_0.png",
+      "headlineId": "e7f057287136106bbb57a061f46c48aa26faf4e9429945b5c306a4a702b0177b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tekniskt-fel-stoppar-tagen",
+      "capturedAt": "2026-10-18T13:12:30.341Z"
     }
   ]
 }
