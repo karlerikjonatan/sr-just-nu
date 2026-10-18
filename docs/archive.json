@@ -43320,6 +43320,10 @@
     {
       "id": "dd22be853b0bf40af42bb990f5faf3fd6c3ae8e06fc2db886168de2d131d63ce",
       "text": "Just nu: Svensken finalklar – förste på 26 år"
+    },
+    {
+      "id": "e1a66317075785672652be468eb01e2723406a665aa1b2f0bca8e8642323b5d7",
+      "text": "Just nu: Åkesson bjuder in C-ledaren till möte"
     }
   ],
   "captures": [
@@ -108296,6 +108300,12 @@
       "headlineId": "dd22be853b0bf40af42bb990f5faf3fd6c3ae8e06fc2db886168de2d131d63ce",
       "articleUrl": "https://www.sverigesradio.se/artikel/anton-kallberg-klar-for-final-forste-svensk-pa-26-ar",
       "capturedAt": "2026-10-18T14:17:27.286Z"
+    },
+    {
+      "filename": "1792341753110_0.png",
+      "headlineId": "e1a66317075785672652be468eb01e2723406a665aa1b2f0bca8e8642323b5d7",
+      "articleUrl": "https://www.sverigesradio.se/artikel/akesson-bjuder-in-thand-ringqvist-till-mote",
+      "capturedAt": "2026-10-18T16:42:33.110Z"
     }
   ]
 }
