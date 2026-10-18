@@ -43300,6 +43300,10 @@
     {
       "id": "144705dc36bc420d858e02fe20fc0b3eae913b65c38c47c39d245b128c59d957",
       "text": "Just nu: Pojke till sjukhus – ”red” på dragkrok"
+    },
+    {
+      "id": "2e46b57e05c88c32123facfa67049d6247c467b5d984d596cc94e19918bc3474",
+      "text": "Just nu: Bilolycka mellan Enköping och Sala"
     }
   ],
   "captures": [
@@ -108246,6 +108250,12 @@
       "headlineId": "144705dc36bc420d858e02fe20fc0b3eae913b65c38c47c39d245b128c59d957",
       "articleUrl": "https://www.sverigesradio.se/artikel/pojke-till-sjukhus-red-pa-dragkrok",
       "capturedAt": "2026-10-18T09:52:34.175Z"
+    },
+    {
+      "filename": "1792321646950_0.png",
+      "headlineId": "2e46b57e05c88c32123facfa67049d6247c467b5d984d596cc94e19918bc3474",
+      "articleUrl": "https://www.sverigesradio.se/artikel/totalstopp-pa-vag-70-efter-singelolycka",
+      "capturedAt": "2026-10-18T11:07:26.950Z"
     }
   ]
 }
