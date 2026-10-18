@@ -43272,6 +43272,10 @@
     {
       "id": "53ed704a7d3ae47ca7d58d0410058251b11722cd8fa6711a8efea3c01ea25066",
       "text": "Just nu: Varning för blixthalka under söndagen"
+    },
+    {
+      "id": "054bac07e1154f854f9fb8de41c7eadea240ef613a35b74a483956f9f799c745",
+      "text": "Just nu: Varning för blixthalka i Uppsala"
     }
   ],
   "captures": [
@@ -108176,6 +108180,12 @@
       "headlineId": "53ed704a7d3ae47ca7d58d0410058251b11722cd8fa6711a8efea3c01ea25066",
       "articleUrl": "https://www.sverigesradio.se/artikel/trafikverket-varnar-for-blixthalka-i-uppsala-lan",
       "capturedAt": "2026-10-18T06:02:34.650Z"
+    },
+    {
+      "filename": "1792303948497_0.png",
+      "headlineId": "054bac07e1154f854f9fb8de41c7eadea240ef613a35b74a483956f9f799c745",
+      "articleUrl": "https://www.sverigesradio.se/artikel/trafikverket-varnar-for-blixthalka-i-uppsala-lan",
+      "capturedAt": "2026-10-18T06:12:28.497Z"
     }
   ]
 }
