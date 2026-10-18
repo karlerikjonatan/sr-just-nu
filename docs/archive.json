@@ -43268,6 +43268,10 @@
     {
       "id": "782cbc9386ecbfac6804b3985461013763cd966314a3ed19050cf515315b3f97",
       "text": "Just nu: Flera döda på militärbas i Kanada"
+    },
+    {
+      "id": "53ed704a7d3ae47ca7d58d0410058251b11722cd8fa6711a8efea3c01ea25066",
+      "text": "Just nu: Varning för blixthalka under söndagen"
     }
   ],
   "captures": [
@@ -108166,6 +108170,12 @@
       "headlineId": "782cbc9386ecbfac6804b3985461013763cd966314a3ed19050cf515315b3f97",
       "articleUrl": "https://www.sverigesradio.se/artikel/flera-doda-efter-handelse-pa-militarbas-i-alberta",
       "capturedAt": "2026-10-18T04:07:25.111Z"
+    },
+    {
+      "filename": "1792303354650_0.png",
+      "headlineId": "53ed704a7d3ae47ca7d58d0410058251b11722cd8fa6711a8efea3c01ea25066",
+      "articleUrl": "https://www.sverigesradio.se/artikel/trafikverket-varnar-for-blixthalka-i-uppsala-lan",
+      "capturedAt": "2026-10-18T06:02:34.650Z"
     }
   ]
 }
