@@ -43284,6 +43284,10 @@
     {
       "id": "78e928c9b0ef19fc09ce224ab5096aa63611350d9a7bcf2e7b61e08117b163c2",
       "text": "Just nu: Sven Hirdman är död"
+    },
+    {
+      "id": "217ef969e583fd5279166b9b52f5953f60a1529b0d03cf9e19e8be9f49d4a011",
+      "text": "Just nu: Man död – hittades i vattnet"
     }
   ],
   "captures": [
@@ -108206,6 +108210,12 @@
       "headlineId": "78e928c9b0ef19fc09ce224ab5096aa63611350d9a7bcf2e7b61e08117b163c2",
       "articleUrl": "https://www.sverigesradio.se/artikel/sven-hirdman-ar-dod-var-tidigare-moskvaambassador",
       "capturedAt": "2026-10-18T07:02:40.633Z"
+    },
+    {
+      "filename": "1792309655452_0.png",
+      "headlineId": "217ef969e583fd5279166b9b52f5953f60a1529b0d03cf9e19e8be9f49d4a011",
+      "articleUrl": "https://www.sverigesradio.se/artikel/dod-man-bargades-ur-vattnet-vid-grundby-strand",
+      "capturedAt": "2026-10-18T07:47:35.452Z"
     }
   ]
 }
