@@ -43328,6 +43328,10 @@
     {
       "id": "35c68c2af03424796e3d0c8a563e7fdd6be1ce111a10c4b898bacc6f0170976e",
       "text": "Just nu: Ambulans krockat med älg på E4"
+    },
+    {
+      "id": "3dd413ff742ed19b2b3caa77430dc8d84f761ef79fb802062bed38b0a3c6d0af",
+      "text": "Just nu: Antalet skadade stiger kraftigt i Alberta"
     }
   ],
   "captures": [
@@ -108316,6 +108320,12 @@
       "headlineId": "35c68c2af03424796e3d0c8a563e7fdd6be1ce111a10c4b898bacc6f0170976e",
       "articleUrl": "https://www.sverigesradio.se/artikel/ambulans-krockat-med-alg-pa-e4",
       "capturedAt": "2026-10-18T16:47:35.111Z"
+    },
+    {
+      "filename": "1792366353128_0.png",
+      "headlineId": "3dd413ff742ed19b2b3caa77430dc8d84f761ef79fb802062bed38b0a3c6d0af",
+      "articleUrl": "https://www.sverigesradio.se/artikel/fyra-soldater-doda-i-brand-pa-militarbas-i-kanada",
+      "capturedAt": "2026-10-18T23:32:33.128Z"
     }
   ]
 }
