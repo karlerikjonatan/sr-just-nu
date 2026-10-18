@@ -43292,6 +43292,10 @@
     {
       "id": "43e3e892f9360bece8a9a323a37ff394336676c635c91a6a66317e0e55a21281",
       "text": "Just nu: Kulusevski uttagen – redo för spel"
+    },
+    {
+      "id": "869b7c7591fc6d5d5121c5057735887d35b58530a2c8261574ff2532d4e25e9f",
+      "text": "Just nu: Kulusevski tillbaka efter över ett år"
     }
   ],
   "captures": [
@@ -108226,6 +108230,12 @@
       "headlineId": "43e3e892f9360bece8a9a323a37ff394336676c635c91a6a66317e0e55a21281",
       "articleUrl": "https://www.sverigesradio.se/artikel/kulusevski-med-i-tottenhams-matchtrupp-forsta-gangen-pa-over-ett-ar",
       "capturedAt": "2026-10-18T09:12:28.468Z"
+    },
+    {
+      "filename": "1792315650717_0.png",
+      "headlineId": "869b7c7591fc6d5d5121c5057735887d35b58530a2c8261574ff2532d4e25e9f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kulusevski-med-i-tottenhams-matchtrupp-forsta-gangen-pa-over-ett-ar",
+      "capturedAt": "2026-10-18T09:27:30.717Z"
     }
   ]
 }
