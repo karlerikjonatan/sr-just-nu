@@ -43376,6 +43376,10 @@
     {
       "id": "b5c88360891cff6c90b913350360f2dff5f1d7565c11ff3e2c20cbfdcb345b98",
       "text": "Just nu: Tredje pojke söks av polis efter mordet i Älvsjö"
+    },
+    {
+      "id": "abd11fb7dca1fb4f78b49f9041bcefc156a8b2c663c26e2b4b57015a3a9dd40a",
+      "text": "Just nu: Polisen söker pojke efter mordet i Älvsjö"
     }
   ],
   "captures": [
@@ -108436,6 +108440,12 @@
       "headlineId": "b5c88360891cff6c90b913350360f2dff5f1d7565c11ff3e2c20cbfdcb345b98",
       "articleUrl": "https://www.sverigesradio.se/artikel/tredje-pojke-soks-av-polis-efter-mordet-i-alvsjo",
       "capturedAt": "2026-10-19T10:22:36.256Z"
+    },
+    {
+      "filename": "1792405651357_0.png",
+      "headlineId": "abd11fb7dca1fb4f78b49f9041bcefc156a8b2c663c26e2b4b57015a3a9dd40a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tredje-pojke-soks-av-polis-efter-mordet-i-alvsjo",
+      "capturedAt": "2026-10-19T10:27:31.357Z"
     }
   ]
 }
