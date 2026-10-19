@@ -43336,6 +43336,10 @@
     {
       "id": "c7c5ae50fdb8156cc724ce958884ab861f115fce5615c9a3f3357b16205e342f",
       "text": "Just nu: Man till sjukhus efter lägenhetsbrand"
+    },
+    {
+      "id": "a1a1b23a5e8e5a29709bbe09ae5e62ef68980d7022abbdead3efcfc23f18deef",
+      "text": "Just nu: Hus i Kalv totalförstört inatt"
     }
   ],
   "captures": [
@@ -108336,6 +108340,12 @@
       "headlineId": "c7c5ae50fdb8156cc724ce958884ab861f115fce5615c9a3f3357b16205e342f",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-till-sjukhus-efter-lagenhetsbrand--2",
       "capturedAt": "2026-10-19T04:37:33.290Z"
+    },
+    {
+      "filename": "1792385845605_0.png",
+      "headlineId": "a1a1b23a5e8e5a29709bbe09ae5e62ef68980d7022abbdead3efcfc23f18deef",
+      "articleUrl": "https://www.sverigesradio.se/artikel/hus-brann-ner-i-kalv-inga-misstankar-om-brott",
+      "capturedAt": "2026-10-19T04:57:25.605Z"
     }
   ]
 }
