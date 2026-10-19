@@ -43412,6 +43412,10 @@
     {
       "id": "92ccb2bd6579ceb9485377271034850b5724f2103d29e45f79c4fdd82f6c1708",
       "text": "Just nu: UD: Undvik folksamlingar i Frankrike"
+    },
+    {
+      "id": "cc45d5ca4ffd2e101308a1028a6f84d6c2d22d0417177a7999bd045ec4664ed9",
+      "text": "Just nu: En allvarligt skadad i bilolycka"
     }
   ],
   "captures": [
@@ -108526,6 +108530,12 @@
       "headlineId": "92ccb2bd6579ceb9485377271034850b5724f2103d29e45f79c4fdd82f6c1708",
       "articleUrl": "https://www.sverigesradio.se/artikel/uppmaningen-till-svenskar-i-frankrike-undvik-folksamlingar",
       "capturedAt": "2026-10-19T17:32:32.259Z"
+    },
+    {
+      "filename": "1792431755992_0.png",
+      "headlineId": "cc45d5ca4ffd2e101308a1028a6f84d6c2d22d0417177a7999bd045ec4664ed9",
+      "articleUrl": "https://www.sverigesradio.se/artikel/allvarlig-olycka-mellan-buss-och-personbil-i-varberg",
+      "capturedAt": "2026-10-19T17:42:35.992Z"
     }
   ]
 }
