@@ -43436,6 +43436,10 @@
     {
       "id": "e614c9606aecafffdbbd20c97ae76a47fc24884f6e9bd987e67c8ebfaf87d5b1",
       "text": "Just nu: Förskola i Gnesta brinner"
+    },
+    {
+      "id": "96a63e2feeedfde9990f4529020adfb70dcdb69c6dc27a2a3ecc555294971ba4",
+      "text": "Just nu: Viktig seger för Kalmar"
     }
   ],
   "captures": [
@@ -108586,6 +108590,12 @@
       "headlineId": "e614c9606aecafffdbbd20c97ae76a47fc24884f6e9bd987e67c8ebfaf87d5b1",
       "articleUrl": "https://www.sverigesradio.se/artikel/brand-i-forskola-i-gnesta",
       "capturedAt": "2026-10-19T18:47:29.833Z"
+    },
+    {
+      "filename": "1792436250539_0.png",
+      "headlineId": "96a63e2feeedfde9990f4529020adfb70dcdb69c6dc27a2a3ecc555294971ba4",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kalmar-vann-angestmotet-efter-dromstart",
+      "capturedAt": "2026-10-19T18:57:30.539Z"
     }
   ]
 }
