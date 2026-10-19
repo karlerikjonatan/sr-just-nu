@@ -43448,6 +43448,10 @@
     {
       "id": "f458cdb68b837f2f0e0ec3981691d27ac2ca6e19b78f1edd5eb958f00d6c8374",
       "text": "Just nu: Kulusevski gör comeback"
+    },
+    {
+      "id": "f3fb5ebbf0211a6eee6874524a1fa8bbbb5b1fc8507c7a751796a16425e3b9b6",
+      "text": "Just nu: Kulusevski tillbaka efter 526 dagar"
     }
   ],
   "captures": [
@@ -108616,6 +108620,12 @@
       "headlineId": "f458cdb68b837f2f0e0ec3981691d27ac2ca6e19b78f1edd5eb958f00d6c8374",
       "articleUrl": "https://www.sverigesradio.se/artikel/kulusevski-gor-comeback-efter-526-dagar",
       "capturedAt": "2026-10-19T20:57:28.247Z"
+    },
+    {
+      "filename": "1792444651394_0.png",
+      "headlineId": "f3fb5ebbf0211a6eee6874524a1fa8bbbb5b1fc8507c7a751796a16425e3b9b6",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kulusevski-gor-comeback-efter-526-dagar",
+      "capturedAt": "2026-10-19T21:17:31.394Z"
     }
   ]
 }
