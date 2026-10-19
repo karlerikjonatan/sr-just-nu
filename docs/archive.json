@@ -43440,6 +43440,10 @@
     {
       "id": "96a63e2feeedfde9990f4529020adfb70dcdb69c6dc27a2a3ecc555294971ba4",
       "text": "Just nu: Viktig seger för Kalmar"
+    },
+    {
+      "id": "5f8cfac3f2d196c41ca70484b5442c4f4b0a96b4a4001fa26de98b57a624931b",
+      "text": "Just nu: Brinner kraftigt i förskola i Gnesta"
     }
   ],
   "captures": [
@@ -108596,6 +108600,12 @@
       "headlineId": "96a63e2feeedfde9990f4529020adfb70dcdb69c6dc27a2a3ecc555294971ba4",
       "articleUrl": "https://www.sverigesradio.se/artikel/kalmar-vann-angestmotet-efter-dromstart",
       "capturedAt": "2026-10-19T18:57:30.539Z"
+    },
+    {
+      "filename": "1792438951723_0.png",
+      "headlineId": "5f8cfac3f2d196c41ca70484b5442c4f4b0a96b4a4001fa26de98b57a624931b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/brand-i-forskola-i-gnesta",
+      "capturedAt": "2026-10-19T19:42:31.723Z"
     }
   ]
 }
