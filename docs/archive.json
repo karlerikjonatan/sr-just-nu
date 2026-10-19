@@ -43432,6 +43432,10 @@
     {
       "id": "f794bdc7a6c8aa24f6b90d0af6b1911531bd32dfa9b5182f5ff576f637d6c7ce",
       "text": "Just nu: Mörk trafikdag – fem döda"
+    },
+    {
+      "id": "e614c9606aecafffdbbd20c97ae76a47fc24884f6e9bd987e67c8ebfaf87d5b1",
+      "text": "Just nu: Förskola i Gnesta brinner"
     }
   ],
   "captures": [
@@ -108576,6 +108580,12 @@
       "headlineId": "f794bdc7a6c8aa24f6b90d0af6b1911531bd32dfa9b5182f5ff576f637d6c7ce",
       "articleUrl": "https://www.sverigesradio.se/artikel/fem-doda-i-trafikolyckor-i-sodra-sverige-under-mandagen",
       "capturedAt": "2026-10-19T18:42:32.238Z"
+    },
+    {
+      "filename": "1792435649833_0.png",
+      "headlineId": "e614c9606aecafffdbbd20c97ae76a47fc24884f6e9bd987e67c8ebfaf87d5b1",
+      "articleUrl": "https://www.sverigesradio.se/artikel/brand-i-forskola-i-gnesta",
+      "capturedAt": "2026-10-19T18:47:29.833Z"
     }
   ]
 }
