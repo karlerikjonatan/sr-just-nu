@@ -43360,6 +43360,10 @@
     {
       "id": "984f236e81eb1b11764d69846be4df1d913a6724dcf06488d07d621c30693e2f",
       "text": "Just nu: Sjuksköterska åtalas för grov våldtäkt"
+    },
+    {
+      "id": "7533a723a0ced53631b7edddf8e2ddc808121026448889db62b79b5c0906b624",
+      "text": "Just nu: Fler brottsoffer i Sigtunautredningen"
     }
   ],
   "captures": [
@@ -108396,6 +108400,12 @@
       "headlineId": "984f236e81eb1b11764d69846be4df1d913a6724dcf06488d07d621c30693e2f",
       "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-sjukskoterska-atalas-for-grov-valdtakt",
       "capturedAt": "2026-10-19T07:52:28.653Z"
+    },
+    {
+      "filename": "1792397249919_0.png",
+      "headlineId": "7533a723a0ced53631b7edddf8e2ddc808121026448889db62b79b5c0906b624",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ytterligare-tva-misstankta-brottsoffer-pa-internatet-i-sigtuna",
+      "capturedAt": "2026-10-19T08:07:29.919Z"
     }
   ]
 }
