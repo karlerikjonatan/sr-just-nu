@@ -43364,6 +43364,10 @@
     {
       "id": "7533a723a0ced53631b7edddf8e2ddc808121026448889db62b79b5c0906b624",
       "text": "Just nu: Fler brottsoffer i Sigtunautredningen"
+    },
+    {
+      "id": "fcaf3c4c1b8076dae709f3f7a07fa242df81fa779409222d8cf4554cd6ffce84",
+      "text": "Just nu: Timmersläp har vält – E6 avstängd"
     }
   ],
   "captures": [
@@ -108406,6 +108410,12 @@
       "headlineId": "7533a723a0ced53631b7edddf8e2ddc808121026448889db62b79b5c0906b624",
       "articleUrl": "https://www.sverigesradio.se/artikel/ytterligare-tva-misstankta-brottsoffer-pa-internatet-i-sigtuna",
       "capturedAt": "2026-10-19T08:07:29.919Z"
+    },
+    {
+      "filename": "1792397548968_0.png",
+      "headlineId": "fcaf3c4c1b8076dae709f3f7a07fa242df81fa779409222d8cf4554cd6ffce84",
+      "articleUrl": "https://www.sverigesradio.se/artikel/timmerslap-valt-i-diket-e6-avstangd",
+      "capturedAt": "2026-10-19T08:12:28.968Z"
     }
   ]
 }
