@@ -43352,6 +43352,10 @@
     {
       "id": "f8b59ef31c20293697bfd3d0abba63fb894d7fa61d8b9a71023407e7e3fbe1a6",
       "text": "Just nu: Presidentbesök stoppar trafiken"
+    },
+    {
+      "id": "addfdeeabea661001c0dd0c201cf80f84111ca3a282a4573a3b5bbe604b3b70e",
+      "text": "Just nu: Två till misstänkta brottsoffer i Sigtuna"
     }
   ],
   "captures": [
@@ -108376,6 +108380,12 @@
       "headlineId": "32ab484c20d110bb5d9a2a2b8536273b36c73b37b22c6de13e251fcc3267dcb2",
       "articleUrl": "https://www.sverigesradio.se/artikel/tre-personbilar-i-krock-koer-pa-e6",
       "capturedAt": "2026-10-19T06:02:30.937Z"
+    },
+    {
+      "filename": "1792395755304_0.png",
+      "headlineId": "addfdeeabea661001c0dd0c201cf80f84111ca3a282a4573a3b5bbe604b3b70e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ytterligare-tva-misstankta-brottsoffer-pa-internatet-i-sigtuna",
+      "capturedAt": "2026-10-19T07:42:35.304Z"
     }
   ]
 }
