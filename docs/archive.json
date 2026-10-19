@@ -43396,6 +43396,10 @@
     {
       "id": "ac2ceb4a6ab1966631d738a60a2f3f466744e34c54bf86ec8e42dd38d784c536",
       "text": "Just nu: Slalomstjärnan uttagen trots krasch"
+    },
+    {
+      "id": "a930519c51916e755d88ce31328acb8803c3989ab883db55f179e5e3bb61820d",
+      "text": "Just nu: 80 döda i attack i Sudan"
     }
   ],
   "captures": [
@@ -108486,6 +108490,12 @@
       "headlineId": "6a6dc14e7938cc0abf66cbbff56d591bc0dd6891af57aa37b8769c5cf71e1a93",
       "articleUrl": "https://www.sverigesradio.se/artikel/jimmy-jansson-s-lamnar-riksdagen",
       "capturedAt": "2026-10-19T13:02:33.056Z"
+    },
+    {
+      "filename": "1792416455459_0.png",
+      "headlineId": "a930519c51916e755d88ce31328acb8803c3989ab883db55f179e5e3bb61820d",
+      "articleUrl": "https://www.sverigesradio.se/artikel/80-doda-i-dronarattack-nara-marknad-i-sudan",
+      "capturedAt": "2026-10-19T13:27:35.459Z"
     }
   ]
 }
