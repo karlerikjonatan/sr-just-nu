@@ -43404,6 +43404,10 @@
     {
       "id": "1196710a9ecdc051eb1d274168157627b0b8caed9be02a8c3e5bae42eefc8031",
       "text": "Just nu: Man hittad död i Kramfors – två gripna"
+    },
+    {
+      "id": "59816f9bc7146769e3b0ae2bc5db6701541c9e3694c05b4fe77fa6d4735d602f",
+      "text": "Just nu: 25 tjurar spårlöst försvunna"
     }
   ],
   "captures": [
@@ -108506,6 +108510,12 @@
       "headlineId": "1196710a9ecdc051eb1d274168157627b0b8caed9be02a8c3e5bae42eefc8031",
       "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-mord-i-kramfors-tva-anhallna",
       "capturedAt": "2026-10-19T14:02:33.231Z"
+    },
+    {
+      "filename": "1792423658191_0.png",
+      "headlineId": "59816f9bc7146769e3b0ae2bc5db6701541c9e3694c05b4fe77fa6d4735d602f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/25-tjurar-sparlost-forsvunna-efter-rymning",
+      "capturedAt": "2026-10-19T15:27:38.191Z"
     }
   ]
 }
