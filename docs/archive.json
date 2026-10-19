@@ -43380,6 +43380,10 @@
     {
       "id": "abd11fb7dca1fb4f78b49f9041bcefc156a8b2c663c26e2b4b57015a3a9dd40a",
       "text": "Just nu: Polisen söker pojke efter mordet i Älvsjö"
+    },
+    {
+      "id": "5f5fe5995ed9b44e22dc744b30195da5d5835b5da15007466f02b240ab08e613",
+      "text": "Just nu: Kvinna död i krock med lastbil"
     }
   ],
   "captures": [
@@ -108446,6 +108450,12 @@
       "headlineId": "abd11fb7dca1fb4f78b49f9041bcefc156a8b2c663c26e2b4b57015a3a9dd40a",
       "articleUrl": "https://www.sverigesradio.se/artikel/tredje-pojke-soks-av-polis-efter-mordet-i-alvsjo",
       "capturedAt": "2026-10-19T10:27:31.357Z"
+    },
+    {
+      "filename": "1792408647906_0.png",
+      "headlineId": "5f5fe5995ed9b44e22dc744b30195da5d5835b5da15007466f02b240ab08e613",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ung-kvinna-dod-efter-krock-med-lastbil",
+      "capturedAt": "2026-10-19T11:17:27.906Z"
     }
   ]
 }
