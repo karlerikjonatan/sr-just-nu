@@ -43372,6 +43372,10 @@
     {
       "id": "29de8733aeece0d14d3a1d8d93dba3172d0db615022dbc86175ab9da2af97a25",
       "text": "Just nu: Tågstopp till och från Göteborg"
+    },
+    {
+      "id": "b5c88360891cff6c90b913350360f2dff5f1d7565c11ff3e2c20cbfdcb345b98",
+      "text": "Just nu: Tredje pojke söks av polis efter mordet i Älvsjö"
     }
   ],
   "captures": [
@@ -108426,6 +108430,12 @@
       "headlineId": "29de8733aeece0d14d3a1d8d93dba3172d0db615022dbc86175ab9da2af97a25",
       "articleUrl": "https://www.sverigesradio.se/artikel/totalstopp-i-tagtrafiken-till-och-fran-goteborg",
       "capturedAt": "2026-10-19T08:22:34.694Z"
+    },
+    {
+      "filename": "1792405356256_0.png",
+      "headlineId": "b5c88360891cff6c90b913350360f2dff5f1d7565c11ff3e2c20cbfdcb345b98",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tredje-pojke-soks-av-polis-efter-mordet-i-alvsjo",
+      "capturedAt": "2026-10-19T10:22:36.256Z"
     }
   ]
 }
