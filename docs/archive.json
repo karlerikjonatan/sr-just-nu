@@ -43420,6 +43420,14 @@
     {
       "id": "688bc901cb7e61aa2cf0709e9591db068ed62c38b0cd8afbe6d5e201aa5fcbce",
       "text": "Just nu: Man död i bilolycka i Varberg"
+    },
+    {
+      "id": "e207d146b5160b5cd6593457657c6b0bd508461f001c70f5e13f18834111a3ca",
+      "text": "Just nu: Man död efter kollision med buss"
+    },
+    {
+      "id": "0d537b8f2ca591eaa0e6eb25c3e87b265dfa944cdf4dceb74bfae40aae4d1043",
+      "text": "Just nu: 40-årig man död i trafikolycka"
     }
   ],
   "captures": [
@@ -108546,6 +108554,18 @@
       "headlineId": "688bc901cb7e61aa2cf0709e9591db068ed62c38b0cd8afbe6d5e201aa5fcbce",
       "articleUrl": "https://www.sverigesradio.se/artikel/allvarlig-olycka-mellan-buss-och-personbil-i-varberg",
       "capturedAt": "2026-10-19T17:47:31.792Z"
+    },
+    {
+      "filename": "1792433251242_0.png",
+      "headlineId": "0d537b8f2ca591eaa0e6eb25c3e87b265dfa944cdf4dceb74bfae40aae4d1043",
+      "articleUrl": "https://www.sverigesradio.se/artikel/en-omkommen-efter-trafikolycka-vid-erikstad-utredning-inledd",
+      "capturedAt": "2026-10-19T18:07:31.242Z"
+    },
+    {
+      "filename": "1792433251242_1.png",
+      "headlineId": "e207d146b5160b5cd6593457657c6b0bd508461f001c70f5e13f18834111a3ca",
+      "articleUrl": "https://www.sverigesradio.se/artikel/allvarlig-olycka-mellan-buss-och-personbil-i-varberg",
+      "capturedAt": "2026-10-19T18:07:31.242Z"
     }
   ]
 }
