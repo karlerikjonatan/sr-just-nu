@@ -43444,6 +43444,10 @@
     {
       "id": "5f8cfac3f2d196c41ca70484b5442c4f4b0a96b4a4001fa26de98b57a624931b",
       "text": "Just nu: Brinner kraftigt i förskola i Gnesta"
+    },
+    {
+      "id": "f458cdb68b837f2f0e0ec3981691d27ac2ca6e19b78f1edd5eb958f00d6c8374",
+      "text": "Just nu: Kulusevski gör comeback"
     }
   ],
   "captures": [
@@ -108606,6 +108610,12 @@
       "headlineId": "5f8cfac3f2d196c41ca70484b5442c4f4b0a96b4a4001fa26de98b57a624931b",
       "articleUrl": "https://www.sverigesradio.se/artikel/brand-i-forskola-i-gnesta",
       "capturedAt": "2026-10-19T19:42:31.723Z"
+    },
+    {
+      "filename": "1792443448247_0.png",
+      "headlineId": "f458cdb68b837f2f0e0ec3981691d27ac2ca6e19b78f1edd5eb958f00d6c8374",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kulusevski-gor-comeback-efter-526-dagar",
+      "capturedAt": "2026-10-19T20:57:28.247Z"
     }
   ]
 }
