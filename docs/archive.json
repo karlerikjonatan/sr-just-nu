@@ -43400,6 +43400,10 @@
     {
       "id": "a930519c51916e755d88ce31328acb8803c3989ab883db55f179e5e3bb61820d",
       "text": "Just nu: 80 döda i attack i Sudan"
+    },
+    {
+      "id": "1196710a9ecdc051eb1d274168157627b0b8caed9be02a8c3e5bae42eefc8031",
+      "text": "Just nu: Man hittad död i Kramfors – två gripna"
     }
   ],
   "captures": [
@@ -108496,6 +108500,12 @@
       "headlineId": "a930519c51916e755d88ce31328acb8803c3989ab883db55f179e5e3bb61820d",
       "articleUrl": "https://www.sverigesradio.se/artikel/80-doda-i-dronarattack-nara-marknad-i-sudan",
       "capturedAt": "2026-10-19T13:27:35.459Z"
+    },
+    {
+      "filename": "1792418553231_0.png",
+      "headlineId": "1196710a9ecdc051eb1d274168157627b0b8caed9be02a8c3e5bae42eefc8031",
+      "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-mord-i-kramfors-tva-anhallna",
+      "capturedAt": "2026-10-19T14:02:33.231Z"
     }
   ]
 }
