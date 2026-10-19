@@ -43368,6 +43368,10 @@
     {
       "id": "fcaf3c4c1b8076dae709f3f7a07fa242df81fa779409222d8cf4554cd6ffce84",
       "text": "Just nu: Timmersläp har vält – E6 avstängd"
+    },
+    {
+      "id": "29de8733aeece0d14d3a1d8d93dba3172d0db615022dbc86175ab9da2af97a25",
+      "text": "Just nu: Tågstopp till och från Göteborg"
     }
   ],
   "captures": [
@@ -108416,6 +108420,12 @@
       "headlineId": "fcaf3c4c1b8076dae709f3f7a07fa242df81fa779409222d8cf4554cd6ffce84",
       "articleUrl": "https://www.sverigesradio.se/artikel/timmerslap-valt-i-diket-e6-avstangd",
       "capturedAt": "2026-10-19T08:12:28.968Z"
+    },
+    {
+      "filename": "1792398154694_0.png",
+      "headlineId": "29de8733aeece0d14d3a1d8d93dba3172d0db615022dbc86175ab9da2af97a25",
+      "articleUrl": "https://www.sverigesradio.se/artikel/totalstopp-i-tagtrafiken-till-och-fran-goteborg",
+      "capturedAt": "2026-10-19T08:22:34.694Z"
     }
   ]
 }
