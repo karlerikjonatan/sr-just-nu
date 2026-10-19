@@ -43332,6 +43332,10 @@
     {
       "id": "3dd413ff742ed19b2b3caa77430dc8d84f761ef79fb802062bed38b0a3c6d0af",
       "text": "Just nu: Antalet skadade stiger kraftigt i Alberta"
+    },
+    {
+      "id": "c7c5ae50fdb8156cc724ce958884ab861f115fce5615c9a3f3357b16205e342f",
+      "text": "Just nu: Man till sjukhus efter lägenhetsbrand"
     }
   ],
   "captures": [
@@ -108326,6 +108330,12 @@
       "headlineId": "3dd413ff742ed19b2b3caa77430dc8d84f761ef79fb802062bed38b0a3c6d0af",
       "articleUrl": "https://www.sverigesradio.se/artikel/fyra-soldater-doda-i-brand-pa-militarbas-i-kanada",
       "capturedAt": "2026-10-18T23:32:33.128Z"
+    },
+    {
+      "filename": "1792384653290_0.png",
+      "headlineId": "c7c5ae50fdb8156cc724ce958884ab861f115fce5615c9a3f3357b16205e342f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-till-sjukhus-efter-lagenhetsbrand--2",
+      "capturedAt": "2026-10-19T04:37:33.290Z"
     }
   ]
 }
