@@ -43344,6 +43344,14 @@
     {
       "id": "69d72aa0b0146cd0af4d37037e092c890c1b3fe5b96371517c20f515bf3eaf3c",
       "text": "Just nu: Häst ihjälkörd av lastbil på E6"
+    },
+    {
+      "id": "32ab484c20d110bb5d9a2a2b8536273b36c73b37b22c6de13e251fcc3267dcb2",
+      "text": "Just nu: Tre personbilar i krock – kö på E6"
+    },
+    {
+      "id": "f8b59ef31c20293697bfd3d0abba63fb894d7fa61d8b9a71023407e7e3fbe1a6",
+      "text": "Just nu: Presidentbesök stoppar trafiken"
     }
   ],
   "captures": [
@@ -108356,6 +108364,18 @@
       "headlineId": "69d72aa0b0146cd0af4d37037e092c890c1b3fe5b96371517c20f515bf3eaf3c",
       "articleUrl": "https://www.sverigesradio.se/artikel/hast-pakord-dog-pa-motorvagen",
       "capturedAt": "2026-10-19T05:12:32.398Z"
+    },
+    {
+      "filename": "1792389750937_0.png",
+      "headlineId": "f8b59ef31c20293697bfd3d0abba63fb894d7fa61d8b9a71023407e7e3fbe1a6",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kortege-stoppar-sparvagnen-i-city",
+      "capturedAt": "2026-10-19T06:02:30.937Z"
+    },
+    {
+      "filename": "1792389750937_1.png",
+      "headlineId": "32ab484c20d110bb5d9a2a2b8536273b36c73b37b22c6de13e251fcc3267dcb2",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tre-personbilar-i-krock-koer-pa-e6",
+      "capturedAt": "2026-10-19T06:02:30.937Z"
     }
   ]
 }
