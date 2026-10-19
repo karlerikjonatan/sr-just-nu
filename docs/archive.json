@@ -43408,6 +43408,10 @@
     {
       "id": "59816f9bc7146769e3b0ae2bc5db6701541c9e3694c05b4fe77fa6d4735d602f",
       "text": "Just nu: 25 tjurar spårlöst försvunna"
+    },
+    {
+      "id": "92ccb2bd6579ceb9485377271034850b5724f2103d29e45f79c4fdd82f6c1708",
+      "text": "Just nu: UD: Undvik folksamlingar i Frankrike"
     }
   ],
   "captures": [
@@ -108516,6 +108520,12 @@
       "headlineId": "59816f9bc7146769e3b0ae2bc5db6701541c9e3694c05b4fe77fa6d4735d602f",
       "articleUrl": "https://www.sverigesradio.se/artikel/25-tjurar-sparlost-forsvunna-efter-rymning",
       "capturedAt": "2026-10-19T15:27:38.191Z"
+    },
+    {
+      "filename": "1792431152259_0.png",
+      "headlineId": "92ccb2bd6579ceb9485377271034850b5724f2103d29e45f79c4fdd82f6c1708",
+      "articleUrl": "https://www.sverigesradio.se/artikel/uppmaningen-till-svenskar-i-frankrike-undvik-folksamlingar",
+      "capturedAt": "2026-10-19T17:32:32.259Z"
     }
   ]
 }
