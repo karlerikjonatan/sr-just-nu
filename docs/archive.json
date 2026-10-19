@@ -43416,6 +43416,10 @@
     {
       "id": "cc45d5ca4ffd2e101308a1028a6f84d6c2d22d0417177a7999bd045ec4664ed9",
       "text": "Just nu: En allvarligt skadad i bilolycka"
+    },
+    {
+      "id": "688bc901cb7e61aa2cf0709e9591db068ed62c38b0cd8afbe6d5e201aa5fcbce",
+      "text": "Just nu: Man död i bilolycka i Varberg"
     }
   ],
   "captures": [
@@ -108536,6 +108540,12 @@
       "headlineId": "cc45d5ca4ffd2e101308a1028a6f84d6c2d22d0417177a7999bd045ec4664ed9",
       "articleUrl": "https://www.sverigesradio.se/artikel/allvarlig-olycka-mellan-buss-och-personbil-i-varberg",
       "capturedAt": "2026-10-19T17:42:35.992Z"
+    },
+    {
+      "filename": "1792432051792_0.png",
+      "headlineId": "688bc901cb7e61aa2cf0709e9591db068ed62c38b0cd8afbe6d5e201aa5fcbce",
+      "articleUrl": "https://www.sverigesradio.se/artikel/allvarlig-olycka-mellan-buss-och-personbil-i-varberg",
+      "capturedAt": "2026-10-19T17:47:31.792Z"
     }
   ]
 }
