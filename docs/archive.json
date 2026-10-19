@@ -43340,6 +43340,10 @@
     {
       "id": "a1a1b23a5e8e5a29709bbe09ae5e62ef68980d7022abbdead3efcfc23f18deef",
       "text": "Just nu: Hus i Kalv totalförstört inatt"
+    },
+    {
+      "id": "69d72aa0b0146cd0af4d37037e092c890c1b3fe5b96371517c20f515bf3eaf3c",
+      "text": "Just nu: Häst ihjälkörd av lastbil på E6"
     }
   ],
   "captures": [
@@ -108346,6 +108350,12 @@
       "headlineId": "a1a1b23a5e8e5a29709bbe09ae5e62ef68980d7022abbdead3efcfc23f18deef",
       "articleUrl": "https://www.sverigesradio.se/artikel/hus-brann-ner-i-kalv-inga-misstankar-om-brott",
       "capturedAt": "2026-10-19T04:57:25.605Z"
+    },
+    {
+      "filename": "1792386752398_0.png",
+      "headlineId": "69d72aa0b0146cd0af4d37037e092c890c1b3fe5b96371517c20f515bf3eaf3c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/hast-pakord-dog-pa-motorvagen",
+      "capturedAt": "2026-10-19T05:12:32.398Z"
     }
   ]
 }
