@@ -43384,6 +43384,18 @@
     {
       "id": "5f5fe5995ed9b44e22dc744b30195da5d5835b5da15007466f02b240ab08e613",
       "text": "Just nu: Kvinna död i krock med lastbil"
+    },
+    {
+      "id": "6a6dc14e7938cc0abf66cbbff56d591bc0dd6891af57aa37b8769c5cf71e1a93",
+      "text": "Just nu: S-toppen lämnar riksdagen"
+    },
+    {
+      "id": "7fcd4afa2ed9e47317d5b12f81bc62aacfcadbc3b03960b273d4532bb466afba",
+      "text": "Just nu: SVT:s valkompass frias"
+    },
+    {
+      "id": "ac2ceb4a6ab1966631d738a60a2f3f466744e34c54bf86ec8e42dd38d784c536",
+      "text": "Just nu: Slalomstjärnan uttagen trots krasch"
     }
   ],
   "captures": [
@@ -108456,6 +108468,24 @@
       "headlineId": "5f5fe5995ed9b44e22dc744b30195da5d5835b5da15007466f02b240ab08e613",
       "articleUrl": "https://www.sverigesradio.se/artikel/ung-kvinna-dod-efter-krock-med-lastbil",
       "capturedAt": "2026-10-19T11:17:27.906Z"
+    },
+    {
+      "filename": "1792414953056_0.png",
+      "headlineId": "ac2ceb4a6ab1966631d738a60a2f3f466744e34c54bf86ec8e42dd38d784c536",
+      "articleUrl": "https://www.sverigesradio.se/artikel/efter-kraschen-slalomstjarnan-uttagen-till-premiaren",
+      "capturedAt": "2026-10-19T13:02:33.056Z"
+    },
+    {
+      "filename": "1792414953056_1.png",
+      "headlineId": "7fcd4afa2ed9e47317d5b12f81bc62aacfcadbc3b03960b273d4532bb466afba",
+      "articleUrl": "https://www.sverigesradio.se/artikel/svts-valkompass-frias-av-granskningsnamnden",
+      "capturedAt": "2026-10-19T13:02:33.056Z"
+    },
+    {
+      "filename": "1792414953056_2.png",
+      "headlineId": "6a6dc14e7938cc0abf66cbbff56d591bc0dd6891af57aa37b8769c5cf71e1a93",
+      "articleUrl": "https://www.sverigesradio.se/artikel/jimmy-jansson-s-lamnar-riksdagen",
+      "capturedAt": "2026-10-19T13:02:33.056Z"
     }
   ]
 }
