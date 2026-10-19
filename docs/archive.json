@@ -43428,6 +43428,10 @@
     {
       "id": "0d537b8f2ca591eaa0e6eb25c3e87b265dfa944cdf4dceb74bfae40aae4d1043",
       "text": "Just nu: 40-årig man död i trafikolycka"
+    },
+    {
+      "id": "f794bdc7a6c8aa24f6b90d0af6b1911531bd32dfa9b5182f5ff576f637d6c7ce",
+      "text": "Just nu: Mörk trafikdag – fem döda"
     }
   ],
   "captures": [
@@ -108566,6 +108570,12 @@
       "headlineId": "e207d146b5160b5cd6593457657c6b0bd508461f001c70f5e13f18834111a3ca",
       "articleUrl": "https://www.sverigesradio.se/artikel/allvarlig-olycka-mellan-buss-och-personbil-i-varberg",
       "capturedAt": "2026-10-19T18:07:31.242Z"
+    },
+    {
+      "filename": "1792435352238_0.png",
+      "headlineId": "f794bdc7a6c8aa24f6b90d0af6b1911531bd32dfa9b5182f5ff576f637d6c7ce",
+      "articleUrl": "https://www.sverigesradio.se/artikel/fem-doda-i-trafikolyckor-i-sodra-sverige-under-mandagen",
+      "capturedAt": "2026-10-19T18:42:32.238Z"
     }
   ]
 }
