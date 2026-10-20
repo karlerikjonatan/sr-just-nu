@@ -43500,6 +43500,10 @@
     {
       "id": "ee0bedd8b318e733e4525030e947716b65343488f09fee657cc0566bd41bdbaf",
       "text": "Just nu: Sigtunaskolan ska granskas"
+    },
+    {
+      "id": "cc6d1c67081438a6d4e0b95dadf14b690cde6a6f7bb7dfc3d5dcd09348954367",
+      "text": "Just nu: Gulafebermygga hittad i Malmö"
     }
   ],
   "captures": [
@@ -108746,6 +108750,12 @@
       "headlineId": "ee0bedd8b318e733e4525030e947716b65343488f09fee657cc0566bd41bdbaf",
       "articleUrl": "https://www.sverigesradio.se/artikel/skolinspektionen-inleder-tillsyn-av-sigtunaskolan",
       "capturedAt": "2026-10-20T08:37:31.697Z"
+    },
+    {
+      "filename": "1792486051270_0.png",
+      "headlineId": "cc6d1c67081438a6d4e0b95dadf14b690cde6a6f7bb7dfc3d5dcd09348954367",
+      "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-gulafebermygga-hittad-i-malmo",
+      "capturedAt": "2026-10-20T08:47:31.270Z"
     }
   ]
 }
