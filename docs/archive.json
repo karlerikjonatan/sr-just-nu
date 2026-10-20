@@ -43552,6 +43552,10 @@
     {
       "id": "f8b5a0209b3d1a77534cc371c567b857d13d87b3f6249492f33a40d2a3d77d3b",
       "text": "Just nu: Nato förstärker i Svarta havet"
+    },
+    {
+      "id": "b3558497082d6c08756ef26f726a30128c18aabd060f7465cbb661f6a11b2c9b",
+      "text": "Just nu: E45 avstängd – bärgning pågår"
     }
   ],
   "captures": [
@@ -108876,6 +108880,12 @@
       "headlineId": "f8b5a0209b3d1a77534cc371c567b857d13d87b3f6249492f33a40d2a3d77d3b",
       "articleUrl": "https://www.sverigesradio.se/artikel/nato-forstarker-i-svarta-havet-efter-dronarattacker",
       "capturedAt": "2026-10-20T20:32:30.222Z"
+    },
+    {
+      "filename": "1792531953192_0.png",
+      "headlineId": "b3558497082d6c08756ef26f726a30128c18aabd060f7465cbb661f6a11b2c9b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/e45-avstangd-bargning-pagar",
+      "capturedAt": "2026-10-20T21:32:33.192Z"
     }
   ]
 }
