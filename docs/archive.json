@@ -43508,6 +43508,10 @@
     {
       "id": "f5573e4b7ad7cf5efff8dc167707707ee640c1d85dcb218cfe3926b576f9b5d2",
       "text": "Just nu: Åklagaren: Beslag kopplas till utredning om misstänkt valfusk"
+    },
+    {
+      "id": "d22cfacdbbc384e4e7a38d490ca7e74e5f65341be07cce6733fe4f17e4beccb0",
+      "text": "Just nu: Skolsköterska frias efter ”dildolektion”"
     }
   ],
   "captures": [
@@ -108766,6 +108770,12 @@
       "headlineId": "f5573e4b7ad7cf5efff8dc167707707ee640c1d85dcb218cfe3926b576f9b5d2",
       "articleUrl": "https://www.sverigesradio.se/artikel/senaste-nytt-om-svenska-valet-2026",
       "capturedAt": "2026-10-20T11:32:34.871Z"
+    },
+    {
+      "filename": "1792497750661_0.png",
+      "headlineId": "d22cfacdbbc384e4e7a38d490ca7e74e5f65341be07cce6733fe4f17e4beccb0",
+      "articleUrl": "https://www.sverigesradio.se/artikel/aven-hovratten-friar-skolskoterska-fran-sexualbrott",
+      "capturedAt": "2026-10-20T12:02:30.661Z"
     }
   ]
 }
