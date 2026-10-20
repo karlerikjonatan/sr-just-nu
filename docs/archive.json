@@ -43504,6 +43504,10 @@
     {
       "id": "cc6d1c67081438a6d4e0b95dadf14b690cde6a6f7bb7dfc3d5dcd09348954367",
       "text": "Just nu: Gulafebermygga hittad i Malmö"
+    },
+    {
+      "id": "f5573e4b7ad7cf5efff8dc167707707ee640c1d85dcb218cfe3926b576f9b5d2",
+      "text": "Just nu: Åklagaren: Beslag kopplas till utredning om misstänkt valfusk"
     }
   ],
   "captures": [
@@ -108756,6 +108760,12 @@
       "headlineId": "cc6d1c67081438a6d4e0b95dadf14b690cde6a6f7bb7dfc3d5dcd09348954367",
       "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-gulafebermygga-hittad-i-malmo",
       "capturedAt": "2026-10-20T08:47:31.270Z"
+    },
+    {
+      "filename": "1792495954871_0.png",
+      "headlineId": "f5573e4b7ad7cf5efff8dc167707707ee640c1d85dcb218cfe3926b576f9b5d2",
+      "articleUrl": "https://www.sverigesradio.se/artikel/senaste-nytt-om-svenska-valet-2026",
+      "capturedAt": "2026-10-20T11:32:34.871Z"
     }
   ]
 }
