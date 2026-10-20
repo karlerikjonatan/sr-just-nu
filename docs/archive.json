@@ -43476,6 +43476,10 @@
     {
       "id": "ae98e1666ff5c0d3645dcc6df70840363d7d4a83ef16a3495f55b289749c8ff0",
       "text": "Just nu: Buss i olycka utanför Umeå"
+    },
+    {
+      "id": "4ff9f48f5aa92a36a3229c8b5b84f80917a74b9bcbf08e378605a0c7ca79e3db",
+      "text": "Just nu: Buss i olycka – 50 ombord"
     }
   ],
   "captures": [
@@ -108686,6 +108690,12 @@
       "headlineId": "ae98e1666ff5c0d3645dcc6df70840363d7d4a83ef16a3495f55b289749c8ff0",
       "articleUrl": "https://www.sverigesradio.se/artikel/buss-med-50-passagerare-i-olycka-utanfor-umea",
       "capturedAt": "2026-10-20T06:02:34.973Z"
+    },
+    {
+      "filename": "1792476454743_0.png",
+      "headlineId": "4ff9f48f5aa92a36a3229c8b5b84f80917a74b9bcbf08e378605a0c7ca79e3db",
+      "articleUrl": "https://www.sverigesradio.se/artikel/buss-med-50-passagerare-i-olycka-utanfor-umea",
+      "capturedAt": "2026-10-20T06:07:34.743Z"
     }
   ]
 }
