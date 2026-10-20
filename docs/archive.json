@@ -43540,6 +43540,10 @@
     {
       "id": "9fb9736d80ad3e92b048a5f6ef6fe08c290ab3a59ba77283b9169a6accb397ee",
       "text": "Just nu: P3 prisas på Guldörat"
+    },
+    {
+      "id": "2044542c9ff9eb70ed9450501323cd8e1be3b1e8f7d3c84ceca0e860933b6516",
+      "text": "Just nu: Prisregn över Sveriges Radio"
     }
   ],
   "captures": [
@@ -108846,6 +108850,12 @@
       "headlineId": "9fb9736d80ad3e92b048a5f6ef6fe08c290ab3a59ba77283b9169a6accb397ee",
       "articleUrl": "https://www.sverigesradio.se/artikel/sveriges-radio-p3-prisas-pa-guldorat-2026",
       "capturedAt": "2026-10-20T18:52:31.966Z"
+    },
+    {
+      "filename": "1792526251221_0.png",
+      "headlineId": "2044542c9ff9eb70ed9450501323cd8e1be3b1e8f7d3c84ceca0e860933b6516",
+      "articleUrl": "https://www.sverigesradio.se/artikel/flera-priser-till-sveriges-radio-pa-guldorat-2026",
+      "capturedAt": "2026-10-20T19:57:31.221Z"
     }
   ]
 }
