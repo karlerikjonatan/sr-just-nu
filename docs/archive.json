@@ -43524,6 +43524,10 @@
     {
       "id": "6cf7ad235bdbb5edc62534295d4e827fda611b1b0636a92882e9c10366a331a5",
       "text": "Just nu: Man häktas för grov våldtäkt mot barn"
+    },
+    {
+      "id": "98cefc72d5f3b4bfd18eeb5d0ab8852bfa0411e3aa31fe295d4b97845ba9f57d",
+      "text": "Just nu: Tonårspojkar häktas efter mordet i Älvsjö"
     }
   ],
   "captures": [
@@ -108806,6 +108810,12 @@
       "headlineId": "6cf7ad235bdbb5edc62534295d4e827fda611b1b0636a92882e9c10366a331a5",
       "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-valdtakt-mot-barn-pa-on-i-malmo-tva-man-begars-haktade",
       "capturedAt": "2026-10-20T13:17:31.208Z"
+    },
+    {
+      "filename": "1792503248715_0.png",
+      "headlineId": "98cefc72d5f3b4bfd18eeb5d0ab8852bfa0411e3aa31fe295d4b97845ba9f57d",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tva-begars-haktade-for-dodskjutningen-i-alvsjo",
+      "capturedAt": "2026-10-20T13:34:08.715Z"
     }
   ]
 }
