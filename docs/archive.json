@@ -43472,6 +43472,10 @@
     {
       "id": "2244017af513fea3febbdf06cf905ad04f1e8d57683b3ecd393bb0dcaac4b246",
       "text": "Just nu: Zelenskyj möter USA i Norge"
+    },
+    {
+      "id": "ae98e1666ff5c0d3645dcc6df70840363d7d4a83ef16a3495f55b289749c8ff0",
+      "text": "Just nu: Buss i olycka utanför Umeå"
     }
   ],
   "captures": [
@@ -108676,6 +108680,12 @@
       "headlineId": "2244017af513fea3febbdf06cf905ad04f1e8d57683b3ecd393bb0dcaac4b246",
       "articleUrl": "https://www.sverigesradio.se/artikel/steve-witkoff-till-norge-for-samtal-om-fred-i-ukraina",
       "capturedAt": "2026-10-20T05:12:34.447Z"
+    },
+    {
+      "filename": "1792476154973_0.png",
+      "headlineId": "ae98e1666ff5c0d3645dcc6df70840363d7d4a83ef16a3495f55b289749c8ff0",
+      "articleUrl": "https://www.sverigesradio.se/artikel/buss-med-50-passagerare-i-olycka-utanfor-umea",
+      "capturedAt": "2026-10-20T06:02:34.973Z"
     }
   ]
 }
