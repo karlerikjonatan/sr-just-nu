@@ -43496,6 +43496,10 @@
     {
       "id": "e6db213c4213d554a6132bd768e01bfca96b74c45de69845a120756a50301fc5",
       "text": "Just nu: Polistillslag i Borlänge kopplas till valfusk"
+    },
+    {
+      "id": "ee0bedd8b318e733e4525030e947716b65343488f09fee657cc0566bd41bdbaf",
+      "text": "Just nu: Sigtunaskolan ska granskas"
     }
   ],
   "captures": [
@@ -108736,6 +108740,12 @@
       "headlineId": "e6db213c4213d554a6132bd768e01bfca96b74c45de69845a120756a50301fc5",
       "articleUrl": "https://www.sverigesradio.se/artikel/polistillslag-i-borlange-kan-koppas-till-valfuskutredning",
       "capturedAt": "2026-10-20T08:32:29.623Z"
+    },
+    {
+      "filename": "1792485451697_0.png",
+      "headlineId": "ee0bedd8b318e733e4525030e947716b65343488f09fee657cc0566bd41bdbaf",
+      "articleUrl": "https://www.sverigesradio.se/artikel/skolinspektionen-inleder-tillsyn-av-sigtunaskolan",
+      "capturedAt": "2026-10-20T08:37:31.697Z"
     }
   ]
 }
