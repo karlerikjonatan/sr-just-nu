@@ -43516,6 +43516,10 @@
     {
       "id": "962be923b891bc7f505546e7a68a8b4ac5c8e031f97d1abfd63b917e9b8d615a",
       "text": "Just nu: Patient avled – sjuksköterska döms"
+    },
+    {
+      "id": "2b24babf7b50d120c7a11e005466265c75904aae1c33686b43d82abae1ac8df2",
+      "text": "Just nu: Tonårspojke häktas efter mordet i Älvsjö"
     }
   ],
   "captures": [
@@ -108786,6 +108790,12 @@
       "headlineId": "962be923b891bc7f505546e7a68a8b4ac5c8e031f97d1abfd63b917e9b8d615a",
       "articleUrl": "https://www.sverigesradio.se/artikel/sjukskoterska-doms-patient-fick-for-mycket-dropp-och-avled",
       "capturedAt": "2026-10-20T12:22:32.666Z"
+    },
+    {
+      "filename": "1792501955944_0.png",
+      "headlineId": "2b24babf7b50d120c7a11e005466265c75904aae1c33686b43d82abae1ac8df2",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tonarspojke-haktas-for-mord-efter-skjutning-i-alvsjo",
+      "capturedAt": "2026-10-20T13:12:35.944Z"
     }
   ]
 }
