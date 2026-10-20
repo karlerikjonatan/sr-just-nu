@@ -43464,6 +43464,10 @@
     {
       "id": "f1df3c42e5ccf544af2dba97413951a8257d81423ab6c3232c0f41768b41d100",
       "text": "Just nu: Vajerolycka – stopp på E4"
+    },
+    {
+      "id": "878cd1810718daebdfd4f0ab52fe04855e3c6698fcf49ec659110b76c8f3ec24",
+      "text": "Just nu: Inställda tåg söder om Stockholm"
     }
   ],
   "captures": [
@@ -108656,6 +108660,12 @@
       "headlineId": "f1df3c42e5ccf544af2dba97413951a8257d81423ab6c3232c0f41768b41d100",
       "articleUrl": "https://www.sverigesradio.se/artikel/stopp-pa-e4-lastbil-har-kort-ner-vajerracke",
       "capturedAt": "2026-10-20T04:27:34.044Z"
+    },
+    {
+      "filename": "1792471053738_0.png",
+      "headlineId": "878cd1810718daebdfd4f0ab52fe04855e3c6698fcf49ec659110b76c8f3ec24",
+      "articleUrl": "https://www.sverigesradio.se/artikel/installda-tag-pa-grund-av-vaxelfel-vid-alvsjo",
+      "capturedAt": "2026-10-20T04:37:33.738Z"
     }
   ]
 }
