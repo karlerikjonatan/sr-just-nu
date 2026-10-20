@@ -43452,6 +43452,10 @@
     {
       "id": "f3fb5ebbf0211a6eee6874524a1fa8bbbb5b1fc8507c7a751796a16425e3b9b6",
       "text": "Just nu: Kulusevski tillbaka efter 526 dagar"
+    },
+    {
+      "id": "42043aec37fa25fdf77c881c74df75c385b2cc5f6ce65f1feb072df366871fc8",
+      "text": "Just nu: Mörk gårdag i trafiken – fem döda"
     }
   ],
   "captures": [
@@ -108626,6 +108630,12 @@
       "headlineId": "f3fb5ebbf0211a6eee6874524a1fa8bbbb5b1fc8507c7a751796a16425e3b9b6",
       "articleUrl": "https://www.sverigesradio.se/artikel/kulusevski-gor-comeback-efter-526-dagar",
       "capturedAt": "2026-10-19T21:17:31.394Z"
+    },
+    {
+      "filename": "1792461153815_0.png",
+      "headlineId": "42043aec37fa25fdf77c881c74df75c385b2cc5f6ce65f1feb072df366871fc8",
+      "articleUrl": "https://www.sverigesradio.se/artikel/fem-doda-i-trafikolyckor-i-sodra-sverige-under-mandagen",
+      "capturedAt": "2026-10-20T01:52:33.815Z"
     }
   ]
 }
