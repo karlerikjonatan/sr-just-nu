@@ -43468,6 +43468,10 @@
     {
       "id": "878cd1810718daebdfd4f0ab52fe04855e3c6698fcf49ec659110b76c8f3ec24",
       "text": "Just nu: Inställda tåg söder om Stockholm"
+    },
+    {
+      "id": "2244017af513fea3febbdf06cf905ad04f1e8d57683b3ecd393bb0dcaac4b246",
+      "text": "Just nu: Zelenskyj möter USA i Norge"
     }
   ],
   "captures": [
@@ -108666,6 +108670,12 @@
       "headlineId": "878cd1810718daebdfd4f0ab52fe04855e3c6698fcf49ec659110b76c8f3ec24",
       "articleUrl": "https://www.sverigesradio.se/artikel/installda-tag-pa-grund-av-vaxelfel-vid-alvsjo",
       "capturedAt": "2026-10-20T04:37:33.738Z"
+    },
+    {
+      "filename": "1792473154447_0.png",
+      "headlineId": "2244017af513fea3febbdf06cf905ad04f1e8d57683b3ecd393bb0dcaac4b246",
+      "articleUrl": "https://www.sverigesradio.se/artikel/steve-witkoff-till-norge-for-samtal-om-fred-i-ukraina",
+      "capturedAt": "2026-10-20T05:12:34.447Z"
     }
   ]
 }
