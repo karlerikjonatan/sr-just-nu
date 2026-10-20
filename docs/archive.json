@@ -43492,6 +43492,10 @@
     {
       "id": "a38145019b98d6dcf86da3d41c780c6bd2bb524cee85cff0843184f640897408",
       "text": "Just nu: Mjölkbil har vält"
+    },
+    {
+      "id": "e6db213c4213d554a6132bd768e01bfca96b74c45de69845a120756a50301fc5",
+      "text": "Just nu: Polistillslag i Borlänge kopplas till valfusk"
     }
   ],
   "captures": [
@@ -108726,6 +108730,12 @@
       "headlineId": "a38145019b98d6dcf86da3d41c780c6bd2bb524cee85cff0843184f640897408",
       "articleUrl": "https://www.sverigesradio.se/artikel/mjolkbil-har-valt-i-halkan-utanfor-timmersdala",
       "capturedAt": "2026-10-20T07:57:34.807Z"
+    },
+    {
+      "filename": "1792485149623_0.png",
+      "headlineId": "e6db213c4213d554a6132bd768e01bfca96b74c45de69845a120756a50301fc5",
+      "articleUrl": "https://www.sverigesradio.se/artikel/polistillslag-i-borlange-kan-koppas-till-valfuskutredning",
+      "capturedAt": "2026-10-20T08:32:29.623Z"
     }
   ]
 }
