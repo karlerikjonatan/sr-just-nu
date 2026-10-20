@@ -43484,6 +43484,10 @@
     {
       "id": "d74f9d90a18b930c6adcf478716198a4760e58f5a215c89081e0f9c20beaec3a",
       "text": "Just nu: Två begärs häktade för dödskjutningen i Älvsjö"
+    },
+    {
+      "id": "6a7aac7ea01b65623142905a40962112bb5c75090283d2108c72b9be1f1f0394",
+      "text": "Just nu: Två begärs häktade för dödskjutning"
     }
   ],
   "captures": [
@@ -108706,6 +108710,12 @@
       "headlineId": "d74f9d90a18b930c6adcf478716198a4760e58f5a215c89081e0f9c20beaec3a",
       "articleUrl": "https://www.sverigesradio.se/artikel/tva-begars-haktade-for-dodskjutningen-i-alvsjo",
       "capturedAt": "2026-10-20T07:27:31.387Z"
+    },
+    {
+      "filename": "1792482448174_0.png",
+      "headlineId": "6a7aac7ea01b65623142905a40962112bb5c75090283d2108c72b9be1f1f0394",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tva-begars-haktade-for-dodskjutningen-i-alvsjo",
+      "capturedAt": "2026-10-20T07:47:28.174Z"
     }
   ]
 }
