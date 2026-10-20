@@ -43548,6 +43548,10 @@
     {
       "id": "b8007cc5c06c4e006ef673ffbeafa82dbbc3e28b25ed1d568d285d43f57e65e7",
       "text": "Just nu: Fullt utvisningsbås efter bråk"
+    },
+    {
+      "id": "f8b5a0209b3d1a77534cc371c567b857d13d87b3f6249492f33a40d2a3d77d3b",
+      "text": "Just nu: Nato förstärker i Svarta havet"
     }
   ],
   "captures": [
@@ -108866,6 +108870,12 @@
       "headlineId": "b8007cc5c06c4e006ef673ffbeafa82dbbc3e28b25ed1d568d285d43f57e65e7",
       "articleUrl": "https://www.sverigesradio.se/artikel/fullt-i-utvisningsbaset-nar-frolunda-korde-over-djurgarden",
       "capturedAt": "2026-10-20T20:02:32.785Z"
+    },
+    {
+      "filename": "1792528350222_0.png",
+      "headlineId": "f8b5a0209b3d1a77534cc371c567b857d13d87b3f6249492f33a40d2a3d77d3b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/nato-forstarker-i-svarta-havet-efter-dronarattacker",
+      "capturedAt": "2026-10-20T20:32:30.222Z"
     }
   ]
 }
