@@ -43456,6 +43456,10 @@
     {
       "id": "42043aec37fa25fdf77c881c74df75c385b2cc5f6ce65f1feb072df366871fc8",
       "text": "Just nu: Mörk gårdag i trafiken – fem döda"
+    },
+    {
+      "id": "eb6b390477281879a4866d7fd11a1d9ab658cb076c57606bcc86c742812344cd",
+      "text": "Just nu: Rekordlågt stöd för Trump i USA"
     }
   ],
   "captures": [
@@ -108636,6 +108640,12 @@
       "headlineId": "42043aec37fa25fdf77c881c74df75c385b2cc5f6ce65f1feb072df366871fc8",
       "articleUrl": "https://www.sverigesradio.se/artikel/fem-doda-i-trafikolyckor-i-sodra-sverige-under-mandagen",
       "capturedAt": "2026-10-20T01:52:33.815Z"
+    },
+    {
+      "filename": "1792461751443_0.png",
+      "headlineId": "eb6b390477281879a4866d7fd11a1d9ab658cb076c57606bcc86c742812344cd",
+      "articleUrl": "https://www.sverigesradio.se/artikel/rekordlagt-stod-for-donald-trump-i-usa",
+      "capturedAt": "2026-10-20T02:02:31.443Z"
     }
   ]
 }
