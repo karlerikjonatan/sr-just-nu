@@ -43460,6 +43460,10 @@
     {
       "id": "eb6b390477281879a4866d7fd11a1d9ab658cb076c57606bcc86c742812344cd",
       "text": "Just nu: Rekordlågt stöd för Trump i USA"
+    },
+    {
+      "id": "f1df3c42e5ccf544af2dba97413951a8257d81423ab6c3232c0f41768b41d100",
+      "text": "Just nu: Vajerolycka – stopp på E4"
     }
   ],
   "captures": [
@@ -108646,6 +108650,12 @@
       "headlineId": "eb6b390477281879a4866d7fd11a1d9ab658cb076c57606bcc86c742812344cd",
       "articleUrl": "https://www.sverigesradio.se/artikel/rekordlagt-stod-for-donald-trump-i-usa",
       "capturedAt": "2026-10-20T02:02:31.443Z"
+    },
+    {
+      "filename": "1792470454044_0.png",
+      "headlineId": "f1df3c42e5ccf544af2dba97413951a8257d81423ab6c3232c0f41768b41d100",
+      "articleUrl": "https://www.sverigesradio.se/artikel/stopp-pa-e4-lastbil-har-kort-ner-vajerracke",
+      "capturedAt": "2026-10-20T04:27:34.044Z"
     }
   ]
 }
