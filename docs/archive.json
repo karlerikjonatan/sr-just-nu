@@ -43480,6 +43480,10 @@
     {
       "id": "4ff9f48f5aa92a36a3229c8b5b84f80917a74b9bcbf08e378605a0c7ca79e3db",
       "text": "Just nu: Buss i olycka – 50 ombord"
+    },
+    {
+      "id": "d74f9d90a18b930c6adcf478716198a4760e58f5a215c89081e0f9c20beaec3a",
+      "text": "Just nu: Två begärs häktade för dödskjutningen i Älvsjö"
     }
   ],
   "captures": [
@@ -108696,6 +108700,12 @@
       "headlineId": "4ff9f48f5aa92a36a3229c8b5b84f80917a74b9bcbf08e378605a0c7ca79e3db",
       "articleUrl": "https://www.sverigesradio.se/artikel/buss-med-50-passagerare-i-olycka-utanfor-umea",
       "capturedAt": "2026-10-20T06:07:34.743Z"
+    },
+    {
+      "filename": "1792481251387_0.png",
+      "headlineId": "d74f9d90a18b930c6adcf478716198a4760e58f5a215c89081e0f9c20beaec3a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tva-begars-haktade-for-dodskjutningen-i-alvsjo",
+      "capturedAt": "2026-10-20T07:27:31.387Z"
     }
   ]
 }
