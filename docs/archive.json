@@ -43528,6 +43528,10 @@
     {
       "id": "98cefc72d5f3b4bfd18eeb5d0ab8852bfa0411e3aa31fe295d4b97845ba9f57d",
       "text": "Just nu: Tonårspojkar häktas efter mordet i Älvsjö"
+    },
+    {
+      "id": "54a9204a63082a27e8b5eca1c669dc53ba8e2af32aafd0afbc0bba457f3f5a09",
+      "text": "Just nu: Lastbilsbrand på E6 – långa köer"
     }
   ],
   "captures": [
@@ -108816,6 +108820,12 @@
       "headlineId": "98cefc72d5f3b4bfd18eeb5d0ab8852bfa0411e3aa31fe295d4b97845ba9f57d",
       "articleUrl": "https://www.sverigesradio.se/artikel/tva-begars-haktade-for-dodskjutningen-i-alvsjo",
       "capturedAt": "2026-10-20T13:34:08.715Z"
+    },
+    {
+      "filename": "1792505551555_0.png",
+      "headlineId": "54a9204a63082a27e8b5eca1c669dc53ba8e2af32aafd0afbc0bba457f3f5a09",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lastbilsbrand-pa-e6-utanfor-varberg",
+      "capturedAt": "2026-10-20T14:12:31.555Z"
     }
   ]
 }
