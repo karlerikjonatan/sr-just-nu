@@ -43512,6 +43512,10 @@
     {
       "id": "d22cfacdbbc384e4e7a38d490ca7e74e5f65341be07cce6733fe4f17e4beccb0",
       "text": "Just nu: Skolsköterska frias efter ”dildolektion”"
+    },
+    {
+      "id": "962be923b891bc7f505546e7a68a8b4ac5c8e031f97d1abfd63b917e9b8d615a",
+      "text": "Just nu: Patient avled – sjuksköterska döms"
     }
   ],
   "captures": [
@@ -108776,6 +108780,12 @@
       "headlineId": "d22cfacdbbc384e4e7a38d490ca7e74e5f65341be07cce6733fe4f17e4beccb0",
       "articleUrl": "https://www.sverigesradio.se/artikel/aven-hovratten-friar-skolskoterska-fran-sexualbrott",
       "capturedAt": "2026-10-20T12:02:30.661Z"
+    },
+    {
+      "filename": "1792498952666_0.png",
+      "headlineId": "962be923b891bc7f505546e7a68a8b4ac5c8e031f97d1abfd63b917e9b8d615a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/sjukskoterska-doms-patient-fick-for-mycket-dropp-och-avled",
+      "capturedAt": "2026-10-20T12:22:32.666Z"
     }
   ]
 }
