@@ -43632,6 +43632,10 @@
     {
       "id": "a9f4ffc7926dc0d0b8b9e3cdcad4866fe37f7eb40e28916f937184aae9f0cd4b",
       "text": "Just nu: Skyddsstoppet i Norrtälje hävt"
+    },
+    {
+      "id": "90d3888c97bc939e8c9c665e3848a6222f8ce05b1f1f6111b21608501cd9bc7f",
+      "text": "Just nu: Larm om industribrand i Hammar"
     }
   ],
   "captures": [
@@ -109076,6 +109080,12 @@
       "headlineId": "a9f4ffc7926dc0d0b8b9e3cdcad4866fe37f7eb40e28916f937184aae9f0cd4b",
       "articleUrl": "https://www.sverigesradio.se/artikel/all-busstrafik-i-norrtalje-stoppad-efter-krav-fran-skyddsombud",
       "capturedAt": "2026-10-21T13:22:35.758Z"
+    },
+    {
+      "filename": "1792595256803_0.png",
+      "headlineId": "90d3888c97bc939e8c9c665e3848a6222f8ce05b1f1f6111b21608501cd9bc7f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/brand-i-industri--3",
+      "capturedAt": "2026-10-21T15:07:36.803Z"
     }
   ]
 }
