@@ -43656,6 +43656,10 @@
     {
       "id": "6d732e280ca8d1779f56a1576177e3e6bedbcb7727a6188b46141a946999eb0d",
       "text": "Just nu: E6 avstängd söder om Göteborg"
+    },
+    {
+      "id": "5ce8d8d9d1203606d0e4079ebd74d8cf5f28b9bf8f507c15e7683de24c778f6f",
+      "text": "Just nu: Smitningsolycka i Västerås"
     }
   ],
   "captures": [
@@ -109136,6 +109140,12 @@
       "headlineId": "6d732e280ca8d1779f56a1576177e3e6bedbcb7727a6188b46141a946999eb0d",
       "articleUrl": "https://www.sverigesradio.se/artikel/e6-avstangd-utanfor-goteborg-vattenplaning",
       "capturedAt": "2026-10-21T18:42:29.401Z"
+    },
+    {
+      "filename": "1792609352815_0.png",
+      "headlineId": "5ce8d8d9d1203606d0e4079ebd74d8cf5f28b9bf8f507c15e7683de24c778f6f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/forare-smet-efter-att-ha-kort-pa-en-person-i-vasteras",
+      "capturedAt": "2026-10-21T19:02:32.815Z"
     }
   ]
 }
