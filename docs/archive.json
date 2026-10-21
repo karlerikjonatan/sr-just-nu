@@ -43560,6 +43560,10 @@
     {
       "id": "f917e6d9fa5a3e1c381772bb19895d34385824223a291b05a930495df21434e8",
       "text": "Just nu: Kvinna död i trafikolycka"
+    },
+    {
+      "id": "d7691178d68ffac89eab8b75149e6fc81114ce9e3f9216d53d9cfab411504f0d",
+      "text": "Just nu: Räddades ur brinnande hus"
     }
   ],
   "captures": [
@@ -108896,6 +108900,12 @@
       "headlineId": "f917e6d9fa5a3e1c381772bb19895d34385824223a291b05a930495df21434e8",
       "articleUrl": "https://www.sverigesradio.se/artikel/kvinna-dod-i-trafikolycka-pa-e12",
       "capturedAt": "2026-10-21T01:37:26.878Z"
+    },
+    {
+      "filename": "1792554757276_0.png",
+      "headlineId": "d7691178d68ffac89eab8b75149e6fc81114ce9e3f9216d53d9cfab411504f0d",
+      "articleUrl": "https://www.sverigesradio.se/artikel/mordbrand-utreds-efter-villabrand-i-harryda",
+      "capturedAt": "2026-10-21T03:52:37.276Z"
     }
   ]
 }
