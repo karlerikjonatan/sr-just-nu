@@ -43624,6 +43624,10 @@
     {
       "id": "e28a799dd3e8efc45bdcc38fef003aa938dcc984563dd350ebc4db464e2e66a5",
       "text": "Just nu: All busstrafik i Norrtälje stoppad"
+    },
+    {
+      "id": "34b8fe359e976ec121740149dbaa7d83ceb20abd4ce3ddf3767b041a74c0b365",
+      "text": "Just nu: Kvinna svårt skadad efter olycka på E12"
     }
   ],
   "captures": [
@@ -109056,6 +109060,12 @@
       "headlineId": "e28a799dd3e8efc45bdcc38fef003aa938dcc984563dd350ebc4db464e2e66a5",
       "articleUrl": "https://www.sverigesradio.se/artikel/all-busstrafik-i-norrtalje-stoppad-efter-krav-fran-skyddsombud",
       "capturedAt": "2026-10-21T12:02:36.009Z"
+    },
+    {
+      "filename": "1792588054860_0.png",
+      "headlineId": "34b8fe359e976ec121740149dbaa7d83ceb20abd4ce3ddf3767b041a74c0b365",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kvinna-vardas-pa-iva-efter-dodsolyckan-pa-e12",
+      "capturedAt": "2026-10-21T13:07:34.860Z"
     }
   ]
 }
