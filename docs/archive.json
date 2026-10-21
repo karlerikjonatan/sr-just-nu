@@ -43612,6 +43612,14 @@
     {
       "id": "84562b5d33ab85fbb4ad3e372d066eb9728b4e74be7eb439a4389ef1bb12744c",
       "text": "Just nu: Arbetsplatsolycka på Stegra"
+    },
+    {
+      "id": "92702198854df0c0c294c70b853f7c1d9c8675a30799ae268e17f0588e08c38a",
+      "text": "Just nu: Bilbrand efter flerbilskrock"
+    },
+    {
+      "id": "1bc99756857eb47cad3d20d980c60599df871825edb276a1bdbe346732de7345",
+      "text": "Just nu: Norrtäljes busstrafik har stora störningar"
     }
   ],
   "captures": [
@@ -109026,6 +109034,18 @@
       "headlineId": "84562b5d33ab85fbb4ad3e372d066eb9728b4e74be7eb439a4389ef1bb12744c",
       "articleUrl": "https://www.sverigesradio.se/artikel/arbetsplatsolycka-pa-stegra",
       "capturedAt": "2026-10-21T11:37:33.854Z"
+    },
+    {
+      "filename": "1792583847703_0.png",
+      "headlineId": "1bc99756857eb47cad3d20d980c60599df871825edb276a1bdbe346732de7345",
+      "articleUrl": "https://www.sverigesradio.se/artikel/norrtaljes-busstrafik-har-stora-storningar",
+      "capturedAt": "2026-10-21T11:57:27.703Z"
+    },
+    {
+      "filename": "1792583847703_1.png",
+      "headlineId": "92702198854df0c0c294c70b853f7c1d9c8675a30799ae268e17f0588e08c38a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/bilbrand-efter-flerbilskrock",
+      "capturedAt": "2026-10-21T11:57:27.703Z"
     }
   ]
 }
