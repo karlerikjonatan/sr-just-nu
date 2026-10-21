@@ -43644,6 +43644,10 @@
     {
       "id": "37f1807b6574c01c91b5e1c28fe67ca8e1239dd483ccd52e719a4cb35959e78f",
       "text": "Just nu: Meta får böter i New Mexico"
+    },
+    {
+      "id": "f3082688f6006751f55847ea5abcbaacc9e5518bece18e3bb1a126962edc90c6",
+      "text": "Just nu: Person påkörd i Uddevalla"
     }
   ],
   "captures": [
@@ -109106,6 +109110,12 @@
       "headlineId": "37f1807b6574c01c91b5e1c28fe67ca8e1239dd483ccd52e719a4cb35959e78f",
       "articleUrl": "https://www.sverigesradio.se/artikel/meta-ska-bota-25-miljarder-dollar-i-new-mexico",
       "capturedAt": "2026-10-21T17:57:27.653Z"
+    },
+    {
+      "filename": "1792606950848_0.png",
+      "headlineId": "f3082688f6006751f55847ea5abcbaacc9e5518bece18e3bb1a126962edc90c6",
+      "articleUrl": "https://www.sverigesradio.se/artikel/person-pakord-i-uddevalla",
+      "capturedAt": "2026-10-21T18:22:30.848Z"
     }
   ]
 }
