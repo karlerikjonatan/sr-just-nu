@@ -43564,6 +43564,10 @@
     {
       "id": "d7691178d68ffac89eab8b75149e6fc81114ce9e3f9216d53d9cfab411504f0d",
       "text": "Just nu: Räddades ur brinnande hus"
+    },
+    {
+      "id": "dca8fe5ed400e877776d62d6a0d924b47080061823890d305d2955cd123892f8",
+      "text": "Just nu: Räddad ur brinnande hus"
     }
   ],
   "captures": [
@@ -108906,6 +108910,12 @@
       "headlineId": "d7691178d68ffac89eab8b75149e6fc81114ce9e3f9216d53d9cfab411504f0d",
       "articleUrl": "https://www.sverigesradio.se/artikel/mordbrand-utreds-efter-villabrand-i-harryda",
       "capturedAt": "2026-10-21T03:52:37.276Z"
+    },
+    {
+      "filename": "1792556248803_0.png",
+      "headlineId": "dca8fe5ed400e877776d62d6a0d924b47080061823890d305d2955cd123892f8",
+      "articleUrl": "https://www.sverigesradio.se/artikel/mordbrand-utreds-efter-villabrand-i-harryda",
+      "capturedAt": "2026-10-21T04:17:28.803Z"
     }
   ]
 }
