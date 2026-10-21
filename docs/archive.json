@@ -43636,6 +43636,10 @@
     {
       "id": "90d3888c97bc939e8c9c665e3848a6222f8ce05b1f1f6111b21608501cd9bc7f",
       "text": "Just nu: Larm om industribrand i Hammar"
+    },
+    {
+      "id": "662c856164b0af840756d96a5e8a9cac3e5f19d90ed85e302bc4df6004a0898a",
+      "text": "Just nu: Barn till sjukhus – misstänkt knarkgodis"
     }
   ],
   "captures": [
@@ -109086,6 +109090,12 @@
       "headlineId": "90d3888c97bc939e8c9c665e3848a6222f8ce05b1f1f6111b21608501cd9bc7f",
       "articleUrl": "https://www.sverigesradio.se/artikel/brand-i-industri--3",
       "capturedAt": "2026-10-21T15:07:36.803Z"
+    },
+    {
+      "filename": "1792596174758_0.png",
+      "headlineId": "662c856164b0af840756d96a5e8a9cac3e5f19d90ed85e302bc4df6004a0898a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/fyra-barn-till-sjukhus-kan-ha-fatt-i-sig-godis-med-narkotika",
+      "capturedAt": "2026-10-21T15:22:54.758Z"
     }
   ]
 }
