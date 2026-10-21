@@ -43660,6 +43660,10 @@
     {
       "id": "5ce8d8d9d1203606d0e4079ebd74d8cf5f28b9bf8f507c15e7683de24c778f6f",
       "text": "Just nu: Smitningsolycka i Västerås"
+    },
+    {
+      "id": "d9d84ece5170ff669203fe67becb4c260423e2b5ac888b84cd83167a5820e034",
+      "text": "Just nu: USA tömmer ambassaden i Saudiarabien"
     }
   ],
   "captures": [
@@ -109146,6 +109150,12 @@
       "headlineId": "5ce8d8d9d1203606d0e4079ebd74d8cf5f28b9bf8f507c15e7683de24c778f6f",
       "articleUrl": "https://www.sverigesradio.se/artikel/forare-smet-efter-att-ha-kort-pa-en-person-i-vasteras",
       "capturedAt": "2026-10-21T19:02:32.815Z"
+    },
+    {
+      "filename": "1792614756718_0.png",
+      "headlineId": "d9d84ece5170ff669203fe67becb4c260423e2b5ac888b84cd83167a5820e034",
+      "articleUrl": "https://www.sverigesradio.se/artikel/usa-beordrar-ambassadpersonal-att-lamna-saudiarabien",
+      "capturedAt": "2026-10-21T20:32:36.718Z"
     }
   ]
 }
