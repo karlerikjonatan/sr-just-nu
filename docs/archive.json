@@ -43568,6 +43568,10 @@
     {
       "id": "dca8fe5ed400e877776d62d6a0d924b47080061823890d305d2955cd123892f8",
       "text": "Just nu: Räddad ur brinnande hus"
+    },
+    {
+      "id": "46d5eee98c164076bfda2887d00cabdc75d54616cbde9bbb6142b4b41527f6a1",
+      "text": "Just nu: Lastbilsbrand på E4 norr om Ostvik"
     }
   ],
   "captures": [
@@ -108916,6 +108920,12 @@
       "headlineId": "dca8fe5ed400e877776d62d6a0d924b47080061823890d305d2955cd123892f8",
       "articleUrl": "https://www.sverigesradio.se/artikel/mordbrand-utreds-efter-villabrand-i-harryda",
       "capturedAt": "2026-10-21T04:17:28.803Z"
+    },
+    {
+      "filename": "1792557446547_0.png",
+      "headlineId": "46d5eee98c164076bfda2887d00cabdc75d54616cbde9bbb6142b4b41527f6a1",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lastbilsbrand-pa-e4",
+      "capturedAt": "2026-10-21T04:37:26.547Z"
     }
   ]
 }
