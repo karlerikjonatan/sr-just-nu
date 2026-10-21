@@ -43604,6 +43604,10 @@
     {
       "id": "7c72f4baf57929351a262193508191bbe1edc51acfe8fc89762af9549f2f959d",
       "text": "Just nu: Nytt styre klart i Region Stockholm"
+    },
+    {
+      "id": "9b1d554318c43326cbdb31ddec4a54935a962215406fb8d0e7185caf71adc3fd",
+      "text": "Just nu: Ny försvarssatsning på Gotland"
     }
   ],
   "captures": [
@@ -109006,6 +109010,12 @@
       "headlineId": "7c72f4baf57929351a262193508191bbe1edc51acfe8fc89762af9549f2f959d",
       "articleUrl": "https://www.sverigesradio.se/artikel/nytt-regionstyre-vantas-presenteras-under-dagen",
       "capturedAt": "2026-10-21T08:47:26.147Z"
+    },
+    {
+      "filename": "1792574248639_0.png",
+      "headlineId": "9b1d554318c43326cbdb31ddec4a54935a962215406fb8d0e7185caf71adc3fd",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ny-forsvarssatsning-pa-gotland-ska-starka-ons-luftvarn",
+      "capturedAt": "2026-10-21T09:17:28.639Z"
     }
   ]
 }
