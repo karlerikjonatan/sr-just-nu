@@ -43600,6 +43600,10 @@
     {
       "id": "1630d1ec7494eb864a5d9898389622f73561f99eebe5ef8955c38b1e23161da1",
       "text": "Just nu: Nytt mittenstyre i Stockholm"
+    },
+    {
+      "id": "7c72f4baf57929351a262193508191bbe1edc51acfe8fc89762af9549f2f959d",
+      "text": "Just nu: Nytt styre klart i Region Stockholm"
     }
   ],
   "captures": [
@@ -108996,6 +109000,12 @@
       "headlineId": "1630d1ec7494eb864a5d9898389622f73561f99eebe5ef8955c38b1e23161da1",
       "articleUrl": "https://www.sverigesradio.se/artikel/senaste-nytt-om-svenska-valet-2026",
       "capturedAt": "2026-10-21T08:17:26.963Z"
+    },
+    {
+      "filename": "1792572446147_0.png",
+      "headlineId": "7c72f4baf57929351a262193508191bbe1edc51acfe8fc89762af9549f2f959d",
+      "articleUrl": "https://www.sverigesradio.se/artikel/nytt-regionstyre-vantas-presenteras-under-dagen",
+      "capturedAt": "2026-10-21T08:47:26.147Z"
     }
   ]
 }
