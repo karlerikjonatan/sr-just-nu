@@ -43608,6 +43608,10 @@
     {
       "id": "9b1d554318c43326cbdb31ddec4a54935a962215406fb8d0e7185caf71adc3fd",
       "text": "Just nu: Ny försvarssatsning på Gotland"
+    },
+    {
+      "id": "84562b5d33ab85fbb4ad3e372d066eb9728b4e74be7eb439a4389ef1bb12744c",
+      "text": "Just nu: Arbetsplatsolycka på Stegra"
     }
   ],
   "captures": [
@@ -109016,6 +109020,12 @@
       "headlineId": "9b1d554318c43326cbdb31ddec4a54935a962215406fb8d0e7185caf71adc3fd",
       "articleUrl": "https://www.sverigesradio.se/artikel/ny-forsvarssatsning-pa-gotland-ska-starka-ons-luftvarn",
       "capturedAt": "2026-10-21T09:17:28.639Z"
+    },
+    {
+      "filename": "1792582653854_0.png",
+      "headlineId": "84562b5d33ab85fbb4ad3e372d066eb9728b4e74be7eb439a4389ef1bb12744c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/arbetsplatsolycka-pa-stegra",
+      "capturedAt": "2026-10-21T11:37:33.854Z"
     }
   ]
 }
