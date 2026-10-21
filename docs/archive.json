@@ -43592,6 +43592,10 @@
     {
       "id": "21009b2f89e6b71ee68e1a3ec3810cde056cba8b9bb52fc8dbda58a10710e312",
       "text": "Just nu: Gängtopp åtalas för mord"
+    },
+    {
+      "id": "7cb85fe3d9b9247289b57965618d8ee3d409c38e157ca27b2dc38043ddad00f5",
+      "text": "Just nu: Gängtoppen ”Scar” åtalas"
     }
   ],
   "captures": [
@@ -108976,6 +108980,12 @@
       "headlineId": "21009b2f89e6b71ee68e1a3ec3810cde056cba8b9bb52fc8dbda58a10710e312",
       "articleUrl": "https://www.sverigesradio.se/artikel/ildar-galiyev-ska-ha-anstiftat-bombdad-i-fullero-atalas",
       "capturedAt": "2026-10-21T08:07:32.490Z"
+    },
+    {
+      "filename": "1792570353732_0.png",
+      "headlineId": "7cb85fe3d9b9247289b57965618d8ee3d409c38e157ca27b2dc38043ddad00f5",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ildar-galiyev-ska-ha-anstiftat-bombdad-i-fullero-atalas",
+      "capturedAt": "2026-10-21T08:12:33.732Z"
     }
   ]
 }
