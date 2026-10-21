@@ -43620,6 +43620,10 @@
     {
       "id": "1bc99756857eb47cad3d20d980c60599df871825edb276a1bdbe346732de7345",
       "text": "Just nu: Norrtäljes busstrafik har stora störningar"
+    },
+    {
+      "id": "e28a799dd3e8efc45bdcc38fef003aa938dcc984563dd350ebc4db464e2e66a5",
+      "text": "Just nu: All busstrafik i Norrtälje stoppad"
     }
   ],
   "captures": [
@@ -109046,6 +109050,12 @@
       "headlineId": "92702198854df0c0c294c70b853f7c1d9c8675a30799ae268e17f0588e08c38a",
       "articleUrl": "https://www.sverigesradio.se/artikel/bilbrand-efter-flerbilskrock",
       "capturedAt": "2026-10-21T11:57:27.703Z"
+    },
+    {
+      "filename": "1792584156009_0.png",
+      "headlineId": "e28a799dd3e8efc45bdcc38fef003aa938dcc984563dd350ebc4db464e2e66a5",
+      "articleUrl": "https://www.sverigesradio.se/artikel/all-busstrafik-i-norrtalje-stoppad-efter-krav-fran-skyddsombud",
+      "capturedAt": "2026-10-21T12:02:36.009Z"
     }
   ]
 }
