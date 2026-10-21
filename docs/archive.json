@@ -43664,6 +43664,10 @@
     {
       "id": "d9d84ece5170ff669203fe67becb4c260423e2b5ac888b84cd83167a5820e034",
       "text": "Just nu: USA tömmer ambassaden i Saudiarabien"
+    },
+    {
+      "id": "e5361e4b5ce77f7de3a131c313eb3d75a1e0cb27b74ee04576456f906548f874",
+      "text": "Just nu: Harry Kane nära Ronaldos CL-rekord"
     }
   ],
   "captures": [
@@ -109156,6 +109160,12 @@
       "headlineId": "d9d84ece5170ff669203fe67becb4c260423e2b5ac888b84cd83167a5820e034",
       "articleUrl": "https://www.sverigesradio.se/artikel/usa-beordrar-ambassadpersonal-att-lamna-saudiarabien",
       "capturedAt": "2026-10-21T20:32:36.718Z"
+    },
+    {
+      "filename": "1792616853557_0.png",
+      "headlineId": "e5361e4b5ce77f7de3a131c313eb3d75a1e0cb27b74ee04576456f906548f874",
+      "articleUrl": "https://www.sverigesradio.se/artikel/harry-kanes-galna-malsvit-nu-nara-ronaldos-cl-rekord",
+      "capturedAt": "2026-10-21T21:07:33.557Z"
     }
   ]
 }
