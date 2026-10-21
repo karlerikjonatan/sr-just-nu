@@ -43576,6 +43576,10 @@
     {
       "id": "166bfb6c8d5a001d8311e2e274905bfd66cfbe13f33be70bbdbef3e95d2a2b99",
       "text": "Just nu: Tågstopp på flera sträckor"
+    },
+    {
+      "id": "0a5af7d32ddb0b11b675196915a5c8402d264b050099f3e1ac6d0a32cf515b30",
+      "text": "Just nu: Flygkrasch i Frankrike"
     }
   ],
   "captures": [
@@ -108936,6 +108940,12 @@
       "headlineId": "166bfb6c8d5a001d8311e2e274905bfd66cfbe13f33be70bbdbef3e95d2a2b99",
       "articleUrl": "https://www.sverigesradio.se/artikel/stopp-for-tagen-vid-kil-nedriven-kontaktledning",
       "capturedAt": "2026-10-21T05:02:27.597Z"
+    },
+    {
+      "filename": "1792560155737_0.png",
+      "headlineId": "0a5af7d32ddb0b11b675196915a5c8402d264b050099f3e1ac6d0a32cf515b30",
+      "articleUrl": "https://www.sverigesradio.se/artikel/sokinsats-efter-fransk-flygkrasch",
+      "capturedAt": "2026-10-21T05:22:35.737Z"
     }
   ]
 }
