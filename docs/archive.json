@@ -43688,6 +43688,10 @@
     {
       "id": "1a87410a53c3dc4f48cabc4c856be2accc8d4d0ba44df00b63c5afaafdd0baf5",
       "text": "Just nu: Larm om rökutveckling på riksdagsförvaltningen"
+    },
+    {
+      "id": "a0b1063baf42ece3ca69980725ee354d05f47856fdaab13c37cdb0a952f05c17",
+      "text": "Just nu: Riksdagsförvaltningen utrymd"
     }
   ],
   "captures": [
@@ -109216,6 +109220,12 @@
       "headlineId": "1a87410a53c3dc4f48cabc4c856be2accc8d4d0ba44df00b63c5afaafdd0baf5",
       "articleUrl": "https://www.sverigesradio.se/artikel/vaning-utrymd-i-centrala-stockholm-tillhor-riksdagsforvaltningen",
       "capturedAt": "2026-10-22T06:57:32.615Z"
+    },
+    {
+      "filename": "1792652548086_0.png",
+      "headlineId": "a0b1063baf42ece3ca69980725ee354d05f47856fdaab13c37cdb0a952f05c17",
+      "articleUrl": "https://www.sverigesradio.se/artikel/brandlarm-pa-riksdagsforvaltningen",
+      "capturedAt": "2026-10-22T07:02:28.086Z"
     }
   ]
 }
