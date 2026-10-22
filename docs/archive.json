@@ -43748,6 +43748,10 @@
     {
       "id": "b738b29a8d0f8a7327167e5a98fa81e18af43dd27d8c8a2cce8f70d5649becc4",
       "text": "Just nu: Olycka i Borås – två till sjukhus"
+    },
+    {
+      "id": "740371b08d59d7ea2b77fb6e7d0cc78576bb3f986410abb4b04ba3d5bb8b6068",
+      "text": "Just nu: E4 vid Höga kusten blockerad"
     }
   ],
   "captures": [
@@ -109366,6 +109370,12 @@
       "headlineId": "b738b29a8d0f8a7327167e5a98fa81e18af43dd27d8c8a2cce8f70d5649becc4",
       "articleUrl": "https://www.sverigesradio.se/artikel/tva-pojkar-till-sjukhus-olycka-med-bil-och-elsparkcykel",
       "capturedAt": "2026-10-22T16:17:37.797Z"
+    },
+    {
+      "filename": "1792692451187_0.png",
+      "headlineId": "740371b08d59d7ea2b77fb6e7d0cc78576bb3f986410abb4b04ba3d5bb8b6068",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lastbil-blockerar-e4-vid-hoga-kusten",
+      "capturedAt": "2026-10-22T18:07:31.187Z"
     }
   ]
 }
