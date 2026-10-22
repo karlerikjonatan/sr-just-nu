@@ -43700,6 +43700,10 @@
     {
       "id": "4b90ab10b2f53b794b540573059712833dcb0668ac228eb9bb21f8f5a8b895f1",
       "text": "Just nu: En misstänkt för förskolebrand"
+    },
+    {
+      "id": "3878fdc1e84785453cb719b8a8ec53320bdea0a478f4d62b9bfe5505dd5e31ed",
+      "text": "Just nu: Skidstjärnan vittnar om trakasserier"
     }
   ],
   "captures": [
@@ -109246,6 +109250,12 @@
       "headlineId": "4b90ab10b2f53b794b540573059712833dcb0668ac228eb9bb21f8f5a8b895f1",
       "articleUrl": "https://www.sverigesradio.se/artikel/forskola-i-gnesta-brann-ner-en-anhallen",
       "capturedAt": "2026-10-22T08:07:27.213Z"
+    },
+    {
+      "filename": "1792659152472_0.png",
+      "headlineId": "3878fdc1e84785453cb719b8a8ec53320bdea0a478f4d62b9bfe5505dd5e31ed",
+      "articleUrl": "https://www.sverigesradio.se/artikel/stavas-skistad-bryter-tystnaden-vittnar-om-sexuella-trakasserier",
+      "capturedAt": "2026-10-22T08:52:32.472Z"
     }
   ]
 }
