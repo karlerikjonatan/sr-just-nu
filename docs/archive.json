@@ -43680,6 +43680,10 @@
     {
       "id": "c919eef28e1d005aca76cff83d363c1cadff0d92b13eaed7aad885fc303c555b",
       "text": "Just nu: Olycka på E6 stoppar trafik mot Malmö"
+    },
+    {
+      "id": "44fe1dce574662c8ae26b074ea84c3cbed2ec12a8b49961b7b894c3b0d35a36f",
+      "text": "Just nu: Brand startade i mikro – man död"
     }
   ],
   "captures": [
@@ -109196,6 +109200,12 @@
       "headlineId": "c919eef28e1d005aca76cff83d363c1cadff0d92b13eaed7aad885fc303c555b",
       "articleUrl": "https://www.sverigesradio.se/artikel/singelolyckan-stanger-e6",
       "capturedAt": "2026-10-22T04:57:25.238Z"
+    },
+    {
+      "filename": "1792646845676_0.png",
+      "headlineId": "44fe1dce574662c8ae26b074ea84c3cbed2ec12a8b49961b7b894c3b0d35a36f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-dod-i-lagenhetsbrand-i-vasteras",
+      "capturedAt": "2026-10-22T05:27:25.676Z"
     }
   ]
 }
