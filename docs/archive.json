@@ -43768,6 +43768,10 @@
     {
       "id": "d959be3d9e8c7a16a92322a3acaefd287a456044e5c87e0c0d4008689182bb9b",
       "text": "Just nu: Top Gun-skådisen Tom Skerritt död"
+    },
+    {
+      "id": "b94378f24ffe803537c60b432c392960ff00efb5d9fc115aa1ac3af17560e293",
+      "text": "Just nu: Jordbävning i Tibet – flera döda"
     }
   ],
   "captures": [
@@ -109416,6 +109420,12 @@
       "headlineId": "d959be3d9e8c7a16a92322a3acaefd287a456044e5c87e0c0d4008689182bb9b",
       "articleUrl": "https://www.sverigesradio.se/artikel/alien-och-top-gun-skadespelaren-tom-skerritt-dod",
       "capturedAt": "2026-10-22T20:22:39.188Z"
+    },
+    {
+      "filename": "1792703264760_0.png",
+      "headlineId": "b94378f24ffe803537c60b432c392960ff00efb5d9fc115aa1ac3af17560e293",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tibet-drabbat-av-jordbavning-flera-doda",
+      "capturedAt": "2026-10-22T21:07:44.760Z"
     }
   ]
 }
