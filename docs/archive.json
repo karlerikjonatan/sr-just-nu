@@ -43764,6 +43764,10 @@
     {
       "id": "c37bad60255d1c888cf8c1a7b2b149be5a89f9243a1647f8c0380551f80993d4",
       "text": "Just nu: Explosion i ställverk – en skadad"
+    },
+    {
+      "id": "d959be3d9e8c7a16a92322a3acaefd287a456044e5c87e0c0d4008689182bb9b",
+      "text": "Just nu: Top Gun-skådisen Tom Skerritt död"
     }
   ],
   "captures": [
@@ -109406,6 +109410,12 @@
       "headlineId": "c37bad60255d1c888cf8c1a7b2b149be5a89f9243a1647f8c0380551f80993d4",
       "articleUrl": "https://www.sverigesradio.se/artikel/brand-ledde-till-explosion",
       "capturedAt": "2026-10-22T19:12:32.734Z"
+    },
+    {
+      "filename": "1792700559188_0.png",
+      "headlineId": "d959be3d9e8c7a16a92322a3acaefd287a456044e5c87e0c0d4008689182bb9b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/alien-och-top-gun-skadespelaren-tom-skerritt-dod",
+      "capturedAt": "2026-10-22T20:22:39.188Z"
     }
   ]
 }
