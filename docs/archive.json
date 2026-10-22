@@ -43708,6 +43708,10 @@
     {
       "id": "678654f37f1cff8839dc17ffeb0d40980ed95cdea7263a879f39e649cf654176",
       "text": "Just nu: Borlänge station utrymd efter gaslarm"
+    },
+    {
+      "id": "d1d9b67243779d8f3e260b1647b9256fe20ab68a04470dfde3c4503bef9f1615",
+      "text": "Just nu: Miljontals cyberattacker efter upptäckt"
     }
   ],
   "captures": [
@@ -109266,6 +109270,12 @@
       "headlineId": "678654f37f1cff8839dc17ffeb0d40980ed95cdea7263a879f39e649cf654176",
       "articleUrl": "https://www.sverigesradio.se/artikel/borlange-station-utrymd-raddningstjansten-pa-plats",
       "capturedAt": "2026-10-22T09:07:33.093Z"
+    },
+    {
+      "filename": "1792660654680_0.png",
+      "headlineId": "d1d9b67243779d8f3e260b1647b9256fe20ab68a04470dfde3c4503bef9f1615",
+      "articleUrl": "https://www.sverigesradio.se/artikel/flera-miljoner-cyberattacker-timmar-efter-att-sarbarhet-upptacktes",
+      "capturedAt": "2026-10-22T09:17:34.680Z"
     }
   ]
 }
