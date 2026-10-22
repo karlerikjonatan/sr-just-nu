@@ -43736,6 +43736,10 @@
     {
       "id": "3e27d276d3613f07f1eefe472525410cdf8ef2e00555711ff383b5d3fe8680a1",
       "text": "Just nu: Långa köer på E18 Karlstad"
+    },
+    {
+      "id": "c741f6ec64799dd5340a147ed09ccda3a2abfa155f64ec009456f2c3a90291b9",
+      "text": "Just nu: Jätteköer på E18 Karlstad"
     }
   ],
   "captures": [
@@ -109336,6 +109340,12 @@
       "headlineId": "3e27d276d3613f07f1eefe472525410cdf8ef2e00555711ff383b5d3fe8680a1",
       "articleUrl": "https://www.sverigesradio.se/artikel/langa-koer-pa-e18-lastbil-blockerar-vid-vase",
       "capturedAt": "2026-10-22T15:27:30.361Z"
+    },
+    {
+      "filename": "1792683154582_0.png",
+      "headlineId": "c741f6ec64799dd5340a147ed09ccda3a2abfa155f64ec009456f2c3a90291b9",
+      "articleUrl": "https://www.sverigesradio.se/artikel/langa-koer-pa-e18-lastbil-blockerar-vid-vase",
+      "capturedAt": "2026-10-22T15:32:34.582Z"
     }
   ]
 }
