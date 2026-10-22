@@ -43740,6 +43740,10 @@
     {
       "id": "c741f6ec64799dd5340a147ed09ccda3a2abfa155f64ec009456f2c3a90291b9",
       "text": "Just nu: Jätteköer på E18 Karlstad"
+    },
+    {
+      "id": "5a6decb5c730c3cb049cd1fc70fd9c7c697f8b007965b4e74e11f3078f6e9e13",
+      "text": "Just nu: Fjärde misstänkt efter Älvsjömordet"
     }
   ],
   "captures": [
@@ -109346,6 +109350,12 @@
       "headlineId": "c741f6ec64799dd5340a147ed09ccda3a2abfa155f64ec009456f2c3a90291b9",
       "articleUrl": "https://www.sverigesradio.se/artikel/langa-koer-pa-e18-lastbil-blockerar-vid-vase",
       "capturedAt": "2026-10-22T15:32:34.582Z"
+    },
+    {
+      "filename": "1792684358681_0.png",
+      "headlineId": "5a6decb5c730c3cb049cd1fc70fd9c7c697f8b007965b4e74e11f3078f6e9e13",
+      "articleUrl": "https://www.sverigesradio.se/artikel/fjarde-person-misstankt-efter-mordet-i-alvsjo",
+      "capturedAt": "2026-10-22T15:52:38.681Z"
     }
   ]
 }
