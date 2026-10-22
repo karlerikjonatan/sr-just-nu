@@ -43752,6 +43752,10 @@
     {
       "id": "740371b08d59d7ea2b77fb6e7d0cc78576bb3f986410abb4b04ba3d5bb8b6068",
       "text": "Just nu: E4 vid Höga kusten blockerad"
+    },
+    {
+      "id": "58c5fde9f396527a36b13b5dbfbe7e375e825bff43b545783de29073d1830e47",
+      "text": "Just nu: En skadad efter brand i Motala"
     }
   ],
   "captures": [
@@ -109376,6 +109380,12 @@
       "headlineId": "740371b08d59d7ea2b77fb6e7d0cc78576bb3f986410abb4b04ba3d5bb8b6068",
       "articleUrl": "https://www.sverigesradio.se/artikel/lastbil-blockerar-e4-vid-hoga-kusten",
       "capturedAt": "2026-10-22T18:07:31.187Z"
+    },
+    {
+      "filename": "1792694553961_0.png",
+      "headlineId": "58c5fde9f396527a36b13b5dbfbe7e375e825bff43b545783de29073d1830e47",
+      "articleUrl": "https://www.sverigesradio.se/artikel/brand-ledde-till-explosion",
+      "capturedAt": "2026-10-22T18:42:33.961Z"
     }
   ]
 }
