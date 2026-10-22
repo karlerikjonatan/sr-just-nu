@@ -43668,6 +43668,10 @@
     {
       "id": "e5361e4b5ce77f7de3a131c313eb3d75a1e0cb27b74ee04576456f906548f874",
       "text": "Just nu: Harry Kane nära Ronaldos CL-rekord"
+    },
+    {
+      "id": "809ef249a2166aabccc28b0b02606f5bd112f6b95bed18b0cbacfcae2be06bfc",
+      "text": "Just nu: Nya ryska attacker i Kyjiv"
     }
   ],
   "captures": [
@@ -109166,6 +109170,12 @@
       "headlineId": "e5361e4b5ce77f7de3a131c313eb3d75a1e0cb27b74ee04576456f906548f874",
       "articleUrl": "https://www.sverigesradio.se/artikel/harry-kanes-galna-malsvit-nu-nara-ronaldos-cl-rekord",
       "capturedAt": "2026-10-21T21:07:33.557Z"
+    },
+    {
+      "filename": "1792639349023_0.png",
+      "headlineId": "809ef249a2166aabccc28b0b02606f5bd112f6b95bed18b0cbacfcae2be06bfc",
+      "articleUrl": "https://www.sverigesradio.se/artikel/nya-ryska-attacker-i-kyjiv",
+      "capturedAt": "2026-10-22T03:22:29.023Z"
     }
   ]
 }
