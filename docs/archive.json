@@ -43696,6 +43696,10 @@
     {
       "id": "a646ae4b53498ebe236b3d6034f5ee06a2c9caaf93436782b7b2b51e368a8124",
       "text": "Just nu: Skola inrymd i Landskrona – knivlarm"
+    },
+    {
+      "id": "4b90ab10b2f53b794b540573059712833dcb0668ac228eb9bb21f8f5a8b895f1",
+      "text": "Just nu: En misstänkt för förskolebrand"
     }
   ],
   "captures": [
@@ -109236,6 +109240,12 @@
       "headlineId": "a646ae4b53498ebe236b3d6034f5ee06a2c9caaf93436782b7b2b51e368a8124",
       "articleUrl": "https://www.sverigesradio.se/artikel/knivlarm-i-landskrona-skola-inrymd",
       "capturedAt": "2026-10-22T07:47:39.174Z"
+    },
+    {
+      "filename": "1792656447213_0.png",
+      "headlineId": "4b90ab10b2f53b794b540573059712833dcb0668ac228eb9bb21f8f5a8b895f1",
+      "articleUrl": "https://www.sverigesradio.se/artikel/forskola-i-gnesta-brann-ner-en-anhallen",
+      "capturedAt": "2026-10-22T08:07:27.213Z"
     }
   ]
 }
