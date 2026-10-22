@@ -43684,6 +43684,10 @@
     {
       "id": "44fe1dce574662c8ae26b074ea84c3cbed2ec12a8b49961b7b894c3b0d35a36f",
       "text": "Just nu: Brand startade i mikro – man död"
+    },
+    {
+      "id": "1a87410a53c3dc4f48cabc4c856be2accc8d4d0ba44df00b63c5afaafdd0baf5",
+      "text": "Just nu: Larm om rökutveckling på riksdagsförvaltningen"
     }
   ],
   "captures": [
@@ -109206,6 +109210,12 @@
       "headlineId": "44fe1dce574662c8ae26b074ea84c3cbed2ec12a8b49961b7b894c3b0d35a36f",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-dod-i-lagenhetsbrand-i-vasteras",
       "capturedAt": "2026-10-22T05:27:25.676Z"
+    },
+    {
+      "filename": "1792652252615_0.png",
+      "headlineId": "1a87410a53c3dc4f48cabc4c856be2accc8d4d0ba44df00b63c5afaafdd0baf5",
+      "articleUrl": "https://www.sverigesradio.se/artikel/vaning-utrymd-i-centrala-stockholm-tillhor-riksdagsforvaltningen",
+      "capturedAt": "2026-10-22T06:57:32.615Z"
     }
   ]
 }
