@@ -43760,6 +43760,10 @@
     {
       "id": "ac3fdfad7d013599d23df2155a5ab38e5c3b12076f06703a5a480afa47490edb",
       "text": "Just nu: Explosion i ställverk - en skadad"
+    },
+    {
+      "id": "c37bad60255d1c888cf8c1a7b2b149be5a89f9243a1647f8c0380551f80993d4",
+      "text": "Just nu: Explosion i ställverk – en skadad"
     }
   ],
   "captures": [
@@ -109396,6 +109400,12 @@
       "headlineId": "ac3fdfad7d013599d23df2155a5ab38e5c3b12076f06703a5a480afa47490edb",
       "articleUrl": "https://www.sverigesradio.se/artikel/brand-ledde-till-explosion",
       "capturedAt": "2026-10-22T19:07:27.233Z"
+    },
+    {
+      "filename": "1792696352734_0.png",
+      "headlineId": "c37bad60255d1c888cf8c1a7b2b149be5a89f9243a1647f8c0380551f80993d4",
+      "articleUrl": "https://www.sverigesradio.se/artikel/brand-ledde-till-explosion",
+      "capturedAt": "2026-10-22T19:12:32.734Z"
     }
   ]
 }
