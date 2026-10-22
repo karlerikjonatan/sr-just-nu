@@ -43672,6 +43672,10 @@
     {
       "id": "809ef249a2166aabccc28b0b02606f5bd112f6b95bed18b0cbacfcae2be06bfc",
       "text": "Just nu: Nya ryska attacker i Kyjiv"
+    },
+    {
+      "id": "d664367ff6f26b296a9483e399ac6e108dd7fe0ed596bf8dcf0bf2f2fc8ac463",
+      "text": "Just nu: Tom Cruise hedras"
     }
   ],
   "captures": [
@@ -109176,6 +109180,12 @@
       "headlineId": "809ef249a2166aabccc28b0b02606f5bd112f6b95bed18b0cbacfcae2be06bfc",
       "articleUrl": "https://www.sverigesradio.se/artikel/nya-ryska-attacker-i-kyjiv",
       "capturedAt": "2026-10-22T03:22:29.023Z"
+    },
+    {
+      "filename": "1792641757696_0.png",
+      "headlineId": "d664367ff6f26b296a9483e399ac6e108dd7fe0ed596bf8dcf0bf2f2fc8ac463",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tom-cruise-hyllas-av-afi-for-sin-livsgarning",
+      "capturedAt": "2026-10-22T04:02:37.696Z"
     }
   ]
 }
