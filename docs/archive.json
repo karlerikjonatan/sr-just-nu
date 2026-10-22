@@ -43756,6 +43756,10 @@
     {
       "id": "58c5fde9f396527a36b13b5dbfbe7e375e825bff43b545783de29073d1830e47",
       "text": "Just nu: En skadad efter brand i Motala"
+    },
+    {
+      "id": "ac3fdfad7d013599d23df2155a5ab38e5c3b12076f06703a5a480afa47490edb",
+      "text": "Just nu: Explosion i ställverk - en skadad"
     }
   ],
   "captures": [
@@ -109386,6 +109390,12 @@
       "headlineId": "58c5fde9f396527a36b13b5dbfbe7e375e825bff43b545783de29073d1830e47",
       "articleUrl": "https://www.sverigesradio.se/artikel/brand-ledde-till-explosion",
       "capturedAt": "2026-10-22T18:42:33.961Z"
+    },
+    {
+      "filename": "1792696047233_0.png",
+      "headlineId": "ac3fdfad7d013599d23df2155a5ab38e5c3b12076f06703a5a480afa47490edb",
+      "articleUrl": "https://www.sverigesradio.se/artikel/brand-ledde-till-explosion",
+      "capturedAt": "2026-10-22T19:07:27.233Z"
     }
   ]
 }
