@@ -43724,6 +43724,10 @@
     {
       "id": "56e0b2886a0981b0859b2b0cd7792995174f76dd7eb2f1441e92d2db7eeb3112",
       "text": "Just nu: Lastbil genom mitträcket på E18"
+    },
+    {
+      "id": "d27fb5686d39e8d61b6fe09c5ac8876bb8a65f5ce039ac57ccfecf6e0a7ed4e1",
+      "text": "Just nu: Kontroversiella filmen stoppas"
     }
   ],
   "captures": [
@@ -109306,6 +109310,12 @@
       "headlineId": "56e0b2886a0981b0859b2b0cd7792995174f76dd7eb2f1441e92d2db7eeb3112",
       "articleUrl": "https://www.sverigesradio.se/artikel/lastbil-har-kort-genom-mittracket-e18-staket",
       "capturedAt": "2026-10-22T10:22:35.559Z"
+    },
+    {
+      "filename": "1792672351369_0.png",
+      "headlineId": "d27fb5686d39e8d61b6fe09c5ac8876bb8a65f5ce039ac57ccfecf6e0a7ed4e1",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kontroversiella-filmen-borttagen-i-sverige-dagar-innan-biopremiaren",
+      "capturedAt": "2026-10-22T12:32:31.369Z"
     }
   ]
 }
