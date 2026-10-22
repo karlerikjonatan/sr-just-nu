@@ -43732,6 +43732,10 @@
     {
       "id": "2c814299a14b14b95126e5e87c75c3a1dc298714ffcd08f2b27b323a21c64397",
       "text": "Just nu: Kvinna död efter lastbilsolycka"
+    },
+    {
+      "id": "3e27d276d3613f07f1eefe472525410cdf8ef2e00555711ff383b5d3fe8680a1",
+      "text": "Just nu: Långa köer på E18 Karlstad"
     }
   ],
   "captures": [
@@ -109326,6 +109330,12 @@
       "headlineId": "2c814299a14b14b95126e5e87c75c3a1dc298714ffcd08f2b27b323a21c64397",
       "articleUrl": "https://www.sverigesradio.se/artikel/fotgangare-pakord-i-bandhagen-ska-vara-allvarligt-skadad",
       "capturedAt": "2026-10-22T14:42:35.909Z"
+    },
+    {
+      "filename": "1792682850361_0.png",
+      "headlineId": "3e27d276d3613f07f1eefe472525410cdf8ef2e00555711ff383b5d3fe8680a1",
+      "articleUrl": "https://www.sverigesradio.se/artikel/langa-koer-pa-e18-lastbil-blockerar-vid-vase",
+      "capturedAt": "2026-10-22T15:27:30.361Z"
     }
   ]
 }
