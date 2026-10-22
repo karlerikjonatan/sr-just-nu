@@ -43712,6 +43712,10 @@
     {
       "id": "d1d9b67243779d8f3e260b1647b9256fe20ab68a04470dfde3c4503bef9f1615",
       "text": "Just nu: Miljontals cyberattacker efter upptäckt"
+    },
+    {
+      "id": "32abbbb60b86e07b6d0da0f25c1ee3154889ffd61bc5f8c50b0ba9d223b841ea",
+      "text": "Just nu: Aftonbladets chefredaktör slutar"
     }
   ],
   "captures": [
@@ -109276,6 +109280,12 @@
       "headlineId": "d1d9b67243779d8f3e260b1647b9256fe20ab68a04470dfde3c4503bef9f1615",
       "articleUrl": "https://www.sverigesradio.se/artikel/flera-miljoner-cyberattacker-timmar-efter-att-sarbarhet-upptacktes",
       "capturedAt": "2026-10-22T09:17:34.680Z"
+    },
+    {
+      "filename": "1792660955675_0.png",
+      "headlineId": "32abbbb60b86e07b6d0da0f25c1ee3154889ffd61bc5f8c50b0ba9d223b841ea",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lotta-folcker-slutar-som-chefredaktor-pa-aftonbladet",
+      "capturedAt": "2026-10-22T09:22:35.675Z"
     }
   ]
 }
