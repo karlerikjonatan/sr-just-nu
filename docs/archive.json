@@ -43716,6 +43716,10 @@
     {
       "id": "32abbbb60b86e07b6d0da0f25c1ee3154889ffd61bc5f8c50b0ba9d223b841ea",
       "text": "Just nu: Aftonbladets chefredaktör slutar"
+    },
+    {
+      "id": "7233864c6dcda9da3e3d47f3ad4fbb905cd5b58f9222b3cf2eea456cb4724ea5",
+      "text": "Just nu: Person död efter fallolycka på Stegra"
     }
   ],
   "captures": [
@@ -109286,6 +109290,12 @@
       "headlineId": "32abbbb60b86e07b6d0da0f25c1ee3154889ffd61bc5f8c50b0ba9d223b841ea",
       "articleUrl": "https://www.sverigesradio.se/artikel/lotta-folcker-slutar-som-chefredaktor-pa-aftonbladet",
       "capturedAt": "2026-10-22T09:22:35.675Z"
+    },
+    {
+      "filename": "1792663654714_0.png",
+      "headlineId": "7233864c6dcda9da3e3d47f3ad4fbb905cd5b58f9222b3cf2eea456cb4724ea5",
+      "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-man-dod-efter-fallolycka-pa-stegra",
+      "capturedAt": "2026-10-22T10:07:34.714Z"
     }
   ]
 }
