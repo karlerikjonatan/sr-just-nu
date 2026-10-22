@@ -43728,6 +43728,10 @@
     {
       "id": "d27fb5686d39e8d61b6fe09c5ac8876bb8a65f5ce039ac57ccfecf6e0a7ed4e1",
       "text": "Just nu: Kontroversiella filmen stoppas"
+    },
+    {
+      "id": "2c814299a14b14b95126e5e87c75c3a1dc298714ffcd08f2b27b323a21c64397",
+      "text": "Just nu: Kvinna död efter lastbilsolycka"
     }
   ],
   "captures": [
@@ -109316,6 +109320,12 @@
       "headlineId": "d27fb5686d39e8d61b6fe09c5ac8876bb8a65f5ce039ac57ccfecf6e0a7ed4e1",
       "articleUrl": "https://www.sverigesradio.se/artikel/kontroversiella-filmen-borttagen-i-sverige-dagar-innan-biopremiaren",
       "capturedAt": "2026-10-22T12:32:31.369Z"
+    },
+    {
+      "filename": "1792680155909_0.png",
+      "headlineId": "2c814299a14b14b95126e5e87c75c3a1dc298714ffcd08f2b27b323a21c64397",
+      "articleUrl": "https://www.sverigesradio.se/artikel/fotgangare-pakord-i-bandhagen-ska-vara-allvarligt-skadad",
+      "capturedAt": "2026-10-22T14:42:35.909Z"
     }
   ]
 }
