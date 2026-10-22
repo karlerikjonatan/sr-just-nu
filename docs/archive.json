@@ -43704,6 +43704,10 @@
     {
       "id": "3878fdc1e84785453cb719b8a8ec53320bdea0a478f4d62b9bfe5505dd5e31ed",
       "text": "Just nu: Skidstjärnan vittnar om trakasserier"
+    },
+    {
+      "id": "678654f37f1cff8839dc17ffeb0d40980ed95cdea7263a879f39e649cf654176",
+      "text": "Just nu: Borlänge station utrymd efter gaslarm"
     }
   ],
   "captures": [
@@ -109256,6 +109260,12 @@
       "headlineId": "3878fdc1e84785453cb719b8a8ec53320bdea0a478f4d62b9bfe5505dd5e31ed",
       "articleUrl": "https://www.sverigesradio.se/artikel/stavas-skistad-bryter-tystnaden-vittnar-om-sexuella-trakasserier",
       "capturedAt": "2026-10-22T08:52:32.472Z"
+    },
+    {
+      "filename": "1792660053093_0.png",
+      "headlineId": "678654f37f1cff8839dc17ffeb0d40980ed95cdea7263a879f39e649cf654176",
+      "articleUrl": "https://www.sverigesradio.se/artikel/borlange-station-utrymd-raddningstjansten-pa-plats",
+      "capturedAt": "2026-10-22T09:07:33.093Z"
     }
   ]
 }
