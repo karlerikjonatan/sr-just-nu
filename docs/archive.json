@@ -43692,6 +43692,10 @@
     {
       "id": "a0b1063baf42ece3ca69980725ee354d05f47856fdaab13c37cdb0a952f05c17",
       "text": "Just nu: Riksdagsförvaltningen utrymd"
+    },
+    {
+      "id": "a646ae4b53498ebe236b3d6034f5ee06a2c9caaf93436782b7b2b51e368a8124",
+      "text": "Just nu: Skola inrymd i Landskrona – knivlarm"
     }
   ],
   "captures": [
@@ -109226,6 +109230,12 @@
       "headlineId": "a0b1063baf42ece3ca69980725ee354d05f47856fdaab13c37cdb0a952f05c17",
       "articleUrl": "https://www.sverigesradio.se/artikel/brandlarm-pa-riksdagsforvaltningen",
       "capturedAt": "2026-10-22T07:02:28.086Z"
+    },
+    {
+      "filename": "1792655259174_0.png",
+      "headlineId": "a646ae4b53498ebe236b3d6034f5ee06a2c9caaf93436782b7b2b51e368a8124",
+      "articleUrl": "https://www.sverigesradio.se/artikel/knivlarm-i-landskrona-skola-inrymd",
+      "capturedAt": "2026-10-22T07:47:39.174Z"
     }
   ]
 }
