@@ -43800,6 +43800,10 @@
     {
       "id": "1e18d608f984085da85725763217216bb075c6234813fc8740e4d02416efec8d",
       "text": "Just nu: Ännu en begärs häktad efter Älvsjömordet"
+    },
+    {
+      "id": "373a76a61a3654e7d4979c5c7e0b20a8280de3c6408f1aa740f13c8ea5ae287e",
+      "text": "Just nu: Ännu en begärs häktad i Älvsjöfallet"
     }
   ],
   "captures": [
@@ -109496,6 +109500,12 @@
       "headlineId": "1e18d608f984085da85725763217216bb075c6234813fc8740e4d02416efec8d",
       "articleUrl": "https://www.sverigesradio.se/artikel/en-tredje-person-begars-haktad-misstankt-for-inblandning-i-dodsskjutningen-i-alvsjo",
       "capturedAt": "2026-10-23T07:07:43.941Z"
+    },
+    {
+      "filename": "1792739568980_0.png",
+      "headlineId": "373a76a61a3654e7d4979c5c7e0b20a8280de3c6408f1aa740f13c8ea5ae287e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/en-tredje-person-begars-haktad-misstankt-for-inblandning-i-dodsskjutningen-i-alvsjo",
+      "capturedAt": "2026-10-23T07:12:48.980Z"
     }
   ]
 }
