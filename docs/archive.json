@@ -43848,6 +43848,10 @@
     {
       "id": "1aa4ad4dd3f8a190fde422cdf6a2da4d773eb012bc08012c6d42eacd93852556",
       "text": "Just nu: Skjutning i Jordanien – minst sju döda"
+    },
+    {
+      "id": "b2b3bc18556dbd9539a7cee822472f968b6bb1bcdca78520d67a6762b570ed96",
+      "text": "Just nu: Greps utomlands – landat på Arlanda"
     }
   ],
   "captures": [
@@ -109616,6 +109620,12 @@
       "headlineId": "1aa4ad4dd3f8a190fde422cdf6a2da4d773eb012bc08012c6d42eacd93852556",
       "articleUrl": "https://www.sverigesradio.se/artikel/minst-sju-doda-i-skjutning-i-sodra-jordanien",
       "capturedAt": "2026-10-23T13:07:30.765Z"
+    },
+    {
+      "filename": "1792762047538_0.png",
+      "headlineId": "b2b3bc18556dbd9539a7cee822472f968b6bb1bcdca78520d67a6762b570ed96",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-gripen-i-forenade-arabemiraten-har-overlamnats-till-sverige",
+      "capturedAt": "2026-10-23T13:27:27.538Z"
     }
   ]
 }
