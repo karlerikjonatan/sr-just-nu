@@ -43808,6 +43808,10 @@
     {
       "id": "7bf1743099f86e9fb1f5b8a89ff0b6c6bbbb1bac97c42a1e248bcc5e6d8c3e9d",
       "text": "Just nu: Stor bedrägerihärva med falskt polis-ID"
+    },
+    {
+      "id": "2cede29ff6362e8691d6e32c20c11df01a719ee6019d96c4f6ea3009b1778a86",
+      "text": "Just nu: Stor härva med falska polislegg"
     }
   ],
   "captures": [
@@ -109516,6 +109520,12 @@
       "headlineId": "7bf1743099f86e9fb1f5b8a89ff0b6c6bbbb1bac97c42a1e248bcc5e6d8c3e9d",
       "articleUrl": "https://www.sverigesradio.se/artikel/stor-bedrageriharva-i-bergslagen-anvande-falsk-polislegitimation",
       "capturedAt": "2026-10-23T07:42:46.434Z"
+    },
+    {
+      "filename": "1792741650085_0.png",
+      "headlineId": "2cede29ff6362e8691d6e32c20c11df01a719ee6019d96c4f6ea3009b1778a86",
+      "articleUrl": "https://www.sverigesradio.se/artikel/stor-bedrageriharva-i-bergslagen-anvande-falsk-polislegitimation",
+      "capturedAt": "2026-10-23T07:47:30.085Z"
     }
   ]
 }
