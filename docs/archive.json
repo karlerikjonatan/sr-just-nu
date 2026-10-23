@@ -43792,6 +43792,10 @@
     {
       "id": "c8c2aa73c61067c0b804a41727aa1679e4a0f5b2e429b339fa295001726f13c6",
       "text": "Just nu: Sångeskan får prestigefulla priset"
+    },
+    {
+      "id": "30a9f756247eda987d5ceedab1cbaf2e1f9628de90757469dec0cbf8eb57dd45",
+      "text": "Just nu: Sångerskan får prestigefulla priset"
     }
   ],
   "captures": [
@@ -109476,6 +109480,12 @@
       "headlineId": "c8c2aa73c61067c0b804a41727aa1679e4a0f5b2e429b339fa295001726f13c6",
       "articleUrl": "https://www.sverigesradio.se/artikel/where-is-my-husband-sangerskan-raye-far-mercurypriset",
       "capturedAt": "2026-10-23T06:07:30.690Z"
+    },
+    {
+      "filename": "1792735969890_0.png",
+      "headlineId": "30a9f756247eda987d5ceedab1cbaf2e1f9628de90757469dec0cbf8eb57dd45",
+      "articleUrl": "https://www.sverigesradio.se/artikel/where-is-my-husband-sangerskan-raye-far-mercurypriset",
+      "capturedAt": "2026-10-23T06:12:49.890Z"
     }
   ]
 }
