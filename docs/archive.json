@@ -43840,6 +43840,10 @@
     {
       "id": "f06b6f3c2e23acb53dec52c6baa27619cb4f1f7c8fe3abc831840dc446ee187a",
       "text": "Just nu: Ny invasiv art hittad"
+    },
+    {
+      "id": "6eaf0fd3766c91c3562ac0af390ce6e2feca76ff4f05a85eb60ed3812725fffc",
+      "text": "Just nu: Man gripen i Förenade arabemiraten"
     }
   ],
   "captures": [
@@ -109596,6 +109600,12 @@
       "headlineId": "f06b6f3c2e23acb53dec52c6baa27619cb4f1f7c8fe3abc831840dc446ee187a",
       "articleUrl": "https://www.sverigesradio.se/artikel/ny-invasiv-art-hittad-risk-for-sjopungsmatta",
       "capturedAt": "2026-10-23T12:12:39.007Z"
+    },
+    {
+      "filename": "1792760256592_0.png",
+      "headlineId": "6eaf0fd3766c91c3562ac0af390ce6e2feca76ff4f05a85eb60ed3812725fffc",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-gripen-i-forenade-arabemiraten-har-overlamnats-till-sverige",
+      "capturedAt": "2026-10-23T12:57:36.592Z"
     }
   ]
 }
