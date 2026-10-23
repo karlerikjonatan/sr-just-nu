@@ -43852,6 +43852,10 @@
     {
       "id": "b2b3bc18556dbd9539a7cee822472f968b6bb1bcdca78520d67a6762b570ed96",
       "text": "Just nu: Greps utomlands – landat på Arlanda"
+    },
+    {
+      "id": "df0d323e2b95d1b0c37453e7c979cba9efdeafaa62d1a3cc2ab9f09bcf495302",
+      "text": "Just nu: Utbrott av svampsjukdom i Norrland"
     }
   ],
   "captures": [
@@ -109626,6 +109630,12 @@
       "headlineId": "b2b3bc18556dbd9539a7cee822472f968b6bb1bcdca78520d67a6762b570ed96",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-gripen-i-forenade-arabemiraten-har-overlamnats-till-sverige",
       "capturedAt": "2026-10-23T13:27:27.538Z"
+    },
+    {
+      "filename": "1792766248021_0.png",
+      "headlineId": "df0d323e2b95d1b0c37453e7c979cba9efdeafaa62d1a3cc2ab9f09bcf495302",
+      "articleUrl": "https://www.sverigesradio.se/artikel/svampsjukdomen-knackesjuka-angriper-tallskogarna-i-norrland",
+      "capturedAt": "2026-10-23T14:37:28.021Z"
     }
   ]
 }
