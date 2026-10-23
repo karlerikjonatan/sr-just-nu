@@ -43880,6 +43880,10 @@
     {
       "id": "0c2083a3f77b64d6c90160151cd247819f1ec9b96b4823bbfa53eccaf55ffc7d",
       "text": "Just nu: Olycka med hästbuss på E4"
+    },
+    {
+      "id": "24f996cc7756a3514393f18b378e1166e05ecf56cf3a3bedd484e632a5f7fce8",
+      "text": "Just nu: Hästtransport i krock med älg"
     }
   ],
   "captures": [
@@ -109696,6 +109700,12 @@
       "headlineId": "0c2083a3f77b64d6c90160151cd247819f1ec9b96b4823bbfa53eccaf55ffc7d",
       "articleUrl": "https://www.sverigesradio.se/artikel/e4-avstangd-efter-viltolycka-med-hastbuss",
       "capturedAt": "2026-10-23T16:22:41.677Z"
+    },
+    {
+      "filename": "1792774357082_0.png",
+      "headlineId": "24f996cc7756a3514393f18b378e1166e05ecf56cf3a3bedd484e632a5f7fce8",
+      "articleUrl": "https://www.sverigesradio.se/artikel/e4-avstangd-efter-viltolycka-med-hastbuss",
+      "capturedAt": "2026-10-23T16:52:37.082Z"
     }
   ]
 }
