@@ -43904,6 +43904,10 @@
     {
       "id": "7c72ffaa65e5a1b36fb0011bc148cabf3558e71a24eba7f47a15545e9d84dc7f",
       "text": "Just nu: Garagebrand – flera unga skadade"
+    },
+    {
+      "id": "7458795a60e46ba14178c65eba0795a71a498b31afcb5b1f4d9cc320e4a07ab0",
+      "text": "Just nu: Pojke påkörd av bil i Helsingborg"
     }
   ],
   "captures": [
@@ -109756,6 +109760,12 @@
       "headlineId": "7c72ffaa65e5a1b36fb0011bc148cabf3558e71a24eba7f47a15545e9d84dc7f",
       "articleUrl": "https://www.sverigesradio.se/artikel/flera-skadade-i-garagebrand",
       "capturedAt": "2026-10-23T18:47:28.226Z"
+    },
+    {
+      "filename": "1792789953763_0.png",
+      "headlineId": "7458795a60e46ba14178c65eba0795a71a498b31afcb5b1f4d9cc320e4a07ab0",
+      "articleUrl": "https://www.sverigesradio.se/artikel/pojke-pakord-av-bil-i-helsingborg",
+      "capturedAt": "2026-10-23T21:12:33.763Z"
     }
   ]
 }
