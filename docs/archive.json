@@ -43776,6 +43776,10 @@
     {
       "id": "935318653426de1409b6e728ed6e5ac91e6713eecb7269e4004b51be93494e19",
       "text": "Just nu: Tom Skerritt död"
+    },
+    {
+      "id": "41e972ead5098b8313cad074f8986f2e5d2707738db0117937f8c2cc0ed01bcd",
+      "text": "Just nu: Kraftig brand efter matlagning"
     }
   ],
   "captures": [
@@ -109436,6 +109440,12 @@
       "headlineId": "935318653426de1409b6e728ed6e5ac91e6713eecb7269e4004b51be93494e19",
       "articleUrl": "https://www.sverigesradio.se/artikel/alien-och-top-gun-skadespelaren-tom-skerritt-dod",
       "capturedAt": "2026-10-23T03:37:25.370Z"
+    },
+    {
+      "filename": "1792727250179_0.png",
+      "headlineId": "41e972ead5098b8313cad074f8986f2e5d2707738db0117937f8c2cc0ed01bcd",
+      "articleUrl": "https://www.sverigesradio.se/artikel/brand-i-villa-efter-matlagning-gick-inte-att-radda",
+      "capturedAt": "2026-10-23T03:47:30.179Z"
     }
   ]
 }
