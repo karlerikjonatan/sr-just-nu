@@ -43888,6 +43888,10 @@
     {
       "id": "0526a13dbb17c70242f240460e86de02dc7166124fafd0deeb9ad2df63ab8d8f",
       "text": "Just nu: Sätter in stöd efter skjutning"
+    },
+    {
+      "id": "206e234b8b73589540024956cac359de2bf4e5d3f025a4a96de0b8e420c70722",
+      "text": "Just nu: Garagebrand i Borås – flera skadade"
     }
   ],
   "captures": [
@@ -109716,6 +109720,12 @@
       "headlineId": "0526a13dbb17c70242f240460e86de02dc7166124fafd0deeb9ad2df63ab8d8f",
       "articleUrl": "https://www.sverigesradio.se/artikel/stadsdelen-satter-in-stod-efter-skjutningen",
       "capturedAt": "2026-10-23T17:57:32.811Z"
+    },
+    {
+      "filename": "1792779158080_0.png",
+      "headlineId": "206e234b8b73589540024956cac359de2bf4e5d3f025a4a96de0b8e420c70722",
+      "articleUrl": "https://www.sverigesradio.se/artikel/flera-skadade-i-garagebrand",
+      "capturedAt": "2026-10-23T18:12:38.080Z"
     }
   ]
 }
