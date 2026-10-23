@@ -43856,6 +43856,10 @@
     {
       "id": "df0d323e2b95d1b0c37453e7c979cba9efdeafaa62d1a3cc2ab9f09bcf495302",
       "text": "Just nu: Utbrott av svampsjukdom i Norrland"
+    },
+    {
+      "id": "68b07226d5297a1ae3aed3c010725c8fa7b0146228b0c81a03e5e30cb70ed2ee",
+      "text": "Just nu: Bayern Münchens till sjukhus"
     }
   ],
   "captures": [
@@ -109636,6 +109640,12 @@
       "headlineId": "df0d323e2b95d1b0c37453e7c979cba9efdeafaa62d1a3cc2ab9f09bcf495302",
       "articleUrl": "https://www.sverigesradio.se/artikel/svampsjukdomen-knackesjuka-angriper-tallskogarna-i-norrland",
       "capturedAt": "2026-10-23T14:37:28.021Z"
+    },
+    {
+      "filename": "1792771348172_0.png",
+      "headlineId": "68b07226d5297a1ae3aed3c010725c8fa7b0146228b0c81a03e5e30cb70ed2ee",
+      "articleUrl": "https://www.sverigesradio.se/artikel/bayern-munchens-tranare-vincent-kompany-till-sjukhus",
+      "capturedAt": "2026-10-23T16:02:28.172Z"
     }
   ]
 }
