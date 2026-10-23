@@ -43788,6 +43788,10 @@
     {
       "id": "1d51e4abfe220f01e83a45b297fef6abd1572e8a8649bed47010662bf8c4f32b",
       "text": "Just nu: Kaos på Kastrup"
+    },
+    {
+      "id": "c8c2aa73c61067c0b804a41727aa1679e4a0f5b2e429b339fa295001726f13c6",
+      "text": "Just nu: Sångeskan får prestigefulla priset"
     }
   ],
   "captures": [
@@ -109466,6 +109470,12 @@
       "headlineId": "1d51e4abfe220f01e83a45b297fef6abd1572e8a8649bed47010662bf8c4f32b",
       "articleUrl": "https://www.sverigesradio.se/artikel/kaos-pa-kopenhamns-flygplasts-hundratals-har-missat-flyg",
       "capturedAt": "2026-10-23T05:37:35.851Z"
+    },
+    {
+      "filename": "1792735650690_0.png",
+      "headlineId": "c8c2aa73c61067c0b804a41727aa1679e4a0f5b2e429b339fa295001726f13c6",
+      "articleUrl": "https://www.sverigesradio.se/artikel/where-is-my-husband-sangerskan-raye-far-mercurypriset",
+      "capturedAt": "2026-10-23T06:07:30.690Z"
     }
   ]
 }
