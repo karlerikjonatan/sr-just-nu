@@ -43780,6 +43780,10 @@
     {
       "id": "41e972ead5098b8313cad074f8986f2e5d2707738db0117937f8c2cc0ed01bcd",
       "text": "Just nu: Kraftig brand efter matlagning"
+    },
+    {
+      "id": "7d040fbc41178bce6a27b8615c290e21f5897c0b7ce374b62495f09f711bfb91",
+      "text": "Just nu: Så blir inkomstskatten i Stockholm"
     }
   ],
   "captures": [
@@ -109446,6 +109450,12 @@
       "headlineId": "41e972ead5098b8313cad074f8986f2e5d2707738db0117937f8c2cc0ed01bcd",
       "articleUrl": "https://www.sverigesradio.se/artikel/brand-i-villa-efter-matlagning-gick-inte-att-radda",
       "capturedAt": "2026-10-23T03:47:30.179Z"
+    },
+    {
+      "filename": "1792728452157_0.png",
+      "headlineId": "7d040fbc41178bce6a27b8615c290e21f5897c0b7ce374b62495f09f711bfb91",
+      "articleUrl": "https://www.sverigesradio.se/artikel/sa-hog-blir-skatten-i-stockholm-2027",
+      "capturedAt": "2026-10-23T04:07:32.157Z"
     }
   ]
 }
