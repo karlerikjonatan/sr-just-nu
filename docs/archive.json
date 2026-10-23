@@ -43912,6 +43912,10 @@
     {
       "id": "b3f2ff48f404cbc87eeb8498a119324c39635e25043371e5b52458fa62e19686",
       "text": "Just nu: Hitlers gamla fästning i lågor"
+    },
+    {
+      "id": "948021be0f99878612fcbbd3536f80cbf33f770ccb9bd1c07e336730117809c3",
+      "text": "Just nu: Hitlers fästning ”Örnnästet” i lågor"
     }
   ],
   "captures": [
@@ -109776,6 +109780,12 @@
       "headlineId": "b3f2ff48f404cbc87eeb8498a119324c39635e25043371e5b52458fa62e19686",
       "articleUrl": "https://www.sverigesradio.se/artikel/adolf-hitlers-gamla-fastning-ornnastet-brinner-i-bayern",
       "capturedAt": "2026-10-23T21:42:28.955Z"
+    },
+    {
+      "filename": "1792792067421_0.png",
+      "headlineId": "948021be0f99878612fcbbd3536f80cbf33f770ccb9bd1c07e336730117809c3",
+      "articleUrl": "https://www.sverigesradio.se/artikel/adolf-hitlers-gamla-fastning-ornnastet-brinner-i-bayern",
+      "capturedAt": "2026-10-23T21:47:47.421Z"
     }
   ]
 }
