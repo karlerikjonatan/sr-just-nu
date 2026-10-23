@@ -43908,6 +43908,10 @@
     {
       "id": "7458795a60e46ba14178c65eba0795a71a498b31afcb5b1f4d9cc320e4a07ab0",
       "text": "Just nu: Pojke påkörd av bil i Helsingborg"
+    },
+    {
+      "id": "b3f2ff48f404cbc87eeb8498a119324c39635e25043371e5b52458fa62e19686",
+      "text": "Just nu: Hitlers gamla fästning i lågor"
     }
   ],
   "captures": [
@@ -109766,6 +109770,12 @@
       "headlineId": "7458795a60e46ba14178c65eba0795a71a498b31afcb5b1f4d9cc320e4a07ab0",
       "articleUrl": "https://www.sverigesradio.se/artikel/pojke-pakord-av-bil-i-helsingborg",
       "capturedAt": "2026-10-23T21:12:33.763Z"
+    },
+    {
+      "filename": "1792791748955_0.png",
+      "headlineId": "b3f2ff48f404cbc87eeb8498a119324c39635e25043371e5b52458fa62e19686",
+      "articleUrl": "https://www.sverigesradio.se/artikel/adolf-hitlers-gamla-fastning-ornnastet-brinner-i-bayern",
+      "capturedAt": "2026-10-23T21:42:28.955Z"
     }
   ]
 }
