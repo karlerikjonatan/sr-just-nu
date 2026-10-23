@@ -43864,6 +43864,18 @@
     {
       "id": "fd32f723c5c55ab555a0f5eb1d5e2e87f933e9e49ea4d33708f03bd7f6521256",
       "text": "Just nu: Skjutning i Jordanien – minst sex döda"
+    },
+    {
+      "id": "f92181877de2f520ffe59ca22b38ff0a352b01e0804112b1bdf0136a848d9a4b",
+      "text": "Just nu: Skjutning i Jordanien – flera döda"
+    },
+    {
+      "id": "1a7fd10270c3923d6004b25cf32051117e5528b003dcb482435b357544eb94ef",
+      "text": "Just nu: Bayern-tränaren till sjukhus"
+    },
+    {
+      "id": "404420dbcce14701a23bd32ec0a96905c43fe4865afd8a640e87baeab03362e7",
+      "text": "Just nu: E4 avstängd – olycka med hästbuss"
     }
   ],
   "captures": [
@@ -109656,6 +109668,24 @@
       "headlineId": "fd32f723c5c55ab555a0f5eb1d5e2e87f933e9e49ea4d33708f03bd7f6521256",
       "articleUrl": "https://www.sverigesradio.se/artikel/minst-sju-doda-i-skjutning-i-sodra-jordanien",
       "capturedAt": "2026-10-23T16:07:27.162Z"
+    },
+    {
+      "filename": "1792772255358_0.png",
+      "headlineId": "404420dbcce14701a23bd32ec0a96905c43fe4865afd8a640e87baeab03362e7",
+      "articleUrl": "https://www.sverigesradio.se/artikel/e4-avstangd-efter-viltolycka-med-hastbuss",
+      "capturedAt": "2026-10-23T16:17:35.358Z"
+    },
+    {
+      "filename": "1792772255358_1.png",
+      "headlineId": "1a7fd10270c3923d6004b25cf32051117e5528b003dcb482435b357544eb94ef",
+      "articleUrl": "https://www.sverigesradio.se/artikel/bayern-munchens-tranare-vincent-kompany-till-sjukhus",
+      "capturedAt": "2026-10-23T16:17:35.358Z"
+    },
+    {
+      "filename": "1792772255358_2.png",
+      "headlineId": "f92181877de2f520ffe59ca22b38ff0a352b01e0804112b1bdf0136a848d9a4b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/minst-sju-doda-i-skjutning-i-sodra-jordanien",
+      "capturedAt": "2026-10-23T16:17:35.358Z"
     }
   ]
 }
