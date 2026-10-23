@@ -43836,6 +43836,10 @@
     {
       "id": "e534cf302a1365f88a39adc2aa4f6905e20062c95c9177046c5b91cf59e5be49",
       "text": "Just nu: Kedjesjöpung – ny invasiv art"
+    },
+    {
+      "id": "f06b6f3c2e23acb53dec52c6baa27619cb4f1f7c8fe3abc831840dc446ee187a",
+      "text": "Just nu: Ny invasiv art hittad"
     }
   ],
   "captures": [
@@ -109586,6 +109590,12 @@
       "headlineId": "e534cf302a1365f88a39adc2aa4f6905e20062c95c9177046c5b91cf59e5be49",
       "articleUrl": "https://www.sverigesradio.se/artikel/ny-invasiv-art-hittad-risk-for-sjopungsmatta",
       "capturedAt": "2026-10-23T12:02:29.206Z"
+    },
+    {
+      "filename": "1792757559007_0.png",
+      "headlineId": "f06b6f3c2e23acb53dec52c6baa27619cb4f1f7c8fe3abc831840dc446ee187a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ny-invasiv-art-hittad-risk-for-sjopungsmatta",
+      "capturedAt": "2026-10-23T12:12:39.007Z"
     }
   ]
 }
