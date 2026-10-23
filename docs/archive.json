@@ -43812,6 +43812,10 @@
     {
       "id": "2cede29ff6362e8691d6e32c20c11df01a719ee6019d96c4f6ea3009b1778a86",
       "text": "Just nu: Stor härva med falska polislegg"
+    },
+    {
+      "id": "6270ab157ab3795b4d343356a5ece0f70ece67da0057ab319af369857d872949",
+      "text": "Just nu: Krismöte efter Kastrupkaoset"
     }
   ],
   "captures": [
@@ -109526,6 +109530,12 @@
       "headlineId": "2cede29ff6362e8691d6e32c20c11df01a719ee6019d96c4f6ea3009b1778a86",
       "articleUrl": "https://www.sverigesradio.se/artikel/stor-bedrageriharva-i-bergslagen-anvande-falsk-polislegitimation",
       "capturedAt": "2026-10-23T07:47:30.085Z"
+    },
+    {
+      "filename": "1792744958322_0.png",
+      "headlineId": "6270ab157ab3795b4d343356a5ece0f70ece67da0057ab319af369857d872949",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kaos-pa-kopenhamns-flygplasts-hundratals-har-missat-flyg",
+      "capturedAt": "2026-10-23T08:42:38.322Z"
     }
   ]
 }
