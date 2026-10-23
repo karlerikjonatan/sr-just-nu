@@ -43832,6 +43832,10 @@
     {
       "id": "559b2b273faec37c618c003ce985d290c874bcef4127f0bea48d7e2addb752c5",
       "text": "Just nu: Insats på industriområde i Vaggeryd"
+    },
+    {
+      "id": "e534cf302a1365f88a39adc2aa4f6905e20062c95c9177046c5b91cf59e5be49",
+      "text": "Just nu: Kedjesjöpung – ny invasiv art"
     }
   ],
   "captures": [
@@ -109576,6 +109580,12 @@
       "headlineId": "559b2b273faec37c618c003ce985d290c874bcef4127f0bea48d7e2addb752c5",
       "articleUrl": "https://www.sverigesradio.se/artikel/insats-pa-industriomrade-i-vaggeryd-misstankt-miljobrott",
       "capturedAt": "2026-10-23T11:57:27.663Z"
+    },
+    {
+      "filename": "1792756949206_0.png",
+      "headlineId": "e534cf302a1365f88a39adc2aa4f6905e20062c95c9177046c5b91cf59e5be49",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ny-invasiv-art-hittad-risk-for-sjopungsmatta",
+      "capturedAt": "2026-10-23T12:02:29.206Z"
     }
   ]
 }
