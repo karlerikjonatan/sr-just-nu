@@ -43772,6 +43772,10 @@
     {
       "id": "b94378f24ffe803537c60b432c392960ff00efb5d9fc115aa1ac3af17560e293",
       "text": "Just nu: Jordbävning i Tibet – flera döda"
+    },
+    {
+      "id": "935318653426de1409b6e728ed6e5ac91e6713eecb7269e4004b51be93494e19",
+      "text": "Just nu: Tom Skerritt död"
     }
   ],
   "captures": [
@@ -109426,6 +109430,12 @@
       "headlineId": "b94378f24ffe803537c60b432c392960ff00efb5d9fc115aa1ac3af17560e293",
       "articleUrl": "https://www.sverigesradio.se/artikel/tibet-drabbat-av-jordbavning-flera-doda",
       "capturedAt": "2026-10-22T21:07:44.760Z"
+    },
+    {
+      "filename": "1792726645370_0.png",
+      "headlineId": "935318653426de1409b6e728ed6e5ac91e6713eecb7269e4004b51be93494e19",
+      "articleUrl": "https://www.sverigesradio.se/artikel/alien-och-top-gun-skadespelaren-tom-skerritt-dod",
+      "capturedAt": "2026-10-23T03:37:25.370Z"
     }
   ]
 }
