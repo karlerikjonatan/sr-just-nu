@@ -43796,6 +43796,10 @@
     {
       "id": "30a9f756247eda987d5ceedab1cbaf2e1f9628de90757469dec0cbf8eb57dd45",
       "text": "Just nu: Sångerskan får prestigefulla priset"
+    },
+    {
+      "id": "1e18d608f984085da85725763217216bb075c6234813fc8740e4d02416efec8d",
+      "text": "Just nu: Ännu en begärs häktad efter Älvsjömordet"
     }
   ],
   "captures": [
@@ -109486,6 +109490,12 @@
       "headlineId": "30a9f756247eda987d5ceedab1cbaf2e1f9628de90757469dec0cbf8eb57dd45",
       "articleUrl": "https://www.sverigesradio.se/artikel/where-is-my-husband-sangerskan-raye-far-mercurypriset",
       "capturedAt": "2026-10-23T06:12:49.890Z"
+    },
+    {
+      "filename": "1792739263941_0.png",
+      "headlineId": "1e18d608f984085da85725763217216bb075c6234813fc8740e4d02416efec8d",
+      "articleUrl": "https://www.sverigesradio.se/artikel/en-tredje-person-begars-haktad-misstankt-for-inblandning-i-dodsskjutningen-i-alvsjo",
+      "capturedAt": "2026-10-23T07:07:43.941Z"
     }
   ]
 }
