@@ -43828,6 +43828,10 @@
     {
       "id": "eef38ec5e96ad3aa9b901d36832ff92a37b2fefba2f11b98ebaeebce97e5455a",
       "text": "Just nu: En död – man sköt från bil nära Paris"
+    },
+    {
+      "id": "559b2b273faec37c618c003ce985d290c874bcef4127f0bea48d7e2addb752c5",
+      "text": "Just nu: Insats på industriområde i Vaggeryd"
     }
   ],
   "captures": [
@@ -109566,6 +109570,12 @@
       "headlineId": "eef38ec5e96ad3aa9b901d36832ff92a37b2fefba2f11b98ebaeebce97e5455a",
       "articleUrl": "https://www.sverigesradio.se/artikel/en-dod-man-i-bil-oppnade-eld-i-trappes-nara-paris",
       "capturedAt": "2026-10-23T11:02:32.686Z"
+    },
+    {
+      "filename": "1792756647663_0.png",
+      "headlineId": "559b2b273faec37c618c003ce985d290c874bcef4127f0bea48d7e2addb752c5",
+      "articleUrl": "https://www.sverigesradio.se/artikel/insats-pa-industriomrade-i-vaggeryd-misstankt-miljobrott",
+      "capturedAt": "2026-10-23T11:57:27.663Z"
     }
   ]
 }
