@@ -43824,6 +43824,10 @@
     {
       "id": "2db24dbc40d747218af66b0de5f4e6fb794d4b902994ac58d1b393fe3a5f38dc",
       "text": "Just nu: SMHI varnar för stormen Boelo"
+    },
+    {
+      "id": "eef38ec5e96ad3aa9b901d36832ff92a37b2fefba2f11b98ebaeebce97e5455a",
+      "text": "Just nu: En död – man sköt från bil nära Paris"
     }
   ],
   "captures": [
@@ -109556,6 +109560,12 @@
       "headlineId": "17f1130afbabd26218438426f8139d120ffb080925678c2fb66e36e411f02ca1",
       "articleUrl": "https://www.sverigesradio.se/artikel/landskrona-pojke-begars-haktad-efter-knivlarm",
       "capturedAt": "2026-10-23T10:32:29.038Z"
+    },
+    {
+      "filename": "1792753352686_0.png",
+      "headlineId": "eef38ec5e96ad3aa9b901d36832ff92a37b2fefba2f11b98ebaeebce97e5455a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/en-dod-man-i-bil-oppnade-eld-i-trappes-nara-paris",
+      "capturedAt": "2026-10-23T11:02:32.686Z"
     }
   ]
 }
