@@ -43816,6 +43816,14 @@
     {
       "id": "6270ab157ab3795b4d343356a5ece0f70ece67da0057ab319af369857d872949",
       "text": "Just nu: Krismöte efter Kastrupkaoset"
+    },
+    {
+      "id": "17f1130afbabd26218438426f8139d120ffb080925678c2fb66e36e411f02ca1",
+      "text": "Just nu: Greps med kniv nära skola – begärs häktad"
+    },
+    {
+      "id": "2db24dbc40d747218af66b0de5f4e6fb794d4b902994ac58d1b393fe3a5f38dc",
+      "text": "Just nu: SMHI varnar för stormen Boelo"
     }
   ],
   "captures": [
@@ -109536,6 +109544,18 @@
       "headlineId": "6270ab157ab3795b4d343356a5ece0f70ece67da0057ab319af369857d872949",
       "articleUrl": "https://www.sverigesradio.se/artikel/kaos-pa-kopenhamns-flygplasts-hundratals-har-missat-flyg",
       "capturedAt": "2026-10-23T08:42:38.322Z"
+    },
+    {
+      "filename": "1792751549038_0.png",
+      "headlineId": "2db24dbc40d747218af66b0de5f4e6fb794d4b902994ac58d1b393fe3a5f38dc",
+      "articleUrl": "https://www.sverigesradio.se/artikel/gul-varning-for-kraftig-vind-stormen-boelo-nara-sverige",
+      "capturedAt": "2026-10-23T10:32:29.038Z"
+    },
+    {
+      "filename": "1792751549038_1.png",
+      "headlineId": "17f1130afbabd26218438426f8139d120ffb080925678c2fb66e36e411f02ca1",
+      "articleUrl": "https://www.sverigesradio.se/artikel/landskrona-pojke-begars-haktad-efter-knivlarm",
+      "capturedAt": "2026-10-23T10:32:29.038Z"
     }
   ]
 }
