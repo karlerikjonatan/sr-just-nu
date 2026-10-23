@@ -43896,6 +43896,10 @@
     {
       "id": "1247497354b988188e99db61d4b0ce45dd12111709499a05c68c1bec01c083e9",
       "text": "Just nu: Garagebrand utanför Borås – flera skadade"
+    },
+    {
+      "id": "58dd30c80f73d5ba64c0b484a4d6f7e1cc7e365995ccb45561679bd17d98b4e9",
+      "text": "Just nu: Garagebrand – flera skadade"
     }
   ],
   "captures": [
@@ -109736,6 +109740,12 @@
       "headlineId": "1247497354b988188e99db61d4b0ce45dd12111709499a05c68c1bec01c083e9",
       "articleUrl": "https://www.sverigesradio.se/artikel/flera-skadade-i-garagebrand",
       "capturedAt": "2026-10-23T18:17:35.562Z"
+    },
+    {
+      "filename": "1792780359450_0.png",
+      "headlineId": "58dd30c80f73d5ba64c0b484a4d6f7e1cc7e365995ccb45561679bd17d98b4e9",
+      "articleUrl": "https://www.sverigesradio.se/artikel/flera-skadade-i-garagebrand",
+      "capturedAt": "2026-10-23T18:32:39.450Z"
     }
   ]
 }
