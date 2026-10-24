@@ -43948,6 +43948,10 @@
     {
       "id": "a93b83f7786a5211ece421c720fc78c568ed37f02be889a625b69ef4efe7b4f7",
       "text": "Just nu: Person hittad död i bil i vattnet"
+    },
+    {
+      "id": "2fe727d4cb003749b933fb3a1404275131f5b3bd113eb75d96feb7b0044a82db",
+      "text": "Just nu: Kraftiga vindar ställer in tåg i Skåne"
     }
   ],
   "captures": [
@@ -109866,6 +109870,12 @@
       "headlineId": "a93b83f7786a5211ece421c720fc78c568ed37f02be889a625b69ef4efe7b4f7",
       "articleUrl": "https://www.sverigesradio.se/artikel/person-hittad-dod-i-bil-i-vattnet",
       "capturedAt": "2026-10-24T09:42:40.667Z"
+    },
+    {
+      "filename": "1792835248075_0.png",
+      "headlineId": "2fe727d4cb003749b933fb3a1404275131f5b3bd113eb75d96feb7b0044a82db",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kraftiga-vindar-staller-in-tag-i-skane",
+      "capturedAt": "2026-10-24T09:47:28.075Z"
     }
   ]
 }
