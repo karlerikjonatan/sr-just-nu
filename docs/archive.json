@@ -43984,6 +43984,10 @@
     {
       "id": "c5ef835aa493dd79c732aa63240e4e120f3b3e6b52b59a6a333dff1ee651b803",
       "text": "Just nu: Flerbilsolycka i Valbo – E16 avstängd"
+    },
+    {
+      "id": "ae13ea4b12c29b04f594fb519a19c73056e2d356f73c96054aa29b956e38343d",
+      "text": "Just nu: Demonstranter tog sig in vid Colosseum"
     }
   ],
   "captures": [
@@ -109956,6 +109960,12 @@
       "headlineId": "c5ef835aa493dd79c732aa63240e4e120f3b3e6b52b59a6a333dff1ee651b803",
       "articleUrl": "https://www.sverigesradio.se/artikel/flerbilsolycka-i-valbo-e16-avstangd",
       "capturedAt": "2026-10-24T17:42:31.720Z"
+    },
+    {
+      "filename": "1792869751231_0.png",
+      "headlineId": "ae13ea4b12c29b04f594fb519a19c73056e2d356f73c96054aa29b956e38343d",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tusentals-personer-har-demonstrerat-runt-om-i-europa",
+      "capturedAt": "2026-10-24T19:22:31.231Z"
     }
   ]
 }
