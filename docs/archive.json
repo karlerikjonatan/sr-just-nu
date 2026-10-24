@@ -43956,6 +43956,10 @@
     {
       "id": "4be3dd6d541061d44eeea9becb03a9951240499b59fcccd8dff1e9e0e7080973",
       "text": "Just nu: Man till sjukhus efter scenbygge"
+    },
+    {
+      "id": "770f7612ab2741f58ea84b528b5565ebca61db55d1042fd239428700c61984e6",
+      "text": "Just nu: Kvinna saknad – militär kopplas in"
     }
   ],
   "captures": [
@@ -109886,6 +109890,12 @@
       "headlineId": "4be3dd6d541061d44eeea9becb03a9951240499b59fcccd8dff1e9e0e7080973",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-till-sjukhus-efter-arbetsplatsolycka-i-jonkoping",
       "capturedAt": "2026-10-24T11:57:26.459Z"
+    },
+    {
+      "filename": "1792847245909_0.png",
+      "headlineId": "770f7612ab2741f58ea84b528b5565ebca61db55d1042fd239428700c61984e6",
+      "articleUrl": "https://www.sverigesradio.se/artikel/polis-och-militar-soker-efter-forsvunnen-kvinna",
+      "capturedAt": "2026-10-24T13:07:25.909Z"
     }
   ]
 }
