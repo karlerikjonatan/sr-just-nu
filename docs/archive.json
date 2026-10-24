@@ -43920,6 +43920,10 @@
     {
       "id": "da7d92ae0894f624ce104be6ee0377c405747b01526a9d577172c1f6478eb36f",
       "text": "Just nu: Explosioner i Saudiarabien – varnas för fler"
+    },
+    {
+      "id": "b5413a3228182592c3ec3e85703bc00719647c3f020311eb69964d517fc22060",
+      "text": "Just nu: Trump: Ska prata med Musk"
     }
   ],
   "captures": [
@@ -109796,6 +109800,12 @@
       "headlineId": "da7d92ae0894f624ce104be6ee0377c405747b01526a9d577172c1f6478eb36f",
       "articleUrl": "https://www.sverigesradio.se/artikel/tva-explosioner-i-saudiarabien-varnas-for-fler",
       "capturedAt": "2026-10-24T02:32:29.073Z"
+    },
+    {
+      "filename": "1792815455820_0.png",
+      "headlineId": "b5413a3228182592c3ec3e85703bc00719647c3f020311eb69964d517fc22060",
+      "articleUrl": "https://www.sverigesradio.se/artikel/donald-trump-ska-prata-med-elon-musk-om-starlink",
+      "capturedAt": "2026-10-24T04:17:35.820Z"
     }
   ]
 }
