@@ -43960,6 +43960,10 @@
     {
       "id": "770f7612ab2741f58ea84b528b5565ebca61db55d1042fd239428700c61984e6",
       "text": "Just nu: Kvinna saknad – militär kopplas in"
+    },
+    {
+      "id": "f097ff4df8efe124cf8717f7b76bae6c7df09af40e0a65153285224c8cbbe19d",
+      "text": "Just nu: Citys nya smäll – segersviten bruten"
     }
   ],
   "captures": [
@@ -109896,6 +109900,12 @@
       "headlineId": "770f7612ab2741f58ea84b528b5565ebca61db55d1042fd239428700c61984e6",
       "articleUrl": "https://www.sverigesradio.se/artikel/polis-och-militar-soker-efter-forsvunnen-kvinna",
       "capturedAt": "2026-10-24T13:07:25.909Z"
+    },
+    {
+      "filename": "1792849954514_0.png",
+      "headlineId": "f097ff4df8efe124cf8717f7b76bae6c7df09af40e0a65153285224c8cbbe19d",
+      "articleUrl": "https://www.sverigesradio.se/artikel/citys-nya-small-villa-brot-segersviten",
+      "capturedAt": "2026-10-24T13:52:34.514Z"
     }
   ]
 }
