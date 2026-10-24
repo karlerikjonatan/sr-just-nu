@@ -43988,6 +43988,10 @@
     {
       "id": "ae13ea4b12c29b04f594fb519a19c73056e2d356f73c96054aa29b956e38343d",
       "text": "Just nu: Demonstranter tog sig in vid Colosseum"
+    },
+    {
+      "id": "1739a0c6429c807ea00dcbad0239e2e3c3dc525e31866035cc0e12be4e4e0f8b",
+      "text": "Just nu: Inställda tåg när Boelo blåser in"
     }
   ],
   "captures": [
@@ -109966,6 +109970,12 @@
       "headlineId": "ae13ea4b12c29b04f594fb519a19c73056e2d356f73c96054aa29b956e38343d",
       "articleUrl": "https://www.sverigesradio.se/artikel/tusentals-personer-har-demonstrerat-runt-om-i-europa",
       "capturedAt": "2026-10-24T19:22:31.231Z"
+    },
+    {
+      "filename": "1792870056888_0.png",
+      "headlineId": "1739a0c6429c807ea00dcbad0239e2e3c3dc525e31866035cc0e12be4e4e0f8b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/installda-tag-nar-stormen-boelo-blaser-in",
+      "capturedAt": "2026-10-24T19:27:36.888Z"
     }
   ]
 }
