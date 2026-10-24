@@ -43976,6 +43976,10 @@
     {
       "id": "a6b43e7ccc56589715edbca5fd83de6a391d16e3abe151b5f993cf00f8590400",
       "text": "Just nu: Bil voltade – en till sjukhus"
+    },
+    {
+      "id": "4e41661baf4664cfd99f46fdca94d6b38408eb90c4676946c98b64d6b4b5624d",
+      "text": "Just nu: Flera skadade på årets GGN"
     }
   ],
   "captures": [
@@ -109936,6 +109940,12 @@
       "headlineId": "a6b43e7ccc56589715edbca5fd83de6a391d16e3abe151b5f993cf00f8590400",
       "articleUrl": "https://www.sverigesradio.se/artikel/en-till-sjukhus-efter-att-ensam-bil-voltade",
       "capturedAt": "2026-10-24T15:22:30.508Z"
+    },
+    {
+      "filename": "1792861656456_0.png",
+      "headlineId": "4e41661baf4664cfd99f46fdca94d6b38408eb90c4676946c98b64d6b4b5624d",
+      "articleUrl": "https://www.sverigesradio.se/artikel/fler-skadade-vid-gotland-grand-national-i-ar",
+      "capturedAt": "2026-10-24T17:07:36.456Z"
     }
   ]
 }
