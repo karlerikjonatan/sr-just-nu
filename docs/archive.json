@@ -43924,6 +43924,10 @@
     {
       "id": "b5413a3228182592c3ec3e85703bc00719647c3f020311eb69964d517fc22060",
       "text": "Just nu: Trump: Ska prata med Musk"
+    },
+    {
+      "id": "87ebbdc3abd0a5167589542cb02a2e65e05f28d7b47cfc21fb2573a1a6def6aa",
+      "text": "Just nu: Trump: Ska prata med Musk om det"
     }
   ],
   "captures": [
@@ -109806,6 +109810,12 @@
       "headlineId": "b5413a3228182592c3ec3e85703bc00719647c3f020311eb69964d517fc22060",
       "articleUrl": "https://www.sverigesradio.se/artikel/donald-trump-ska-prata-med-elon-musk-om-starlink",
       "capturedAt": "2026-10-24T04:17:35.820Z"
+    },
+    {
+      "filename": "1792816349649_0.png",
+      "headlineId": "87ebbdc3abd0a5167589542cb02a2e65e05f28d7b47cfc21fb2573a1a6def6aa",
+      "articleUrl": "https://www.sverigesradio.se/artikel/donald-trump-ska-prata-med-elon-musk-om-starlink",
+      "capturedAt": "2026-10-24T04:32:29.649Z"
     }
   ]
 }
