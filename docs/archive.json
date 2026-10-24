@@ -43940,6 +43940,10 @@
     {
       "id": "04fdb987c6a1cf3defd9af053d63e4f821671e7684936ca1eaf05ad501209559",
       "text": "Just nu: 30-tal unga i bråk – våld mot halsen"
+    },
+    {
+      "id": "c294301f679deea72e28308b6731a524d0e455ab7b3e1aa85b50be476dad652c",
+      "text": "Just nu: Olycka i Pajala – slungades ut ur bilen"
     }
   ],
   "captures": [
@@ -109846,6 +109850,12 @@
       "headlineId": "04fdb987c6a1cf3defd9af053d63e4f821671e7684936ca1eaf05ad501209559",
       "articleUrl": "https://www.sverigesradio.se/artikel/30-tal-tonaringar-i-brak-vald-mot-halsen",
       "capturedAt": "2026-10-24T07:42:28.657Z"
+    },
+    {
+      "filename": "1792832560121_0.png",
+      "headlineId": "c294301f679deea72e28308b6731a524d0e455ab7b3e1aa85b50be476dad652c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ung-man-skadad-slungades-ut-ur-bilen",
+      "capturedAt": "2026-10-24T09:02:40.121Z"
     }
   ]
 }
