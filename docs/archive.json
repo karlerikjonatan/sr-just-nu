@@ -43916,6 +43916,10 @@
     {
       "id": "948021be0f99878612fcbbd3536f80cbf33f770ccb9bd1c07e336730117809c3",
       "text": "Just nu: Hitlers fästning ”Örnnästet” i lågor"
+    },
+    {
+      "id": "da7d92ae0894f624ce104be6ee0377c405747b01526a9d577172c1f6478eb36f",
+      "text": "Just nu: Explosioner i Saudiarabien – varnas för fler"
     }
   ],
   "captures": [
@@ -109786,6 +109790,12 @@
       "headlineId": "948021be0f99878612fcbbd3536f80cbf33f770ccb9bd1c07e336730117809c3",
       "articleUrl": "https://www.sverigesradio.se/artikel/adolf-hitlers-gamla-fastning-ornnastet-brinner-i-bayern",
       "capturedAt": "2026-10-23T21:47:47.421Z"
+    },
+    {
+      "filename": "1792809149073_0.png",
+      "headlineId": "da7d92ae0894f624ce104be6ee0377c405747b01526a9d577172c1f6478eb36f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tva-explosioner-i-saudiarabien-varnas-for-fler",
+      "capturedAt": "2026-10-24T02:32:29.073Z"
     }
   ]
 }
