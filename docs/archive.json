@@ -43928,6 +43928,10 @@
     {
       "id": "87ebbdc3abd0a5167589542cb02a2e65e05f28d7b47cfc21fb2573a1a6def6aa",
       "text": "Just nu: Trump: Ska prata med Musk om det"
+    },
+    {
+      "id": "69bfd5f7d9796ae114399751f684f12fe770596348476b7178a6ce9d526538ac",
+      "text": "Just nu: Man död i mc-olycka i Helsingborg"
     }
   ],
   "captures": [
@@ -109816,6 +109820,12 @@
       "headlineId": "87ebbdc3abd0a5167589542cb02a2e65e05f28d7b47cfc21fb2573a1a6def6aa",
       "articleUrl": "https://www.sverigesradio.se/artikel/donald-trump-ska-prata-med-elon-musk-om-starlink",
       "capturedAt": "2026-10-24T04:32:29.649Z"
+    },
+    {
+      "filename": "1792817551290_0.png",
+      "headlineId": "69bfd5f7d9796ae114399751f684f12fe770596348476b7178a6ce9d526538ac",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ung-man-dod-i-mc-olycka-i-helsingborg",
+      "capturedAt": "2026-10-24T04:52:31.290Z"
     }
   ]
 }
