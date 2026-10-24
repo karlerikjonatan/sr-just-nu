@@ -43968,6 +43968,10 @@
     {
       "id": "19008ed71a0cb6636527a5396b7e586dc5d713a967f92d80d18f7b6f10e40c64",
       "text": "Just nu: Olycka på E20 – avstängt mot Strängnäs"
+    },
+    {
+      "id": "e99363ef46767c4c6a5bb6ff4644a8a490f5acbc5948b9a46518a9ed25c08fe0",
+      "text": "Just nu: Olycka på E20 – långa köer"
     }
   ],
   "captures": [
@@ -109916,6 +109920,12 @@
       "headlineId": "19008ed71a0cb6636527a5396b7e586dc5d713a967f92d80d18f7b6f10e40c64",
       "articleUrl": "https://www.sverigesradio.se/artikel/olycka-pa-e20-avstangt-mot-strangnas",
       "capturedAt": "2026-10-24T14:37:33.071Z"
+    },
+    {
+      "filename": "1792853247725_0.png",
+      "headlineId": "e99363ef46767c4c6a5bb6ff4644a8a490f5acbc5948b9a46518a9ed25c08fe0",
+      "articleUrl": "https://www.sverigesradio.se/artikel/olycka-pa-e20-avstangt-mot-strangnas",
+      "capturedAt": "2026-10-24T14:47:27.725Z"
     }
   ]
 }
