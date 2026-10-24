@@ -43932,6 +43932,10 @@
     {
       "id": "69bfd5f7d9796ae114399751f684f12fe770596348476b7178a6ce9d526538ac",
       "text": "Just nu: Man död i mc-olycka i Helsingborg"
+    },
+    {
+      "id": "019356dd20a3c7c437372e4a114177f54f985947c8003e4df340708b0ecb9bd8",
+      "text": "Just nu: 30-tal tonåringar i bråk – våld mot halsen"
     }
   ],
   "captures": [
@@ -109826,6 +109830,12 @@
       "headlineId": "69bfd5f7d9796ae114399751f684f12fe770596348476b7178a6ce9d526538ac",
       "articleUrl": "https://www.sverigesradio.se/artikel/ung-man-dod-i-mc-olycka-i-helsingborg",
       "capturedAt": "2026-10-24T04:52:31.290Z"
+    },
+    {
+      "filename": "1792825050749_0.png",
+      "headlineId": "019356dd20a3c7c437372e4a114177f54f985947c8003e4df340708b0ecb9bd8",
+      "articleUrl": "https://www.sverigesradio.se/artikel/30-tal-tonaringar-i-brak-vald-mot-halsen",
+      "capturedAt": "2026-10-24T06:57:30.749Z"
     }
   ]
 }
