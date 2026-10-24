@@ -43972,6 +43972,10 @@
     {
       "id": "e99363ef46767c4c6a5bb6ff4644a8a490f5acbc5948b9a46518a9ed25c08fe0",
       "text": "Just nu: Olycka på E20 – långa köer"
+    },
+    {
+      "id": "a6b43e7ccc56589715edbca5fd83de6a391d16e3abe151b5f993cf00f8590400",
+      "text": "Just nu: Bil voltade – en till sjukhus"
     }
   ],
   "captures": [
@@ -109926,6 +109930,12 @@
       "headlineId": "e99363ef46767c4c6a5bb6ff4644a8a490f5acbc5948b9a46518a9ed25c08fe0",
       "articleUrl": "https://www.sverigesradio.se/artikel/olycka-pa-e20-avstangt-mot-strangnas",
       "capturedAt": "2026-10-24T14:47:27.725Z"
+    },
+    {
+      "filename": "1792855350508_0.png",
+      "headlineId": "a6b43e7ccc56589715edbca5fd83de6a391d16e3abe151b5f993cf00f8590400",
+      "articleUrl": "https://www.sverigesradio.se/artikel/en-till-sjukhus-efter-att-ensam-bil-voltade",
+      "capturedAt": "2026-10-24T15:22:30.508Z"
     }
   ]
 }
