@@ -43936,6 +43936,10 @@
     {
       "id": "019356dd20a3c7c437372e4a114177f54f985947c8003e4df340708b0ecb9bd8",
       "text": "Just nu: 30-tal tonåringar i bråk – våld mot halsen"
+    },
+    {
+      "id": "04fdb987c6a1cf3defd9af053d63e4f821671e7684936ca1eaf05ad501209559",
+      "text": "Just nu: 30-tal unga i bråk – våld mot halsen"
     }
   ],
   "captures": [
@@ -109836,6 +109840,12 @@
       "headlineId": "019356dd20a3c7c437372e4a114177f54f985947c8003e4df340708b0ecb9bd8",
       "articleUrl": "https://www.sverigesradio.se/artikel/30-tal-tonaringar-i-brak-vald-mot-halsen",
       "capturedAt": "2026-10-24T06:57:30.749Z"
+    },
+    {
+      "filename": "1792827748657_0.png",
+      "headlineId": "04fdb987c6a1cf3defd9af053d63e4f821671e7684936ca1eaf05ad501209559",
+      "articleUrl": "https://www.sverigesradio.se/artikel/30-tal-tonaringar-i-brak-vald-mot-halsen",
+      "capturedAt": "2026-10-24T07:42:28.657Z"
     }
   ]
 }
