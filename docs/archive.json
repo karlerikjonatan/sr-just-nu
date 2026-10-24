@@ -43980,6 +43980,10 @@
     {
       "id": "4e41661baf4664cfd99f46fdca94d6b38408eb90c4676946c98b64d6b4b5624d",
       "text": "Just nu: Flera skadade på årets GGN"
+    },
+    {
+      "id": "c5ef835aa493dd79c732aa63240e4e120f3b3e6b52b59a6a333dff1ee651b803",
+      "text": "Just nu: Flerbilsolycka i Valbo – E16 avstängd"
     }
   ],
   "captures": [
@@ -109946,6 +109950,12 @@
       "headlineId": "4e41661baf4664cfd99f46fdca94d6b38408eb90c4676946c98b64d6b4b5624d",
       "articleUrl": "https://www.sverigesradio.se/artikel/fler-skadade-vid-gotland-grand-national-i-ar",
       "capturedAt": "2026-10-24T17:07:36.456Z"
+    },
+    {
+      "filename": "1792863751720_0.png",
+      "headlineId": "c5ef835aa493dd79c732aa63240e4e120f3b3e6b52b59a6a333dff1ee651b803",
+      "articleUrl": "https://www.sverigesradio.se/artikel/flerbilsolycka-i-valbo-e16-avstangd",
+      "capturedAt": "2026-10-24T17:42:31.720Z"
     }
   ]
 }
