@@ -43964,6 +43964,10 @@
     {
       "id": "f097ff4df8efe124cf8717f7b76bae6c7df09af40e0a65153285224c8cbbe19d",
       "text": "Just nu: Citys nya smäll – segersviten bruten"
+    },
+    {
+      "id": "19008ed71a0cb6636527a5396b7e586dc5d713a967f92d80d18f7b6f10e40c64",
+      "text": "Just nu: Olycka på E20 – avstängt mot Strängnäs"
     }
   ],
   "captures": [
@@ -109906,6 +109910,12 @@
       "headlineId": "f097ff4df8efe124cf8717f7b76bae6c7df09af40e0a65153285224c8cbbe19d",
       "articleUrl": "https://www.sverigesradio.se/artikel/citys-nya-small-villa-brot-segersviten",
       "capturedAt": "2026-10-24T13:52:34.514Z"
+    },
+    {
+      "filename": "1792852653071_0.png",
+      "headlineId": "19008ed71a0cb6636527a5396b7e586dc5d713a967f92d80d18f7b6f10e40c64",
+      "articleUrl": "https://www.sverigesradio.se/artikel/olycka-pa-e20-avstangt-mot-strangnas",
+      "capturedAt": "2026-10-24T14:37:33.071Z"
     }
   ]
 }
