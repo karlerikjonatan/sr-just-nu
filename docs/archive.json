@@ -43952,6 +43952,10 @@
     {
       "id": "2fe727d4cb003749b933fb3a1404275131f5b3bd113eb75d96feb7b0044a82db",
       "text": "Just nu: Kraftiga vindar ställer in tåg i Skåne"
+    },
+    {
+      "id": "4be3dd6d541061d44eeea9becb03a9951240499b59fcccd8dff1e9e0e7080973",
+      "text": "Just nu: Man till sjukhus efter scenbygge"
     }
   ],
   "captures": [
@@ -109876,6 +109880,12 @@
       "headlineId": "2fe727d4cb003749b933fb3a1404275131f5b3bd113eb75d96feb7b0044a82db",
       "articleUrl": "https://www.sverigesradio.se/artikel/kraftiga-vindar-staller-in-tag-i-skane",
       "capturedAt": "2026-10-24T09:47:28.075Z"
+    },
+    {
+      "filename": "1792843046459_0.png",
+      "headlineId": "4be3dd6d541061d44eeea9becb03a9951240499b59fcccd8dff1e9e0e7080973",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-till-sjukhus-efter-arbetsplatsolycka-i-jonkoping",
+      "capturedAt": "2026-10-24T11:57:26.459Z"
     }
   ]
 }
