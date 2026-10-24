@@ -43944,6 +43944,10 @@
     {
       "id": "c294301f679deea72e28308b6731a524d0e455ab7b3e1aa85b50be476dad652c",
       "text": "Just nu: Olycka i Pajala – slungades ut ur bilen"
+    },
+    {
+      "id": "a93b83f7786a5211ece421c720fc78c568ed37f02be889a625b69ef4efe7b4f7",
+      "text": "Just nu: Person hittad död i bil i vattnet"
     }
   ],
   "captures": [
@@ -109856,6 +109860,12 @@
       "headlineId": "c294301f679deea72e28308b6731a524d0e455ab7b3e1aa85b50be476dad652c",
       "articleUrl": "https://www.sverigesradio.se/artikel/ung-man-skadad-slungades-ut-ur-bilen",
       "capturedAt": "2026-10-24T09:02:40.121Z"
+    },
+    {
+      "filename": "1792834960667_0.png",
+      "headlineId": "a93b83f7786a5211ece421c720fc78c568ed37f02be889a625b69ef4efe7b4f7",
+      "articleUrl": "https://www.sverigesradio.se/artikel/person-hittad-dod-i-bil-i-vattnet",
+      "capturedAt": "2026-10-24T09:42:40.667Z"
     }
   ]
 }
