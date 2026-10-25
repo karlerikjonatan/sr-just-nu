@@ -44072,6 +44072,10 @@
     {
       "id": "1e5ef0178b4cb720a61267535b985f25f60da6b2ec74873ac736a6912f467bf6",
       "text": "Just nu: Machado  tillbaka i Venezuela"
+    },
+    {
+      "id": "0ce8c77345556ffef374c3d0719a4d38fc0d0fb4a0ddfdcc5728fc91f4a2e6c2",
+      "text": "Just nu: Machado tillbaka i Venezuela"
     }
   ],
   "captures": [
@@ -110176,6 +110180,12 @@
       "headlineId": "ea5129ed36728ad86983fc0c0eeede39a275f2f6c24f929e4bb772916fa2abf0",
       "articleUrl": "https://www.sverigesradio.se/artikel/ny-varning-for-harda-vindbyar-pa-vastkusten",
       "capturedAt": "2026-10-25T16:22:29.304Z"
+    },
+    {
+      "filename": "1792945649281_0.png",
+      "headlineId": "0ce8c77345556ffef374c3d0719a4d38fc0d0fb4a0ddfdcc5728fc91f4a2e6c2",
+      "articleUrl": "https://www.sverigesradio.se/artikel/maria-corina-machado-har-atervant-till-venezuela",
+      "capturedAt": "2026-10-25T16:27:29.281Z"
     }
   ]
 }
