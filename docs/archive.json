@@ -44076,6 +44076,10 @@
     {
       "id": "0ce8c77345556ffef374c3d0719a4d38fc0d0fb4a0ddfdcc5728fc91f4a2e6c2",
       "text": "Just nu: Machado tillbaka i Venezuela"
+    },
+    {
+      "id": "84a32626af9f259129b953c66ae7829551ea8826070c777a48a8391cbee7d21b",
+      "text": "Just nu: Bussolycka i Spanien– minst 40 skadade"
     }
   ],
   "captures": [
@@ -110186,6 +110190,12 @@
       "headlineId": "0ce8c77345556ffef374c3d0719a4d38fc0d0fb4a0ddfdcc5728fc91f4a2e6c2",
       "articleUrl": "https://www.sverigesradio.se/artikel/maria-corina-machado-har-atervant-till-venezuela",
       "capturedAt": "2026-10-25T16:27:29.281Z"
+    },
+    {
+      "filename": "1792953752326_0.png",
+      "headlineId": "84a32626af9f259129b953c66ae7829551ea8826070c777a48a8391cbee7d21b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/bussolycka-utanfor-barcelona-minst-40-skadade",
+      "capturedAt": "2026-10-25T18:42:32.326Z"
     }
   ]
 }
