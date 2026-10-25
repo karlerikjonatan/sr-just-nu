@@ -44036,6 +44036,10 @@
     {
       "id": "cfe28191f3ec30fb142f9418559bedff3f3d64e7a72ba436e578973cc13b24c7",
       "text": "Just nu: Åklagaren begär 14-åring häktad"
+    },
+    {
+      "id": "7854bf5482e9b39ff5f09a6ad7cfa730350ac19c29ca2006ddd3b509d84705e6",
+      "text": "Just nu: Sex gripna – misstänkt grovt brott"
     }
   ],
   "captures": [
@@ -110086,6 +110090,12 @@
       "headlineId": "cfe28191f3ec30fb142f9418559bedff3f3d64e7a72ba436e578973cc13b24c7",
       "articleUrl": "https://www.sverigesradio.se/artikel/aklagaren-begar-14-aring-haktad",
       "capturedAt": "2026-10-25T10:47:39.071Z"
+    },
+    {
+      "filename": "1792927355096_0.png",
+      "headlineId": "7854bf5482e9b39ff5f09a6ad7cfa730350ac19c29ca2006ddd3b509d84705e6",
+      "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-polisinsats-i-salabacke-sex-personer-gripna",
+      "capturedAt": "2026-10-25T11:22:35.096Z"
     }
   ]
 }
