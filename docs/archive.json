@@ -44060,6 +44060,10 @@
     {
       "id": "fefca56820dca2e9e5d125ae783f44702e9a2a03a332ba35a31d723475f46156",
       "text": "Just nu: Tågstopp i Stockholm"
+    },
+    {
+      "id": "8d96cde09a58a5f42067a0171370c21e43a499300d811472c01e23ff5ba4e9ab",
+      "text": "Just nu: Varnar för hårda vindbyar på Västkusten"
     }
   ],
   "captures": [
@@ -110146,6 +110150,12 @@
       "headlineId": "fefca56820dca2e9e5d125ae783f44702e9a2a03a332ba35a31d723475f46156",
       "articleUrl": "https://www.sverigesradio.se/artikel/tagstopp-i-balsta",
       "capturedAt": "2026-10-25T13:42:30.889Z"
+    },
+    {
+      "filename": "1792943855157_0.png",
+      "headlineId": "8d96cde09a58a5f42067a0171370c21e43a499300d811472c01e23ff5ba4e9ab",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ny-varning-for-harda-vindbyar-pa-vastkusten",
+      "capturedAt": "2026-10-25T15:57:35.157Z"
     }
   ]
 }
