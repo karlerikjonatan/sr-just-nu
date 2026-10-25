@@ -44016,6 +44016,10 @@
     {
       "id": "a4b556061a7f77b8c95d70e61f3a7846921093e670903c1d9c2a5315b505e97b",
       "text": "Just nu: Två har lämnat sjukhuset efter garagebranden"
+    },
+    {
+      "id": "47c11e177a908e94ed3f2c89561c449871c3393f1a10196b8b2459ca5fa6c528",
+      "text": "Just nu: Man i 20-årsåldern knivskuren i Skurup"
     }
   ],
   "captures": [
@@ -110036,6 +110040,12 @@
       "headlineId": "a4b556061a7f77b8c95d70e61f3a7846921093e670903c1d9c2a5315b505e97b",
       "articleUrl": "https://www.sverigesradio.se/artikel/tva-unga-har-lamnat-sjukhuset-efter-branden-i-fristad",
       "capturedAt": "2026-10-25T07:52:27.768Z"
+    },
+    {
+      "filename": "1792918654124_0.png",
+      "headlineId": "47c11e177a908e94ed3f2c89561c449871c3393f1a10196b8b2459ca5fa6c528",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-i-20-arsaldern-knivskuren-i-skurup-en-anhallen",
+      "capturedAt": "2026-10-25T08:57:34.124Z"
     }
   ]
 }
