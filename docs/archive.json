@@ -44008,6 +44008,10 @@
     {
       "id": "472e1666116e965f608a24bf29021a0a83c61bbe035b5ec9d3b38fc740a683c1",
       "text": "Just nu: Körde in i träd – allvarligt skadad"
+    },
+    {
+      "id": "4bc12eb819cfedc81190e9ac23bdd1dbaa637a01172ce40991ab27e90db99a33",
+      "text": "Just nu: Svår vattenläcka i Kumla och Hallsberg"
     }
   ],
   "captures": [
@@ -110016,6 +110020,12 @@
       "headlineId": "472e1666116e965f608a24bf29021a0a83c61bbe035b5ec9d3b38fc740a683c1",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-i-20-arsaldern-allvarligt-skadad-efter-olycka-i-alvesta",
       "capturedAt": "2026-10-25T05:17:40.757Z"
+    },
+    {
+      "filename": "1792912348518_0.png",
+      "headlineId": "4bc12eb819cfedc81190e9ac23bdd1dbaa637a01172ce40991ab27e90db99a33",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lacka-i-kumla-och-hallsberg-vattnet-kan-ta-slut",
+      "capturedAt": "2026-10-25T07:12:28.518Z"
     }
   ]
 }
