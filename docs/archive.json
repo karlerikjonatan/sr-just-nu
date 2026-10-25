@@ -43996,6 +43996,10 @@
     {
       "id": "c976772298f97142359648b2fd6ad0fa3bbca212200abca19b2539510aa1b045",
       "text": "Just nu: Demonstranter stormar Colosseum"
+    },
+    {
+      "id": "9a8916859ab5bd9347c42b74ff9a8c2cb842e9c49a2a4a7b486663d856e4fecb",
+      "text": "Just nu: Nylanders succé – 300:e NHL-målet"
     }
   ],
   "captures": [
@@ -109986,6 +109990,12 @@
       "headlineId": "c976772298f97142359648b2fd6ad0fa3bbca212200abca19b2539510aa1b045",
       "articleUrl": "https://www.sverigesradio.se/artikel/tusentals-personer-har-demonstrerat-runt-om-i-europa",
       "capturedAt": "2026-10-24T20:02:29.970Z"
+    },
+    {
+      "filename": "1792896150329_0.png",
+      "headlineId": "9a8916859ab5bd9347c42b74ff9a8c2cb842e9c49a2a4a7b486663d856e4fecb",
+      "articleUrl": "https://www.sverigesradio.se/artikel/william-nylander-tvamalsskytt-for-toronto-mot-edmonton",
+      "capturedAt": "2026-10-25T02:42:30.329Z"
     }
   ]
 }
