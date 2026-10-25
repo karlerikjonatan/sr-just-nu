@@ -44024,6 +44024,10 @@
     {
       "id": "809944598da2454365a4e4acc104fd1dcb68909eb147eca56f1f549fd7b07816",
       "text": "Just nu: Tonåring fortsatt livshotande skadad"
+    },
+    {
+      "id": "e108d5de7abdfd2733a9ab6d121c1e275c4efc05874aeb56b8b896a21090e98e",
+      "text": "Just nu: Totalstopp sträckan Borås-Varberg"
     }
   ],
   "captures": [
@@ -110056,6 +110060,12 @@
       "headlineId": "809944598da2454365a4e4acc104fd1dcb68909eb147eca56f1f549fd7b07816",
       "articleUrl": "https://www.sverigesradio.se/artikel/skadelaget-fortfarande-livshotande-for-tonaring",
       "capturedAt": "2026-10-25T09:07:27.301Z"
+    },
+    {
+      "filename": "1792921960440_0.png",
+      "headlineId": "e108d5de7abdfd2733a9ab6d121c1e275c4efc05874aeb56b8b896a21090e98e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/totalstopp-tagstrackan-boras-varberg-ovadret-staller-till-det",
+      "capturedAt": "2026-10-25T09:52:40.440Z"
     }
   ]
 }
