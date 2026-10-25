@@ -44020,6 +44020,10 @@
     {
       "id": "47c11e177a908e94ed3f2c89561c449871c3393f1a10196b8b2459ca5fa6c528",
       "text": "Just nu: Man i 20-årsåldern knivskuren i Skurup"
+    },
+    {
+      "id": "809944598da2454365a4e4acc104fd1dcb68909eb147eca56f1f549fd7b07816",
+      "text": "Just nu: Tonåring fortsatt livshotande skadad"
     }
   ],
   "captures": [
@@ -110046,6 +110050,12 @@
       "headlineId": "47c11e177a908e94ed3f2c89561c449871c3393f1a10196b8b2459ca5fa6c528",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-i-20-arsaldern-knivskuren-i-skurup-en-anhallen",
       "capturedAt": "2026-10-25T08:57:34.124Z"
+    },
+    {
+      "filename": "1792919247301_0.png",
+      "headlineId": "809944598da2454365a4e4acc104fd1dcb68909eb147eca56f1f549fd7b07816",
+      "articleUrl": "https://www.sverigesradio.se/artikel/skadelaget-fortfarande-livshotande-for-tonaring",
+      "capturedAt": "2026-10-25T09:07:27.301Z"
     }
   ]
 }
