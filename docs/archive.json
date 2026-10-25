@@ -44056,6 +44056,10 @@
     {
       "id": "83047c5c9543ef76abd4123029b9ec2629be8abecd5db2a86023077f4ae1d581",
       "text": "Just nu: E20 avstängd mot Örebro efter olycka"
+    },
+    {
+      "id": "fefca56820dca2e9e5d125ae783f44702e9a2a03a332ba35a31d723475f46156",
+      "text": "Just nu: Tågstopp i Stockholm"
     }
   ],
   "captures": [
@@ -110136,6 +110140,12 @@
       "headlineId": "a66618c845e2cef64045e596ee1eaf743d529a368958dec23599a6d6743c8b0b",
       "articleUrl": "https://www.sverigesradio.se/artikel/ryssland-far-arrangera-vm-i-tyngdlyftning",
       "capturedAt": "2026-10-25T13:37:30.399Z"
+    },
+    {
+      "filename": "1792935750889_0.png",
+      "headlineId": "fefca56820dca2e9e5d125ae783f44702e9a2a03a332ba35a31d723475f46156",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tagstopp-i-balsta",
+      "capturedAt": "2026-10-25T13:42:30.889Z"
     }
   ]
 }
