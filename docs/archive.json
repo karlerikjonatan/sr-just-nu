@@ -44080,6 +44080,10 @@
     {
       "id": "84a32626af9f259129b953c66ae7829551ea8826070c777a48a8391cbee7d21b",
       "text": "Just nu: Bussolycka i Spanien– minst 40 skadade"
+    },
+    {
+      "id": "8566978f63fff855a21d7bccc8a1954f683b29ab6f200d7bf3326bde64a3ccfb",
+      "text": "Just nu: Höll personer inlåsta i källare – åtalas"
     }
   ],
   "captures": [
@@ -110196,6 +110200,12 @@
       "headlineId": "84a32626af9f259129b953c66ae7829551ea8826070c777a48a8391cbee7d21b",
       "articleUrl": "https://www.sverigesradio.se/artikel/bussolycka-utanfor-barcelona-minst-40-skadade",
       "capturedAt": "2026-10-25T18:42:32.326Z"
+    },
+    {
+      "filename": "1792955551099_0.png",
+      "headlineId": "8566978f63fff855a21d7bccc8a1954f683b29ab6f200d7bf3326bde64a3ccfb",
+      "articleUrl": "https://www.sverigesradio.se/artikel/18-arig-man-holl-folk-inlaste-i-kallare-i-fagersta",
+      "capturedAt": "2026-10-25T19:12:31.099Z"
     }
   ]
 }
