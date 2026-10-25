@@ -44092,6 +44092,10 @@
     {
       "id": "b19f4d0c0d6ce0134bc4187a37e44a28d6a40f352c7d0920c99b6c81ff3b84a3",
       "text": "Just nu: Röstningen förlängs i Brasiliens val"
+    },
+    {
+      "id": "ace53e3f533ed71cbb6ca0b86b1e4cd6d3c2a85908744e6dfacfa19d1e362f8c",
+      "text": "Just nu: Bussolycka i Spanien – 80 skadade"
     }
   ],
   "captures": [
@@ -110226,6 +110230,12 @@
       "headlineId": "b19f4d0c0d6ce0134bc4187a37e44a28d6a40f352c7d0920c99b6c81ff3b84a3",
       "articleUrl": "https://www.sverigesradio.se/artikel/brasiliens-presidentval-rostningen-forlangs-tva-timmar",
       "capturedAt": "2026-10-25T20:22:27.111Z"
+    },
+    {
+      "filename": "1792960649678_0.png",
+      "headlineId": "ace53e3f533ed71cbb6ca0b86b1e4cd6d3c2a85908744e6dfacfa19d1e362f8c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/bussolycka-utanfor-barcelona-minst-40-skadade",
+      "capturedAt": "2026-10-25T20:37:29.678Z"
     }
   ]
 }
