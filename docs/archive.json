@@ -44048,6 +44048,14 @@
     {
       "id": "311fdd224a82ede723402deb1dbd7b2b95312a9e6cf498b28c0db2542d0463c3",
       "text": "Just nu: Tågstopp i Stockholm – prognos saknas"
+    },
+    {
+      "id": "a66618c845e2cef64045e596ee1eaf743d529a368958dec23599a6d6743c8b0b",
+      "text": "Just nu: Ryssland får arrangera VM"
+    },
+    {
+      "id": "83047c5c9543ef76abd4123029b9ec2629be8abecd5db2a86023077f4ae1d581",
+      "text": "Just nu: E20 avstängd mot Örebro efter olycka"
     }
   ],
   "captures": [
@@ -110116,6 +110124,18 @@
       "headlineId": "311fdd224a82ede723402deb1dbd7b2b95312a9e6cf498b28c0db2542d0463c3",
       "articleUrl": "https://www.sverigesradio.se/artikel/tagstopp-i-balsta",
       "capturedAt": "2026-10-25T13:22:34.547Z"
+    },
+    {
+      "filename": "1792935450399_0.png",
+      "headlineId": "83047c5c9543ef76abd4123029b9ec2629be8abecd5db2a86023077f4ae1d581",
+      "articleUrl": "https://www.sverigesradio.se/artikel/e20-laxa-avstangd-flerbilsolycka",
+      "capturedAt": "2026-10-25T13:37:30.399Z"
+    },
+    {
+      "filename": "1792935450399_1.png",
+      "headlineId": "a66618c845e2cef64045e596ee1eaf743d529a368958dec23599a6d6743c8b0b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ryssland-far-arrangera-vm-i-tyngdlyftning",
+      "capturedAt": "2026-10-25T13:37:30.399Z"
     }
   ]
 }
