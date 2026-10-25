@@ -44000,6 +44000,10 @@
     {
       "id": "9a8916859ab5bd9347c42b74ff9a8c2cb842e9c49a2a4a7b486663d856e4fecb",
       "text": "Just nu: Nylanders succé – 300:e NHL-målet"
+    },
+    {
+      "id": "e56db004faf3ef887b5e6b5ccca1095c9780bfe132ba7e085387b4688fcda894",
+      "text": "Just nu: Patient föll och dog"
     }
   ],
   "captures": [
@@ -109996,6 +110000,12 @@
       "headlineId": "9a8916859ab5bd9347c42b74ff9a8c2cb842e9c49a2a4a7b486663d856e4fecb",
       "articleUrl": "https://www.sverigesradio.se/artikel/william-nylander-tvamalsskytt-for-toronto-mot-edmonton",
       "capturedAt": "2026-10-25T02:42:30.329Z"
+    },
+    {
+      "filename": "1792904850123_0.png",
+      "headlineId": "e56db004faf3ef887b5e6b5ccca1095c9780bfe132ba7e085387b4688fcda894",
+      "articleUrl": "https://www.sverigesradio.se/artikel/patient-dog-efter-fall-fran-balkong",
+      "capturedAt": "2026-10-25T05:07:30.123Z"
     }
   ]
 }
