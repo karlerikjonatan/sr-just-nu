@@ -44012,6 +44012,10 @@
     {
       "id": "4bc12eb819cfedc81190e9ac23bdd1dbaa637a01172ce40991ab27e90db99a33",
       "text": "Just nu: Svår vattenläcka i Kumla och Hallsberg"
+    },
+    {
+      "id": "a4b556061a7f77b8c95d70e61f3a7846921093e670903c1d9c2a5315b505e97b",
+      "text": "Just nu: Två har lämnat sjukhuset efter garagebranden"
     }
   ],
   "captures": [
@@ -110026,6 +110030,12 @@
       "headlineId": "4bc12eb819cfedc81190e9ac23bdd1dbaa637a01172ce40991ab27e90db99a33",
       "articleUrl": "https://www.sverigesradio.se/artikel/lacka-i-kumla-och-hallsberg-vattnet-kan-ta-slut",
       "capturedAt": "2026-10-25T07:12:28.518Z"
+    },
+    {
+      "filename": "1792914747768_0.png",
+      "headlineId": "a4b556061a7f77b8c95d70e61f3a7846921093e670903c1d9c2a5315b505e97b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tva-unga-har-lamnat-sjukhuset-efter-branden-i-fristad",
+      "capturedAt": "2026-10-25T07:52:27.768Z"
     }
   ]
 }
