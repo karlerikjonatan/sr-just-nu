@@ -44040,6 +44040,10 @@
     {
       "id": "7854bf5482e9b39ff5f09a6ad7cfa730350ac19c29ca2006ddd3b509d84705e6",
       "text": "Just nu: Sex gripna – misstänkt grovt brott"
+    },
+    {
+      "id": "5e9a92a55b6f0f630a789c4172e9e038454311d965803ba5a545008a5cd87181",
+      "text": "Just nu: Åtta gripna – misstänkt grovt brott"
     }
   ],
   "captures": [
@@ -110096,6 +110100,12 @@
       "headlineId": "7854bf5482e9b39ff5f09a6ad7cfa730350ac19c29ca2006ddd3b509d84705e6",
       "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-polisinsats-i-salabacke-sex-personer-gripna",
       "capturedAt": "2026-10-25T11:22:35.096Z"
+    },
+    {
+      "filename": "1792930050692_0.png",
+      "headlineId": "5e9a92a55b6f0f630a789c4172e9e038454311d965803ba5a545008a5cd87181",
+      "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-polisinsats-i-salabacke-sex-personer-gripna",
+      "capturedAt": "2026-10-25T12:07:30.692Z"
     }
   ]
 }
