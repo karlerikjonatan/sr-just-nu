@@ -44032,6 +44032,10 @@
     {
       "id": "0bb7b3aedc9aacdbc660f674ce37ff60955abc5145eb687fe5e58b81dcda4f0d",
       "text": "Just nu: Taxichaufför grovt misshandlad"
+    },
+    {
+      "id": "cfe28191f3ec30fb142f9418559bedff3f3d64e7a72ba436e578973cc13b24c7",
+      "text": "Just nu: Åklagaren begär 14-åring häktad"
     }
   ],
   "captures": [
@@ -110076,6 +110080,12 @@
       "headlineId": "0bb7b3aedc9aacdbc660f674ce37ff60955abc5145eb687fe5e58b81dcda4f0d",
       "articleUrl": "https://www.sverigesradio.se/artikel/la-en-spya-i-taxin-misshandlade-sen-foraren",
       "capturedAt": "2026-10-25T10:07:26.294Z"
+    },
+    {
+      "filename": "1792925259071_0.png",
+      "headlineId": "cfe28191f3ec30fb142f9418559bedff3f3d64e7a72ba436e578973cc13b24c7",
+      "articleUrl": "https://www.sverigesradio.se/artikel/aklagaren-begar-14-aring-haktad",
+      "capturedAt": "2026-10-25T10:47:39.071Z"
     }
   ]
 }
