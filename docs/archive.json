@@ -44028,6 +44028,10 @@
     {
       "id": "e108d5de7abdfd2733a9ab6d121c1e275c4efc05874aeb56b8b896a21090e98e",
       "text": "Just nu: Totalstopp sträckan Borås-Varberg"
+    },
+    {
+      "id": "0bb7b3aedc9aacdbc660f674ce37ff60955abc5145eb687fe5e58b81dcda4f0d",
+      "text": "Just nu: Taxichaufför grovt misshandlad"
     }
   ],
   "captures": [
@@ -110066,6 +110070,12 @@
       "headlineId": "e108d5de7abdfd2733a9ab6d121c1e275c4efc05874aeb56b8b896a21090e98e",
       "articleUrl": "https://www.sverigesradio.se/artikel/totalstopp-tagstrackan-boras-varberg-ovadret-staller-till-det",
       "capturedAt": "2026-10-25T09:52:40.440Z"
+    },
+    {
+      "filename": "1792922846294_0.png",
+      "headlineId": "0bb7b3aedc9aacdbc660f674ce37ff60955abc5145eb687fe5e58b81dcda4f0d",
+      "articleUrl": "https://www.sverigesradio.se/artikel/la-en-spya-i-taxin-misshandlade-sen-foraren",
+      "capturedAt": "2026-10-25T10:07:26.294Z"
     }
   ]
 }
