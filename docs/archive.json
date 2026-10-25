@@ -44096,6 +44096,10 @@
     {
       "id": "ace53e3f533ed71cbb6ca0b86b1e4cd6d3c2a85908744e6dfacfa19d1e362f8c",
       "text": "Just nu: Bussolycka i Spanien – 80 skadade"
+    },
+    {
+      "id": "46aaae8ce0fe78a1f3209745e970d8d6c6062488cfd095333a7862a1760c6cc2",
+      "text": "Just nu: Mbappé hjälte för Real Madrid i El Clásico"
     }
   ],
   "captures": [
@@ -110236,6 +110240,12 @@
       "headlineId": "ace53e3f533ed71cbb6ca0b86b1e4cd6d3c2a85908744e6dfacfa19d1e362f8c",
       "articleUrl": "https://www.sverigesradio.se/artikel/bussolycka-utanfor-barcelona-minst-40-skadade",
       "capturedAt": "2026-10-25T20:37:29.678Z"
+    },
+    {
+      "filename": "1792966354642_0.png",
+      "headlineId": "46aaae8ce0fe78a1f3209745e970d8d6c6062488cfd095333a7862a1760c6cc2",
+      "articleUrl": "https://www.sverigesradio.se/artikel/mbappe-hjalte-for-real-madrid-i-el-clasico",
+      "capturedAt": "2026-10-25T22:12:34.642Z"
     }
   ]
 }
