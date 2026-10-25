@@ -44044,6 +44044,10 @@
     {
       "id": "5e9a92a55b6f0f630a789c4172e9e038454311d965803ba5a545008a5cd87181",
       "text": "Just nu: Åtta gripna – misstänkt grovt brott"
+    },
+    {
+      "id": "311fdd224a82ede723402deb1dbd7b2b95312a9e6cf498b28c0db2542d0463c3",
+      "text": "Just nu: Tågstopp i Stockholm – prognos saknas"
     }
   ],
   "captures": [
@@ -110106,6 +110110,12 @@
       "headlineId": "5e9a92a55b6f0f630a789c4172e9e038454311d965803ba5a545008a5cd87181",
       "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-polisinsats-i-salabacke-sex-personer-gripna",
       "capturedAt": "2026-10-25T12:07:30.692Z"
+    },
+    {
+      "filename": "1792934554547_0.png",
+      "headlineId": "311fdd224a82ede723402deb1dbd7b2b95312a9e6cf498b28c0db2542d0463c3",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tagstopp-i-balsta",
+      "capturedAt": "2026-10-25T13:22:34.547Z"
     }
   ]
 }
