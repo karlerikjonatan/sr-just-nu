@@ -44004,6 +44004,10 @@
     {
       "id": "e56db004faf3ef887b5e6b5ccca1095c9780bfe132ba7e085387b4688fcda894",
       "text": "Just nu: Patient föll och dog"
+    },
+    {
+      "id": "472e1666116e965f608a24bf29021a0a83c61bbe035b5ec9d3b38fc740a683c1",
+      "text": "Just nu: Körde in i träd – allvarligt skadad"
     }
   ],
   "captures": [
@@ -110006,6 +110010,12 @@
       "headlineId": "e56db004faf3ef887b5e6b5ccca1095c9780bfe132ba7e085387b4688fcda894",
       "articleUrl": "https://www.sverigesradio.se/artikel/patient-dog-efter-fall-fran-balkong",
       "capturedAt": "2026-10-25T05:07:30.123Z"
+    },
+    {
+      "filename": "1792905460757_0.png",
+      "headlineId": "472e1666116e965f608a24bf29021a0a83c61bbe035b5ec9d3b38fc740a683c1",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-i-20-arsaldern-allvarligt-skadad-efter-olycka-i-alvesta",
+      "capturedAt": "2026-10-25T05:17:40.757Z"
     }
   ]
 }
