@@ -44104,6 +44104,10 @@
     {
       "id": "2b1be6ea8fd966b10b4787b3c94f389e21993cddc24617ef96bbefae2188a727",
       "text": "Just nu: Mbappé hjälte för Real Madrid"
+    },
+    {
+      "id": "fab21255dad25eda1aca7d3d71ab1ae119e5fc0c8d0c4bdc04ec3237dee2d616",
+      "text": "Just nu: Studentlistan firar valsegern i Serbien"
     }
   ],
   "captures": [
@@ -110256,6 +110260,12 @@
       "headlineId": "2b1be6ea8fd966b10b4787b3c94f389e21993cddc24617ef96bbefae2188a727",
       "articleUrl": "https://www.sverigesradio.se/artikel/mbappe-hjalte-for-real-madrid-i-el-clasico",
       "capturedAt": "2026-10-25T22:17:29.147Z"
+    },
+    {
+      "filename": "1792977749187_0.png",
+      "headlineId": "fab21255dad25eda1aca7d3d71ab1ae119e5fc0c8d0c4bdc04ec3237dee2d616",
+      "articleUrl": "https://www.sverigesradio.se/artikel/studentlistan-firar-valsegern-i-serbien",
+      "capturedAt": "2026-10-26T01:22:29.187Z"
     }
   ]
 }
