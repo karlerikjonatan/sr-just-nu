@@ -44184,6 +44184,10 @@
     {
       "id": "94ce7a85d977b8ffb7441de2a41cd8618c94983508963d903b7da5eca820f830",
       "text": "Just nu: Person påkörd av buss i Lund"
+    },
+    {
+      "id": "9ff9cf7e4d76c026f0e6edff1d329e31157c9ae4cd04bd12b751ddac649a6a8f",
+      "text": "Just nu: Kvinna svårt skadad efter bussolycka"
     }
   ],
   "captures": [
@@ -110456,6 +110460,12 @@
       "headlineId": "94ce7a85d977b8ffb7441de2a41cd8618c94983508963d903b7da5eca820f830",
       "articleUrl": "https://www.sverigesradio.se/artikel/allvarlig-olycka-person-pakord-av-buss",
       "capturedAt": "2026-10-26T18:37:34.261Z"
+    },
+    {
+      "filename": "1793041057145_0.png",
+      "headlineId": "9ff9cf7e4d76c026f0e6edff1d329e31157c9ae4cd04bd12b751ddac649a6a8f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/allvarlig-olycka-person-pakord-av-buss",
+      "capturedAt": "2026-10-26T18:57:37.145Z"
     }
   ]
 }
