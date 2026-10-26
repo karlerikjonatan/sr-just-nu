@@ -44136,6 +44136,10 @@
     {
       "id": "d6bdeff46aab385d0bc5edbd9b408649d6a3e569bab85b182349d9686d0b4316",
       "text": "Just nu: Delar av Phuket under vatten"
+    },
+    {
+      "id": "f0ddb5fd63e4fbb905a6f2ff4cf51b91ec44ab14efe476ae0cf4bd6ca1e85738",
+      "text": "Just nu: Stopp i spårvagnstrafiken i Göteborg"
     }
   ],
   "captures": [
@@ -110336,6 +110340,12 @@
       "headlineId": "07b3f9c4052e3bcf8b37e20f615586a2e76b2e660b2066d68984f02f7b672e6a",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-klattrade-pa-polishusets-tak-forsokte-ta-vapen",
       "capturedAt": "2026-10-26T08:17:34.782Z"
+    },
+    {
+      "filename": "1793003866817_0.png",
+      "headlineId": "f0ddb5fd63e4fbb905a6f2ff4cf51b91ec44ab14efe476ae0cf4bd6ca1e85738",
+      "articleUrl": "https://www.sverigesradio.se/artikel/stopp-i-sparvagnstrafiken-flera-linjer-indragna",
+      "capturedAt": "2026-10-26T08:37:46.817Z"
     }
   ]
 }
