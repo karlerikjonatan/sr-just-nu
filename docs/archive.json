@@ -44124,6 +44124,10 @@
     {
       "id": "a23de5c09bf733dc74246e866f9de8de6e586002614452283e4fd57434138047",
       "text": "Just nu: Översvämning vid terminal i Göteborg"
+    },
+    {
+      "id": "e52858f291e8f985e4dc124fc59e641090ef4adc8393441696f5a31962ad9c4b",
+      "text": "Just nu: Man klättrade på polishus – letade vapen"
     }
   ],
   "captures": [
@@ -110306,6 +110310,12 @@
       "headlineId": "a23de5c09bf733dc74246e866f9de8de6e586002614452283e4fd57434138047",
       "articleUrl": "https://www.sverigesradio.se/artikel/stormen-boelo-orsakar-oversvamning-i-goteborgs-hamn",
       "capturedAt": "2026-10-26T07:37:32.728Z"
+    },
+    {
+      "filename": "1793002056058_0.png",
+      "headlineId": "e52858f291e8f985e4dc124fc59e641090ef4adc8393441696f5a31962ad9c4b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-klattrade-pa-polishusets-tak-forsokte-ta-vapen",
+      "capturedAt": "2026-10-26T08:07:36.058Z"
     }
   ]
 }
