@@ -44116,6 +44116,10 @@
     {
       "id": "233b9aea2fb4f9ccb60763d00fd1cc0006c9018857ee3f3d1b09991628ae5886",
       "text": "Just nu: Lastbil i diket – E6 avstängd vid Kropp"
+    },
+    {
+      "id": "39b458b0e25ca5f7b200f9be0f73475273410198f7f917e59e13936d8e4da727",
+      "text": "Just nu: Mängder av nedfallna träd"
     }
   ],
   "captures": [
@@ -110286,6 +110290,12 @@
       "headlineId": "233b9aea2fb4f9ccb60763d00fd1cc0006c9018857ee3f3d1b09991628ae5886",
       "articleUrl": "https://www.sverigesradio.se/artikel/lastbil-i-diket-stoppar-trafik-vid-trafikplats-kropp",
       "capturedAt": "2026-10-26T04:52:31.374Z"
+    },
+    {
+      "filename": "1792993657857_0.png",
+      "headlineId": "39b458b0e25ca5f7b200f9be0f73475273410198f7f917e59e13936d8e4da727",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ett-25-tal-arenden-for-raddningstjansten-under-stormen",
+      "capturedAt": "2026-10-26T05:47:37.857Z"
     }
   ]
 }
