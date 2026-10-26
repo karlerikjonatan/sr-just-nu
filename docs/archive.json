@@ -44108,6 +44108,10 @@
     {
       "id": "fab21255dad25eda1aca7d3d71ab1ae119e5fc0c8d0c4bdc04ec3237dee2d616",
       "text": "Just nu: Studentlistan firar valsegern i Serbien"
+    },
+    {
+      "id": "7eb26ca53cd7a617557ab40d3a20826fd642a90a46c3c96155d527d8c38796e1",
+      "text": "Just nu: Tre gripna efter kyrkdåd i Jordanien"
     }
   ],
   "captures": [
@@ -110266,6 +110270,12 @@
       "headlineId": "fab21255dad25eda1aca7d3d71ab1ae119e5fc0c8d0c4bdc04ec3237dee2d616",
       "articleUrl": "https://www.sverigesradio.se/artikel/studentlistan-firar-valsegern-i-serbien",
       "capturedAt": "2026-10-26T01:22:29.187Z"
+    },
+    {
+      "filename": "1792984354316_0.png",
+      "headlineId": "7eb26ca53cd7a617557ab40d3a20826fd642a90a46c3c96155d527d8c38796e1",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tre-gripna-efter-dodlig-attack-mot-kyrka-i-jordanien",
+      "capturedAt": "2026-10-26T03:12:34.316Z"
     }
   ]
 }
