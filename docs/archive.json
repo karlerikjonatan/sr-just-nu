@@ -44120,6 +44120,10 @@
     {
       "id": "39b458b0e25ca5f7b200f9be0f73475273410198f7f917e59e13936d8e4da727",
       "text": "Just nu: Mängder av nedfallna träd"
+    },
+    {
+      "id": "a23de5c09bf733dc74246e866f9de8de6e586002614452283e4fd57434138047",
+      "text": "Just nu: Översvämning vid terminal i Göteborg"
     }
   ],
   "captures": [
@@ -110296,6 +110300,12 @@
       "headlineId": "39b458b0e25ca5f7b200f9be0f73475273410198f7f917e59e13936d8e4da727",
       "articleUrl": "https://www.sverigesradio.se/artikel/ett-25-tal-arenden-for-raddningstjansten-under-stormen",
       "capturedAt": "2026-10-26T05:47:37.857Z"
+    },
+    {
+      "filename": "1793000252728_0.png",
+      "headlineId": "a23de5c09bf733dc74246e866f9de8de6e586002614452283e4fd57434138047",
+      "articleUrl": "https://www.sverigesradio.se/artikel/stormen-boelo-orsakar-oversvamning-i-goteborgs-hamn",
+      "capturedAt": "2026-10-26T07:37:32.728Z"
     }
   ]
 }
