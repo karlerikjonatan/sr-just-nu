@@ -44128,6 +44128,14 @@
     {
       "id": "e52858f291e8f985e4dc124fc59e641090ef4adc8393441696f5a31962ad9c4b",
       "text": "Just nu: Man klättrade på polishus – letade vapen"
+    },
+    {
+      "id": "07b3f9c4052e3bcf8b37e20f615586a2e76b2e660b2066d68984f02f7b672e6a",
+      "text": "Just nu: Bet polis och klättrade på polishuset"
+    },
+    {
+      "id": "d6bdeff46aab385d0bc5edbd9b408649d6a3e569bab85b182349d9686d0b4316",
+      "text": "Just nu: Delar av Phuket under vatten"
     }
   ],
   "captures": [
@@ -110316,6 +110324,18 @@
       "headlineId": "e52858f291e8f985e4dc124fc59e641090ef4adc8393441696f5a31962ad9c4b",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-klattrade-pa-polishusets-tak-forsokte-ta-vapen",
       "capturedAt": "2026-10-26T08:07:36.058Z"
+    },
+    {
+      "filename": "1793002654782_0.png",
+      "headlineId": "d6bdeff46aab385d0bc5edbd9b408649d6a3e569bab85b182349d9686d0b4316",
+      "articleUrl": "https://www.sverigesradio.se/artikel/oversvamning-pa-semesteron-phuket-i-thailand",
+      "capturedAt": "2026-10-26T08:17:34.782Z"
+    },
+    {
+      "filename": "1793002654782_1.png",
+      "headlineId": "07b3f9c4052e3bcf8b37e20f615586a2e76b2e660b2066d68984f02f7b672e6a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-klattrade-pa-polishusets-tak-forsokte-ta-vapen",
+      "capturedAt": "2026-10-26T08:17:34.782Z"
     }
   ]
 }
