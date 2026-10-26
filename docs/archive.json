@@ -44140,6 +44140,10 @@
     {
       "id": "f0ddb5fd63e4fbb905a6f2ff4cf51b91ec44ab14efe476ae0cf4bd6ca1e85738",
       "text": "Just nu: Stopp i spårvagnstrafiken i Göteborg"
+    },
+    {
+      "id": "219abfbaae959c8c3c61608da2636e4102732ebb01737df576538d37bf892a36",
+      "text": "Just nu: Slog sina barn – mamman döms"
     }
   ],
   "captures": [
@@ -110346,6 +110350,12 @@
       "headlineId": "f0ddb5fd63e4fbb905a6f2ff4cf51b91ec44ab14efe476ae0cf4bd6ca1e85738",
       "articleUrl": "https://www.sverigesradio.se/artikel/stopp-i-sparvagnstrafiken-flera-linjer-indragna",
       "capturedAt": "2026-10-26T08:37:46.817Z"
+    },
+    {
+      "filename": "1793009849421_0.png",
+      "headlineId": "219abfbaae959c8c3c61608da2636e4102732ebb01737df576538d37bf892a36",
+      "articleUrl": "https://www.sverigesradio.se/artikel/mamma-i-trelleborg-doms-slog-och-hotade-sina-barn",
+      "capturedAt": "2026-10-26T10:17:29.421Z"
     }
   ]
 }
