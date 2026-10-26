@@ -44112,6 +44112,10 @@
     {
       "id": "7eb26ca53cd7a617557ab40d3a20826fd642a90a46c3c96155d527d8c38796e1",
       "text": "Just nu: Tre gripna efter kyrkdåd i Jordanien"
+    },
+    {
+      "id": "233b9aea2fb4f9ccb60763d00fd1cc0006c9018857ee3f3d1b09991628ae5886",
+      "text": "Just nu: Lastbil i diket – E6 avstängd vid Kropp"
     }
   ],
   "captures": [
@@ -110276,6 +110280,12 @@
       "headlineId": "7eb26ca53cd7a617557ab40d3a20826fd642a90a46c3c96155d527d8c38796e1",
       "articleUrl": "https://www.sverigesradio.se/artikel/tre-gripna-efter-dodlig-attack-mot-kyrka-i-jordanien",
       "capturedAt": "2026-10-26T03:12:34.316Z"
+    },
+    {
+      "filename": "1792990351374_0.png",
+      "headlineId": "233b9aea2fb4f9ccb60763d00fd1cc0006c9018857ee3f3d1b09991628ae5886",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lastbil-i-diket-stoppar-trafik-vid-trafikplats-kropp",
+      "capturedAt": "2026-10-26T04:52:31.374Z"
     }
   ]
 }
