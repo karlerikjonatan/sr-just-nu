@@ -44160,6 +44160,10 @@
     {
       "id": "dceb20f0ceaababe32d99f74b35999e0748f5566b24abb1ca2a2c0013eed53a7",
       "text": "Just nu: Chris Brown döms"
+    },
+    {
+      "id": "89fca240d0354d573648f631976ac0462142ab7a47ca267772ca46e2eba80f3a",
+      "text": "Just nu: Flerbilskrock stänger E20 i Eskilstuna"
     }
   ],
   "captures": [
@@ -110396,6 +110400,12 @@
       "headlineId": "dceb20f0ceaababe32d99f74b35999e0748f5566b24abb1ca2a2c0013eed53a7",
       "articleUrl": "https://www.sverigesradio.se/artikel/chris-brown-doms-i-london-for-deltagande-i-slagsmal",
       "capturedAt": "2026-10-26T12:57:31.552Z"
+    },
+    {
+      "filename": "1793021554270_0.png",
+      "headlineId": "89fca240d0354d573648f631976ac0462142ab7a47ca267772ca46e2eba80f3a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/flerbilskrock-pa-e20-i-eskilstuna",
+      "capturedAt": "2026-10-26T13:32:34.270Z"
     }
   ]
 }
