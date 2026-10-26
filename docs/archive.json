@@ -44168,6 +44168,10 @@
     {
       "id": "e2c783639c62cc7c633c53662aedaa5f03e546cbab9f5304610806fe741806c1",
       "text": "Just nu: Översvämningar i Göteborg– väller in från Göta älv"
+    },
+    {
+      "id": "a78aae25b2cbfbc3dbe4c85dd032c6ec9af2e247e052cba179c93446ab2353ed",
+      "text": "Just nu: Två till sjukhus efter flerbilskrock på E20"
     }
   ],
   "captures": [
@@ -110416,6 +110420,12 @@
       "headlineId": "e2c783639c62cc7c633c53662aedaa5f03e546cbab9f5304610806fe741806c1",
       "articleUrl": "https://www.sverigesradio.se/artikel/trafikstorning-oversvamningar-pa-lundbyleden",
       "capturedAt": "2026-10-26T13:52:49.271Z"
+    },
+    {
+      "filename": "1793024560365_0.png",
+      "headlineId": "a78aae25b2cbfbc3dbe4c85dd032c6ec9af2e247e052cba179c93446ab2353ed",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kokrock-pa-e20-i-eskilstuna-tva-till-sjukhus",
+      "capturedAt": "2026-10-26T14:22:40.365Z"
     }
   ]
 }
