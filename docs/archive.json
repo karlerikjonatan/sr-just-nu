@@ -44152,6 +44152,10 @@
     {
       "id": "30e9da0c713db6407d5cd390cd30dd5245044ba16af68ee2634d828b41a0b422",
       "text": "Just nu: Våldtog 17-åring – döms till fängelse"
+    },
+    {
+      "id": "75525d42d9d1bf26343ed64fcf233c6645cae88c618275ba7bf4db34510ba9ac",
+      "text": "Just nu: Jätteköer på E6 norr om Kungälv"
     }
   ],
   "captures": [
@@ -110376,6 +110380,12 @@
       "headlineId": "30e9da0c713db6407d5cd390cd30dd5245044ba16af68ee2634d828b41a0b422",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-doms-till-sex-ars-fangelse-valdtog-familjehemsplacerad",
       "capturedAt": "2026-10-26T11:12:30.514Z"
+    },
+    {
+      "filename": "1793017651752_0.png",
+      "headlineId": "75525d42d9d1bf26343ed64fcf233c6645cae88c618275ba7bf4db34510ba9ac",
+      "articleUrl": "https://www.sverigesradio.se/artikel/jattekoer-pa-e6-mellan-kode-och-kungalv",
+      "capturedAt": "2026-10-26T12:27:31.752Z"
     }
   ]
 }
