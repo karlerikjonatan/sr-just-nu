@@ -44196,6 +44196,10 @@
     {
       "id": "208f7ce4370c9bb9b4e7f4afde51213ebf2a140e0ffa05c46aeec811728b5abb",
       "text": "Just nu: Brand i industrilokal i Trollhättan"
+    },
+    {
+      "id": "432672c07c3666792a203c664361b651f7a5246e997227163248ee7b726cfbd8",
+      "text": "Just nu: Kvinna död – blev påkörd av buss"
     }
   ],
   "captures": [
@@ -110486,6 +110490,12 @@
       "headlineId": "208f7ce4370c9bb9b4e7f4afde51213ebf2a140e0ffa05c46aeec811728b5abb",
       "articleUrl": "https://www.sverigesradio.se/artikel/brand-i-industrilokal-personalen-evakuerad",
       "capturedAt": "2026-10-26T20:02:44.498Z"
+    },
+    {
+      "filename": "1793047048520_0.png",
+      "headlineId": "432672c07c3666792a203c664361b651f7a5246e997227163248ee7b726cfbd8",
+      "articleUrl": "https://www.sverigesradio.se/artikel/allvarlig-olycka-person-pakord-av-buss",
+      "capturedAt": "2026-10-26T20:37:28.520Z"
     }
   ]
 }
