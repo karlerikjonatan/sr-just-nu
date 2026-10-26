@@ -44176,6 +44176,10 @@
     {
       "id": "4576d73acfcef9eb2713bac923a16f0d85f8e707b1b62c3e0580fd9253a56c3d",
       "text": "Just nu: Översvämningar i Göteborg"
+    },
+    {
+      "id": "9ab95d7e7c31c7adca07a20864319610871807de0d56bd126fc503bc290360dc",
+      "text": "Just nu: Åklagare: Målsägande är pojkar"
     }
   ],
   "captures": [
@@ -110436,6 +110440,12 @@
       "headlineId": "4576d73acfcef9eb2713bac923a16f0d85f8e707b1b62c3e0580fd9253a56c3d",
       "articleUrl": "https://www.sverigesradio.se/artikel/trafikstorning-oversvamningar-pa-lundbyleden",
       "capturedAt": "2026-10-26T14:27:38.728Z"
+    },
+    {
+      "filename": "1793032209645_0.png",
+      "headlineId": "9ab95d7e7c31c7adca07a20864319610871807de0d56bd126fc503bc290360dc",
+      "articleUrl": "https://www.sverigesradio.se/artikel/aklagare-malsagande-ar-pojkar-misstankt-fortsatt-anhallen",
+      "capturedAt": "2026-10-26T16:30:09.645Z"
     }
   ]
 }
