@@ -44192,6 +44192,10 @@
     {
       "id": "e097fa2eea8f3f8a3cfea5f39fc7ee8bbc60e6eee21bc55e401e29e5d0305f45",
       "text": "Just nu: Urspårat lok blockerar väg i Torsby"
+    },
+    {
+      "id": "208f7ce4370c9bb9b4e7f4afde51213ebf2a140e0ffa05c46aeec811728b5abb",
+      "text": "Just nu: Brand i industrilokal i Trollhättan"
     }
   ],
   "captures": [
@@ -110476,6 +110480,12 @@
       "headlineId": "e097fa2eea8f3f8a3cfea5f39fc7ee8bbc60e6eee21bc55e401e29e5d0305f45",
       "articleUrl": "https://www.sverigesradio.se/artikel/ursparat-lok-blockerar-vag-i-torsby",
       "capturedAt": "2026-10-26T19:47:34.380Z"
+    },
+    {
+      "filename": "1793044964498_0.png",
+      "headlineId": "208f7ce4370c9bb9b4e7f4afde51213ebf2a140e0ffa05c46aeec811728b5abb",
+      "articleUrl": "https://www.sverigesradio.se/artikel/brand-i-industrilokal-personalen-evakuerad",
+      "capturedAt": "2026-10-26T20:02:44.498Z"
     }
   ]
 }
