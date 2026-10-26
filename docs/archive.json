@@ -44148,6 +44148,10 @@
     {
       "id": "93a713035cd8b9a990047de745874aa3d743f422f1054f89e9ddcd72d2f20f31",
       "text": "Just nu: Bakterielarm i Kaxås – koka vattnet"
+    },
+    {
+      "id": "30e9da0c713db6407d5cd390cd30dd5245044ba16af68ee2634d828b41a0b422",
+      "text": "Just nu: Våldtog 17-åring – döms till fängelse"
     }
   ],
   "captures": [
@@ -110366,6 +110370,12 @@
       "headlineId": "93a713035cd8b9a990047de745874aa3d743f422f1054f89e9ddcd72d2f20f31",
       "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-bakterier-i-drickvattnet-i-kaxas",
       "capturedAt": "2026-10-26T11:02:30.214Z"
+    },
+    {
+      "filename": "1793013150514_0.png",
+      "headlineId": "30e9da0c713db6407d5cd390cd30dd5245044ba16af68ee2634d828b41a0b422",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-doms-till-sex-ars-fangelse-valdtog-familjehemsplacerad",
+      "capturedAt": "2026-10-26T11:12:30.514Z"
     }
   ]
 }
