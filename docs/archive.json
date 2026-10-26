@@ -44200,6 +44200,10 @@
     {
       "id": "432672c07c3666792a203c664361b651f7a5246e997227163248ee7b726cfbd8",
       "text": "Just nu: Kvinna död – blev påkörd av buss"
+    },
+    {
+      "id": "d7f3597242e3c15711029ed285f563a15658ab629fbaaca3c7d49fb5b99fae5b",
+      "text": "Just nu: Jordanska flyganfall mot Syrien"
     }
   ],
   "captures": [
@@ -110496,6 +110500,12 @@
       "headlineId": "432672c07c3666792a203c664361b651f7a5246e997227163248ee7b726cfbd8",
       "articleUrl": "https://www.sverigesradio.se/artikel/allvarlig-olycka-person-pakord-av-buss",
       "capturedAt": "2026-10-26T20:37:28.520Z"
+    },
+    {
+      "filename": "1793051549260_0.png",
+      "headlineId": "d7f3597242e3c15711029ed285f563a15658ab629fbaaca3c7d49fb5b99fae5b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/jordaniens-militar-genomfor-flyganfall-i-syrien-8-civila-doda",
+      "capturedAt": "2026-10-26T21:52:29.260Z"
     }
   ]
 }
