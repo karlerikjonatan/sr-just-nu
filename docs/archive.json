@@ -44304,6 +44304,10 @@
     {
       "id": "150be40ddc75e7d5bab9b67d297b9e2a27d9ebd46b341306071c20b4b9a71899",
       "text": "Just nu: Skadad man gripen efter brand"
+    },
+    {
+      "id": "59172db3b0294eb005100017a50a34211425defab8feafac4bc12edf4c4fab64",
+      "text": "Just nu: Årets Mare Kandre-pris till Hanna Rajs"
     }
   ],
   "captures": [
@@ -110756,6 +110760,12 @@
       "headlineId": "150be40ddc75e7d5bab9b67d297b9e2a27d9ebd46b341306071c20b4b9a71899",
       "articleUrl": "https://www.sverigesradio.se/artikel/lagenhetsbrand-i-gustavsberg-skadad-man-gripen",
       "capturedAt": "2026-10-27T20:57:31.936Z"
+    },
+    {
+      "filename": "1793144549966_0.png",
+      "headlineId": "59172db3b0294eb005100017a50a34211425defab8feafac4bc12edf4c4fab64",
+      "articleUrl": "https://www.sverigesradio.se/artikel/arets-mare-kandre-pris-till-hanna-rajs",
+      "capturedAt": "2026-10-27T23:42:29.966Z"
     }
   ]
 }
