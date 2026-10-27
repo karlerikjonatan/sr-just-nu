@@ -44216,6 +44216,10 @@
     {
       "id": "ee2c4c568befa6eb92b7aeb86d8a9fb261ea61c4bd3ec0a19516b4449e06b792",
       "text": "Just nu: Jay-Z klar Super Bowl"
+    },
+    {
+      "id": "5a49f2eba2304131e710266cea688a9f8a610a937660139c29e262696f6195b6",
+      "text": "Just nu: Jay-Z klar för Super Bowl"
     }
   ],
   "captures": [
@@ -110536,6 +110540,12 @@
       "headlineId": "ee2c4c568befa6eb92b7aeb86d8a9fb261ea61c4bd3ec0a19516b4449e06b792",
       "articleUrl": "https://www.sverigesradio.se/artikel/jay-z-klar-for-super-bowl-2027",
       "capturedAt": "2026-10-27T03:22:40.875Z"
+    },
+    {
+      "filename": "1793071646951_0.png",
+      "headlineId": "5a49f2eba2304131e710266cea688a9f8a610a937660139c29e262696f6195b6",
+      "articleUrl": "https://www.sverigesradio.se/artikel/jay-z-klar-for-super-bowl-2027",
+      "capturedAt": "2026-10-27T03:27:26.951Z"
     }
   ]
 }
