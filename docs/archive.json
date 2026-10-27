@@ -44236,6 +44236,10 @@
     {
       "id": "5e29ba527a61e9acee1f5f1584edb997114f4976485e7177137c86dc09a94f88",
       "text": "Just nu: Åtalet skjuts upp för mordet i Rönninge"
+    },
+    {
+      "id": "456ab88fed580083ef3fe7cad40a7760b482dd77973467ecfe719b803829a505",
+      "text": "Just nu: ytterligare två misstänkta för misshandel i Uppsala"
     }
   ],
   "captures": [
@@ -110586,6 +110590,12 @@
       "headlineId": "5e29ba527a61e9acee1f5f1584edb997114f4976485e7177137c86dc09a94f88",
       "articleUrl": "https://www.sverigesradio.se/artikel/atalet-skjuts-for-mordet-i-ronninge-vantas-i-slutet-av-november",
       "capturedAt": "2026-10-27T08:07:32.327Z"
+    },
+    {
+      "filename": "1793089048647_0.png",
+      "headlineId": "456ab88fed580083ef3fe7cad40a7760b482dd77973467ecfe719b803829a505",
+      "articleUrl": "https://www.sverigesradio.se/artikel/nya-uppgifter-kring-misshandelsfallet-i-uppsala",
+      "capturedAt": "2026-10-27T08:17:28.647Z"
     }
   ]
 }
