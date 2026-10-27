@@ -44268,6 +44268,10 @@
     {
       "id": "ffe26eab6cbdd7ce9ba130a167bc609f168a015d0b5fa1faf1455a5dbd74f06a",
       "text": "Just nu: Polisen utreder misstänkt mord i Ockelbo"
+    },
+    {
+      "id": "8cca457dc7927fd36002a555f4b1231b576452b9c1c202672421b9f5723bd98a",
+      "text": "Just nu: Efter dödsolyckan: Busschauffören misstänks för brott"
     }
   ],
   "captures": [
@@ -110666,6 +110670,12 @@
       "headlineId": "ffe26eab6cbdd7ce9ba130a167bc609f168a015d0b5fa1faf1455a5dbd74f06a",
       "articleUrl": "https://www.sverigesradio.se/artikel/polisen-utreder-misstankt-mord-i-ockelbo",
       "capturedAt": "2026-10-27T10:42:37.541Z"
+    },
+    {
+      "filename": "1793101955946_0.png",
+      "headlineId": "8cca457dc7927fd36002a555f4b1231b576452b9c1c202672421b9f5723bd98a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/busschauffor-misstanks-for-brott-efter-olycka-i-lund",
+      "capturedAt": "2026-10-27T11:52:35.946Z"
     }
   ]
 }
