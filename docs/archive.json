@@ -44292,6 +44292,10 @@
     {
       "id": "bd12cb99a7c2c5185e08a9bb7bd4754d1dff11c388ccc912e90f58419cdd9d76",
       "text": "Just nu: Moderaterna går starkt framåt"
+    },
+    {
+      "id": "f666f5838263692180dddc1ff613f9d84c4d3722828c4d35ba911fcbcd88caca",
+      "text": "Just nu: Tågstopp mellan Stockholm-Malmö"
     }
   ],
   "captures": [
@@ -110726,6 +110730,12 @@
       "headlineId": "bd12cb99a7c2c5185e08a9bb7bd4754d1dff11c388ccc912e90f58419cdd9d76",
       "articleUrl": "https://www.sverigesradio.se/artikel/regeringsbildningen-efter-valet-2026",
       "capturedAt": "2026-10-27T17:57:37.627Z"
+    },
+    {
+      "filename": "1793129875036_0.png",
+      "headlineId": "f666f5838263692180dddc1ff613f9d84c4d3722828c4d35ba911fcbcd88caca",
+      "articleUrl": "https://www.sverigesradio.se/artikel/stopp-i-tagtrafiken-efter-olycka-i-norrkoping",
+      "capturedAt": "2026-10-27T19:37:55.036Z"
     }
   ]
 }
