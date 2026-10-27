@@ -44244,6 +44244,10 @@
     {
       "id": "1da2ea7c0e800475b4416d1303a6722dd7fa33a1cc401e40f24132ae7d1505af",
       "text": "Just nu: Ytterligare två misstänkta för misshandel i Uppsala"
+    },
+    {
+      "id": "4ea6ee97f1f580eed203a170df2fc366774ce92bf5e3b19aa28b03e2f31ae456",
+      "text": "Just nu: Neil Young stämmer Trump"
     }
   ],
   "captures": [
@@ -110606,6 +110610,12 @@
       "headlineId": "1da2ea7c0e800475b4416d1303a6722dd7fa33a1cc401e40f24132ae7d1505af",
       "articleUrl": "https://www.sverigesradio.se/artikel/nya-uppgifter-kring-misshandelsfallet-i-uppsala",
       "capturedAt": "2026-10-27T08:22:30.976Z"
+    },
+    {
+      "filename": "1793091758826_0.png",
+      "headlineId": "4ea6ee97f1f580eed203a170df2fc366774ce92bf5e3b19aa28b03e2f31ae456",
+      "articleUrl": "https://www.sverigesradio.se/artikel/neil-young-stammer-donald-trump-for-musik-pa-valmoten",
+      "capturedAt": "2026-10-27T09:02:38.826Z"
     }
   ]
 }
