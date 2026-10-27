@@ -44296,6 +44296,10 @@
     {
       "id": "f666f5838263692180dddc1ff613f9d84c4d3722828c4d35ba911fcbcd88caca",
       "text": "Just nu: Tågstopp mellan Stockholm-Malmö"
+    },
+    {
+      "id": "ac43dcd0fcdd24dff7c9c744efc911600132acef2cd0db6ffa51c9f3a79d397c",
+      "text": "Just nu: Elfsborg räddade poäng i 90:e minuten"
     }
   ],
   "captures": [
@@ -110736,6 +110740,12 @@
       "headlineId": "f666f5838263692180dddc1ff613f9d84c4d3722828c4d35ba911fcbcd88caca",
       "articleUrl": "https://www.sverigesradio.se/artikel/stopp-i-tagtrafiken-efter-olycka-i-norrkoping",
       "capturedAt": "2026-10-27T19:37:55.036Z"
+    },
+    {
+      "filename": "1793134348972_0.png",
+      "headlineId": "ac43dcd0fcdd24dff7c9c744efc911600132acef2cd0db6ffa51c9f3a79d397c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/elfsborg-raddade-poang-mot-aik-i-90e-minuten",
+      "capturedAt": "2026-10-27T20:52:28.972Z"
     }
   ]
 }
