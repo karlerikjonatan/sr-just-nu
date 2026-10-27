@@ -44228,6 +44228,10 @@
     {
       "id": "5cd9cc66bec106ecbc4c7b445c10c8db83d60c11f49a9f6b7b6932c02128c67f",
       "text": "Just nu: Tågstopp mellan Sala och Avesta"
+    },
+    {
+      "id": "48805eccc23e4155c319968e75c7290276e3b11483d00430843034ecc9bbae99",
+      "text": "Just nu: Tågstopp Gävle–Borlänge"
     }
   ],
   "captures": [
@@ -110566,6 +110570,12 @@
       "headlineId": "5cd9cc66bec106ecbc4c7b445c10c8db83d60c11f49a9f6b7b6932c02128c67f",
       "articleUrl": "https://www.sverigesradio.se/artikel/tagstopp-mellan-sala-och-avesta",
       "capturedAt": "2026-10-27T05:47:28.082Z"
+    },
+    {
+      "filename": "1793083951820_0.png",
+      "headlineId": "48805eccc23e4155c319968e75c7290276e3b11483d00430843034ecc9bbae99",
+      "articleUrl": "https://www.sverigesradio.se/artikel/fordonsfel-stoppar-tagen-mellan-falun-och-hofors",
+      "capturedAt": "2026-10-27T06:52:31.820Z"
     }
   ]
 }
