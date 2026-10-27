@@ -44252,6 +44252,10 @@
     {
       "id": "484446813946b25363e7a25aeb21ccf0906e340ca8ae6de110ebd0adecafae07",
       "text": "Just nu: De sänder skid-VM i Falun"
+    },
+    {
+      "id": "273a96659b753a851225b4eb9caf5e8bf25e784ac75bf5bb26f1051cfe55c7ff",
+      "text": "Just nu: Vändningen – landet bojkottar Eurovision"
     }
   ],
   "captures": [
@@ -110626,6 +110630,12 @@
       "headlineId": "484446813946b25363e7a25aeb21ccf0906e340ca8ae6de110ebd0adecafae07",
       "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-de-far-sandningsrattigheterna-till-skid-vm-i-falun",
       "capturedAt": "2026-10-27T09:22:56.390Z"
+    },
+    {
+      "filename": "1793094161128_0.png",
+      "headlineId": "273a96659b753a851225b4eb9caf5e8bf25e784ac75bf5bb26f1051cfe55c7ff",
+      "articleUrl": "https://www.sverigesradio.se/artikel/nederlanderna-drar-tillbaks-deltagande-i-eurovision",
+      "capturedAt": "2026-10-27T09:42:41.128Z"
     }
   ]
 }
