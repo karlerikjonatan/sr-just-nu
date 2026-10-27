@@ -44212,6 +44212,10 @@
     {
       "id": "c375e497eb100070766817825e29d0f12691b3df46eb3633271b9e6af72e6c8a",
       "text": "Just nu: Ryska attacker mot Kyjiv – en död"
+    },
+    {
+      "id": "ee2c4c568befa6eb92b7aeb86d8a9fb261ea61c4bd3ec0a19516b4449e06b792",
+      "text": "Just nu: Jay-Z klar Super Bowl"
     }
   ],
   "captures": [
@@ -110526,6 +110530,12 @@
       "headlineId": "c375e497eb100070766817825e29d0f12691b3df46eb3633271b9e6af72e6c8a",
       "articleUrl": "https://www.sverigesradio.se/artikel/kyjiv-attackerat-av-ryssland-en-dod-och-atta-skadade",
       "capturedAt": "2026-10-27T01:37:31.087Z"
+    },
+    {
+      "filename": "1793071360875_0.png",
+      "headlineId": "ee2c4c568befa6eb92b7aeb86d8a9fb261ea61c4bd3ec0a19516b4449e06b792",
+      "articleUrl": "https://www.sverigesradio.se/artikel/jay-z-klar-for-super-bowl-2027",
+      "capturedAt": "2026-10-27T03:22:40.875Z"
     }
   ]
 }
