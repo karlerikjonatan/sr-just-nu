@@ -44276,6 +44276,10 @@
     {
       "id": "62206a5007c85415829acb154622da7366dba76ed7dfd18c37ca6f08215fa4e1",
       "text": "Just nu: Kvinna misstänks för mord i Ockelbo"
+    },
+    {
+      "id": "3aaa3f0368b06b5b926e61bd828a404eb2f19d51a2426f7d88ab1f1e58f299e4",
+      "text": "Just nu: Busschaufför misstänks efter dödsolycka"
     }
   ],
   "captures": [
@@ -110686,6 +110690,12 @@
       "headlineId": "62206a5007c85415829acb154622da7366dba76ed7dfd18c37ca6f08215fa4e1",
       "articleUrl": "https://www.sverigesradio.se/artikel/kvinna-anhallen-misstankt-for-mord-i-ockelbo",
       "capturedAt": "2026-10-27T12:02:37.390Z"
+    },
+    {
+      "filename": "1793102849041_0.png",
+      "headlineId": "3aaa3f0368b06b5b926e61bd828a404eb2f19d51a2426f7d88ab1f1e58f299e4",
+      "articleUrl": "https://www.sverigesradio.se/artikel/busschauffor-misstanks-for-brott-efter-olycka-i-lund",
+      "capturedAt": "2026-10-27T12:07:29.041Z"
     }
   ]
 }
