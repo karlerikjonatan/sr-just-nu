@@ -44280,6 +44280,10 @@
     {
       "id": "3aaa3f0368b06b5b926e61bd828a404eb2f19d51a2426f7d88ab1f1e58f299e4",
       "text": "Just nu: Busschaufför misstänks efter dödsolycka"
+    },
+    {
+      "id": "36e64e6fb82b0dd6ef582ccd4b64605fb417b27c9e5cf2c09fcffd73d63f82eb",
+      "text": "Just nu: Anhållna läkaren i Uppsalafallet släppt"
     }
   ],
   "captures": [
@@ -110696,6 +110700,12 @@
       "headlineId": "3aaa3f0368b06b5b926e61bd828a404eb2f19d51a2426f7d88ab1f1e58f299e4",
       "articleUrl": "https://www.sverigesradio.se/artikel/busschauffor-misstanks-for-brott-efter-olycka-i-lund",
       "capturedAt": "2026-10-27T12:07:29.041Z"
+    },
+    {
+      "filename": "1793113953378_0.png",
+      "headlineId": "36e64e6fb82b0dd6ef582ccd4b64605fb417b27c9e5cf2c09fcffd73d63f82eb",
+      "articleUrl": "https://www.sverigesradio.se/artikel/anhallna-lakaren-i-sala-backe-fallet-slappt-pa-fri-fot",
+      "capturedAt": "2026-10-27T15:12:33.378Z"
     }
   ]
 }
