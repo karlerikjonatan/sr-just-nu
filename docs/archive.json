@@ -44224,6 +44224,10 @@
     {
       "id": "8e679f0a5fa6bd75b09ee764777e2c47d6662837a57f3f197e55a983f5c8dab5",
       "text": "Just nu: Vallokalerna har öppnat i Israel"
+    },
+    {
+      "id": "5cd9cc66bec106ecbc4c7b445c10c8db83d60c11f49a9f6b7b6932c02128c67f",
+      "text": "Just nu: Tågstopp mellan Sala och Avesta"
     }
   ],
   "captures": [
@@ -110556,6 +110560,12 @@
       "headlineId": "8e679f0a5fa6bd75b09ee764777e2c47d6662837a57f3f197e55a983f5c8dab5",
       "articleUrl": "https://www.sverigesradio.se/artikel/israel-gar-till-val-avgorande-for-landet-riktning",
       "capturedAt": "2026-10-27T05:22:38.896Z"
+    },
+    {
+      "filename": "1793080048082_0.png",
+      "headlineId": "5cd9cc66bec106ecbc4c7b445c10c8db83d60c11f49a9f6b7b6932c02128c67f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tagstopp-mellan-sala-och-avesta",
+      "capturedAt": "2026-10-27T05:47:28.082Z"
     }
   ]
 }
