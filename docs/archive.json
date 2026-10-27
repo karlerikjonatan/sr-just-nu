@@ -44288,6 +44288,10 @@
     {
       "id": "a202fa882ec310041afd160000f6b2fb9a2a92f973a45a4c93e370b0ed805f81",
       "text": "Just nu: Seinabo Sey förlamad"
+    },
+    {
+      "id": "bd12cb99a7c2c5185e08a9bb7bd4754d1dff11c388ccc912e90f58419cdd9d76",
+      "text": "Just nu: Moderaterna går starkt framåt"
     }
   ],
   "captures": [
@@ -110716,6 +110720,12 @@
       "headlineId": "a202fa882ec310041afd160000f6b2fb9a2a92f973a45a4c93e370b0ed805f81",
       "articleUrl": "https://www.sverigesradio.se/artikel/seinabo-sey-staller-in-konserter-i-goteborg",
       "capturedAt": "2026-10-27T17:37:39.051Z"
+    },
+    {
+      "filename": "1793123857627_0.png",
+      "headlineId": "bd12cb99a7c2c5185e08a9bb7bd4754d1dff11c388ccc912e90f58419cdd9d76",
+      "articleUrl": "https://www.sverigesradio.se/artikel/regeringsbildningen-efter-valet-2026",
+      "capturedAt": "2026-10-27T17:57:37.627Z"
     }
   ]
 }
