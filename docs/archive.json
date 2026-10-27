@@ -44264,6 +44264,10 @@
     {
       "id": "3c9dcd2c45235aba95c33672202c136be0b3e7702e260c237d4e1388d26a77a6",
       "text": "Just nu: Nya brottsmisstankar i Sigtunafallet"
+    },
+    {
+      "id": "ffe26eab6cbdd7ce9ba130a167bc609f168a015d0b5fa1faf1455a5dbd74f06a",
+      "text": "Just nu: Polisen utreder misstänkt mord i Ockelbo"
     }
   ],
   "captures": [
@@ -110656,6 +110660,12 @@
       "headlineId": "fcb3e7b31f4472bedbb4b33ceb634f32c04ca65870c1fed2d104263aaba300a8",
       "articleUrl": "https://www.sverigesradio.se/artikel/nederlanderna-drar-tillbaks-deltagande-i-eurovision",
       "capturedAt": "2026-10-27T09:52:26.505Z"
+    },
+    {
+      "filename": "1793097757541_0.png",
+      "headlineId": "ffe26eab6cbdd7ce9ba130a167bc609f168a015d0b5fa1faf1455a5dbd74f06a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/polisen-utreder-misstankt-mord-i-ockelbo",
+      "capturedAt": "2026-10-27T10:42:37.541Z"
     }
   ]
 }
