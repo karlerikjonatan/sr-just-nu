@@ -44240,6 +44240,10 @@
     {
       "id": "456ab88fed580083ef3fe7cad40a7760b482dd77973467ecfe719b803829a505",
       "text": "Just nu: ytterligare två misstänkta för misshandel i Uppsala"
+    },
+    {
+      "id": "1da2ea7c0e800475b4416d1303a6722dd7fa33a1cc401e40f24132ae7d1505af",
+      "text": "Just nu: Ytterligare två misstänkta för misshandel i Uppsala"
     }
   ],
   "captures": [
@@ -110596,6 +110600,12 @@
       "headlineId": "456ab88fed580083ef3fe7cad40a7760b482dd77973467ecfe719b803829a505",
       "articleUrl": "https://www.sverigesradio.se/artikel/nya-uppgifter-kring-misshandelsfallet-i-uppsala",
       "capturedAt": "2026-10-27T08:17:28.647Z"
+    },
+    {
+      "filename": "1793089350976_0.png",
+      "headlineId": "1da2ea7c0e800475b4416d1303a6722dd7fa33a1cc401e40f24132ae7d1505af",
+      "articleUrl": "https://www.sverigesradio.se/artikel/nya-uppgifter-kring-misshandelsfallet-i-uppsala",
+      "capturedAt": "2026-10-27T08:22:30.976Z"
     }
   ]
 }
