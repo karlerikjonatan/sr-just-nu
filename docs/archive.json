@@ -44248,6 +44248,10 @@
     {
       "id": "4ea6ee97f1f580eed203a170df2fc366774ce92bf5e3b19aa28b03e2f31ae456",
       "text": "Just nu: Neil Young stämmer Trump"
+    },
+    {
+      "id": "484446813946b25363e7a25aeb21ccf0906e340ca8ae6de110ebd0adecafae07",
+      "text": "Just nu: De sänder skid-VM i Falun"
     }
   ],
   "captures": [
@@ -110616,6 +110620,12 @@
       "headlineId": "4ea6ee97f1f580eed203a170df2fc366774ce92bf5e3b19aa28b03e2f31ae456",
       "articleUrl": "https://www.sverigesradio.se/artikel/neil-young-stammer-donald-trump-for-musik-pa-valmoten",
       "capturedAt": "2026-10-27T09:02:38.826Z"
+    },
+    {
+      "filename": "1793092976390_0.png",
+      "headlineId": "484446813946b25363e7a25aeb21ccf0906e340ca8ae6de110ebd0adecafae07",
+      "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-de-far-sandningsrattigheterna-till-skid-vm-i-falun",
+      "capturedAt": "2026-10-27T09:22:56.390Z"
     }
   ]
 }
