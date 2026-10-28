@@ -44320,6 +44320,10 @@
     {
       "id": "b9662abdbbbda8a2428ed03f9551cd7f37e05fcaee2d5ca061de63382c2aca51",
       "text": "Just nu: Kraftig cyklon drar in över Indien"
+    },
+    {
+      "id": "2a772cd3d9e41b0096ead8ff8a57b709f18a0de8c98e40d68713439b953b9e06",
+      "text": "Just nu: Dataintrång hos Skansen"
     }
   ],
   "captures": [
@@ -110796,6 +110800,12 @@
       "headlineId": "b9662abdbbbda8a2428ed03f9551cd7f37e05fcaee2d5ca061de63382c2aca51",
       "articleUrl": "https://www.sverigesradio.se/artikel/cyklonen-arnab-nar-indiens-ostkust",
       "capturedAt": "2026-10-28T02:27:32.623Z"
+    },
+    {
+      "filename": "1793165854947_0.png",
+      "headlineId": "2a772cd3d9e41b0096ead8ff8a57b709f18a0de8c98e40d68713439b953b9e06",
+      "articleUrl": "https://www.sverigesradio.se/artikel/liseberg-och-skansen-i-misstankta-datalackor",
+      "capturedAt": "2026-10-28T05:37:34.947Z"
     }
   ]
 }
