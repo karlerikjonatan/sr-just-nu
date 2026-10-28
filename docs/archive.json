@@ -44368,6 +44368,10 @@
     {
       "id": "d2724b95b9dcc98f038a5c02fa519c307c43079aedbaa8e656f9ce9a0516f22d",
       "text": "Just nu: Real Madrid ber Kina om ursäkt"
+    },
+    {
+      "id": "dc323e1bfa68d2e164c647aaaa7b98c2f9bc8127e5d13442e9fadfa3882cc41b",
+      "text": "Just nu: Dom mot dödshjälpare står fast"
     }
   ],
   "captures": [
@@ -110916,6 +110920,12 @@
       "headlineId": "d2724b95b9dcc98f038a5c02fa519c307c43079aedbaa8e656f9ce9a0516f22d",
       "articleUrl": "https://www.sverigesradio.se/artikel/real-madrid-ber-om-ursakt-till-kina-efter-mbappes-skamt",
       "capturedAt": "2026-10-28T12:07:31.029Z"
+    },
+    {
+      "filename": "1793201250947_0.png",
+      "headlineId": "dc323e1bfa68d2e164c647aaaa7b98c2f9bc8127e5d13442e9fadfa3882cc41b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/norsk-hovratt-faststaller-dom-mot-dodshjalparen",
+      "capturedAt": "2026-10-28T15:27:30.947Z"
     }
   ]
 }
