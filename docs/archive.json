@@ -44364,6 +44364,10 @@
     {
       "id": "a24659aca7101e0464c469cbbfdcf1dfae9a57b43ee3090eaf59de6467b186e5",
       "text": "Just nu: Förskoleanställd misstänks för sexbrott"
+    },
+    {
+      "id": "d2724b95b9dcc98f038a5c02fa519c307c43079aedbaa8e656f9ce9a0516f22d",
+      "text": "Just nu: Real Madrid ber Kina om ursäkt"
     }
   ],
   "captures": [
@@ -110906,6 +110910,12 @@
       "headlineId": "a24659aca7101e0464c469cbbfdcf1dfae9a57b43ee3090eaf59de6467b186e5",
       "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-forskoleanstalld-har-utretts-for-sexbrott-tidigare",
       "capturedAt": "2026-10-28T11:37:27.281Z"
+    },
+    {
+      "filename": "1793189251029_0.png",
+      "headlineId": "d2724b95b9dcc98f038a5c02fa519c307c43079aedbaa8e656f9ce9a0516f22d",
+      "articleUrl": "https://www.sverigesradio.se/artikel/real-madrid-ber-om-ursakt-till-kina-efter-mbappes-skamt",
+      "capturedAt": "2026-10-28T12:07:31.029Z"
     }
   ]
 }
