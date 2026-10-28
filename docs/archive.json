@@ -44332,6 +44332,10 @@
     {
       "id": "deb29cc6a625816076cd2a7076167a45380b2d37ae5cb602363a6abf14fd5774",
       "text": "Just nu: Efterlyst svensk gripen på Koh Samui"
+    },
+    {
+      "id": "8aca6d28fa385985aca77e9db5fd7dac9227538810205bc88a3eec014fde7a81",
+      "text": "Just nu: Nationella bombskyddet till lägenhetshus"
     }
   ],
   "captures": [
@@ -110826,6 +110830,12 @@
       "headlineId": "deb29cc6a625816076cd2a7076167a45380b2d37ae5cb602363a6abf14fd5774",
       "articleUrl": "https://www.sverigesradio.se/artikel/efterlyst-svensk-gripen-pa-koh-samui-i-thailand",
       "capturedAt": "2026-10-28T07:32:34.042Z"
+    },
+    {
+      "filename": "1793174251195_0.png",
+      "headlineId": "8aca6d28fa385985aca77e9db5fd7dac9227538810205bc88a3eec014fde7a81",
+      "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-farligt-foremal-i-orebro-bombskyddet-pa-plats",
+      "capturedAt": "2026-10-28T07:57:31.195Z"
     }
   ]
 }
