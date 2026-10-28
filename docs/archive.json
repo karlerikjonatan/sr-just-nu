@@ -44388,6 +44388,10 @@
     {
       "id": "7b3627ee11ab7108baadf58b0192d0b3daafae8fb31f98d70496aa654e02992a",
       "text": "Just nu: Två gripna för mordförsök i Stockholm"
+    },
+    {
+      "id": "2bf0f97488b5568461bfccce7e9f9cb05f578d0b26d8b47f648a971ece8809da",
+      "text": "Just nu: Kvinna död i Ängelholm – man gripen"
     }
   ],
   "captures": [
@@ -110966,6 +110970,12 @@
       "headlineId": "7b3627ee11ab7108baadf58b0192d0b3daafae8fb31f98d70496aa654e02992a",
       "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-polisinsats-i-bandhagen-efter-misstankt-mordforsok",
       "capturedAt": "2026-10-28T19:47:50.977Z"
+    },
+    {
+      "filename": "1793218354534_0.png",
+      "headlineId": "2bf0f97488b5568461bfccce7e9f9cb05f578d0b26d8b47f648a971ece8809da",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kvinna-hittad-dod-i-bostad-i-angelholm-misstankt-mord",
+      "capturedAt": "2026-10-28T20:12:34.534Z"
     }
   ]
 }
