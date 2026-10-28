@@ -44336,6 +44336,10 @@
     {
       "id": "8aca6d28fa385985aca77e9db5fd7dac9227538810205bc88a3eec014fde7a81",
       "text": "Just nu: Nationella bombskyddet till lägenhetshus"
+    },
+    {
+      "id": "4c17c7ef23b08e6ff616282c39e66390a190e839d18ce40b24c2cfc833fb5761",
+      "text": "Just nu: Bombskyddet till trapphusfynd"
     }
   ],
   "captures": [
@@ -110836,6 +110840,12 @@
       "headlineId": "8aca6d28fa385985aca77e9db5fd7dac9227538810205bc88a3eec014fde7a81",
       "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-farligt-foremal-i-orebro-bombskyddet-pa-plats",
       "capturedAt": "2026-10-28T07:57:31.195Z"
+    },
+    {
+      "filename": "1793174857097_0.png",
+      "headlineId": "4c17c7ef23b08e6ff616282c39e66390a190e839d18ce40b24c2cfc833fb5761",
+      "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-farligt-foremal-i-orebro-bombskyddet-pa-plats",
+      "capturedAt": "2026-10-28T08:07:37.097Z"
     }
   ]
 }
