@@ -44380,6 +44380,10 @@
     {
       "id": "703bae13f87d28b5ef60575a3afd243a30cfac70ea086f2f716d2af08c97e2ee",
       "text": "Just nu: Ingen räntehöjning från Fed"
+    },
+    {
+      "id": "841786817fde7bb4b8a416d7a8f7d0ae889949da432a926f680df1ab5713f67e",
+      "text": "Just nu: Hoppar av ”Gift vid första ögonkastet”"
     }
   ],
   "captures": [
@@ -110946,6 +110950,12 @@
       "headlineId": "703bae13f87d28b5ef60575a3afd243a30cfac70ea086f2f716d2af08c97e2ee",
       "articleUrl": "https://www.sverigesradio.se/artikel/fed-lamnar-styrrantan-oforandrad--5",
       "capturedAt": "2026-10-28T18:12:41.844Z"
+    },
+    {
+      "filename": "1793211753004_0.png",
+      "headlineId": "841786817fde7bb4b8a416d7a8f7d0ae889949da432a926f680df1ab5713f67e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/anna-bennich-hoppar-av-gift-vid-forsta-ogonkastet",
+      "capturedAt": "2026-10-28T18:22:33.004Z"
     }
   ]
 }
