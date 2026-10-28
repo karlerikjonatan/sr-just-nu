@@ -44376,6 +44376,10 @@
     {
       "id": "bd6ea5742d245cd8ff6bb062a0238ed66c6f351c718da49fb3b67b1e12a13779",
       "text": "Just nu: Termosbomber hittades – två döms"
+    },
+    {
+      "id": "703bae13f87d28b5ef60575a3afd243a30cfac70ea086f2f716d2af08c97e2ee",
+      "text": "Just nu: Ingen räntehöjning från Fed"
     }
   ],
   "captures": [
@@ -110936,6 +110940,12 @@
       "headlineId": "bd6ea5742d245cd8ff6bb062a0238ed66c6f351c718da49fb3b67b1e12a13779",
       "articleUrl": "https://www.sverigesradio.se/artikel/13-termosbomber-hittades-pa-gard-i-laholm-nu-doms-tva-man",
       "capturedAt": "2026-10-28T16:43:07.691Z"
+    },
+    {
+      "filename": "1793211161844_0.png",
+      "headlineId": "703bae13f87d28b5ef60575a3afd243a30cfac70ea086f2f716d2af08c97e2ee",
+      "articleUrl": "https://www.sverigesradio.se/artikel/fed-lamnar-styrrantan-oforandrad--5",
+      "capturedAt": "2026-10-28T18:12:41.844Z"
     }
   ]
 }
