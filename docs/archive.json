@@ -44344,6 +44344,10 @@
     {
       "id": "48b362addbc2eb7174aacbe01b7ad56ca61e1bec0ebb749a2316fb3a88c6090d",
       "text": "Just nu: Grisbil har vält utanför Larv"
+    },
+    {
+      "id": "e75077faabdcc0a6e2472d19814c3ac45bdb15ab9fe50141b116c12a147f2eb0",
+      "text": "Just nu: Störningar vid Kastrup"
     }
   ],
   "captures": [
@@ -110856,6 +110860,12 @@
       "headlineId": "48b362addbc2eb7174aacbe01b7ad56ca61e1bec0ebb749a2316fb3a88c6090d",
       "articleUrl": "https://www.sverigesradio.se/artikel/grisbil-valt-bokigt-trafiklage",
       "capturedAt": "2026-10-28T08:37:33.540Z"
+    },
+    {
+      "filename": "1793178751231_0.png",
+      "headlineId": "e75077faabdcc0a6e2472d19814c3ac45bdb15ab9fe50141b116c12a147f2eb0",
+      "articleUrl": "https://www.sverigesradio.se/artikel/flygplan-tvingas-landa-i-malmo-efter-storningar-vid-kastrup",
+      "capturedAt": "2026-10-28T09:12:31.231Z"
     }
   ]
 }
