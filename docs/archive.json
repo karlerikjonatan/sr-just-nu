@@ -44328,6 +44328,10 @@
     {
       "id": "a7abb2350aecc865e84262d63b47bcc951800dc86b45e70cc0f2e19af94bb257",
       "text": "Just nu: Jättekö på Huddingevägen"
+    },
+    {
+      "id": "deb29cc6a625816076cd2a7076167a45380b2d37ae5cb602363a6abf14fd5774",
+      "text": "Just nu: Efterlyst svensk gripen på Koh Samui"
     }
   ],
   "captures": [
@@ -110816,6 +110820,12 @@
       "headlineId": "a7abb2350aecc865e84262d63b47bcc951800dc86b45e70cc0f2e19af94bb257",
       "articleUrl": "https://www.sverigesradio.se/artikel/pakord-stolpe-ger-jatteko-pa-huddingevagen",
       "capturedAt": "2026-10-28T06:07:45.611Z"
+    },
+    {
+      "filename": "1793172754042_0.png",
+      "headlineId": "deb29cc6a625816076cd2a7076167a45380b2d37ae5cb602363a6abf14fd5774",
+      "articleUrl": "https://www.sverigesradio.se/artikel/efterlyst-svensk-gripen-pa-koh-samui-i-thailand",
+      "capturedAt": "2026-10-28T07:32:34.042Z"
     }
   ]
 }
