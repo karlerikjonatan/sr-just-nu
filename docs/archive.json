@@ -44316,6 +44316,10 @@
     {
       "id": "44170cfa1e813330ca956f63a59aafd95e0aab0b7990a8ed58026e90c7fd6d60",
       "text": "Just nu: Explosioner har hörts över Riyadh"
+    },
+    {
+      "id": "b9662abdbbbda8a2428ed03f9551cd7f37e05fcaee2d5ca061de63382c2aca51",
+      "text": "Just nu: Kraftig cyklon drar in över Indien"
     }
   ],
   "captures": [
@@ -110786,6 +110790,12 @@
       "headlineId": "44170cfa1e813330ca956f63a59aafd95e0aab0b7990a8ed58026e90c7fd6d60",
       "articleUrl": "https://www.sverigesradio.se/artikel/saudiarabien-har-skjutit-ner-flera-ballistiska-robotar",
       "capturedAt": "2026-10-28T01:22:34.090Z"
+    },
+    {
+      "filename": "1793154452623_0.png",
+      "headlineId": "b9662abdbbbda8a2428ed03f9551cd7f37e05fcaee2d5ca061de63382c2aca51",
+      "articleUrl": "https://www.sverigesradio.se/artikel/cyklonen-arnab-nar-indiens-ostkust",
+      "capturedAt": "2026-10-28T02:27:32.623Z"
     }
   ]
 }
