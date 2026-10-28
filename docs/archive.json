@@ -44372,6 +44372,10 @@
     {
       "id": "dc323e1bfa68d2e164c647aaaa7b98c2f9bc8127e5d13442e9fadfa3882cc41b",
       "text": "Just nu: Dom mot dödshjälpare står fast"
+    },
+    {
+      "id": "bd6ea5742d245cd8ff6bb062a0238ed66c6f351c718da49fb3b67b1e12a13779",
+      "text": "Just nu: Termosbomber hittades – två döms"
     }
   ],
   "captures": [
@@ -110926,6 +110930,12 @@
       "headlineId": "dc323e1bfa68d2e164c647aaaa7b98c2f9bc8127e5d13442e9fadfa3882cc41b",
       "articleUrl": "https://www.sverigesradio.se/artikel/norsk-hovratt-faststaller-dom-mot-dodshjalparen",
       "capturedAt": "2026-10-28T15:27:30.947Z"
+    },
+    {
+      "filename": "1793205787691_0.png",
+      "headlineId": "bd6ea5742d245cd8ff6bb062a0238ed66c6f351c718da49fb3b67b1e12a13779",
+      "articleUrl": "https://www.sverigesradio.se/artikel/13-termosbomber-hittades-pa-gard-i-laholm-nu-doms-tva-man",
+      "capturedAt": "2026-10-28T16:43:07.691Z"
     }
   ]
 }
