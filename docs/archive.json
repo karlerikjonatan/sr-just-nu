@@ -44340,6 +44340,10 @@
     {
       "id": "4c17c7ef23b08e6ff616282c39e66390a190e839d18ce40b24c2cfc833fb5761",
       "text": "Just nu: Bombskyddet till trapphusfynd"
+    },
+    {
+      "id": "48b362addbc2eb7174aacbe01b7ad56ca61e1bec0ebb749a2316fb3a88c6090d",
+      "text": "Just nu: Grisbil har vält utanför Larv"
     }
   ],
   "captures": [
@@ -110846,6 +110850,12 @@
       "headlineId": "4c17c7ef23b08e6ff616282c39e66390a190e839d18ce40b24c2cfc833fb5761",
       "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-farligt-foremal-i-orebro-bombskyddet-pa-plats",
       "capturedAt": "2026-10-28T08:07:37.097Z"
+    },
+    {
+      "filename": "1793176653540_0.png",
+      "headlineId": "48b362addbc2eb7174aacbe01b7ad56ca61e1bec0ebb749a2316fb3a88c6090d",
+      "articleUrl": "https://www.sverigesradio.se/artikel/grisbil-valt-bokigt-trafiklage",
+      "capturedAt": "2026-10-28T08:37:33.540Z"
     }
   ]
 }
