@@ -44308,6 +44308,10 @@
     {
       "id": "59172db3b0294eb005100017a50a34211425defab8feafac4bc12edf4c4fab64",
       "text": "Just nu: Årets Mare Kandre-pris till Hanna Rajs"
+    },
+    {
+      "id": "5b7cea9c5b8a7d159ce5afdf8932a3fbdadbe99d982d3341dfc36550ba8c7b92",
+      "text": "Just nu: Tågtrafiken stoppad vid Arlanda"
     }
   ],
   "captures": [
@@ -110766,6 +110770,12 @@
       "headlineId": "59172db3b0294eb005100017a50a34211425defab8feafac4bc12edf4c4fab64",
       "articleUrl": "https://www.sverigesradio.se/artikel/arets-mare-kandre-pris-till-hanna-rajs",
       "capturedAt": "2026-10-27T23:42:29.966Z"
+    },
+    {
+      "filename": "1793146355140_0.png",
+      "headlineId": "5b7cea9c5b8a7d159ce5afdf8932a3fbdadbe99d982d3341dfc36550ba8c7b92",
+      "articleUrl": "https://www.sverigesradio.se/artikel/pendeltagstrafiken-stoppad-vid-arlanda",
+      "capturedAt": "2026-10-28T00:12:35.140Z"
     }
   ]
 }
