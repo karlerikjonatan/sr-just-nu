@@ -44348,6 +44348,10 @@
     {
       "id": "e75077faabdcc0a6e2472d19814c3ac45bdb15ab9fe50141b116c12a147f2eb0",
       "text": "Just nu: Störningar vid Kastrup"
+    },
+    {
+      "id": "d0f7b29b1f96e03b91a1db62b359b475d31077b27db3f77e073fba5ff930e6c2",
+      "text": "Just nu: Fel hos Försäkringskassan"
     }
   ],
   "captures": [
@@ -110866,6 +110870,12 @@
       "headlineId": "e75077faabdcc0a6e2472d19814c3ac45bdb15ab9fe50141b116c12a147f2eb0",
       "articleUrl": "https://www.sverigesradio.se/artikel/flygplan-tvingas-landa-i-malmo-efter-storningar-vid-kastrup",
       "capturedAt": "2026-10-28T09:12:31.231Z"
+    },
+    {
+      "filename": "1793180571938_0.png",
+      "headlineId": "d0f7b29b1f96e03b91a1db62b359b475d31077b27db3f77e073fba5ff930e6c2",
+      "articleUrl": "https://www.sverigesradio.se/artikel/fel-hos-forsakringskassan-darfor-kan-barnbidraget-droja",
+      "capturedAt": "2026-10-28T09:42:51.938Z"
     }
   ]
 }
