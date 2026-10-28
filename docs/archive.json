@@ -44324,6 +44324,10 @@
     {
       "id": "2a772cd3d9e41b0096ead8ff8a57b709f18a0de8c98e40d68713439b953b9e06",
       "text": "Just nu: Dataintrång hos Skansen"
+    },
+    {
+      "id": "a7abb2350aecc865e84262d63b47bcc951800dc86b45e70cc0f2e19af94bb257",
+      "text": "Just nu: Jättekö på Huddingevägen"
     }
   ],
   "captures": [
@@ -110806,6 +110810,12 @@
       "headlineId": "2a772cd3d9e41b0096ead8ff8a57b709f18a0de8c98e40d68713439b953b9e06",
       "articleUrl": "https://www.sverigesradio.se/artikel/liseberg-och-skansen-i-misstankta-datalackor",
       "capturedAt": "2026-10-28T05:37:34.947Z"
+    },
+    {
+      "filename": "1793167665611_0.png",
+      "headlineId": "a7abb2350aecc865e84262d63b47bcc951800dc86b45e70cc0f2e19af94bb257",
+      "articleUrl": "https://www.sverigesradio.se/artikel/pakord-stolpe-ger-jatteko-pa-huddingevagen",
+      "capturedAt": "2026-10-28T06:07:45.611Z"
     }
   ]
 }
