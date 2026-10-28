@@ -44352,6 +44352,10 @@
     {
       "id": "d0f7b29b1f96e03b91a1db62b359b475d31077b27db3f77e073fba5ff930e6c2",
       "text": "Just nu: Fel hos Försäkringskassan"
+    },
+    {
+      "id": "8535f70044e9853a489b89b431985b51960b748f0fe6f36d5b18d56250ee68e4",
+      "text": "Just nu: Förskoleanställd misstänks för sexbrott – igen"
     }
   ],
   "captures": [
@@ -110876,6 +110880,12 @@
       "headlineId": "d0f7b29b1f96e03b91a1db62b359b475d31077b27db3f77e073fba5ff930e6c2",
       "articleUrl": "https://www.sverigesradio.se/artikel/fel-hos-forsakringskassan-darfor-kan-barnbidraget-droja",
       "capturedAt": "2026-10-28T09:42:51.938Z"
+    },
+    {
+      "filename": "1793186857544_0.png",
+      "headlineId": "8535f70044e9853a489b89b431985b51960b748f0fe6f36d5b18d56250ee68e4",
+      "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-forskoleanstalld-har-utretts-for-sexbrott-tidigare",
+      "capturedAt": "2026-10-28T11:27:37.544Z"
     }
   ]
 }
