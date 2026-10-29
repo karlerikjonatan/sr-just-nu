@@ -44416,6 +44416,10 @@
     {
       "id": "1e21d5cd65854ddf58c95bcade1c72973a8b63f472b4c6eb0da9739647a8dc2b",
       "text": "Just nu: Moské i Uppsala sparkar böneledare"
+    },
+    {
+      "id": "3de68e51974f1ff89a4662e622c7d694b4e47c3bbf73f8e07236fbed6dbc0288",
+      "text": "Just nu: Christine Lagarde avgår"
     }
   ],
   "captures": [
@@ -111036,6 +111040,12 @@
       "headlineId": "1e21d5cd65854ddf58c95bcade1c72973a8b63f472b4c6eb0da9739647a8dc2b",
       "articleUrl": "https://www.sverigesradio.se/artikel/annu-en-boneledare-far-lamna-moske-efter-program-i-svt",
       "capturedAt": "2026-10-29T10:02:42.546Z"
+    },
+    {
+      "filename": "1793268749844_0.png",
+      "headlineId": "3de68e51974f1ff89a4662e622c7d694b4e47c3bbf73f8e07236fbed6dbc0288",
+      "articleUrl": "https://www.sverigesradio.se/artikel/christine-lagarde-avgar-som-ecb-chef",
+      "capturedAt": "2026-10-29T10:12:29.844Z"
     }
   ]
 }
