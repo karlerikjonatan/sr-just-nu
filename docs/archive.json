@@ -44456,6 +44456,10 @@
     {
       "id": "14fa7528f7e934fde3bcacd801fbb5fd26d78a2a9431effc18a1403337b7b31d",
       "text": "Just nu: Stopp för all tågtrafik Stockholm Södra"
+    },
+    {
+      "id": "982118818aa79b9996739453e373217d5aa89a8d8dc8a77b8fde37276ac1f6cf",
+      "text": "Just nu: Fyra anhållna – misstänkt kidnappning"
     }
   ],
   "captures": [
@@ -111136,6 +111140,12 @@
       "headlineId": "14fa7528f7e934fde3bcacd801fbb5fd26d78a2a9431effc18a1403337b7b31d",
       "articleUrl": "https://www.sverigesradio.se/artikel/stopp-for-all-tagtrafik-stockholm-sodra",
       "capturedAt": "2026-10-29T15:02:31.166Z"
+    },
+    {
+      "filename": "1793289761959_0.png",
+      "headlineId": "982118818aa79b9996739453e373217d5aa89a8d8dc8a77b8fde37276ac1f6cf",
+      "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-kidnappning-i-malmo-fyra-anhallna",
+      "capturedAt": "2026-10-29T16:02:41.959Z"
     }
   ]
 }
