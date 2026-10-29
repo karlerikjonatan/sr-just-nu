@@ -44396,6 +44396,10 @@
     {
       "id": "1e5a5a284f9c363d87cb07d030797256ccc992bd7e075c60c43f6513beaeba7c",
       "text": "Just nu: Störningar i pendeltågstrafiken"
+    },
+    {
+      "id": "7f47ad62cf5c0b906e04ce1ecf8880db947dd24e1c4cdfd1468956d66cf3258a",
+      "text": "Just nu: Kommunens skelett vandaliserat"
     }
   ],
   "captures": [
@@ -110986,6 +110990,12 @@
       "headlineId": "1e5a5a284f9c363d87cb07d030797256ccc992bd7e075c60c43f6513beaeba7c",
       "articleUrl": "https://www.sverigesradio.se/artikel/stora-storningar-i-pendeltagstrafiken--3",
       "capturedAt": "2026-10-29T04:47:30.699Z"
+    },
+    {
+      "filename": "1793254050535_0.png",
+      "headlineId": "7f47ad62cf5c0b906e04ce1ecf8880db947dd24e1c4cdfd1468956d66cf3258a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/halloweenpynt-i-almhult-vandaliserat-i-rondell",
+      "capturedAt": "2026-10-29T06:07:30.535Z"
     }
   ]
 }
