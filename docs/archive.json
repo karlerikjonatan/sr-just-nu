@@ -44408,6 +44408,10 @@
     {
       "id": "6a1e8634dd467b7098d5570972345c3a136ee4cd9fd638958972e9222c7153fd",
       "text": "Just nu: Strömsundsbron öppnar för gång- och cykeltrafik"
+    },
+    {
+      "id": "8cf919238104e22d15bfcb6a1aa6e11eeb19b89613afffbde9a1f4afd250d954",
+      "text": "Just nu: Då öppnar Strömsundsbron"
     }
   ],
   "captures": [
@@ -111016,6 +111020,12 @@
       "headlineId": "6a1e8634dd467b7098d5570972345c3a136ee4cd9fd638958972e9222c7153fd",
       "articleUrl": "https://www.sverigesradio.se/artikel/stromsundsbron-oppnar-for-gang-och-cykeltrafik",
       "capturedAt": "2026-10-29T09:37:26.957Z"
+    },
+    {
+      "filename": "1793267554040_0.png",
+      "headlineId": "8cf919238104e22d15bfcb6a1aa6e11eeb19b89613afffbde9a1f4afd250d954",
+      "articleUrl": "https://www.sverigesradio.se/artikel/trafikverket-da-oppnar-stromsundsbron",
+      "capturedAt": "2026-10-29T09:52:34.040Z"
     }
   ]
 }
