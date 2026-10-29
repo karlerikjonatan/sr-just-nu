@@ -44420,6 +44420,10 @@
     {
       "id": "3de68e51974f1ff89a4662e622c7d694b4e47c3bbf73f8e07236fbed6dbc0288",
       "text": "Just nu: Christine Lagarde avgår"
+    },
+    {
+      "id": "1115428e588d4121996fbf2af8337383e22aa9bfbc26158aa2b65f5eee25d79a",
+      "text": "Just nu: Sporthall i Tumba brinner"
     }
   ],
   "captures": [
@@ -111046,6 +111050,12 @@
       "headlineId": "3de68e51974f1ff89a4662e622c7d694b4e47c3bbf73f8e07236fbed6dbc0288",
       "articleUrl": "https://www.sverigesradio.se/artikel/christine-lagarde-avgar-som-ecb-chef",
       "capturedAt": "2026-10-29T10:12:29.844Z"
+    },
+    {
+      "filename": "1793270256199_0.png",
+      "headlineId": "1115428e588d4121996fbf2af8337383e22aa9bfbc26158aa2b65f5eee25d79a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/sporthall-i-tumba-brinner-spridningsrisk-till-skola",
+      "capturedAt": "2026-10-29T10:37:36.199Z"
     }
   ]
 }
