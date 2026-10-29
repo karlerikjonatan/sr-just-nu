@@ -44432,6 +44432,10 @@
     {
       "id": "246c22989774acb6f2f2dc470d7d434ef84b9d1e7af26460ffbf36ee280b3455",
       "text": "Just nu: Talmannen kallar till pressträff"
+    },
+    {
+      "id": "e89e864a198edca300ae658ff0ce06d56faec323a752b6bec6ff7375e45c7310",
+      "text": "Just nu: E6 avstängd – personbil har voltat"
     }
   ],
   "captures": [
@@ -111076,6 +111080,12 @@
       "headlineId": "246c22989774acb6f2f2dc470d7d434ef84b9d1e7af26460ffbf36ee280b3455",
       "articleUrl": "https://www.sverigesradio.se/artikel/regeringsbildningen-efter-valet-2026",
       "capturedAt": "2026-10-29T12:22:28.926Z"
+    },
+    {
+      "filename": "1793277154597_0.png",
+      "headlineId": "e89e864a198edca300ae658ff0ce06d56faec323a752b6bec6ff7375e45c7310",
+      "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-e6-avstangd-personbil-har-voltat",
+      "capturedAt": "2026-10-29T12:32:34.597Z"
     }
   ]
 }
