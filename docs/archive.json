@@ -44400,6 +44400,10 @@
     {
       "id": "7f47ad62cf5c0b906e04ce1ecf8880db947dd24e1c4cdfd1468956d66cf3258a",
       "text": "Just nu: Kommunens skelett vandaliserat"
+    },
+    {
+      "id": "102deebf2233cd69b407a4d898f8096e219845de38cb165de0e8ded62cdc4d21",
+      "text": "Just nu: Gullan Bornemark är död"
     }
   ],
   "captures": [
@@ -110996,6 +111000,12 @@
       "headlineId": "7f47ad62cf5c0b906e04ce1ecf8880db947dd24e1c4cdfd1468956d66cf3258a",
       "articleUrl": "https://www.sverigesradio.se/artikel/halloweenpynt-i-almhult-vandaliserat-i-rondell",
       "capturedAt": "2026-10-29T06:07:30.535Z"
+    },
+    {
+      "filename": "1793263949646_0.png",
+      "headlineId": "102deebf2233cd69b407a4d898f8096e219845de38cb165de0e8ded62cdc4d21",
+      "articleUrl": "https://www.sverigesradio.se/artikel/gullan-bornemark-dod-barnvisekompositoren-blev-98",
+      "capturedAt": "2026-10-29T08:52:29.646Z"
     }
   ]
 }
