@@ -44436,6 +44436,10 @@
     {
       "id": "e89e864a198edca300ae658ff0ce06d56faec323a752b6bec6ff7375e45c7310",
       "text": "Just nu: E6 avstängd – personbil har voltat"
+    },
+    {
+      "id": "7fd1b9b5c00406515c4bf81de65d975eded15a122ae273d0eae9d9c549408d80",
+      "text": "Just nu: Ytterligare expert hoppar av GVFÖ"
     }
   ],
   "captures": [
@@ -111086,6 +111090,12 @@
       "headlineId": "e89e864a198edca300ae658ff0ce06d56faec323a752b6bec6ff7375e45c7310",
       "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-e6-avstangd-personbil-har-voltat",
       "capturedAt": "2026-10-29T12:32:34.597Z"
+    },
+    {
+      "filename": "1793278048319_0.png",
+      "headlineId": "7fd1b9b5c00406515c4bf81de65d975eded15a122ae273d0eae9d9c549408d80",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tobias-sahlin-lamnar-gift-vid-forsta-ogonkastet-xl",
+      "capturedAt": "2026-10-29T12:47:28.319Z"
     }
   ]
 }
