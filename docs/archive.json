@@ -44468,6 +44468,10 @@
     {
       "id": "a64ff53c2a0962ed9bfc6f6be50eaa6b8c47267258f424ede179f36cb1431790",
       "text": "Just nu: 5 000 Skansenbesökare röjda"
+    },
+    {
+      "id": "1767e906a443bb74f4c28efe33c38cd9dc04b529a70a7af50a490920d1cda057",
+      "text": "Just nu: Lag Wranå klart för EM-semi"
     }
   ],
   "captures": [
@@ -111166,6 +111170,12 @@
       "headlineId": "a64ff53c2a0962ed9bfc6f6be50eaa6b8c47267258f424ede179f36cb1431790",
       "articleUrl": "https://www.sverigesradio.se/artikel/dataintrang-drabbar-5-000-skansenbesokare-namn-och-telefonnumer-rojda",
       "capturedAt": "2026-10-29T17:17:28.399Z"
+    },
+    {
+      "filename": "1793302648052_0.png",
+      "headlineId": "1767e906a443bb74f4c28efe33c38cd9dc04b529a70a7af50a490920d1cda057",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lag-wrana-klart-for-em-semi-efter-fjarde-raka-segern",
+      "capturedAt": "2026-10-29T19:37:28.052Z"
     }
   ]
 }
