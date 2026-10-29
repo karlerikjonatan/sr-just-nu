@@ -44444,6 +44444,10 @@
     {
       "id": "9699a3bf83a178239d929d782ed0517716df49f1cac27ebd575cab10c4aa2ff6",
       "text": "Just nu: Man begärs häktad efter dödsskjutning"
+    },
+    {
+      "id": "105f089206e56170ca892fda114a8aa2b583080e75b3013f13bb8ab49649ae11",
+      "text": "Just nu: Räntebesked från ECB"
     }
   ],
   "captures": [
@@ -111106,6 +111110,12 @@
       "headlineId": "9699a3bf83a178239d929d782ed0517716df49f1cac27ebd575cab10c4aa2ff6",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-begars-haktad-misstankt-efter-dodsskjutningen-i-bagarmossen",
       "capturedAt": "2026-10-29T13:22:56.222Z"
+    },
+    {
+      "filename": "1793280469470_0.png",
+      "headlineId": "105f089206e56170ca892fda114a8aa2b583080e75b3013f13bb8ab49649ae11",
+      "articleUrl": "https://www.sverigesradio.se/artikel/europeiska-centralbanken-lamnar-styrrantan-oforandrad-pa-2-65-procent",
+      "capturedAt": "2026-10-29T13:27:49.470Z"
     }
   ]
 }
