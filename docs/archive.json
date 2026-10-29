@@ -44440,6 +44440,10 @@
     {
       "id": "7fd1b9b5c00406515c4bf81de65d975eded15a122ae273d0eae9d9c549408d80",
       "text": "Just nu: Ytterligare expert hoppar av GVFÖ"
+    },
+    {
+      "id": "9699a3bf83a178239d929d782ed0517716df49f1cac27ebd575cab10c4aa2ff6",
+      "text": "Just nu: Man begärs häktad efter dödsskjutning"
     }
   ],
   "captures": [
@@ -111096,6 +111100,12 @@
       "headlineId": "7fd1b9b5c00406515c4bf81de65d975eded15a122ae273d0eae9d9c549408d80",
       "articleUrl": "https://www.sverigesradio.se/artikel/tobias-sahlin-lamnar-gift-vid-forsta-ogonkastet-xl",
       "capturedAt": "2026-10-29T12:47:28.319Z"
+    },
+    {
+      "filename": "1793280176222_0.png",
+      "headlineId": "9699a3bf83a178239d929d782ed0517716df49f1cac27ebd575cab10c4aa2ff6",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-begars-haktad-misstankt-efter-dodsskjutningen-i-bagarmossen",
+      "capturedAt": "2026-10-29T13:22:56.222Z"
     }
   ]
 }
