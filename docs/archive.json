@@ -44404,6 +44404,10 @@
     {
       "id": "102deebf2233cd69b407a4d898f8096e219845de38cb165de0e8ded62cdc4d21",
       "text": "Just nu: Gullan Bornemark är död"
+    },
+    {
+      "id": "6a1e8634dd467b7098d5570972345c3a136ee4cd9fd638958972e9222c7153fd",
+      "text": "Just nu: Strömsundsbron öppnar för gång- och cykeltrafik"
     }
   ],
   "captures": [
@@ -111006,6 +111010,12 @@
       "headlineId": "102deebf2233cd69b407a4d898f8096e219845de38cb165de0e8ded62cdc4d21",
       "articleUrl": "https://www.sverigesradio.se/artikel/gullan-bornemark-dod-barnvisekompositoren-blev-98",
       "capturedAt": "2026-10-29T08:52:29.646Z"
+    },
+    {
+      "filename": "1793266646957_0.png",
+      "headlineId": "6a1e8634dd467b7098d5570972345c3a136ee4cd9fd638958972e9222c7153fd",
+      "articleUrl": "https://www.sverigesradio.se/artikel/stromsundsbron-oppnar-for-gang-och-cykeltrafik",
+      "capturedAt": "2026-10-29T09:37:26.957Z"
     }
   ]
 }
