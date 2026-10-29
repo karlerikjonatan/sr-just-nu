@@ -44460,6 +44460,10 @@
     {
       "id": "982118818aa79b9996739453e373217d5aa89a8d8dc8a77b8fde37276ac1f6cf",
       "text": "Just nu: Fyra anhållna – misstänkt kidnappning"
+    },
+    {
+      "id": "1512e18f0b71f699f5f924e4c1f42b17355770f46e172840bca4674c6af8b644",
+      "text": "Just nu: Siffran stiger – 74 döda i Spanien"
     }
   ],
   "captures": [
@@ -111146,6 +111150,12 @@
       "headlineId": "982118818aa79b9996739453e373217d5aa89a8d8dc8a77b8fde37276ac1f6cf",
       "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-kidnappning-i-malmo-fyra-anhallna",
       "capturedAt": "2026-10-29T16:02:41.959Z"
+    },
+    {
+      "filename": "1793292149954_0.png",
+      "headlineId": "1512e18f0b71f699f5f924e4c1f42b17355770f46e172840bca4674c6af8b644",
+      "articleUrl": "https://www.sverigesradio.se/artikel/direktrapport-om-tagolyckan-i-spanien",
+      "capturedAt": "2026-10-29T16:42:29.954Z"
     }
   ]
 }
