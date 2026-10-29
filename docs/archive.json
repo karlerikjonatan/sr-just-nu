@@ -44464,6 +44464,10 @@
     {
       "id": "1512e18f0b71f699f5f924e4c1f42b17355770f46e172840bca4674c6af8b644",
       "text": "Just nu: Siffran stiger – 74 döda i Spanien"
+    },
+    {
+      "id": "a64ff53c2a0962ed9bfc6f6be50eaa6b8c47267258f424ede179f36cb1431790",
+      "text": "Just nu: 5 000 Skansenbesökare röjda"
     }
   ],
   "captures": [
@@ -111156,6 +111160,12 @@
       "headlineId": "1512e18f0b71f699f5f924e4c1f42b17355770f46e172840bca4674c6af8b644",
       "articleUrl": "https://www.sverigesradio.se/artikel/direktrapport-om-tagolyckan-i-spanien",
       "capturedAt": "2026-10-29T16:42:29.954Z"
+    },
+    {
+      "filename": "1793294248399_0.png",
+      "headlineId": "a64ff53c2a0962ed9bfc6f6be50eaa6b8c47267258f424ede179f36cb1431790",
+      "articleUrl": "https://www.sverigesradio.se/artikel/dataintrang-drabbar-5-000-skansenbesokare-namn-och-telefonnumer-rojda",
+      "capturedAt": "2026-10-29T17:17:28.399Z"
     }
   ]
 }
