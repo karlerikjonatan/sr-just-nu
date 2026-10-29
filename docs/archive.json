@@ -44472,6 +44472,10 @@
     {
       "id": "1767e906a443bb74f4c28efe33c38cd9dc04b529a70a7af50a490920d1cda057",
       "text": "Just nu: Lag Wranå klart för EM-semi"
+    },
+    {
+      "id": "143348ece9dcedd42ad4765eba682eec0c7938231b9fb376cfae739725042dc3",
+      "text": "Just nu: Sir Patrick Stewart är död"
     }
   ],
   "captures": [
@@ -111176,6 +111180,12 @@
       "headlineId": "1767e906a443bb74f4c28efe33c38cd9dc04b529a70a7af50a490920d1cda057",
       "articleUrl": "https://www.sverigesradio.se/artikel/lag-wrana-klart-for-em-semi-efter-fjarde-raka-segern",
       "capturedAt": "2026-10-29T19:37:28.052Z"
+    },
+    {
+      "filename": "1793303548058_0.png",
+      "headlineId": "143348ece9dcedd42ad4765eba682eec0c7938231b9fb376cfae739725042dc3",
+      "articleUrl": "https://www.sverigesradio.se/artikel/patrick-stewart-ar-dod-kand-fran-star-trek",
+      "capturedAt": "2026-10-29T19:52:28.058Z"
     }
   ]
 }
