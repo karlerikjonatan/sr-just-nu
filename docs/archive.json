@@ -44532,6 +44532,14 @@
     {
       "id": "22d609a550c8b36e681446f5e51c1f3d0ed45d0bdd1202cb0f4917a291fc8907",
       "text": "Just nu: Slog världsrekordet i längsta pingisduell"
+    },
+    {
+      "id": "fede3c3320610dd88c39cb2b93f3517619f3a4dd12850833df0466d6da4a9c47",
+      "text": "Just nu: Strömsundsbron öppen"
+    },
+    {
+      "id": "94de121965b75ed11fe40175ef2b78d90d9fad0e168a4768fd37cab8c8447456",
+      "text": "Just nu: Slog världsrekordet"
     }
   ],
   "captures": [
@@ -111326,6 +111334,18 @@
       "headlineId": "10718de6fb55cae74f06aafc688a22db5fa12037d0eb7f866e75f3139728434c",
       "articleUrl": "https://www.sverigesradio.se/artikel/stromsundsbron-oppen-igen-de-tog-chansen-direkt",
       "capturedAt": "2026-10-30T12:52:56.718Z"
+    },
+    {
+      "filename": "1793365951352_0.png",
+      "headlineId": "94de121965b75ed11fe40175ef2b78d90d9fad0e168a4768fd37cab8c8447456",
+      "articleUrl": "https://www.sverigesradio.se/artikel/hor-jublet-skaningarna-slog-varldsrekordet-i-langsta-pingisboll",
+      "capturedAt": "2026-10-30T13:12:31.352Z"
+    },
+    {
+      "filename": "1793365951352_1.png",
+      "headlineId": "fede3c3320610dd88c39cb2b93f3517619f3a4dd12850833df0466d6da4a9c47",
+      "articleUrl": "https://www.sverigesradio.se/artikel/stromsundsbron-oppen-igen-de-tog-chansen-direkt",
+      "capturedAt": "2026-10-30T13:12:31.352Z"
     }
   ]
 }
