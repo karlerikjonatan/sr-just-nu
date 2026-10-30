@@ -44476,6 +44476,10 @@
     {
       "id": "143348ece9dcedd42ad4765eba682eec0c7938231b9fb376cfae739725042dc3",
       "text": "Just nu: Sir Patrick Stewart är död"
+    },
+    {
+      "id": "0e2850fc861487136113ea24eded15708cfa94c58a8437602880581eb4f99b25",
+      "text": "Just nu: Uppgifter: Ukraina pausar attacker"
     }
   ],
   "captures": [
@@ -111186,6 +111190,12 @@
       "headlineId": "143348ece9dcedd42ad4765eba682eec0c7938231b9fb376cfae739725042dc3",
       "articleUrl": "https://www.sverigesradio.se/artikel/patrick-stewart-ar-dod-kand-fran-star-trek",
       "capturedAt": "2026-10-29T19:52:28.058Z"
+    },
+    {
+      "filename": "1793327248695_0.png",
+      "headlineId": "0e2850fc861487136113ea24eded15708cfa94c58a8437602880581eb4f99b25",
+      "articleUrl": "https://www.sverigesradio.se/artikel/uppgifter-ukraina-pausar-attacker",
+      "capturedAt": "2026-10-30T02:27:28.695Z"
     }
   ]
 }
