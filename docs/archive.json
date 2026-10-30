@@ -44540,6 +44540,14 @@
     {
       "id": "94de121965b75ed11fe40175ef2b78d90d9fad0e168a4768fd37cab8c8447456",
       "text": "Just nu: Slog världsrekordet"
+    },
+    {
+      "id": "c2e8ad26e5dc2cfcb80fd66e1910fd37da01e3819e5d1488962988bfd27d4d05",
+      "text": "Just nu: Buss med 20 passagerare körde av väg"
+    },
+    {
+      "id": "8890089300431b7298cd64bafafdd9e4cbb2df232ea9aed9f8cff512905dd46a",
+      "text": "Just nu: Betalade inte frisörbesök – döms till fängelse"
     }
   ],
   "captures": [
@@ -111346,6 +111354,18 @@
       "headlineId": "fede3c3320610dd88c39cb2b93f3517619f3a4dd12850833df0466d6da4a9c47",
       "articleUrl": "https://www.sverigesradio.se/artikel/stromsundsbron-oppen-igen-de-tog-chansen-direkt",
       "capturedAt": "2026-10-30T13:12:31.352Z"
+    },
+    {
+      "filename": "1793371051715_0.png",
+      "headlineId": "8890089300431b7298cd64bafafdd9e4cbb2df232ea9aed9f8cff512905dd46a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kvinna-betalade-inte-frisorbesok-doms-till-fangelse",
+      "capturedAt": "2026-10-30T14:37:31.715Z"
+    },
+    {
+      "filename": "1793371051715_1.png",
+      "headlineId": "c2e8ad26e5dc2cfcb80fd66e1910fd37da01e3819e5d1488962988bfd27d4d05",
+      "articleUrl": "https://www.sverigesradio.se/artikel/buss-korde-av-vagen-20-passagerare-ute",
+      "capturedAt": "2026-10-30T14:37:31.715Z"
     }
   ]
 }
