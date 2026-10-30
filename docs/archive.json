@@ -44564,6 +44564,10 @@
     {
       "id": "278190c63d14df2ca5dbd7887020acf8c3537a756ba86975668f1b57f5346225",
       "text": "Just nu: Olycka stoppar Uppsala–Sala"
+    },
+    {
+      "id": "be0aec2b2b1d9fa995de562aef675bbeece3a10f8c4fb8a783e4ffdde229a85d",
+      "text": "Just nu: Olycka stoppar tågen Uppsala–Sala"
     }
   ],
   "captures": [
@@ -111406,6 +111410,12 @@
       "headlineId": "278190c63d14df2ca5dbd7887020acf8c3537a756ba86975668f1b57f5346225",
       "articleUrl": "https://www.sverigesradio.se/artikel/olycka-stoppar-tagtrafik-uppsala-sala",
       "capturedAt": "2026-10-30T18:42:33.091Z"
+    },
+    {
+      "filename": "1793386046148_0.png",
+      "headlineId": "be0aec2b2b1d9fa995de562aef675bbeece3a10f8c4fb8a783e4ffdde229a85d",
+      "articleUrl": "https://www.sverigesradio.se/artikel/olycka-stoppar-tagtrafik-uppsala-sala",
+      "capturedAt": "2026-10-30T18:47:26.148Z"
     }
   ]
 }
