@@ -44520,6 +44520,10 @@
     {
       "id": "dbf07d9168290da24c8573dc4cad6ddc26b41d3b19db1f3af773947522425fa2",
       "text": "Just nu: Nio häktade för människorov"
+    },
+    {
+      "id": "6dcb372e8307d4f88cc2994df435358bc5b33b0f649bc3172b314e577a4b96d7",
+      "text": "Just nu: Slog världsrekordet i längsta pingisboll"
     }
   ],
   "captures": [
@@ -111296,6 +111300,12 @@
       "headlineId": "dbf07d9168290da24c8573dc4cad6ddc26b41d3b19db1f3af773947522425fa2",
       "articleUrl": "https://www.sverigesradio.se/artikel/atta-misstanks-for-manniskorov-i-nassjo",
       "capturedAt": "2026-10-30T11:47:33.049Z"
+    },
+    {
+      "filename": "1793363251355_0.png",
+      "headlineId": "6dcb372e8307d4f88cc2994df435358bc5b33b0f649bc3172b314e577a4b96d7",
+      "articleUrl": "https://www.sverigesradio.se/artikel/hor-jublet-skaningarna-slog-varldsrekordet-i-langsta-pingisboll",
+      "capturedAt": "2026-10-30T12:27:31.355Z"
     }
   ]
 }
