@@ -44548,6 +44548,10 @@
     {
       "id": "8890089300431b7298cd64bafafdd9e4cbb2df232ea9aed9f8cff512905dd46a",
       "text": "Just nu: Betalade inte frisörbesök – döms till fängelse"
+    },
+    {
+      "id": "dedb6b4018032ab375a9811fd9fd858719687d69a5cbefc4436e9c05bfbd386d",
+      "text": "Just nu: Betalade inte frisör – döms"
     }
   ],
   "captures": [
@@ -111366,6 +111370,12 @@
       "headlineId": "c2e8ad26e5dc2cfcb80fd66e1910fd37da01e3819e5d1488962988bfd27d4d05",
       "articleUrl": "https://www.sverigesradio.se/artikel/buss-korde-av-vagen-20-passagerare-ute",
       "capturedAt": "2026-10-30T14:37:31.715Z"
+    },
+    {
+      "filename": "1793375248848_0.png",
+      "headlineId": "dedb6b4018032ab375a9811fd9fd858719687d69a5cbefc4436e9c05bfbd386d",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kvinna-betalade-inte-frisorbesok-doms-till-fangelse",
+      "capturedAt": "2026-10-30T15:47:28.848Z"
     }
   ]
 }
