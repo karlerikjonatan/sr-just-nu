@@ -44568,6 +44568,10 @@
     {
       "id": "be0aec2b2b1d9fa995de562aef675bbeece3a10f8c4fb8a783e4ffdde229a85d",
       "text": "Just nu: Olycka stoppar tågen Uppsala–Sala"
+    },
+    {
+      "id": "f26f0fdc465394db125f94daab6cccf3ddb28b3913c3412c601f776f406fd88f",
+      "text": "Just nu: Polis sköt varningsskott i Staffanstorp"
     }
   ],
   "captures": [
@@ -111416,6 +111420,12 @@
       "headlineId": "be0aec2b2b1d9fa995de562aef675bbeece3a10f8c4fb8a783e4ffdde229a85d",
       "articleUrl": "https://www.sverigesradio.se/artikel/olycka-stoppar-tagtrafik-uppsala-sala",
       "capturedAt": "2026-10-30T18:47:26.148Z"
+    },
+    {
+      "filename": "1793392645377_0.png",
+      "headlineId": "f26f0fdc465394db125f94daab6cccf3ddb28b3913c3412c601f776f406fd88f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-polis-skot-varningsskott-mot-ranare-i-staffanstorp",
+      "capturedAt": "2026-10-30T20:37:25.377Z"
     }
   ]
 }
