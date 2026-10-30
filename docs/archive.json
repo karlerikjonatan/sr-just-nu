@@ -44552,6 +44552,10 @@
     {
       "id": "dedb6b4018032ab375a9811fd9fd858719687d69a5cbefc4436e9c05bfbd386d",
       "text": "Just nu: Betalade inte frisör – döms"
+    },
+    {
+      "id": "92b57d7d521fcf65a7958d218667c435b55273f544375f6fed49e083f49b018b",
+      "text": "Just nu: Lag Eriksson klart för EM-semi"
     }
   ],
   "captures": [
@@ -111376,6 +111380,12 @@
       "headlineId": "dedb6b4018032ab375a9811fd9fd858719687d69a5cbefc4436e9c05bfbd386d",
       "articleUrl": "https://www.sverigesradio.se/artikel/kvinna-betalade-inte-frisorbesok-doms-till-fangelse",
       "capturedAt": "2026-10-30T15:47:28.848Z"
+    },
+    {
+      "filename": "1793376463869_0.png",
+      "headlineId": "92b57d7d521fcf65a7958d218667c435b55273f544375f6fed49e083f49b018b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lag-eriksson-klart-for-em-semi-efter-rysare-mot-vardnationen",
+      "capturedAt": "2026-10-30T16:07:43.869Z"
     }
   ]
 }
