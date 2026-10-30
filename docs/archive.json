@@ -44500,6 +44500,10 @@
     {
       "id": "c83ed0188ce15a1a736e5fd98837e1d597fc10b3416c466b4c8b9bf33640396b",
       "text": "Just nu: E4 avstängd när helikopter landat"
+    },
+    {
+      "id": "053f94df01ad6be20c43c52fcc8c6d3548b11dfbb123103ab37dc7c3501ade88",
+      "text": "Just nu: En man häktas efter mordet i Bagarmossen"
     }
   ],
   "captures": [
@@ -111246,6 +111250,12 @@
       "headlineId": "c83ed0188ce15a1a736e5fd98837e1d597fc10b3416c466b4c8b9bf33640396b",
       "articleUrl": "https://www.sverigesradio.se/artikel/e4-avstangd-nar-helikopter-landat",
       "capturedAt": "2026-10-30T07:57:35.653Z"
+    },
+    {
+      "filename": "1793350654731_0.png",
+      "headlineId": "053f94df01ad6be20c43c52fcc8c6d3548b11dfbb123103ab37dc7c3501ade88",
+      "articleUrl": "https://www.sverigesradio.se/artikel/36-arig-man-haktad-for-mordet-i-bagarmossen",
+      "capturedAt": "2026-10-30T08:57:34.731Z"
     }
   ]
 }
