@@ -44560,6 +44560,10 @@
     {
       "id": "ba1cab78b940fdd3ca8e8e0e8ff090540695952d252fd7613cdce56df32d4a86",
       "text": "Just nu: Lastbilsolycka – E4 avstängd"
+    },
+    {
+      "id": "278190c63d14df2ca5dbd7887020acf8c3537a756ba86975668f1b57f5346225",
+      "text": "Just nu: Olycka stoppar Uppsala–Sala"
     }
   ],
   "captures": [
@@ -111396,6 +111400,12 @@
       "headlineId": "ba1cab78b940fdd3ca8e8e0e8ff090540695952d252fd7613cdce56df32d4a86",
       "articleUrl": "https://www.sverigesradio.se/artikel/lasbilsolycka-pa-e4-utanfor-helsingborg-vagen-avstangd",
       "capturedAt": "2026-10-30T17:57:28.289Z"
+    },
+    {
+      "filename": "1793385753091_0.png",
+      "headlineId": "278190c63d14df2ca5dbd7887020acf8c3537a756ba86975668f1b57f5346225",
+      "articleUrl": "https://www.sverigesradio.se/artikel/olycka-stoppar-tagtrafik-uppsala-sala",
+      "capturedAt": "2026-10-30T18:42:33.091Z"
     }
   ]
 }
