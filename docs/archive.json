@@ -44512,6 +44512,10 @@
     {
       "id": "ffa1e554a9bd2975978ac47f261b13ce8581b0e17771dc35e93a1eac78c789d4",
       "text": "Just nu: Ryssland får spela ishockey-VM"
+    },
+    {
+      "id": "933907be0ee685c1005d0895fc8d6991823d0f80a83b62ab251f329819cec7f6",
+      "text": "Just nu: Vägglöss på Akademiska"
     }
   ],
   "captures": [
@@ -111276,6 +111280,12 @@
       "headlineId": "ffa1e554a9bd2975978ac47f261b13ce8581b0e17771dc35e93a1eac78c789d4",
       "articleUrl": "https://www.sverigesradio.se/artikel/ryssland-tillats-delta-i-ishockey-vm",
       "capturedAt": "2026-10-30T10:22:45.416Z"
+    },
+    {
+      "filename": "1793356352535_0.png",
+      "headlineId": "933907be0ee685c1005d0895fc8d6991823d0f80a83b62ab251f329819cec7f6",
+      "articleUrl": "https://www.sverigesradio.se/artikel/vaggloss-hittade-pa-akademiska-sjukhuset-i-uppsala",
+      "capturedAt": "2026-10-30T10:32:32.535Z"
     }
   ]
 }
