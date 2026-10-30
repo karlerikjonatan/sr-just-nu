@@ -44516,6 +44516,10 @@
     {
       "id": "933907be0ee685c1005d0895fc8d6991823d0f80a83b62ab251f329819cec7f6",
       "text": "Just nu: Vägglöss på Akademiska"
+    },
+    {
+      "id": "dbf07d9168290da24c8573dc4cad6ddc26b41d3b19db1f3af773947522425fa2",
+      "text": "Just nu: Nio häktade för människorov"
     }
   ],
   "captures": [
@@ -111286,6 +111290,12 @@
       "headlineId": "933907be0ee685c1005d0895fc8d6991823d0f80a83b62ab251f329819cec7f6",
       "articleUrl": "https://www.sverigesradio.se/artikel/vaggloss-hittade-pa-akademiska-sjukhuset-i-uppsala",
       "capturedAt": "2026-10-30T10:32:32.535Z"
+    },
+    {
+      "filename": "1793360853049_0.png",
+      "headlineId": "dbf07d9168290da24c8573dc4cad6ddc26b41d3b19db1f3af773947522425fa2",
+      "articleUrl": "https://www.sverigesradio.se/artikel/atta-misstanks-for-manniskorov-i-nassjo",
+      "capturedAt": "2026-10-30T11:47:33.049Z"
     }
   ]
 }
