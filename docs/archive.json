@@ -44484,6 +44484,10 @@
     {
       "id": "83229c0cc400ade9dbcbc3c5dfd64c507ce97cacc259ee553f4a5636579b1217",
       "text": "Just nu: Sökinstas efter ung man"
+    },
+    {
+      "id": "49ae7e25dde248063bb5b916924514bd2180a9d4604bba29b514baf2e9ae8bb2",
+      "text": "Just nu: Nordkoreaner pekas ut efter jättestöld"
     }
   ],
   "captures": [
@@ -111206,6 +111210,12 @@
       "headlineId": "83229c0cc400ade9dbcbc3c5dfd64c507ce97cacc259ee553f4a5636579b1217",
       "articleUrl": "https://www.sverigesradio.se/artikel/polisen-soker-forsvunnen-ung-man-utanfor-umea",
       "capturedAt": "2026-10-30T05:07:30.296Z"
+    },
+    {
+      "filename": "1793338358714_0.png",
+      "headlineId": "49ae7e25dde248063bb5b916924514bd2180a9d4604bba29b514baf2e9ae8bb2",
+      "articleUrl": "https://www.sverigesradio.se/artikel/nordkoreaner-pekas-ut-for-jattestolden",
+      "capturedAt": "2026-10-30T05:32:38.714Z"
     }
   ]
 }
