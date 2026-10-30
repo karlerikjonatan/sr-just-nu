@@ -44492,6 +44492,10 @@
     {
       "id": "1f001526bcd7c4ae10a313dd68e11ca002fedaf1646beec05c7b40bac3442b83",
       "text": "Just nu: Åkesson sätter ner foten i SD-bråket"
+    },
+    {
+      "id": "1a9ac5190e3df47ad7764fee9db2217f0e7d06a9f65081ade7e21117b5ed7ea6",
+      "text": "Just nu: Lärare misstänkt för våldtäkt mot barn"
     }
   ],
   "captures": [
@@ -111226,6 +111230,12 @@
       "headlineId": "1f001526bcd7c4ae10a313dd68e11ca002fedaf1646beec05c7b40bac3442b83",
       "articleUrl": "https://www.sverigesradio.se/artikel/regeringsbildningen-efter-valet-2026",
       "capturedAt": "2026-10-30T07:02:35.894Z"
+    },
+    {
+      "filename": "1793346164451_0.png",
+      "headlineId": "1a9ac5190e3df47ad7764fee9db2217f0e7d06a9f65081ade7e21117b5ed7ea6",
+      "articleUrl": "https://www.sverigesradio.se/artikel/larare-begars-haktad-misstankt-for-valdtakt-mot-barn",
+      "capturedAt": "2026-10-30T07:42:44.451Z"
     }
   ]
 }
