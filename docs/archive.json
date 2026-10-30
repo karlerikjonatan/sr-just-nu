@@ -44572,6 +44572,10 @@
     {
       "id": "f26f0fdc465394db125f94daab6cccf3ddb28b3913c3412c601f776f406fd88f",
       "text": "Just nu: Polis sköt varningsskott i Staffanstorp"
+    },
+    {
+      "id": "8b72316e4654ceabae8fcf7a6ad45429fb71ad5b0bd4a12230e5cfe79629ddb3",
+      "text": "Just nu: USA säljer Patriot-robotar till Ukraina"
     }
   ],
   "captures": [
@@ -111426,6 +111430,12 @@
       "headlineId": "f26f0fdc465394db125f94daab6cccf3ddb28b3913c3412c601f776f406fd88f",
       "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-polis-skot-varningsskott-mot-ranare-i-staffanstorp",
       "capturedAt": "2026-10-30T20:37:25.377Z"
+    },
+    {
+      "filename": "1793395047155_0.png",
+      "headlineId": "8b72316e4654ceabae8fcf7a6ad45429fb71ad5b0bd4a12230e5cfe79629ddb3",
+      "articleUrl": "https://www.sverigesradio.se/artikel/usa-godkanner-500-patriot-robotar-till-ukraina",
+      "capturedAt": "2026-10-30T21:17:27.155Z"
     }
   ]
 }
