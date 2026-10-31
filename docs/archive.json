@@ -44628,6 +44628,10 @@
     {
       "id": "15167168a39cf8b835a80f2decc6d2bccd028041acc397a57095db6530e2eede",
       "text": "Just nu: Deep Purple-sångare på sjukhus"
+    },
+    {
+      "id": "212d0b05f57b57fb1955db3cfe46e179cfefb3d1d795e3f4155405f9e54584aa",
+      "text": "Just nu: Deep Purple-sångaren på sjukhus"
     }
   ],
   "captures": [
@@ -111566,6 +111570,12 @@
       "headlineId": "15167168a39cf8b835a80f2decc6d2bccd028041acc397a57095db6530e2eede",
       "articleUrl": "https://www.sverigesradio.se/artikel/ian-gillan-pa-sjukhus-deep-purple-staller-in-konserter",
       "capturedAt": "2026-10-31T19:57:28.344Z"
+    },
+    {
+      "filename": "1793479045015_0.png",
+      "headlineId": "212d0b05f57b57fb1955db3cfe46e179cfefb3d1d795e3f4155405f9e54584aa",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ian-gillan-pa-sjukhus-deep-purple-staller-in-konserter",
+      "capturedAt": "2026-10-31T20:37:25.015Z"
     }
   ]
 }
