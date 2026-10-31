@@ -44576,6 +44576,10 @@
     {
       "id": "8b72316e4654ceabae8fcf7a6ad45429fb71ad5b0bd4a12230e5cfe79629ddb3",
       "text": "Just nu: USA säljer Patriot-robotar till Ukraina"
+    },
+    {
+      "id": "98f77a3230251efb4ff5134c8c8c75935563902d4d6c5b42bcc4d45c87774e24",
+      "text": "Just nu: Påven har röstat"
     }
   ],
   "captures": [
@@ -111436,6 +111440,12 @@
       "headlineId": "8b72316e4654ceabae8fcf7a6ad45429fb71ad5b0bd4a12230e5cfe79629ddb3",
       "articleUrl": "https://www.sverigesradio.se/artikel/usa-godkanner-500-patriot-robotar-till-ukraina",
       "capturedAt": "2026-10-30T21:17:27.155Z"
+    },
+    {
+      "filename": "1793422349826_0.png",
+      "headlineId": "98f77a3230251efb4ff5134c8c8c75935563902d4d6c5b42bcc4d45c87774e24",
+      "articleUrl": "https://www.sverigesradio.se/artikel/pave-leo-xiv-rostade-i-mellanarsvalet-blir-historisk",
+      "capturedAt": "2026-10-31T04:52:29.826Z"
     }
   ]
 }
