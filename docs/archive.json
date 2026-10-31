@@ -44620,6 +44620,10 @@
     {
       "id": "b03324d3706148dc3299aa77276dafa6569a57d6ec52f9d0b6c76d937edb346e",
       "text": "Just nu: Tekniskt strul för V:s sajt"
+    },
+    {
+      "id": "873b98727cf362acc2a28b88b86dd566d8460efdd535dcfbbccbfb9b3b036896",
+      "text": "Just nu: Falkenberg tillbaka i allsvenskan"
     }
   ],
   "captures": [
@@ -111546,6 +111550,12 @@
       "headlineId": "b03324d3706148dc3299aa77276dafa6569a57d6ec52f9d0b6c76d937edb346e",
       "articleUrl": "https://www.sverigesradio.se/artikel/tekniskt-strul-for-vansterpartiets-sajt",
       "capturedAt": "2026-10-31T16:37:31.599Z"
+    },
+    {
+      "filename": "1793469153654_0.png",
+      "headlineId": "873b98727cf362acc2a28b88b86dd566d8460efdd535dcfbbccbfb9b3b036896",
+      "articleUrl": "https://www.sverigesradio.se/artikel/falkenberg-klart-for-allsvenskan-2027",
+      "capturedAt": "2026-10-31T17:52:33.654Z"
     }
   ]
 }
