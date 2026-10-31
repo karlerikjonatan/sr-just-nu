@@ -44612,6 +44612,10 @@
     {
       "id": "0d45da5d31b7860e57753610b038f85d9a09cbd2ee868624088dda455ed3cf8e",
       "text": "Just nu: Lag Wranå klart för EM-final"
+    },
+    {
+      "id": "2a3e0089c89792e1b14ac25403f0b661597b46727c7d112811cc5f116c59e36f",
+      "text": "Just nu: USA varnar för dåd i Moskva"
     }
   ],
   "captures": [
@@ -111526,6 +111530,12 @@
       "headlineId": "0d45da5d31b7860e57753610b038f85d9a09cbd2ee868624088dda455ed3cf8e",
       "articleUrl": "https://www.sverigesradio.se/artikel/sverige-till-final-i-curling-em-efter-seger-mot-lettland",
       "capturedAt": "2026-10-31T15:17:52.265Z"
+    },
+    {
+      "filename": "1793461949458_0.png",
+      "headlineId": "2a3e0089c89792e1b14ac25403f0b661597b46727c7d112811cc5f116c59e36f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/usas-ambassad-varnar-for-dodligt-dad-i-moskva",
+      "capturedAt": "2026-10-31T15:52:29.458Z"
     }
   ]
 }
