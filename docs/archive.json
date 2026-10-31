@@ -44584,6 +44584,10 @@
     {
       "id": "c756e7965a14f1395b0b3d9f604f7c18983e9980a3345f466ea7fa5b2709a749",
       "text": "Just nu: Påvens historiska röst"
+    },
+    {
+      "id": "3f6bc06db8a5ffbcf7c73f102f0584da4d9b655553fd516894e4a33ebcf9041e",
+      "text": "Just nu: Kyrkan vädjar om färre ljus"
     }
   ],
   "captures": [
@@ -111456,6 +111460,12 @@
       "headlineId": "c756e7965a14f1395b0b3d9f604f7c18983e9980a3345f466ea7fa5b2709a749",
       "articleUrl": "https://www.sverigesradio.se/artikel/pave-leo-xiv-rostade-i-mellanarsvalet-blir-historisk",
       "capturedAt": "2026-10-31T05:22:30.634Z"
+    },
+    {
+      "filename": "1793426248527_0.png",
+      "headlineId": "3f6bc06db8a5ffbcf7c73f102f0584da4d9b655553fd516894e4a33ebcf9041e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/vadjan-fran-kyrkan-tand-farre-ljus-pa-kyrkogardarna",
+      "capturedAt": "2026-10-31T05:57:28.527Z"
     }
   ]
 }
