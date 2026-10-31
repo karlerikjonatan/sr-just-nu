@@ -44604,6 +44604,10 @@
     {
       "id": "daa89ba5846540f34d144b7d579ca43eb74fa19f9b5f5bc53c7b723b81296bd8",
       "text": "Just nu: Evakuerade ukrainare har nått Belarus"
+    },
+    {
+      "id": "2c7acbcfde61411f248af179b9386e19a3fcb9486eacd5ce29a611ff3e86e276",
+      "text": "Just nu: Olycka på rally – en allvarligt skadad"
     }
   ],
   "captures": [
@@ -111506,6 +111510,12 @@
       "headlineId": "daa89ba5846540f34d144b7d579ca43eb74fa19f9b5f5bc53c7b723b81296bd8",
       "articleUrl": "https://www.sverigesradio.se/artikel/evakuerade-ukrainare-pa-vag-tillbaka-har-natt-belarus",
       "capturedAt": "2026-10-31T13:03:17.693Z"
+    },
+    {
+      "filename": "1793456269158_0.png",
+      "headlineId": "2c7acbcfde61411f248af179b9386e19a3fcb9486eacd5ce29a611ff3e86e276",
+      "articleUrl": "https://www.sverigesradio.se/artikel/olycka-pa-rallytavling-en-person-allvarligt-skadad",
+      "capturedAt": "2026-10-31T14:17:49.158Z"
     }
   ]
 }
