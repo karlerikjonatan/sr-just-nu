@@ -44596,6 +44596,10 @@
     {
       "id": "279d278b7f098ab324759e3791aa835ffc823f7162fec268dcf83dfef805a7b3",
       "text": "Just nu: 200 kom på tonårsfest – spårade totalt"
+    },
+    {
+      "id": "bb84d66d5aec2405d4975c4a69eba38cb19b60e9af40e97378c4a885ea78264b",
+      "text": "Just nu: Krock i Göteborg stoppar spårvagnar"
     }
   ],
   "captures": [
@@ -111486,6 +111490,12 @@
       "headlineId": "279d278b7f098ab324759e3791aa835ffc823f7162fec268dcf83dfef805a7b3",
       "articleUrl": "https://www.sverigesradio.se/artikel/fylla-i-vastsverige-tonarsfest-sparade-ur-pa-orust",
       "capturedAt": "2026-10-31T08:37:24.011Z"
+    },
+    {
+      "filename": "1793443349388_0.png",
+      "headlineId": "bb84d66d5aec2405d4975c4a69eba38cb19b60e9af40e97378c4a885ea78264b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/stopp-i-sparvagnstrafiken-i-goteborg",
+      "capturedAt": "2026-10-31T10:42:29.388Z"
     }
   ]
 }
