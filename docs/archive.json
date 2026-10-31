@@ -44632,6 +44632,10 @@
     {
       "id": "212d0b05f57b57fb1955db3cfe46e179cfefb3d1d795e3f4155405f9e54584aa",
       "text": "Just nu: Deep Purple-sångaren på sjukhus"
+    },
+    {
+      "id": "5fa2d8e9d58f7265b8999e717eed48a7a5ffba7ca5afc51a131e6bb57f069de4",
+      "text": "Just nu: Olycka i Stockholm – en till sjukhus"
     }
   ],
   "captures": [
@@ -111576,6 +111580,12 @@
       "headlineId": "212d0b05f57b57fb1955db3cfe46e179cfefb3d1d795e3f4155405f9e54584aa",
       "articleUrl": "https://www.sverigesradio.se/artikel/ian-gillan-pa-sjukhus-deep-purple-staller-in-konserter",
       "capturedAt": "2026-10-31T20:37:25.015Z"
+    },
+    {
+      "filename": "1793485351148_0.png",
+      "headlineId": "5fa2d8e9d58f7265b8999e717eed48a7a5ffba7ca5afc51a131e6bb57f069de4",
+      "articleUrl": "https://www.sverigesradio.se/artikel/olycka-pa-ralambshovsleden-en-allvarligt-skadad",
+      "capturedAt": "2026-10-31T22:22:31.148Z"
     }
   ]
 }
