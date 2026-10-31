@@ -44624,6 +44624,10 @@
     {
       "id": "873b98727cf362acc2a28b88b86dd566d8460efdd535dcfbbccbfb9b3b036896",
       "text": "Just nu: Falkenberg tillbaka i allsvenskan"
+    },
+    {
+      "id": "15167168a39cf8b835a80f2decc6d2bccd028041acc397a57095db6530e2eede",
+      "text": "Just nu: Deep Purple-sångare på sjukhus"
     }
   ],
   "captures": [
@@ -111556,6 +111560,12 @@
       "headlineId": "873b98727cf362acc2a28b88b86dd566d8460efdd535dcfbbccbfb9b3b036896",
       "articleUrl": "https://www.sverigesradio.se/artikel/falkenberg-klart-for-allsvenskan-2027",
       "capturedAt": "2026-10-31T17:52:33.654Z"
+    },
+    {
+      "filename": "1793476648344_0.png",
+      "headlineId": "15167168a39cf8b835a80f2decc6d2bccd028041acc397a57095db6530e2eede",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ian-gillan-pa-sjukhus-deep-purple-staller-in-konserter",
+      "capturedAt": "2026-10-31T19:57:28.344Z"
     }
   ]
 }
