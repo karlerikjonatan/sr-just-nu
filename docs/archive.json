@@ -44588,6 +44588,10 @@
     {
       "id": "3f6bc06db8a5ffbcf7c73f102f0584da4d9b655553fd516894e4a33ebcf9041e",
       "text": "Just nu: Kyrkan vädjar om färre ljus"
+    },
+    {
+      "id": "1db6e3570384d8724d7931882cf02691af1a40b9d8946378fcc6f8736e3895f1",
+      "text": "Just nu: Man hittad i vattnet vid fiskehamn"
     }
   ],
   "captures": [
@@ -111466,6 +111470,12 @@
       "headlineId": "3f6bc06db8a5ffbcf7c73f102f0584da4d9b655553fd516894e4a33ebcf9041e",
       "articleUrl": "https://www.sverigesradio.se/artikel/vadjan-fran-kyrkan-tand-farre-ljus-pa-kyrkogardarna",
       "capturedAt": "2026-10-31T05:57:28.527Z"
+    },
+    {
+      "filename": "1793429548828_0.png",
+      "headlineId": "1db6e3570384d8724d7931882cf02691af1a40b9d8946378fcc6f8736e3895f1",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-funnen-allvarligt-skadad-i-fiskhamnen",
+      "capturedAt": "2026-10-31T06:52:28.828Z"
     }
   ]
 }
