@@ -44684,6 +44684,10 @@
     {
       "id": "a287c86c3d7f5dbbb8d3056bd97c7ded6a5a91fdf0be29b7b691e4215306bc7e",
       "text": "Just nu: Druid tar paus från Morgonpasset"
+    },
+    {
+      "id": "a87a31286a962925c0df34355f9cf9c0bd187c7701f306d015149997fc2fbe1c",
+      "text": "Just nu: Stopp på E22 norr om Kalmar"
     }
   ],
   "captures": [
@@ -111706,6 +111710,12 @@
       "headlineId": "a287c86c3d7f5dbbb8d3056bd97c7ded6a5a91fdf0be29b7b691e4215306bc7e",
       "articleUrl": "https://www.sverigesradio.se/artikel/david-druid-tar-paus-fran-morgonpasset-i-p3",
       "capturedAt": "2026-11-01T15:27:34.976Z"
+    },
+    {
+      "filename": "1793547153753_0.png",
+      "headlineId": "a87a31286a962925c0df34355f9cf9c0bd187c7701f306d015149997fc2fbe1c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/stopp-pa-e22-norr-om-kalmar",
+      "capturedAt": "2026-11-01T15:32:33.753Z"
     }
   ]
 }
