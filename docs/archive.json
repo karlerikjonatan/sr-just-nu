@@ -44676,6 +44676,10 @@
     {
       "id": "fb9c4e4b8f52552018dd6f1133fd97148263de18d857ea8de82a354f9f238de5",
       "text": "Just nu: Hundratusentals strömlösa i Ukraina"
+    },
+    {
+      "id": "9c1277bde19a03c827e0d118d5e12a141ab7117a4ba98e957380a84bb910c29d",
+      "text": "Just nu: Tågstopp påverkar Hallsberg–Gävle"
     }
   ],
   "captures": [
@@ -111686,6 +111690,12 @@
       "headlineId": "fb9c4e4b8f52552018dd6f1133fd97148263de18d857ea8de82a354f9f238de5",
       "articleUrl": "https://www.sverigesradio.se/artikel/rysk-attack-mot-ukrainas-elinfrastruktur",
       "capturedAt": "2026-11-01T11:17:25.879Z"
+    },
+    {
+      "filename": "1793540567247_0.png",
+      "headlineId": "9c1277bde19a03c827e0d118d5e12a141ab7117a4ba98e957380a84bb910c29d",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tagstopp-paverkar-hallsberg-gavle",
+      "capturedAt": "2026-11-01T13:42:47.247Z"
     }
   ]
 }
