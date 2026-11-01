@@ -44716,6 +44716,10 @@
     {
       "id": "b316f87056bdeccaa3ff38b558b1df658eda2c9689f79ac51aadbb4123dfc511",
       "text": "Just nu: Privatjet störtat i USA – flera döda"
+    },
+    {
+      "id": "382beaeb97237376a3679adf44a714b0f81e21008c36f182ed1021811898b848",
+      "text": "Just nu: Han är den yngste F1-världsmästaren"
     }
   ],
   "captures": [
@@ -111786,6 +111790,12 @@
       "headlineId": "b316f87056bdeccaa3ff38b558b1df658eda2c9689f79ac51aadbb4123dfc511",
       "articleUrl": "https://www.sverigesradio.se/artikel/privatjet-stortade-i-palm-beach-i-florida",
       "capturedAt": "2026-11-01T21:07:31.940Z"
+    },
+    {
+      "filename": "1793572350205_0.png",
+      "headlineId": "382beaeb97237376a3679adf44a714b0f81e21008c36f182ed1021811898b848",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kimi-antonelli-ar-formel-1-varldsmastare",
+      "capturedAt": "2026-11-01T22:32:30.205Z"
     }
   ]
 }
