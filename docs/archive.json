@@ -44648,6 +44648,10 @@
     {
       "id": "614f3cbeb74f1ca3cd7a7eb4f0fd1a98f5c855f68c899ef71742080ca3c55c5e",
       "text": "Just nu: Hungriga och berusade stal nattmat"
+    },
+    {
+      "id": "2ec35f1203e13cc7e107fb54e14aa6dafc4c884fc16b35734e58f42f7ef7874a",
+      "text": "Just nu: Jägare attackerad av björn"
     }
   ],
   "captures": [
@@ -111616,6 +111620,12 @@
       "headlineId": "614f3cbeb74f1ca3cd7a7eb4f0fd1a98f5c855f68c899ef71742080ca3c55c5e",
       "articleUrl": "https://www.sverigesradio.se/artikel/hungriga-och-berusade-stal-hotellets-brod",
       "capturedAt": "2026-11-01T06:52:36.603Z"
+    },
+    {
+      "filename": "1793516849147_0.png",
+      "headlineId": "2ec35f1203e13cc7e107fb54e14aa6dafc4c884fc16b35734e58f42f7ef7874a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/jagare-attackerad-av-bjorn-agerade-i-sjalvforsvar",
+      "capturedAt": "2026-11-01T07:07:29.147Z"
     }
   ]
 }
