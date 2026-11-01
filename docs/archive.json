@@ -44680,6 +44680,10 @@
     {
       "id": "9c1277bde19a03c827e0d118d5e12a141ab7117a4ba98e957380a84bb910c29d",
       "text": "Just nu: Tågstopp påverkar Hallsberg–Gävle"
+    },
+    {
+      "id": "a287c86c3d7f5dbbb8d3056bd97c7ded6a5a91fdf0be29b7b691e4215306bc7e",
+      "text": "Just nu: Druid tar paus från Morgonpasset"
     }
   ],
   "captures": [
@@ -111696,6 +111700,12 @@
       "headlineId": "9c1277bde19a03c827e0d118d5e12a141ab7117a4ba98e957380a84bb910c29d",
       "articleUrl": "https://www.sverigesradio.se/artikel/tagstopp-paverkar-hallsberg-gavle",
       "capturedAt": "2026-11-01T13:42:47.247Z"
+    },
+    {
+      "filename": "1793546854976_0.png",
+      "headlineId": "a287c86c3d7f5dbbb8d3056bd97c7ded6a5a91fdf0be29b7b691e4215306bc7e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/david-druid-tar-paus-fran-morgonpasset-i-p3",
+      "capturedAt": "2026-11-01T15:27:34.976Z"
     }
   ]
 }
