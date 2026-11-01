@@ -44656,6 +44656,10 @@
     {
       "id": "1bb15aa2ebb188eb29518cb6de05b3037e80956056b6a795962a6b209e37ee5a",
       "text": "Just nu: Kristersson går om Andersson"
+    },
+    {
+      "id": "580d82654ae1a33c45b87cc9cfae16379ae8d4b93a281ac9ce20c216b41fdf58",
+      "text": "Just nu: Fyra dog – äldreboende Ivo-anmäls"
     }
   ],
   "captures": [
@@ -111636,6 +111640,12 @@
       "headlineId": "1bb15aa2ebb188eb29518cb6de05b3037e80956056b6a795962a6b209e37ee5a",
       "articleUrl": "https://www.sverigesradio.se/artikel/kristersson-far-hogre-fortroende-an-andersson-av-valjarna",
       "capturedAt": "2026-11-01T07:12:30.406Z"
+    },
+    {
+      "filename": "1793521957100_0.png",
+      "headlineId": "580d82654ae1a33c45b87cc9cfae16379ae8d4b93a281ac9ce20c216b41fdf58",
+      "articleUrl": "https://www.sverigesradio.se/artikel/fyra-doda-efter-vinterkraksjuka-pa-boende-i-molndal",
+      "capturedAt": "2026-11-01T08:32:37.100Z"
     }
   ]
 }
