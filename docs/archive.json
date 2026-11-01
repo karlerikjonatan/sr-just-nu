@@ -44688,6 +44688,10 @@
     {
       "id": "a87a31286a962925c0df34355f9cf9c0bd187c7701f306d015149997fc2fbe1c",
       "text": "Just nu: Stopp på E22 norr om Kalmar"
+    },
+    {
+      "id": "7bb93cf5d60e6d8e351762ff43b7db0131cf8aeda24b099785912ae80226b86f",
+      "text": "Just nu: Bilbrand norr om Rosvik stänger E4"
     }
   ],
   "captures": [
@@ -111716,6 +111720,12 @@
       "headlineId": "a87a31286a962925c0df34355f9cf9c0bd187c7701f306d015149997fc2fbe1c",
       "articleUrl": "https://www.sverigesradio.se/artikel/stopp-pa-e22-norr-om-kalmar",
       "capturedAt": "2026-11-01T15:32:33.753Z"
+    },
+    {
+      "filename": "1793548948801_0.png",
+      "headlineId": "7bb93cf5d60e6d8e351762ff43b7db0131cf8aeda24b099785912ae80226b86f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/bilbrand-norr-om-rosvik-stanger-e4-mellan-pitea-och-lulea",
+      "capturedAt": "2026-11-01T16:02:28.801Z"
     }
   ]
 }
