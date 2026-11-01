@@ -44672,6 +44672,10 @@
     {
       "id": "70de784bfe58805a34ee27fdce596ae73038f49ecacdef096f3edf7c91dc8653",
       "text": "Just nu: EM-guld till lag Wranå"
+    },
+    {
+      "id": "fb9c4e4b8f52552018dd6f1133fd97148263de18d857ea8de82a354f9f238de5",
+      "text": "Just nu: Hundratusentals strömlösa i Ukraina"
     }
   ],
   "captures": [
@@ -111676,6 +111680,12 @@
       "headlineId": "70de784bfe58805a34ee27fdce596ae73038f49ecacdef096f3edf7c91dc8653",
       "articleUrl": "https://www.sverigesradio.se/artikel/em-guld-till-lag-wrana-besegrade-schweiz",
       "capturedAt": "2026-11-01T11:02:29.394Z"
+    },
+    {
+      "filename": "1793531845879_0.png",
+      "headlineId": "fb9c4e4b8f52552018dd6f1133fd97148263de18d857ea8de82a354f9f238de5",
+      "articleUrl": "https://www.sverigesradio.se/artikel/rysk-attack-mot-ukrainas-elinfrastruktur",
+      "capturedAt": "2026-11-01T11:17:25.879Z"
     }
   ]
 }
