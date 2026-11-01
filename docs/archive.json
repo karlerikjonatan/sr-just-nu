@@ -44692,6 +44692,10 @@
     {
       "id": "7bb93cf5d60e6d8e351762ff43b7db0131cf8aeda24b099785912ae80226b86f",
       "text": "Just nu: Bilbrand norr om Rosvik stänger E4"
+    },
+    {
+      "id": "3b6d0310fcea50f2651c60c011b60a27751905e7294d0ca66c1849ae337ea768",
+      "text": "Just nu: Pojke allvarligt skadad i olycka"
     }
   ],
   "captures": [
@@ -111726,6 +111730,12 @@
       "headlineId": "7bb93cf5d60e6d8e351762ff43b7db0131cf8aeda24b099785912ae80226b86f",
       "articleUrl": "https://www.sverigesradio.se/artikel/bilbrand-norr-om-rosvik-stanger-e4-mellan-pitea-och-lulea",
       "capturedAt": "2026-11-01T16:02:28.801Z"
+    },
+    {
+      "filename": "1793552568255_0.png",
+      "headlineId": "3b6d0310fcea50f2651c60c011b60a27751905e7294d0ca66c1849ae337ea768",
+      "articleUrl": "https://www.sverigesradio.se/artikel/pojke-allvarligt-skadad-efter-motocrossolycka",
+      "capturedAt": "2026-11-01T17:02:48.255Z"
     }
   ]
 }
