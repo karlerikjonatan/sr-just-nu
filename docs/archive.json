@@ -44704,6 +44704,10 @@
     {
       "id": "08f2c403ca6bfd1d0d7f1e7096f6befdae2d777286ad7a2fa995dc20bb154687",
       "text": "Just nu: Lastbil tappade däck på E4"
+    },
+    {
+      "id": "86e5598c2b3a8d8dcc3f512494fba61e80b1f7be58a6917d3bd267c47a0afcf5",
+      "text": "Just nu: Larm om misstänkt explosion i Malmö"
     }
   ],
   "captures": [
@@ -111756,6 +111760,12 @@
       "headlineId": "08f2c403ca6bfd1d0d7f1e7096f6befdae2d777286ad7a2fa995dc20bb154687",
       "articleUrl": "https://www.sverigesradio.se/artikel/problem-pa-e4",
       "capturedAt": "2026-11-01T18:57:27.319Z"
+    },
+    {
+      "filename": "1793559765615_0.png",
+      "headlineId": "86e5598c2b3a8d8dcc3f512494fba61e80b1f7be58a6917d3bd267c47a0afcf5",
+      "articleUrl": "https://www.sverigesradio.se/artikel/larm-om-explosion-i-malmo--4",
+      "capturedAt": "2026-11-01T19:02:45.615Z"
     }
   ]
 }
