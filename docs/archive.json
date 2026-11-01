@@ -44700,6 +44700,10 @@
     {
       "id": "a5f2350336347a28b364a537ded4301d4baa6c868f92f41a49118d6332cf1c53",
       "text": "Just nu: Misstänkt mord i Ludvika – en gripen"
+    },
+    {
+      "id": "08f2c403ca6bfd1d0d7f1e7096f6befdae2d777286ad7a2fa995dc20bb154687",
+      "text": "Just nu: Lastbil tappade däck på E4"
     }
   ],
   "captures": [
@@ -111746,6 +111750,12 @@
       "headlineId": "a5f2350336347a28b364a537ded4301d4baa6c868f92f41a49118d6332cf1c53",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-misstankt-for-mord-pa-kvinna-i-ludvika-kommun",
       "capturedAt": "2026-11-01T17:37:26.581Z"
+    },
+    {
+      "filename": "1793559447319_0.png",
+      "headlineId": "08f2c403ca6bfd1d0d7f1e7096f6befdae2d777286ad7a2fa995dc20bb154687",
+      "articleUrl": "https://www.sverigesradio.se/artikel/problem-pa-e4",
+      "capturedAt": "2026-11-01T18:57:27.319Z"
     }
   ]
 }
