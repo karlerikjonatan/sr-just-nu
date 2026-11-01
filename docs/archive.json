@@ -44636,6 +44636,10 @@
     {
       "id": "5fa2d8e9d58f7265b8999e717eed48a7a5ffba7ca5afc51a131e6bb57f069de4",
       "text": "Just nu: Olycka i Stockholm – en till sjukhus"
+    },
+    {
+      "id": "6db2143d9e6e912fcf3e01d31e5f0faf1b993bcd8146e6ba426ba94e8e17474b",
+      "text": "Just nu: FBI pekar ut nordkoreanska hackers"
     }
   ],
   "captures": [
@@ -111586,6 +111590,12 @@
       "headlineId": "5fa2d8e9d58f7265b8999e717eed48a7a5ffba7ca5afc51a131e6bb57f069de4",
       "articleUrl": "https://www.sverigesradio.se/artikel/olycka-pa-ralambshovsleden-en-allvarligt-skadad",
       "capturedAt": "2026-10-31T22:22:31.148Z"
+    },
+    {
+      "filename": "1793504848881_0.png",
+      "headlineId": "6db2143d9e6e912fcf3e01d31e5f0faf1b993bcd8146e6ba426ba94e8e17474b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/fbi-pekar-ut-nordkoreansk-grupp-efter-kupp-mot-binance",
+      "capturedAt": "2026-11-01T03:47:28.881Z"
     }
   ]
 }
