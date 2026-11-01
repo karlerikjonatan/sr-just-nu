@@ -44712,6 +44712,10 @@
     {
       "id": "cac28a58c70a7e429192930480ddcbd097ee3622e62eb49f82c9b6b40ea39c7f",
       "text": "Just nu: Privatjet störtat i Palm Beach"
+    },
+    {
+      "id": "b316f87056bdeccaa3ff38b558b1df658eda2c9689f79ac51aadbb4123dfc511",
+      "text": "Just nu: Privatjet störtat i USA – flera döda"
     }
   ],
   "captures": [
@@ -111776,6 +111780,12 @@
       "headlineId": "cac28a58c70a7e429192930480ddcbd097ee3622e62eb49f82c9b6b40ea39c7f",
       "articleUrl": "https://www.sverigesradio.se/artikel/privatjet-stortade-i-palm-beach-i-florida",
       "capturedAt": "2026-11-01T20:17:29.453Z"
+    },
+    {
+      "filename": "1793567251940_0.png",
+      "headlineId": "b316f87056bdeccaa3ff38b558b1df658eda2c9689f79ac51aadbb4123dfc511",
+      "articleUrl": "https://www.sverigesradio.se/artikel/privatjet-stortade-i-palm-beach-i-florida",
+      "capturedAt": "2026-11-01T21:07:31.940Z"
     }
   ]
 }
