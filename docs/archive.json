@@ -44708,6 +44708,10 @@
     {
       "id": "86e5598c2b3a8d8dcc3f512494fba61e80b1f7be58a6917d3bd267c47a0afcf5",
       "text": "Just nu: Larm om misstänkt explosion i Malmö"
+    },
+    {
+      "id": "cac28a58c70a7e429192930480ddcbd097ee3622e62eb49f82c9b6b40ea39c7f",
+      "text": "Just nu: Privatjet störtat i Palm Beach"
     }
   ],
   "captures": [
@@ -111766,6 +111770,12 @@
       "headlineId": "86e5598c2b3a8d8dcc3f512494fba61e80b1f7be58a6917d3bd267c47a0afcf5",
       "articleUrl": "https://www.sverigesradio.se/artikel/larm-om-explosion-i-malmo--4",
       "capturedAt": "2026-11-01T19:02:45.615Z"
+    },
+    {
+      "filename": "1793564249453_0.png",
+      "headlineId": "cac28a58c70a7e429192930480ddcbd097ee3622e62eb49f82c9b6b40ea39c7f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/privatjet-stortade-i-palm-beach-i-florida",
+      "capturedAt": "2026-11-01T20:17:29.453Z"
     }
   ]
 }
