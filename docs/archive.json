@@ -44640,6 +44640,10 @@
     {
       "id": "6db2143d9e6e912fcf3e01d31e5f0faf1b993bcd8146e6ba426ba94e8e17474b",
       "text": "Just nu: FBI pekar ut nordkoreanska hackers"
+    },
+    {
+      "id": "05a29bb4a8bb22c764c009f1f06e025f79f2c39751f242b3c514afb394a78ca8",
+      "text": "Just nu: Hungriga och berusade – stal hotellets bröd"
     }
   ],
   "captures": [
@@ -111596,6 +111600,12 @@
       "headlineId": "6db2143d9e6e912fcf3e01d31e5f0faf1b993bcd8146e6ba426ba94e8e17474b",
       "articleUrl": "https://www.sverigesradio.se/artikel/fbi-pekar-ut-nordkoreansk-grupp-efter-kupp-mot-binance",
       "capturedAt": "2026-11-01T03:47:28.881Z"
+    },
+    {
+      "filename": "1793515650935_0.png",
+      "headlineId": "05a29bb4a8bb22c764c009f1f06e025f79f2c39751f242b3c514afb394a78ca8",
+      "articleUrl": "https://www.sverigesradio.se/artikel/hungriga-och-berusade-stal-hotellets-brod",
+      "capturedAt": "2026-11-01T06:47:30.935Z"
     }
   ]
 }
