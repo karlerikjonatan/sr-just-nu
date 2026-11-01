@@ -44660,6 +44660,10 @@
     {
       "id": "580d82654ae1a33c45b87cc9cfae16379ae8d4b93a281ac9ce20c216b41fdf58",
       "text": "Just nu: Fyra dog – äldreboende Ivo-anmäls"
+    },
+    {
+      "id": "6fccce8484f0c88546761af250840fb0f0547aea4ad417babbdabe3ff6feec2f",
+      "text": "Just nu: Stökig natt på flera håll i landet"
     }
   ],
   "captures": [
@@ -111646,6 +111650,12 @@
       "headlineId": "580d82654ae1a33c45b87cc9cfae16379ae8d4b93a281ac9ce20c216b41fdf58",
       "articleUrl": "https://www.sverigesradio.se/artikel/fyra-doda-efter-vinterkraksjuka-pa-boende-i-molndal",
       "capturedAt": "2026-11-01T08:32:37.100Z"
+    },
+    {
+      "filename": "1793523756841_0.png",
+      "headlineId": "6fccce8484f0c88546761af250840fb0f0547aea4ad417babbdabe3ff6feec2f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/fest-fylla-och-misshandel-under-halloween",
+      "capturedAt": "2026-11-01T09:02:36.841Z"
     }
   ]
 }
