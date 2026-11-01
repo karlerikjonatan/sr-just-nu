@@ -44644,6 +44644,10 @@
     {
       "id": "05a29bb4a8bb22c764c009f1f06e025f79f2c39751f242b3c514afb394a78ca8",
       "text": "Just nu: Hungriga och berusade – stal hotellets bröd"
+    },
+    {
+      "id": "614f3cbeb74f1ca3cd7a7eb4f0fd1a98f5c855f68c899ef71742080ca3c55c5e",
+      "text": "Just nu: Hungriga och berusade stal nattmat"
     }
   ],
   "captures": [
@@ -111606,6 +111610,12 @@
       "headlineId": "05a29bb4a8bb22c764c009f1f06e025f79f2c39751f242b3c514afb394a78ca8",
       "articleUrl": "https://www.sverigesradio.se/artikel/hungriga-och-berusade-stal-hotellets-brod",
       "capturedAt": "2026-11-01T06:47:30.935Z"
+    },
+    {
+      "filename": "1793515956603_0.png",
+      "headlineId": "614f3cbeb74f1ca3cd7a7eb4f0fd1a98f5c855f68c899ef71742080ca3c55c5e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/hungriga-och-berusade-stal-hotellets-brod",
+      "capturedAt": "2026-11-01T06:52:36.603Z"
     }
   ]
 }
