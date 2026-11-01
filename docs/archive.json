@@ -44668,6 +44668,10 @@
     {
       "id": "882f632e124476ccca8125ac624745a7378f7ac36c04695fc671ae3585a72b03",
       "text": "Just nu: Skickade tortyrbilder till RFSU – åtalas"
+    },
+    {
+      "id": "70de784bfe58805a34ee27fdce596ae73038f49ecacdef096f3edf7c91dc8653",
+      "text": "Just nu: EM-guld till lag Wranå"
     }
   ],
   "captures": [
@@ -111666,6 +111670,12 @@
       "headlineId": "882f632e124476ccca8125ac624745a7378f7ac36c04695fc671ae3585a72b03",
       "articleUrl": "https://www.sverigesradio.se/artikel/skickade-tortyrbilder-till-rfsu-atalas-for-hot",
       "capturedAt": "2026-11-01T09:52:34.160Z"
+    },
+    {
+      "filename": "1793530949394_0.png",
+      "headlineId": "70de784bfe58805a34ee27fdce596ae73038f49ecacdef096f3edf7c91dc8653",
+      "articleUrl": "https://www.sverigesradio.se/artikel/em-guld-till-lag-wrana-besegrade-schweiz",
+      "capturedAt": "2026-11-01T11:02:29.394Z"
     }
   ]
 }
