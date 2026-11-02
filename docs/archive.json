@@ -44768,6 +44768,10 @@
     {
       "id": "58b30b8470e25821accefb007ecbcbce00b3dfeff8c68340c33dd58b269e48e7",
       "text": "Just nu: Trump med på lista över hot mott yttrandefrihet"
+    },
+    {
+      "id": "45b83ab1f02c1134befdea1259e3c4a90f3dc848cdd108eee3363f016be44721",
+      "text": "Just nu: Man sköts ihjäl – fyra får livstid"
     }
   ],
   "captures": [
@@ -111916,6 +111920,12 @@
       "headlineId": "58b30b8470e25821accefb007ecbcbce00b3dfeff8c68340c33dd58b269e48e7",
       "articleUrl": "https://www.sverigesradio.se/artikel/trump-pekas-ut-som-pressfrihetens-fiende",
       "capturedAt": "2026-11-02T10:52:27.793Z"
+    },
+    {
+      "filename": "1793617048374_0.png",
+      "headlineId": "45b83ab1f02c1134befdea1259e3c4a90f3dc848cdd108eee3363f016be44721",
+      "articleUrl": "https://www.sverigesradio.se/artikel/fyra-doms-till-livstids-fangelse-efter-mordet-i-tolered",
+      "capturedAt": "2026-11-02T10:57:28.374Z"
     }
   ]
 }
