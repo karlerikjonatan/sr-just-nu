@@ -44772,6 +44772,10 @@
     {
       "id": "45b83ab1f02c1134befdea1259e3c4a90f3dc848cdd108eee3363f016be44721",
       "text": "Just nu: Man sköts ihjäl – fyra får livstid"
+    },
+    {
+      "id": "a210bd414ed602d7045e99134fbea5a2d3763d593c684667a91cebcdeed3adcf",
+      "text": "Just nu: Flicka till sjukhus efter älgattack"
     }
   ],
   "captures": [
@@ -111926,6 +111930,12 @@
       "headlineId": "45b83ab1f02c1134befdea1259e3c4a90f3dc848cdd108eee3363f016be44721",
       "articleUrl": "https://www.sverigesradio.se/artikel/fyra-doms-till-livstids-fangelse-efter-mordet-i-tolered",
       "capturedAt": "2026-11-02T10:57:28.374Z"
+    },
+    {
+      "filename": "1793618249972_0.png",
+      "headlineId": "a210bd414ed602d7045e99134fbea5a2d3763d593c684667a91cebcdeed3adcf",
+      "articleUrl": "https://www.sverigesradio.se/artikel/flicka-till-sjukhus-attackerades-av-alg",
+      "capturedAt": "2026-11-02T11:17:29.972Z"
     }
   ]
 }
