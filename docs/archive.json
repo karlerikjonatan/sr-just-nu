@@ -44744,6 +44744,10 @@
     {
       "id": "ab7ed352825ed224f64b00053ae3d52ee727b9f3ddd1173b110f26ce215e0d19",
       "text": "Just nu: Tre allvarligt skadade efter bilolycka"
+    },
+    {
+      "id": "244bad2947477bd438439af244fb7561d1af87c9522cb1f26cbb46809ecde468",
+      "text": "Just nu: Nio anhållna efter fotbollsderbyt"
     }
   ],
   "captures": [
@@ -111856,6 +111860,12 @@
       "headlineId": "ab7ed352825ed224f64b00053ae3d52ee727b9f3ddd1173b110f26ce215e0d19",
       "articleUrl": "https://www.sverigesradio.se/artikel/olycka-i-hog-hastighet-tre-vardas-med-allvarliga-skador",
       "capturedAt": "2026-11-02T06:02:38.779Z"
+    },
+    {
+      "filename": "1793604160163_0.png",
+      "headlineId": "244bad2947477bd438439af244fb7561d1af87c9522cb1f26cbb46809ecde468",
+      "articleUrl": "https://www.sverigesradio.se/artikel/nio-personer-anhallna-for-valdsamt-upplopp-pa-fotbollsderbyt",
+      "capturedAt": "2026-11-02T07:22:40.163Z"
     }
   ]
 }
