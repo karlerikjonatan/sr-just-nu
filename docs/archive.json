@@ -44800,6 +44800,10 @@
     {
       "id": "a4ab0c55a6943cf81588f7457f12d921d1c5591f287a7199424dc49f92479564",
       "text": "Just nu: Drar sig ur om Ryssland deltar i JVM"
+    },
+    {
+      "id": "3b1a9156c776d43413e89f45c3d9e8d0e1e06fb32fb516c0fbedfb8d5d4865bb",
+      "text": "Just nu: Lastbil i diket – E18 avstängd"
     }
   ],
   "captures": [
@@ -111996,6 +112000,12 @@
       "headlineId": "a4ab0c55a6943cf81588f7457f12d921d1c5591f287a7199424dc49f92479564",
       "articleUrl": "https://www.sverigesradio.se/artikel/abo-drar-sig-ur-att-arrangera-jvm-2027-28-om-ryssland-deltar",
       "capturedAt": "2026-11-02T16:42:57.464Z"
+    },
+    {
+      "filename": "1793642550978_0.png",
+      "headlineId": "3b1a9156c776d43413e89f45c3d9e8d0e1e06fb32fb516c0fbedfb8d5d4865bb",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lastbil-i-diket-pa-e18-vagen-avstangd",
+      "capturedAt": "2026-11-02T18:02:30.978Z"
     }
   ]
 }
