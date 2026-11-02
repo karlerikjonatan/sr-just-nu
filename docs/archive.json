@@ -44740,6 +44740,10 @@
     {
       "id": "64158e27af80e53419f22579a58b4c4feec9c262a9e4dac8666d4b186f02c587",
       "text": "Just nu: Man allvarligt skadad efter trafikolycka"
+    },
+    {
+      "id": "ab7ed352825ed224f64b00053ae3d52ee727b9f3ddd1173b110f26ce215e0d19",
+      "text": "Just nu: Tre allvarligt skadade efter bilolycka"
     }
   ],
   "captures": [
@@ -111846,6 +111850,12 @@
       "headlineId": "64158e27af80e53419f22579a58b4c4feec9c262a9e4dac8666d4b186f02c587",
       "articleUrl": "https://www.sverigesradio.se/artikel/aldre-man-allvarligt-skadad-efter-trafikolycka",
       "capturedAt": "2026-11-02T05:57:26.934Z"
+    },
+    {
+      "filename": "1793599358779_0.png",
+      "headlineId": "ab7ed352825ed224f64b00053ae3d52ee727b9f3ddd1173b110f26ce215e0d19",
+      "articleUrl": "https://www.sverigesradio.se/artikel/olycka-i-hog-hastighet-tre-vardas-med-allvarliga-skador",
+      "capturedAt": "2026-11-02T06:02:38.779Z"
     }
   ]
 }
