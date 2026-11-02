@@ -44764,6 +44764,10 @@
     {
       "id": "ac5930929e82ca223e5278137eb1be050dce7d9f3049e0d3c4bcd6841dc23e01",
       "text": "Just nu: Flera trafikolyckor i Gävleborg"
+    },
+    {
+      "id": "58b30b8470e25821accefb007ecbcbce00b3dfeff8c68340c33dd58b269e48e7",
+      "text": "Just nu: Trump med på lista över hot mott yttrandefrihet"
     }
   ],
   "captures": [
@@ -111906,6 +111910,12 @@
       "headlineId": "ac5930929e82ca223e5278137eb1be050dce7d9f3049e0d3c4bcd6841dc23e01",
       "articleUrl": "https://www.sverigesradio.se/artikel/flera-till-sjukhus-efter-olyckor-i-morgontrafiken",
       "capturedAt": "2026-11-02T10:02:32.397Z"
+    },
+    {
+      "filename": "1793616747793_0.png",
+      "headlineId": "58b30b8470e25821accefb007ecbcbce00b3dfeff8c68340c33dd58b269e48e7",
+      "articleUrl": "https://www.sverigesradio.se/artikel/trump-pekas-ut-som-pressfrihetens-fiende",
+      "capturedAt": "2026-11-02T10:52:27.793Z"
     }
   ]
 }
