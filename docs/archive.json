@@ -44808,6 +44808,10 @@
     {
       "id": "e555507765c53440f0b23d752935f26d509e04c321904dc41f5bf8a679188945",
       "text": "Just nu: De vägrar möta Ryssland i hockey-VM"
+    },
+    {
+      "id": "e83aafd4d3839aec135073af0562c015652a77ff30bfbaadf1ace0b632e82fde",
+      "text": "Just nu: Krock utanför Markaryd – E4 avstängd"
     }
   ],
   "captures": [
@@ -112016,6 +112020,12 @@
       "headlineId": "e555507765c53440f0b23d752935f26d509e04c321904dc41f5bf8a679188945",
       "articleUrl": "https://www.sverigesradio.se/artikel/finland-vagrar-mota-ryssland-i-ishockey-vm",
       "capturedAt": "2026-11-02T20:27:35.338Z"
+    },
+    {
+      "filename": "1793652156486_0.png",
+      "headlineId": "e83aafd4d3839aec135073af0562c015652a77ff30bfbaadf1ace0b632e82fde",
+      "articleUrl": "https://www.sverigesradio.se/artikel/flerbilskrock-utanfor-markaryd-e4-avstangd",
+      "capturedAt": "2026-11-02T20:42:36.486Z"
     }
   ]
 }
