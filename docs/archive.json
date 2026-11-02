@@ -44780,6 +44780,10 @@
     {
       "id": "e7e13d9ad0c01a84f5d1ebc345c93ca010281e98302ca81dbb0cb3edf19fc248",
       "text": "Just nu: Technopionjären Juan Atkins är död"
+    },
+    {
+      "id": "d797ef1df0a0298b7c122977f1c239b3c5f46ef6fe49ec34f9c2b69656c8494c",
+      "text": "Just nu: Juan Atkins är död"
     }
   ],
   "captures": [
@@ -111946,6 +111950,12 @@
       "headlineId": "e7e13d9ad0c01a84f5d1ebc345c93ca010281e98302ca81dbb0cb3edf19fc248",
       "articleUrl": "https://www.sverigesradio.se/artikel/technopionjaren-juan-atkins-dod",
       "capturedAt": "2026-11-02T12:32:33.104Z"
+    },
+    {
+      "filename": "1793623050307_0.png",
+      "headlineId": "d797ef1df0a0298b7c122977f1c239b3c5f46ef6fe49ec34f9c2b69656c8494c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/technopionjaren-juan-atkins-dod",
+      "capturedAt": "2026-11-02T12:37:30.307Z"
     }
   ]
 }
