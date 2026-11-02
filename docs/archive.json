@@ -44788,6 +44788,10 @@
     {
       "id": "3d3d76049951626bacbbc8a91b52a2190aec52c8431328d2af5af57933b67ddd",
       "text": "Just nu: Även belgiska matbutiker drabbade"
+    },
+    {
+      "id": "1f95093df6aa917164668ecaddf6465ca44a45debaaa71e5a3b5bb9c660e02f2",
+      "text": "Just nu: En död efter villabrand i Kramfors"
     }
   ],
   "captures": [
@@ -111966,6 +111970,12 @@
       "headlineId": "3d3d76049951626bacbbc8a91b52a2190aec52c8431328d2af5af57933b67ddd",
       "articleUrl": "https://www.sverigesradio.se/artikel/fryshaveri-i-belgiska-matbutiker-efter-cyberattack",
       "capturedAt": "2026-11-02T12:52:47.474Z"
+    },
+    {
+      "filename": "1793625774448_0.png",
+      "headlineId": "1f95093df6aa917164668ecaddf6465ca44a45debaaa71e5a3b5bb9c660e02f2",
+      "articleUrl": "https://www.sverigesradio.se/artikel/fullt-utvecklad-brand-i-villa-i-kramfors",
+      "capturedAt": "2026-11-02T13:22:54.448Z"
     }
   ]
 }
