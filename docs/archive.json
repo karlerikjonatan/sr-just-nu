@@ -44816,6 +44816,10 @@
     {
       "id": "9591ecba8a47d8b2064b2943624c614ca81e8e10e8485d5f2ba512866b1a9849",
       "text": "Just nu: Lastbilsolycka – E18 avstängd"
+    },
+    {
+      "id": "9768ace01c85a789d6184f38f454c8bbaf7509f147c98d006e4a9c046a249c3c",
+      "text": "Just nu: Samtal mellan Ryssland och Ukraina nästa vecka"
     }
   ],
   "captures": [
@@ -112036,6 +112040,12 @@
       "headlineId": "9591ecba8a47d8b2064b2943624c614ca81e8e10e8485d5f2ba512866b1a9849",
       "articleUrl": "https://www.sverigesradio.se/artikel/e18-avstangd-efter-lastbilsolycka--3",
       "capturedAt": "2026-11-02T23:42:31.806Z"
+    },
+    {
+      "filename": "1793663552294_0.png",
+      "headlineId": "9768ace01c85a789d6184f38f454c8bbaf7509f147c98d006e4a9c046a249c3c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/usa-medlar-samtal-mellan-ryssland-och-ukraina",
+      "capturedAt": "2026-11-02T23:52:32.294Z"
     }
   ]
 }
