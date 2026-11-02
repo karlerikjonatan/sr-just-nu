@@ -44812,6 +44812,10 @@
     {
       "id": "e83aafd4d3839aec135073af0562c015652a77ff30bfbaadf1ace0b632e82fde",
       "text": "Just nu: Krock utanför Markaryd – E4 avstängd"
+    },
+    {
+      "id": "9591ecba8a47d8b2064b2943624c614ca81e8e10e8485d5f2ba512866b1a9849",
+      "text": "Just nu: Lastbilsolycka – E18 avstängd"
     }
   ],
   "captures": [
@@ -112026,6 +112030,12 @@
       "headlineId": "e83aafd4d3839aec135073af0562c015652a77ff30bfbaadf1ace0b632e82fde",
       "articleUrl": "https://www.sverigesradio.se/artikel/flerbilskrock-utanfor-markaryd-e4-avstangd",
       "capturedAt": "2026-11-02T20:42:36.486Z"
+    },
+    {
+      "filename": "1793662951806_0.png",
+      "headlineId": "9591ecba8a47d8b2064b2943624c614ca81e8e10e8485d5f2ba512866b1a9849",
+      "articleUrl": "https://www.sverigesradio.se/artikel/e18-avstangd-efter-lastbilsolycka--3",
+      "capturedAt": "2026-11-02T23:42:31.806Z"
     }
   ]
 }
