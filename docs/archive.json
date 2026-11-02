@@ -44724,6 +44724,14 @@
     {
       "id": "ab28a322b4fbe19baa6679a240a28fc978bfa38a6ac199ae9410158efe050245",
       "text": "Just nu: Ukrainas och Rysslands appar hackade"
+    },
+    {
+      "id": "0a841c3733b4c05b964fabbde9e9d296cffd96f2fb373d2955e284a0875f63fc",
+      "text": "Just nu: Man allvarigt skadad efter trafikolycka"
+    },
+    {
+      "id": "c63741f56745ec5bdc140c6905c3bed06de0bd044da310c6225e56ac01b05157",
+      "text": "Just nu: Tankbil brinner – E4 avstängd"
     }
   ],
   "captures": [
@@ -111806,6 +111814,18 @@
       "headlineId": "ab28a322b4fbe19baa6679a240a28fc978bfa38a6ac199ae9410158efe050245",
       "articleUrl": "https://www.sverigesradio.se/artikel/ukrainas-varningsapp-hackad-falska-larm-i-appen",
       "capturedAt": "2026-11-02T02:07:30.810Z"
+    },
+    {
+      "filename": "1793596354739_0.png",
+      "headlineId": "c63741f56745ec5bdc140c6905c3bed06de0bd044da310c6225e56ac01b05157",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tankbil-i-oppna-lagor-e4-avstangd",
+      "capturedAt": "2026-11-02T05:12:34.739Z"
+    },
+    {
+      "filename": "1793596354739_1.png",
+      "headlineId": "0a841c3733b4c05b964fabbde9e9d296cffd96f2fb373d2955e284a0875f63fc",
+      "articleUrl": "https://www.sverigesradio.se/artikel/aldre-man-allvarligt-skadad-efter-trafikolycka",
+      "capturedAt": "2026-11-02T05:12:34.739Z"
     }
   ]
 }
