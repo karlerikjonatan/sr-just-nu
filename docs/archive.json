@@ -44736,6 +44736,10 @@
     {
       "id": "45bdd08d4060fa73e5202c88ced5edd3a53ee6f0df9d3e46be3abe2381a69b84",
       "text": "Just nu: Tankbil brann – E4 delvis avstängd"
+    },
+    {
+      "id": "64158e27af80e53419f22579a58b4c4feec9c262a9e4dac8666d4b186f02c587",
+      "text": "Just nu: Man allvarligt skadad efter trafikolycka"
     }
   ],
   "captures": [
@@ -111836,6 +111840,12 @@
       "headlineId": "45bdd08d4060fa73e5202c88ced5edd3a53ee6f0df9d3e46be3abe2381a69b84",
       "articleUrl": "https://www.sverigesradio.se/artikel/tankbil-i-oppna-lagor-e4-avstangd",
       "capturedAt": "2026-11-02T05:42:32.355Z"
+    },
+    {
+      "filename": "1793599046934_0.png",
+      "headlineId": "64158e27af80e53419f22579a58b4c4feec9c262a9e4dac8666d4b186f02c587",
+      "articleUrl": "https://www.sverigesradio.se/artikel/aldre-man-allvarligt-skadad-efter-trafikolycka",
+      "capturedAt": "2026-11-02T05:57:26.934Z"
     }
   ]
 }
