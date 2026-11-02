@@ -44720,6 +44720,10 @@
     {
       "id": "382beaeb97237376a3679adf44a714b0f81e21008c36f182ed1021811898b848",
       "text": "Just nu: Han är den yngste F1-världsmästaren"
+    },
+    {
+      "id": "ab28a322b4fbe19baa6679a240a28fc978bfa38a6ac199ae9410158efe050245",
+      "text": "Just nu: Ukrainas och Rysslands appar hackade"
     }
   ],
   "captures": [
@@ -111796,6 +111800,12 @@
       "headlineId": "382beaeb97237376a3679adf44a714b0f81e21008c36f182ed1021811898b848",
       "articleUrl": "https://www.sverigesradio.se/artikel/kimi-antonelli-ar-formel-1-varldsmastare",
       "capturedAt": "2026-11-01T22:32:30.205Z"
+    },
+    {
+      "filename": "1793585250810_0.png",
+      "headlineId": "ab28a322b4fbe19baa6679a240a28fc978bfa38a6ac199ae9410158efe050245",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ukrainas-varningsapp-hackad-falska-larm-i-appen",
+      "capturedAt": "2026-11-02T02:07:30.810Z"
     }
   ]
 }
