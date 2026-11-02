@@ -44756,6 +44756,10 @@
     {
       "id": "a2a2eaaeefd611d194502bb665a3e82844a5a63241c388a1f2baa14a05371500",
       "text": "Just nu: Fryshaveri på Ica: ”Blivit hackade”"
+    },
+    {
+      "id": "34e359494c1e2ee11e8d73bf3d65b4fa5cd46ebf8fae70e88fd1f0b57cccfe3e",
+      "text": "Just nu: Fryshaveri på Ica – blivit hackade"
     }
   ],
   "captures": [
@@ -111886,6 +111890,12 @@
       "headlineId": "a2a2eaaeefd611d194502bb665a3e82844a5a63241c388a1f2baa14a05371500",
       "articleUrl": "https://www.sverigesradio.se/artikel/frysarna-i-matbutik-installda-pa-50-grader-blivit-hackade",
       "capturedAt": "2026-11-02T07:57:29.338Z"
+    },
+    {
+      "filename": "1793607446747_0.png",
+      "headlineId": "34e359494c1e2ee11e8d73bf3d65b4fa5cd46ebf8fae70e88fd1f0b57cccfe3e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ica-butik-har-fatt-frysdiskar-hackade-temperatur-pa-50-grader",
+      "capturedAt": "2026-11-02T08:17:26.747Z"
     }
   ]
 }
