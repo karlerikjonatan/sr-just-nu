@@ -44760,6 +44760,10 @@
     {
       "id": "34e359494c1e2ee11e8d73bf3d65b4fa5cd46ebf8fae70e88fd1f0b57cccfe3e",
       "text": "Just nu: Fryshaveri på Ica – blivit hackade"
+    },
+    {
+      "id": "ac5930929e82ca223e5278137eb1be050dce7d9f3049e0d3c4bcd6841dc23e01",
+      "text": "Just nu: Flera trafikolyckor i Gävleborg"
     }
   ],
   "captures": [
@@ -111896,6 +111900,12 @@
       "headlineId": "34e359494c1e2ee11e8d73bf3d65b4fa5cd46ebf8fae70e88fd1f0b57cccfe3e",
       "articleUrl": "https://www.sverigesradio.se/artikel/ica-butik-har-fatt-frysdiskar-hackade-temperatur-pa-50-grader",
       "capturedAt": "2026-11-02T08:17:26.747Z"
+    },
+    {
+      "filename": "1793613752397_0.png",
+      "headlineId": "ac5930929e82ca223e5278137eb1be050dce7d9f3049e0d3c4bcd6841dc23e01",
+      "articleUrl": "https://www.sverigesradio.se/artikel/flera-till-sjukhus-efter-olyckor-i-morgontrafiken",
+      "capturedAt": "2026-11-02T10:02:32.397Z"
     }
   ]
 }
