@@ -44796,6 +44796,10 @@
     {
       "id": "fdcb769dd435e4e24ca9dc8bb67c13890dda360b636eb3bb8e001438bad3e51a",
       "text": "Just nu: Borg Høiby slipper husarrest"
+    },
+    {
+      "id": "a4ab0c55a6943cf81588f7457f12d921d1c5591f287a7199424dc49f92479564",
+      "text": "Just nu: Drar sig ur om Ryssland deltar i JVM"
     }
   ],
   "captures": [
@@ -111986,6 +111990,12 @@
       "headlineId": "fdcb769dd435e4e24ca9dc8bb67c13890dda360b636eb3bb8e001438bad3e51a",
       "articleUrl": "https://www.sverigesradio.se/artikel/borg-hoiby-slipper-husarrest-med-fotboja",
       "capturedAt": "2026-11-02T16:37:31.085Z"
+    },
+    {
+      "filename": "1793637777464_0.png",
+      "headlineId": "a4ab0c55a6943cf81588f7457f12d921d1c5591f287a7199424dc49f92479564",
+      "articleUrl": "https://www.sverigesradio.se/artikel/abo-drar-sig-ur-att-arrangera-jvm-2027-28-om-ryssland-deltar",
+      "capturedAt": "2026-11-02T16:42:57.464Z"
     }
   ]
 }
