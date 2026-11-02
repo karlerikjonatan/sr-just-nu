@@ -44784,6 +44784,10 @@
     {
       "id": "d797ef1df0a0298b7c122977f1c239b3c5f46ef6fe49ec34f9c2b69656c8494c",
       "text": "Just nu: Juan Atkins är död"
+    },
+    {
+      "id": "3d3d76049951626bacbbc8a91b52a2190aec52c8431328d2af5af57933b67ddd",
+      "text": "Just nu: Även belgiska matbutiker drabbade"
     }
   ],
   "captures": [
@@ -111956,6 +111960,12 @@
       "headlineId": "d797ef1df0a0298b7c122977f1c239b3c5f46ef6fe49ec34f9c2b69656c8494c",
       "articleUrl": "https://www.sverigesradio.se/artikel/technopionjaren-juan-atkins-dod",
       "capturedAt": "2026-11-02T12:37:30.307Z"
+    },
+    {
+      "filename": "1793623967474_0.png",
+      "headlineId": "3d3d76049951626bacbbc8a91b52a2190aec52c8431328d2af5af57933b67ddd",
+      "articleUrl": "https://www.sverigesradio.se/artikel/fryshaveri-i-belgiska-matbutiker-efter-cyberattack",
+      "capturedAt": "2026-11-02T12:52:47.474Z"
     }
   ]
 }
