@@ -44752,6 +44752,10 @@
     {
       "id": "aa034735db57e3a9ce9d00b03bd1cc50853c011c50d2718887eb605692788b1e",
       "text": "Just nu: Fryshaveri i matbutiker"
+    },
+    {
+      "id": "a2a2eaaeefd611d194502bb665a3e82844a5a63241c388a1f2baa14a05371500",
+      "text": "Just nu: Fryshaveri på Ica: ”Blivit hackade”"
     }
   ],
   "captures": [
@@ -111876,6 +111880,12 @@
       "headlineId": "aa034735db57e3a9ce9d00b03bd1cc50853c011c50d2718887eb605692788b1e",
       "articleUrl": "https://www.sverigesradio.se/artikel/frysarna-i-matbutik-installda-pa-50-grader-blivit-hackade",
       "capturedAt": "2026-11-02T07:52:30.387Z"
+    },
+    {
+      "filename": "1793606249338_0.png",
+      "headlineId": "a2a2eaaeefd611d194502bb665a3e82844a5a63241c388a1f2baa14a05371500",
+      "articleUrl": "https://www.sverigesradio.se/artikel/frysarna-i-matbutik-installda-pa-50-grader-blivit-hackade",
+      "capturedAt": "2026-11-02T07:57:29.338Z"
     }
   ]
 }
