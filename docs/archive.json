@@ -44804,6 +44804,10 @@
     {
       "id": "3b1a9156c776d43413e89f45c3d9e8d0e1e06fb32fb516c0fbedfb8d5d4865bb",
       "text": "Just nu: Lastbil i diket – E18 avstängd"
+    },
+    {
+      "id": "e555507765c53440f0b23d752935f26d509e04c321904dc41f5bf8a679188945",
+      "text": "Just nu: De vägrar möta Ryssland i hockey-VM"
     }
   ],
   "captures": [
@@ -112006,6 +112010,12 @@
       "headlineId": "3b1a9156c776d43413e89f45c3d9e8d0e1e06fb32fb516c0fbedfb8d5d4865bb",
       "articleUrl": "https://www.sverigesradio.se/artikel/lastbil-i-diket-pa-e18-vagen-avstangd",
       "capturedAt": "2026-11-02T18:02:30.978Z"
+    },
+    {
+      "filename": "1793651255338_0.png",
+      "headlineId": "e555507765c53440f0b23d752935f26d509e04c321904dc41f5bf8a679188945",
+      "articleUrl": "https://www.sverigesradio.se/artikel/finland-vagrar-mota-ryssland-i-ishockey-vm",
+      "capturedAt": "2026-11-02T20:27:35.338Z"
     }
   ]
 }
