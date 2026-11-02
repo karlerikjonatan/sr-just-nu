@@ -44776,6 +44776,10 @@
     {
       "id": "a210bd414ed602d7045e99134fbea5a2d3763d593c684667a91cebcdeed3adcf",
       "text": "Just nu: Flicka till sjukhus efter älgattack"
+    },
+    {
+      "id": "e7e13d9ad0c01a84f5d1ebc345c93ca010281e98302ca81dbb0cb3edf19fc248",
+      "text": "Just nu: Technopionjären Juan Atkins är död"
     }
   ],
   "captures": [
@@ -111936,6 +111940,12 @@
       "headlineId": "a210bd414ed602d7045e99134fbea5a2d3763d593c684667a91cebcdeed3adcf",
       "articleUrl": "https://www.sverigesradio.se/artikel/flicka-till-sjukhus-attackerades-av-alg",
       "capturedAt": "2026-11-02T11:17:29.972Z"
+    },
+    {
+      "filename": "1793622753104_0.png",
+      "headlineId": "e7e13d9ad0c01a84f5d1ebc345c93ca010281e98302ca81dbb0cb3edf19fc248",
+      "articleUrl": "https://www.sverigesradio.se/artikel/technopionjaren-juan-atkins-dod",
+      "capturedAt": "2026-11-02T12:32:33.104Z"
     }
   ]
 }
