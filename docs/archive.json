@@ -44832,6 +44832,10 @@
     {
       "id": "5d27036472ba10a9a020a005c0d01ec5a121b67d68e1420f7c49781b0712c69c",
       "text": "Just nu: Cyklist död – blev påkörd av bil"
+    },
+    {
+      "id": "2e0e40742344d707874597401aeccaa7ce1d85290012d0cd222ca1fd65d8d2c6",
+      "text": "Just nu: Låtskrivaren Gert Lengstrand är död"
     }
   ],
   "captures": [
@@ -112076,6 +112080,12 @@
       "headlineId": "5d27036472ba10a9a020a005c0d01ec5a121b67d68e1420f7c49781b0712c69c",
       "articleUrl": "https://www.sverigesradio.se/artikel/cyklist-omkom-pakord-av-bil-utanfor-norrtalje",
       "capturedAt": "2026-11-03T02:47:33.066Z"
+    },
+    {
+      "filename": "1793685452701_0.png",
+      "headlineId": "2e0e40742344d707874597401aeccaa7ce1d85290012d0cd222ca1fd65d8d2c6",
+      "articleUrl": "https://www.sverigesradio.se/artikel/streaplerslegendaren-gert-lengstrand-dod",
+      "capturedAt": "2026-11-03T05:57:32.701Z"
     }
   ]
 }
