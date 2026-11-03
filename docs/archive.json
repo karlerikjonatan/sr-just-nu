@@ -44924,6 +44924,10 @@
     {
       "id": "7dcec76b2d7737b8d05663561c0e246314b9af2d58cec5f5e1b254821d141985",
       "text": "Just nu: Kvinna till sjukhus efter olycka i Malmö"
+    },
+    {
+      "id": "06e24c2c27d7c0b1edadb9ee7bd33aeed2ddb72396c75fe6199211476d7e8fff",
+      "text": "Just nu: Kanada stoppar Ryssland från JVM"
     }
   ],
   "captures": [
@@ -112306,6 +112310,12 @@
       "headlineId": "7dcec76b2d7737b8d05663561c0e246314b9af2d58cec5f5e1b254821d141985",
       "articleUrl": "https://www.sverigesradio.se/artikel/kvinna-pakord-i-malmo-ford-till-sjukhus",
       "capturedAt": "2026-11-03T21:32:42.939Z"
+    },
+    {
+      "filename": "1793747852754_0.png",
+      "headlineId": "06e24c2c27d7c0b1edadb9ee7bd33aeed2ddb72396c75fe6199211476d7e8fff",
+      "articleUrl": "https://www.sverigesradio.se/artikel/direktrapport-om-rysslandsbesked-inom-idrotten",
+      "capturedAt": "2026-11-03T23:17:32.754Z"
     }
   ]
 }
