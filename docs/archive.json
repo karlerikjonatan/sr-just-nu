@@ -44916,6 +44916,10 @@
     {
       "id": "023be9ec60c52dd17f838b3affe79e81d7155595eedf3d7ff7b79be8dfeadd33",
       "text": "Just nu: Uppmaningen när miljoner pass går ut"
+    },
+    {
+      "id": "6fc9dfff3051aa35480a9c8f62c8533f23ad64e10691cc310dba5abd6056bd21",
+      "text": "Just nu: Avgår efter dödliga tågkrascher"
     }
   ],
   "captures": [
@@ -112286,6 +112290,12 @@
       "headlineId": "023be9ec60c52dd17f838b3affe79e81d7155595eedf3d7ff7b79be8dfeadd33",
       "articleUrl": "https://www.sverigesradio.se/artikel/fornya-passet-nu-for-att-inte-riskera-semestern",
       "capturedAt": "2026-11-03T19:49:00.431Z"
+    },
+    {
+      "filename": "1793737988448_0.png",
+      "headlineId": "6fc9dfff3051aa35480a9c8f62c8533f23ad64e10691cc310dba5abd6056bd21",
+      "articleUrl": "https://www.sverigesradio.se/artikel/spaniens-transportminister-avgar",
+      "capturedAt": "2026-11-03T20:33:08.448Z"
     }
   ]
 }
