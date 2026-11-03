@@ -44856,6 +44856,10 @@
     {
       "id": "b461971273b433f70b79e3cf4e7dbc48601de883222f3c8afbc0e702ce6826fa",
       "text": "Just nu: Polis åtalas för dataintrång"
+    },
+    {
+      "id": "c199c004b5905be6cde4efe2530240c529b1348bd6362877195ce3118876d1d2",
+      "text": "Just nu: Teneriffaspelare död efter hjärtstopp"
     }
   ],
   "captures": [
@@ -112136,6 +112140,12 @@
       "headlineId": "b461971273b433f70b79e3cf4e7dbc48601de883222f3c8afbc0e702ce6826fa",
       "articleUrl": "https://www.sverigesradio.se/artikel/polis-atalas-for-dataintrang-gjort-olagliga-slagningar",
       "capturedAt": "2026-11-03T08:47:30.963Z"
+    },
+    {
+      "filename": "1793697149930_0.png",
+      "headlineId": "c199c004b5905be6cde4efe2530240c529b1348bd6362877195ce3118876d1d2",
+      "articleUrl": "https://www.sverigesradio.se/artikel/teneriffaspelare-dod-efter-hjartstopp",
+      "capturedAt": "2026-11-03T09:12:29.930Z"
     }
   ]
 }
