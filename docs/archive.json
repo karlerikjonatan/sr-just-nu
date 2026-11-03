@@ -44880,6 +44880,10 @@
     {
       "id": "c13e9e36292e325f92e95f5e3a3787feb114336d1b623399a3ed2e87e4fc0fc7",
       "text": "Just nu: Skolelever till sjukhus efter utsläpp"
+    },
+    {
+      "id": "6145afa8328be64c34e1ec9ed995e552879312981dff5f14e18787cbd303fa0a",
+      "text": "Just nu: Läkare döms för våldtäkter mot patienter"
     }
   ],
   "captures": [
@@ -112196,6 +112200,12 @@
       "headlineId": "c13e9e36292e325f92e95f5e3a3787feb114336d1b623399a3ed2e87e4fc0fc7",
       "articleUrl": "https://www.sverigesradio.se/artikel/skola-i-sollentuna-utrymd-efter-utslapp",
       "capturedAt": "2026-11-03T10:52:37.965Z"
+    },
+    {
+      "filename": "1793712453558_0.png",
+      "headlineId": "6145afa8328be64c34e1ec9ed995e552879312981dff5f14e18787cbd303fa0a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lakare-doms-for-fler-valdtakter",
+      "capturedAt": "2026-11-03T13:27:33.558Z"
     }
   ]
 }
