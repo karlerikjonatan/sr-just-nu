@@ -44876,6 +44876,10 @@
     {
       "id": "878cb879e4e985285536f7fe5380ade0ec8a75b581d2a31ee23c8835af0913be",
       "text": "Just nu: Skjuter upp turné efter sjukdomsfall"
+    },
+    {
+      "id": "c13e9e36292e325f92e95f5e3a3787feb114336d1b623399a3ed2e87e4fc0fc7",
+      "text": "Just nu: Skolelever till sjukhus efter utsläpp"
     }
   ],
   "captures": [
@@ -112186,6 +112190,12 @@
       "headlineId": "878cb879e4e985285536f7fe5380ade0ec8a75b581d2a31ee23c8835af0913be",
       "articleUrl": "https://www.sverigesradio.se/artikel/deep-purple-skjuter-upp-europaturne",
       "capturedAt": "2026-11-03T10:42:36.503Z"
+    },
+    {
+      "filename": "1793703157965_0.png",
+      "headlineId": "c13e9e36292e325f92e95f5e3a3787feb114336d1b623399a3ed2e87e4fc0fc7",
+      "articleUrl": "https://www.sverigesradio.se/artikel/skola-i-sollentuna-utrymd-efter-utslapp",
+      "capturedAt": "2026-11-03T10:52:37.965Z"
     }
   ]
 }
