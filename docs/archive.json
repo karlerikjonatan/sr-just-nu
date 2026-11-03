@@ -44840,6 +44840,10 @@
     {
       "id": "fe92bb40ffcc12a9a11870fb8c38297111cd796bb036af6d57b57dce3fd757e4",
       "text": "Just nu: Räddade på båt efter fyra månader"
+    },
+    {
+      "id": "6a190a4cce5b569084f4529efbb59b15bca30b945d336cb65c1b2bb19952c798",
+      "text": "Just nu: Räddade på båt efter tre månader"
     }
   ],
   "captures": [
@@ -112096,6 +112100,12 @@
       "headlineId": "fe92bb40ffcc12a9a11870fb8c38297111cd796bb036af6d57b57dce3fd757e4",
       "articleUrl": "https://www.sverigesradio.se/artikel/fem-raddade-efter-tre-manader-till-havs-vid-kiribati",
       "capturedAt": "2026-11-03T06:32:33.378Z"
+    },
+    {
+      "filename": "1793688154853_0.png",
+      "headlineId": "6a190a4cce5b569084f4529efbb59b15bca30b945d336cb65c1b2bb19952c798",
+      "articleUrl": "https://www.sverigesradio.se/artikel/fem-raddade-efter-tre-manader-till-havs-vid-kiribati",
+      "capturedAt": "2026-11-03T06:42:34.853Z"
     }
   ]
 }
