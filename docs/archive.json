@@ -44844,6 +44844,10 @@
     {
       "id": "6a190a4cce5b569084f4529efbb59b15bca30b945d336cb65c1b2bb19952c798",
       "text": "Just nu: Räddade på båt efter tre månader"
+    },
+    {
+      "id": "772116a8261e8673aa8d12ea645dd3a33aa4500afb7a30a17216b02ee6196920",
+      "text": "Just nu: Buss, lastbil och personbil i krock"
     }
   ],
   "captures": [
@@ -112106,6 +112110,12 @@
       "headlineId": "6a190a4cce5b569084f4529efbb59b15bca30b945d336cb65c1b2bb19952c798",
       "articleUrl": "https://www.sverigesradio.se/artikel/fem-raddade-efter-tre-manader-till-havs-vid-kiribati",
       "capturedAt": "2026-11-03T06:42:34.853Z"
+    },
+    {
+      "filename": "1793690247447_0.png",
+      "headlineId": "772116a8261e8673aa8d12ea645dd3a33aa4500afb7a30a17216b02ee6196920",
+      "articleUrl": "https://www.sverigesradio.se/artikel/buss-lastbil-och-personbil-i-krock-vid-kungens-kurva",
+      "capturedAt": "2026-11-03T07:17:27.447Z"
     }
   ]
 }
