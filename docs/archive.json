@@ -44820,6 +44820,10 @@
     {
       "id": "9768ace01c85a789d6184f38f454c8bbaf7509f147c98d006e4a9c046a249c3c",
       "text": "Just nu: Samtal mellan Ryssland och Ukraina nästa vecka"
+    },
+    {
+      "id": "d35f891ad5c915fb693809764dc6311deddb805409bf266a7c9de4f6c2e8c46b",
+      "text": "Just nu: Domstol nobbar Trumps röstkrav"
     }
   ],
   "captures": [
@@ -112046,6 +112050,12 @@
       "headlineId": "9768ace01c85a789d6184f38f454c8bbaf7509f147c98d006e4a9c046a249c3c",
       "articleUrl": "https://www.sverigesradio.se/artikel/usa-medlar-samtal-mellan-ryssland-och-ukraina",
       "capturedAt": "2026-11-02T23:52:32.294Z"
+    },
+    {
+      "filename": "1793667444309_0.png",
+      "headlineId": "d35f891ad5c915fb693809764dc6311deddb805409bf266a7c9de4f6c2e8c46b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ekots-direktrapport-om-mellanarsvalet-i-usa",
+      "capturedAt": "2026-11-03T00:57:24.309Z"
     }
   ]
 }
