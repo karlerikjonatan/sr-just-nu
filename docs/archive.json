@@ -44884,6 +44884,10 @@
     {
       "id": "6145afa8328be64c34e1ec9ed995e552879312981dff5f14e18787cbd303fa0a",
       "text": "Just nu: Läkare döms för våldtäkter mot patienter"
+    },
+    {
+      "id": "3a7de8e26d3288c4b3d4494cb53dceb8be3b5fc0abbad0222d663d88ff525397",
+      "text": "Just nu: SMHI: Orange varning i fjällen"
     }
   ],
   "captures": [
@@ -112206,6 +112210,12 @@
       "headlineId": "6145afa8328be64c34e1ec9ed995e552879312981dff5f14e18787cbd303fa0a",
       "articleUrl": "https://www.sverigesradio.se/artikel/lakare-doms-for-fler-valdtakter",
       "capturedAt": "2026-11-03T13:27:33.558Z"
+    },
+    {
+      "filename": "1793712752915_0.png",
+      "headlineId": "3a7de8e26d3288c4b3d4494cb53dceb8be3b5fc0abbad0222d663d88ff525397",
+      "articleUrl": "https://www.sverigesradio.se/artikel/orange-varning-for-stormvindar-och-sno-i-fjallen",
+      "capturedAt": "2026-11-03T13:32:32.915Z"
     }
   ]
 }
