@@ -44860,6 +44860,10 @@
     {
       "id": "c199c004b5905be6cde4efe2530240c529b1348bd6362877195ce3118876d1d2",
       "text": "Just nu: Teneriffaspelare död efter hjärtstopp"
+    },
+    {
+      "id": "e96dedcaf00fa754e2731feae70e85cef07fd49c4064fd7bbbc5187442535f5b",
+      "text": "Just nu: Skola i Sollentuna utrymd efter utsläpp"
     }
   ],
   "captures": [
@@ -112146,6 +112150,12 @@
       "headlineId": "c199c004b5905be6cde4efe2530240c529b1348bd6362877195ce3118876d1d2",
       "articleUrl": "https://www.sverigesradio.se/artikel/teneriffaspelare-dod-efter-hjartstopp",
       "capturedAt": "2026-11-03T09:12:29.930Z"
+    },
+    {
+      "filename": "1793698351573_0.png",
+      "headlineId": "e96dedcaf00fa754e2731feae70e85cef07fd49c4064fd7bbbc5187442535f5b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/skola-i-sollentuna-utrymd-efter-utslapp",
+      "capturedAt": "2026-11-03T09:32:31.573Z"
     }
   ]
 }
