@@ -44888,6 +44888,10 @@
     {
       "id": "3a7de8e26d3288c4b3d4494cb53dceb8be3b5fc0abbad0222d663d88ff525397",
       "text": "Just nu: SMHI: Orange varning i fjällen"
+    },
+    {
+      "id": "6ba2e03d145cbc3fc9b29d72515af9266d1d3a20e0bc115133511ffb6653999e",
+      "text": "Just nu: Fler plan genomsökta efter bombhot"
     }
   ],
   "captures": [
@@ -112216,6 +112220,12 @@
       "headlineId": "3a7de8e26d3288c4b3d4494cb53dceb8be3b5fc0abbad0222d663d88ff525397",
       "articleUrl": "https://www.sverigesradio.se/artikel/orange-varning-for-stormvindar-och-sno-i-fjallen",
       "capturedAt": "2026-11-03T13:32:32.915Z"
+    },
+    {
+      "filename": "1793714247872_0.png",
+      "headlineId": "6ba2e03d145cbc3fc9b29d72515af9266d1d3a20e0bc115133511ffb6653999e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ytterligare-tva-flygplan-genomsoks-efter-bombhot",
+      "capturedAt": "2026-11-03T13:57:27.872Z"
     }
   ]
 }
