@@ -44908,6 +44908,10 @@
     {
       "id": "a1ecbb8a9fe19c39a2d29a8e60a553b2a9abd353808770302a87cc0956060232",
       "text": "Just nu: Stort varsel på sågverket Holmen"
+    },
+    {
+      "id": "b1d1fe6bbc760676f8e9c1a29241ba7b960176da26e90cc9aa8be4a946ec96f0",
+      "text": "Just nu: Villa brinner – rökdykare på plats"
     }
   ],
   "captures": [
@@ -112266,6 +112270,12 @@
       "headlineId": "a1ecbb8a9fe19c39a2d29a8e60a553b2a9abd353808770302a87cc0956060232",
       "articleUrl": "https://www.sverigesradio.se/artikel/holmen-varslar-50-i-kroksjon-sagen-stangs",
       "capturedAt": "2026-11-03T18:38:12.757Z"
+    },
+    {
+      "filename": "1793734390098_0.png",
+      "headlineId": "b1d1fe6bbc760676f8e9c1a29241ba7b960176da26e90cc9aa8be4a946ec96f0",
+      "articleUrl": "https://www.sverigesradio.se/artikel/brand-i-villa-i-molle-rokdykare-pa-plats",
+      "capturedAt": "2026-11-03T19:33:10.098Z"
     }
   ]
 }
