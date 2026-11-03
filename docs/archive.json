@@ -44828,6 +44828,10 @@
     {
       "id": "c8073dd448fe356e98d23fdb971b1aaf7d47778c48266f3527f7a206ed65c411",
       "text": "Just nu: Uppgifter: Iransk ö attackerad av USA"
+    },
+    {
+      "id": "5d27036472ba10a9a020a005c0d01ec5a121b67d68e1420f7c49781b0712c69c",
+      "text": "Just nu: Cyklist död – blev påkörd av bil"
     }
   ],
   "captures": [
@@ -112066,6 +112070,12 @@
       "headlineId": "c8073dd448fe356e98d23fdb971b1aaf7d47778c48266f3527f7a206ed65c411",
       "articleUrl": "https://www.sverigesradio.se/artikel/kallor-till-wall-street-journal-usa-attack-mot-iran",
       "capturedAt": "2026-11-03T01:27:28.592Z"
+    },
+    {
+      "filename": "1793674053066_0.png",
+      "headlineId": "5d27036472ba10a9a020a005c0d01ec5a121b67d68e1420f7c49781b0712c69c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/cyklist-omkom-pakord-av-bil-utanfor-norrtalje",
+      "capturedAt": "2026-11-03T02:47:33.066Z"
     }
   ]
 }
