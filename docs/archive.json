@@ -44892,6 +44892,10 @@
     {
       "id": "6ba2e03d145cbc3fc9b29d72515af9266d1d3a20e0bc115133511ffb6653999e",
       "text": "Just nu: Fler plan genomsökta efter bombhot"
+    },
+    {
+      "id": "28b1fcca7f6cd9d52900b40a55de39e95bc291f89168661a5bedd5dcc6537ebd",
+      "text": "Just nu: Misstankar nedlagda mot två efter omskärelse"
     }
   ],
   "captures": [
@@ -112226,6 +112230,12 @@
       "headlineId": "6ba2e03d145cbc3fc9b29d72515af9266d1d3a20e0bc115133511ffb6653999e",
       "articleUrl": "https://www.sverigesradio.se/artikel/ytterligare-tva-flygplan-genomsoks-efter-bombhot",
       "capturedAt": "2026-11-03T13:57:27.872Z"
+    },
+    {
+      "filename": "1793717252968_0.png",
+      "headlineId": "28b1fcca7f6cd9d52900b40a55de39e95bc291f89168661a5bedd5dcc6537ebd",
+      "articleUrl": "https://www.sverigesradio.se/artikel/misstankar-nedlagda-efter-omskarelse-endast-lakare-kvar",
+      "capturedAt": "2026-11-03T14:47:32.968Z"
     }
   ]
 }
