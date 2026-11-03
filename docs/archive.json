@@ -44912,6 +44912,10 @@
     {
       "id": "b1d1fe6bbc760676f8e9c1a29241ba7b960176da26e90cc9aa8be4a946ec96f0",
       "text": "Just nu: Villa brinner – rökdykare på plats"
+    },
+    {
+      "id": "023be9ec60c52dd17f838b3affe79e81d7155595eedf3d7ff7b79be8dfeadd33",
+      "text": "Just nu: Uppmaningen när miljoner pass går ut"
     }
   ],
   "captures": [
@@ -112276,6 +112280,12 @@
       "headlineId": "b1d1fe6bbc760676f8e9c1a29241ba7b960176da26e90cc9aa8be4a946ec96f0",
       "articleUrl": "https://www.sverigesradio.se/artikel/brand-i-villa-i-molle-rokdykare-pa-plats",
       "capturedAt": "2026-11-03T19:33:10.098Z"
+    },
+    {
+      "filename": "1793735340431_0.png",
+      "headlineId": "023be9ec60c52dd17f838b3affe79e81d7155595eedf3d7ff7b79be8dfeadd33",
+      "articleUrl": "https://www.sverigesradio.se/artikel/fornya-passet-nu-for-att-inte-riskera-semestern",
+      "capturedAt": "2026-11-03T19:49:00.431Z"
     }
   ]
 }
