@@ -44864,6 +44864,10 @@
     {
       "id": "e96dedcaf00fa754e2731feae70e85cef07fd49c4064fd7bbbc5187442535f5b",
       "text": "Just nu: Skola i Sollentuna utrymd efter utsläpp"
+    },
+    {
+      "id": "1d0d28366cafd15115b6d7d2f675cf0e531d32b2474ff50ceb48059d9b9c993c",
+      "text": "Just nu: SAS-plan bomhotat, enligt uppgift"
     }
   ],
   "captures": [
@@ -112156,6 +112160,12 @@
       "headlineId": "e96dedcaf00fa754e2731feae70e85cef07fd49c4064fd7bbbc5187442535f5b",
       "articleUrl": "https://www.sverigesradio.se/artikel/skola-i-sollentuna-utrymd-efter-utslapp",
       "capturedAt": "2026-11-03T09:32:31.573Z"
+    },
+    {
+      "filename": "1793701050416_0.png",
+      "headlineId": "1d0d28366cafd15115b6d7d2f675cf0e531d32b2474ff50ceb48059d9b9c993c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/uppgifter-bombhot-mot-sas-plan",
+      "capturedAt": "2026-11-03T10:17:30.416Z"
     }
   ]
 }
