@@ -44848,6 +44848,10 @@
     {
       "id": "772116a8261e8673aa8d12ea645dd3a33aa4500afb7a30a17216b02ee6196920",
       "text": "Just nu: Buss, lastbil och personbil i krock"
+    },
+    {
+      "id": "e234f8a95ed5c1466e531c14470fc9230853dcf21f219fcd86503eb353b65135",
+      "text": "Just nu: Blixthalka i Eskilstuna – lastbil välte"
     }
   ],
   "captures": [
@@ -112116,6 +112120,12 @@
       "headlineId": "772116a8261e8673aa8d12ea645dd3a33aa4500afb7a30a17216b02ee6196920",
       "articleUrl": "https://www.sverigesradio.se/artikel/buss-lastbil-och-personbil-i-krock-vid-kungens-kurva",
       "capturedAt": "2026-11-03T07:17:27.447Z"
+    },
+    {
+      "filename": "1793693553181_0.png",
+      "headlineId": "e234f8a95ed5c1466e531c14470fc9230853dcf21f219fcd86503eb353b65135",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lastbil-valt-pa-lansvag-940-utanfor-tumbo-i-eskilstuna",
+      "capturedAt": "2026-11-03T08:12:33.181Z"
     }
   ]
 }
