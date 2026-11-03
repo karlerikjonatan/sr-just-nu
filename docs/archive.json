@@ -44904,6 +44904,10 @@
     {
       "id": "af5783ba8f919bd118a5c15133b02caa6523d74bbab03ce8880de2b9ad76e7c6",
       "text": "Just nu: Truls missar tävling efter axelproblem"
+    },
+    {
+      "id": "a1ecbb8a9fe19c39a2d29a8e60a553b2a9abd353808770302a87cc0956060232",
+      "text": "Just nu: Stort varsel på sågverket Holmen"
     }
   ],
   "captures": [
@@ -112256,6 +112260,12 @@
       "headlineId": "af5783ba8f919bd118a5c15133b02caa6523d74bbab03ce8880de2b9ad76e7c6",
       "articleUrl": "https://www.sverigesradio.se/artikel/truls-moregardh-missar-frankfurt-efter-axelskada",
       "capturedAt": "2026-11-03T17:02:47.857Z"
+    },
+    {
+      "filename": "1793731092757_0.png",
+      "headlineId": "a1ecbb8a9fe19c39a2d29a8e60a553b2a9abd353808770302a87cc0956060232",
+      "articleUrl": "https://www.sverigesradio.se/artikel/holmen-varslar-50-i-kroksjon-sagen-stangs",
+      "capturedAt": "2026-11-03T18:38:12.757Z"
     }
   ]
 }
