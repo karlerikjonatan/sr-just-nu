@@ -44852,6 +44852,10 @@
     {
       "id": "e234f8a95ed5c1466e531c14470fc9230853dcf21f219fcd86503eb353b65135",
       "text": "Just nu: Blixthalka i Eskilstuna – lastbil välte"
+    },
+    {
+      "id": "b461971273b433f70b79e3cf4e7dbc48601de883222f3c8afbc0e702ce6826fa",
+      "text": "Just nu: Polis åtalas för dataintrång"
     }
   ],
   "captures": [
@@ -112126,6 +112130,12 @@
       "headlineId": "e234f8a95ed5c1466e531c14470fc9230853dcf21f219fcd86503eb353b65135",
       "articleUrl": "https://www.sverigesradio.se/artikel/lastbil-valt-pa-lansvag-940-utanfor-tumbo-i-eskilstuna",
       "capturedAt": "2026-11-03T08:12:33.181Z"
+    },
+    {
+      "filename": "1793695650963_0.png",
+      "headlineId": "b461971273b433f70b79e3cf4e7dbc48601de883222f3c8afbc0e702ce6826fa",
+      "articleUrl": "https://www.sverigesradio.se/artikel/polis-atalas-for-dataintrang-gjort-olagliga-slagningar",
+      "capturedAt": "2026-11-03T08:47:30.963Z"
     }
   ]
 }
