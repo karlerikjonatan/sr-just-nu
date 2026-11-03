@@ -44824,6 +44824,10 @@
     {
       "id": "d35f891ad5c915fb693809764dc6311deddb805409bf266a7c9de4f6c2e8c46b",
       "text": "Just nu: Domstol nobbar Trumps röstkrav"
+    },
+    {
+      "id": "c8073dd448fe356e98d23fdb971b1aaf7d47778c48266f3527f7a206ed65c411",
+      "text": "Just nu: Uppgifter: Iransk ö attackerad av USA"
     }
   ],
   "captures": [
@@ -112056,6 +112060,12 @@
       "headlineId": "d35f891ad5c915fb693809764dc6311deddb805409bf266a7c9de4f6c2e8c46b",
       "articleUrl": "https://www.sverigesradio.se/artikel/ekots-direktrapport-om-mellanarsvalet-i-usa",
       "capturedAt": "2026-11-03T00:57:24.309Z"
+    },
+    {
+      "filename": "1793669248592_0.png",
+      "headlineId": "c8073dd448fe356e98d23fdb971b1aaf7d47778c48266f3527f7a206ed65c411",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kallor-till-wall-street-journal-usa-attack-mot-iran",
+      "capturedAt": "2026-11-03T01:27:28.592Z"
     }
   ]
 }
