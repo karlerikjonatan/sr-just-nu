@@ -44868,6 +44868,10 @@
     {
       "id": "1d0d28366cafd15115b6d7d2f675cf0e531d32b2474ff50ceb48059d9b9c993c",
       "text": "Just nu: SAS-plan bomhotat, enligt uppgift"
+    },
+    {
+      "id": "4afb919536eb7c49e52254ed7fd85c3c015f0f39b94032067cd030271b7457c8",
+      "text": "Just nu: Man försvunnen i Uppland"
     }
   ],
   "captures": [
@@ -112166,6 +112170,12 @@
       "headlineId": "1d0d28366cafd15115b6d7d2f675cf0e531d32b2474ff50ceb48059d9b9c993c",
       "articleUrl": "https://www.sverigesradio.se/artikel/uppgifter-bombhot-mot-sas-plan",
       "capturedAt": "2026-11-03T10:17:30.416Z"
+    },
+    {
+      "filename": "1793701351199_0.png",
+      "headlineId": "4afb919536eb7c49e52254ed7fd85c3c015f0f39b94032067cd030271b7457c8",
+      "articleUrl": "https://www.sverigesradio.se/artikel/polisinsats-i-norduppland-man-forsvunnen",
+      "capturedAt": "2026-11-03T10:22:31.199Z"
     }
   ]
 }
