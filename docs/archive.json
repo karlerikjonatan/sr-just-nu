@@ -44928,6 +44928,10 @@
     {
       "id": "06e24c2c27d7c0b1edadb9ee7bd33aeed2ddb72396c75fe6199211476d7e8fff",
       "text": "Just nu: Kanada stoppar Ryssland från JVM"
+    },
+    {
+      "id": "6ce4616ec8b7bcfeaecdb669c5cf36646b67224811ec4e021be1b41677e11658",
+      "text": "Just nu: Ryssland: E-handelsjätte attackerad"
     }
   ],
   "captures": [
@@ -112316,6 +112320,12 @@
       "headlineId": "06e24c2c27d7c0b1edadb9ee7bd33aeed2ddb72396c75fe6199211476d7e8fff",
       "articleUrl": "https://www.sverigesradio.se/artikel/direktrapport-om-rysslandsbesked-inom-idrotten",
       "capturedAt": "2026-11-03T23:17:32.754Z"
+    },
+    {
+      "filename": "1793753846722_0.png",
+      "headlineId": "6ce4616ec8b7bcfeaecdb669c5cf36646b67224811ec4e021be1b41677e11658",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ryssland-e-handelsjatten-ozon-attackerad",
+      "capturedAt": "2026-11-04T00:57:26.722Z"
     }
   ]
 }
