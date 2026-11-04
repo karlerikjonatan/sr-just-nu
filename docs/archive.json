@@ -44936,6 +44936,10 @@
     {
       "id": "f7b4f54366973a6747dddf724563dbd35872e77edf8cc635d42fefb4e41d67b8",
       "text": "Just nu: Rysk e-handelsjätte attackerad"
+    },
+    {
+      "id": "61460b528dd31109ace757e5bfeaca7c97b6c70c9dffa0dfd67403b0f04a6c67",
+      "text": "Just nu: Brandattack i trapphus i Norrköping"
     }
   ],
   "captures": [
@@ -112336,6 +112340,12 @@
       "headlineId": "f7b4f54366973a6747dddf724563dbd35872e77edf8cc635d42fefb4e41d67b8",
       "articleUrl": "https://www.sverigesradio.se/artikel/ryssland-e-handelsjatten-ozon-attackerad",
       "capturedAt": "2026-11-04T01:07:31.506Z"
+    },
+    {
+      "filename": "1793767647576_0.png",
+      "headlineId": "61460b528dd31109ace757e5bfeaca7c97b6c70c9dffa0dfd67403b0f04a6c67",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kastade-brannbar-vatska-mot-trapphus-en-person-gripen",
+      "capturedAt": "2026-11-04T04:47:27.576Z"
     }
   ]
 }
