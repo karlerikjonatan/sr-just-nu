@@ -45024,6 +45024,10 @@
     {
       "id": "4372b3c4a580534e03a298f94e258f4c594dc4d97384b3f87fe5578cf1c9f1c3",
       "text": "Just nu: Proryska hackare bakom frysattack"
+    },
+    {
+      "id": "9423f9beb0d4474eb55af867e687881e64f8077af1070dc8326dc1ee26870810",
+      "text": "Just nu: Pantplockare på E18 – polis ryckte ut"
     }
   ],
   "captures": [
@@ -112556,6 +112560,12 @@
       "headlineId": "4372b3c4a580534e03a298f94e258f4c594dc4d97384b3f87fe5578cf1c9f1c3",
       "articleUrl": "https://www.sverigesradio.se/artikel/proryska-hackergrupper-tar-pa-sig-frysattack",
       "capturedAt": "2026-11-04T15:22:36.110Z"
+    },
+    {
+      "filename": "1793807556455_0.png",
+      "headlineId": "9423f9beb0d4474eb55af867e687881e64f8077af1070dc8326dc1ee26870810",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-plockande-pant-pa-e18-i-arboga-polisen-ingrep",
+      "capturedAt": "2026-11-04T15:52:36.455Z"
     }
   ]
 }
