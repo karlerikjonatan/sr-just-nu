@@ -45016,6 +45016,10 @@
     {
       "id": "c2c5a1d11ef17fe13a1d5f2189eec8bb073906a5b699dfbddc6800384b3eb4fb",
       "text": "Just nu: Krögare döms efter polisens julfest"
+    },
+    {
+      "id": "cb128814662a405161416b8a1b9a759c75516fdaaf407d2e4df3873fd7f404e1",
+      "text": "Just nu: Proryska hackare tar på sig frysattack"
     }
   ],
   "captures": [
@@ -112536,6 +112540,12 @@
       "headlineId": "c2c5a1d11ef17fe13a1d5f2189eec8bb073906a5b699dfbddc6800384b3eb4fb",
       "articleUrl": "https://www.sverigesradio.se/artikel/restaurangagare-i-vaxjo-doms-for-olovlig-alkoholforsaljning",
       "capturedAt": "2026-11-04T14:02:32.451Z"
+    },
+    {
+      "filename": "1793804251857_0.png",
+      "headlineId": "cb128814662a405161416b8a1b9a759c75516fdaaf407d2e4df3873fd7f404e1",
+      "articleUrl": "https://www.sverigesradio.se/artikel/proryska-hackergrupper-tar-pa-sig-frysattack",
+      "capturedAt": "2026-11-04T14:57:31.857Z"
     }
   ]
 }
