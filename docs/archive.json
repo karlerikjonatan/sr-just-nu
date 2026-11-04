@@ -44960,6 +44960,10 @@
     {
       "id": "efa3ef7020c33b1e44dec35dcd50b2a3f8058b898058b90d2c805d59d1e333ed",
       "text": "Just nu: Hemnets vd får lämna"
+    },
+    {
+      "id": "4c92dbc60eb98c5881f3245516d455aa188ae4fe6b8d6e5dc7e9d8def27fca60",
+      "text": "Just nu: Påkörd av  egen bil – till sjukhus"
     }
   ],
   "captures": [
@@ -112396,6 +112400,12 @@
       "headlineId": "efa3ef7020c33b1e44dec35dcd50b2a3f8058b898058b90d2c805d59d1e333ed",
       "articleUrl": "https://www.sverigesradio.se/artikel/hemnets-vd-jonas-gustafsson-lamnar-efter-stort-tapp",
       "capturedAt": "2026-11-04T07:27:30.195Z"
+    },
+    {
+      "filename": "1793777854917_0.png",
+      "headlineId": "4c92dbc60eb98c5881f3245516d455aa188ae4fe6b8d6e5dc7e9d8def27fca60",
+      "articleUrl": "https://www.sverigesradio.se/artikel/pakord-av-sin-egen-bil-fordonet-rullade-ner-for-slant",
+      "capturedAt": "2026-11-04T07:37:34.917Z"
     }
   ]
 }
