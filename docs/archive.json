@@ -44988,6 +44988,10 @@
     {
       "id": "bcdb01e9fcfc2fee838fd2cac016b5f669ed21dfe4ce18773f6feebb4630064e",
       "text": "Just nu: Dalahästen ska skyddas som champagne"
+    },
+    {
+      "id": "570fec8ec3ecf08c696c24f78741f180af5addee3482a756e3b54b81ee30b1b9",
+      "text": "Just nu: Kommunchef sparkas efter porravslöjande"
     }
   ],
   "captures": [
@@ -112466,6 +112470,12 @@
       "headlineId": "bcdb01e9fcfc2fee838fd2cac016b5f669ed21dfe4ce18773f6feebb4630064e",
       "articleUrl": "https://www.sverigesradio.se/artikel/nu-far-dalahasten-skydd-av-eu-forst-i-sverige",
       "capturedAt": "2026-11-04T10:42:31.143Z"
+    },
+    {
+      "filename": "1793789252040_0.png",
+      "headlineId": "570fec8ec3ecf08c696c24f78741f180af5addee3482a756e3b54b81ee30b1b9",
+      "articleUrl": "https://www.sverigesradio.se/artikel/jokkmokks-kommunchef-sparkas-efter-porravslojande",
+      "capturedAt": "2026-11-04T10:47:32.040Z"
     }
   ]
 }
