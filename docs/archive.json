@@ -45048,6 +45048,10 @@
     {
       "id": "2d127ef1e0c8c8d2b45c212def1b3b01f7381b081f90e67d9d79b844317356f6",
       "text": "Just nu: Karleušas konsert i Göteborg stoppas"
+    },
+    {
+      "id": "46491eee93865c7fcdba742f5bb1fb3806415700fc80afe3fba84645b6bc5f25",
+      "text": "Just nu: Största CL-segern någonsin"
     }
   ],
   "captures": [
@@ -112616,6 +112620,12 @@
       "headlineId": "94b40a380477f3a6bdede2427da933d2271f76799d58c305e49337cababf3bc2",
       "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-grovt-brott-utreds-i-sollentuna",
       "capturedAt": "2026-11-04T20:37:29.795Z"
+    },
+    {
+      "filename": "1793835446184_0.png",
+      "headlineId": "46491eee93865c7fcdba742f5bb1fb3806415700fc80afe3fba84645b6bc5f25",
+      "articleUrl": "https://www.sverigesradio.se/artikel/como-tog-storsta-segern-i-champions-leagues-historia",
+      "capturedAt": "2026-11-04T23:37:26.184Z"
     }
   ]
 }
