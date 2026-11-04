@@ -44976,6 +44976,10 @@
     {
       "id": "f6f885470bd05af4b0e0aeb4ec4c83a118ff939e9c5fb9bf1d3360954606aa7b",
       "text": "Just nu: Frysar saboterade i Frankrike"
+    },
+    {
+      "id": "f0050f3dee489b5c7971f08097159c38fa33485a08217c8b4bd6b4917e8a3d16",
+      "text": "Just nu: Dalahästen får skydd av EU"
     }
   ],
   "captures": [
@@ -112436,6 +112440,12 @@
       "headlineId": "f6f885470bd05af4b0e0aeb4ec4c83a118ff939e9c5fb9bf1d3360954606aa7b",
       "articleUrl": "https://www.sverigesradio.se/artikel/hackerattack-mot-blodgivarsystem-frysar-saboterade",
       "capturedAt": "2026-11-04T08:57:27.929Z"
+    },
+    {
+      "filename": "1793784454468_0.png",
+      "headlineId": "f0050f3dee489b5c7971f08097159c38fa33485a08217c8b4bd6b4917e8a3d16",
+      "articleUrl": "https://www.sverigesradio.se/artikel/nu-far-dalahasten-skydd-av-eu-forst-i-sverige",
+      "capturedAt": "2026-11-04T09:27:34.468Z"
     }
   ]
 }
