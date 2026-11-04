@@ -44932,6 +44932,10 @@
     {
       "id": "6ce4616ec8b7bcfeaecdb669c5cf36646b67224811ec4e021be1b41677e11658",
       "text": "Just nu: Ryssland: E-handelsjätte attackerad"
+    },
+    {
+      "id": "f7b4f54366973a6747dddf724563dbd35872e77edf8cc635d42fefb4e41d67b8",
+      "text": "Just nu: Rysk e-handelsjätte attackerad"
     }
   ],
   "captures": [
@@ -112326,6 +112330,12 @@
       "headlineId": "6ce4616ec8b7bcfeaecdb669c5cf36646b67224811ec4e021be1b41677e11658",
       "articleUrl": "https://www.sverigesradio.se/artikel/ryssland-e-handelsjatten-ozon-attackerad",
       "capturedAt": "2026-11-04T00:57:26.722Z"
+    },
+    {
+      "filename": "1793754451506_0.png",
+      "headlineId": "f7b4f54366973a6747dddf724563dbd35872e77edf8cc635d42fefb4e41d67b8",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ryssland-e-handelsjatten-ozon-attackerad",
+      "capturedAt": "2026-11-04T01:07:31.506Z"
     }
   ]
 }
