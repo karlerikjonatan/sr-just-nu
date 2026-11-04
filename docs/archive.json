@@ -44952,6 +44952,10 @@
     {
       "id": "2503fd453afa35f5792a43572c6c6e6e874b184f69cc6bb5a155555db5d693f6",
       "text": "Just nu: En död i villabrand i Mölle"
+    },
+    {
+      "id": "0d52b119cc40a4bea1e112229af304288004d3458db0a7f924763767c963aef2",
+      "text": "Just nu: Appstrul hos Skånetrafiken"
     }
   ],
   "captures": [
@@ -112376,6 +112380,12 @@
       "headlineId": "13cc3e54277e48eaf3f32861d790ee4c41a68bc9b15d1a8b4f8fe2a15b6c7cee",
       "articleUrl": "https://www.sverigesradio.se/artikel/hisingsbron-stangs-delvis-koer-vantas-i-veckan",
       "capturedAt": "2026-11-04T06:27:27.886Z"
+    },
+    {
+      "filename": "1793776068596_0.png",
+      "headlineId": "0d52b119cc40a4bea1e112229af304288004d3458db0a7f924763767c963aef2",
+      "articleUrl": "https://www.sverigesradio.se/artikel/strul-att-fa-fram-sin-biljett-hos-skanetrafiken",
+      "capturedAt": "2026-11-04T07:07:48.596Z"
     }
   ]
 }
