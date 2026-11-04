@@ -44980,6 +44980,10 @@
     {
       "id": "f0050f3dee489b5c7971f08097159c38fa33485a08217c8b4bd6b4917e8a3d16",
       "text": "Just nu: Dalahästen får skydd av EU"
+    },
+    {
+      "id": "8d48dd27b463baa2a0bcc674117374075b862ad08ed3888f1eb071534f950032",
+      "text": "Just nu: Dalahästen inte vilken häst som helst"
     }
   ],
   "captures": [
@@ -112446,6 +112450,12 @@
       "headlineId": "f0050f3dee489b5c7971f08097159c38fa33485a08217c8b4bd6b4917e8a3d16",
       "articleUrl": "https://www.sverigesradio.se/artikel/nu-far-dalahasten-skydd-av-eu-forst-i-sverige",
       "capturedAt": "2026-11-04T09:27:34.468Z"
+    },
+    {
+      "filename": "1793787450081_0.png",
+      "headlineId": "8d48dd27b463baa2a0bcc674117374075b862ad08ed3888f1eb071534f950032",
+      "articleUrl": "https://www.sverigesradio.se/artikel/nu-far-dalahasten-skydd-av-eu-forst-i-sverige",
+      "capturedAt": "2026-11-04T10:17:30.081Z"
     }
   ]
 }
