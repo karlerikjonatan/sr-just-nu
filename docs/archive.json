@@ -44992,6 +44992,10 @@
     {
       "id": "570fec8ec3ecf08c696c24f78741f180af5addee3482a756e3b54b81ee30b1b9",
       "text": "Just nu: Kommunchef sparkas efter porravslöjande"
+    },
+    {
+      "id": "c6334dd4ea5ee0e41392807ccb0290365db70eae5b277d6bcc2bcbbd200bef07",
+      "text": "Just nu: Barnboksförfattaren död"
     }
   ],
   "captures": [
@@ -112476,6 +112480,12 @@
       "headlineId": "570fec8ec3ecf08c696c24f78741f180af5addee3482a756e3b54b81ee30b1b9",
       "articleUrl": "https://www.sverigesradio.se/artikel/jokkmokks-kommunchef-sparkas-efter-porravslojande",
       "capturedAt": "2026-11-04T10:47:32.040Z"
+    },
+    {
+      "filename": "1793789550231_0.png",
+      "headlineId": "c6334dd4ea5ee0e41392807ccb0290365db70eae5b277d6bcc2bcbbd200bef07",
+      "articleUrl": "https://www.sverigesradio.se/artikel/forfattaren-horst-eckert-janosch-dod",
+      "capturedAt": "2026-11-04T10:52:30.231Z"
     }
   ]
 }
