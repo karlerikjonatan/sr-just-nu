@@ -45020,6 +45020,10 @@
     {
       "id": "cb128814662a405161416b8a1b9a759c75516fdaaf407d2e4df3873fd7f404e1",
       "text": "Just nu: Proryska hackare tar på sig frysattack"
+    },
+    {
+      "id": "4372b3c4a580534e03a298f94e258f4c594dc4d97384b3f87fe5578cf1c9f1c3",
+      "text": "Just nu: Proryska hackare bakom frysattack"
     }
   ],
   "captures": [
@@ -112546,6 +112550,12 @@
       "headlineId": "cb128814662a405161416b8a1b9a759c75516fdaaf407d2e4df3873fd7f404e1",
       "articleUrl": "https://www.sverigesradio.se/artikel/proryska-hackergrupper-tar-pa-sig-frysattack",
       "capturedAt": "2026-11-04T14:57:31.857Z"
+    },
+    {
+      "filename": "1793805756110_0.png",
+      "headlineId": "4372b3c4a580534e03a298f94e258f4c594dc4d97384b3f87fe5578cf1c9f1c3",
+      "articleUrl": "https://www.sverigesradio.se/artikel/proryska-hackergrupper-tar-pa-sig-frysattack",
+      "capturedAt": "2026-11-04T15:22:36.110Z"
     }
   ]
 }
