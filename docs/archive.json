@@ -44972,6 +44972,10 @@
     {
       "id": "1bfaa83a72dee3bb696d502f9ff12f3d2ef2097898e1a8da2a1e7b381342a906",
       "text": "Just nu: Frysar saboterade Frankrike"
+    },
+    {
+      "id": "f6f885470bd05af4b0e0aeb4ec4c83a118ff939e9c5fb9bf1d3360954606aa7b",
+      "text": "Just nu: Frysar saboterade i Frankrike"
     }
   ],
   "captures": [
@@ -112426,6 +112430,12 @@
       "headlineId": "1bfaa83a72dee3bb696d502f9ff12f3d2ef2097898e1a8da2a1e7b381342a906",
       "articleUrl": "https://www.sverigesradio.se/artikel/hackerattack-mot-blodgivarsystem-frysar-saboterade",
       "capturedAt": "2026-11-04T08:32:30.994Z"
+    },
+    {
+      "filename": "1793782647929_0.png",
+      "headlineId": "f6f885470bd05af4b0e0aeb4ec4c83a118ff939e9c5fb9bf1d3360954606aa7b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/hackerattack-mot-blodgivarsystem-frysar-saboterade",
+      "capturedAt": "2026-11-04T08:57:27.929Z"
     }
   ]
 }
