@@ -44956,6 +44956,10 @@
     {
       "id": "0d52b119cc40a4bea1e112229af304288004d3458db0a7f924763767c963aef2",
       "text": "Just nu: Appstrul hos Skånetrafiken"
+    },
+    {
+      "id": "efa3ef7020c33b1e44dec35dcd50b2a3f8058b898058b90d2c805d59d1e333ed",
+      "text": "Just nu: Hemnets vd får lämna"
     }
   ],
   "captures": [
@@ -112386,6 +112390,12 @@
       "headlineId": "0d52b119cc40a4bea1e112229af304288004d3458db0a7f924763767c963aef2",
       "articleUrl": "https://www.sverigesradio.se/artikel/strul-att-fa-fram-sin-biljett-hos-skanetrafiken",
       "capturedAt": "2026-11-04T07:07:48.596Z"
+    },
+    {
+      "filename": "1793777250195_0.png",
+      "headlineId": "efa3ef7020c33b1e44dec35dcd50b2a3f8058b898058b90d2c805d59d1e333ed",
+      "articleUrl": "https://www.sverigesradio.se/artikel/hemnets-vd-jonas-gustafsson-lamnar-efter-stort-tapp",
+      "capturedAt": "2026-11-04T07:27:30.195Z"
     }
   ]
 }
