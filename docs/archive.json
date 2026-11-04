@@ -44940,6 +44940,10 @@
     {
       "id": "61460b528dd31109ace757e5bfeaca7c97b6c70c9dffa0dfd67403b0f04a6c67",
       "text": "Just nu: Brandattack i trapphus i Norrköping"
+    },
+    {
+      "id": "32a02f91a31a03a4de7a2fa2a2b032bd7910ccae35c5e445ad1f4ac878abf52a",
+      "text": "Just nu: Brandattack i trapp – släckt av vittnen"
     }
   ],
   "captures": [
@@ -112346,6 +112350,12 @@
       "headlineId": "61460b528dd31109ace757e5bfeaca7c97b6c70c9dffa0dfd67403b0f04a6c67",
       "articleUrl": "https://www.sverigesradio.se/artikel/kastade-brannbar-vatska-mot-trapphus-en-person-gripen",
       "capturedAt": "2026-11-04T04:47:27.576Z"
+    },
+    {
+      "filename": "1793770648762_0.png",
+      "headlineId": "32a02f91a31a03a4de7a2fa2a2b032bd7910ccae35c5e445ad1f4ac878abf52a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kastade-brannbar-vatska-mot-trapphus-en-person-gripen",
+      "capturedAt": "2026-11-04T05:37:28.762Z"
     }
   ]
 }
