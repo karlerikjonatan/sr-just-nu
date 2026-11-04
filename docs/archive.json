@@ -45000,6 +45000,14 @@
     {
       "id": "03f1282746d94c9d23aa25dd9d5171241ff3b0279cd77e53f2426888fef266ef",
       "text": "Just nu: Kulusevski tillbaka efter 700 dagar"
+    },
+    {
+      "id": "cc2d9a3d8e19461678142a34ef4d492c4e5a6d8c506f0b91448d1aad2226c8da",
+      "text": "Just nu: Brand i fritidshus – en död"
+    },
+    {
+      "id": "d67701b911141ac6d9f91defd75339d8c07b8f054e5502133fdf0b4279c1b397",
+      "text": "Just nu: Man gripen – misstänkts för brott i Ukraina"
     }
   ],
   "captures": [
@@ -112496,6 +112504,18 @@
       "headlineId": "03f1282746d94c9d23aa25dd9d5171241ff3b0279cd77e53f2426888fef266ef",
       "articleUrl": "https://www.sverigesradio.se/artikel/dejan-kulusevski-tillbaka-efter-over-700-dagar",
       "capturedAt": "2026-11-04T11:22:35.227Z"
+    },
+    {
+      "filename": "1793792248209_0.png",
+      "headlineId": "d67701b911141ac6d9f91defd75339d8c07b8f054e5502133fdf0b4279c1b397",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-gripen-i-sverige-ukraina-begar-honom-utlamnad",
+      "capturedAt": "2026-11-04T11:37:28.209Z"
+    },
+    {
+      "filename": "1793792248209_1.png",
+      "headlineId": "cc2d9a3d8e19461678142a34ef4d492c4e5a6d8c506f0b91448d1aad2226c8da",
+      "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-person-dod-efter-brand-i-fritidshus",
+      "capturedAt": "2026-11-04T11:37:28.209Z"
     }
   ]
 }
