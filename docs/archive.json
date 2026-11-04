@@ -45028,6 +45028,10 @@
     {
       "id": "9423f9beb0d4474eb55af867e687881e64f8077af1070dc8326dc1ee26870810",
       "text": "Just nu: Pantplockare på E18 – polis ryckte ut"
+    },
+    {
+      "id": "7c799f54c7e3d71330fdbb6af178a2764d664cc65a6e1cbbb1aa439bfdf8f672",
+      "text": "Just nu: Skandalomsusad filmregissör död"
     }
   ],
   "captures": [
@@ -112566,6 +112570,12 @@
       "headlineId": "9423f9beb0d4474eb55af867e687881e64f8077af1070dc8326dc1ee26870810",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-plockande-pant-pa-e18-i-arboga-polisen-ingrep",
       "capturedAt": "2026-11-04T15:52:36.455Z"
+    },
+    {
+      "filename": "1793813251704_0.png",
+      "headlineId": "7c799f54c7e3d71330fdbb6af178a2764d664cc65a6e1cbbb1aa439bfdf8f672",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tinto-brass-dod",
+      "capturedAt": "2026-11-04T17:27:31.704Z"
     }
   ]
 }
