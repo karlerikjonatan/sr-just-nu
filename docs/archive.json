@@ -45040,6 +45040,14 @@
     {
       "id": "04bbe6f10eb19a4e2b7345484556d50001c68dc533a56d7a0bd584641304a054",
       "text": "Just nu: Misstänkt grovt brott i Sollentuna"
+    },
+    {
+      "id": "94b40a380477f3a6bdede2427da933d2271f76799d58c305e49337cababf3bc2",
+      "text": "Just nu: Misstänkt mord i Sollentuna"
+    },
+    {
+      "id": "2d127ef1e0c8c8d2b45c212def1b3b01f7381b081f90e67d9d79b844317356f6",
+      "text": "Just nu: Karleušas konsert i Göteborg stoppas"
     }
   ],
   "captures": [
@@ -112596,6 +112604,18 @@
       "headlineId": "04bbe6f10eb19a4e2b7345484556d50001c68dc533a56d7a0bd584641304a054",
       "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-grovt-brott-utreds-i-sollentuna",
       "capturedAt": "2026-11-04T18:12:40.530Z"
+    },
+    {
+      "filename": "1793824649795_0.png",
+      "headlineId": "2d127ef1e0c8c8d2b45c212def1b3b01f7381b081f90e67d9d79b844317356f6",
+      "articleUrl": "https://www.sverigesradio.se/artikel/jelena-karleusas-konsert-pa-jacyz-i-goteborg-stalls-in",
+      "capturedAt": "2026-11-04T20:37:29.795Z"
+    },
+    {
+      "filename": "1793824649795_1.png",
+      "headlineId": "94b40a380477f3a6bdede2427da933d2271f76799d58c305e49337cababf3bc2",
+      "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-grovt-brott-utreds-i-sollentuna",
+      "capturedAt": "2026-11-04T20:37:29.795Z"
     }
   ]
 }
