@@ -44996,6 +44996,10 @@
     {
       "id": "c6334dd4ea5ee0e41392807ccb0290365db70eae5b277d6bcc2bcbbd200bef07",
       "text": "Just nu: Barnboksförfattaren död"
+    },
+    {
+      "id": "03f1282746d94c9d23aa25dd9d5171241ff3b0279cd77e53f2426888fef266ef",
+      "text": "Just nu: Kulusevski tillbaka efter 700 dagar"
     }
   ],
   "captures": [
@@ -112486,6 +112490,12 @@
       "headlineId": "c6334dd4ea5ee0e41392807ccb0290365db70eae5b277d6bcc2bcbbd200bef07",
       "articleUrl": "https://www.sverigesradio.se/artikel/forfattaren-horst-eckert-janosch-dod",
       "capturedAt": "2026-11-04T10:52:30.231Z"
+    },
+    {
+      "filename": "1793791355227_0.png",
+      "headlineId": "03f1282746d94c9d23aa25dd9d5171241ff3b0279cd77e53f2426888fef266ef",
+      "articleUrl": "https://www.sverigesradio.se/artikel/dejan-kulusevski-tillbaka-efter-over-700-dagar",
+      "capturedAt": "2026-11-04T11:22:35.227Z"
     }
   ]
 }
