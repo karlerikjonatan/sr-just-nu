@@ -45012,6 +45012,10 @@
     {
       "id": "663d9d09d1aebaeaf8ab8105b658f8d31db0aa5cf54712138cf822980ddb9f04",
       "text": "Just nu: Ica återkallar grillborstar"
+    },
+    {
+      "id": "c2c5a1d11ef17fe13a1d5f2189eec8bb073906a5b699dfbddc6800384b3eb4fb",
+      "text": "Just nu: Krögare döms efter polisens julfest"
     }
   ],
   "captures": [
@@ -112526,6 +112530,12 @@
       "headlineId": "663d9d09d1aebaeaf8ab8105b658f8d31db0aa5cf54712138cf822980ddb9f04",
       "articleUrl": "https://www.sverigesradio.se/artikel/ica-aterkallar-grillborstar-efter-henriks-otacka-olycka",
       "capturedAt": "2026-11-04T12:02:37.571Z"
+    },
+    {
+      "filename": "1793800952451_0.png",
+      "headlineId": "c2c5a1d11ef17fe13a1d5f2189eec8bb073906a5b699dfbddc6800384b3eb4fb",
+      "articleUrl": "https://www.sverigesradio.se/artikel/restaurangagare-i-vaxjo-doms-for-olovlig-alkoholforsaljning",
+      "capturedAt": "2026-11-04T14:02:32.451Z"
     }
   ]
 }
