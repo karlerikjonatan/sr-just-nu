@@ -45032,6 +45032,10 @@
     {
       "id": "7c799f54c7e3d71330fdbb6af178a2764d664cc65a6e1cbbb1aa439bfdf8f672",
       "text": "Just nu: Skandalomsusad filmregissör död"
+    },
+    {
+      "id": "0296feb9c061506db058d576ebb696a807b9ed66788215b24f733e997c749593",
+      "text": "Just nu: Herbert Blomstedt är död"
     }
   ],
   "captures": [
@@ -112576,6 +112580,12 @@
       "headlineId": "7c799f54c7e3d71330fdbb6af178a2764d664cc65a6e1cbbb1aa439bfdf8f672",
       "articleUrl": "https://www.sverigesradio.se/artikel/tinto-brass-dod",
       "capturedAt": "2026-11-04T17:27:31.704Z"
+    },
+    {
+      "filename": "1793814471445_0.png",
+      "headlineId": "0296feb9c061506db058d576ebb696a807b9ed66788215b24f733e997c749593",
+      "articleUrl": "https://www.sverigesradio.se/artikel/varldskande-dirigenten-herbert-blomstedt-dod",
+      "capturedAt": "2026-11-04T17:47:51.445Z"
     }
   ]
 }
