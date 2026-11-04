@@ -44968,6 +44968,10 @@
     {
       "id": "5134170657b40c8be1293b68e42a1bb1722760ffa35966ef308bfea8c16e0495",
       "text": "Just nu: Almgren har landat i Sverige"
+    },
+    {
+      "id": "1bfaa83a72dee3bb696d502f9ff12f3d2ef2097898e1a8da2a1e7b381342a906",
+      "text": "Just nu: Frysar saboterade Frankrike"
     }
   ],
   "captures": [
@@ -112416,6 +112420,12 @@
       "headlineId": "5134170657b40c8be1293b68e42a1bb1722760ffa35966ef308bfea8c16e0495",
       "articleUrl": "https://www.sverigesradio.se/artikel/andreas-almgren-om-maratonsegern-sa-sjukt",
       "capturedAt": "2026-11-04T08:27:35.836Z"
+    },
+    {
+      "filename": "1793781150994_0.png",
+      "headlineId": "1bfaa83a72dee3bb696d502f9ff12f3d2ef2097898e1a8da2a1e7b381342a906",
+      "articleUrl": "https://www.sverigesradio.se/artikel/hackerattack-mot-blodgivarsystem-frysar-saboterade",
+      "capturedAt": "2026-11-04T08:32:30.994Z"
     }
   ]
 }
