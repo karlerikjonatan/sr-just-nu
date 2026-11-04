@@ -44964,6 +44964,10 @@
     {
       "id": "4c92dbc60eb98c5881f3245516d455aa188ae4fe6b8d6e5dc7e9d8def27fca60",
       "text": "Just nu: Påkörd av  egen bil – till sjukhus"
+    },
+    {
+      "id": "5134170657b40c8be1293b68e42a1bb1722760ffa35966ef308bfea8c16e0495",
+      "text": "Just nu: Almgren har landat i Sverige"
     }
   ],
   "captures": [
@@ -112406,6 +112410,12 @@
       "headlineId": "4c92dbc60eb98c5881f3245516d455aa188ae4fe6b8d6e5dc7e9d8def27fca60",
       "articleUrl": "https://www.sverigesradio.se/artikel/pakord-av-sin-egen-bil-fordonet-rullade-ner-for-slant",
       "capturedAt": "2026-11-04T07:37:34.917Z"
+    },
+    {
+      "filename": "1793780855836_0.png",
+      "headlineId": "5134170657b40c8be1293b68e42a1bb1722760ffa35966ef308bfea8c16e0495",
+      "articleUrl": "https://www.sverigesradio.se/artikel/andreas-almgren-om-maratonsegern-sa-sjukt",
+      "capturedAt": "2026-11-04T08:27:35.836Z"
     }
   ]
 }
