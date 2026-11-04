@@ -45036,6 +45036,10 @@
     {
       "id": "0296feb9c061506db058d576ebb696a807b9ed66788215b24f733e997c749593",
       "text": "Just nu: Herbert Blomstedt är död"
+    },
+    {
+      "id": "04bbe6f10eb19a4e2b7345484556d50001c68dc533a56d7a0bd584641304a054",
+      "text": "Just nu: Misstänkt grovt brott i Sollentuna"
     }
   ],
   "captures": [
@@ -112586,6 +112590,12 @@
       "headlineId": "0296feb9c061506db058d576ebb696a807b9ed66788215b24f733e997c749593",
       "articleUrl": "https://www.sverigesradio.se/artikel/varldskande-dirigenten-herbert-blomstedt-dod",
       "capturedAt": "2026-11-04T17:47:51.445Z"
+    },
+    {
+      "filename": "1793815960530_0.png",
+      "headlineId": "04bbe6f10eb19a4e2b7345484556d50001c68dc533a56d7a0bd584641304a054",
+      "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-grovt-brott-utreds-i-sollentuna",
+      "capturedAt": "2026-11-04T18:12:40.530Z"
     }
   ]
 }
