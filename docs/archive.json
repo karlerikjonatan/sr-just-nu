@@ -45144,6 +45144,10 @@
     {
       "id": "c84740b5a1e1f09fae6f4f9ecde3f1a17e39b7993b58fd41bcc278c4a783134b",
       "text": "Just nu: De kan få Stora journalistpriset"
+    },
+    {
+      "id": "3cdb41b801c2ced785a17aa5219a8f5c3751497f7be3b95a7586087198723eb1",
+      "text": "Just nu: Sveriges Radio nominerade i alla kategorier till Stora journalistpriset"
     }
   ],
   "captures": [
@@ -112856,6 +112860,12 @@
       "headlineId": "c84740b5a1e1f09fae6f4f9ecde3f1a17e39b7993b58fd41bcc278c4a783134b",
       "articleUrl": "https://www.sverigesradio.se/artikel/de-ar-nominerade-till-stora-journalistpriset--2",
       "capturedAt": "2026-11-05T11:32:35.303Z"
+    },
+    {
+      "filename": "1793879254065_0.png",
+      "headlineId": "3cdb41b801c2ced785a17aa5219a8f5c3751497f7be3b95a7586087198723eb1",
+      "articleUrl": "https://www.sverigesradio.se/artikel/de-ar-nominerade-till-stora-journalistpriset--2",
+      "capturedAt": "2026-11-05T11:47:34.065Z"
     }
   ]
 }
