@@ -45156,6 +45156,14 @@
     {
       "id": "9119846acff7fa7608958e7f6f41560cde5169635a9ba7aeaa134ce0e6f69221",
       "text": "Just nu: Misstänkt mord i Sollentuna: Två anhållna"
+    },
+    {
+      "id": "8fef84b374084438d96f796606efa2b9123edc8a5b2da6787dd2250d4a47d749",
+      "text": "Just nu: Två anhållna efter misstänkt mord"
+    },
+    {
+      "id": "f656b0ea039ba813bda3d5491c90157913d63c8a0027bf35b8775def9cdeea17",
+      "text": "Just nu: Inre gränskontrollen förlängs"
     }
   ],
   "captures": [
@@ -112886,6 +112894,18 @@
       "headlineId": "9119846acff7fa7608958e7f6f41560cde5169635a9ba7aeaa134ce0e6f69221",
       "articleUrl": "https://www.sverigesradio.se/artikel/tva-personer-anhallna-efter-misstankta-mordet-i-tureberg",
       "capturedAt": "2026-11-05T12:27:29.781Z"
+    },
+    {
+      "filename": "1793884049424_0.png",
+      "headlineId": "f656b0ea039ba813bda3d5491c90157913d63c8a0027bf35b8775def9cdeea17",
+      "articleUrl": "https://www.sverigesradio.se/artikel/sverige-infor-granskontroll-vid-inre-grans",
+      "capturedAt": "2026-11-05T13:07:29.424Z"
+    },
+    {
+      "filename": "1793884049424_1.png",
+      "headlineId": "8fef84b374084438d96f796606efa2b9123edc8a5b2da6787dd2250d4a47d749",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tva-personer-anhallna-efter-misstankta-mordet-i-tureberg",
+      "capturedAt": "2026-11-05T13:07:29.424Z"
     }
   ]
 }
