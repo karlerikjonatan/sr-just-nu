@@ -45184,6 +45184,10 @@
     {
       "id": "5d98887a614300e464f175fdfb15ed4a04f8e027370a10eb5d1b9cfc6a823f50",
       "text": "Just nu: Börsras – Nasdaq faller 5 procent"
+    },
+    {
+      "id": "6ffbaff3fd5663b560f3a71d178b5f16eed897540b67c44701cf0da4078835bf",
+      "text": "Just nu: Flera fartyg brinner i Hormuzsundet"
     }
   ],
   "captures": [
@@ -112956,6 +112960,12 @@
       "headlineId": "5d98887a614300e464f175fdfb15ed4a04f8e027370a10eb5d1b9cfc6a823f50",
       "articleUrl": "https://www.sverigesradio.se/artikel/nasdaq-i-new-york-rasar-5-procent",
       "capturedAt": "2026-11-05T16:02:34.481Z"
+    },
+    {
+      "filename": "1793898751732_0.png",
+      "headlineId": "6ffbaff3fd5663b560f3a71d178b5f16eed897540b67c44701cf0da4078835bf",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tankfartyg-brinner-i-hormuzsundet-efter-mintraff",
+      "capturedAt": "2026-11-05T17:12:31.732Z"
     }
   ]
 }
