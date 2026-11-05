@@ -45072,6 +45072,10 @@
     {
       "id": "d4c1f9f9c8cfdc5d1191fcc17942da77c3241b592772a8b0141d72641d1d3e49",
       "text": "Just nu: Lastbilskaos i Bollebygd – flera har kört fast"
+    },
+    {
+      "id": "f81cd3932d90e5b156b1f8d635fa9ecd6b0cec589f121f70dcfbafa7cccfbab0",
+      "text": "Just nu: Tågkrock i Stockholm – två skadade"
     }
   ],
   "captures": [
@@ -112676,6 +112680,12 @@
       "headlineId": "d4c1f9f9c8cfdc5d1191fcc17942da77c3241b592772a8b0141d72641d1d3e49",
       "articleUrl": "https://www.sverigesradio.se/artikel/lastbilskaos-i-bollebygd-flera-har-kort-fast",
       "capturedAt": "2026-11-05T03:52:31.998Z"
+    },
+    {
+      "filename": "1793854950613_0.png",
+      "headlineId": "f81cd3932d90e5b156b1f8d635fa9ecd6b0cec589f121f70dcfbafa7cccfbab0",
+      "articleUrl": "https://www.sverigesradio.se/artikel/godstag-har-kort-in-i-gravmaskin",
+      "capturedAt": "2026-11-05T05:02:30.613Z"
     }
   ]
 }
