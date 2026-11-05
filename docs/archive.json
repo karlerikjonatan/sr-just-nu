@@ -45104,6 +45104,14 @@
     {
       "id": "7925dec37bc3a94b85f0b4dd66f3e79dc97baebc32cb9948410d273994c8485c",
       "text": "Just nu: Man död efter trafikolycka på E4"
+    },
+    {
+      "id": "039678eb5ccb552c850975b7c474a48b5a49649a52ba5490d9cb234cac889c2b",
+      "text": "Just nu: Misstänkt gripen för väskmordet"
+    },
+    {
+      "id": "c7f3c30be0f76278aa54ce0a141f41f5fbb37fb529e814659ea23220d9bac480",
+      "text": "Just nu: Carina Bergfeldt blir årets julvärd"
     }
   ],
   "captures": [
@@ -112756,6 +112764,18 @@
       "headlineId": "7925dec37bc3a94b85f0b4dd66f3e79dc97baebc32cb9948410d273994c8485c",
       "articleUrl": "https://www.sverigesradio.se/artikel/en-allvarligt-skadad-i-trafikolycka-pa-e4",
       "capturedAt": "2026-11-05T07:12:29.486Z"
+    },
+    {
+      "filename": "1793868750219_0.png",
+      "headlineId": "c7f3c30be0f76278aa54ce0a141f41f5fbb37fb529e814659ea23220d9bac480",
+      "articleUrl": "https://www.sverigesradio.se/artikel/carina-bergfeldt-blir-arets-julvard-i-svt",
+      "capturedAt": "2026-11-05T08:52:30.219Z"
+    },
+    {
+      "filename": "1793868750219_1.png",
+      "headlineId": "039678eb5ccb552c850975b7c474a48b5a49649a52ba5490d9cb234cac889c2b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/9334957",
+      "capturedAt": "2026-11-05T08:52:30.219Z"
     }
   ]
 }
