@@ -45120,6 +45120,10 @@
     {
       "id": "646ca3d15a343b79b735f22587f189b46de27f57d488a8432232b7d3bbff7c72",
       "text": "Just nu: Nytt hot mot flygplan – nödlandade"
+    },
+    {
+      "id": "68f391f474424beab32dba6dae9413070a022659616fc80f0fa24f37c6c70e3b",
+      "text": "Just nu: Klassiska klubben riskerar konkurs"
     }
   ],
   "captures": [
@@ -112796,6 +112800,12 @@
       "headlineId": "646ca3d15a343b79b735f22587f189b46de27f57d488a8432232b7d3bbff7c72",
       "articleUrl": "https://www.sverigesradio.se/artikel/nytt-bombhot-mot-flygplan",
       "capturedAt": "2026-11-05T09:12:28.875Z"
+    },
+    {
+      "filename": "1793871755480_0.png",
+      "headlineId": "68f391f474424beab32dba6dae9413070a022659616fc80f0fa24f37c6c70e3b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/mora-ik-riskerar-konkurs-innan-sasongens-slut",
+      "capturedAt": "2026-11-05T09:42:35.480Z"
     }
   ]
 }
