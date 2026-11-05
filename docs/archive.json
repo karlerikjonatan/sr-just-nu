@@ -45180,6 +45180,10 @@
     {
       "id": "125c2c727a2a926cfed7b50c70ccf0d15b4ab8c4ff6355ac37df50bd3117987b",
       "text": "Just nu: Mord i Bagarmossen – kvinna anhållen"
+    },
+    {
+      "id": "5d98887a614300e464f175fdfb15ed4a04f8e027370a10eb5d1b9cfc6a823f50",
+      "text": "Just nu: Börsras – Nasdaq faller 5 procent"
     }
   ],
   "captures": [
@@ -112946,6 +112950,12 @@
       "headlineId": "125c2c727a2a926cfed7b50c70ccf0d15b4ab8c4ff6355ac37df50bd3117987b",
       "articleUrl": "https://www.sverigesradio.se/artikel/kvinna-anhallen-efter-mordet-i-bagarmossen",
       "capturedAt": "2026-11-05T14:22:32.125Z"
+    },
+    {
+      "filename": "1793894554481_0.png",
+      "headlineId": "5d98887a614300e464f175fdfb15ed4a04f8e027370a10eb5d1b9cfc6a823f50",
+      "articleUrl": "https://www.sverigesradio.se/artikel/nasdaq-i-new-york-rasar-5-procent",
+      "capturedAt": "2026-11-05T16:02:34.481Z"
     }
   ]
 }
