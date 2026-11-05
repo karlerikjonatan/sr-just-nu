@@ -45132,6 +45132,10 @@
     {
       "id": "f69d998fca45e31fd7dc5576bddd0c38906765db40c917d3bb84c224e07f7c4e",
       "text": "Just nu: Nya misstankar mot Sigtunaelever"
+    },
+    {
+      "id": "098d7709a159182256ed9d7d3657a30f4667efd804bf3901735a98136ca7970c",
+      "text": "Just nu: Guldrån i Norrköping"
     }
   ],
   "captures": [
@@ -112826,6 +112830,12 @@
       "headlineId": "f69d998fca45e31fd7dc5576bddd0c38906765db40c917d3bb84c224e07f7c4e",
       "articleUrl": "https://www.sverigesradio.se/artikel/nya-misstankar-mot-haktade-sigtunaeleverna",
       "capturedAt": "2026-11-05T10:17:33.363Z"
+    },
+    {
+      "filename": "1793876250152_0.png",
+      "headlineId": "098d7709a159182256ed9d7d3657a30f4667efd804bf3901735a98136ca7970c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/guldran-i-norrkoping-butik-avsparrad",
+      "capturedAt": "2026-11-05T10:57:30.152Z"
     }
   ]
 }
