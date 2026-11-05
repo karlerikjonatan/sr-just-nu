@@ -45204,6 +45204,10 @@
     {
       "id": "c24f5d40dd0b960ec068be93c16fd9d6f5bebf84f736921d515d06127a80560c",
       "text": "Just nu: Tågstopp till och från Arlanda"
+    },
+    {
+      "id": "74e8fb4beff6ed2fab87fd54cafdff194c36bfd4a3cb83ae0a651cdc57a7dcd8",
+      "text": "Just nu: Man påkörd i Malmö"
     }
   ],
   "captures": [
@@ -113006,6 +113010,12 @@
       "headlineId": "790706a974cb286fcfc5cc4cef3e5a91a2d93b38e3e789a5ac1239f6e6dd60d4",
       "articleUrl": "https://www.sverigesradio.se/artikel/person-pakord-av-bil-har-forts-till-sjukhus-med-ambulans",
       "capturedAt": "2026-11-05T18:07:30.373Z"
+    },
+    {
+      "filename": "1793902956066_0.png",
+      "headlineId": "74e8fb4beff6ed2fab87fd54cafdff194c36bfd4a3cb83ae0a651cdc57a7dcd8",
+      "articleUrl": "https://www.sverigesradio.se/artikel/person-pakord-av-bil-har-forts-till-sjukhus-med-ambulans",
+      "capturedAt": "2026-11-05T18:22:36.066Z"
     }
   ]
 }
