@@ -45056,6 +45056,10 @@
     {
       "id": "4ca8db606fbc4ec37909cc52ffe1b948fcb76a71dacc1fdc4c5cb6ff9b053bc2",
       "text": "Just nu: Trump försvarar kritiserade Hegseth"
+    },
+    {
+      "id": "3689706ada77de2d45d3e1dc5a7047775bff0dce45f3b01077e2556ff5a2d42a",
+      "text": "Just nu: Buss orsakar tågstopp mot Malmö"
     }
   ],
   "captures": [
@@ -112636,6 +112640,12 @@
       "headlineId": "4ca8db606fbc4ec37909cc52ffe1b948fcb76a71dacc1fdc4c5cb6ff9b053bc2",
       "articleUrl": "https://www.sverigesradio.se/artikel/ekots-direktrapport-om-mellanarsvalet-i-usa",
       "capturedAt": "2026-11-05T00:02:41.472Z"
+    },
+    {
+      "filename": "1793839359179_0.png",
+      "headlineId": "3689706ada77de2d45d3e1dc5a7047775bff0dce45f3b01077e2556ff5a2d42a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/bussolycka-i-lund-tagstopp-mot-malmo",
+      "capturedAt": "2026-11-05T00:42:39.179Z"
     }
   ]
 }
