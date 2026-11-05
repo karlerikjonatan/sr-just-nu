@@ -45128,6 +45128,10 @@
     {
       "id": "3fb3ec83607dc0291cf65010f2b93035076a9e4f461fa9d999cdedb4632979bd",
       "text": "Just nu: Lastbil med farligt gods i olycka"
+    },
+    {
+      "id": "f69d998fca45e31fd7dc5576bddd0c38906765db40c917d3bb84c224e07f7c4e",
+      "text": "Just nu: Nya misstankar mot Sigtunaelever"
     }
   ],
   "captures": [
@@ -112816,6 +112820,12 @@
       "headlineId": "3fb3ec83607dc0291cf65010f2b93035076a9e4f461fa9d999cdedb4632979bd",
       "articleUrl": "https://www.sverigesradio.se/artikel/lastbil-med-farligt-gods-i-dike-pa-vag-940-vid-tumbo",
       "capturedAt": "2026-11-05T09:47:50.027Z"
+    },
+    {
+      "filename": "1793873853363_0.png",
+      "headlineId": "f69d998fca45e31fd7dc5576bddd0c38906765db40c917d3bb84c224e07f7c4e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/nya-misstankar-mot-haktade-sigtunaeleverna",
+      "capturedAt": "2026-11-05T10:17:33.363Z"
     }
   ]
 }
