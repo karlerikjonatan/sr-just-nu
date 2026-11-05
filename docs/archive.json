@@ -45168,6 +45168,10 @@
     {
       "id": "77e273ba7a55c8e6d1270029b4c8302d4666cf609b8cad7ac5231f5c1dbf9ada",
       "text": "Just nu: Skola i Nyköping inrymd"
+    },
+    {
+      "id": "1bab5f7b8697497d9e008910a38cd4db71829d7b0cd8a7cf2de3226e8fcaeab3",
+      "text": "Just nu: Han blir ny Davis cup-kapten"
     }
   ],
   "captures": [
@@ -112916,6 +112920,12 @@
       "headlineId": "77e273ba7a55c8e6d1270029b4c8302d4666cf609b8cad7ac5231f5c1dbf9ada",
       "articleUrl": "https://www.sverigesradio.se/artikel/skola-i-nykoping-inrymmer-efter-hot-om-vald",
       "capturedAt": "2026-11-05T13:57:35.645Z"
+    },
+    {
+      "filename": "1793887952998_0.png",
+      "headlineId": "1bab5f7b8697497d9e008910a38cd4db71829d7b0cd8a7cf2de3226e8fcaeab3",
+      "articleUrl": "https://www.sverigesradio.se/artikel/jonas-bjorkman-ny-kapten-for-davis-cup-laget",
+      "capturedAt": "2026-11-05T14:12:32.998Z"
     }
   ]
 }
