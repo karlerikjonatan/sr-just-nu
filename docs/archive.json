@@ -45136,6 +45136,10 @@
     {
       "id": "098d7709a159182256ed9d7d3657a30f4667efd804bf3901735a98136ca7970c",
       "text": "Just nu: Guldrån i Norrköping"
+    },
+    {
+      "id": "f3cc04f18e24a02fee537cccd9f2f184c966c6856d877197c259afaf45087a59",
+      "text": "Just nu: Nomineringar till Stora journalistpriset"
     }
   ],
   "captures": [
@@ -112836,6 +112840,12 @@
       "headlineId": "098d7709a159182256ed9d7d3657a30f4667efd804bf3901735a98136ca7970c",
       "articleUrl": "https://www.sverigesradio.se/artikel/guldran-i-norrkoping-butik-avsparrad",
       "capturedAt": "2026-11-05T10:57:30.152Z"
+    },
+    {
+      "filename": "1793878051741_0.png",
+      "headlineId": "f3cc04f18e24a02fee537cccd9f2f184c966c6856d877197c259afaf45087a59",
+      "articleUrl": "https://www.sverigesradio.se/artikel/de-ar-nominerade-till-stora-journalistpriset--2",
+      "capturedAt": "2026-11-05T11:27:31.741Z"
     }
   ]
 }
