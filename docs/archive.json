@@ -45164,6 +45164,10 @@
     {
       "id": "f656b0ea039ba813bda3d5491c90157913d63c8a0027bf35b8775def9cdeea17",
       "text": "Just nu: Inre gränskontrollen förlängs"
+    },
+    {
+      "id": "77e273ba7a55c8e6d1270029b4c8302d4666cf609b8cad7ac5231f5c1dbf9ada",
+      "text": "Just nu: Skola i Nyköping inrymd"
     }
   ],
   "captures": [
@@ -112906,6 +112910,12 @@
       "headlineId": "8fef84b374084438d96f796606efa2b9123edc8a5b2da6787dd2250d4a47d749",
       "articleUrl": "https://www.sverigesradio.se/artikel/tva-personer-anhallna-efter-misstankta-mordet-i-tureberg",
       "capturedAt": "2026-11-05T13:07:29.424Z"
+    },
+    {
+      "filename": "1793887055645_0.png",
+      "headlineId": "77e273ba7a55c8e6d1270029b4c8302d4666cf609b8cad7ac5231f5c1dbf9ada",
+      "articleUrl": "https://www.sverigesradio.se/artikel/skola-i-nykoping-inrymmer-efter-hot-om-vald",
+      "capturedAt": "2026-11-05T13:57:35.645Z"
     }
   ]
 }
