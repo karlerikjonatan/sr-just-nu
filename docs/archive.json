@@ -45176,6 +45176,10 @@
     {
       "id": "d9b50912b971a3439b40c5dffad85c6d7fb2bdf7652f7d63d27a6137a742a6f3",
       "text": "Just nu: Jonas Björkman tar över"
+    },
+    {
+      "id": "125c2c727a2a926cfed7b50c70ccf0d15b4ab8c4ff6355ac37df50bd3117987b",
+      "text": "Just nu: Mord i Bagarmossen – kvinna anhållen"
     }
   ],
   "captures": [
@@ -112936,6 +112940,12 @@
       "headlineId": "d9b50912b971a3439b40c5dffad85c6d7fb2bdf7652f7d63d27a6137a742a6f3",
       "articleUrl": "https://www.sverigesradio.se/artikel/jonas-bjorkman-ny-kapten-for-davis-cup-laget",
       "capturedAt": "2026-11-05T14:17:37.786Z"
+    },
+    {
+      "filename": "1793888552125_0.png",
+      "headlineId": "125c2c727a2a926cfed7b50c70ccf0d15b4ab8c4ff6355ac37df50bd3117987b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kvinna-anhallen-efter-mordet-i-bagarmossen",
+      "capturedAt": "2026-11-05T14:22:32.125Z"
     }
   ]
 }
