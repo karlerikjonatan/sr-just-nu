@@ -45092,6 +45092,10 @@
     {
       "id": "6cd817c2275e2a32ca49e5e7760726402ffc2971deb722b9e847b2ebca9c7001",
       "text": "Just nu: Aktivist döms igen – får tio år till"
+    },
+    {
+      "id": "b642213d8a6576f9b6b1f8b81100100d3e92935a1945c5966302c38d4101d05c",
+      "text": "Just nu: Daniels restaurang bäst i Sverige"
     }
   ],
   "captures": [
@@ -112726,6 +112730,12 @@
       "headlineId": "2797e94b5230a443df4daec1b6965887a7017e7d8469e4a7ef1138165c67db2e",
       "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-sabotage-efter-lastbilskaos-vid-r40",
       "capturedAt": "2026-11-05T05:57:28.780Z"
+    },
+    {
+      "filename": "1793861850399_0.png",
+      "headlineId": "b642213d8a6576f9b6b1f8b81100100d3e92935a1945c5966302c38d4101d05c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/daniels-restaurang-23e-bast-i-varlden-kan-locka-fler-till-skane",
+      "capturedAt": "2026-11-05T06:57:30.399Z"
     }
   ]
 }
