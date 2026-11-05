@@ -45112,6 +45112,10 @@
     {
       "id": "c7f3c30be0f76278aa54ce0a141f41f5fbb37fb529e814659ea23220d9bac480",
       "text": "Just nu: Carina Bergfeldt blir årets julvärd"
+    },
+    {
+      "id": "1117bb4f5bf6a6868ed9e8ccc2a4473db13c89a738373dbc4fc0f4aa37005d89",
+      "text": "Just nu: Nytt bombhot mot flygplan"
     }
   ],
   "captures": [
@@ -112776,6 +112780,12 @@
       "headlineId": "039678eb5ccb552c850975b7c474a48b5a49649a52ba5490d9cb234cac889c2b",
       "articleUrl": "https://www.sverigesradio.se/artikel/9334957",
       "capturedAt": "2026-11-05T08:52:30.219Z"
+    },
+    {
+      "filename": "1793869049562_0.png",
+      "headlineId": "1117bb4f5bf6a6868ed9e8ccc2a4473db13c89a738373dbc4fc0f4aa37005d89",
+      "articleUrl": "https://www.sverigesradio.se/artikel/nytt-bombhot-mot-flygplan",
+      "capturedAt": "2026-11-05T08:57:29.562Z"
     }
   ]
 }
