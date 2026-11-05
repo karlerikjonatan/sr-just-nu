@@ -45080,6 +45080,10 @@
     {
       "id": "958bfceae4419c71ceb4a72dd8e57bce4a7c5326b4fad3b9f18f72cbcfed1ed2",
       "text": "Just nu: Lastbilskaos i Bollebygd"
+    },
+    {
+      "id": "28757430758de54640e5816ab2e9454d16590ec9dd2ad5620e89d1ead5212ba4",
+      "text": "Just nu: Lägenhetsbrand i Umeå – två skadade"
     }
   ],
   "captures": [
@@ -112696,6 +112700,12 @@
       "headlineId": "958bfceae4419c71ceb4a72dd8e57bce4a7c5326b4fad3b9f18f72cbcfed1ed2",
       "articleUrl": "https://www.sverigesradio.se/artikel/lastbilskaos-i-bollebygd-flera-har-kort-fast",
       "capturedAt": "2026-11-05T05:07:30.112Z"
+    },
+    {
+      "filename": "1793855553248_0.png",
+      "headlineId": "28757430758de54640e5816ab2e9454d16590ec9dd2ad5620e89d1ead5212ba4",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tva-till-sjukhus-efter-lagenhetsbrand-i-umea--2",
+      "capturedAt": "2026-11-05T05:12:33.248Z"
     }
   ]
 }
