@@ -45188,6 +45188,14 @@
     {
       "id": "6ffbaff3fd5663b560f3a71d178b5f16eed897540b67c44701cf0da4078835bf",
       "text": "Just nu: Flera fartyg brinner i Hormuzsundet"
+    },
+    {
+      "id": "134456312e897f7be2863e19ca083a4c7e09b814a4ce205e6fc26a74f36f57c5",
+      "text": "Just nu: Utredning om valfusk i Järva läggs ner"
+    },
+    {
+      "id": "acb914ac1ecf622f8aeff0961fc872e14f295ae0429738fd86f41075c7957c47",
+      "text": "Just nu: LIV-golfen läggs ner"
     }
   ],
   "captures": [
@@ -112966,6 +112974,18 @@
       "headlineId": "6ffbaff3fd5663b560f3a71d178b5f16eed897540b67c44701cf0da4078835bf",
       "articleUrl": "https://www.sverigesradio.se/artikel/tankfartyg-brinner-i-hormuzsundet-efter-mintraff",
       "capturedAt": "2026-11-05T17:12:31.732Z"
+    },
+    {
+      "filename": "1793899650658_0.png",
+      "headlineId": "acb914ac1ecf622f8aeff0961fc872e14f295ae0429738fd86f41075c7957c47",
+      "articleUrl": "https://www.sverigesradio.se/artikel/klart-liv-golfen-laggs-ner",
+      "capturedAt": "2026-11-05T17:27:30.658Z"
+    },
+    {
+      "filename": "1793899650658_1.png",
+      "headlineId": "134456312e897f7be2863e19ca083a4c7e09b814a4ce205e6fc26a74f36f57c5",
+      "articleUrl": "https://www.sverigesradio.se/artikel/valfusk-i-jarva-gar-inte-att-bevisa-utredning-laggs-ner",
+      "capturedAt": "2026-11-05T17:27:30.658Z"
     }
   ]
 }
