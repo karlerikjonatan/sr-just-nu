@@ -45068,6 +45068,10 @@
     {
       "id": "be3be9913d3d714a6faa1ee2d0758161585a4174ca01ac248bd9b04acc7f19b6",
       "text": "Just nu: Tågkrock i Stuvsta – två skadade"
+    },
+    {
+      "id": "d4c1f9f9c8cfdc5d1191fcc17942da77c3241b592772a8b0141d72641d1d3e49",
+      "text": "Just nu: Lastbilskaos i Bollebygd – flera har kört fast"
     }
   ],
   "captures": [
@@ -112666,6 +112670,12 @@
       "headlineId": "be3be9913d3d714a6faa1ee2d0758161585a4174ca01ac248bd9b04acc7f19b6",
       "articleUrl": "https://www.sverigesradio.se/artikel/tagkrock-i-stuvsta-tva-skadade",
       "capturedAt": "2026-11-05T02:57:28.818Z"
+    },
+    {
+      "filename": "1793850751998_0.png",
+      "headlineId": "d4c1f9f9c8cfdc5d1191fcc17942da77c3241b592772a8b0141d72641d1d3e49",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lastbilskaos-i-bollebygd-flera-har-kort-fast",
+      "capturedAt": "2026-11-05T03:52:31.998Z"
     }
   ]
 }
