@@ -45084,6 +45084,14 @@
     {
       "id": "28757430758de54640e5816ab2e9454d16590ec9dd2ad5620e89d1ead5212ba4",
       "text": "Just nu: Lägenhetsbrand i Umeå – två skadade"
+    },
+    {
+      "id": "2797e94b5230a443df4daec1b6965887a7017e7d8469e4a7ef1138165c67db2e",
+      "text": "Just nu: Lastbilskaos efter misstänkt sabotage"
+    },
+    {
+      "id": "6cd817c2275e2a32ca49e5e7760726402ffc2971deb722b9e847b2ebca9c7001",
+      "text": "Just nu: Aktivist döms igen – får tio år till"
     }
   ],
   "captures": [
@@ -112706,6 +112714,18 @@
       "headlineId": "28757430758de54640e5816ab2e9454d16590ec9dd2ad5620e89d1ead5212ba4",
       "articleUrl": "https://www.sverigesradio.se/artikel/tva-till-sjukhus-efter-lagenhetsbrand-i-umea--2",
       "capturedAt": "2026-11-05T05:12:33.248Z"
+    },
+    {
+      "filename": "1793858248780_0.png",
+      "headlineId": "6cd817c2275e2a32ca49e5e7760726402ffc2971deb722b9e847b2ebca9c7001",
+      "articleUrl": "https://www.sverigesradio.se/artikel/joshua-wong-doms-till-tio-ars-fangelse-i-hongkong",
+      "capturedAt": "2026-11-05T05:57:28.780Z"
+    },
+    {
+      "filename": "1793858248780_1.png",
+      "headlineId": "2797e94b5230a443df4daec1b6965887a7017e7d8469e4a7ef1138165c67db2e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-sabotage-efter-lastbilskaos-vid-r40",
+      "capturedAt": "2026-11-05T05:57:28.780Z"
     }
   ]
 }
