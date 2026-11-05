@@ -45100,6 +45100,10 @@
     {
       "id": "66940f89daafe06097f9848d39cd3bf1d894d18cdb4ff948935a0c8f0ec3b403",
       "text": "Just nu: Inflationen sjönk i oktober"
+    },
+    {
+      "id": "7925dec37bc3a94b85f0b4dd66f3e79dc97baebc32cb9948410d273994c8485c",
+      "text": "Just nu: Man död efter trafikolycka på E4"
     }
   ],
   "captures": [
@@ -112746,6 +112750,12 @@
       "headlineId": "66940f89daafe06097f9848d39cd3bf1d894d18cdb4ff948935a0c8f0ec3b403",
       "articleUrl": "https://www.sverigesradio.se/artikel/inflationen-sjonk-i-oktober",
       "capturedAt": "2026-11-05T07:02:28.307Z"
+    },
+    {
+      "filename": "1793862749486_0.png",
+      "headlineId": "7925dec37bc3a94b85f0b4dd66f3e79dc97baebc32cb9948410d273994c8485c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/en-allvarligt-skadad-i-trafikolycka-pa-e4",
+      "capturedAt": "2026-11-05T07:12:29.486Z"
     }
   ]
 }
