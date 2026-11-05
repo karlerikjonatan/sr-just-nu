@@ -45116,6 +45116,10 @@
     {
       "id": "1117bb4f5bf6a6868ed9e8ccc2a4473db13c89a738373dbc4fc0f4aa37005d89",
       "text": "Just nu: Nytt bombhot mot flygplan"
+    },
+    {
+      "id": "646ca3d15a343b79b735f22587f189b46de27f57d488a8432232b7d3bbff7c72",
+      "text": "Just nu: Nytt hot mot flygplan – nödlandade"
     }
   ],
   "captures": [
@@ -112786,6 +112790,12 @@
       "headlineId": "1117bb4f5bf6a6868ed9e8ccc2a4473db13c89a738373dbc4fc0f4aa37005d89",
       "articleUrl": "https://www.sverigesradio.se/artikel/nytt-bombhot-mot-flygplan",
       "capturedAt": "2026-11-05T08:57:29.562Z"
+    },
+    {
+      "filename": "1793869948875_0.png",
+      "headlineId": "646ca3d15a343b79b735f22587f189b46de27f57d488a8432232b7d3bbff7c72",
+      "articleUrl": "https://www.sverigesradio.se/artikel/nytt-bombhot-mot-flygplan",
+      "capturedAt": "2026-11-05T09:12:28.875Z"
     }
   ]
 }
