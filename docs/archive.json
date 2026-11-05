@@ -45208,6 +45208,10 @@
     {
       "id": "74e8fb4beff6ed2fab87fd54cafdff194c36bfd4a3cb83ae0a651cdc57a7dcd8",
       "text": "Just nu: Man påkörd i Malmö"
+    },
+    {
+      "id": "94f8ec7c9811f543ca90298279250e80e295d09e04106db1056e43b59e725e16",
+      "text": "Just nu: Man påkörd i Malmö – förd till sjukhus"
     }
   ],
   "captures": [
@@ -113016,6 +113020,12 @@
       "headlineId": "74e8fb4beff6ed2fab87fd54cafdff194c36bfd4a3cb83ae0a651cdc57a7dcd8",
       "articleUrl": "https://www.sverigesradio.se/artikel/person-pakord-av-bil-har-forts-till-sjukhus-med-ambulans",
       "capturedAt": "2026-11-05T18:22:36.066Z"
+    },
+    {
+      "filename": "1793903266693_0.png",
+      "headlineId": "94f8ec7c9811f543ca90298279250e80e295d09e04106db1056e43b59e725e16",
+      "articleUrl": "https://www.sverigesradio.se/artikel/person-pakord-av-bil-har-forts-till-sjukhus-med-ambulans",
+      "capturedAt": "2026-11-05T18:27:46.693Z"
     }
   ]
 }
