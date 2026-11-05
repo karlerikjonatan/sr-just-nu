@@ -45152,6 +45152,10 @@
     {
       "id": "377458ac5a53359cf5c5a82e11f91295cdafdddca767993ccd11685300370f78",
       "text": "Just nu: Kvinna skadad efter olycka på perrong"
+    },
+    {
+      "id": "9119846acff7fa7608958e7f6f41560cde5169635a9ba7aeaa134ce0e6f69221",
+      "text": "Just nu: Misstänkt mord i Sollentuna: Två anhållna"
     }
   ],
   "captures": [
@@ -112876,6 +112880,12 @@
       "headlineId": "377458ac5a53359cf5c5a82e11f91295cdafdddca767993ccd11685300370f78",
       "articleUrl": "https://www.sverigesradio.se/artikel/kvinna-till-sjukhus-efter-olycka-pa-perrong-i-hyllie",
       "capturedAt": "2026-11-05T12:17:39.942Z"
+    },
+    {
+      "filename": "1793881649781_0.png",
+      "headlineId": "9119846acff7fa7608958e7f6f41560cde5169635a9ba7aeaa134ce0e6f69221",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tva-personer-anhallna-efter-misstankta-mordet-i-tureberg",
+      "capturedAt": "2026-11-05T12:27:29.781Z"
     }
   ]
 }
