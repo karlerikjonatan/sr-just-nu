@@ -45096,6 +45096,10 @@
     {
       "id": "b642213d8a6576f9b6b1f8b81100100d3e92935a1945c5966302c38d4101d05c",
       "text": "Just nu: Daniels restaurang bäst i Sverige"
+    },
+    {
+      "id": "66940f89daafe06097f9848d39cd3bf1d894d18cdb4ff948935a0c8f0ec3b403",
+      "text": "Just nu: Inflationen sjönk i oktober"
     }
   ],
   "captures": [
@@ -112736,6 +112740,12 @@
       "headlineId": "b642213d8a6576f9b6b1f8b81100100d3e92935a1945c5966302c38d4101d05c",
       "articleUrl": "https://www.sverigesradio.se/artikel/daniels-restaurang-23e-bast-i-varlden-kan-locka-fler-till-skane",
       "capturedAt": "2026-11-05T06:57:30.399Z"
+    },
+    {
+      "filename": "1793862148307_0.png",
+      "headlineId": "66940f89daafe06097f9848d39cd3bf1d894d18cdb4ff948935a0c8f0ec3b403",
+      "articleUrl": "https://www.sverigesradio.se/artikel/inflationen-sjonk-i-oktober",
+      "capturedAt": "2026-11-05T07:02:28.307Z"
     }
   ]
 }
