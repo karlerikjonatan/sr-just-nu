@@ -45060,6 +45060,10 @@
     {
       "id": "3689706ada77de2d45d3e1dc5a7047775bff0dce45f3b01077e2556ff5a2d42a",
       "text": "Just nu: Buss orsakar tågstopp mot Malmö"
+    },
+    {
+      "id": "bad666909057cba5b62d2f1c28f5cd69bb6649c570d214fd4d7fe8f80ca44d34",
+      "text": "Just nu: Tågen mot Malmö rullar igen"
     }
   ],
   "captures": [
@@ -112646,6 +112650,12 @@
       "headlineId": "3689706ada77de2d45d3e1dc5a7047775bff0dce45f3b01077e2556ff5a2d42a",
       "articleUrl": "https://www.sverigesradio.se/artikel/bussolycka-i-lund-tagstopp-mot-malmo",
       "capturedAt": "2026-11-05T00:42:39.179Z"
+    },
+    {
+      "filename": "1793839954452_0.png",
+      "headlineId": "bad666909057cba5b62d2f1c28f5cd69bb6649c570d214fd4d7fe8f80ca44d34",
+      "articleUrl": "https://www.sverigesradio.se/artikel/bussolycka-i-lund-tagstopp-mot-malmo",
+      "capturedAt": "2026-11-05T00:52:34.452Z"
     }
   ]
 }
