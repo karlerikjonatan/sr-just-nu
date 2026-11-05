@@ -45064,6 +45064,10 @@
     {
       "id": "bad666909057cba5b62d2f1c28f5cd69bb6649c570d214fd4d7fe8f80ca44d34",
       "text": "Just nu: Tågen mot Malmö rullar igen"
+    },
+    {
+      "id": "be3be9913d3d714a6faa1ee2d0758161585a4174ca01ac248bd9b04acc7f19b6",
+      "text": "Just nu: Tågkrock i Stuvsta – två skadade"
     }
   ],
   "captures": [
@@ -112656,6 +112660,12 @@
       "headlineId": "bad666909057cba5b62d2f1c28f5cd69bb6649c570d214fd4d7fe8f80ca44d34",
       "articleUrl": "https://www.sverigesradio.se/artikel/bussolycka-i-lund-tagstopp-mot-malmo",
       "capturedAt": "2026-11-05T00:52:34.452Z"
+    },
+    {
+      "filename": "1793847448818_0.png",
+      "headlineId": "be3be9913d3d714a6faa1ee2d0758161585a4174ca01ac248bd9b04acc7f19b6",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tagkrock-i-stuvsta-tva-skadade",
+      "capturedAt": "2026-11-05T02:57:28.818Z"
     }
   ]
 }
