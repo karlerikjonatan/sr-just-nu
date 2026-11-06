@@ -45288,6 +45288,10 @@
     {
       "id": "a4e167d2de3a3e5207128f3c157e1ccef56b8cec82790aa1b2ea36e6f1ec8488",
       "text": "Just nu: Bil har voltat väster om Mellerud"
+    },
+    {
+      "id": "554597bfd575587af87991f4cc82e4b43111012c4c025e8e23398885cd494fe0",
+      "text": "Just nu: Buss brinner i Grängesberg – övertänd"
     }
   ],
   "captures": [
@@ -113216,6 +113220,12 @@
       "headlineId": "a4e167d2de3a3e5207128f3c157e1ccef56b8cec82790aa1b2ea36e6f1ec8488",
       "articleUrl": "https://www.sverigesradio.se/artikel/personbil-har-voltat-vaster-om-mellerud",
       "capturedAt": "2026-11-06T15:52:36.363Z"
+    },
+    {
+      "filename": "1793986652051_0.png",
+      "headlineId": "554597bfd575587af87991f4cc82e4b43111012c4c025e8e23398885cd494fe0",
+      "articleUrl": "https://www.sverigesradio.se/artikel/buss-brinner-i-grangesberg-den-ar-overtand",
+      "capturedAt": "2026-11-06T17:37:32.051Z"
     }
   ]
 }
