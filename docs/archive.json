@@ -45312,6 +45312,10 @@
     {
       "id": "37d18d2a1b45a93d138bd1733fd11d4f2de95fa507bc600b41f957512c31196a",
       "text": "Just nu: Kvinna död på hotell i Norrköping"
+    },
+    {
+      "id": "90df54c61c23ee0c7538d5f79cae86dc23ab06ba254bd4eeec9f1de614185a37",
+      "text": "Just nu: Misstänkt mord i Föllinge – en gripen"
     }
   ],
   "captures": [
@@ -113276,6 +113280,12 @@
       "headlineId": "37d18d2a1b45a93d138bd1733fd11d4f2de95fa507bc600b41f957512c31196a",
       "articleUrl": "https://www.sverigesradio.se/artikel/kvinna-hittad-dod-pa-hotell-i-norrkoping",
       "capturedAt": "2026-11-06T19:22:29.432Z"
+    },
+    {
+      "filename": "1793995649194_0.png",
+      "headlineId": "90df54c61c23ee0c7538d5f79cae86dc23ab06ba254bd4eeec9f1de614185a37",
+      "articleUrl": "https://www.sverigesradio.se/artikel/person-hittad-skadad-i-krokom-polisen-utreder-grovt-brott",
+      "capturedAt": "2026-11-06T20:07:29.194Z"
     }
   ]
 }
