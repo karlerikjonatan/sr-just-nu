@@ -45264,6 +45264,10 @@
     {
       "id": "84a86000088a354a9cd980c8db0a777ca7ea7582224f914ada07455063312ff3",
       "text": "Just nu: Tredje misstänkt i Bagarmossen-fallet"
+    },
+    {
+      "id": "8baeace72ed333bd880551d57a90f9b1029d9748b5393a18f43407905e3356bf",
+      "text": "Just nu: Hot mot Kastrup – polis på plats"
     }
   ],
   "captures": [
@@ -113156,6 +113160,12 @@
       "headlineId": "84a86000088a354a9cd980c8db0a777ca7ea7582224f914ada07455063312ff3",
       "articleUrl": "https://www.sverigesradio.se/artikel/tredje-person-misstanks-efter-mordet-i-bagarmossen",
       "capturedAt": "2026-11-06T10:22:39.794Z"
+    },
+    {
+      "filename": "1793962050119_0.png",
+      "headlineId": "8baeace72ed333bd880551d57a90f9b1029d9748b5393a18f43407905e3356bf",
+      "articleUrl": "https://www.sverigesradio.se/artikel/hot-mot-kopenhamns-flygplats-polis-pa-plats",
+      "capturedAt": "2026-11-06T10:47:30.119Z"
     }
   ]
 }
