@@ -45228,6 +45228,10 @@
     {
       "id": "f6f6cc2e45c2d7c99284cbbadbec1d02835b04f7d5012808312e0e7530b5541f",
       "text": "Just nu: Maskerad vapenman biten under jakt"
+    },
+    {
+      "id": "db505af25f06480b8287e9e817c93a6a7fe6a268af3cedac72227accb415004e",
+      "text": "Just nu: Antalet fall av mpox ökar igen"
     }
   ],
   "captures": [
@@ -113066,6 +113070,12 @@
       "headlineId": "68ea270f65aa8e7d6b2d6c29be5f5c7997ae0a65200499ec29e8d3054298721f",
       "articleUrl": "https://www.sverigesradio.se/artikel/stopp-pa-blaa-linjen-vaxelfel",
       "capturedAt": "2026-11-06T04:52:27.534Z"
+    },
+    {
+      "filename": "1793942246131_0.png",
+      "headlineId": "db505af25f06480b8287e9e817c93a6a7fe6a268af3cedac72227accb415004e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/fhm-undersoker-om-en-tredje-vaccindos-behovs-mot-mpox",
+      "capturedAt": "2026-11-06T05:17:26.131Z"
     }
   ]
 }
