@@ -45308,6 +45308,10 @@
     {
       "id": "e4ee7621ffbaaa764862e50e7e283a4406317311e7b50c506999e3ad62a49e56",
       "text": "Just nu: En påkörd av spårvagn i Göteborg"
+    },
+    {
+      "id": "37d18d2a1b45a93d138bd1733fd11d4f2de95fa507bc600b41f957512c31196a",
+      "text": "Just nu: Kvinna död på hotell i Norrköping"
     }
   ],
   "captures": [
@@ -113266,6 +113270,12 @@
       "headlineId": "e4ee7621ffbaaa764862e50e7e283a4406317311e7b50c506999e3ad62a49e56",
       "articleUrl": "https://www.sverigesradio.se/artikel/sparvagnsolycka-vid-vagmastareplatsen-i-goteborg",
       "capturedAt": "2026-11-06T18:57:28.477Z"
+    },
+    {
+      "filename": "1793992949432_0.png",
+      "headlineId": "37d18d2a1b45a93d138bd1733fd11d4f2de95fa507bc600b41f957512c31196a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kvinna-hittad-dod-pa-hotell-i-norrkoping",
+      "capturedAt": "2026-11-06T19:22:29.432Z"
     }
   ]
 }
