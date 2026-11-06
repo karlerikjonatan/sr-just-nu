@@ -45316,6 +45316,10 @@
     {
       "id": "90df54c61c23ee0c7538d5f79cae86dc23ab06ba254bd4eeec9f1de614185a37",
       "text": "Just nu: Misstänkt mord i Föllinge – en gripen"
+    },
+    {
+      "id": "9143e3f1cbfd77104c6fe21f9ba9caeb8584e1775428c116c7df3b22824d5540",
+      "text": "Just nu: Misstänkt grovt brott i Uppsala"
     }
   ],
   "captures": [
@@ -113286,6 +113290,12 @@
       "headlineId": "90df54c61c23ee0c7538d5f79cae86dc23ab06ba254bd4eeec9f1de614185a37",
       "articleUrl": "https://www.sverigesradio.se/artikel/person-hittad-skadad-i-krokom-polisen-utreder-grovt-brott",
       "capturedAt": "2026-11-06T20:07:29.194Z"
+    },
+    {
+      "filename": "1794004048602_0.png",
+      "headlineId": "9143e3f1cbfd77104c6fe21f9ba9caeb8584e1775428c116c7df3b22824d5540",
+      "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-grovt-brott-i-uppsala-en-gripen",
+      "capturedAt": "2026-11-06T22:27:28.602Z"
     }
   ]
 }
