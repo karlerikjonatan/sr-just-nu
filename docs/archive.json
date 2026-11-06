@@ -45248,6 +45248,10 @@
     {
       "id": "aae9560a6fe0935a2f849f80fc76e42125a66d659f3efe618f6cbb285d6fe1eb",
       "text": "Just nu: Fem åtalas efter bussmordet i Tyresö"
+    },
+    {
+      "id": "455a44f5534023e20b28c6de1a5e2cfb786cc424e655a87e7273ba9e89f048fb",
+      "text": "Just nu: Planerade terrordåd mot skola – åtalas"
     }
   ],
   "captures": [
@@ -113116,6 +113120,12 @@
       "headlineId": "aae9560a6fe0935a2f849f80fc76e42125a66d659f3efe618f6cbb285d6fe1eb",
       "articleUrl": "https://www.sverigesradio.se/artikel/fem-atalas-efter-busskjutningen-i-tyreso",
       "capturedAt": "2026-11-06T09:02:29.912Z"
+    },
+    {
+      "filename": "1793956350102_0.png",
+      "headlineId": "455a44f5534023e20b28c6de1a5e2cfb786cc424e655a87e7273ba9e89f048fb",
+      "articleUrl": "https://www.sverigesradio.se/artikel/atalet-19-aring-planerade-terrordad-mot-skola-i-halmstad",
+      "capturedAt": "2026-11-06T09:12:30.102Z"
     }
   ]
 }
