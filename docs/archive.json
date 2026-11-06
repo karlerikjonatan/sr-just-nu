@@ -45280,6 +45280,10 @@
     {
       "id": "822f746e265d887b1400ad64d3f0ffdfbc14fdb9866873ba00c32cb5255539b9",
       "text": "Just nu: David Druids paus förlängs"
+    },
+    {
+      "id": "c3559345f182802c47dd54f5dc2e8dd18a618e4bc95a6bdf2af66e8a21f0237f",
+      "text": "Just nu: S-toppen: ”Förändrar ingenting”"
     }
   ],
   "captures": [
@@ -113196,6 +113200,12 @@
       "headlineId": "822f746e265d887b1400ad64d3f0ffdfbc14fdb9866873ba00c32cb5255539b9",
       "articleUrl": "https://www.sverigesradio.se/artikel/david-druid-sander-inte-morgonpasset-nasta-vecka",
       "capturedAt": "2026-11-06T12:52:30.893Z"
+    },
+    {
+      "filename": "1793974953971_0.png",
+      "headlineId": "c3559345f182802c47dd54f5dc2e8dd18a618e4bc95a6bdf2af66e8a21f0237f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/regeringsbildningen-efter-valet-2026",
+      "capturedAt": "2026-11-06T14:22:33.971Z"
     }
   ]
 }
