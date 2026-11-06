@@ -45240,6 +45240,10 @@
     {
       "id": "df128756b6d1075c87c8d66c2598657c7cf74d17a1eec5c60e1f7e479d6f9308",
       "text": "Just nu: Planerade terrorbrott – åtalas"
+    },
+    {
+      "id": "2789b5474f1baf4032ccaa5aa35ffaa4c19cb6f7b160624a567a335fa29f6f05",
+      "text": "Just nu: Planerade terrordåd mot skola– åtalas"
     }
   ],
   "captures": [
@@ -113096,6 +113100,12 @@
       "headlineId": "df128756b6d1075c87c8d66c2598657c7cf74d17a1eec5c60e1f7e479d6f9308",
       "articleUrl": "https://www.sverigesradio.se/artikel/ung-halmstadbo-atalas-ska-ha-planerat-terrordad",
       "capturedAt": "2026-11-06T08:22:39.528Z"
+    },
+    {
+      "filename": "1793953953754_0.png",
+      "headlineId": "2789b5474f1baf4032ccaa5aa35ffaa4c19cb6f7b160624a567a335fa29f6f05",
+      "articleUrl": "https://www.sverigesradio.se/artikel/atalet-19-aring-planerade-terrordad-mot-skola-i-halmstad",
+      "capturedAt": "2026-11-06T08:32:33.754Z"
     }
   ]
 }
