@@ -45216,6 +45216,10 @@
     {
       "id": "61311bf1f896b6c292f96ec2a453a68a4707e639570b0ff3c129c5c4824c917c",
       "text": "Just nu: Två nya bombhot mot flyg"
+    },
+    {
+      "id": "622295aee3c0bf1e65fd763d9aa6e9506b52fa5bb86d05f18405a3cc6bd62104",
+      "text": "Just nu: Greps efter jakt – biten av polishund"
     }
   ],
   "captures": [
@@ -113036,6 +113040,12 @@
       "headlineId": "61311bf1f896b6c292f96ec2a453a68a4707e639570b0ff3c129c5c4824c917c",
       "articleUrl": "https://www.sverigesradio.se/artikel/bombhot-mot-27-passagerarflyg-i-europa",
       "capturedAt": "2026-11-05T22:22:45.846Z"
+    },
+    {
+      "filename": "1793927248680_0.png",
+      "headlineId": "622295aee3c0bf1e65fd763d9aa6e9506b52fa5bb86d05f18405a3cc6bd62104",
+      "articleUrl": "https://www.sverigesradio.se/artikel/maskerad-person-gripen-i-vasteras-biten-av-polishund",
+      "capturedAt": "2026-11-06T01:07:28.680Z"
     }
   ]
 }
