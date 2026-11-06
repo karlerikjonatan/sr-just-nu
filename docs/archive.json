@@ -45304,6 +45304,10 @@
     {
       "id": "7e8fef285b3746a34e0e0f0e7feb4ad8ec1a36a2ebbc75010716b95fa0c93565",
       "text": "Just nu: Attack i Jemen – runt 30 döda"
+    },
+    {
+      "id": "e4ee7621ffbaaa764862e50e7e283a4406317311e7b50c506999e3ad62a49e56",
+      "text": "Just nu: En påkörd av spårvagn i Göteborg"
     }
   ],
   "captures": [
@@ -113256,6 +113260,12 @@
       "headlineId": "7e8fef285b3746a34e0e0f0e7feb4ad8ec1a36a2ebbc75010716b95fa0c93565",
       "articleUrl": "https://www.sverigesradio.se/artikel/jemen-runt-30-doda-i-attack-mot-marknad",
       "capturedAt": "2026-11-06T18:42:29.389Z"
+    },
+    {
+      "filename": "1793991448477_0.png",
+      "headlineId": "e4ee7621ffbaaa764862e50e7e283a4406317311e7b50c506999e3ad62a49e56",
+      "articleUrl": "https://www.sverigesradio.se/artikel/sparvagnsolycka-vid-vagmastareplatsen-i-goteborg",
+      "capturedAt": "2026-11-06T18:57:28.477Z"
     }
   ]
 }
