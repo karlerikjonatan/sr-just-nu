@@ -45272,6 +45272,10 @@
     {
       "id": "b60a977e990ccbefde70b34f526cdd5bbe1db13353ef3a28b2c6357b8a3739d9",
       "text": "Just nu: Medier utrymda efter bombhot"
+    },
+    {
+      "id": "5a093261b51860e1851a73599eb350047956c9b8685c1fdae0d26426a7a90e8f",
+      "text": "Just nu: V-toppen: ”Politisk teater”"
     }
   ],
   "captures": [
@@ -113176,6 +113180,12 @@
       "headlineId": "b60a977e990ccbefde70b34f526cdd5bbe1db13353ef3a28b2c6357b8a3739d9",
       "articleUrl": "https://www.sverigesradio.se/artikel/irlandska-medier-utrymda-efter-bombhot",
       "capturedAt": "2026-11-06T11:17:28.713Z"
+    },
+    {
+      "filename": "1793969254012_0.png",
+      "headlineId": "5a093261b51860e1851a73599eb350047956c9b8685c1fdae0d26426a7a90e8f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/regeringsbildningen-efter-valet-2026",
+      "capturedAt": "2026-11-06T12:47:34.012Z"
     }
   ]
 }
