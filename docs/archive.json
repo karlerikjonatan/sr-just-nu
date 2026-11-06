@@ -45284,6 +45284,10 @@
     {
       "id": "c3559345f182802c47dd54f5dc2e8dd18a618e4bc95a6bdf2af66e8a21f0237f",
       "text": "Just nu: S-toppen: ”Förändrar ingenting”"
+    },
+    {
+      "id": "a4e167d2de3a3e5207128f3c157e1ccef56b8cec82790aa1b2ea36e6f1ec8488",
+      "text": "Just nu: Bil har voltat väster om Mellerud"
     }
   ],
   "captures": [
@@ -113206,6 +113210,12 @@
       "headlineId": "c3559345f182802c47dd54f5dc2e8dd18a618e4bc95a6bdf2af66e8a21f0237f",
       "articleUrl": "https://www.sverigesradio.se/artikel/regeringsbildningen-efter-valet-2026",
       "capturedAt": "2026-11-06T14:22:33.971Z"
+    },
+    {
+      "filename": "1793980356363_0.png",
+      "headlineId": "a4e167d2de3a3e5207128f3c157e1ccef56b8cec82790aa1b2ea36e6f1ec8488",
+      "articleUrl": "https://www.sverigesradio.se/artikel/personbil-har-voltat-vaster-om-mellerud",
+      "capturedAt": "2026-11-06T15:52:36.363Z"
     }
   ]
 }
