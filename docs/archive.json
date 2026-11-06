@@ -45236,6 +45236,10 @@
     {
       "id": "a5b981c24e930da9f14f589586c3b83477ddf9864a9e49e75626d0a15ee45b0b",
       "text": "Just nu: Ålande vintjuvar knep miljonbyte"
+    },
+    {
+      "id": "df128756b6d1075c87c8d66c2598657c7cf74d17a1eec5c60e1f7e479d6f9308",
+      "text": "Just nu: Planerade terrorbrott – åtalas"
     }
   ],
   "captures": [
@@ -113086,6 +113090,12 @@
       "headlineId": "a5b981c24e930da9f14f589586c3b83477ddf9864a9e49e75626d0a15ee45b0b",
       "articleUrl": "https://www.sverigesradio.se/artikel/tjuvar-stal-vinflaskor-fran-michelinrestaurang-i-danmark",
       "capturedAt": "2026-11-06T06:37:27.403Z"
+    },
+    {
+      "filename": "1793953359528_0.png",
+      "headlineId": "df128756b6d1075c87c8d66c2598657c7cf74d17a1eec5c60e1f7e479d6f9308",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ung-halmstadbo-atalas-ska-ha-planerat-terrordad",
+      "capturedAt": "2026-11-06T08:22:39.528Z"
     }
   ]
 }
