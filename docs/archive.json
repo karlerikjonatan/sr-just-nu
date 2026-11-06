@@ -45232,6 +45232,10 @@
     {
       "id": "db505af25f06480b8287e9e817c93a6a7fe6a268af3cedac72227accb415004e",
       "text": "Just nu: Antalet fall av mpox ökar igen"
+    },
+    {
+      "id": "a5b981c24e930da9f14f589586c3b83477ddf9864a9e49e75626d0a15ee45b0b",
+      "text": "Just nu: Ålande vintjuvar knep miljonbyte"
     }
   ],
   "captures": [
@@ -113076,6 +113080,12 @@
       "headlineId": "db505af25f06480b8287e9e817c93a6a7fe6a268af3cedac72227accb415004e",
       "articleUrl": "https://www.sverigesradio.se/artikel/fhm-undersoker-om-en-tredje-vaccindos-behovs-mot-mpox",
       "capturedAt": "2026-11-06T05:17:26.131Z"
+    },
+    {
+      "filename": "1793947047403_0.png",
+      "headlineId": "a5b981c24e930da9f14f589586c3b83477ddf9864a9e49e75626d0a15ee45b0b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tjuvar-stal-vinflaskor-fran-michelinrestaurang-i-danmark",
+      "capturedAt": "2026-11-06T06:37:27.403Z"
     }
   ]
 }
