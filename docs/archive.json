@@ -45260,6 +45260,10 @@
     {
       "id": "df06c5db8a35f5dc1bed1271f681625accf8d69155c9bb1aa87417130363e3e3",
       "text": "Just nu: Lasagne återkallas – kan innehålla gummi"
+    },
+    {
+      "id": "84a86000088a354a9cd980c8db0a777ca7ea7582224f914ada07455063312ff3",
+      "text": "Just nu: Tredje misstänkt i Bagarmossen-fallet"
     }
   ],
   "captures": [
@@ -113146,6 +113150,12 @@
       "headlineId": "df06c5db8a35f5dc1bed1271f681625accf8d69155c9bb1aa87417130363e3e3",
       "articleUrl": "https://www.sverigesradio.se/artikel/dafgards-aterkallar-lasagne-kan-innehalla-gummi--2",
       "capturedAt": "2026-11-06T09:32:33.104Z"
+    },
+    {
+      "filename": "1793960559794_0.png",
+      "headlineId": "84a86000088a354a9cd980c8db0a777ca7ea7582224f914ada07455063312ff3",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tredje-person-misstanks-efter-mordet-i-bagarmossen",
+      "capturedAt": "2026-11-06T10:22:39.794Z"
     }
   ]
 }
