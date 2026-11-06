@@ -45220,6 +45220,14 @@
     {
       "id": "622295aee3c0bf1e65fd763d9aa6e9506b52fa5bb86d05f18405a3cc6bd62104",
       "text": "Just nu: Greps efter jakt – biten av polishund"
+    },
+    {
+      "id": "68ea270f65aa8e7d6b2d6c29be5f5c7997ae0a65200499ec29e8d3054298721f",
+      "text": "Just nu: Stopp i tunnelbanan"
+    },
+    {
+      "id": "f6f6cc2e45c2d7c99284cbbadbec1d02835b04f7d5012808312e0e7530b5541f",
+      "text": "Just nu: Maskerad vapenman biten under jakt"
     }
   ],
   "captures": [
@@ -113046,6 +113054,18 @@
       "headlineId": "622295aee3c0bf1e65fd763d9aa6e9506b52fa5bb86d05f18405a3cc6bd62104",
       "articleUrl": "https://www.sverigesradio.se/artikel/maskerad-person-gripen-i-vasteras-biten-av-polishund",
       "capturedAt": "2026-11-06T01:07:28.680Z"
+    },
+    {
+      "filename": "1793940747534_0.png",
+      "headlineId": "f6f6cc2e45c2d7c99284cbbadbec1d02835b04f7d5012808312e0e7530b5541f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/maskerad-person-gripen-i-vasteras-biten-av-polishund",
+      "capturedAt": "2026-11-06T04:52:27.534Z"
+    },
+    {
+      "filename": "1793940747534_1.png",
+      "headlineId": "68ea270f65aa8e7d6b2d6c29be5f5c7997ae0a65200499ec29e8d3054298721f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/stopp-pa-blaa-linjen-vaxelfel",
+      "capturedAt": "2026-11-06T04:52:27.534Z"
     }
   ]
 }
