@@ -45296,6 +45296,10 @@
     {
       "id": "94409136701b678ea912d6dec38e4548975d604a5ee8b96d73ea18499b4b75f3",
       "text": "Just nu: Polisen utreder grovt brott i Krokom"
+    },
+    {
+      "id": "68e65bd43042c31593e15363bcd98cac9489df16a7fc6efb0c5b034e7fb2e82c",
+      "text": "Just nu: Attack mot marknad i Jemen – 30 döda"
     }
   ],
   "captures": [
@@ -113236,6 +113240,12 @@
       "headlineId": "94409136701b678ea912d6dec38e4548975d604a5ee8b96d73ea18499b4b75f3",
       "articleUrl": "https://www.sverigesradio.se/artikel/person-hittad-skadad-i-krokom-polisen-utreder-grovt-brott",
       "capturedAt": "2026-11-06T18:17:38.443Z"
+    },
+    {
+      "filename": "1793990249686_0.png",
+      "headlineId": "68e65bd43042c31593e15363bcd98cac9489df16a7fc6efb0c5b034e7fb2e82c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/jemen-runt-30-doda-i-attack-mot-marknad",
+      "capturedAt": "2026-11-06T18:37:29.686Z"
     }
   ]
 }
