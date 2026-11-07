@@ -45324,6 +45324,10 @@
     {
       "id": "aa0ac557646c7e595c2355d964489df4a349129cfd99e15b6ea58d68aefefa58",
       "text": "Just nu: Efter dödshot – slutar i landslaget"
+    },
+    {
+      "id": "85053b3af05adc2124965252fc5553c3b282409168fa623c694f9594428bf096",
+      "text": "Just nu: Man föll från kryssningsfartyg - stor sökinsats"
     }
   ],
   "captures": [
@@ -113306,6 +113310,12 @@
       "headlineId": "aa0ac557646c7e595c2355d964489df4a349129cfd99e15b6ea58d68aefefa58",
       "articleUrl": "https://www.sverigesradio.se/artikel/efter-dodshot-montader-madjed-slutar-i-landslaget",
       "capturedAt": "2026-11-06T23:42:31.608Z"
+    },
+    {
+      "filename": "1794018753759_0.png",
+      "headlineId": "85053b3af05adc2124965252fc5553c3b282409168fa623c694f9594428bf096",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-foll-fran-kryssningsfartyg-stor-sokinsats",
+      "capturedAt": "2026-11-07T02:32:33.759Z"
     }
   ]
 }
