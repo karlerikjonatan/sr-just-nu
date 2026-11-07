@@ -45352,6 +45352,10 @@
     {
       "id": "5c40040fb4b7c1f564595ac01764b268b0eaea2c5ceb53c52cb827fbde9fd1e1",
       "text": "Just nu: Hat efter Pride-inlägg polisanmäls"
+    },
+    {
+      "id": "6d36bf2296c72e6c18d9cd0ec019badeb230dfca022f230b4fc01f18b33e599d",
+      "text": "Just nu: Tågstopp mellan Jönköping och Värnamo"
     }
   ],
   "captures": [
@@ -113376,6 +113380,12 @@
       "headlineId": "5c40040fb4b7c1f564595ac01764b268b0eaea2c5ceb53c52cb827fbde9fd1e1",
       "articleUrl": "https://www.sverigesradio.se/artikel/enkopings-bibliotek-polisanmaler-hot-efter-prideinlagg",
       "capturedAt": "2026-11-07T07:37:27.966Z"
+    },
+    {
+      "filename": "1794039756846_0.png",
+      "headlineId": "6d36bf2296c72e6c18d9cd0ec019badeb230dfca022f230b4fc01f18b33e599d",
+      "articleUrl": "https://www.sverigesradio.se/artikel/stopp-i-tagtrafiken-efter-olycka--32",
+      "capturedAt": "2026-11-07T08:22:36.846Z"
     }
   ]
 }
