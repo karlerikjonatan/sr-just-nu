@@ -45336,6 +45336,10 @@
     {
       "id": "16697ca6107c277b8d0bf1e12ad637ffd30923b1314397134ee6b4e1d05e53a7",
       "text": "Just nu: Föll från kryssningsfartyg – sökandet avslutat"
+    },
+    {
+      "id": "4ca0aaf60ba2b26e81807904972344be5251c854fbeb0e811ac72ffa2092adea",
+      "text": "Just nu: Man död efter olycka på Öland"
     }
   ],
   "captures": [
@@ -113336,6 +113340,12 @@
       "headlineId": "16697ca6107c277b8d0bf1e12ad637ffd30923b1314397134ee6b4e1d05e53a7",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-foll-fran-kryssningsfartyg-stor-sokinsats",
       "capturedAt": "2026-11-07T04:37:28.367Z"
+    },
+    {
+      "filename": "1794030753507_0.png",
+      "headlineId": "4ca0aaf60ba2b26e81807904972344be5251c854fbeb0e811ac72ffa2092adea",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-dod-efter-singelolycka-pa-oland-korde-in-i-trad",
+      "capturedAt": "2026-11-07T05:52:33.507Z"
     }
   ]
 }
