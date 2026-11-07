@@ -45384,6 +45384,10 @@
     {
       "id": "8f7578d59183b630bf71ae9f5825761501c218d5ca43183671bd51513917567a",
       "text": "Just nu: Olycka i Södra länken i Stockholm"
+    },
+    {
+      "id": "699ed04bdcdf40d125a9b55dea938b0abea35fc63479037b8c02bcc36c03a30f",
+      "text": "Just nu: ”Bonusprinsen” överfallen i hemmet"
     }
   ],
   "captures": [
@@ -113456,6 +113460,12 @@
       "headlineId": "8f7578d59183b630bf71ae9f5825761501c218d5ca43183671bd51513917567a",
       "articleUrl": "https://www.sverigesradio.se/artikel/stokigt-trafiklage-i-sodra-lanken",
       "capturedAt": "2026-11-07T14:42:33.330Z"
+    },
+    {
+      "filename": "1794070044908_0.png",
+      "headlineId": "699ed04bdcdf40d125a9b55dea938b0abea35fc63479037b8c02bcc36c03a30f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/bonusprinsen-marius-borg-hoiby-overfallen-i-skaugum",
+      "capturedAt": "2026-11-07T16:47:24.908Z"
     }
   ]
 }
