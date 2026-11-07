@@ -45328,6 +45328,10 @@
     {
       "id": "85053b3af05adc2124965252fc5553c3b282409168fa623c694f9594428bf096",
       "text": "Just nu: Man föll från kryssningsfartyg - stor sökinsats"
+    },
+    {
+      "id": "aa631d9ace54b9bf403d78ac41a15869d395f9a3fe8411eace6a8722a7d59856",
+      "text": "Just nu: Man föll från kryssningsfartyg – stor sökinsats"
     }
   ],
   "captures": [
@@ -113316,6 +113320,12 @@
       "headlineId": "85053b3af05adc2124965252fc5553c3b282409168fa623c694f9594428bf096",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-foll-fran-kryssningsfartyg-stor-sokinsats",
       "capturedAt": "2026-11-07T02:32:33.759Z"
+    },
+    {
+      "filename": "1794019051874_0.png",
+      "headlineId": "aa631d9ace54b9bf403d78ac41a15869d395f9a3fe8411eace6a8722a7d59856",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-foll-fran-kryssningsfartyg-stor-sokinsats",
+      "capturedAt": "2026-11-07T02:37:31.874Z"
     }
   ]
 }
