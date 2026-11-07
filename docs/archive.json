@@ -45340,6 +45340,10 @@
     {
       "id": "4ca0aaf60ba2b26e81807904972344be5251c854fbeb0e811ac72ffa2092adea",
       "text": "Just nu: Man död efter olycka på Öland"
+    },
+    {
+      "id": "b6fa470d20344495c5f4f5dd0c094b6c4cd69c0e692fa62fa0cab58a5f9c6a8a",
+      "text": "Just nu: Tågkaos efter ölsläpp – folk svimmade"
     }
   ],
   "captures": [
@@ -113346,6 +113350,12 @@
       "headlineId": "4ca0aaf60ba2b26e81807904972344be5251c854fbeb0e811ac72ffa2092adea",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-dod-efter-singelolycka-pa-oland-korde-in-i-trad",
       "capturedAt": "2026-11-07T05:52:33.507Z"
+    },
+    {
+      "filename": "1794034652893_0.png",
+      "headlineId": "b6fa470d20344495c5f4f5dd0c094b6c4cd69c0e692fa62fa0cab58a5f9c6a8a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/overfulla-tag-efter-olslapp-folk-svimmade-och-fick-panik",
+      "capturedAt": "2026-11-07T06:57:32.893Z"
     }
   ]
 }
