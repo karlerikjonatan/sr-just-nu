@@ -45344,6 +45344,10 @@
     {
       "id": "b6fa470d20344495c5f4f5dd0c094b6c4cd69c0e692fa62fa0cab58a5f9c6a8a",
       "text": "Just nu: Tågkaos efter ölsläpp – folk svimmade"
+    },
+    {
+      "id": "76b973504d5819a35f72c7de92a239e1b1a4924ee19a51788025f0995f08ec81",
+      "text": "Just nu: Bibliotek anmäler hat mot Pride-inlägg"
     }
   ],
   "captures": [
@@ -113356,6 +113360,12 @@
       "headlineId": "b6fa470d20344495c5f4f5dd0c094b6c4cd69c0e692fa62fa0cab58a5f9c6a8a",
       "articleUrl": "https://www.sverigesradio.se/artikel/overfulla-tag-efter-olslapp-folk-svimmade-och-fick-panik",
       "capturedAt": "2026-11-07T06:57:32.893Z"
+    },
+    {
+      "filename": "1794036154026_0.png",
+      "headlineId": "76b973504d5819a35f72c7de92a239e1b1a4924ee19a51788025f0995f08ec81",
+      "articleUrl": "https://www.sverigesradio.se/artikel/enkopings-bibliotek-polisanmaler-hot-efter-prideinlagg",
+      "capturedAt": "2026-11-07T07:22:34.026Z"
     }
   ]
 }
