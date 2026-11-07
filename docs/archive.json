@@ -45360,6 +45360,10 @@
     {
       "id": "1f4be0f2cbb1398957bd900c9600e19d71ed5a816cc245b28d66457328a79923",
       "text": "Just nu: Traktorskopa föll på bil – E45 avstängd"
+    },
+    {
+      "id": "a850cc8b2384e7eba9c62161804a61f5a218c7e28ee0a652986bc1e9c7c01722",
+      "text": "Just nu: Belarus stängs ute ur hockey-VM"
     }
   ],
   "captures": [
@@ -113396,6 +113400,12 @@
       "headlineId": "1f4be0f2cbb1398957bd900c9600e19d71ed5a816cc245b28d66457328a79923",
       "articleUrl": "https://www.sverigesradio.se/artikel/traktorskopa-hamnat-pa-bil",
       "capturedAt": "2026-11-07T10:57:29.432Z"
+    },
+    {
+      "filename": "1794052054414_0.png",
+      "headlineId": "a850cc8b2384e7eba9c62161804a61f5a218c7e28ee0a652986bc1e9c7c01722",
+      "articleUrl": "https://www.sverigesradio.se/artikel/belarus-stangs-ute-ur-hockey-vm",
+      "capturedAt": "2026-11-07T11:47:34.414Z"
     }
   ]
 }
