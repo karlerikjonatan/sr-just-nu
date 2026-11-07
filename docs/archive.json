@@ -45368,6 +45368,10 @@
     {
       "id": "dbf5a5f5e2df475841b99887e5cef0ff29f587e16cfd53aa4714a239965fad91",
       "text": "Just nu: Två misstänks för taxibluff på Arlanda"
+    },
+    {
+      "id": "acc176a95b11d41e5d7bd04a8e7e1b2509924dd34c35922d3824f7295acf1455",
+      "text": "Just nu: Långa köer på E4 söder om Stockholm"
     }
   ],
   "captures": [
@@ -113416,6 +113420,12 @@
       "headlineId": "dbf5a5f5e2df475841b99887e5cef0ff29f587e16cfd53aa4714a239965fad91",
       "articleUrl": "https://www.sverigesradio.se/artikel/taxichaufforer-misstanks-ha-lurat-eskilstunabor-a-arlanda",
       "capturedAt": "2026-11-07T12:37:29.383Z"
+    },
+    {
+      "filename": "1794056850018_0.png",
+      "headlineId": "acc176a95b11d41e5d7bd04a8e7e1b2509924dd34c35922d3824f7295acf1455",
+      "articleUrl": "https://www.sverigesradio.se/artikel/langa-koer-efter-flerbilskrock-pa-e4-e20",
+      "capturedAt": "2026-11-07T13:07:30.018Z"
     }
   ]
 }
