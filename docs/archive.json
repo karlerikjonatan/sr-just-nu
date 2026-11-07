@@ -45376,6 +45376,10 @@
     {
       "id": "3fc8a2e6cd4bb03296093b77e76e3cd9b2efc0accec7136c1235972d135d1c4c",
       "text": "Just nu: Trafikolycka – långa köer på E4/E20"
+    },
+    {
+      "id": "6a6a42a1a42d2a4efb241e3b9dc8918e06ad3e270c1e4661f6f0985c4cc267a5",
+      "text": "Just nu: Fem bilar i krock söder om Stockholm"
     }
   ],
   "captures": [
@@ -113436,6 +113440,12 @@
       "headlineId": "3fc8a2e6cd4bb03296093b77e76e3cd9b2efc0accec7136c1235972d135d1c4c",
       "articleUrl": "https://www.sverigesradio.se/artikel/langa-koer-efter-flerbilskrock-pa-e4-e20",
       "capturedAt": "2026-11-07T13:12:39.313Z"
+    },
+    {
+      "filename": "1794059259698_0.png",
+      "headlineId": "6a6a42a1a42d2a4efb241e3b9dc8918e06ad3e270c1e4661f6f0985c4cc267a5",
+      "articleUrl": "https://www.sverigesradio.se/artikel/langa-koer-efter-flerbilskrock-pa-e4-e20",
+      "capturedAt": "2026-11-07T13:47:39.698Z"
     }
   ]
 }
