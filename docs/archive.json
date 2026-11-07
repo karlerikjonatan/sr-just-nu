@@ -45364,6 +45364,10 @@
     {
       "id": "a850cc8b2384e7eba9c62161804a61f5a218c7e28ee0a652986bc1e9c7c01722",
       "text": "Just nu: Belarus stängs ute ur hockey-VM"
+    },
+    {
+      "id": "dbf5a5f5e2df475841b99887e5cef0ff29f587e16cfd53aa4714a239965fad91",
+      "text": "Just nu: Två misstänks för taxibluff på Arlanda"
     }
   ],
   "captures": [
@@ -113406,6 +113410,12 @@
       "headlineId": "a850cc8b2384e7eba9c62161804a61f5a218c7e28ee0a652986bc1e9c7c01722",
       "articleUrl": "https://www.sverigesradio.se/artikel/belarus-stangs-ute-ur-hockey-vm",
       "capturedAt": "2026-11-07T11:47:34.414Z"
+    },
+    {
+      "filename": "1794055049383_0.png",
+      "headlineId": "dbf5a5f5e2df475841b99887e5cef0ff29f587e16cfd53aa4714a239965fad91",
+      "articleUrl": "https://www.sverigesradio.se/artikel/taxichaufforer-misstanks-ha-lurat-eskilstunabor-a-arlanda",
+      "capturedAt": "2026-11-07T12:37:29.383Z"
     }
   ]
 }
