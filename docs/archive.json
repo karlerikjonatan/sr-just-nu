@@ -45432,6 +45432,10 @@
     {
       "id": "180af3d05a92fd19844bae6822d9be2186886fce274150cb2e77e80c5f6ec967",
       "text": "Just nu: Stopp på E4  norr om Luleå"
+    },
+    {
+      "id": "f567c2087bce8f3342ec279c51b5d9f377837f6063fa44d70682010793788f76",
+      "text": "Just nu: 150 liter olja läckt från båt i Bålsta"
     }
   ],
   "captures": [
@@ -113576,6 +113580,12 @@
       "headlineId": "180af3d05a92fd19844bae6822d9be2186886fce274150cb2e77e80c5f6ec967",
       "articleUrl": "https://www.sverigesradio.se/artikel/bil-kort-in-i-mittracke-e4-norr-om-lulea",
       "capturedAt": "2026-11-08T13:22:30.994Z"
+    },
+    {
+      "filename": "1794145347778_0.png",
+      "headlineId": "f567c2087bce8f3342ec279c51b5d9f377837f6063fa44d70682010793788f76",
+      "articleUrl": "https://www.sverigesradio.se/artikel/150-liter-olja-lackte-fran-bat-i-balsta",
+      "capturedAt": "2026-11-08T13:42:27.778Z"
     }
   ]
 }
