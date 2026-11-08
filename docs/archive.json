@@ -45436,6 +45436,10 @@
     {
       "id": "f567c2087bce8f3342ec279c51b5d9f377837f6063fa44d70682010793788f76",
       "text": "Just nu: 150 liter olja läckt från båt i Bålsta"
+    },
+    {
+      "id": "413cb054c779c4e41bfa8bbe434f861e84794e758565f1eab5928850e1393bb5",
+      "text": "Just nu: Europa med vid Ukrainasamtalen"
     }
   ],
   "captures": [
@@ -113586,6 +113590,12 @@
       "headlineId": "f567c2087bce8f3342ec279c51b5d9f377837f6063fa44d70682010793788f76",
       "articleUrl": "https://www.sverigesradio.se/artikel/150-liter-olja-lackte-fran-bat-i-balsta",
       "capturedAt": "2026-11-08T13:42:27.778Z"
+    },
+    {
+      "filename": "1794146854529_0.png",
+      "headlineId": "413cb054c779c4e41bfa8bbe434f861e84794e758565f1eab5928850e1393bb5",
+      "articleUrl": "https://www.sverigesradio.se/artikel/europa-deltar-i-fredssamtal-om-ryssland-och-ukraina",
+      "capturedAt": "2026-11-08T14:07:34.529Z"
     }
   ]
 }
