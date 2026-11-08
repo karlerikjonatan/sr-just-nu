@@ -45412,6 +45412,10 @@
     {
       "id": "40cd78d6bd0970e72f28a84452a3284364cfff690549ab5a063288e667c61a41",
       "text": "Just nu: Skadad man hittad vid tunnelbanan"
+    },
+    {
+      "id": "6423c6bd1175cf5f58f4b1214704b4bb0341454c14adb169386b65bb5019ea5e",
+      "text": "Just nu: Skadad man hittad – kvinna misstänks"
     }
   ],
   "captures": [
@@ -113526,6 +113530,12 @@
       "headlineId": "cba021110b582ee37525b112580ac4eab4ba32250dff603837b359d3805e7f6e",
       "articleUrl": "https://www.sverigesradio.se/artikel/storbrand-i-sporthall-i-tumba-andra-pa-nio-dagar",
       "capturedAt": "2026-11-08T05:07:28.464Z"
+    },
+    {
+      "filename": "1794121360559_0.png",
+      "headlineId": "6423c6bd1175cf5f58f4b1214704b4bb0341454c14adb169386b65bb5019ea5e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kvinna-gripen-misstankt-for-forsok-till-mord",
+      "capturedAt": "2026-11-08T07:02:40.559Z"
     }
   ]
 }
