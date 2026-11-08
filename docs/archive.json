@@ -45416,6 +45416,10 @@
     {
       "id": "6423c6bd1175cf5f58f4b1214704b4bb0341454c14adb169386b65bb5019ea5e",
       "text": "Just nu: Skadad man hittad – kvinna misstänks"
+    },
+    {
+      "id": "7ac83883ee76c7e90351223a41f1697c2bfa35f86dc871cccb082184bce3a94a",
+      "text": "Just nu: Sprang in i skog efter krock i stolpe"
     }
   ],
   "captures": [
@@ -113536,6 +113540,12 @@
       "headlineId": "6423c6bd1175cf5f58f4b1214704b4bb0341454c14adb169386b65bb5019ea5e",
       "articleUrl": "https://www.sverigesradio.se/artikel/kvinna-gripen-misstankt-for-forsok-till-mord",
       "capturedAt": "2026-11-08T07:02:40.559Z"
+    },
+    {
+      "filename": "1794136950595_0.png",
+      "headlineId": "7ac83883ee76c7e90351223a41f1697c2bfa35f86dc871cccb082184bce3a94a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/en-till-sjukhus-efter-olycka-flera-personer-flydde-upp-i-skogen",
+      "capturedAt": "2026-11-08T11:22:30.595Z"
     }
   ]
 }
