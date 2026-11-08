@@ -45428,6 +45428,10 @@
     {
       "id": "49f5dd683eba1d2bb1e7debdb7a49e43dbb6c8ac261be7e59be6695babde184c",
       "text": "Just nu: Körde in i stolpe – sprang till skogs"
+    },
+    {
+      "id": "180af3d05a92fd19844bae6822d9be2186886fce274150cb2e77e80c5f6ec967",
+      "text": "Just nu: Stopp på E4  norr om Luleå"
     }
   ],
   "captures": [
@@ -113566,6 +113570,12 @@
       "headlineId": "3cf831bbe492b0ad4a93eb015f74f43bd14062bdaae7be748702a1a8cdcad65a",
       "articleUrl": "https://www.sverigesradio.se/artikel/tagstopp-pa-vastra-stambanan-pga-brand",
       "capturedAt": "2026-11-08T11:27:25.584Z"
+    },
+    {
+      "filename": "1794144150994_0.png",
+      "headlineId": "180af3d05a92fd19844bae6822d9be2186886fce274150cb2e77e80c5f6ec967",
+      "articleUrl": "https://www.sverigesradio.se/artikel/bil-kort-in-i-mittracke-e4-norr-om-lulea",
+      "capturedAt": "2026-11-08T13:22:30.994Z"
     }
   ]
 }
