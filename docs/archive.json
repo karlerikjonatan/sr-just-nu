@@ -45448,6 +45448,10 @@
     {
       "id": "3716cc194de9c8cbe90e4d7e2d328d8ecdd875195a006f400b69992c441b3847",
       "text": "Just nu: Tågkrock i Egypten – flera döda"
+    },
+    {
+      "id": "a2d5bfe3476ef6af1f1f2dc59d6c5a9b10ba97cc88be9271933079f5f2afb57c",
+      "text": "Just nu: Läktarolycka i Norge – flera skadade"
     }
   ],
   "captures": [
@@ -113616,6 +113620,12 @@
       "headlineId": "3716cc194de9c8cbe90e4d7e2d328d8ecdd875195a006f400b69992c441b3847",
       "articleUrl": "https://www.sverigesradio.se/artikel/tagkollision-i-egypten-64-skadade-i-giza",
       "capturedAt": "2026-11-08T15:42:55.915Z"
+    },
+    {
+      "filename": "1794152846462_0.png",
+      "headlineId": "a2d5bfe3476ef6af1f1f2dc59d6c5a9b10ba97cc88be9271933079f5f2afb57c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/match-avbruten-i-norge-efter-laktarfall",
+      "capturedAt": "2026-11-08T15:47:26.462Z"
     }
   ]
 }
