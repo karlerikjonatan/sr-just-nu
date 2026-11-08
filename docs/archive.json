@@ -45404,6 +45404,14 @@
     {
       "id": "f5ff171869e4865db4d6ab8a2a1822d031d5f0fe8cca5dca0131a007561822c5",
       "text": "Just nu: Storbrand i sporthall – andra på nio dagar"
+    },
+    {
+      "id": "cba021110b582ee37525b112580ac4eab4ba32250dff603837b359d3805e7f6e",
+      "text": "Just nu: Storbrand i sporthall – igen"
+    },
+    {
+      "id": "40cd78d6bd0970e72f28a84452a3284364cfff690549ab5a063288e667c61a41",
+      "text": "Just nu: Skadad man hittad vid tunnelbanan"
     }
   ],
   "captures": [
@@ -113506,6 +113514,18 @@
       "headlineId": "f5ff171869e4865db4d6ab8a2a1822d031d5f0fe8cca5dca0131a007561822c5",
       "articleUrl": "https://www.sverigesradio.se/artikel/storbrand-i-sporthall-i-tumba-andra-pa-nio-dagar",
       "capturedAt": "2026-11-08T03:02:29.217Z"
+    },
+    {
+      "filename": "1794114448464_0.png",
+      "headlineId": "40cd78d6bd0970e72f28a84452a3284364cfff690549ab5a063288e667c61a41",
+      "articleUrl": "https://www.sverigesradio.se/artikel/skadad-man-hittades-vid-tunnelbanan-misstankt-mordforsok",
+      "capturedAt": "2026-11-08T05:07:28.464Z"
+    },
+    {
+      "filename": "1794114448464_1.png",
+      "headlineId": "cba021110b582ee37525b112580ac4eab4ba32250dff603837b359d3805e7f6e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/storbrand-i-sporthall-i-tumba-andra-pa-nio-dagar",
+      "capturedAt": "2026-11-08T05:07:28.464Z"
     }
   ]
 }
