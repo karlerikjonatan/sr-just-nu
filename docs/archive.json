@@ -45396,6 +45396,10 @@
     {
       "id": "ad7d1f08f5c69af2e5e5f6b9fc9fe45352fabee4c8b58a71d9d1627ae51ddc5d",
       "text": "Just nu: Brand i företagslokal i Visby"
+    },
+    {
+      "id": "9589b05ba85785d8d6b0105eecdd298119c7651789fc5354eba9d796cf5b6dd0",
+      "text": "Just nu: 33 personer döda i Jemen efter attack"
     }
   ],
   "captures": [
@@ -113486,6 +113490,12 @@
       "headlineId": "ad7d1f08f5c69af2e5e5f6b9fc9fe45352fabee4c8b58a71d9d1627ae51ddc5d",
       "articleUrl": "https://www.sverigesradio.se/artikel/brand-i-foretagslokal-pa-skarphall",
       "capturedAt": "2026-11-07T21:32:39.416Z"
+    },
+    {
+      "filename": "1794103952599_0.png",
+      "headlineId": "9589b05ba85785d8d6b0105eecdd298119c7651789fc5354eba9d796cf5b6dd0",
+      "articleUrl": "https://www.sverigesradio.se/artikel/33-personer-doda-i-jemen-efter-saudiarabisk-attack",
+      "capturedAt": "2026-11-08T02:12:32.599Z"
     }
   ]
 }
