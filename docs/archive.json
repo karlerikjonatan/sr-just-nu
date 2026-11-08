@@ -45452,6 +45452,10 @@
     {
       "id": "a2d5bfe3476ef6af1f1f2dc59d6c5a9b10ba97cc88be9271933079f5f2afb57c",
       "text": "Just nu: Läktarolycka i Norge – flera skadade"
+    },
+    {
+      "id": "cc4641182188f5d57c534050805b50adce634aebd78ea8b079d017f9bebcfd84",
+      "text": "Just nu: Växjö åker ur damallsvenskan"
     }
   ],
   "captures": [
@@ -113626,6 +113630,12 @@
       "headlineId": "a2d5bfe3476ef6af1f1f2dc59d6c5a9b10ba97cc88be9271933079f5f2afb57c",
       "articleUrl": "https://www.sverigesradio.se/artikel/match-avbruten-i-norge-efter-laktarfall",
       "capturedAt": "2026-11-08T15:47:26.462Z"
+    },
+    {
+      "filename": "1794153750270_0.png",
+      "headlineId": "cc4641182188f5d57c534050805b50adce634aebd78ea8b079d017f9bebcfd84",
+      "articleUrl": "https://www.sverigesradio.se/artikel/vaxjo-degraderas-efter-0-0-mot-norrkoping-i-damallsvenskan",
+      "capturedAt": "2026-11-08T16:02:30.270Z"
     }
   ]
 }
