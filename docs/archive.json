@@ -45420,6 +45420,14 @@
     {
       "id": "7ac83883ee76c7e90351223a41f1697c2bfa35f86dc871cccb082184bce3a94a",
       "text": "Just nu: Sprang in i skog efter krock i stolpe"
+    },
+    {
+      "id": "3cf831bbe492b0ad4a93eb015f74f43bd14062bdaae7be748702a1a8cdcad65a",
+      "text": "Just nu: Tåg stoppas mellan Stockholm Göteborg"
+    },
+    {
+      "id": "49f5dd683eba1d2bb1e7debdb7a49e43dbb6c8ac261be7e59be6695babde184c",
+      "text": "Just nu: Körde in i stolpe – sprang till skogs"
     }
   ],
   "captures": [
@@ -113546,6 +113554,18 @@
       "headlineId": "7ac83883ee76c7e90351223a41f1697c2bfa35f86dc871cccb082184bce3a94a",
       "articleUrl": "https://www.sverigesradio.se/artikel/en-till-sjukhus-efter-olycka-flera-personer-flydde-upp-i-skogen",
       "capturedAt": "2026-11-08T11:22:30.595Z"
+    },
+    {
+      "filename": "1794137245584_0.png",
+      "headlineId": "49f5dd683eba1d2bb1e7debdb7a49e43dbb6c8ac261be7e59be6695babde184c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/en-till-sjukhus-efter-olycka-flera-personer-flydde-upp-i-skogen",
+      "capturedAt": "2026-11-08T11:27:25.584Z"
+    },
+    {
+      "filename": "1794137245584_1.png",
+      "headlineId": "3cf831bbe492b0ad4a93eb015f74f43bd14062bdaae7be748702a1a8cdcad65a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tagstopp-pa-vastra-stambanan-pga-brand",
+      "capturedAt": "2026-11-08T11:27:25.584Z"
     }
   ]
 }
