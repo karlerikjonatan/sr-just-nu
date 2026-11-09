@@ -45488,6 +45488,10 @@
     {
       "id": "377e61803ba3c81c213096690d0040d31e1cdce492fdfdf1a204fbec4b6e5206",
       "text": "Just nu: En död efter brand i Kortedala"
+    },
+    {
+      "id": "fb28981e06105e4f0a95e3ae32f989939b941bc900aafbc9c56e1231a248c841",
+      "text": "Just nu: Risk för fisk på Huddingevägen"
     }
   ],
   "captures": [
@@ -113716,6 +113720,12 @@
       "headlineId": "377e61803ba3c81c213096690d0040d31e1cdce492fdfdf1a204fbec4b6e5206",
       "articleUrl": "https://www.sverigesradio.se/artikel/person-skadad-i-lagenhetsbrand-i-kortedala",
       "capturedAt": "2026-11-09T11:22:34.183Z"
+    },
+    {
+      "filename": "1794231157665_0.png",
+      "headlineId": "fb28981e06105e4f0a95e3ae32f989939b941bc900aafbc9c56e1231a248c841",
+      "articleUrl": "https://www.sverigesradio.se/artikel/risk-for-fisk-pa-huddingevagen",
+      "capturedAt": "2026-11-09T13:32:37.665Z"
     }
   ]
 }
