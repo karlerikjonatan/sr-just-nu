@@ -45464,6 +45464,10 @@
     {
       "id": "2de31fdf032e53458221d3fb0f9538d2e7f7903c174f4685641d805d903fb6a1",
       "text": "Just nu: Nvidia utreder ”honungsfälla”"
+    },
+    {
+      "id": "5579d012299c390d84742c025b7623f5f075aaa57b26a9a7ee1e9194f98a5aa1",
+      "text": "Just nu: Misstänkt svindlarpar häktade"
     }
   ],
   "captures": [
@@ -113656,6 +113660,12 @@
       "headlineId": "2de31fdf032e53458221d3fb0f9538d2e7f7903c174f4685641d805d903fb6a1",
       "articleUrl": "https://www.sverigesradio.se/artikel/nvidia-utreder-om-jensen-huang-utsatts-for-kinesisk-spion",
       "capturedAt": "2026-11-09T04:42:32.197Z"
+    },
+    {
+      "filename": "1794202045499_0.png",
+      "headlineId": "5579d012299c390d84742c025b7623f5f075aaa57b26a9a7ee1e9194f98a5aa1",
+      "articleUrl": "https://www.sverigesradio.se/artikel/par-haktat-for-omfattande-hotellbedragerier-i-norrland",
+      "capturedAt": "2026-11-09T05:27:25.499Z"
     }
   ]
 }
