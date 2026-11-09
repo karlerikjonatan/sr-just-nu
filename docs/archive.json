@@ -45456,6 +45456,10 @@
     {
       "id": "cc4641182188f5d57c534050805b50adce634aebd78ea8b079d017f9bebcfd84",
       "text": "Just nu: Växjö åker ur damallsvenskan"
+    },
+    {
+      "id": "5262450acf07f56e542ab5e2536d9094b6493be9a4f44878f399cc716693eb1f",
+      "text": "Just nu: Kraftig lägenhetsbrand i Malmö"
     }
   ],
   "captures": [
@@ -113636,6 +113640,12 @@
       "headlineId": "cc4641182188f5d57c534050805b50adce634aebd78ea8b079d017f9bebcfd84",
       "articleUrl": "https://www.sverigesradio.se/artikel/vaxjo-degraderas-efter-0-0-mot-norrkoping-i-damallsvenskan",
       "capturedAt": "2026-11-08T16:02:30.270Z"
+    },
+    {
+      "filename": "1794193654854_0.png",
+      "headlineId": "5262450acf07f56e542ab5e2536d9094b6493be9a4f44878f399cc716693eb1f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lagenhetsbrand-i-centrala-malmo-en-person-till-sjukhus",
+      "capturedAt": "2026-11-09T03:07:34.854Z"
     }
   ]
 }
