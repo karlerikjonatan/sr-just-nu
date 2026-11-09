@@ -45504,6 +45504,10 @@
     {
       "id": "dd937405bf4494a1ed7fd41fb21be9c49b15fe6c50f7fb9951c742ab00652ee8",
       "text": "Just nu: ”Iran bakom frysattacker”"
+    },
+    {
+      "id": "b3e63a43713beebfb7f0802540ea744fa7b735082bff8a229645194e30cf6cfd",
+      "text": "Just nu: Mordhotade sin mamma – döms"
     }
   ],
   "captures": [
@@ -113756,6 +113760,12 @@
       "headlineId": "dd937405bf4494a1ed7fd41fb21be9c49b15fe6c50f7fb9951c742ab00652ee8",
       "articleUrl": "https://www.sverigesradio.se/artikel/frankrike-misstanker-iranska-hackare-bakom-frysattacker",
       "capturedAt": "2026-11-09T16:37:30.528Z"
+    },
+    {
+      "filename": "1794251252165_0.png",
+      "headlineId": "b3e63a43713beebfb7f0802540ea744fa7b735082bff8a229645194e30cf6cfd",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-doms-for-knivhot-mot-sin-mamma-i-nykoping",
+      "capturedAt": "2026-11-09T19:07:32.165Z"
     }
   ]
 }
