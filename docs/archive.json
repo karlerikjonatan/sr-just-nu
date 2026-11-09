@@ -45492,6 +45492,10 @@
     {
       "id": "fb28981e06105e4f0a95e3ae32f989939b941bc900aafbc9c56e1231a248c841",
       "text": "Just nu: Risk för fisk på Huddingevägen"
+    },
+    {
+      "id": "8de9c1ce5cb103d552e89d831ebc68c156b9edfecfff1456ce0bdd7edd5cd79e",
+      "text": "Just nu: Brand döms till över 10 års fängelse"
     }
   ],
   "captures": [
@@ -113726,6 +113730,12 @@
       "headlineId": "fb28981e06105e4f0a95e3ae32f989939b941bc900aafbc9c56e1231a248c841",
       "articleUrl": "https://www.sverigesradio.se/artikel/risk-for-fisk-pa-huddingevagen",
       "capturedAt": "2026-11-09T13:32:37.665Z"
+    },
+    {
+      "filename": "1794234758482_0.png",
+      "headlineId": "8de9c1ce5cb103d552e89d831ebc68c156b9edfecfff1456ce0bdd7edd5cd79e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/russell-brand-far-10-ar-och-6-manader-fangelse",
+      "capturedAt": "2026-11-09T14:32:38.482Z"
     }
   ]
 }
