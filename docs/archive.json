@@ -45460,6 +45460,10 @@
     {
       "id": "5262450acf07f56e542ab5e2536d9094b6493be9a4f44878f399cc716693eb1f",
       "text": "Just nu: Kraftig lägenhetsbrand i Malmö"
+    },
+    {
+      "id": "2de31fdf032e53458221d3fb0f9538d2e7f7903c174f4685641d805d903fb6a1",
+      "text": "Just nu: Nvidia utreder ”honungsfälla”"
     }
   ],
   "captures": [
@@ -113646,6 +113650,12 @@
       "headlineId": "5262450acf07f56e542ab5e2536d9094b6493be9a4f44878f399cc716693eb1f",
       "articleUrl": "https://www.sverigesradio.se/artikel/lagenhetsbrand-i-centrala-malmo-en-person-till-sjukhus",
       "capturedAt": "2026-11-09T03:07:34.854Z"
+    },
+    {
+      "filename": "1794199352197_0.png",
+      "headlineId": "2de31fdf032e53458221d3fb0f9538d2e7f7903c174f4685641d805d903fb6a1",
+      "articleUrl": "https://www.sverigesradio.se/artikel/nvidia-utreder-om-jensen-huang-utsatts-for-kinesisk-spion",
+      "capturedAt": "2026-11-09T04:42:32.197Z"
     }
   ]
 }
