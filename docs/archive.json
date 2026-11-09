@@ -45524,6 +45524,10 @@
     {
       "id": "75568c4593d6a347028b22e0e8cab1c73809eb1f16ea466eb430a54b1768ce8f",
       "text": "Just nu: Varnar för halkan – redan nu"
+    },
+    {
+      "id": "10df58e62949715fe9d0f346f750a30262be9e96f8c638e7810d235f4378db0c",
+      "text": "Just nu: Svenske doldisen pressade stjärnan"
     }
   ],
   "captures": [
@@ -113806,6 +113810,12 @@
       "headlineId": "75568c4593d6a347028b22e0e8cab1c73809eb1f16ea466eb430a54b1768ce8f",
       "articleUrl": "https://www.sverigesradio.se/artikel/akademiska-sjukhuset-varnar-for-halkan-fore-snon",
       "capturedAt": "2026-11-09T21:37:32.072Z"
+    },
+    {
+      "filename": "1794261150360_0.png",
+      "headlineId": "10df58e62949715fe9d0f346f750a30262be9e96f8c638e7810d235f4378db0c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/max-dahlin-pressade-varlds-29an-i-stockholm-open",
+      "capturedAt": "2026-11-09T21:52:30.360Z"
     }
   ]
 }
