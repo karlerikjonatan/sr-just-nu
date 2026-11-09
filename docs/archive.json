@@ -45516,6 +45516,10 @@
     {
       "id": "b676510250ada16f7375bd329300db281bacc9cbe0be4ae1120a3d5bee7352ab",
       "text": "Just nu: Misstänks ha misshandlat bebis"
+    },
+    {
+      "id": "065c8be58a1596d011d902a8aa6aaef3de8525f7ba851300c5ddc9a91fa3cef2",
+      "text": "Just nu: Skadad bebis – två gripna"
     }
   ],
   "captures": [
@@ -113786,6 +113790,12 @@
       "headlineId": "b676510250ada16f7375bd329300db281bacc9cbe0be4ae1120a3d5bee7352ab",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-och-kvinna-gripna-misstanks-ha-misshandlat-bebis",
       "capturedAt": "2026-11-09T20:12:33.854Z"
+    },
+    {
+      "filename": "1794255450739_0.png",
+      "headlineId": "065c8be58a1596d011d902a8aa6aaef3de8525f7ba851300c5ddc9a91fa3cef2",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-och-kvinna-gripna-misstanks-ha-misshandlat-bebis",
+      "capturedAt": "2026-11-09T20:17:30.739Z"
     }
   ]
 }
