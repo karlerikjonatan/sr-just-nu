@@ -45512,6 +45512,10 @@
     {
       "id": "a02a53a54ce2a5e5011707e2da5fe07388a10e4488f4274cbf78cc99614dda8c",
       "text": "Just nu: Intrång på polisens utbildningsområde"
+    },
+    {
+      "id": "b676510250ada16f7375bd329300db281bacc9cbe0be4ae1120a3d5bee7352ab",
+      "text": "Just nu: Misstänks ha misshandlat bebis"
     }
   ],
   "captures": [
@@ -113776,6 +113780,12 @@
       "headlineId": "a02a53a54ce2a5e5011707e2da5fe07388a10e4488f4274cbf78cc99614dda8c",
       "articleUrl": "https://www.sverigesradio.se/artikel/intrang-pa-polisens-utbildningsomradet-stor-sokinsats-i-solna",
       "capturedAt": "2026-11-09T19:22:39.524Z"
+    },
+    {
+      "filename": "1794255153854_0.png",
+      "headlineId": "b676510250ada16f7375bd329300db281bacc9cbe0be4ae1120a3d5bee7352ab",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-och-kvinna-gripna-misstanks-ha-misshandlat-bebis",
+      "capturedAt": "2026-11-09T20:12:33.854Z"
     }
   ]
 }
