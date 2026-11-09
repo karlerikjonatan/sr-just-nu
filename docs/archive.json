@@ -45500,6 +45500,10 @@
     {
       "id": "ea4c2236668e997742e93dfdf5f57ec566f4a042b1c453850b7de13f3bd932bc",
       "text": "Just nu: Zeneli missar Nations League"
+    },
+    {
+      "id": "dd937405bf4494a1ed7fd41fb21be9c49b15fe6c50f7fb9951c742ab00652ee8",
+      "text": "Just nu: ”Iran bakom frysattacker”"
     }
   ],
   "captures": [
@@ -113746,6 +113750,12 @@
       "headlineId": "ea4c2236668e997742e93dfdf5f57ec566f4a042b1c453850b7de13f3bd932bc",
       "articleUrl": "https://www.sverigesradio.se/artikel/besfort-zeneli-missar-missar-nations-league-avgorandet",
       "capturedAt": "2026-11-09T14:37:35.887Z"
+    },
+    {
+      "filename": "1794242250528_0.png",
+      "headlineId": "dd937405bf4494a1ed7fd41fb21be9c49b15fe6c50f7fb9951c742ab00652ee8",
+      "articleUrl": "https://www.sverigesradio.se/artikel/frankrike-misstanker-iranska-hackare-bakom-frysattacker",
+      "capturedAt": "2026-11-09T16:37:30.528Z"
     }
   ]
 }
