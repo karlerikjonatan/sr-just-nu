@@ -45496,6 +45496,10 @@
     {
       "id": "8de9c1ce5cb103d552e89d831ebc68c156b9edfecfff1456ce0bdd7edd5cd79e",
       "text": "Just nu: Brand döms till över 10 års fängelse"
+    },
+    {
+      "id": "ea4c2236668e997742e93dfdf5f57ec566f4a042b1c453850b7de13f3bd932bc",
+      "text": "Just nu: Zeneli missar Nations League"
     }
   ],
   "captures": [
@@ -113736,6 +113740,12 @@
       "headlineId": "8de9c1ce5cb103d552e89d831ebc68c156b9edfecfff1456ce0bdd7edd5cd79e",
       "articleUrl": "https://www.sverigesradio.se/artikel/russell-brand-far-10-ar-och-6-manader-fangelse",
       "capturedAt": "2026-11-09T14:32:38.482Z"
+    },
+    {
+      "filename": "1794235055887_0.png",
+      "headlineId": "ea4c2236668e997742e93dfdf5f57ec566f4a042b1c453850b7de13f3bd932bc",
+      "articleUrl": "https://www.sverigesradio.se/artikel/besfort-zeneli-missar-missar-nations-league-avgorandet",
+      "capturedAt": "2026-11-09T14:37:35.887Z"
     }
   ]
 }
