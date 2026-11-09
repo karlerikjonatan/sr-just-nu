@@ -45476,6 +45476,10 @@
     {
       "id": "45b2243931b8b4a4d57d31fc2a009cbae2d58285dab0ab00f40bc25bf73e4603",
       "text": "Just nu: Ovanlig delfin avlivad"
+    },
+    {
+      "id": "3397c6f3b8b50ac4e4108b13149311dc66f0ad726849e60859b210143ba7aa02",
+      "text": "Just nu: Mariah Carey nobbar Sverige"
     }
   ],
   "captures": [
@@ -113686,6 +113690,12 @@
       "headlineId": "45b2243931b8b4a4d57d31fc2a009cbae2d58285dab0ab00f40bc25bf73e4603",
       "articleUrl": "https://www.sverigesradio.se/artikel/ovanlig-delfin-fick-avlivas-i-bastad-madde-inte-bra",
       "capturedAt": "2026-11-09T07:02:32.763Z"
+    },
+    {
+      "filename": "1794217655200_0.png",
+      "headlineId": "3397c6f3b8b50ac4e4108b13149311dc66f0ad726849e60859b210143ba7aa02",
+      "articleUrl": "https://www.sverigesradio.se/artikel/mariah-carey-pa-europaturne-nobbar-sverige",
+      "capturedAt": "2026-11-09T09:47:35.200Z"
     }
   ]
 }
