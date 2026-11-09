@@ -45520,6 +45520,10 @@
     {
       "id": "065c8be58a1596d011d902a8aa6aaef3de8525f7ba851300c5ddc9a91fa3cef2",
       "text": "Just nu: Skadad bebis – två gripna"
+    },
+    {
+      "id": "75568c4593d6a347028b22e0e8cab1c73809eb1f16ea466eb430a54b1768ce8f",
+      "text": "Just nu: Varnar för halkan – redan nu"
     }
   ],
   "captures": [
@@ -113796,6 +113800,12 @@
       "headlineId": "065c8be58a1596d011d902a8aa6aaef3de8525f7ba851300c5ddc9a91fa3cef2",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-och-kvinna-gripna-misstanks-ha-misshandlat-bebis",
       "capturedAt": "2026-11-09T20:17:30.739Z"
+    },
+    {
+      "filename": "1794260252072_0.png",
+      "headlineId": "75568c4593d6a347028b22e0e8cab1c73809eb1f16ea466eb430a54b1768ce8f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/akademiska-sjukhuset-varnar-for-halkan-fore-snon",
+      "capturedAt": "2026-11-09T21:37:32.072Z"
     }
   ]
 }
