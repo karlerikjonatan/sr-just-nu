@@ -45480,6 +45480,10 @@
     {
       "id": "3397c6f3b8b50ac4e4108b13149311dc66f0ad726849e60859b210143ba7aa02",
       "text": "Just nu: Mariah Carey nobbar Sverige"
+    },
+    {
+      "id": "937ecd047ea0b601e40e552849616c3303b8ae67b4b3cf583cd703939eeea4a2",
+      "text": "Just nu: Agneta Ekmanner död"
     }
   ],
   "captures": [
@@ -113696,6 +113700,12 @@
       "headlineId": "3397c6f3b8b50ac4e4108b13149311dc66f0ad726849e60859b210143ba7aa02",
       "articleUrl": "https://www.sverigesradio.se/artikel/mariah-carey-pa-europaturne-nobbar-sverige",
       "capturedAt": "2026-11-09T09:47:35.200Z"
+    },
+    {
+      "filename": "1794220355481_0.png",
+      "headlineId": "937ecd047ea0b601e40e552849616c3303b8ae67b4b3cf583cd703939eeea4a2",
+      "articleUrl": "https://www.sverigesradio.se/artikel/skadespelaren-agneta-ekmanner-ar-dod",
+      "capturedAt": "2026-11-09T10:32:35.481Z"
     }
   ]
 }
