@@ -45508,6 +45508,10 @@
     {
       "id": "b3e63a43713beebfb7f0802540ea744fa7b735082bff8a229645194e30cf6cfd",
       "text": "Just nu: Mordhotade sin mamma – döms"
+    },
+    {
+      "id": "a02a53a54ce2a5e5011707e2da5fe07388a10e4488f4274cbf78cc99614dda8c",
+      "text": "Just nu: Intrång på polisens utbildningsområde"
     }
   ],
   "captures": [
@@ -113766,6 +113770,12 @@
       "headlineId": "b3e63a43713beebfb7f0802540ea744fa7b735082bff8a229645194e30cf6cfd",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-doms-for-knivhot-mot-sin-mamma-i-nykoping",
       "capturedAt": "2026-11-09T19:07:32.165Z"
+    },
+    {
+      "filename": "1794252159524_0.png",
+      "headlineId": "a02a53a54ce2a5e5011707e2da5fe07388a10e4488f4274cbf78cc99614dda8c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/intrang-pa-polisens-utbildningsomradet-stor-sokinsats-i-solna",
+      "capturedAt": "2026-11-09T19:22:39.524Z"
     }
   ]
 }
