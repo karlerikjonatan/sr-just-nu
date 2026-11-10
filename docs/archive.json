@@ -45536,6 +45536,10 @@
     {
       "id": "798c04c7b8fd0af5908c4b8960caca4e3e8ec2d339395a2d3d6efb9da90a94b1",
       "text": "Just nu: Bil gled ner på tågspår"
+    },
+    {
+      "id": "96f1ce905071ef1cd8a7a02d20300acfc6e4b3668d81b5f60af2931b2920fce7",
+      "text": "Just nu: Trump rasar mot intärna striden"
     }
   ],
   "captures": [
@@ -113836,6 +113840,12 @@
       "headlineId": "798c04c7b8fd0af5908c4b8960caca4e3e8ec2d339395a2d3d6efb9da90a94b1",
       "articleUrl": "https://www.sverigesradio.se/artikel/bil-gled-ner-pa-sparet-i-vasteras",
       "capturedAt": "2026-11-10T04:52:37.079Z"
+    },
+    {
+      "filename": "1794286652504_0.png",
+      "headlineId": "96f1ce905071ef1cd8a7a02d20300acfc6e4b3668d81b5f60af2931b2920fce7",
+      "articleUrl": "https://www.sverigesradio.se/artikel/republikanen-vill-avsatta-hegseth-trump-rasar",
+      "capturedAt": "2026-11-10T04:57:32.504Z"
     }
   ]
 }
