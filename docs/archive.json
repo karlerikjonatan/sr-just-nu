@@ -45604,6 +45604,10 @@
     {
       "id": "d0e46426d23a379240b03d76c7a0148608c56650e075789f7fdffd3f5bf8136f",
       "text": "Just nu: Kulusevskis första ord"
+    },
+    {
+      "id": "6a1c34b76ebe89f630ac6132eac38bea1c1c3e74885dedfee1ef86a5cb2a6063",
+      "text": "Just nu: Sigtunaskolan stänger veckointernatet"
     }
   ],
   "captures": [
@@ -114006,6 +114010,12 @@
       "headlineId": "d0e46426d23a379240b03d76c7a0148608c56650e075789f7fdffd3f5bf8136f",
       "articleUrl": "https://www.sverigesradio.se/artikel/kulusevski-vill-spela-maximalt-om-jag-fick-bestamma",
       "capturedAt": "2026-11-10T14:07:29.846Z"
+    },
+    {
+      "filename": "1794319953058_0.png",
+      "headlineId": "6a1c34b76ebe89f630ac6132eac38bea1c1c3e74885dedfee1ef86a5cb2a6063",
+      "articleUrl": "https://www.sverigesradio.se/artikel/sigtunaskolan",
+      "capturedAt": "2026-11-10T14:12:33.058Z"
     }
   ]
 }
