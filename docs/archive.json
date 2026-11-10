@@ -45612,6 +45612,10 @@
     {
       "id": "fd9bd995b4eb868c408c121bc7b562d8ff1aaed122c5ecfa1b405b52ff8bf723",
       "text": "Just nu: Man hittad död i sommarstuga"
+    },
+    {
+      "id": "02b127ee224d8abb739ffa1abf9dc56d2c265c7ccdb38f9e0845eb094c85fda4",
+      "text": "Just nu: Gul varning för snö"
     }
   ],
   "captures": [
@@ -114026,6 +114030,12 @@
       "headlineId": "fd9bd995b4eb868c408c121bc7b562d8ff1aaed122c5ecfa1b405b52ff8bf723",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-hittad-dod-i-habo",
       "capturedAt": "2026-11-10T14:42:28.873Z"
+    },
+    {
+      "filename": "1794323247783_0.png",
+      "headlineId": "02b127ee224d8abb739ffa1abf9dc56d2c265c7ccdb38f9e0845eb094c85fda4",
+      "articleUrl": "https://www.sverigesradio.se/artikel/smhi-varnar-for-snofall-i-varmland-kan-bli-kraftigt",
+      "capturedAt": "2026-11-10T15:07:27.783Z"
     }
   ]
 }
