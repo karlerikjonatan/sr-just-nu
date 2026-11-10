@@ -45648,6 +45648,10 @@
     {
       "id": "a15b6574f0fbb2b5e1ed57a7890ca542114a2c35f06df2a984d635ee1cd4fb68",
       "text": "Just nu: Misstänkt mordförsök i Växjö – tonåring gripen"
+    },
+    {
+      "id": "856c47bd5c88d42ca8021c61283637137262a40bc44656e23190e7f94460ba5e",
+      "text": "Just nu: Misstänkt mordförsök i Växjö"
     }
   ],
   "captures": [
@@ -114116,6 +114120,12 @@
       "headlineId": "a15b6574f0fbb2b5e1ed57a7890ca542114a2c35f06df2a984d635ee1cd4fb68",
       "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-misstankt-mordforsok-i-vaxjo-tonaring-gripen",
       "capturedAt": "2026-11-10T22:07:27.697Z"
+    },
+    {
+      "filename": "1794351749763_0.png",
+      "headlineId": "856c47bd5c88d42ca8021c61283637137262a40bc44656e23190e7f94460ba5e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-misstankt-mordforsok-i-vaxjo-tonaring-gripen",
+      "capturedAt": "2026-11-10T23:02:29.763Z"
     }
   ]
 }
