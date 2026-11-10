@@ -45640,6 +45640,10 @@
     {
       "id": "49415d9653e554f0aaebc9cecede2106b54d12e58a04b9755c95cefb12349c9b",
       "text": "Just nu: Man fastbunden och rånad"
+    },
+    {
+      "id": "e14d45727510d487dd5d6a124602a6d036b8954cbe6a9419eb40745908fa93cf",
+      "text": "Just nu: Soldat misstänks ha hjälpt Ryssland"
     }
   ],
   "captures": [
@@ -114096,6 +114100,12 @@
       "headlineId": "49415d9653e554f0aaebc9cecede2106b54d12e58a04b9755c95cefb12349c9b",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-fastbunden-och-ranad-pa-kassaskap-i-torslanda",
       "capturedAt": "2026-11-10T20:47:34.305Z"
+    },
+    {
+      "filename": "1794346055190_0.png",
+      "headlineId": "e14d45727510d487dd5d6a124602a6d036b8954cbe6a9419eb40745908fa93cf",
+      "articleUrl": "https://www.sverigesradio.se/artikel/amerikansk-soldat-gripen-misstanks-ha-hjalpt-ryssland",
+      "capturedAt": "2026-11-10T21:27:35.190Z"
     }
   ]
 }
