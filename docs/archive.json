@@ -45548,6 +45548,10 @@
     {
       "id": "1b0f6ba73bbaefc74e076b866e761174d55c796abdbf45fa92053d9f181b0851",
       "text": "Just nu: 85-åring utsatt för grovt bedrägeri"
+    },
+    {
+      "id": "e9a74a9d44fb8f717bbd7fb67bea4b9fe09587f592f10834eeb8abfdca132cdc",
+      "text": "Just nu: Två anhållna – misstänks ha misshandlat bebis"
     }
   ],
   "captures": [
@@ -113866,6 +113870,12 @@
       "headlineId": "1b0f6ba73bbaefc74e076b866e761174d55c796abdbf45fa92053d9f181b0851",
       "articleUrl": "https://www.sverigesradio.se/artikel/aldre-man-i-soderhamn-utsattes-for-grovt-bedragari",
       "capturedAt": "2026-11-10T06:22:33.781Z"
+    },
+    {
+      "filename": "1794293554661_0.png",
+      "headlineId": "e9a74a9d44fb8f717bbd7fb67bea4b9fe09587f592f10834eeb8abfdca132cdc",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-och-kvinna-gripna-misstanks-ha-misshandlat-bebis",
+      "capturedAt": "2026-11-10T06:52:34.661Z"
     }
   ]
 }
