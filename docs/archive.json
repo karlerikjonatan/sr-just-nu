@@ -45556,6 +45556,10 @@
     {
       "id": "e59f710d6db2b19e6c70de8faac8888387909ff5cfa80dab099d51c8b887f987",
       "text": "Just nu: Två anhållna – ska ha misshandlat bebis"
+    },
+    {
+      "id": "79062b9b3d0ab9b998753a390c9dcb5fb12a0bbad3d2b80c2cf71cc7eebc9181",
+      "text": "Just nu: Andersson (S): C behöver bjuda till"
     }
   ],
   "captures": [
@@ -113886,6 +113890,12 @@
       "headlineId": "e59f710d6db2b19e6c70de8faac8888387909ff5cfa80dab099d51c8b887f987",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-och-kvinna-gripna-misstanks-ha-misshandlat-bebis",
       "capturedAt": "2026-11-10T06:57:25.792Z"
+    },
+    {
+      "filename": "1794295950140_0.png",
+      "headlineId": "79062b9b3d0ab9b998753a390c9dcb5fb12a0bbad3d2b80c2cf71cc7eebc9181",
+      "articleUrl": "https://www.sverigesradio.se/artikel/regeringsbildningen-efter-valet-2026",
+      "capturedAt": "2026-11-10T07:32:30.140Z"
     }
   ]
 }
