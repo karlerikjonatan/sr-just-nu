@@ -45588,6 +45588,14 @@
     {
       "id": "17f18ca6e9c7a7404d92198490051c4a5f2049f32debcd50873ec0e51dc2d729",
       "text": "Just nu: Bilbrand stänger E65"
+    },
+    {
+      "id": "3a7029109bb2a9d8a0e94f17484206de6be02c4d6dacfe04fe1887fddd2fde9e",
+      "text": "Just nu: 19-åring sköts ihjäl – tonåring utvisas"
+    },
+    {
+      "id": "97f0f13fa1bcf2f9f700ba357703dce876650af128c0b15d7983740ff7e51a2d",
+      "text": "Just nu: Landmärket ska renoveras för miljoner"
     }
   ],
   "captures": [
@@ -113966,6 +113974,18 @@
       "headlineId": "17f18ca6e9c7a7404d92198490051c4a5f2049f32debcd50873ec0e51dc2d729",
       "articleUrl": "https://www.sverigesradio.se/artikel/bilbrand-stanger-e65",
       "capturedAt": "2026-11-10T11:37:51.479Z"
+    },
+    {
+      "filename": "1794316051992_0.png",
+      "headlineId": "97f0f13fa1bcf2f9f700ba357703dce876650af128c0b15d7983740ff7e51a2d",
+      "articleUrl": "https://www.sverigesradio.se/artikel/poseidon-behover-stabiliseras-beraknas-kosta-miljoner",
+      "capturedAt": "2026-11-10T13:07:31.992Z"
+    },
+    {
+      "filename": "1794316051992_1.png",
+      "headlineId": "3a7029109bb2a9d8a0e94f17484206de6be02c4d6dacfe04fe1887fddd2fde9e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/16-aring-doms-for-mordet-pa-19-aring-i-uppsala",
+      "capturedAt": "2026-11-10T13:07:31.992Z"
     }
   ]
 }
