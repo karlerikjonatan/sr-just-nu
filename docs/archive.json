@@ -45636,6 +45636,10 @@
     {
       "id": "54f7c72fd7eee68fae468f2edfc167073731ef5922abdc771984f49af9dc44a9",
       "text": "Just nu: Barn misstänks för mordförsök"
+    },
+    {
+      "id": "49415d9653e554f0aaebc9cecede2106b54d12e58a04b9755c95cefb12349c9b",
+      "text": "Just nu: Man fastbunden och rånad"
     }
   ],
   "captures": [
@@ -114086,6 +114090,12 @@
       "headlineId": "54f7c72fd7eee68fae468f2edfc167073731ef5922abdc771984f49af9dc44a9",
       "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-misstankt-mordforsok-i-vaxjo-tonaring-gripen",
       "capturedAt": "2026-11-10T20:32:39.718Z"
+    },
+    {
+      "filename": "1794343654305_0.png",
+      "headlineId": "49415d9653e554f0aaebc9cecede2106b54d12e58a04b9755c95cefb12349c9b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-fastbunden-och-ranad-pa-kassaskap-i-torslanda",
+      "capturedAt": "2026-11-10T20:47:34.305Z"
     }
   ]
 }
