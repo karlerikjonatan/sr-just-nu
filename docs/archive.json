@@ -45616,6 +45616,10 @@
     {
       "id": "02b127ee224d8abb739ffa1abf9dc56d2c265c7ccdb38f9e0845eb094c85fda4",
       "text": "Just nu: Gul varning för snö"
+    },
+    {
+      "id": "7a16f3a1eefb522050441021c32b2099e02c7270a5baeb2f5ba4214fdf66be83",
+      "text": "Just nu: SVT-klassikern pausas"
     }
   ],
   "captures": [
@@ -114036,6 +114040,12 @@
       "headlineId": "02b127ee224d8abb739ffa1abf9dc56d2c265c7ccdb38f9e0845eb094c85fda4",
       "articleUrl": "https://www.sverigesradio.se/artikel/smhi-varnar-for-snofall-i-varmland-kan-bli-kraftigt",
       "capturedAt": "2026-11-10T15:07:27.783Z"
+    },
+    {
+      "filename": "1794324753542_0.png",
+      "headlineId": "7a16f3a1eefb522050441021c32b2099e02c7270a5baeb2f5ba4214fdf66be83",
+      "articleUrl": "https://www.sverigesradio.se/artikel/robin-paulsson-lite-overraskad-att-fraga-lund-pausas",
+      "capturedAt": "2026-11-10T15:32:33.542Z"
     }
   ]
 }
