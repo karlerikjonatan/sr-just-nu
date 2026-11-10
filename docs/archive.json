@@ -45620,6 +45620,10 @@
     {
       "id": "7a16f3a1eefb522050441021c32b2099e02c7270a5baeb2f5ba4214fdf66be83",
       "text": "Just nu: SVT-klassikern pausas"
+    },
+    {
+      "id": "c51ca7dbb3732c6dbbef10b21abfd78b793cdc222da193af35c1f8717861716d",
+      "text": "Just nu: Svensk möbeljätte hackad"
     }
   ],
   "captures": [
@@ -114046,6 +114050,12 @@
       "headlineId": "7a16f3a1eefb522050441021c32b2099e02c7270a5baeb2f5ba4214fdf66be83",
       "articleUrl": "https://www.sverigesradio.se/artikel/robin-paulsson-lite-overraskad-att-fraga-lund-pausas",
       "capturedAt": "2026-11-10T15:32:33.542Z"
+    },
+    {
+      "filename": "1794330161138_0.png",
+      "headlineId": "c51ca7dbb3732c6dbbef10b21abfd78b793cdc222da193af35c1f8717861716d",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kinnarps-mobeltillverkning-hackat",
+      "capturedAt": "2026-11-10T17:02:41.138Z"
     }
   ]
 }
