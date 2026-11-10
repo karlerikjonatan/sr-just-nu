@@ -45544,6 +45544,10 @@
     {
       "id": "dd2a55a8603276df2b3abbf2c0ef3fbccaa66663b9026e3ed8a2c026b946e56e",
       "text": "Just nu: Trump rasar mot interna striden"
+    },
+    {
+      "id": "1b0f6ba73bbaefc74e076b866e761174d55c796abdbf45fa92053d9f181b0851",
+      "text": "Just nu: 85-åring utsatt för grovt bedrägeri"
     }
   ],
   "captures": [
@@ -113856,6 +113860,12 @@
       "headlineId": "dd2a55a8603276df2b3abbf2c0ef3fbccaa66663b9026e3ed8a2c026b946e56e",
       "articleUrl": "https://www.sverigesradio.se/artikel/republikanen-vill-avsatta-hegseth-trump-rasar",
       "capturedAt": "2026-11-10T05:22:35.313Z"
+    },
+    {
+      "filename": "1794291753781_0.png",
+      "headlineId": "1b0f6ba73bbaefc74e076b866e761174d55c796abdbf45fa92053d9f181b0851",
+      "articleUrl": "https://www.sverigesradio.se/artikel/aldre-man-i-soderhamn-utsattes-for-grovt-bedragari",
+      "capturedAt": "2026-11-10T06:22:33.781Z"
     }
   ]
 }
