@@ -45532,6 +45532,10 @@
     {
       "id": "2fbb9e253d118cf47dec88d37679c9b473838e431f29d7d523dcc1517e02b893",
       "text": "Just nu: Bil gled ner på spåret i Västerås"
+    },
+    {
+      "id": "798c04c7b8fd0af5908c4b8960caca4e3e8ec2d339395a2d3d6efb9da90a94b1",
+      "text": "Just nu: Bil gled ner på tågspår"
     }
   ],
   "captures": [
@@ -113826,6 +113830,12 @@
       "headlineId": "2fbb9e253d118cf47dec88d37679c9b473838e431f29d7d523dcc1517e02b893",
       "articleUrl": "https://www.sverigesradio.se/artikel/bil-gled-ner-pa-sparet-i-vasteras",
       "capturedAt": "2026-11-10T02:07:31.755Z"
+    },
+    {
+      "filename": "1794286357079_0.png",
+      "headlineId": "798c04c7b8fd0af5908c4b8960caca4e3e8ec2d339395a2d3d6efb9da90a94b1",
+      "articleUrl": "https://www.sverigesradio.se/artikel/bil-gled-ner-pa-sparet-i-vasteras",
+      "capturedAt": "2026-11-10T04:52:37.079Z"
     }
   ]
 }
