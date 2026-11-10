@@ -45632,6 +45632,10 @@
     {
       "id": "0a42eb86efc85ffad300f7f3a2e8bc1bc24fbee23fdd36fa081843b5a38511a5",
       "text": "Just nu: USA-soldat misstänks ha hjälpt Ryssland"
+    },
+    {
+      "id": "54f7c72fd7eee68fae468f2edfc167073731ef5922abdc771984f49af9dc44a9",
+      "text": "Just nu: Barn misstänks för mordförsök"
     }
   ],
   "captures": [
@@ -114076,6 +114080,12 @@
       "headlineId": "0a42eb86efc85ffad300f7f3a2e8bc1bc24fbee23fdd36fa081843b5a38511a5",
       "articleUrl": "https://www.sverigesradio.se/artikel/amerikansk-soldat-gripen-misstanks-ha-hjalpt-ryssland",
       "capturedAt": "2026-11-10T19:07:27.561Z"
+    },
+    {
+      "filename": "1794342759718_0.png",
+      "headlineId": "54f7c72fd7eee68fae468f2edfc167073731ef5922abdc771984f49af9dc44a9",
+      "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-misstankt-mordforsok-i-vaxjo-tonaring-gripen",
+      "capturedAt": "2026-11-10T20:32:39.718Z"
     }
   ]
 }
