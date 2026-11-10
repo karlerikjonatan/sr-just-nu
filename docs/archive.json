@@ -45644,6 +45644,10 @@
     {
       "id": "e14d45727510d487dd5d6a124602a6d036b8954cbe6a9419eb40745908fa93cf",
       "text": "Just nu: Soldat misstänks ha hjälpt Ryssland"
+    },
+    {
+      "id": "a15b6574f0fbb2b5e1ed57a7890ca542114a2c35f06df2a984d635ee1cd4fb68",
+      "text": "Just nu: Misstänkt mordförsök i Växjö – tonåring gripen"
     }
   ],
   "captures": [
@@ -114106,6 +114110,12 @@
       "headlineId": "e14d45727510d487dd5d6a124602a6d036b8954cbe6a9419eb40745908fa93cf",
       "articleUrl": "https://www.sverigesradio.se/artikel/amerikansk-soldat-gripen-misstanks-ha-hjalpt-ryssland",
       "capturedAt": "2026-11-10T21:27:35.190Z"
+    },
+    {
+      "filename": "1794348447697_0.png",
+      "headlineId": "a15b6574f0fbb2b5e1ed57a7890ca542114a2c35f06df2a984d635ee1cd4fb68",
+      "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-misstankt-mordforsok-i-vaxjo-tonaring-gripen",
+      "capturedAt": "2026-11-10T22:07:27.697Z"
     }
   ]
 }
