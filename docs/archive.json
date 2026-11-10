@@ -45608,6 +45608,10 @@
     {
       "id": "6a1c34b76ebe89f630ac6132eac38bea1c1c3e74885dedfee1ef86a5cb2a6063",
       "text": "Just nu: Sigtunaskolan stänger veckointernatet"
+    },
+    {
+      "id": "fd9bd995b4eb868c408c121bc7b562d8ff1aaed122c5ecfa1b405b52ff8bf723",
+      "text": "Just nu: Man hittad död i sommarstuga"
     }
   ],
   "captures": [
@@ -114016,6 +114020,12 @@
       "headlineId": "6a1c34b76ebe89f630ac6132eac38bea1c1c3e74885dedfee1ef86a5cb2a6063",
       "articleUrl": "https://www.sverigesradio.se/artikel/sigtunaskolan",
       "capturedAt": "2026-11-10T14:12:33.058Z"
+    },
+    {
+      "filename": "1794321748873_0.png",
+      "headlineId": "fd9bd995b4eb868c408c121bc7b562d8ff1aaed122c5ecfa1b405b52ff8bf723",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-hittad-dod-i-habo",
+      "capturedAt": "2026-11-10T14:42:28.873Z"
     }
   ]
 }
