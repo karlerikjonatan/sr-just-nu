@@ -45568,6 +45568,10 @@
     {
       "id": "9792a28cef1c051ae77c2cd8621465df66d6580152489bceec4a769291c01459",
       "text": "Just nu: Zelenskyj träffar nordiska ledare"
+    },
+    {
+      "id": "b6237038e27d1b410a9066972eb3400ab24d0fafe8e5d99c575266de77b631a0",
+      "text": "Just nu: Tonåring till sjukhus – hittades misshandlad"
     }
   ],
   "captures": [
@@ -113916,6 +113920,12 @@
       "headlineId": "9792a28cef1c051ae77c2cd8621465df66d6580152489bceec4a769291c01459",
       "articleUrl": "https://www.sverigesradio.se/artikel/zelenskyj-traffar-nordiska-ledare-i-dag",
       "capturedAt": "2026-11-10T08:12:32.346Z"
+    },
+    {
+      "filename": "1794301646720_0.png",
+      "headlineId": "b6237038e27d1b410a9066972eb3400ab24d0fafe8e5d99c575266de77b631a0",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tonaring-misshandlad-i-boras-ford-till-sjukhus",
+      "capturedAt": "2026-11-10T09:07:26.720Z"
     }
   ]
 }
