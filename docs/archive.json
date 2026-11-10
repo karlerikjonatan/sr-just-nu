@@ -45600,6 +45600,10 @@
     {
       "id": "a2c5aedc9db31c0c077a29ee1605e5a8c70a3ea0adc741682e91639b5bdd9a67",
       "text": "Just nu: Bil i mitträcke – E4 avstängd"
+    },
+    {
+      "id": "d0e46426d23a379240b03d76c7a0148608c56650e075789f7fdffd3f5bf8136f",
+      "text": "Just nu: Kulusevskis första ord"
     }
   ],
   "captures": [
@@ -113996,6 +114000,12 @@
       "headlineId": "a2c5aedc9db31c0c077a29ee1605e5a8c70a3ea0adc741682e91639b5bdd9a67",
       "articleUrl": "https://www.sverigesradio.se/artikel/bil-i-mittracke-e4-avstangd",
       "capturedAt": "2026-11-10T13:22:39.254Z"
+    },
+    {
+      "filename": "1794319649846_0.png",
+      "headlineId": "d0e46426d23a379240b03d76c7a0148608c56650e075789f7fdffd3f5bf8136f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kulusevski-vill-spela-maximalt-om-jag-fick-bestamma",
+      "capturedAt": "2026-11-10T14:07:29.846Z"
     }
   ]
 }
