@@ -45572,6 +45572,10 @@
     {
       "id": "b6237038e27d1b410a9066972eb3400ab24d0fafe8e5d99c575266de77b631a0",
       "text": "Just nu: Tonåring till sjukhus – hittades misshandlad"
+    },
+    {
+      "id": "36b9d640c59adfa6b4c2c3581188159402c3d13626e2157433f64e847491ccd3",
+      "text": "Just nu: Misstänkt mutbrott – polisinsats i kommunhuset i Kungälv"
     }
   ],
   "captures": [
@@ -113926,6 +113930,12 @@
       "headlineId": "b6237038e27d1b410a9066972eb3400ab24d0fafe8e5d99c575266de77b631a0",
       "articleUrl": "https://www.sverigesradio.se/artikel/tonaring-misshandlad-i-boras-ford-till-sjukhus",
       "capturedAt": "2026-11-10T09:07:26.720Z"
+    },
+    {
+      "filename": "1794302247296_0.png",
+      "headlineId": "36b9d640c59adfa6b4c2c3581188159402c3d13626e2157433f64e847491ccd3",
+      "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-polisinsats-i-kungalvs-kommunhus",
+      "capturedAt": "2026-11-10T09:17:27.296Z"
     }
   ]
 }
