@@ -45624,6 +45624,10 @@
     {
       "id": "c51ca7dbb3732c6dbbef10b21abfd78b793cdc222da193af35c1f8717861716d",
       "text": "Just nu: Svensk möbeljätte hackad"
+    },
+    {
+      "id": "2750d6396a6b7966c2c4ae600575689165f6ab3d8fe569d31ffde4f0ef1cf72c",
+      "text": "Just nu: Misstänkt gruppvåldtäkt – sex häktade"
     }
   ],
   "captures": [
@@ -114056,6 +114060,12 @@
       "headlineId": "c51ca7dbb3732c6dbbef10b21abfd78b793cdc222da193af35c1f8717861716d",
       "articleUrl": "https://www.sverigesradio.se/artikel/kinnarps-mobeltillverkning-hackat",
       "capturedAt": "2026-11-10T17:02:41.138Z"
+    },
+    {
+      "filename": "1794335252268_0.png",
+      "headlineId": "2750d6396a6b7966c2c4ae600575689165f6ab3d8fe569d31ffde4f0ef1cf72c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/sex-tonaringar-haktade-misstankta-for-gruppvaldtakt-greps-i-gryningsrad",
+      "capturedAt": "2026-11-10T18:27:32.268Z"
     }
   ]
 }
