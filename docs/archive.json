@@ -45560,6 +45560,10 @@
     {
       "id": "79062b9b3d0ab9b998753a390c9dcb5fb12a0bbad3d2b80c2cf71cc7eebc9181",
       "text": "Just nu: Andersson (S): C behöver bjuda till"
+    },
+    {
+      "id": "fa98bae93b2c1366f3c57e8786dcd6f44a84b82d2320e3719e32b38c0d72cffe",
+      "text": "Just nu: Polisinsats i Kungälvs kommunhus"
     }
   ],
   "captures": [
@@ -113896,6 +113900,12 @@
       "headlineId": "79062b9b3d0ab9b998753a390c9dcb5fb12a0bbad3d2b80c2cf71cc7eebc9181",
       "articleUrl": "https://www.sverigesradio.se/artikel/regeringsbildningen-efter-valet-2026",
       "capturedAt": "2026-11-10T07:32:30.140Z"
+    },
+    {
+      "filename": "1794297755728_0.png",
+      "headlineId": "fa98bae93b2c1366f3c57e8786dcd6f44a84b82d2320e3719e32b38c0d72cffe",
+      "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-polisinsats-i-kungalvs-kommunhus",
+      "capturedAt": "2026-11-10T08:02:35.728Z"
     }
   ]
 }
