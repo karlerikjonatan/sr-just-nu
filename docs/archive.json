@@ -45564,6 +45564,10 @@
     {
       "id": "fa98bae93b2c1366f3c57e8786dcd6f44a84b82d2320e3719e32b38c0d72cffe",
       "text": "Just nu: Polisinsats i Kungälvs kommunhus"
+    },
+    {
+      "id": "9792a28cef1c051ae77c2cd8621465df66d6580152489bceec4a769291c01459",
+      "text": "Just nu: Zelenskyj träffar nordiska ledare"
     }
   ],
   "captures": [
@@ -113906,6 +113910,12 @@
       "headlineId": "fa98bae93b2c1366f3c57e8786dcd6f44a84b82d2320e3719e32b38c0d72cffe",
       "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-polisinsats-i-kungalvs-kommunhus",
       "capturedAt": "2026-11-10T08:02:35.728Z"
+    },
+    {
+      "filename": "1794298352346_0.png",
+      "headlineId": "9792a28cef1c051ae77c2cd8621465df66d6580152489bceec4a769291c01459",
+      "articleUrl": "https://www.sverigesradio.se/artikel/zelenskyj-traffar-nordiska-ledare-i-dag",
+      "capturedAt": "2026-11-10T08:12:32.346Z"
     }
   ]
 }
