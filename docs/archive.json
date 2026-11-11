@@ -45764,6 +45764,10 @@
     {
       "id": "9eac98d4ae2d2bf8b59260c28264371252bfa0516273d6fb1f1dad858abed9cf",
       "text": "Just nu: Olycka mellan lastbil och bil"
+    },
+    {
+      "id": "72635f1cdeb523c973c22169beaab630855b1c365559db4d218fe9eb248498ee",
+      "text": "Just nu: Polisen söker försvunnen pojke i Uppsala"
     }
   ],
   "captures": [
@@ -114406,6 +114410,12 @@
       "headlineId": "9eac98d4ae2d2bf8b59260c28264371252bfa0516273d6fb1f1dad858abed9cf",
       "articleUrl": "https://www.sverigesradio.se/artikel/olycka-mellan-lastbil-och-bil-pa-essingeleden",
       "capturedAt": "2026-11-11T19:42:32.661Z"
+    },
+    {
+      "filename": "1794426453744_0.png",
+      "headlineId": "72635f1cdeb523c973c22169beaab630855b1c365559db4d218fe9eb248498ee",
+      "articleUrl": "https://www.sverigesradio.se/artikel/polisen-soker-efter-forsvunnen-pojke-i-uppsala",
+      "capturedAt": "2026-11-11T19:47:33.744Z"
     }
   ]
 }
