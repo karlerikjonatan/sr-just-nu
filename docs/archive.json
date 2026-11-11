@@ -45752,6 +45752,10 @@
     {
       "id": "b83487cb78672e462728d69fe30142bc427f5cb7e1ad74a9cb57f242b0f3fb55",
       "text": "Just nu: Bodde med 39 hundar – döms för djurplågeri"
+    },
+    {
+      "id": "b5cae8e635ffaded6bee7150b30622c3af689f9d7ba5f987c65d026057cbb292",
+      "text": "Just nu: Mc-förare död – körde in i träd"
     }
   ],
   "captures": [
@@ -114376,6 +114380,12 @@
       "headlineId": "b83487cb78672e462728d69fe30142bc427f5cb7e1ad74a9cb57f242b0f3fb55",
       "articleUrl": "https://www.sverigesradio.se/artikel/bodde-med-39-hundar-pa-42-kvadrat-doms-for-grovt-djurplageri",
       "capturedAt": "2026-11-11T17:57:29.497Z"
+    },
+    {
+      "filename": "1794421063574_0.png",
+      "headlineId": "b5cae8e635ffaded6bee7150b30622c3af689f9d7ba5f987c65d026057cbb292",
+      "articleUrl": "https://www.sverigesradio.se/artikel/korde-in-i-trad-motorcyklist-dod-i-olycka",
+      "capturedAt": "2026-11-11T18:17:43.574Z"
     }
   ]
 }
