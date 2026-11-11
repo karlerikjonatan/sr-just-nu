@@ -45728,6 +45728,10 @@
     {
       "id": "d9ca20477a5e25bb086a5fcaaec3f6a1e5422c02d534f6cba65ed2985a0ea8f6",
       "text": "Just nu: E20 avstängd vid Strängnäs"
+    },
+    {
+      "id": "89264dd1a3844ef1521764b42c2a77dbcca61fe1a803f1cfb2f74a4aa4e7a87e",
+      "text": "Just nu: Köer på E20 vid Strängnäs"
     }
   ],
   "captures": [
@@ -114316,6 +114320,12 @@
       "headlineId": "d9ca20477a5e25bb086a5fcaaec3f6a1e5422c02d534f6cba65ed2985a0ea8f6",
       "articleUrl": "https://www.sverigesradio.se/artikel/e20-utanfor-strangnas-avstangd-efter-trafikolycka",
       "capturedAt": "2026-11-11T15:32:36.510Z"
+    },
+    {
+      "filename": "1794412354507_0.png",
+      "headlineId": "89264dd1a3844ef1521764b42c2a77dbcca61fe1a803f1cfb2f74a4aa4e7a87e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/e20-utanfor-strangnas-avstangd-efter-trafikolycka",
+      "capturedAt": "2026-11-11T15:52:34.507Z"
     }
   ]
 }
