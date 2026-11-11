@@ -45700,6 +45700,10 @@
     {
       "id": "f2fad88081c343c687b42e3dc5bbcf043fdfb547b6296c4d14805d310626f3c8",
       "text": "Just nu: SMHI utökar snövarningarna"
+    },
+    {
+      "id": "10eb286f3e94dc929e6c77f906bee4d43b022d8bfff9b4ef45ef190bb7b099b0",
+      "text": "Just nu: SVT/Verian: S sjunker i opinionen"
     }
   ],
   "captures": [
@@ -114246,6 +114250,12 @@
       "headlineId": "f2fad88081c343c687b42e3dc5bbcf043fdfb547b6296c4d14805d310626f3c8",
       "articleUrl": "https://www.sverigesradio.se/artikel/smhi-utokar-snovarningarna",
       "capturedAt": "2026-11-11T09:57:32.828Z"
+    },
+    {
+      "filename": "1794392852381_0.png",
+      "headlineId": "10eb286f3e94dc929e6c77f906bee4d43b022d8bfff9b4ef45ef190bb7b099b0",
+      "articleUrl": "https://www.sverigesradio.se/artikel/regeringsbildningen-efter-valet-2026",
+      "capturedAt": "2026-11-11T10:27:32.381Z"
     }
   ]
 }
