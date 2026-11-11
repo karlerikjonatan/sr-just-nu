@@ -45672,6 +45672,10 @@
     {
       "id": "8856cc4b84466a3b2f48e227849d1094cb5d8361387fb1bb37f8472c3e9de32f",
       "text": "Just nu: Varnas för en decimeter snö"
+    },
+    {
+      "id": "c337ceb5939a1a26c289cfc1a564d0e4dfd97da5381bc066cec20efd33ee481a",
+      "text": "Just nu: Zara Larsson klar för Coachella"
     }
   ],
   "captures": [
@@ -114176,6 +114180,12 @@
       "headlineId": "8856cc4b84466a3b2f48e227849d1094cb5d8361387fb1bb37f8472c3e9de32f",
       "articleUrl": "https://www.sverigesradio.se/artikel/smhi-varnar-for-kraftigt-snofall-i-norra-orebro-lan",
       "capturedAt": "2026-11-11T07:22:34.095Z"
+    },
+    {
+      "filename": "1794382649644_0.png",
+      "headlineId": "c337ceb5939a1a26c289cfc1a564d0e4dfd97da5381bc066cec20efd33ee481a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/zara-larsson-spelar-pa-coachella-festival-2027",
+      "capturedAt": "2026-11-11T07:37:29.644Z"
     }
   ]
 }
