@@ -45736,6 +45736,10 @@
     {
       "id": "55b78d25f203e568b1b39235c0b70749b735b3a4029317adde657870c03db22b",
       "text": "Just nu: Köer på E20 vid Strängnäs efter olycka"
+    },
+    {
+      "id": "253c1cd8b8329a8beccceb2633567a53814f2f59f4128d97c4b820bd3986e0ed",
+      "text": "Just nu: Stormvarning i Portugal"
     }
   ],
   "captures": [
@@ -114336,6 +114340,12 @@
       "headlineId": "55b78d25f203e568b1b39235c0b70749b735b3a4029317adde657870c03db22b",
       "articleUrl": "https://www.sverigesradio.se/artikel/e20-utanfor-strangnas-avstangd-efter-trafikolycka",
       "capturedAt": "2026-11-11T16:12:32.022Z"
+    },
+    {
+      "filename": "1794415649649_0.png",
+      "headlineId": "253c1cd8b8329a8beccceb2633567a53814f2f59f4128d97c4b820bd3986e0ed",
+      "articleUrl": "https://www.sverigesradio.se/artikel/stormvarning-i-portugal-alla-skolor-stangda",
+      "capturedAt": "2026-11-11T16:47:29.649Z"
     }
   ]
 }
