@@ -45692,6 +45692,10 @@
     {
       "id": "d83cbdcf7c02eb9815762d1503a7ea2ac08f1b34c468a3210adb644981b27bdc",
       "text": "Just nu: Vasaloppet får nya reptider"
+    },
+    {
+      "id": "d4c7c7582fadc481269fb2aef01987e93756af4c64020a7f3d54f09b3d1ce4d6",
+      "text": "Just nu: Längre tid på sig att klara Vasaloppet"
     }
   ],
   "captures": [
@@ -114226,6 +114230,12 @@
       "headlineId": "d83cbdcf7c02eb9815762d1503a7ea2ac08f1b34c468a3210adb644981b27bdc",
       "articleUrl": "https://www.sverigesradio.se/artikel/vasaloppet-forlanger-reptiderna-fler-i-mal-i-mora",
       "capturedAt": "2026-11-11T09:27:30.152Z"
+    },
+    {
+      "filename": "1794389847084_0.png",
+      "headlineId": "d4c7c7582fadc481269fb2aef01987e93756af4c64020a7f3d54f09b3d1ce4d6",
+      "articleUrl": "https://www.sverigesradio.se/artikel/vasaloppet-forlanger-reptiderna-fler-i-mal-i-mora",
+      "capturedAt": "2026-11-11T09:37:27.084Z"
     }
   ]
 }
