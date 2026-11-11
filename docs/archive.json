@@ -45684,6 +45684,10 @@
     {
       "id": "036a55490b043b056ea8001f1c559a280ac75ce4195a370e99b26414bdabb74c",
       "text": "Just nu: Långa köer på E4/E20 vid Södertälje"
+    },
+    {
+      "id": "e84cee131a2793951399591b49a0bd9328276eeb44c583311f1a4a72b48c805b",
+      "text": "Just nu: Åtal: Kastade brandfarlig vätska"
     }
   ],
   "captures": [
@@ -114206,6 +114210,12 @@
       "headlineId": "036a55490b043b056ea8001f1c559a280ac75ce4195a370e99b26414bdabb74c",
       "articleUrl": "https://www.sverigesradio.se/artikel/olycka-pa-e4-e20-sodertalje",
       "capturedAt": "2026-11-11T08:32:31.898Z"
+    },
+    {
+      "filename": "1794387751703_0.png",
+      "headlineId": "e84cee131a2793951399591b49a0bd9328276eeb44c583311f1a4a72b48c805b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tre-atalas-for-mordforsok-efter-ha-tant-eld-pa-lagenhet-i-helsingborg",
+      "capturedAt": "2026-11-11T09:02:31.703Z"
     }
   ]
 }
