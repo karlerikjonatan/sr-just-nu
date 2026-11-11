@@ -45776,6 +45776,10 @@
     {
       "id": "93d590f68cbd4232fa5afa8a88df941f0e97b06e96a9f3004f5542d9a33df4df",
       "text": "Just nu: ”Nattsvart för Malmö”"
+    },
+    {
+      "id": "b4923433af66373602d100202a1193c4eb097155632d47aadcebac890e3cee2c",
+      "text": "Just nu: Varnar för bluff-sms"
     }
   ],
   "captures": [
@@ -114436,6 +114440,12 @@
       "headlineId": "7fb175bd80af463296e3f4d1343a7c44bc6e17153062f617fd8eeed85fa80fd5",
       "articleUrl": "https://www.sverigesradio.se/artikel/polisen-soker-efter-forsvunnen-pojke-i-uppsala",
       "capturedAt": "2026-11-11T20:57:43.250Z"
+    },
+    {
+      "filename": "1794434850210_0.png",
+      "headlineId": "b4923433af66373602d100202a1193c4eb097155632d47aadcebac890e3cee2c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/polisen-varnar-for-bluff-sms-om-obetalda-boter",
+      "capturedAt": "2026-11-11T22:07:30.210Z"
     }
   ]
 }
