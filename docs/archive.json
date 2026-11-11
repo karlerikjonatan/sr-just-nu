@@ -45656,6 +45656,10 @@
     {
       "id": "f3181ade6d2e68a5e18326f57f20ac7b93275a84e04642e9814ce2fae68196ed",
       "text": "Just nu: Hegseth ställs inte inför riksrätt"
+    },
+    {
+      "id": "8c8b5a371ff662de95efbba8d2b7c30764aa1f0348531ba82338b0127ba10111",
+      "text": "Just nu: Flyglarm över Baltikum"
     }
   ],
   "captures": [
@@ -114136,6 +114140,12 @@
       "headlineId": "f3181ade6d2e68a5e18326f57f20ac7b93275a84e04642e9814ce2fae68196ed",
       "articleUrl": "https://www.sverigesradio.se/artikel/pete-hegseth-stalls-inte-infor-riksratt-forslaget-nedrostat",
       "capturedAt": "2026-11-10T23:37:27.771Z"
+    },
+    {
+      "filename": "1794355655497_0.png",
+      "headlineId": "8c8b5a371ff662de95efbba8d2b7c30764aa1f0348531ba82338b0127ba10111",
+      "articleUrl": "https://www.sverigesradio.se/artikel/dronare-flyger-over-litauen-invanare-varnas",
+      "capturedAt": "2026-11-11T00:07:35.497Z"
     }
   ]
 }
