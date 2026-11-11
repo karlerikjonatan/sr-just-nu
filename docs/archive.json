@@ -45708,6 +45708,10 @@
     {
       "id": "641e9080fa6e610b2507dfef75d8875b93f9c23d3f12c49ae571e476fafa5ef8",
       "text": "Just nu: Försökte döda sina barn –hovrätten sänker straffet"
+    },
+    {
+      "id": "d34cd04105a5b85915ad2ce166b463c318beee7ff8890f7fdfb8842a92e02344",
+      "text": "Just nu: Alla skolor stängda i Portugal"
     }
   ],
   "captures": [
@@ -114266,6 +114270,12 @@
       "headlineId": "641e9080fa6e610b2507dfef75d8875b93f9c23d3f12c49ae571e476fafa5ef8",
       "articleUrl": "https://www.sverigesradio.se/artikel/pappa-forsokte-doda-sina-barn-genom-brand-hovratten-sanker-straffet",
       "capturedAt": "2026-11-11T10:37:33.415Z"
+    },
+    {
+      "filename": "1794394360364_0.png",
+      "headlineId": "d34cd04105a5b85915ad2ce166b463c318beee7ff8890f7fdfb8842a92e02344",
+      "articleUrl": "https://www.sverigesradio.se/artikel/stormvarning-i-portugal-alla-skolor-stangda",
+      "capturedAt": "2026-11-11T10:52:40.364Z"
     }
   ]
 }
