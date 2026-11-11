@@ -45716,6 +45716,10 @@
     {
       "id": "94e872b45193c3e6153a92e46191e9baaa3817897868431f69f7ae6a51186045",
       "text": "Just nu: 300 skolor evakuerade i Italien"
+    },
+    {
+      "id": "27bb551590aad7820b004a6ebcabdc7248ea976df39bd4b69cbd7d6d4644d56d",
+      "text": "Just nu: Hundratals skolor evakuerade i Europa"
     }
   ],
   "captures": [
@@ -114286,6 +114290,12 @@
       "headlineId": "94e872b45193c3e6153a92e46191e9baaa3817897868431f69f7ae6a51186045",
       "articleUrl": "https://www.sverigesradio.se/artikel/bombhot-i-italien-minst-300-skolor-evakuerade",
       "capturedAt": "2026-11-11T11:32:40.209Z"
+    },
+    {
+      "filename": "1794397653036_0.png",
+      "headlineId": "27bb551590aad7820b004a6ebcabdc7248ea976df39bd4b69cbd7d6d4644d56d",
+      "articleUrl": "https://www.sverigesradio.se/artikel/bombhot-i-italien-minst-300-skolor-evakuerade",
+      "capturedAt": "2026-11-11T11:47:33.036Z"
     }
   ]
 }
