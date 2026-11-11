@@ -45740,6 +45740,10 @@
     {
       "id": "253c1cd8b8329a8beccceb2633567a53814f2f59f4128d97c4b820bd3986e0ed",
       "text": "Just nu: Stormvarning i Portugal"
+    },
+    {
+      "id": "1cb6305c9b4329ed7a6ee11eb085fd95f6f310c88d31d04d2c0e9cafb908820e",
+      "text": "Just nu: Tvättstugebrand – larm om skadade"
     }
   ],
   "captures": [
@@ -114346,6 +114350,12 @@
       "headlineId": "253c1cd8b8329a8beccceb2633567a53814f2f59f4128d97c4b820bd3986e0ed",
       "articleUrl": "https://www.sverigesradio.se/artikel/stormvarning-i-portugal-alla-skolor-stangda",
       "capturedAt": "2026-11-11T16:47:29.649Z"
+    },
+    {
+      "filename": "1794415966518_0.png",
+      "headlineId": "1cb6305c9b4329ed7a6ee11eb085fd95f6f310c88d31d04d2c0e9cafb908820e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-larm-om-brand-i-tvattstuga-uppgifter-om-skadade-manniskor",
+      "capturedAt": "2026-11-11T16:52:46.518Z"
     }
   ]
 }
