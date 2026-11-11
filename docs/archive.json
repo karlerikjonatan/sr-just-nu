@@ -45768,6 +45768,14 @@
     {
       "id": "72635f1cdeb523c973c22169beaab630855b1c365559db4d218fe9eb248498ee",
       "text": "Just nu: Polisen söker försvunnen pojke i Uppsala"
+    },
+    {
+      "id": "7fb175bd80af463296e3f4d1343a7c44bc6e17153062f617fd8eeed85fa80fd5",
+      "text": "Just nu: Polisen söker försvunnen pojke"
+    },
+    {
+      "id": "93d590f68cbd4232fa5afa8a88df941f0e97b06e96a9f3004f5542d9a33df4df",
+      "text": "Just nu: ”Nattsvart för Malmö”"
     }
   ],
   "captures": [
@@ -114416,6 +114424,18 @@
       "headlineId": "72635f1cdeb523c973c22169beaab630855b1c365559db4d218fe9eb248498ee",
       "articleUrl": "https://www.sverigesradio.se/artikel/polisen-soker-efter-forsvunnen-pojke-i-uppsala",
       "capturedAt": "2026-11-11T19:47:33.744Z"
+    },
+    {
+      "filename": "1794430663250_0.png",
+      "headlineId": "93d590f68cbd4232fa5afa8a88df941f0e97b06e96a9f3004f5542d9a33df4df",
+      "articleUrl": "https://www.sverigesradio.se/artikel/nattsvart-for-malmo-hammarby-till-europakvart",
+      "capturedAt": "2026-11-11T20:57:43.250Z"
+    },
+    {
+      "filename": "1794430663250_1.png",
+      "headlineId": "7fb175bd80af463296e3f4d1343a7c44bc6e17153062f617fd8eeed85fa80fd5",
+      "articleUrl": "https://www.sverigesradio.se/artikel/polisen-soker-efter-forsvunnen-pojke-i-uppsala",
+      "capturedAt": "2026-11-11T20:57:43.250Z"
     }
   ]
 }
