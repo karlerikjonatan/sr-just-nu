@@ -45780,6 +45780,10 @@
     {
       "id": "b4923433af66373602d100202a1193c4eb097155632d47aadcebac890e3cee2c",
       "text": "Just nu: Varnar för bluff-sms"
+    },
+    {
+      "id": "3250d95ddd7a7e56c97c1492c53e5de4d9a6fce9626516bb978d995377d47d63",
+      "text": "Just nu: Första svarta senatorn på 140 år"
     }
   ],
   "captures": [
@@ -114446,6 +114450,12 @@
       "headlineId": "b4923433af66373602d100202a1193c4eb097155632d47aadcebac890e3cee2c",
       "articleUrl": "https://www.sverigesradio.se/artikel/polisen-varnar-for-bluff-sms-om-obetalda-boter",
       "capturedAt": "2026-11-11T22:07:30.210Z"
+    },
+    {
+      "filename": "1794438462117_0.png",
+      "headlineId": "3250d95ddd7a7e56c97c1492c53e5de4d9a6fce9626516bb978d995377d47d63",
+      "articleUrl": "https://www.sverigesradio.se/artikel/colom-blir-mississippis-forsta-svarta-senator-pa-140-ar",
+      "capturedAt": "2026-11-11T23:07:42.117Z"
     }
   ]
 }
