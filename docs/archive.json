@@ -45696,6 +45696,10 @@
     {
       "id": "d4c7c7582fadc481269fb2aef01987e93756af4c64020a7f3d54f09b3d1ce4d6",
       "text": "Just nu: Längre tid på sig att klara Vasaloppet"
+    },
+    {
+      "id": "f2fad88081c343c687b42e3dc5bbcf043fdfb547b6296c4d14805d310626f3c8",
+      "text": "Just nu: SMHI utökar snövarningarna"
     }
   ],
   "captures": [
@@ -114236,6 +114240,12 @@
       "headlineId": "d4c7c7582fadc481269fb2aef01987e93756af4c64020a7f3d54f09b3d1ce4d6",
       "articleUrl": "https://www.sverigesradio.se/artikel/vasaloppet-forlanger-reptiderna-fler-i-mal-i-mora",
       "capturedAt": "2026-11-11T09:37:27.084Z"
+    },
+    {
+      "filename": "1794391052828_0.png",
+      "headlineId": "f2fad88081c343c687b42e3dc5bbcf043fdfb547b6296c4d14805d310626f3c8",
+      "articleUrl": "https://www.sverigesradio.se/artikel/smhi-utokar-snovarningarna",
+      "capturedAt": "2026-11-11T09:57:32.828Z"
     }
   ]
 }
