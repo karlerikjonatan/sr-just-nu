@@ -45732,6 +45732,10 @@
     {
       "id": "89264dd1a3844ef1521764b42c2a77dbcca61fe1a803f1cfb2f74a4aa4e7a87e",
       "text": "Just nu: Köer på E20 vid Strängnäs"
+    },
+    {
+      "id": "55b78d25f203e568b1b39235c0b70749b735b3a4029317adde657870c03db22b",
+      "text": "Just nu: Köer på E20 vid Strängnäs efter olycka"
     }
   ],
   "captures": [
@@ -114326,6 +114330,12 @@
       "headlineId": "89264dd1a3844ef1521764b42c2a77dbcca61fe1a803f1cfb2f74a4aa4e7a87e",
       "articleUrl": "https://www.sverigesradio.se/artikel/e20-utanfor-strangnas-avstangd-efter-trafikolycka",
       "capturedAt": "2026-11-11T15:52:34.507Z"
+    },
+    {
+      "filename": "1794413552022_0.png",
+      "headlineId": "55b78d25f203e568b1b39235c0b70749b735b3a4029317adde657870c03db22b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/e20-utanfor-strangnas-avstangd-efter-trafikolycka",
+      "capturedAt": "2026-11-11T16:12:32.022Z"
     }
   ]
 }
