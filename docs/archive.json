@@ -45680,6 +45680,10 @@
     {
       "id": "bf8a102e511fe11e7d2b66189aef5bcffc34c7ad7a852135561e61c5e5f67d9f",
       "text": "Just nu: E4/E20 avstängd vid Södertälje"
+    },
+    {
+      "id": "036a55490b043b056ea8001f1c559a280ac75ce4195a370e99b26414bdabb74c",
+      "text": "Just nu: Långa köer på E4/E20 vid Södertälje"
     }
   ],
   "captures": [
@@ -114196,6 +114200,12 @@
       "headlineId": "bf8a102e511fe11e7d2b66189aef5bcffc34c7ad7a852135561e61c5e5f67d9f",
       "articleUrl": "https://www.sverigesradio.se/artikel/olycka-pa-e4-e20-sodertalje",
       "capturedAt": "2026-11-11T07:57:32.336Z"
+    },
+    {
+      "filename": "1794385951898_0.png",
+      "headlineId": "036a55490b043b056ea8001f1c559a280ac75ce4195a370e99b26414bdabb74c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/olycka-pa-e4-e20-sodertalje",
+      "capturedAt": "2026-11-11T08:32:31.898Z"
     }
   ]
 }
