@@ -45748,6 +45748,10 @@
     {
       "id": "93b8558214b717ae8f75b521ed8067ea5210f32757b6b981dccefc854b939759",
       "text": "Just nu: Finland väntas stoppa ryska idrottare"
+    },
+    {
+      "id": "b83487cb78672e462728d69fe30142bc427f5cb7e1ad74a9cb57f242b0f3fb55",
+      "text": "Just nu: Bodde med 39 hundar – döms för djurplågeri"
     }
   ],
   "captures": [
@@ -114366,6 +114370,12 @@
       "headlineId": "93b8558214b717ae8f75b521ed8067ea5210f32757b6b981dccefc854b939759",
       "articleUrl": "https://www.sverigesradio.se/artikel/finland-vill-stoppa-ryska-idrottare-da-tas-beslutet",
       "capturedAt": "2026-11-11T17:27:28.108Z"
+    },
+    {
+      "filename": "1794419849497_0.png",
+      "headlineId": "b83487cb78672e462728d69fe30142bc427f5cb7e1ad74a9cb57f242b0f3fb55",
+      "articleUrl": "https://www.sverigesradio.se/artikel/bodde-med-39-hundar-pa-42-kvadrat-doms-for-grovt-djurplageri",
+      "capturedAt": "2026-11-11T17:57:29.497Z"
     }
   ]
 }
