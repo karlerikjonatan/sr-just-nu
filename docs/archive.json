@@ -45688,6 +45688,10 @@
     {
       "id": "e84cee131a2793951399591b49a0bd9328276eeb44c583311f1a4a72b48c805b",
       "text": "Just nu: Åtal: Kastade brandfarlig vätska"
+    },
+    {
+      "id": "d83cbdcf7c02eb9815762d1503a7ea2ac08f1b34c468a3210adb644981b27bdc",
+      "text": "Just nu: Vasaloppet får nya reptider"
     }
   ],
   "captures": [
@@ -114216,6 +114220,12 @@
       "headlineId": "e84cee131a2793951399591b49a0bd9328276eeb44c583311f1a4a72b48c805b",
       "articleUrl": "https://www.sverigesradio.se/artikel/tre-atalas-for-mordforsok-efter-ha-tant-eld-pa-lagenhet-i-helsingborg",
       "capturedAt": "2026-11-11T09:02:31.703Z"
+    },
+    {
+      "filename": "1794389250152_0.png",
+      "headlineId": "d83cbdcf7c02eb9815762d1503a7ea2ac08f1b34c468a3210adb644981b27bdc",
+      "articleUrl": "https://www.sverigesradio.se/artikel/vasaloppet-forlanger-reptiderna-fler-i-mal-i-mora",
+      "capturedAt": "2026-11-11T09:27:30.152Z"
     }
   ]
 }
