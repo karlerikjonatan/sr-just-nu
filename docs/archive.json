@@ -45712,6 +45712,10 @@
     {
       "id": "d34cd04105a5b85915ad2ce166b463c318beee7ff8890f7fdfb8842a92e02344",
       "text": "Just nu: Alla skolor stängda i Portugal"
+    },
+    {
+      "id": "94e872b45193c3e6153a92e46191e9baaa3817897868431f69f7ae6a51186045",
+      "text": "Just nu: 300 skolor evakuerade i Italien"
     }
   ],
   "captures": [
@@ -114276,6 +114280,12 @@
       "headlineId": "d34cd04105a5b85915ad2ce166b463c318beee7ff8890f7fdfb8842a92e02344",
       "articleUrl": "https://www.sverigesradio.se/artikel/stormvarning-i-portugal-alla-skolor-stangda",
       "capturedAt": "2026-11-11T10:52:40.364Z"
+    },
+    {
+      "filename": "1794396760209_0.png",
+      "headlineId": "94e872b45193c3e6153a92e46191e9baaa3817897868431f69f7ae6a51186045",
+      "articleUrl": "https://www.sverigesradio.se/artikel/bombhot-i-italien-minst-300-skolor-evakuerade",
+      "capturedAt": "2026-11-11T11:32:40.209Z"
     }
   ]
 }
