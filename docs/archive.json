@@ -45724,6 +45724,10 @@
     {
       "id": "48d501fa34bc96c99b62f5827e8f01ac26e61ae68cbd8fb269f6f66b64f55613",
       "text": "Just nu: Chokladutdelning spårade ur"
+    },
+    {
+      "id": "d9ca20477a5e25bb086a5fcaaec3f6a1e5422c02d534f6cba65ed2985a0ea8f6",
+      "text": "Just nu: E20 avstängd vid Strängnäs"
     }
   ],
   "captures": [
@@ -114306,6 +114310,12 @@
       "headlineId": "48d501fa34bc96c99b62f5827e8f01ac26e61ae68cbd8fb269f6f66b64f55613",
       "articleUrl": "https://www.sverigesradio.se/artikel/polis-avbrot-chokladutdelning-efter-kaos-i-stockholm",
       "capturedAt": "2026-11-11T13:57:29.617Z"
+    },
+    {
+      "filename": "1794411156510_0.png",
+      "headlineId": "d9ca20477a5e25bb086a5fcaaec3f6a1e5422c02d534f6cba65ed2985a0ea8f6",
+      "articleUrl": "https://www.sverigesradio.se/artikel/e20-utanfor-strangnas-avstangd-efter-trafikolycka",
+      "capturedAt": "2026-11-11T15:32:36.510Z"
     }
   ]
 }
