@@ -45676,6 +45676,10 @@
     {
       "id": "c337ceb5939a1a26c289cfc1a564d0e4dfd97da5381bc066cec20efd33ee481a",
       "text": "Just nu: Zara Larsson klar för Coachella"
+    },
+    {
+      "id": "bf8a102e511fe11e7d2b66189aef5bcffc34c7ad7a852135561e61c5e5f67d9f",
+      "text": "Just nu: E4/E20 avstängd vid Södertälje"
     }
   ],
   "captures": [
@@ -114186,6 +114190,12 @@
       "headlineId": "c337ceb5939a1a26c289cfc1a564d0e4dfd97da5381bc066cec20efd33ee481a",
       "articleUrl": "https://www.sverigesradio.se/artikel/zara-larsson-spelar-pa-coachella-festival-2027",
       "capturedAt": "2026-11-11T07:37:29.644Z"
+    },
+    {
+      "filename": "1794383852336_0.png",
+      "headlineId": "bf8a102e511fe11e7d2b66189aef5bcffc34c7ad7a852135561e61c5e5f67d9f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/olycka-pa-e4-e20-sodertalje",
+      "capturedAt": "2026-11-11T07:57:32.336Z"
     }
   ]
 }
