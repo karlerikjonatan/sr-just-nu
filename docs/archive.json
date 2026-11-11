@@ -45744,6 +45744,10 @@
     {
       "id": "1cb6305c9b4329ed7a6ee11eb085fd95f6f310c88d31d04d2c0e9cafb908820e",
       "text": "Just nu: Tvättstugebrand – larm om skadade"
+    },
+    {
+      "id": "93b8558214b717ae8f75b521ed8067ea5210f32757b6b981dccefc854b939759",
+      "text": "Just nu: Finland väntas stoppa ryska idrottare"
     }
   ],
   "captures": [
@@ -114356,6 +114360,12 @@
       "headlineId": "1cb6305c9b4329ed7a6ee11eb085fd95f6f310c88d31d04d2c0e9cafb908820e",
       "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-larm-om-brand-i-tvattstuga-uppgifter-om-skadade-manniskor",
       "capturedAt": "2026-11-11T16:52:46.518Z"
+    },
+    {
+      "filename": "1794418048108_0.png",
+      "headlineId": "93b8558214b717ae8f75b521ed8067ea5210f32757b6b981dccefc854b939759",
+      "articleUrl": "https://www.sverigesradio.se/artikel/finland-vill-stoppa-ryska-idrottare-da-tas-beslutet",
+      "capturedAt": "2026-11-11T17:27:28.108Z"
     }
   ]
 }
