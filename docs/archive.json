@@ -45832,6 +45832,14 @@
     {
       "id": "bb2cae5976fc8a7dadefb717cd32a5479a861322232fddf649e5bf0d8274b4ce",
       "text": "Just nu: Begärs häktade för bebismisshandel"
+    },
+    {
+      "id": "1006cf1d8a4061ad8fe796c80d2bfd6fb49d2c29b1495982fcc51c7682021dc8",
+      "text": "Just nu: V kallar till pressträff"
+    },
+    {
+      "id": "4e1315afea7718456c84594287d8f71a02ad370e46bbd1f55966f2537fd01668",
+      "text": "Just nu: Tonåring döms för masskjutning"
     }
   ],
   "captures": [
@@ -114576,6 +114584,18 @@
       "headlineId": "bb2cae5976fc8a7dadefb717cd32a5479a861322232fddf649e5bf0d8274b4ce",
       "articleUrl": "https://www.sverigesradio.se/artikel/misstanks-ha-misshandlat-bebis-tva-begars-haktade",
       "capturedAt": "2026-11-12T09:52:38.945Z"
+    },
+    {
+      "filename": "1794478653302_0.png",
+      "headlineId": "4e1315afea7718456c84594287d8f71a02ad370e46bbd1f55966f2537fd01668",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tonaringen-skyldig-till-masskjutningen-ska-betala-skadestand",
+      "capturedAt": "2026-11-12T10:17:33.302Z"
+    },
+    {
+      "filename": "1794478653302_1.png",
+      "headlineId": "1006cf1d8a4061ad8fe796c80d2bfd6fb49d2c29b1495982fcc51c7682021dc8",
+      "articleUrl": "https://www.sverigesradio.se/artikel/regeringsbildningen-efter-valet-2026",
+      "capturedAt": "2026-11-12T10:17:33.302Z"
     }
   ]
 }
