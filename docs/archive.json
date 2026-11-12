@@ -45800,6 +45800,10 @@
     {
       "id": "ecff7d8d524f838bf61da0ab4eb94659d6a73fcb924dc00d43e5337620a02bba",
       "text": "Just nu: Hus har rasat i New York – två döda"
+    },
+    {
+      "id": "48e96b020eb4f39aad3c32004b827455d6ce7b2b103483fbe237868dde84388b",
+      "text": "Just nu: Hus rasade i New York – två döda"
     }
   ],
   "captures": [
@@ -114496,6 +114500,12 @@
       "headlineId": "ecff7d8d524f838bf61da0ab4eb94659d6a73fcb924dc00d43e5337620a02bba",
       "articleUrl": "https://www.sverigesradio.se/artikel/hus-har-kollapsat-i-brooklyn-minst-en-person-dod",
       "capturedAt": "2026-11-12T03:17:37.196Z"
+    },
+    {
+      "filename": "1794453755214_0.png",
+      "headlineId": "48e96b020eb4f39aad3c32004b827455d6ce7b2b103483fbe237868dde84388b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/hus-har-kollapsat-i-brooklyn-minst-en-person-dod",
+      "capturedAt": "2026-11-12T03:22:35.214Z"
     }
   ]
 }
