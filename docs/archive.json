@@ -45812,6 +45812,10 @@
     {
       "id": "d5da05f9e18779a38688afa9e1394cbae1f1677a12faae66cda6e677c67adbab",
       "text": "Just nu: Köer mot Stockholm efter krock"
+    },
+    {
+      "id": "8033a6323acc2cca10d4648481db97d1c031b4a67aa0752ed403b33902ebb83e",
+      "text": "Just nu: Bussolycka i Skellefteå"
     }
   ],
   "captures": [
@@ -114526,6 +114530,12 @@
       "headlineId": "d5da05f9e18779a38688afa9e1394cbae1f1677a12faae66cda6e677c67adbab",
       "articleUrl": "https://www.sverigesradio.se/artikel/flerbilskrock-pa-e4-e20-vid-fittja-stor-risk-for-rusningsko",
       "capturedAt": "2026-11-12T05:52:33.568Z"
+    },
+    {
+      "filename": "1794466655883_0.png",
+      "headlineId": "8033a6323acc2cca10d4648481db97d1c031b4a67aa0752ed403b33902ebb83e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/bussolycka-i-skelleftea",
+      "capturedAt": "2026-11-12T06:57:35.883Z"
     }
   ]
 }
