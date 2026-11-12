@@ -45896,6 +45896,10 @@
     {
       "id": "111bec0327b61aa65da0011c41bb0fef35970307d2e44e199b29707aad93c979",
       "text": "Just nu: Långa köer på E6 Kungsbacka"
+    },
+    {
+      "id": "9c2e751d5b62e9d025588f0ead97fd34c8880267a802d8022f6221ea044f5326",
+      "text": "Just nu: Man allvarligt skadad efter masskrock"
     }
   ],
   "captures": [
@@ -114736,6 +114740,12 @@
       "headlineId": "ddd191e7379e17c3d013011d4da0edd04f66ca5aaaf3ff70792ecbfa6f94566e",
       "articleUrl": "https://www.sverigesradio.se/artikel/mjolkchock-utanfor-eksjo-13-000-liter-har-lackt-ut",
       "capturedAt": "2026-11-12T16:47:32.166Z"
+    },
+    {
+      "filename": "1794507454706_0.png",
+      "headlineId": "9c2e751d5b62e9d025588f0ead97fd34c8880267a802d8022f6221ea044f5326",
+      "articleUrl": "https://www.sverigesradio.se/artikel/flera-olyckor-pa-torslandavagen-vagen-blockerad",
+      "capturedAt": "2026-11-12T18:17:34.706Z"
     }
   ]
 }
