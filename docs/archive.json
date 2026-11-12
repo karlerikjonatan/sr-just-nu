@@ -45816,6 +45816,10 @@
     {
       "id": "8033a6323acc2cca10d4648481db97d1c031b4a67aa0752ed403b33902ebb83e",
       "text": "Just nu: Bussolycka i Skellefteå"
+    },
+    {
+      "id": "6fb5e2178bf4032f5f8dba143a8a0ff7c26e3ad7ed1d5f05b45195e401d93b02",
+      "text": "Just nu: Aniarapriset till Ellen Mattson"
     }
   ],
   "captures": [
@@ -114536,6 +114540,12 @@
       "headlineId": "8033a6323acc2cca10d4648481db97d1c031b4a67aa0752ed403b33902ebb83e",
       "articleUrl": "https://www.sverigesradio.se/artikel/bussolycka-i-skelleftea",
       "capturedAt": "2026-11-12T06:57:35.883Z"
+    },
+    {
+      "filename": "1794470263033_0.png",
+      "headlineId": "6fb5e2178bf4032f5f8dba143a8a0ff7c26e3ad7ed1d5f05b45195e401d93b02",
+      "articleUrl": "https://www.sverigesradio.se/artikel/aniarapriset-till-ellen-mattson",
+      "capturedAt": "2026-11-12T07:57:43.033Z"
     }
   ]
 }
