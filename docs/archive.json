@@ -45916,6 +45916,10 @@
     {
       "id": "d62c57cd5e3840249e06ef4003731bcd50e65643a06cb2206ef411c969b90e07",
       "text": "Just nu: Norge stoppar ryska idrottare"
+    },
+    {
+      "id": "1bf9839ac179b92969498952aed8abfbb30d29fdc987d2fd2e4c7da0eb46a922",
+      "text": "Just nu: Bergochdalbana för Nvidia på börsen"
     }
   ],
   "captures": [
@@ -114786,6 +114790,12 @@
       "headlineId": "d62c57cd5e3840249e06ef4003731bcd50e65643a06cb2206ef411c969b90e07",
       "articleUrl": "https://www.sverigesradio.se/artikel/norges-besked-slapper-inte-in-ryska-langdskidakare",
       "capturedAt": "2026-11-12T19:47:39.491Z"
+    },
+    {
+      "filename": "1794518847494_0.png",
+      "headlineId": "1bf9839ac179b92969498952aed8abfbb30d29fdc987d2fd2e4c7da0eb46a922",
+      "articleUrl": "https://www.sverigesradio.se/artikel/bergodalbana-for-nvidia-pa-borsen-after-vd-avgang",
+      "capturedAt": "2026-11-12T21:27:27.494Z"
     }
   ]
 }
