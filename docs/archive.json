@@ -45828,6 +45828,10 @@
     {
       "id": "5624db15c0643df59871c9b4a27875c7ca4bcc8ce3926591130475fcfb54b272",
       "text": "Just nu: Misstänks ha misshandlat bebis – två begärs häktade"
+    },
+    {
+      "id": "bb2cae5976fc8a7dadefb717cd32a5479a861322232fddf649e5bf0d8274b4ce",
+      "text": "Just nu: Begärs häktade för bebismisshandel"
     }
   ],
   "captures": [
@@ -114566,6 +114570,12 @@
       "headlineId": "5624db15c0643df59871c9b4a27875c7ca4bcc8ce3926591130475fcfb54b272",
       "articleUrl": "https://www.sverigesradio.se/artikel/misstanks-ha-misshandlat-bebis-tva-begars-haktade",
       "capturedAt": "2026-11-12T09:37:28.347Z"
+    },
+    {
+      "filename": "1794477158945_0.png",
+      "headlineId": "bb2cae5976fc8a7dadefb717cd32a5479a861322232fddf649e5bf0d8274b4ce",
+      "articleUrl": "https://www.sverigesradio.se/artikel/misstanks-ha-misshandlat-bebis-tva-begars-haktade",
+      "capturedAt": "2026-11-12T09:52:38.945Z"
     }
   ]
 }
