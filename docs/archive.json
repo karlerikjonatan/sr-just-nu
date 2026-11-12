@@ -45912,6 +45912,10 @@
     {
       "id": "f795c1736fc061820ce766714214bb414cde9b25abc39c03f9a400843e6fa8c2",
       "text": "Just nu: Lastbilsolycka – blockerar E45"
+    },
+    {
+      "id": "d62c57cd5e3840249e06ef4003731bcd50e65643a06cb2206ef411c969b90e07",
+      "text": "Just nu: Norge stoppar ryska idrottare"
     }
   ],
   "captures": [
@@ -114776,6 +114780,12 @@
       "headlineId": "f795c1736fc061820ce766714214bb414cde9b25abc39c03f9a400843e6fa8c2",
       "articleUrl": "https://www.sverigesradio.se/artikel/lastbil-tvars-over-e45-totalstopp-for-tyngre-trafik",
       "capturedAt": "2026-11-12T19:42:30.757Z"
+    },
+    {
+      "filename": "1794512859491_0.png",
+      "headlineId": "d62c57cd5e3840249e06ef4003731bcd50e65643a06cb2206ef411c969b90e07",
+      "articleUrl": "https://www.sverigesradio.se/artikel/norges-besked-slapper-inte-in-ryska-langdskidakare",
+      "capturedAt": "2026-11-12T19:47:39.491Z"
     }
   ]
 }
