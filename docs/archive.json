@@ -45904,6 +45904,10 @@
     {
       "id": "69b0261aa364b0ea22d21c133b7e56622f1c43dc80a73e926bac6270a3af8717",
       "text": "Just nu: Stopp på E4 vid Nordmaling"
+    },
+    {
+      "id": "a870f783fc32d374894332f7412d0544664a30e088e0693bae2bc7bf5c7eb080",
+      "text": "Just nu: Ny skada i Blågult"
     }
   ],
   "captures": [
@@ -114756,6 +114760,12 @@
       "headlineId": "69b0261aa364b0ea22d21c133b7e56622f1c43dc80a73e926bac6270a3af8717",
       "articleUrl": "https://www.sverigesradio.se/artikel/stopp-pa-e4-ovanfor-nordmaling",
       "capturedAt": "2026-11-12T18:42:54.524Z"
+    },
+    {
+      "filename": "1794511952575_0.png",
+      "headlineId": "a870f783fc32d374894332f7412d0544664a30e088e0693bae2bc7bf5c7eb080",
+      "articleUrl": "https://www.sverigesradio.se/artikel/patrik-walemark-lamnar-landslagssamlingen",
+      "capturedAt": "2026-11-12T19:32:32.575Z"
     }
   ]
 }
