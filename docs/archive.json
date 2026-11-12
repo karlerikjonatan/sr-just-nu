@@ -45900,6 +45900,10 @@
     {
       "id": "9c2e751d5b62e9d025588f0ead97fd34c8880267a802d8022f6221ea044f5326",
       "text": "Just nu: Man allvarligt skadad efter masskrock"
+    },
+    {
+      "id": "69b0261aa364b0ea22d21c133b7e56622f1c43dc80a73e926bac6270a3af8717",
+      "text": "Just nu: Stopp på E4 vid Nordmaling"
     }
   ],
   "captures": [
@@ -114746,6 +114750,12 @@
       "headlineId": "9c2e751d5b62e9d025588f0ead97fd34c8880267a802d8022f6221ea044f5326",
       "articleUrl": "https://www.sverigesradio.se/artikel/flera-olyckor-pa-torslandavagen-vagen-blockerad",
       "capturedAt": "2026-11-12T18:17:34.706Z"
+    },
+    {
+      "filename": "1794508974524_0.png",
+      "headlineId": "69b0261aa364b0ea22d21c133b7e56622f1c43dc80a73e926bac6270a3af8717",
+      "articleUrl": "https://www.sverigesradio.se/artikel/stopp-pa-e4-ovanfor-nordmaling",
+      "capturedAt": "2026-11-12T18:42:54.524Z"
     }
   ]
 }
