@@ -45876,6 +45876,10 @@
     {
       "id": "58fc0b331e6ba12def53644861aeb8bf36be5c3c574b23f1167cb21972d8844b",
       "text": "Just nu: E4 avstängd vid Högakustenbron"
+    },
+    {
+      "id": "07fd0ec92a4f5556e99432fb4d1f4e3850ef3e954c7160513df940e22fc969f6",
+      "text": "Just nu: Spädbarn svårt skadat – två häktas"
     }
   ],
   "captures": [
@@ -114686,6 +114690,12 @@
       "headlineId": "58fc0b331e6ba12def53644861aeb8bf36be5c3c574b23f1167cb21972d8844b",
       "articleUrl": "https://www.sverigesradio.se/artikel/tva-lastbilar-i-krock-e4-avstangd",
       "capturedAt": "2026-11-12T15:02:53.433Z"
+    },
+    {
+      "filename": "1794496355259_0.png",
+      "headlineId": "07fd0ec92a4f5556e99432fb4d1f4e3850ef3e954c7160513df940e22fc969f6",
+      "articleUrl": "https://www.sverigesradio.se/artikel/misstanks-ha-misshandlat-bebis-tva-begars-haktade",
+      "capturedAt": "2026-11-12T15:12:35.259Z"
     }
   ]
 }
