@@ -45840,6 +45840,10 @@
     {
       "id": "4e1315afea7718456c84594287d8f71a02ad370e46bbd1f55966f2537fd01668",
       "text": "Just nu: Tonåring döms för masskjutning"
+    },
+    {
+      "id": "99beba74aa7b31878a8d0a76afb0f4eddb19a0175a9ba0792851fb8bd5a6ff5c",
+      "text": "Just nu: Manchester United sparkar Carrick"
     }
   ],
   "captures": [
@@ -114596,6 +114600,12 @@
       "headlineId": "1006cf1d8a4061ad8fe796c80d2bfd6fb49d2c29b1495982fcc51c7682021dc8",
       "articleUrl": "https://www.sverigesradio.se/artikel/regeringsbildningen-efter-valet-2026",
       "capturedAt": "2026-11-12T10:17:33.302Z"
+    },
+    {
+      "filename": "1794480149134_0.png",
+      "headlineId": "99beba74aa7b31878a8d0a76afb0f4eddb19a0175a9ba0792851fb8bd5a6ff5c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/michael-carrick-far-sparken-fran-manchester-united",
+      "capturedAt": "2026-11-12T10:42:29.134Z"
     }
   ]
 }
