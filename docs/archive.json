@@ -45868,6 +45868,10 @@
     {
       "id": "34e0362057a6b63a9f56071e54e9fb0af2cc62b513926703f1359da9656c9c67",
       "text": "Just nu: Norge varnar: Stor risk för ryskt sabotage"
+    },
+    {
+      "id": "e1e1eef3f7d1fbf233204287be0eb6846446e9a48dcd321aeee4232a87f1ea31",
+      "text": "Just nu: Norge varnar för ryska sabotage"
     }
   ],
   "captures": [
@@ -114666,6 +114670,12 @@
       "headlineId": "34e0362057a6b63a9f56071e54e9fb0af2cc62b513926703f1359da9656c9c67",
       "articleUrl": "https://www.sverigesradio.se/artikel/norge-varnar-risk-for-ryskt-sabotage",
       "capturedAt": "2026-11-12T14:02:41.134Z"
+    },
+    {
+      "filename": "1794495151018_0.png",
+      "headlineId": "e1e1eef3f7d1fbf233204287be0eb6846446e9a48dcd321aeee4232a87f1ea31",
+      "articleUrl": "https://www.sverigesradio.se/artikel/norge-varnar-risk-for-ryskt-sabotage",
+      "capturedAt": "2026-11-12T14:52:31.018Z"
     }
   ]
 }
