@@ -45908,6 +45908,10 @@
     {
       "id": "a870f783fc32d374894332f7412d0544664a30e088e0693bae2bc7bf5c7eb080",
       "text": "Just nu: Ny skada i Blågult"
+    },
+    {
+      "id": "f795c1736fc061820ce766714214bb414cde9b25abc39c03f9a400843e6fa8c2",
+      "text": "Just nu: Lastbilsolycka – blockerar E45"
     }
   ],
   "captures": [
@@ -114766,6 +114770,12 @@
       "headlineId": "a870f783fc32d374894332f7412d0544664a30e088e0693bae2bc7bf5c7eb080",
       "articleUrl": "https://www.sverigesradio.se/artikel/patrik-walemark-lamnar-landslagssamlingen",
       "capturedAt": "2026-11-12T19:32:32.575Z"
+    },
+    {
+      "filename": "1794512550757_0.png",
+      "headlineId": "f795c1736fc061820ce766714214bb414cde9b25abc39c03f9a400843e6fa8c2",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lastbil-tvars-over-e45-totalstopp-for-tyngre-trafik",
+      "capturedAt": "2026-11-12T19:42:30.757Z"
     }
   ]
 }
