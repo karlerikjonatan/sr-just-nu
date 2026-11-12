@@ -45844,6 +45844,10 @@
     {
       "id": "99beba74aa7b31878a8d0a76afb0f4eddb19a0175a9ba0792851fb8bd5a6ff5c",
       "text": "Just nu: Manchester United sparkar Carrick"
+    },
+    {
+      "id": "73b8dedcf33a46b6b62c329006c03dd848e26a629636ae104f0b238aac59f391",
+      "text": "Just nu: En död i trafikolycka i Bergkvara"
     }
   ],
   "captures": [
@@ -114606,6 +114610,12 @@
       "headlineId": "99beba74aa7b31878a8d0a76afb0f4eddb19a0175a9ba0792851fb8bd5a6ff5c",
       "articleUrl": "https://www.sverigesradio.se/artikel/michael-carrick-far-sparken-fran-manchester-united",
       "capturedAt": "2026-11-12T10:42:29.134Z"
+    },
+    {
+      "filename": "1794482850216_0.png",
+      "headlineId": "73b8dedcf33a46b6b62c329006c03dd848e26a629636ae104f0b238aac59f391",
+      "articleUrl": "https://www.sverigesradio.se/artikel/korde-in-i-trad-och-borjade-brinna",
+      "capturedAt": "2026-11-12T11:27:30.216Z"
     }
   ]
 }
