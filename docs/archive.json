@@ -45888,6 +45888,14 @@
     {
       "id": "5c8e82af5ff7a295bd88d5cb411ada49603ef0aa7d1de1855df0d849c0df1f92",
       "text": "Just nu: Mjölkbil har vält – 13 000 liter har läckt"
+    },
+    {
+      "id": "ddd191e7379e17c3d013011d4da0edd04f66ca5aaaf3ff70792ecbfa6f94566e",
+      "text": "Just nu: Mjölkbil har vält – 13 000 liter på vägen"
+    },
+    {
+      "id": "111bec0327b61aa65da0011c41bb0fef35970307d2e44e199b29707aad93c979",
+      "text": "Just nu: Långa köer på E6 Kungsbacka"
     }
   ],
   "captures": [
@@ -114716,6 +114724,18 @@
       "headlineId": "5c8e82af5ff7a295bd88d5cb411ada49603ef0aa7d1de1855df0d849c0df1f92",
       "articleUrl": "https://www.sverigesradio.se/artikel/mjolkchock-utanfor-eksjo-13-000-liter-har-lackt-ut",
       "capturedAt": "2026-11-12T16:37:27.087Z"
+    },
+    {
+      "filename": "1794502052166_0.png",
+      "headlineId": "111bec0327b61aa65da0011c41bb0fef35970307d2e44e199b29707aad93c979",
+      "articleUrl": "https://www.sverigesradio.se/artikel/olycka-med-lastbil-och-bil-pa-e6-langa-koer",
+      "capturedAt": "2026-11-12T16:47:32.166Z"
+    },
+    {
+      "filename": "1794502052166_1.png",
+      "headlineId": "ddd191e7379e17c3d013011d4da0edd04f66ca5aaaf3ff70792ecbfa6f94566e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/mjolkchock-utanfor-eksjo-13-000-liter-har-lackt-ut",
+      "capturedAt": "2026-11-12T16:47:32.166Z"
     }
   ]
 }
