@@ -45788,6 +45788,10 @@
     {
       "id": "c59cc14d8aef1cc6046efcdc711ab6f5e75bb67a16ccce5a0146e9dc9dff3ee9",
       "text": "Just nu: Första svarta senatorn på 150 år"
+    },
+    {
+      "id": "a7b18d1ffd704daf498f64027befa85cb1d79bb3b4dae1a3c9eb05a38b7cdda7",
+      "text": "Just nu: Hus har kollapsat i Brooklyn – en död"
     }
   ],
   "captures": [
@@ -114466,6 +114470,12 @@
       "headlineId": "c59cc14d8aef1cc6046efcdc711ab6f5e75bb67a16ccce5a0146e9dc9dff3ee9",
       "articleUrl": "https://www.sverigesradio.se/artikel/colom-blir-mississippis-forsta-svarta-senator-pa-140-ar",
       "capturedAt": "2026-11-11T23:47:41.911Z"
+    },
+    {
+      "filename": "1794442047030_0.png",
+      "headlineId": "a7b18d1ffd704daf498f64027befa85cb1d79bb3b4dae1a3c9eb05a38b7cdda7",
+      "articleUrl": "https://www.sverigesradio.se/artikel/hus-har-kollapsat-i-brooklyn-minst-en-person-dod",
+      "capturedAt": "2026-11-12T00:07:27.030Z"
     }
   ]
 }
