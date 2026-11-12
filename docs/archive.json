@@ -45848,6 +45848,10 @@
     {
       "id": "73b8dedcf33a46b6b62c329006c03dd848e26a629636ae104f0b238aac59f391",
       "text": "Just nu: En död i trafikolycka i Bergkvara"
+    },
+    {
+      "id": "74934d055da0402dbc59a5faa4d8f764073cd1595d6bc93ce3b9f3c3a2740367",
+      "text": "Just nu: Tågtrafiken stoppad genom Lund"
     }
   ],
   "captures": [
@@ -114616,6 +114620,12 @@
       "headlineId": "73b8dedcf33a46b6b62c329006c03dd848e26a629636ae104f0b238aac59f391",
       "articleUrl": "https://www.sverigesradio.se/artikel/korde-in-i-trad-och-borjade-brinna",
       "capturedAt": "2026-11-12T11:27:30.216Z"
+    },
+    {
+      "filename": "1794483153313_0.png",
+      "headlineId": "74934d055da0402dbc59a5faa4d8f764073cd1595d6bc93ce3b9f3c3a2740367",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tagtrafiken-stoppad-genom-lund",
+      "capturedAt": "2026-11-12T11:32:33.313Z"
     }
   ]
 }
