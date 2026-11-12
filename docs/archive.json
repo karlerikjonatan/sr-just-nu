@@ -45860,6 +45860,10 @@
     {
       "id": "bad651d6597fd5b154e2fb1c7bb8cddae2d7dde29c53b34b585d4fa347e651ae",
       "text": "Just nu: Tre svenskar gripna i Spanien"
+    },
+    {
+      "id": "6457fd2824e3338d7ecb686fe7a68d0439bab5f31526e0e97f9f684c5b348c84",
+      "text": "Just nu: Sällsynt leopardunge död på zoo"
     }
   ],
   "captures": [
@@ -114646,6 +114650,12 @@
       "headlineId": "bad651d6597fd5b154e2fb1c7bb8cddae2d7dde29c53b34b585d4fa347e651ae",
       "articleUrl": "https://www.sverigesradio.se/artikel/svenskar-gripna-i-spanien-misstanks-for-bluffakturor",
       "capturedAt": "2026-11-12T12:52:31.306Z"
+    },
+    {
+      "filename": "1794488561114_0.png",
+      "headlineId": "6457fd2824e3338d7ecb686fe7a68d0439bab5f31526e0e97f9f684c5b348c84",
+      "articleUrl": "https://www.sverigesradio.se/artikel/amurleopardunge-dod-pa-kopenhamns-zoo",
+      "capturedAt": "2026-11-12T13:02:41.114Z"
     }
   ]
 }
