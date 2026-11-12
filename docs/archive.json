@@ -45792,6 +45792,10 @@
     {
       "id": "a7b18d1ffd704daf498f64027befa85cb1d79bb3b4dae1a3c9eb05a38b7cdda7",
       "text": "Just nu: Hus har kollapsat i Brooklyn – en död"
+    },
+    {
+      "id": "648032c6cd897591adc19a4acbe7c6ed8c0dba747675d1a1f83c87849748c42b",
+      "text": "Just nu: Hus har kollapsat i Brooklyn – två död"
     }
   ],
   "captures": [
@@ -114476,6 +114480,12 @@
       "headlineId": "a7b18d1ffd704daf498f64027befa85cb1d79bb3b4dae1a3c9eb05a38b7cdda7",
       "articleUrl": "https://www.sverigesradio.se/artikel/hus-har-kollapsat-i-brooklyn-minst-en-person-dod",
       "capturedAt": "2026-11-12T00:07:27.030Z"
+    },
+    {
+      "filename": "1794452853353_0.png",
+      "headlineId": "648032c6cd897591adc19a4acbe7c6ed8c0dba747675d1a1f83c87849748c42b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/hus-har-kollapsat-i-brooklyn-minst-en-person-dod",
+      "capturedAt": "2026-11-12T03:07:33.353Z"
     }
   ]
 }
