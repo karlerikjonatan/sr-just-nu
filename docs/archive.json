@@ -45880,6 +45880,10 @@
     {
       "id": "07fd0ec92a4f5556e99432fb4d1f4e3850ef3e954c7160513df940e22fc969f6",
       "text": "Just nu: Spädbarn svårt skadat – två häktas"
+    },
+    {
+      "id": "9e2e895e04a8863565824f08fcd8437f69d148b7cce929d2d45684a8b6cc94fe",
+      "text": "Just nu: En till sjukhus efter masskrock"
     }
   ],
   "captures": [
@@ -114696,6 +114700,12 @@
       "headlineId": "07fd0ec92a4f5556e99432fb4d1f4e3850ef3e954c7160513df940e22fc969f6",
       "articleUrl": "https://www.sverigesradio.se/artikel/misstanks-ha-misshandlat-bebis-tva-begars-haktade",
       "capturedAt": "2026-11-12T15:12:35.259Z"
+    },
+    {
+      "filename": "1794496653114_0.png",
+      "headlineId": "9e2e895e04a8863565824f08fcd8437f69d148b7cce929d2d45684a8b6cc94fe",
+      "articleUrl": "https://www.sverigesradio.se/artikel/flera-olyckor-pa-torslandavagen-vagen-blockerad",
+      "capturedAt": "2026-11-12T15:17:33.114Z"
     }
   ]
 }
