@@ -45824,6 +45824,10 @@
     {
       "id": "88a459451bbf30d22a4a3adc13a15aa55432b88542e69af5c028668674e70a03",
       "text": "Just nu: Meta stoppar Russell Brands konton"
+    },
+    {
+      "id": "5624db15c0643df59871c9b4a27875c7ca4bcc8ce3926591130475fcfb54b272",
+      "text": "Just nu: Misstänks ha misshandlat bebis – två begärs häktade"
     }
   ],
   "captures": [
@@ -114556,6 +114560,12 @@
       "headlineId": "88a459451bbf30d22a4a3adc13a15aa55432b88542e69af5c028668674e70a03",
       "articleUrl": "https://www.sverigesradio.se/artikel/meta-stoppar-russell-brands-konton",
       "capturedAt": "2026-11-12T08:42:49.812Z"
+    },
+    {
+      "filename": "1794476248347_0.png",
+      "headlineId": "5624db15c0643df59871c9b4a27875c7ca4bcc8ce3926591130475fcfb54b272",
+      "articleUrl": "https://www.sverigesradio.se/artikel/misstanks-ha-misshandlat-bebis-tva-begars-haktade",
+      "capturedAt": "2026-11-12T09:37:28.347Z"
     }
   ]
 }
