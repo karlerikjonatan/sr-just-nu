@@ -45872,6 +45872,10 @@
     {
       "id": "e1e1eef3f7d1fbf233204287be0eb6846446e9a48dcd321aeee4232a87f1ea31",
       "text": "Just nu: Norge varnar för ryska sabotage"
+    },
+    {
+      "id": "58fc0b331e6ba12def53644861aeb8bf36be5c3c574b23f1167cb21972d8844b",
+      "text": "Just nu: E4 avstängd vid Högakustenbron"
     }
   ],
   "captures": [
@@ -114676,6 +114680,12 @@
       "headlineId": "e1e1eef3f7d1fbf233204287be0eb6846446e9a48dcd321aeee4232a87f1ea31",
       "articleUrl": "https://www.sverigesradio.se/artikel/norge-varnar-risk-for-ryskt-sabotage",
       "capturedAt": "2026-11-12T14:52:31.018Z"
+    },
+    {
+      "filename": "1794495773433_0.png",
+      "headlineId": "58fc0b331e6ba12def53644861aeb8bf36be5c3c574b23f1167cb21972d8844b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tva-lastbilar-i-krock-e4-avstangd",
+      "capturedAt": "2026-11-12T15:02:53.433Z"
     }
   ]
 }
