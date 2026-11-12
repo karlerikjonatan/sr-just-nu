@@ -45924,6 +45924,10 @@
     {
       "id": "68446edb24bbefb662e81adda98d9bdd37350e2a99c79e305a0e8ec5c14ffe1d",
       "text": "Just nu: Mängder av bilar fast i snökaos på E4"
+    },
+    {
+      "id": "2991882f24043841525f77fbb4d1ffd95ec6921b18953fd2b74be153984a686a",
+      "text": "Just nu: Massköer på E4 i snökaoset"
     }
   ],
   "captures": [
@@ -114806,6 +114810,12 @@
       "headlineId": "68446edb24bbefb662e81adda98d9bdd37350e2a99c79e305a0e8ec5c14ffe1d",
       "articleUrl": "https://www.sverigesradio.se/artikel/snoovader-och-stora-problem-pa-e4-i-skuleskogen",
       "capturedAt": "2026-11-12T21:52:33.149Z"
+    },
+    {
+      "filename": "1794520648786_0.png",
+      "headlineId": "2991882f24043841525f77fbb4d1ffd95ec6921b18953fd2b74be153984a686a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/snoovader-och-stora-problem-pa-e4-i-skuleskogen",
+      "capturedAt": "2026-11-12T21:57:28.786Z"
     }
   ]
 }
