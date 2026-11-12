@@ -45884,6 +45884,10 @@
     {
       "id": "9e2e895e04a8863565824f08fcd8437f69d148b7cce929d2d45684a8b6cc94fe",
       "text": "Just nu: En till sjukhus efter masskrock"
+    },
+    {
+      "id": "5c8e82af5ff7a295bd88d5cb411ada49603ef0aa7d1de1855df0d849c0df1f92",
+      "text": "Just nu: Mjölkbil har vält – 13 000 liter har läckt"
     }
   ],
   "captures": [
@@ -114706,6 +114710,12 @@
       "headlineId": "9e2e895e04a8863565824f08fcd8437f69d148b7cce929d2d45684a8b6cc94fe",
       "articleUrl": "https://www.sverigesradio.se/artikel/flera-olyckor-pa-torslandavagen-vagen-blockerad",
       "capturedAt": "2026-11-12T15:17:33.114Z"
+    },
+    {
+      "filename": "1794501447087_0.png",
+      "headlineId": "5c8e82af5ff7a295bd88d5cb411ada49603ef0aa7d1de1855df0d849c0df1f92",
+      "articleUrl": "https://www.sverigesradio.se/artikel/mjolkchock-utanfor-eksjo-13-000-liter-har-lackt-ut",
+      "capturedAt": "2026-11-12T16:37:27.087Z"
     }
   ]
 }
