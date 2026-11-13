@@ -45960,6 +45960,10 @@
     {
       "id": "9c01f318b48f1a5010c1c5c257a500e9b689934e2ae09d6c01de2cc2f865065b",
       "text": "Just nu: Stora störningar hos Microsoft"
+    },
+    {
+      "id": "7281a32788176c24d7302cf494c9d3ec74ed098d657cf409f0ce3db9c1da3448",
+      "text": "Just nu: En misstänkt för medhjälp i Älvsjömord"
     }
   ],
   "captures": [
@@ -114896,6 +114900,12 @@
       "headlineId": "9c01f318b48f1a5010c1c5c257a500e9b689934e2ae09d6c01de2cc2f865065b",
       "articleUrl": "https://www.sverigesradio.se/artikel/efter-12-timmar-fortsatta-storningar-hos-microsoft",
       "capturedAt": "2026-11-13T09:27:26.383Z"
+    },
+    {
+      "filename": "1794565959857_0.png",
+      "headlineId": "7281a32788176c24d7302cf494c9d3ec74ed098d657cf409f0ce3db9c1da3448",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ytterligare-en-misstankt-for-medhjalp-till-alvsjomordet",
+      "capturedAt": "2026-11-13T10:32:39.857Z"
     }
   ]
 }
