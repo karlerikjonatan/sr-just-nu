@@ -45980,6 +45980,10 @@
     {
       "id": "35ae8551484c045123c22b807e550e145a964579972c0f86853f3552f17582fd",
       "text": "Just nu: Dolly Partons sista låt har släppts"
+    },
+    {
+      "id": "38e8ec64923391ae1b81961934614cd94ac064081c167d6132dc6e4e639c2d55",
+      "text": "Just nu: Misstänkta för mutbrott – släpps"
     }
   ],
   "captures": [
@@ -114946,6 +114950,12 @@
       "headlineId": "35ae8551484c045123c22b807e550e145a964579972c0f86853f3552f17582fd",
       "articleUrl": "https://www.sverigesradio.se/artikel/dolly-partons-sista-lat-slappt-pa-u2s-nya-album",
       "capturedAt": "2026-11-13T12:12:33.630Z"
+    },
+    {
+      "filename": "1794572253516_0.png",
+      "headlineId": "38e8ec64923391ae1b81961934614cd94ac064081c167d6132dc6e4e639c2d55",
+      "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-misstankta-for-mutbrottet-i-kungalv-slapps-pa-fri-fot",
+      "capturedAt": "2026-11-13T12:17:33.516Z"
     }
   ]
 }
