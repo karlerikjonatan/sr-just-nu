@@ -46000,6 +46000,10 @@
     {
       "id": "fac05e0f4fd94fc1282a44c6aabe9d7edfa94c18b4940e7c1c5a4e10523fd521",
       "text": "Just nu: Efterlyst svensk gripen"
+    },
+    {
+      "id": "1c2ea0c1bad257c51de22b00148027b8846ac8afe147041a3d2008f9e2bce564",
+      "text": "Just nu: David Walliams utreds för sexualbrott"
     }
   ],
   "captures": [
@@ -114996,6 +115000,12 @@
       "headlineId": "fac05e0f4fd94fc1282a44c6aabe9d7edfa94c18b4940e7c1c5a4e10523fd521",
       "articleUrl": "https://www.sverigesradio.se/artikel/svensk-man-gripen-i-jordanien-var-internationellt-efterlyst",
       "capturedAt": "2026-11-13T15:47:29.525Z"
+    },
+    {
+      "filename": "1794591451714_0.png",
+      "headlineId": "1c2ea0c1bad257c51de22b00148027b8846ac8afe147041a3d2008f9e2bce564",
+      "articleUrl": "https://www.sverigesradio.se/artikel/david-walliams-utreds-for-sexualbrott-i-storbritannien",
+      "capturedAt": "2026-11-13T17:37:31.714Z"
     }
   ]
 }
