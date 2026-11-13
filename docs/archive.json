@@ -45940,6 +45940,10 @@
     {
       "id": "a69eac476d75ea60bd6bf68429831043ad10f25ed61ba020fc8386f7dae7111d",
       "text": "Just nu: Vinnare på Latin Grammy Awards"
+    },
+    {
+      "id": "f0b2371c946819366341953a19f85bfc3f383a97b09869e265425435707ef367",
+      "text": "Just nu: Rosalias triumf inatt"
     }
   ],
   "captures": [
@@ -114846,6 +114850,12 @@
       "headlineId": "a69eac476d75ea60bd6bf68429831043ad10f25ed61ba020fc8386f7dae7111d",
       "articleUrl": "https://www.sverigesradio.se/artikel/flera-priser-till-rosalia-vid-latin-grammy-awards",
       "capturedAt": "2026-11-13T05:12:34.522Z"
+    },
+    {
+      "filename": "1794549455844_0.png",
+      "headlineId": "f0b2371c946819366341953a19f85bfc3f383a97b09869e265425435707ef367",
+      "articleUrl": "https://www.sverigesradio.se/artikel/flera-priser-till-rosalia-vid-latin-grammy-awards",
+      "capturedAt": "2026-11-13T05:57:35.844Z"
     }
   ]
 }
