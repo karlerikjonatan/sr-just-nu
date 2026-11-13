@@ -46004,6 +46004,10 @@
     {
       "id": "1c2ea0c1bad257c51de22b00148027b8846ac8afe147041a3d2008f9e2bce564",
       "text": "Just nu: David Walliams utreds för sexualbrott"
+    },
+    {
+      "id": "faad3c8f61bbd2fbeb361a077b9146e61205b4f0cb8264a069e6dc1df2ab1c2c",
+      "text": "Just nu: Krock på riksväg 40 – vägen avstängd"
     }
   ],
   "captures": [
@@ -115006,6 +115010,12 @@
       "headlineId": "1c2ea0c1bad257c51de22b00148027b8846ac8afe147041a3d2008f9e2bce564",
       "articleUrl": "https://www.sverigesradio.se/artikel/david-walliams-utreds-for-sexualbrott-i-storbritannien",
       "capturedAt": "2026-11-13T17:37:31.714Z"
+    },
+    {
+      "filename": "1794594753371_0.png",
+      "headlineId": "faad3c8f61bbd2fbeb361a077b9146e61205b4f0cb8264a069e6dc1df2ab1c2c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/olycka-mellan-tva-bilar-stoppar-trafiken-pa-riksvag-40",
+      "capturedAt": "2026-11-13T18:32:33.371Z"
     }
   ]
 }
