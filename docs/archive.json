@@ -45996,6 +45996,10 @@
     {
       "id": "d16ab58c7e037ce742d38724db327ae04a83c0d7de5b75c391328b8e4cdf7dae",
       "text": "Just nu: Frontalkrock på E45 – en till sjukhus"
+    },
+    {
+      "id": "fac05e0f4fd94fc1282a44c6aabe9d7edfa94c18b4940e7c1c5a4e10523fd521",
+      "text": "Just nu: Efterlyst svensk gripen"
     }
   ],
   "captures": [
@@ -114986,6 +114990,12 @@
       "headlineId": "d16ab58c7e037ce742d38724db327ae04a83c0d7de5b75c391328b8e4cdf7dae",
       "articleUrl": "https://www.sverigesradio.se/artikel/frontalkrock-pa-e45-strax-efter-varmlands-bro",
       "capturedAt": "2026-11-13T14:32:37.090Z"
+    },
+    {
+      "filename": "1794584849525_0.png",
+      "headlineId": "fac05e0f4fd94fc1282a44c6aabe9d7edfa94c18b4940e7c1c5a4e10523fd521",
+      "articleUrl": "https://www.sverigesradio.se/artikel/svensk-man-gripen-i-jordanien-var-internationellt-efterlyst",
+      "capturedAt": "2026-11-13T15:47:29.525Z"
     }
   ]
 }
