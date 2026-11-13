@@ -46008,6 +46008,10 @@
     {
       "id": "faad3c8f61bbd2fbeb361a077b9146e61205b4f0cb8264a069e6dc1df2ab1c2c",
       "text": "Just nu: Krock på riksväg 40 – vägen avstängd"
+    },
+    {
+      "id": "5d722521347e9bb2d545ac95518b6c3460f000e78dc70f931eb2ec28a4bc192e",
+      "text": "Just nu: Tåg har kört på husvagn"
     }
   ],
   "captures": [
@@ -115016,6 +115020,12 @@
       "headlineId": "faad3c8f61bbd2fbeb361a077b9146e61205b4f0cb8264a069e6dc1df2ab1c2c",
       "articleUrl": "https://www.sverigesradio.se/artikel/olycka-mellan-tva-bilar-stoppar-trafiken-pa-riksvag-40",
       "capturedAt": "2026-11-13T18:32:33.371Z"
+    },
+    {
+      "filename": "1794598055233_0.png",
+      "headlineId": "5d722521347e9bb2d545ac95518b6c3460f000e78dc70f931eb2ec28a4bc192e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tag-har-kort-pa-husvagn-raddningstjanst-pa-plats",
+      "capturedAt": "2026-11-13T19:27:35.233Z"
     }
   ]
 }
