@@ -45976,6 +45976,10 @@
     {
       "id": "be4b83c3fb9dbe1ec9bd913afa3d6129fd5b7b3b11352032f4249d4bcb673b1f",
       "text": "Just nu: Ny tränare för Manchester United klar"
+    },
+    {
+      "id": "35ae8551484c045123c22b807e550e145a964579972c0f86853f3552f17582fd",
+      "text": "Just nu: Dolly Partons sista låt har släppts"
     }
   ],
   "captures": [
@@ -114936,6 +114940,12 @@
       "headlineId": "be4b83c3fb9dbe1ec9bd913afa3d6129fd5b7b3b11352032f4249d4bcb673b1f",
       "articleUrl": "https://www.sverigesradio.se/artikel/fotboll-mauricio-pochettino-ny-tranare-for-manchester-united",
       "capturedAt": "2026-11-13T12:07:25.124Z"
+    },
+    {
+      "filename": "1794571953630_0.png",
+      "headlineId": "35ae8551484c045123c22b807e550e145a964579972c0f86853f3552f17582fd",
+      "articleUrl": "https://www.sverigesradio.se/artikel/dolly-partons-sista-lat-slappt-pa-u2s-nya-album",
+      "capturedAt": "2026-11-13T12:12:33.630Z"
     }
   ]
 }
