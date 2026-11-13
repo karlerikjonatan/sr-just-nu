@@ -46016,6 +46016,10 @@
     {
       "id": "e90d56c4901458b3ebb6105572c6298c43b1e70d8bf4d7d773e166b4619c52be",
       "text": "Just nu: Skottlossning i centrala Stockholm"
+    },
+    {
+      "id": "4a57c3f90b4d5eaa6f1f170b6ca6dc209af9ad996ec28aa2d6baf3a48d901728",
+      "text": "Just nu: Kräkkaos – 90 barn sjuka"
     }
   ],
   "captures": [
@@ -115036,6 +115040,12 @@
       "headlineId": "e90d56c4901458b3ebb6105572c6298c43b1e70d8bf4d7d773e166b4619c52be",
       "articleUrl": "https://www.sverigesradio.se/artikel/skottlossning-i-centrala-stockholm-polisjakt-pagar",
       "capturedAt": "2026-11-13T20:17:26.249Z"
+    },
+    {
+      "filename": "1794604359600_0.png",
+      "headlineId": "4a57c3f90b4d5eaa6f1f170b6ca6dc209af9ad996ec28aa2d6baf3a48d901728",
+      "articleUrl": "https://www.sverigesradio.se/artikel/90-barn-magsjuka-pa-skola-i-varberg",
+      "capturedAt": "2026-11-13T21:12:39.600Z"
     }
   ]
 }
