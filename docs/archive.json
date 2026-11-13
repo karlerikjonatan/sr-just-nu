@@ -45944,6 +45944,10 @@
     {
       "id": "f0b2371c946819366341953a19f85bfc3f383a97b09869e265425435707ef367",
       "text": "Just nu: Rosalias triumf inatt"
+    },
+    {
+      "id": "d0faaa2ed08b3a27f9b53e8e7d4d090e34554cf0ee5659c68cdd9d4dd376bbae",
+      "text": "Just nu: Segelbåt i sjönöd utanför Trelleborg"
     }
   ],
   "captures": [
@@ -114856,6 +114860,12 @@
       "headlineId": "f0b2371c946819366341953a19f85bfc3f383a97b09869e265425435707ef367",
       "articleUrl": "https://www.sverigesradio.se/artikel/flera-priser-till-rosalia-vid-latin-grammy-awards",
       "capturedAt": "2026-11-13T05:57:35.844Z"
+    },
+    {
+      "filename": "1794552151043_0.png",
+      "headlineId": "d0faaa2ed08b3a27f9b53e8e7d4d090e34554cf0ee5659c68cdd9d4dd376bbae",
+      "articleUrl": "https://www.sverigesradio.se/artikel/segelbat-fast-pa-havet-i-timmar-raddningsinsats-pagar",
+      "capturedAt": "2026-11-13T06:42:31.043Z"
     }
   ]
 }
