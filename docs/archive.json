@@ -45992,6 +45992,10 @@
     {
       "id": "8450c627eafced922732ea14c308c7671aaee23ea5c8f6d53dd6d984539411ab",
       "text": "Just nu: Vattenläcka – långa köer på E4"
+    },
+    {
+      "id": "d16ab58c7e037ce742d38724db327ae04a83c0d7de5b75c391328b8e4cdf7dae",
+      "text": "Just nu: Frontalkrock på E45 – en till sjukhus"
     }
   ],
   "captures": [
@@ -114976,6 +114980,12 @@
       "headlineId": "8450c627eafced922732ea14c308c7671aaee23ea5c8f6d53dd6d984539411ab",
       "articleUrl": "https://www.sverigesradio.se/artikel/koer-pa-uppsalavagen-efter-vattenlacka",
       "capturedAt": "2026-11-13T13:17:28.910Z"
+    },
+    {
+      "filename": "1794580357090_0.png",
+      "headlineId": "d16ab58c7e037ce742d38724db327ae04a83c0d7de5b75c391328b8e4cdf7dae",
+      "articleUrl": "https://www.sverigesradio.se/artikel/frontalkrock-pa-e45-strax-efter-varmlands-bro",
+      "capturedAt": "2026-11-13T14:32:37.090Z"
     }
   ]
 }
