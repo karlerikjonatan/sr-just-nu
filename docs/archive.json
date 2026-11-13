@@ -45964,6 +45964,10 @@
     {
       "id": "7281a32788176c24d7302cf494c9d3ec74ed098d657cf409f0ce3db9c1da3448",
       "text": "Just nu: En misstänkt för medhjälp i Älvsjömord"
+    },
+    {
+      "id": "9bc94d51f2896c3995b9b329bacbecb410e1918b393a59eff1972b3524df2b07",
+      "text": "Just nu: En till misstänkt efter Älvsjömord"
     }
   ],
   "captures": [
@@ -114906,6 +114910,12 @@
       "headlineId": "7281a32788176c24d7302cf494c9d3ec74ed098d657cf409f0ce3db9c1da3448",
       "articleUrl": "https://www.sverigesradio.se/artikel/ytterligare-en-misstankt-for-medhjalp-till-alvsjomordet",
       "capturedAt": "2026-11-13T10:32:39.857Z"
+    },
+    {
+      "filename": "1794566850999_0.png",
+      "headlineId": "9bc94d51f2896c3995b9b329bacbecb410e1918b393a59eff1972b3524df2b07",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ytterligare-en-misstankt-for-medhjalp-till-alvsjomordet",
+      "capturedAt": "2026-11-13T10:47:30.999Z"
     }
   ]
 }
