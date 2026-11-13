@@ -46012,6 +46012,10 @@
     {
       "id": "5d722521347e9bb2d545ac95518b6c3460f000e78dc70f931eb2ec28a4bc192e",
       "text": "Just nu: Tåg har kört på husvagn"
+    },
+    {
+      "id": "e90d56c4901458b3ebb6105572c6298c43b1e70d8bf4d7d773e166b4619c52be",
+      "text": "Just nu: Skottlossning i centrala Stockholm"
     }
   ],
   "captures": [
@@ -115026,6 +115030,12 @@
       "headlineId": "5d722521347e9bb2d545ac95518b6c3460f000e78dc70f931eb2ec28a4bc192e",
       "articleUrl": "https://www.sverigesradio.se/artikel/tag-har-kort-pa-husvagn-raddningstjanst-pa-plats",
       "capturedAt": "2026-11-13T19:27:35.233Z"
+    },
+    {
+      "filename": "1794601046249_0.png",
+      "headlineId": "e90d56c4901458b3ebb6105572c6298c43b1e70d8bf4d7d773e166b4619c52be",
+      "articleUrl": "https://www.sverigesradio.se/artikel/skottlossning-i-centrala-stockholm-polisjakt-pagar",
+      "capturedAt": "2026-11-13T20:17:26.249Z"
     }
   ]
 }
