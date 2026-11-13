@@ -46020,6 +46020,10 @@
     {
       "id": "4a57c3f90b4d5eaa6f1f170b6ca6dc209af9ad996ec28aa2d6baf3a48d901728",
       "text": "Just nu: Kräkkaos – 90 barn sjuka"
+    },
+    {
+      "id": "8fc3e2638cf8b5a36f410631cc119713a0ffa34de087fe5c0a935af7d69b85d4",
+      "text": "Just nu: Damkronorna klara för VM-semi"
     }
   ],
   "captures": [
@@ -115046,6 +115050,12 @@
       "headlineId": "4a57c3f90b4d5eaa6f1f170b6ca6dc209af9ad996ec28aa2d6baf3a48d901728",
       "articleUrl": "https://www.sverigesradio.se/artikel/90-barn-magsjuka-pa-skola-i-varberg",
       "capturedAt": "2026-11-13T21:12:39.600Z"
+    },
+    {
+      "filename": "1794604953421_0.png",
+      "headlineId": "8fc3e2638cf8b5a36f410631cc119713a0ffa34de087fe5c0a935af7d69b85d4",
+      "articleUrl": "https://www.sverigesradio.se/artikel/damkronorna-klara-for-semifinal-i-ishockey-vm",
+      "capturedAt": "2026-11-13T21:22:33.421Z"
     }
   ]
 }
