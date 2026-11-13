@@ -45988,6 +45988,10 @@
     {
       "id": "482b6f78e00bd096077d18faea2f6fa1fc4295ba5a2f05ac1aa5bacdf7f5c89d",
       "text": "Just nu: Köer längs Uppsalavägen efter läcka"
+    },
+    {
+      "id": "8450c627eafced922732ea14c308c7671aaee23ea5c8f6d53dd6d984539411ab",
+      "text": "Just nu: Vattenläcka – långa köer på E4"
     }
   ],
   "captures": [
@@ -114966,6 +114970,12 @@
       "headlineId": "482b6f78e00bd096077d18faea2f6fa1fc4295ba5a2f05ac1aa5bacdf7f5c89d",
       "articleUrl": "https://www.sverigesradio.se/artikel/koer-pa-uppsalavagen-efter-vattenlacka",
       "capturedAt": "2026-11-13T13:12:40.274Z"
+    },
+    {
+      "filename": "1794575848910_0.png",
+      "headlineId": "8450c627eafced922732ea14c308c7671aaee23ea5c8f6d53dd6d984539411ab",
+      "articleUrl": "https://www.sverigesradio.se/artikel/koer-pa-uppsalavagen-efter-vattenlacka",
+      "capturedAt": "2026-11-13T13:17:28.910Z"
     }
   ]
 }
