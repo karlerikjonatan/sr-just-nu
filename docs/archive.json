@@ -45972,6 +45972,10 @@
     {
       "id": "b91a4b41064137b9604c6ec278c5e456b317bddf370335adc85601e32c0789fd",
       "text": "Just nu: Gick loss på hotell i Malmö – tre gripna"
+    },
+    {
+      "id": "be4b83c3fb9dbe1ec9bd913afa3d6129fd5b7b3b11352032f4249d4bcb673b1f",
+      "text": "Just nu: Ny tränare för Manchester United klar"
     }
   ],
   "captures": [
@@ -114926,6 +114930,12 @@
       "headlineId": "b91a4b41064137b9604c6ec278c5e456b317bddf370335adc85601e32c0789fd",
       "articleUrl": "https://www.sverigesradio.se/artikel/tre-man-gripna-efter-skadegorelse-pa-hotell-i-malmo",
       "capturedAt": "2026-11-13T10:52:37.898Z"
+    },
+    {
+      "filename": "1794571645124_0.png",
+      "headlineId": "be4b83c3fb9dbe1ec9bd913afa3d6129fd5b7b3b11352032f4249d4bcb673b1f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/fotboll-mauricio-pochettino-ny-tranare-for-manchester-united",
+      "capturedAt": "2026-11-13T12:07:25.124Z"
     }
   ]
 }
