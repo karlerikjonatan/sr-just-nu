@@ -45968,6 +45968,10 @@
     {
       "id": "9bc94d51f2896c3995b9b329bacbecb410e1918b393a59eff1972b3524df2b07",
       "text": "Just nu: En till misstänkt efter Älvsjömord"
+    },
+    {
+      "id": "b91a4b41064137b9604c6ec278c5e456b317bddf370335adc85601e32c0789fd",
+      "text": "Just nu: Gick loss på hotell i Malmö – tre gripna"
     }
   ],
   "captures": [
@@ -114916,6 +114920,12 @@
       "headlineId": "9bc94d51f2896c3995b9b329bacbecb410e1918b393a59eff1972b3524df2b07",
       "articleUrl": "https://www.sverigesradio.se/artikel/ytterligare-en-misstankt-for-medhjalp-till-alvsjomordet",
       "capturedAt": "2026-11-13T10:47:30.999Z"
+    },
+    {
+      "filename": "1794567157898_0.png",
+      "headlineId": "b91a4b41064137b9604c6ec278c5e456b317bddf370335adc85601e32c0789fd",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tre-man-gripna-efter-skadegorelse-pa-hotell-i-malmo",
+      "capturedAt": "2026-11-13T10:52:37.898Z"
     }
   ]
 }
