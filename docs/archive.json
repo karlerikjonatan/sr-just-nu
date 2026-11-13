@@ -45984,6 +45984,10 @@
     {
       "id": "38e8ec64923391ae1b81961934614cd94ac064081c167d6132dc6e4e639c2d55",
       "text": "Just nu: Misstänkta för mutbrott – släpps"
+    },
+    {
+      "id": "482b6f78e00bd096077d18faea2f6fa1fc4295ba5a2f05ac1aa5bacdf7f5c89d",
+      "text": "Just nu: Köer längs Uppsalavägen efter läcka"
     }
   ],
   "captures": [
@@ -114956,6 +114960,12 @@
       "headlineId": "38e8ec64923391ae1b81961934614cd94ac064081c167d6132dc6e4e639c2d55",
       "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-misstankta-for-mutbrottet-i-kungalv-slapps-pa-fri-fot",
       "capturedAt": "2026-11-13T12:17:33.516Z"
+    },
+    {
+      "filename": "1794575560274_0.png",
+      "headlineId": "482b6f78e00bd096077d18faea2f6fa1fc4295ba5a2f05ac1aa5bacdf7f5c89d",
+      "articleUrl": "https://www.sverigesradio.se/artikel/koer-pa-uppsalavagen-efter-vattenlacka",
+      "capturedAt": "2026-11-13T13:12:40.274Z"
     }
   ]
 }
