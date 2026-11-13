@@ -45936,6 +45936,10 @@
     {
       "id": "0d1ae614250af6c3e1729d8f75a6dfcb58f9027a803c3073a2a4bef99737d081",
       "text": "Just nu: Darth Vaders lasersvärd slog rekord"
+    },
+    {
+      "id": "a69eac476d75ea60bd6bf68429831043ad10f25ed61ba020fc8386f7dae7111d",
+      "text": "Just nu: Vinnare på Latin Grammy Awards"
     }
   ],
   "captures": [
@@ -114836,6 +114840,12 @@
       "headlineId": "0d1ae614250af6c3e1729d8f75a6dfcb58f9027a803c3073a2a4bef99737d081",
       "articleUrl": "https://www.sverigesradio.se/artikel/darth-vaders-lasersvard-slog-auktionsrekord",
       "capturedAt": "2026-11-13T00:12:36.197Z"
+    },
+    {
+      "filename": "1794546754522_0.png",
+      "headlineId": "a69eac476d75ea60bd6bf68429831043ad10f25ed61ba020fc8386f7dae7111d",
+      "articleUrl": "https://www.sverigesradio.se/artikel/flera-priser-till-rosalia-vid-latin-grammy-awards",
+      "capturedAt": "2026-11-13T05:12:34.522Z"
     }
   ]
 }
