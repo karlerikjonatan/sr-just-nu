@@ -46072,6 +46072,10 @@
     {
       "id": "7476fef852bfecaa2395f2ac27be76dd38816337af360ba5c4c4b998788ba50d",
       "text": "Just nu: Villa i Störde totalförstörd i brand"
+    },
+    {
+      "id": "068b8fff1f8f33e5c28005cc82b0706127fbbbb57fa7fc0804ce59d9ec21750f",
+      "text": "Just nu: Död näbbval strandad i Göteborg"
     }
   ],
   "captures": [
@@ -115176,6 +115180,12 @@
       "headlineId": "7476fef852bfecaa2395f2ac27be76dd38816337af360ba5c4c4b998788ba50d",
       "articleUrl": "https://www.sverigesradio.se/artikel/villabrand-i-stode",
       "capturedAt": "2026-11-14T10:52:33.932Z"
+    },
+    {
+      "filename": "1794656548365_0.png",
+      "headlineId": "068b8fff1f8f33e5c28005cc82b0706127fbbbb57fa7fc0804ce59d9ec21750f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/dod-nabbval-strandad-i-goteborgs-hamn-ska-undersokas",
+      "capturedAt": "2026-11-14T11:42:28.365Z"
     }
   ]
 }
