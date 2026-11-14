@@ -46064,6 +46064,10 @@
     {
       "id": "88022d28c5b6f32f7107d488f38048021ec5a6e3171fa09375231c082876718a",
       "text": "Just nu: Bil på spår – tågstopp vid Hässleholm"
+    },
+    {
+      "id": "e76d85f31f2b9f7d8942202389b3c2844c746b5bd1d5eaff3ad8238effab248e",
+      "text": "Just nu: Kraftig brand vid E14 i Stöde"
     }
   ],
   "captures": [
@@ -115156,6 +115160,12 @@
       "headlineId": "88022d28c5b6f32f7107d488f38048021ec5a6e3171fa09375231c082876718a",
       "articleUrl": "https://www.sverigesradio.se/artikel/bil-pa-jarnvagssparet-tagtrafiken-stoppad",
       "capturedAt": "2026-11-14T08:47:30.739Z"
+    },
+    {
+      "filename": "1794646955181_0.png",
+      "headlineId": "e76d85f31f2b9f7d8942202389b3c2844c746b5bd1d5eaff3ad8238effab248e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kraftig-brand-stor-trafiken-pa-e14-vid-stode",
+      "capturedAt": "2026-11-14T09:02:35.181Z"
     }
   ]
 }
