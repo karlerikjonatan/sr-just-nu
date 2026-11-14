@@ -46048,6 +46048,10 @@
     {
       "id": "1c930d2dcd1ed7b260fd1876d7b84ce273e1dd25bed9d612c22a48b7ebec1841",
       "text": "Just nu: Stor krock stänger E4 vid Helsingborg"
+    },
+    {
+      "id": "92cd02a180f602430067144eb609d0489bf1f95c74f46ab327c9d5f9495af640",
+      "text": "Just nu: USA förlorar status som mässlingsfritt"
     }
   ],
   "captures": [
@@ -115116,6 +115120,12 @@
       "headlineId": "1c930d2dcd1ed7b260fd1876d7b84ce273e1dd25bed9d612c22a48b7ebec1841",
       "articleUrl": "https://www.sverigesradio.se/artikel/olycka-utanfor-helsingborg-e4-avstangd",
       "capturedAt": "2026-11-14T05:42:27.632Z"
+    },
+    {
+      "filename": "1794637647067_0.png",
+      "headlineId": "92cd02a180f602430067144eb609d0489bf1f95c74f46ab327c9d5f9495af640",
+      "articleUrl": "https://www.sverigesradio.se/artikel/usa-forlorar-status-som-masslingsfritt-land",
+      "capturedAt": "2026-11-14T06:27:27.067Z"
     }
   ]
 }
