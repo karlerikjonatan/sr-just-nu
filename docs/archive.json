@@ -46084,6 +46084,10 @@
     {
       "id": "f4daa346e65435160524d9116a283da08da26e6f46c37d98dc7cc74e1931c760",
       "text": "Just nu: Köpcentrum i Malmö utrymt"
+    },
+    {
+      "id": "7b282ec0f0fed27ee5da330ecf1f086432007efceef2efe507999f0b5c3069e9",
+      "text": "Just nu: Filippinerna vinner ESC Asia"
     }
   ],
   "captures": [
@@ -115206,6 +115210,12 @@
       "headlineId": "f4daa346e65435160524d9116a283da08da26e6f46c37d98dc7cc74e1931c760",
       "articleUrl": "https://www.sverigesradio.se/artikel/bilbrand-i-garage-under-emporia-alla-fick-utrymma",
       "capturedAt": "2026-11-14T15:52:36.053Z"
+    },
+    {
+      "filename": "1794677850051_0.png",
+      "headlineId": "7b282ec0f0fed27ee5da330ecf1f086432007efceef2efe507999f0b5c3069e9",
+      "articleUrl": "https://www.sverigesradio.se/artikel/carmelle-vann-eurovision-song-contest-asia-i-bangkok",
+      "capturedAt": "2026-11-14T17:37:30.051Z"
     }
   ]
 }
