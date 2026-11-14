@@ -46068,6 +46068,10 @@
     {
       "id": "e76d85f31f2b9f7d8942202389b3c2844c746b5bd1d5eaff3ad8238effab248e",
       "text": "Just nu: Kraftig brand vid E14 i Stöde"
+    },
+    {
+      "id": "7476fef852bfecaa2395f2ac27be76dd38816337af360ba5c4c4b998788ba50d",
+      "text": "Just nu: Villa i Störde totalförstörd i brand"
     }
   ],
   "captures": [
@@ -115166,6 +115170,12 @@
       "headlineId": "e76d85f31f2b9f7d8942202389b3c2844c746b5bd1d5eaff3ad8238effab248e",
       "articleUrl": "https://www.sverigesradio.se/artikel/kraftig-brand-stor-trafiken-pa-e14-vid-stode",
       "capturedAt": "2026-11-14T09:02:35.181Z"
+    },
+    {
+      "filename": "1794653553932_0.png",
+      "headlineId": "7476fef852bfecaa2395f2ac27be76dd38816337af360ba5c4c4b998788ba50d",
+      "articleUrl": "https://www.sverigesradio.se/artikel/villabrand-i-stode",
+      "capturedAt": "2026-11-14T10:52:33.932Z"
     }
   ]
 }
