@@ -46060,6 +46060,10 @@
     {
       "id": "2c36baf2e9f3a68594d19baedd36f6ffcbdf0256eb4b566534ad758b828a3c2b",
       "text": "Just nu: Forsmark 3 stängd efter kortslutning"
+    },
+    {
+      "id": "88022d28c5b6f32f7107d488f38048021ec5a6e3171fa09375231c082876718a",
+      "text": "Just nu: Bil på spår – tågstopp vid Hässleholm"
     }
   ],
   "captures": [
@@ -115146,6 +115150,12 @@
       "headlineId": "2c36baf2e9f3a68594d19baedd36f6ffcbdf0256eb4b566534ad758b828a3c2b",
       "articleUrl": "https://www.sverigesradio.se/artikel/forsmark-3-stangd-efter-kortslutning",
       "capturedAt": "2026-11-14T08:07:30.003Z"
+    },
+    {
+      "filename": "1794646050739_0.png",
+      "headlineId": "88022d28c5b6f32f7107d488f38048021ec5a6e3171fa09375231c082876718a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/bil-pa-jarnvagssparet-tagtrafiken-stoppad",
+      "capturedAt": "2026-11-14T08:47:30.739Z"
     }
   ]
 }
