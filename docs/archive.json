@@ -46092,6 +46092,14 @@
     {
       "id": "2bf8f199e964f0f5bbc7eef16c875e13cdb26abd4b2429bd00629ac678e9a476",
       "text": "Just nu: Två påkörda av bil i Växjö"
+    },
+    {
+      "id": "2c6f2879781552041d6eef97b94e16367de735f36bc50232a44042ed4a88dc20",
+      "text": "Just nu: Så startar Sverige mot Bosnien-Hercegovina"
+    },
+    {
+      "id": "a5872ba669f1b5047bdb8831a593190bdec0023c45ed97eb022c609f7bf14f1f",
+      "text": "Just nu: En död efter brand i båt på Tjörn"
     }
   ],
   "captures": [
@@ -115226,6 +115234,18 @@
       "headlineId": "2bf8f199e964f0f5bbc7eef16c875e13cdb26abd4b2429bd00629ac678e9a476",
       "articleUrl": "https://www.sverigesradio.se/artikel/tva-personer-pakorda-av-bil-i-vaxjo",
       "capturedAt": "2026-11-14T17:42:32.005Z"
+    },
+    {
+      "filename": "1794681445362_0.png",
+      "headlineId": "a5872ba669f1b5047bdb8831a593190bdec0023c45ed97eb022c609f7bf14f1f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/en-dod-i-batbrand-pa-tjorn",
+      "capturedAt": "2026-11-14T18:37:25.362Z"
+    },
+    {
+      "filename": "1794681445362_1.png",
+      "headlineId": "2c6f2879781552041d6eef97b94e16367de735f36bc50232a44042ed4a88dc20",
+      "articleUrl": "https://www.sverigesradio.se/artikel/direktrapport-om-herrlandslaget-i-nations-league",
+      "capturedAt": "2026-11-14T18:37:25.362Z"
     }
   ]
 }
