@@ -46116,6 +46116,10 @@
     {
       "id": "e29cd2c331965e5026e30f3ffa27a313a7a43f05ea13faaab2b5cafe22b042fa",
       "text": "Just nu: Olycka på väg 40 – en till sjukhus"
+    },
+    {
+      "id": "3d3aad9d5f8f01e869aab5f4f75c2e23d584f9ea16c6676b03fa069adfab3117",
+      "text": "Just nu: Ingrosso klar för Ullevi"
     }
   ],
   "captures": [
@@ -115286,6 +115290,12 @@
       "headlineId": "e29cd2c331965e5026e30f3ffa27a313a7a43f05ea13faaab2b5cafe22b042fa",
       "articleUrl": "https://www.sverigesradio.se/artikel/olycka-mellan-nassjo-och-jonkoping-en-till-sjukhus",
       "capturedAt": "2026-11-14T21:22:34.959Z"
+    },
+    {
+      "filename": "1794692851110_0.png",
+      "headlineId": "3d3aad9d5f8f01e869aab5f4f75c2e23d584f9ea16c6676b03fa069adfab3117",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ingrosso-klar-for-ullevi-yngsta-nagonsin",
+      "capturedAt": "2026-11-14T21:47:31.110Z"
     }
   ]
 }
