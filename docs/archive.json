@@ -46056,6 +46056,10 @@
     {
       "id": "c81abe5a0d0f18bab8828e55394008eb62a6e25dde3c8aed9cc9ad5383f1db41",
       "text": "Just nu: Blixthalka i söder – flera olyckor"
+    },
+    {
+      "id": "2c36baf2e9f3a68594d19baedd36f6ffcbdf0256eb4b566534ad758b828a3c2b",
+      "text": "Just nu: Forsmark 3 stängd efter kortslutning"
     }
   ],
   "captures": [
@@ -115136,6 +115140,12 @@
       "headlineId": "c81abe5a0d0f18bab8828e55394008eb62a6e25dde3c8aed9cc9ad5383f1db41",
       "articleUrl": "https://www.sverigesradio.se/artikel/olycka-utanfor-helsingborg-e4-avstangd",
       "capturedAt": "2026-11-14T07:02:29.223Z"
+    },
+    {
+      "filename": "1794643650003_0.png",
+      "headlineId": "2c36baf2e9f3a68594d19baedd36f6ffcbdf0256eb4b566534ad758b828a3c2b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/forsmark-3-stangd-efter-kortslutning",
+      "capturedAt": "2026-11-14T08:07:30.003Z"
     }
   ]
 }
