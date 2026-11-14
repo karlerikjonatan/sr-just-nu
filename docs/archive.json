@@ -46108,6 +46108,10 @@
     {
       "id": "bc2475435f2afc9b5547bc453322dad16a76e70c5e1b7b1896e44ee21969f2d5",
       "text": "Just nu: Spårvagnskollision i Göteborg"
+    },
+    {
+      "id": "9015f8e99f5874df4400b5a25e744ac31692c29148fedf21e07e42d82247603d",
+      "text": "Just nu: Kabelbyte kan ligga bakom flygkaoset"
     }
   ],
   "captures": [
@@ -115266,6 +115270,12 @@
       "headlineId": "bc2475435f2afc9b5547bc453322dad16a76e70c5e1b7b1896e44ee21969f2d5",
       "articleUrl": "https://www.sverigesradio.se/artikel/sparvagn-och-bil-i-kollision-pa-sodra-vagen",
       "capturedAt": "2026-11-14T20:47:25.674Z"
+    },
+    {
+      "filename": "1794690752105_0.png",
+      "headlineId": "9015f8e99f5874df4400b5a25e744ac31692c29148fedf21e07e42d82247603d",
+      "articleUrl": "https://www.sverigesradio.se/artikel/underhallsarbete-kan-ligga-bakom-flygstoppet-i-usa",
+      "capturedAt": "2026-11-14T21:12:32.105Z"
     }
   ]
 }
