@@ -46080,6 +46080,10 @@
     {
       "id": "cae31645785c8fef270318d1a95514d4c57cb0e9a096de4bb3e84638289045aa",
       "text": "Just nu: Storklubbarna klara för spel i allsvenskan"
+    },
+    {
+      "id": "f4daa346e65435160524d9116a283da08da26e6f46c37d98dc7cc74e1931c760",
+      "text": "Just nu: Köpcentrum i Malmö utrymt"
     }
   ],
   "captures": [
@@ -115196,6 +115200,12 @@
       "headlineId": "cae31645785c8fef270318d1a95514d4c57cb0e9a096de4bb3e84638289045aa",
       "articleUrl": "https://www.sverigesradio.se/artikel/elfsborg-och-goteborg-klara-for-damallsvenskan",
       "capturedAt": "2026-11-14T15:07:25.123Z"
+    },
+    {
+      "filename": "1794671556053_0.png",
+      "headlineId": "f4daa346e65435160524d9116a283da08da26e6f46c37d98dc7cc74e1931c760",
+      "articleUrl": "https://www.sverigesradio.se/artikel/bilbrand-i-garage-under-emporia-alla-fick-utrymma",
+      "capturedAt": "2026-11-14T15:52:36.053Z"
     }
   ]
 }
