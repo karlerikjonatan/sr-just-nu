@@ -46028,6 +46028,10 @@
     {
       "id": "074028c5c633a16aa94037ae0c2302804d413ad4c8adf022257bf7e7cd3e3111",
       "text": "Just nu: E4 avstängd utanför Skellefteå"
+    },
+    {
+      "id": "e43f24421ffc62bce06c097f27cd6c5b4a9a705958523bdbed94a1568a7e0913",
+      "text": "Just nu: Trump, Xi och Putin möts i nästa vecka"
     }
   ],
   "captures": [
@@ -115066,6 +115070,12 @@
       "headlineId": "074028c5c633a16aa94037ae0c2302804d413ad4c8adf022257bf7e7cd3e3111",
       "articleUrl": "https://www.sverigesradio.se/artikel/flera-lastbilar-fast-pa-e4-igen",
       "capturedAt": "2026-11-14T02:22:35.384Z"
+    },
+    {
+      "filename": "1794623251120_0.png",
+      "headlineId": "e43f24421ffc62bce06c097f27cd6c5b4a9a705958523bdbed94a1568a7e0913",
+      "articleUrl": "https://www.sverigesradio.se/artikel/trump-xi-och-putin-delar-i-apec-mote-i-kina",
+      "capturedAt": "2026-11-14T02:27:31.120Z"
     }
   ]
 }
