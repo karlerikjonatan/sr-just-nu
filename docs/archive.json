@@ -46040,6 +46040,10 @@
     {
       "id": "d011bc880a7c7db66b883e72daf5f7a71dad665658051e91c46a091eb8e129cd",
       "text": "Just nu: Kvinna hittad död i Luleå – två gripna"
+    },
+    {
+      "id": "a24157742fb6c86d7364e12bf09047a26a1657578ab50dc5329f427cb45ad2aa",
+      "text": "Just nu: E4 avstängd utanför Umeå"
     }
   ],
   "captures": [
@@ -115096,6 +115100,12 @@
       "headlineId": "d011bc880a7c7db66b883e72daf5f7a71dad665658051e91c46a091eb8e129cd",
       "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-mord-i-lulea-tva-gripna",
       "capturedAt": "2026-11-14T03:32:31.728Z"
+    },
+    {
+      "filename": "1794628950389_0.png",
+      "headlineId": "a24157742fb6c86d7364e12bf09047a26a1657578ab50dc5329f427cb45ad2aa",
+      "articleUrl": "https://www.sverigesradio.se/artikel/flera-lastbilar-fast-pa-e4-igen",
+      "capturedAt": "2026-11-14T04:02:30.389Z"
     }
   ]
 }
