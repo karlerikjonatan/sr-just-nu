@@ -46032,6 +46032,10 @@
     {
       "id": "e43f24421ffc62bce06c097f27cd6c5b4a9a705958523bdbed94a1568a7e0913",
       "text": "Just nu: Trump, Xi och Putin möts i nästa vecka"
+    },
+    {
+      "id": "6bce05fd5b17a16fcc93d2e847d3e869ed8bb4d8dea15913ccf596923540496f",
+      "text": "Just nu: Tiotal dödade i Attacker i Kongo-Kinshasa"
     }
   ],
   "captures": [
@@ -115076,6 +115080,12 @@
       "headlineId": "e43f24421ffc62bce06c097f27cd6c5b4a9a705958523bdbed94a1568a7e0913",
       "articleUrl": "https://www.sverigesradio.se/artikel/trump-xi-och-putin-delar-i-apec-mote-i-kina",
       "capturedAt": "2026-11-14T02:27:31.120Z"
+    },
+    {
+      "filename": "1794626245424_0.png",
+      "headlineId": "6bce05fd5b17a16fcc93d2e847d3e869ed8bb4d8dea15913ccf596923540496f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/minst-44-doda-i-attacker-i-eboladrabbade-kongo-kinshasa",
+      "capturedAt": "2026-11-14T03:17:25.424Z"
     }
   ]
 }
