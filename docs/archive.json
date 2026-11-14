@@ -46024,6 +46024,10 @@
     {
       "id": "8fc3e2638cf8b5a36f410631cc119713a0ffa34de087fe5c0a935af7d69b85d4",
       "text": "Just nu: Damkronorna klara för VM-semi"
+    },
+    {
+      "id": "074028c5c633a16aa94037ae0c2302804d413ad4c8adf022257bf7e7cd3e3111",
+      "text": "Just nu: E4 avstängd utanför Skellefteå"
     }
   ],
   "captures": [
@@ -115056,6 +115060,12 @@
       "headlineId": "8fc3e2638cf8b5a36f410631cc119713a0ffa34de087fe5c0a935af7d69b85d4",
       "articleUrl": "https://www.sverigesradio.se/artikel/damkronorna-klara-for-semifinal-i-ishockey-vm",
       "capturedAt": "2026-11-13T21:22:33.421Z"
+    },
+    {
+      "filename": "1794622955384_0.png",
+      "headlineId": "074028c5c633a16aa94037ae0c2302804d413ad4c8adf022257bf7e7cd3e3111",
+      "articleUrl": "https://www.sverigesradio.se/artikel/flera-lastbilar-fast-pa-e4-igen",
+      "capturedAt": "2026-11-14T02:22:35.384Z"
     }
   ]
 }
