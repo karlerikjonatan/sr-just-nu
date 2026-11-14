@@ -46088,6 +46088,10 @@
     {
       "id": "7b282ec0f0fed27ee5da330ecf1f086432007efceef2efe507999f0b5c3069e9",
       "text": "Just nu: Filippinerna vinner ESC Asia"
+    },
+    {
+      "id": "2bf8f199e964f0f5bbc7eef16c875e13cdb26abd4b2429bd00629ac678e9a476",
+      "text": "Just nu: Två påkörda av bil i Växjö"
     }
   ],
   "captures": [
@@ -115216,6 +115220,12 @@
       "headlineId": "7b282ec0f0fed27ee5da330ecf1f086432007efceef2efe507999f0b5c3069e9",
       "articleUrl": "https://www.sverigesradio.se/artikel/carmelle-vann-eurovision-song-contest-asia-i-bangkok",
       "capturedAt": "2026-11-14T17:37:30.051Z"
+    },
+    {
+      "filename": "1794678152005_0.png",
+      "headlineId": "2bf8f199e964f0f5bbc7eef16c875e13cdb26abd4b2429bd00629ac678e9a476",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tva-personer-pakorda-av-bil-i-vaxjo",
+      "capturedAt": "2026-11-14T17:42:32.005Z"
     }
   ]
 }
