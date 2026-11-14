@@ -46036,6 +46036,10 @@
     {
       "id": "6bce05fd5b17a16fcc93d2e847d3e869ed8bb4d8dea15913ccf596923540496f",
       "text": "Just nu: Tiotal dödade i Attacker i Kongo-Kinshasa"
+    },
+    {
+      "id": "d011bc880a7c7db66b883e72daf5f7a71dad665658051e91c46a091eb8e129cd",
+      "text": "Just nu: Kvinna hittad död i Luleå – två gripna"
     }
   ],
   "captures": [
@@ -115086,6 +115090,12 @@
       "headlineId": "6bce05fd5b17a16fcc93d2e847d3e869ed8bb4d8dea15913ccf596923540496f",
       "articleUrl": "https://www.sverigesradio.se/artikel/minst-44-doda-i-attacker-i-eboladrabbade-kongo-kinshasa",
       "capturedAt": "2026-11-14T03:17:25.424Z"
+    },
+    {
+      "filename": "1794627151728_0.png",
+      "headlineId": "d011bc880a7c7db66b883e72daf5f7a71dad665658051e91c46a091eb8e129cd",
+      "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-mord-i-lulea-tva-gripna",
+      "capturedAt": "2026-11-14T03:32:31.728Z"
     }
   ]
 }
