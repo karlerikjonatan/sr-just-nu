@@ -46104,6 +46104,10 @@
     {
       "id": "9fd84094646537644b6a806703a46bf16c651e14d0bb5616faf2a9197f902b8a",
       "text": "Just nu: Sveriges startelva i Nations League"
+    },
+    {
+      "id": "bc2475435f2afc9b5547bc453322dad16a76e70c5e1b7b1896e44ee21969f2d5",
+      "text": "Just nu: Spårvagnskollision i Göteborg"
     }
   ],
   "captures": [
@@ -115256,6 +115260,12 @@
       "headlineId": "9fd84094646537644b6a806703a46bf16c651e14d0bb5616faf2a9197f902b8a",
       "articleUrl": "https://www.sverigesradio.se/artikel/direktrapport-om-herrlandslaget-i-nations-league",
       "capturedAt": "2026-11-14T18:42:31.636Z"
+    },
+    {
+      "filename": "1794689245674_0.png",
+      "headlineId": "bc2475435f2afc9b5547bc453322dad16a76e70c5e1b7b1896e44ee21969f2d5",
+      "articleUrl": "https://www.sverigesradio.se/artikel/sparvagn-och-bil-i-kollision-pa-sodra-vagen",
+      "capturedAt": "2026-11-14T20:47:25.674Z"
     }
   ]
 }
