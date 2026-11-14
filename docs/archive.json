@@ -46100,6 +46100,10 @@
     {
       "id": "a5872ba669f1b5047bdb8831a593190bdec0023c45ed97eb022c609f7bf14f1f",
       "text": "Just nu: En död efter brand i båt på Tjörn"
+    },
+    {
+      "id": "9fd84094646537644b6a806703a46bf16c651e14d0bb5616faf2a9197f902b8a",
+      "text": "Just nu: Sveriges startelva i Nations League"
     }
   ],
   "captures": [
@@ -115246,6 +115250,12 @@
       "headlineId": "2c6f2879781552041d6eef97b94e16367de735f36bc50232a44042ed4a88dc20",
       "articleUrl": "https://www.sverigesradio.se/artikel/direktrapport-om-herrlandslaget-i-nations-league",
       "capturedAt": "2026-11-14T18:37:25.362Z"
+    },
+    {
+      "filename": "1794681751636_0.png",
+      "headlineId": "9fd84094646537644b6a806703a46bf16c651e14d0bb5616faf2a9197f902b8a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/direktrapport-om-herrlandslaget-i-nations-league",
+      "capturedAt": "2026-11-14T18:42:31.636Z"
     }
   ]
 }
