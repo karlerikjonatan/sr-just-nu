@@ -46044,6 +46044,10 @@
     {
       "id": "a24157742fb6c86d7364e12bf09047a26a1657578ab50dc5329f427cb45ad2aa",
       "text": "Just nu: E4 avstängd utanför Umeå"
+    },
+    {
+      "id": "1c930d2dcd1ed7b260fd1876d7b84ce273e1dd25bed9d612c22a48b7ebec1841",
+      "text": "Just nu: Stor krock stänger E4 vid Helsingborg"
     }
   ],
   "captures": [
@@ -115106,6 +115110,12 @@
       "headlineId": "a24157742fb6c86d7364e12bf09047a26a1657578ab50dc5329f427cb45ad2aa",
       "articleUrl": "https://www.sverigesradio.se/artikel/flera-lastbilar-fast-pa-e4-igen",
       "capturedAt": "2026-11-14T04:02:30.389Z"
+    },
+    {
+      "filename": "1794634947632_0.png",
+      "headlineId": "1c930d2dcd1ed7b260fd1876d7b84ce273e1dd25bed9d612c22a48b7ebec1841",
+      "articleUrl": "https://www.sverigesradio.se/artikel/olycka-utanfor-helsingborg-e4-avstangd",
+      "capturedAt": "2026-11-14T05:42:27.632Z"
     }
   ]
 }
