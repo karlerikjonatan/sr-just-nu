@@ -46208,6 +46208,10 @@
     {
       "id": "3fc138e865f592f45962bf4dcd8191b78f718381cbc716c8947a2df2f32c0d6b",
       "text": "Just nu: Ryssland stoppas från JVM"
+    },
+    {
+      "id": "4ea2dd0aaf8ca7fa2fa2fc93e0d61d95d73e0477739ecfe55d95104bcf826683",
+      "text": "Just nu: Varnar för ishalka vid Norrlandskusten"
     }
   ],
   "captures": [
@@ -115516,6 +115520,12 @@
       "headlineId": "3fc138e865f592f45962bf4dcd8191b78f718381cbc716c8947a2df2f32c0d6b",
       "articleUrl": "https://www.sverigesradio.se/artikel/ryssland-stoppas-fran-jvm",
       "capturedAt": "2026-11-15T17:57:29.441Z"
+    },
+    {
+      "filename": "1794766650995_0.png",
+      "headlineId": "4ea2dd0aaf8ca7fa2fa2fc93e0d61d95d73e0477739ecfe55d95104bcf826683",
+      "articleUrl": "https://www.sverigesradio.se/artikel/gul-varning-for-ishalka-fran-kramfors-till-skelleftea",
+      "capturedAt": "2026-11-15T18:17:30.995Z"
     }
   ]
 }
