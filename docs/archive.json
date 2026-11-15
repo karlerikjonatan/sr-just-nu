@@ -46216,6 +46216,10 @@
     {
       "id": "40e6e5c930b5259770350238bbefcd024a8b49c5a417c77b34ff24b4440d3018",
       "text": "Just nu: Viltolycka – E4 vid Bjästa avstängd"
+    },
+    {
+      "id": "97c034c6591d8ee9af78eea3fe14176a2735418bb1e268128cb1996ab4ba2910",
+      "text": "Just nu: Misstänkt grovt brott utanför Enköping"
     }
   ],
   "captures": [
@@ -115536,6 +115540,12 @@
       "headlineId": "40e6e5c930b5259770350238bbefcd024a8b49c5a417c77b34ff24b4440d3018",
       "articleUrl": "https://www.sverigesradio.se/artikel/viltolycka-stanger-e4-mellan-harnosand-och-ornskoldsvik",
       "capturedAt": "2026-11-15T22:02:29.285Z"
+    },
+    {
+      "filename": "1794785249486_0.png",
+      "headlineId": "97c034c6591d8ee9af78eea3fe14176a2735418bb1e268128cb1996ab4ba2910",
+      "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-grovt-brott-utanfor-enkoping",
+      "capturedAt": "2026-11-15T23:27:29.486Z"
     }
   ]
 }
