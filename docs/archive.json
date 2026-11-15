@@ -46204,6 +46204,10 @@
     {
       "id": "5674bff2a6bba006191dc3ea96a035b33977f15dcaee19cd622803f9aac64760",
       "text": "Just nu: Misstänkt mord i Göteborg – två gripna"
+    },
+    {
+      "id": "3fc138e865f592f45962bf4dcd8191b78f718381cbc716c8947a2df2f32c0d6b",
+      "text": "Just nu: Ryssland stoppas från JVM"
     }
   ],
   "captures": [
@@ -115506,6 +115510,12 @@
       "headlineId": "5674bff2a6bba006191dc3ea96a035b33977f15dcaee19cd622803f9aac64760",
       "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-mord-tva-personer-gripna",
       "capturedAt": "2026-11-15T17:37:29.693Z"
+    },
+    {
+      "filename": "1794765449441_0.png",
+      "headlineId": "3fc138e865f592f45962bf4dcd8191b78f718381cbc716c8947a2df2f32c0d6b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ryssland-stoppas-fran-jvm",
+      "capturedAt": "2026-11-15T17:57:29.441Z"
     }
   ]
 }
