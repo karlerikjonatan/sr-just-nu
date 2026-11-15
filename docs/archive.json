@@ -46212,6 +46212,10 @@
     {
       "id": "4ea2dd0aaf8ca7fa2fa2fc93e0d61d95d73e0477739ecfe55d95104bcf826683",
       "text": "Just nu: Varnar för ishalka vid Norrlandskusten"
+    },
+    {
+      "id": "40e6e5c930b5259770350238bbefcd024a8b49c5a417c77b34ff24b4440d3018",
+      "text": "Just nu: Viltolycka – E4 vid Bjästa avstängd"
     }
   ],
   "captures": [
@@ -115526,6 +115530,12 @@
       "headlineId": "4ea2dd0aaf8ca7fa2fa2fc93e0d61d95d73e0477739ecfe55d95104bcf826683",
       "articleUrl": "https://www.sverigesradio.se/artikel/gul-varning-for-ishalka-fran-kramfors-till-skelleftea",
       "capturedAt": "2026-11-15T18:17:30.995Z"
+    },
+    {
+      "filename": "1794780149285_0.png",
+      "headlineId": "40e6e5c930b5259770350238bbefcd024a8b49c5a417c77b34ff24b4440d3018",
+      "articleUrl": "https://www.sverigesradio.se/artikel/viltolycka-stanger-e4-mellan-harnosand-och-ornskoldsvik",
+      "capturedAt": "2026-11-15T22:02:29.285Z"
     }
   ]
 }
