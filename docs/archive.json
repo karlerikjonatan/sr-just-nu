@@ -46160,6 +46160,14 @@
     {
       "id": "25cc86565e6514d2444b033c4d8470c3d54adbdcbe179bbea9e62af5eb991c9c",
       "text": "Just nu: Burk märkt ”plutonium” hittad på boende"
+    },
+    {
+      "id": "824fc75e144178fddc56eda6a61de6b596298b375ee96c204bd648cbd504e1f7",
+      "text": "Just nu: Lastbil fast – vägen avstäng i timmar"
+    },
+    {
+      "id": "80f06f9a98053859422be845fbe7d8cc64076e56370a1311445d98ed18a96dfb",
+      "text": "Just nu: ”Plutonium”-burk hittad på boende"
     }
   ],
   "captures": [
@@ -115396,6 +115404,18 @@
       "headlineId": "25cc86565e6514d2444b033c4d8470c3d54adbdcbe179bbea9e62af5eb991c9c",
       "articleUrl": "https://www.sverigesradio.se/artikel/radioaktivt-amne-hittat-i-ostersund",
       "capturedAt": "2026-11-15T09:37:35.529Z"
+    },
+    {
+      "filename": "1794736356250_0.png",
+      "headlineId": "80f06f9a98053859422be845fbe7d8cc64076e56370a1311445d98ed18a96dfb",
+      "articleUrl": "https://www.sverigesradio.se/artikel/radioaktivt-amne-hittat-i-ostersund",
+      "capturedAt": "2026-11-15T09:52:36.250Z"
+    },
+    {
+      "filename": "1794736356250_1.png",
+      "headlineId": "824fc75e144178fddc56eda6a61de6b596298b375ee96c204bd648cbd504e1f7",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lastbil-pa-tvaren-stoppar-trafik-pa-riksvag-soder-om-osby",
+      "capturedAt": "2026-11-15T09:52:36.250Z"
     }
   ]
 }
