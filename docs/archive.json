@@ -46180,6 +46180,10 @@
     {
       "id": "52d7f9bccf41abef99bce5202da8408e1e074ddccd35e90084ff9f1bba162f0f",
       "text": "Just nu: Fem bilar i olycka på E18"
+    },
+    {
+      "id": "7081bcbecf516699be90f19a6b61c2ac85c42b9ba41e35fb8f6d2013187cf2c6",
+      "text": "Just nu: Ugglan drog storpublik"
     }
   ],
   "captures": [
@@ -115446,6 +115450,12 @@
       "headlineId": "52d7f9bccf41abef99bce5202da8408e1e074ddccd35e90084ff9f1bba162f0f",
       "articleUrl": "https://www.sverigesradio.se/artikel/e18-avstangd-minst-fem-bilar-i-olycka",
       "capturedAt": "2026-11-15T11:12:40.287Z"
+    },
+    {
+      "filename": "1794745348025_0.png",
+      "headlineId": "7081bcbecf516699be90f19a6b61c2ac85c42b9ba41e35fb8f6d2013187cf2c6",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ovanliga-ugglan-visade-upp-sig-i-bjorken-da-samlades-nyfikna",
+      "capturedAt": "2026-11-15T12:22:28.025Z"
     }
   ]
 }
