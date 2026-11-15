@@ -46136,6 +46136,10 @@
     {
       "id": "32a0930dae5821867336f4c1bf28fa3eae7171067d85fd588cc84fab4280d5a1",
       "text": "Just nu: Israel: Har attackerat Hamastopp"
+    },
+    {
+      "id": "6fd2d2d50b78d87150cc803b41b0f7e5eb99e6b8579a65ced788fd4a4853e4dd",
+      "text": "Just nu: Boqvists succénatt i NHL – tre poäng"
     }
   ],
   "captures": [
@@ -115336,6 +115340,12 @@
       "headlineId": "32a0930dae5821867336f4c1bf28fa3eae7171067d85fd588cc84fab4280d5a1",
       "articleUrl": "https://www.sverigesradio.se/artikel/israel-uppger-har-attackerat-hamastopp-i-khan-yunis",
       "capturedAt": "2026-11-15T01:12:38.618Z"
+    },
+    {
+      "filename": "1794713852016_0.png",
+      "headlineId": "6fd2d2d50b78d87150cc803b41b0f7e5eb99e6b8579a65ced788fd4a4853e4dd",
+      "articleUrl": "https://www.sverigesradio.se/artikel/boqvist-med-tre-poang-nar-new-jersey-slog-washington",
+      "capturedAt": "2026-11-15T03:37:32.016Z"
     }
   ]
 }
