@@ -46192,6 +46192,10 @@
     {
       "id": "c1d9ab99c60f53c812651c51388006f5c38944619ec70993d112a8acefe79124",
       "text": "Just nu: Bil fattade eld under färd"
+    },
+    {
+      "id": "279b8c447a4d2b06c0083902f434153e443c89c51999cf41e56b871c6914b6f2",
+      "text": "Just nu: Pokémonrånare jagas i Danmark"
     }
   ],
   "captures": [
@@ -115476,6 +115480,12 @@
       "headlineId": "c1d9ab99c60f53c812651c51388006f5c38944619ec70993d112a8acefe79124",
       "articleUrl": "https://www.sverigesradio.se/artikel/en-bil-fattade-eld-under-fard-vid-bolanderna-i-uppsala",
       "capturedAt": "2026-11-15T13:02:32.899Z"
+    },
+    {
+      "filename": "1794754956205_0.png",
+      "headlineId": "279b8c447a4d2b06c0083902f434153e443c89c51999cf41e56b871c6914b6f2",
+      "articleUrl": "https://www.sverigesradio.se/artikel/pokemonkort-for-en-miljon-stals-i-danmark",
+      "capturedAt": "2026-11-15T15:02:36.205Z"
     }
   ]
 }
