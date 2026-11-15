@@ -46176,6 +46176,10 @@
     {
       "id": "609dac06c1cc624a809bb2a81400d0640075bb4763a343f6eb6b17de5c1e8982",
       "text": "Just nu: Succé för Öberg"
+    },
+    {
+      "id": "52d7f9bccf41abef99bce5202da8408e1e074ddccd35e90084ff9f1bba162f0f",
+      "text": "Just nu: Fem bilar i olycka på E18"
     }
   ],
   "captures": [
@@ -115436,6 +115440,12 @@
       "headlineId": "609dac06c1cc624a809bb2a81400d0640075bb4763a343f6eb6b17de5c1e8982",
       "articleUrl": "https://www.sverigesradio.se/artikel/elvira-oberg-overlagsen-i-sverigepremiaren",
       "capturedAt": "2026-11-15T11:02:36.211Z"
+    },
+    {
+      "filename": "1794741160287_0.png",
+      "headlineId": "52d7f9bccf41abef99bce5202da8408e1e074ddccd35e90084ff9f1bba162f0f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/e18-avstangd-minst-fem-bilar-i-olycka",
+      "capturedAt": "2026-11-15T11:12:40.287Z"
     }
   ]
 }
