@@ -46148,6 +46148,10 @@
     {
       "id": "3263a986b365a0e1249de40186988e5adf364cecc81a7ac60a5f96dbc4448f01",
       "text": "Just nu: Stopp på E4 i Ångermanland"
+    },
+    {
+      "id": "05cee9cf02e2ecc25017af66ce6a99ec19c179d80cdd53f88ecda334ccab98c3",
+      "text": "Just nu: Skredlarm – tågstopp vid Norrköping"
     }
   ],
   "captures": [
@@ -115366,6 +115370,12 @@
       "headlineId": "3263a986b365a0e1249de40186988e5adf364cecc81a7ac60a5f96dbc4448f01",
       "articleUrl": "https://www.sverigesradio.se/artikel/bargning-av-lastbil-orsakar-trafikstopp-pa-e4",
       "capturedAt": "2026-11-15T07:07:29.194Z"
+    },
+    {
+      "filename": "1794728249956_0.png",
+      "headlineId": "05cee9cf02e2ecc25017af66ce6a99ec19c179d80cdd53f88ecda334ccab98c3",
+      "articleUrl": "https://www.sverigesradio.se/artikel/skredlarm-stoppar-tagtrafiken-mellan-kolmarden-och-norrkoping",
+      "capturedAt": "2026-11-15T07:37:29.956Z"
     }
   ]
 }
