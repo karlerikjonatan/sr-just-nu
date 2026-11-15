@@ -46196,6 +46196,10 @@
     {
       "id": "279b8c447a4d2b06c0083902f434153e443c89c51999cf41e56b871c6914b6f2",
       "text": "Just nu: Pokémonrånare jagas i Danmark"
+    },
+    {
+      "id": "e70990a8a284ddc53a2585815851d4e4e154edec3e972b0470e40681c01866c5",
+      "text": "Just nu: Man häktad misstänkt för medhjälp till Älvsjömordet"
     }
   ],
   "captures": [
@@ -115486,6 +115490,12 @@
       "headlineId": "279b8c447a4d2b06c0083902f434153e443c89c51999cf41e56b871c6914b6f2",
       "articleUrl": "https://www.sverigesradio.se/artikel/pokemonkort-for-en-miljon-stals-i-danmark",
       "capturedAt": "2026-11-15T15:02:36.205Z"
+    },
+    {
+      "filename": "1794756749293_0.png",
+      "headlineId": "e70990a8a284ddc53a2585815851d4e4e154edec3e972b0470e40681c01866c5",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ytterligare-en-misstankt-for-medhjalp-till-alvsjomordet",
+      "capturedAt": "2026-11-15T15:32:29.293Z"
     }
   ]
 }
