@@ -46200,6 +46200,10 @@
     {
       "id": "e70990a8a284ddc53a2585815851d4e4e154edec3e972b0470e40681c01866c5",
       "text": "Just nu: Man häktad misstänkt för medhjälp till Älvsjömordet"
+    },
+    {
+      "id": "5674bff2a6bba006191dc3ea96a035b33977f15dcaee19cd622803f9aac64760",
+      "text": "Just nu: Misstänkt mord i Göteborg – två gripna"
     }
   ],
   "captures": [
@@ -115496,6 +115500,12 @@
       "headlineId": "e70990a8a284ddc53a2585815851d4e4e154edec3e972b0470e40681c01866c5",
       "articleUrl": "https://www.sverigesradio.se/artikel/ytterligare-en-misstankt-for-medhjalp-till-alvsjomordet",
       "capturedAt": "2026-11-15T15:32:29.293Z"
+    },
+    {
+      "filename": "1794764249693_0.png",
+      "headlineId": "5674bff2a6bba006191dc3ea96a035b33977f15dcaee19cd622803f9aac64760",
+      "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-mord-tva-personer-gripna",
+      "capturedAt": "2026-11-15T17:37:29.693Z"
     }
   ]
 }
