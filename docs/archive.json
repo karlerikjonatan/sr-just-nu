@@ -46140,6 +46140,10 @@
     {
       "id": "6fd2d2d50b78d87150cc803b41b0f7e5eb99e6b8579a65ced788fd4a4853e4dd",
       "text": "Just nu: Boqvists succénatt i NHL – tre poäng"
+    },
+    {
+      "id": "5c73581858d1cc0d7961969bed15e5fbc2bb4e19b45f68690e0e60fcb73c1815",
+      "text": "Just nu: Mamma och son rånade bostad"
     }
   ],
   "captures": [
@@ -115346,6 +115350,12 @@
       "headlineId": "6fd2d2d50b78d87150cc803b41b0f7e5eb99e6b8579a65ced788fd4a4853e4dd",
       "articleUrl": "https://www.sverigesradio.se/artikel/boqvist-med-tre-poang-nar-new-jersey-slog-washington",
       "capturedAt": "2026-11-15T03:37:32.016Z"
+    },
+    {
+      "filename": "1794724948675_0.png",
+      "headlineId": "5c73581858d1cc0d7961969bed15e5fbc2bb4e19b45f68690e0e60fcb73c1815",
+      "articleUrl": "https://www.sverigesradio.se/artikel/mamma-och-son-brot-sig-in-i-bostad-och-ranade",
+      "capturedAt": "2026-11-15T06:42:28.675Z"
     }
   ]
 }
