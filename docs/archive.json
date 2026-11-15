@@ -46132,6 +46132,10 @@
     {
       "id": "9d5a26ac307f1b6ae5554d03a7ab1e7a96d0e88f6f6120c0386f4943eb3cc781",
       "text": "Just nu: Rånad på elsparkcykel under knivhot"
+    },
+    {
+      "id": "32a0930dae5821867336f4c1bf28fa3eae7171067d85fd588cc84fab4280d5a1",
+      "text": "Just nu: Israel: Har attackerat Hamastopp"
     }
   ],
   "captures": [
@@ -115326,6 +115330,12 @@
       "headlineId": "9d5a26ac307f1b6ae5554d03a7ab1e7a96d0e88f6f6120c0386f4943eb3cc781",
       "articleUrl": "https://www.sverigesradio.se/artikel/person-ranad-pa-elsparcykel-under-knivhot",
       "capturedAt": "2026-11-15T00:32:32.229Z"
+    },
+    {
+      "filename": "1794705158618_0.png",
+      "headlineId": "32a0930dae5821867336f4c1bf28fa3eae7171067d85fd588cc84fab4280d5a1",
+      "articleUrl": "https://www.sverigesradio.se/artikel/israel-uppger-har-attackerat-hamastopp-i-khan-yunis",
+      "capturedAt": "2026-11-15T01:12:38.618Z"
     }
   ]
 }
