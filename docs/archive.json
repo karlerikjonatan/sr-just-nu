@@ -46156,6 +46156,10 @@
     {
       "id": "729e2300c5a63b86d88dccc400aeea9d73a990bf3058743d6a7fc44d6413a81f",
       "text": "Just nu: Misstänks ha blivit påkörd med flit"
+    },
+    {
+      "id": "25cc86565e6514d2444b033c4d8470c3d54adbdcbe179bbea9e62af5eb991c9c",
+      "text": "Just nu: Burk märkt ”plutonium” hittad på boende"
     }
   ],
   "captures": [
@@ -115386,6 +115390,12 @@
       "headlineId": "729e2300c5a63b86d88dccc400aeea9d73a990bf3058743d6a7fc44d6413a81f",
       "articleUrl": "https://www.sverigesradio.se/artikel/polisen-utreder-mordforsok-man-pakord-av-bil-i-stockholm",
       "capturedAt": "2026-11-15T07:57:31.790Z"
+    },
+    {
+      "filename": "1794735455529_0.png",
+      "headlineId": "25cc86565e6514d2444b033c4d8470c3d54adbdcbe179bbea9e62af5eb991c9c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/radioaktivt-amne-hittat-i-ostersund",
+      "capturedAt": "2026-11-15T09:37:35.529Z"
     }
   ]
 }
