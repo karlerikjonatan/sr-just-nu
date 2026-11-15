@@ -46172,6 +46172,10 @@
     {
       "id": "e5fc92a5d2141a59641c8359a3aa5d73ca21239a4100cb2e21c71e82e9599416",
       "text": "Just nu: Lastbil fast – vägen avstängd i timmar"
+    },
+    {
+      "id": "609dac06c1cc624a809bb2a81400d0640075bb4763a343f6eb6b17de5c1e8982",
+      "text": "Just nu: Succé för Öberg"
     }
   ],
   "captures": [
@@ -115426,6 +115430,12 @@
       "headlineId": "e5fc92a5d2141a59641c8359a3aa5d73ca21239a4100cb2e21c71e82e9599416",
       "articleUrl": "https://www.sverigesradio.se/artikel/lastbil-pa-tvaren-stoppar-trafik-pa-riksvag-soder-om-osby",
       "capturedAt": "2026-11-15T09:57:25.068Z"
+    },
+    {
+      "filename": "1794740556211_0.png",
+      "headlineId": "609dac06c1cc624a809bb2a81400d0640075bb4763a343f6eb6b17de5c1e8982",
+      "articleUrl": "https://www.sverigesradio.se/artikel/elvira-oberg-overlagsen-i-sverigepremiaren",
+      "capturedAt": "2026-11-15T11:02:36.211Z"
     }
   ]
 }
