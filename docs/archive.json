@@ -46144,6 +46144,10 @@
     {
       "id": "5c73581858d1cc0d7961969bed15e5fbc2bb4e19b45f68690e0e60fcb73c1815",
       "text": "Just nu: Mamma och son rånade bostad"
+    },
+    {
+      "id": "3263a986b365a0e1249de40186988e5adf364cecc81a7ac60a5f96dbc4448f01",
+      "text": "Just nu: Stopp på E4 i Ångermanland"
     }
   ],
   "captures": [
@@ -115356,6 +115360,12 @@
       "headlineId": "5c73581858d1cc0d7961969bed15e5fbc2bb4e19b45f68690e0e60fcb73c1815",
       "articleUrl": "https://www.sverigesradio.se/artikel/mamma-och-son-brot-sig-in-i-bostad-och-ranade",
       "capturedAt": "2026-11-15T06:42:28.675Z"
+    },
+    {
+      "filename": "1794726449194_0.png",
+      "headlineId": "3263a986b365a0e1249de40186988e5adf364cecc81a7ac60a5f96dbc4448f01",
+      "articleUrl": "https://www.sverigesradio.se/artikel/bargning-av-lastbil-orsakar-trafikstopp-pa-e4",
+      "capturedAt": "2026-11-15T07:07:29.194Z"
     }
   ]
 }
