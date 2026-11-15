@@ -46168,6 +46168,10 @@
     {
       "id": "80f06f9a98053859422be845fbe7d8cc64076e56370a1311445d98ed18a96dfb",
       "text": "Just nu: ”Plutonium”-burk hittad på boende"
+    },
+    {
+      "id": "e5fc92a5d2141a59641c8359a3aa5d73ca21239a4100cb2e21c71e82e9599416",
+      "text": "Just nu: Lastbil fast – vägen avstängd i timmar"
     }
   ],
   "captures": [
@@ -115416,6 +115420,12 @@
       "headlineId": "824fc75e144178fddc56eda6a61de6b596298b375ee96c204bd648cbd504e1f7",
       "articleUrl": "https://www.sverigesradio.se/artikel/lastbil-pa-tvaren-stoppar-trafik-pa-riksvag-soder-om-osby",
       "capturedAt": "2026-11-15T09:52:36.250Z"
+    },
+    {
+      "filename": "1794736645068_0.png",
+      "headlineId": "e5fc92a5d2141a59641c8359a3aa5d73ca21239a4100cb2e21c71e82e9599416",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lastbil-pa-tvaren-stoppar-trafik-pa-riksvag-soder-om-osby",
+      "capturedAt": "2026-11-15T09:57:25.068Z"
     }
   ]
 }
