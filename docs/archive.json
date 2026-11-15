@@ -46188,6 +46188,10 @@
     {
       "id": "9fec0351ab1fe61356af487368c16f5f9af9ef39b78f15879d1176f62c4b3e10",
       "text": "Just nu: Sökinsats efter kvinna i Göteborg"
+    },
+    {
+      "id": "c1d9ab99c60f53c812651c51388006f5c38944619ec70993d112a8acefe79124",
+      "text": "Just nu: Bil fattade eld under färd"
     }
   ],
   "captures": [
@@ -115466,6 +115470,12 @@
       "headlineId": "9fec0351ab1fe61356af487368c16f5f9af9ef39b78f15879d1176f62c4b3e10",
       "articleUrl": "https://www.sverigesradio.se/artikel/forsvarsmakten-hjalper-polisen-soka-forsvunnen-kvinna",
       "capturedAt": "2026-11-15T12:52:34.026Z"
+    },
+    {
+      "filename": "1794747752899_0.png",
+      "headlineId": "c1d9ab99c60f53c812651c51388006f5c38944619ec70993d112a8acefe79124",
+      "articleUrl": "https://www.sverigesradio.se/artikel/en-bil-fattade-eld-under-fard-vid-bolanderna-i-uppsala",
+      "capturedAt": "2026-11-15T13:02:32.899Z"
     }
   ]
 }
