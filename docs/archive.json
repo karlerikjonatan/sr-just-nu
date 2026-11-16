@@ -46264,6 +46264,10 @@
     {
       "id": "c68a7c6b0a42e54f11d6aae8e684019659495985b836bb0680c7613966ac1514",
       "text": "Just nu: Allvarlig trafikolycka i Dalarna"
+    },
+    {
+      "id": "eb3183d4034a88841ac3a0b110c5c5d7dd195bc9eb298d169d133018a273a857",
+      "text": "Just nu: Pattinson blir nya James Bond"
     }
   ],
   "captures": [
@@ -115656,6 +115660,12 @@
       "headlineId": "c68a7c6b0a42e54f11d6aae8e684019659495985b836bb0680c7613966ac1514",
       "articleUrl": "https://www.sverigesradio.se/artikel/allvarlig-olycka-pa-riksvag-66-vagen-avstangd",
       "capturedAt": "2026-11-16T15:07:31.911Z"
+    },
+    {
+      "filename": "1794842550806_0.png",
+      "headlineId": "eb3183d4034a88841ac3a0b110c5c5d7dd195bc9eb298d169d133018a273a857",
+      "articleUrl": "https://www.sverigesradio.se/artikel/han-blir-nya-james-bond",
+      "capturedAt": "2026-11-16T15:22:30.806Z"
     }
   ]
 }
