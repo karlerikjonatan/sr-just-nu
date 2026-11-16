@@ -46244,6 +46244,10 @@
     {
       "id": "c02c1944214028ffbe4cfd251620fcd21e7f7bccd442e808dfd4de6e15722fd3",
       "text": "Just nu: LKAB stäms på 180 miljoner"
+    },
+    {
+      "id": "8b6c630d998df72214a8f9484ec1ba19549d8aff503ded2eba56eb9567c17fe8",
+      "text": "Just nu: Hund dödade flickvännen – kvinna döms"
     }
   ],
   "captures": [
@@ -115606,6 +115610,12 @@
       "headlineId": "c02c1944214028ffbe4cfd251620fcd21e7f7bccd442e808dfd4de6e15722fd3",
       "articleUrl": "https://www.sverigesradio.se/artikel/lkab-stams-pa-180-miljoner-kronor-efter-utslapp-av-diesel",
       "capturedAt": "2026-11-16T08:42:40.375Z"
+    },
+    {
+      "filename": "1794826646897_0.png",
+      "headlineId": "8b6c630d998df72214a8f9484ec1ba19549d8aff503ded2eba56eb9567c17fe8",
+      "articleUrl": "https://www.sverigesradio.se/artikel/flickvannen-dodades-av-hund-kvinna-doms-till-fangelse",
+      "capturedAt": "2026-11-16T10:57:26.897Z"
     }
   ]
 }
