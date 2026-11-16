@@ -46252,6 +46252,10 @@
     {
       "id": "95615896c7e55d33d1ae4a87daa91cfcae71049d915e4b0306de2faa77ddfe61",
       "text": "Just nu: Robyn och Zara Larsson nomineras"
+    },
+    {
+      "id": "c44ab7fdf7a85c0d18e51703f4da2a9219885b07dceea862d444ac04fc5ca8ef",
+      "text": "Just nu: Olycka med flera fordon i Dalarna"
     }
   ],
   "captures": [
@@ -115626,6 +115630,12 @@
       "headlineId": "95615896c7e55d33d1ae4a87daa91cfcae71049d915e4b0306de2faa77ddfe61",
       "articleUrl": "https://www.sverigesradio.se/artikel/robyn-och-zara-larsson-kan-vinna-grammy",
       "capturedAt": "2026-11-16T13:02:52.929Z"
+    },
+    {
+      "filename": "1794838050490_0.png",
+      "headlineId": "c44ab7fdf7a85c0d18e51703f4da2a9219885b07dceea862d444ac04fc5ca8ef",
+      "articleUrl": "https://www.sverigesradio.se/artikel/olycka-mellan-ludvika-och-smedjebacken",
+      "capturedAt": "2026-11-16T14:07:30.490Z"
     }
   ]
 }
