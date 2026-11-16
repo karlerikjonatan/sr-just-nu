@@ -46268,6 +46268,10 @@
     {
       "id": "eb3183d4034a88841ac3a0b110c5c5d7dd195bc9eb298d169d133018a273a857",
       "text": "Just nu: Pattinson blir nya James Bond"
+    },
+    {
+      "id": "79e631797903512f1a5338764736e2d23e66407ce58f94da381e56a2acaf0d79",
+      "text": "Just nu: Han utmanar Infantino"
     }
   ],
   "captures": [
@@ -115666,6 +115670,12 @@
       "headlineId": "eb3183d4034a88841ac3a0b110c5c5d7dd195bc9eb298d169d133018a273a857",
       "articleUrl": "https://www.sverigesradio.se/artikel/han-blir-nya-james-bond",
       "capturedAt": "2026-11-16T15:22:30.806Z"
+    },
+    {
+      "filename": "1794847952433_0.png",
+      "headlineId": "79e631797903512f1a5338764736e2d23e66407ce58f94da381e56a2acaf0d79",
+      "articleUrl": "https://www.sverigesradio.se/artikel/philippe-diallo-utmanar-gianni-infantino",
+      "capturedAt": "2026-11-16T16:52:32.433Z"
     }
   ]
 }
