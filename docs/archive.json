@@ -46232,6 +46232,10 @@
     {
       "id": "8a06a748d4641fd0951cc60d3192b3da38e1f95f6ea022fd61b1a7e3084fc61a",
       "text": "Just nu: Minst 11 döda efter brand i Phuket"
+    },
+    {
+      "id": "203c1a5f010c7d7fe2d0432c147b0cd5ce7b17d0abbdd7cedb6646e481877571",
+      "text": "Just nu: Varning för ishalka längs kusten"
     }
   ],
   "captures": [
@@ -115576,6 +115580,12 @@
       "headlineId": "c41bd0d34ce56f9c0d114e72edc0fc0552305c7b34bf38f1e4afa28f4839b36d",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-dod-efter-lagenhetsbrand-utanfor-varnamo",
       "capturedAt": "2026-11-16T04:32:28.469Z"
+    },
+    {
+      "filename": "1794808043662_0.png",
+      "headlineId": "203c1a5f010c7d7fe2d0432c147b0cd5ce7b17d0abbdd7cedb6646e481877571",
+      "articleUrl": "https://www.sverigesradio.se/artikel/smhi-fortsatter-varna-for-plotslig-ishalka-langs-kusten",
+      "capturedAt": "2026-11-16T05:47:23.662Z"
     }
   ]
 }
