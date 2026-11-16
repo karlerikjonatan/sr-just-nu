@@ -46280,6 +46280,10 @@
     {
       "id": "badc458d95533db351b48a58c8a6124968f7d3745903fd6d0be5ff79cbdf2ae4",
       "text": "Just nu: Tågförseningar Göteborg-Stockholm"
+    },
+    {
+      "id": "611ce921eecd4847b53edad5af40683231ef4eaeeb47ec369375bdbe0c8b56c7",
+      "text": "Just nu: Två döda efter krock i Smedjebacken"
     }
   ],
   "captures": [
@@ -115696,6 +115700,12 @@
       "headlineId": "badc458d95533db351b48a58c8a6124968f7d3745903fd6d0be5ff79cbdf2ae4",
       "articleUrl": "https://www.sverigesradio.se/artikel/stora-storningar-i-tagtrafiken-goteborg-stockholm",
       "capturedAt": "2026-11-16T19:57:25.453Z"
+    },
+    {
+      "filename": "1794860854805_0.png",
+      "headlineId": "611ce921eecd4847b53edad5af40683231ef4eaeeb47ec369375bdbe0c8b56c7",
+      "articleUrl": "https://www.sverigesradio.se/artikel/allvarlig-olycka-pa-riksvag-66-vagen-avstangd",
+      "capturedAt": "2026-11-16T20:27:34.805Z"
     }
   ]
 }
