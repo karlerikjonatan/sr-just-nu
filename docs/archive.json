@@ -46288,6 +46288,10 @@
     {
       "id": "da28653889683b21f55c6b280ad6a87dc65c6fd299c2b8e838ed39e8aa42bf12",
       "text": "Just nu: USA försvarade VM-guldet"
+    },
+    {
+      "id": "4814743392ba34b439a4b280b930dc46e781ea6fa4f9da05ebaeb7efad0bd78b",
+      "text": "Just nu: Frontalkrock utanför Stenungsund"
     }
   ],
   "captures": [
@@ -115716,6 +115720,12 @@
       "headlineId": "da28653889683b21f55c6b280ad6a87dc65c6fd299c2b8e838ed39e8aa42bf12",
       "articleUrl": "https://www.sverigesradio.se/artikel/usa-forsvarar-vm-guldet-i-ishockey",
       "capturedAt": "2026-11-16T21:02:32.855Z"
+    },
+    {
+      "filename": "1794869257073_0.png",
+      "headlineId": "4814743392ba34b439a4b280b930dc46e781ea6fa4f9da05ebaeb7efad0bd78b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/epa-och-skapbil-i-frontalkrock-utanfor-stenungssund-vag-avstang",
+      "capturedAt": "2026-11-16T22:47:37.073Z"
     }
   ]
 }
