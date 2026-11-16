@@ -46276,6 +46276,10 @@
     {
       "id": "03ca71e483d98973c624e0313731faadb1cfc210cd4fcea92eecb415b8f5a260",
       "text": "Just nu: Två barn påkörda i Arlöv"
+    },
+    {
+      "id": "badc458d95533db351b48a58c8a6124968f7d3745903fd6d0be5ff79cbdf2ae4",
+      "text": "Just nu: Tågförseningar Göteborg-Stockholm"
     }
   ],
   "captures": [
@@ -115686,6 +115690,12 @@
       "headlineId": "03ca71e483d98973c624e0313731faadb1cfc210cd4fcea92eecb415b8f5a260",
       "articleUrl": "https://www.sverigesradio.se/artikel/tva-barn-pakorda-pa-overgangsstalle-i-arlov",
       "capturedAt": "2026-11-16T19:37:35.964Z"
+    },
+    {
+      "filename": "1794859045453_0.png",
+      "headlineId": "badc458d95533db351b48a58c8a6124968f7d3745903fd6d0be5ff79cbdf2ae4",
+      "articleUrl": "https://www.sverigesradio.se/artikel/stora-storningar-i-tagtrafiken-goteborg-stockholm",
+      "capturedAt": "2026-11-16T19:57:25.453Z"
     }
   ]
 }
