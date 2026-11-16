@@ -46224,6 +46224,14 @@
     {
       "id": "b4853cc599f12d6d7612ce9c806d456b0e59bbead15d6aa9a5b2b7884067fbfc",
       "text": "Just nu: Man hittad död efter lägenhetsbrand"
+    },
+    {
+      "id": "c41bd0d34ce56f9c0d114e72edc0fc0552305c7b34bf38f1e4afa28f4839b36d",
+      "text": "Just nu: Brand utanför Värnamo – en död"
+    },
+    {
+      "id": "8a06a748d4641fd0951cc60d3192b3da38e1f95f6ea022fd61b1a7e3084fc61a",
+      "text": "Just nu: Minst 11 döda efter brand i Phuket"
     }
   ],
   "captures": [
@@ -115556,6 +115564,18 @@
       "headlineId": "b4853cc599f12d6d7612ce9c806d456b0e59bbead15d6aa9a5b2b7884067fbfc",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-dod-efter-lagenhetsbrand-i-jonkoping",
       "capturedAt": "2026-11-16T03:07:26.090Z"
+    },
+    {
+      "filename": "1794803548469_0.png",
+      "headlineId": "8a06a748d4641fd0951cc60d3192b3da38e1f95f6ea022fd61b1a7e3084fc61a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/flera-doda-efter-brand-i-phuket",
+      "capturedAt": "2026-11-16T04:32:28.469Z"
+    },
+    {
+      "filename": "1794803548469_1.png",
+      "headlineId": "c41bd0d34ce56f9c0d114e72edc0fc0552305c7b34bf38f1e4afa28f4839b36d",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-dod-efter-lagenhetsbrand-utanfor-varnamo",
+      "capturedAt": "2026-11-16T04:32:28.469Z"
     }
   ]
 }
