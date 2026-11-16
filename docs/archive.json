@@ -46256,6 +46256,10 @@
     {
       "id": "c44ab7fdf7a85c0d18e51703f4da2a9219885b07dceea862d444ac04fc5ca8ef",
       "text": "Just nu: Olycka med flera fordon i Dalarna"
+    },
+    {
+      "id": "286b04584ed4dc701a5db9be11f107840d8b6b2bd8752deb83455d3cb50b93e4",
+      "text": "Just nu: Då möter Kristersson talmannen"
     }
   ],
   "captures": [
@@ -115636,6 +115640,12 @@
       "headlineId": "c44ab7fdf7a85c0d18e51703f4da2a9219885b07dceea862d444ac04fc5ca8ef",
       "articleUrl": "https://www.sverigesradio.se/artikel/olycka-mellan-ludvika-och-smedjebacken",
       "capturedAt": "2026-11-16T14:07:30.490Z"
+    },
+    {
+      "filename": "1794841048650_0.png",
+      "headlineId": "286b04584ed4dc701a5db9be11f107840d8b6b2bd8752deb83455d3cb50b93e4",
+      "articleUrl": "https://www.sverigesradio.se/artikel/regeringsbildningen-efter-valet-2026",
+      "capturedAt": "2026-11-16T14:57:28.650Z"
     }
   ]
 }
