@@ -46284,6 +46284,10 @@
     {
       "id": "611ce921eecd4847b53edad5af40683231ef4eaeeb47ec369375bdbe0c8b56c7",
       "text": "Just nu: Två döda efter krock i Smedjebacken"
+    },
+    {
+      "id": "da28653889683b21f55c6b280ad6a87dc65c6fd299c2b8e838ed39e8aa42bf12",
+      "text": "Just nu: USA försvarade VM-guldet"
     }
   ],
   "captures": [
@@ -115706,6 +115710,12 @@
       "headlineId": "611ce921eecd4847b53edad5af40683231ef4eaeeb47ec369375bdbe0c8b56c7",
       "articleUrl": "https://www.sverigesradio.se/artikel/allvarlig-olycka-pa-riksvag-66-vagen-avstangd",
       "capturedAt": "2026-11-16T20:27:34.805Z"
+    },
+    {
+      "filename": "1794862952855_0.png",
+      "headlineId": "da28653889683b21f55c6b280ad6a87dc65c6fd299c2b8e838ed39e8aa42bf12",
+      "articleUrl": "https://www.sverigesradio.se/artikel/usa-forsvarar-vm-guldet-i-ishockey",
+      "capturedAt": "2026-11-16T21:02:32.855Z"
     }
   ]
 }
