@@ -46272,6 +46272,10 @@
     {
       "id": "79e631797903512f1a5338764736e2d23e66407ce58f94da381e56a2acaf0d79",
       "text": "Just nu: Han utmanar Infantino"
+    },
+    {
+      "id": "03ca71e483d98973c624e0313731faadb1cfc210cd4fcea92eecb415b8f5a260",
+      "text": "Just nu: Två barn påkörda i Arlöv"
     }
   ],
   "captures": [
@@ -115676,6 +115680,12 @@
       "headlineId": "79e631797903512f1a5338764736e2d23e66407ce58f94da381e56a2acaf0d79",
       "articleUrl": "https://www.sverigesradio.se/artikel/philippe-diallo-utmanar-gianni-infantino",
       "capturedAt": "2026-11-16T16:52:32.433Z"
+    },
+    {
+      "filename": "1794857855964_0.png",
+      "headlineId": "03ca71e483d98973c624e0313731faadb1cfc210cd4fcea92eecb415b8f5a260",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tva-barn-pakorda-pa-overgangsstalle-i-arlov",
+      "capturedAt": "2026-11-16T19:37:35.964Z"
     }
   ]
 }
