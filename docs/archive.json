@@ -46236,6 +46236,10 @@
     {
       "id": "203c1a5f010c7d7fe2d0432c147b0cd5ce7b17d0abbdd7cedb6646e481877571",
       "text": "Just nu: Varning för ishalka längs kusten"
+    },
+    {
+      "id": "2d2c02b022b932dfb3bfc19cf04343278efbd672bd23290b9b70b0c96e1e0cd7",
+      "text": "Just nu: Ryssland: 600 drönare mot Moskva"
     }
   ],
   "captures": [
@@ -115586,6 +115590,12 @@
       "headlineId": "203c1a5f010c7d7fe2d0432c147b0cd5ce7b17d0abbdd7cedb6646e481877571",
       "articleUrl": "https://www.sverigesradio.se/artikel/smhi-fortsatter-varna-for-plotslig-ishalka-langs-kusten",
       "capturedAt": "2026-11-16T05:47:23.662Z"
+    },
+    {
+      "filename": "1794814348702_0.png",
+      "headlineId": "2d2c02b022b932dfb3bfc19cf04343278efbd672bd23290b9b70b0c96e1e0cd7",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ryska-uppgifter-600-dronare-mot-moskva-under-natten",
+      "capturedAt": "2026-11-16T07:32:28.702Z"
     }
   ]
 }
