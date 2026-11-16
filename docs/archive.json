@@ -46248,6 +46248,10 @@
     {
       "id": "8b6c630d998df72214a8f9484ec1ba19549d8aff503ded2eba56eb9567c17fe8",
       "text": "Just nu: Hund dödade flickvännen – kvinna döms"
+    },
+    {
+      "id": "95615896c7e55d33d1ae4a87daa91cfcae71049d915e4b0306de2faa77ddfe61",
+      "text": "Just nu: Robyn och Zara Larsson nomineras"
     }
   ],
   "captures": [
@@ -115616,6 +115620,12 @@
       "headlineId": "8b6c630d998df72214a8f9484ec1ba19549d8aff503ded2eba56eb9567c17fe8",
       "articleUrl": "https://www.sverigesradio.se/artikel/flickvannen-dodades-av-hund-kvinna-doms-till-fangelse",
       "capturedAt": "2026-11-16T10:57:26.897Z"
+    },
+    {
+      "filename": "1794834172929_0.png",
+      "headlineId": "95615896c7e55d33d1ae4a87daa91cfcae71049d915e4b0306de2faa77ddfe61",
+      "articleUrl": "https://www.sverigesradio.se/artikel/robyn-och-zara-larsson-kan-vinna-grammy",
+      "capturedAt": "2026-11-16T13:02:52.929Z"
     }
   ]
 }
