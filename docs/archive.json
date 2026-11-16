@@ -46240,6 +46240,10 @@
     {
       "id": "2d2c02b022b932dfb3bfc19cf04343278efbd672bd23290b9b70b0c96e1e0cd7",
       "text": "Just nu: Ryssland: 600 drönare mot Moskva"
+    },
+    {
+      "id": "c02c1944214028ffbe4cfd251620fcd21e7f7bccd442e808dfd4de6e15722fd3",
+      "text": "Just nu: LKAB stäms på 180 miljoner"
     }
   ],
   "captures": [
@@ -115596,6 +115600,12 @@
       "headlineId": "2d2c02b022b932dfb3bfc19cf04343278efbd672bd23290b9b70b0c96e1e0cd7",
       "articleUrl": "https://www.sverigesradio.se/artikel/ryska-uppgifter-600-dronare-mot-moskva-under-natten",
       "capturedAt": "2026-11-16T07:32:28.702Z"
+    },
+    {
+      "filename": "1794818560375_0.png",
+      "headlineId": "c02c1944214028ffbe4cfd251620fcd21e7f7bccd442e808dfd4de6e15722fd3",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lkab-stams-pa-180-miljoner-kronor-efter-utslapp-av-diesel",
+      "capturedAt": "2026-11-16T08:42:40.375Z"
     }
   ]
 }
