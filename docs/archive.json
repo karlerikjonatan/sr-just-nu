@@ -46368,6 +46368,10 @@
     {
       "id": "5beb06297a878fafeab158c37bfa2b8d29fd95669ef15b43d9b3f4837c0cb802",
       "text": "Just nu: Störningar på Gröna linjen i Stockholm"
+    },
+    {
+      "id": "a6eea429d70f29b1acb7e859c0cfd8e780249bd440f1ab5aaeac09819164f955",
+      "text": "Just nu: Störningar på gröna linjen i Stockholm"
     }
   ],
   "captures": [
@@ -115916,6 +115920,12 @@
       "headlineId": "5beb06297a878fafeab158c37bfa2b8d29fd95669ef15b43d9b3f4837c0cb802",
       "articleUrl": "https://www.sverigesradio.se/artikel/stora-storningar-pa-grona-linjen",
       "capturedAt": "2026-11-17T13:52:31.974Z"
+    },
+    {
+      "filename": "1794924749278_0.png",
+      "headlineId": "a6eea429d70f29b1acb7e859c0cfd8e780249bd440f1ab5aaeac09819164f955",
+      "articleUrl": "https://www.sverigesradio.se/artikel/stora-storningar-pa-grona-linjen",
+      "capturedAt": "2026-11-17T14:12:29.278Z"
     }
   ]
 }
