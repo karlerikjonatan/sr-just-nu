@@ -46300,6 +46300,10 @@
     {
       "id": "43d46190bf25f5c8f51184b6f2cfda7061f5815bc0251060d30e45b72c81aa18",
       "text": "Just nu: Tre döda efter flygkrasch i USA"
+    },
+    {
+      "id": "80fc525247b667911aadf895b1db006669915180901ae7a4cf109fd686ad580f",
+      "text": "Just nu: Dödshotade Amanda Lind – åtalas"
     }
   ],
   "captures": [
@@ -115746,6 +115750,12 @@
       "headlineId": "43d46190bf25f5c8f51184b6f2cfda7061f5815bc0251060d30e45b72c81aa18",
       "articleUrl": "https://www.sverigesradio.se/artikel/tre-doda-efter-flygkrasch-i-grand-canyon",
       "capturedAt": "2026-11-17T06:17:52.754Z"
+    },
+    {
+      "filename": "1794898048331_0.png",
+      "headlineId": "80fc525247b667911aadf895b1db006669915180901ae7a4cf109fd686ad580f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/dodshotade-amanda-lind-mp-skrev-din-lilla-haschrokare",
+      "capturedAt": "2026-11-17T06:47:28.331Z"
     }
   ]
 }
