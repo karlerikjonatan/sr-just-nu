@@ -46316,6 +46316,10 @@
     {
       "id": "f228a3d80255fa24686171a0336ecf42b44610c0dab7ed10fe1a68276299f9f4",
       "text": "Just nu: 200 000 höns avlivade"
+    },
+    {
+      "id": "1d1f90ed40e73e1264eaf815a425bbdf86f3940ebf5ce7891d759e9c78e6d0cf",
+      "text": "Just nu: Strömlöst i Volvo Cars lokaler"
     }
   ],
   "captures": [
@@ -115786,6 +115790,12 @@
       "headlineId": "f228a3d80255fa24686171a0336ecf42b44610c0dab7ed10fe1a68276299f9f4",
       "articleUrl": "https://www.sverigesradio.se/artikel/200-000-hons-avlivade-i-eldsberga-det-ar-jattetufft",
       "capturedAt": "2026-11-17T08:57:39.078Z"
+    },
+    {
+      "filename": "1794907047935_0.png",
+      "headlineId": "1d1f90ed40e73e1264eaf815a425bbdf86f3940ebf5ce7891d759e9c78e6d0cf",
+      "articleUrl": "https://www.sverigesradio.se/artikel/stromlost-i-delar-av-volvos-lokaler-raddningstjanst-pa-plats",
+      "capturedAt": "2026-11-17T09:17:27.935Z"
     }
   ]
 }
