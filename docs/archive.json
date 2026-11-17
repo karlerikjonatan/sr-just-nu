@@ -46292,6 +46292,10 @@
     {
       "id": "4814743392ba34b439a4b280b930dc46e781ea6fa4f9da05ebaeb7efad0bd78b",
       "text": "Just nu: Frontalkrock utanför Stenungsund"
+    },
+    {
+      "id": "cdefb18d481f1cb581334a8bd9da43aff240c6ecab4e5a21c3c48b0eb22e3979",
+      "text": "Just nu: Ryska attacker mot broar i Kyjiv"
     }
   ],
   "captures": [
@@ -115726,6 +115730,12 @@
       "headlineId": "4814743392ba34b439a4b280b930dc46e781ea6fa4f9da05ebaeb7efad0bd78b",
       "articleUrl": "https://www.sverigesradio.se/artikel/epa-och-skapbil-i-frontalkrock-utanfor-stenungssund-vag-avstang",
       "capturedAt": "2026-11-16T22:47:37.073Z"
+    },
+    {
+      "filename": "1794894747777_0.png",
+      "headlineId": "cdefb18d481f1cb581334a8bd9da43aff240c6ecab4e5a21c3c48b0eb22e3979",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ryska-attacker-mot-broar-i-kyjiv",
+      "capturedAt": "2026-11-17T05:52:27.777Z"
     }
   ]
 }
