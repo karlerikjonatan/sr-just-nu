@@ -46344,6 +46344,10 @@
     {
       "id": "5f2d24b3a05356de831e1baf56b1c1ca66d1b16bf372c05d1d2392aa1b914032",
       "text": "Just nu: Flera radhus brinner i Södertälje"
+    },
+    {
+      "id": "a5a018b77f630646e5be4fdd6db4faca4167bd2995dbda88337f6615bb127d8a",
+      "text": "Just nu: Sverige backar ny kandidat i Fifa-valet"
     }
   ],
   "captures": [
@@ -115856,6 +115860,12 @@
       "headlineId": "5f2d24b3a05356de831e1baf56b1c1ca66d1b16bf372c05d1d2392aa1b914032",
       "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-radhusbrand-i-sodertalje-lagor-ska-sla-mot-fonstren",
       "capturedAt": "2026-11-17T11:22:36.558Z"
+    },
+    {
+      "filename": "1794917548118_0.png",
+      "headlineId": "a5a018b77f630646e5be4fdd6db4faca4167bd2995dbda88337f6615bb127d8a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/svenska-beskedet-har-valt-kandidat-i-fifa-valet",
+      "capturedAt": "2026-11-17T12:12:28.118Z"
     }
   ]
 }
