@@ -46364,6 +46364,10 @@
     {
       "id": "8f7b7441eeaa6f9da97b2260bda49780d33f47387eeb9875a7631903403df52f",
       "text": "Just nu: Sexualbrott mot barn – släkting döms"
+    },
+    {
+      "id": "5beb06297a878fafeab158c37bfa2b8d29fd95669ef15b43d9b3f4837c0cb802",
+      "text": "Just nu: Störningar på Gröna linjen i Stockholm"
     }
   ],
   "captures": [
@@ -115906,6 +115910,12 @@
       "headlineId": "8f7b7441eeaa6f9da97b2260bda49780d33f47387eeb9875a7631903403df52f",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-i-varmland-doms-till-nio-ar-for-sexualbrott-mot-barn",
       "capturedAt": "2026-11-17T13:47:34.214Z"
+    },
+    {
+      "filename": "1794923551974_0.png",
+      "headlineId": "5beb06297a878fafeab158c37bfa2b8d29fd95669ef15b43d9b3f4837c0cb802",
+      "articleUrl": "https://www.sverigesradio.se/artikel/stora-storningar-pa-grona-linjen",
+      "capturedAt": "2026-11-17T13:52:31.974Z"
     }
   ]
 }
