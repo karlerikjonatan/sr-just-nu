@@ -46388,6 +46388,10 @@
     {
       "id": "4c9875c57836d2b5eebdb134a33cc223a2392366a6f37b843a9ddf1db9994797",
       "text": "Just nu: Miss i Elsa-utredningen"
+    },
+    {
+      "id": "2a07e945df2a1ef9ab45ec8327dc240d47a9be4b5d6cc248821587ff889ce384",
+      "text": "Just nu: Moldavien stänger luftrummet"
     }
   ],
   "captures": [
@@ -115966,6 +115970,12 @@
       "headlineId": "4c9875c57836d2b5eebdb134a33cc223a2392366a6f37b843a9ddf1db9994797",
       "articleUrl": "https://www.sverigesradio.se/artikel/missen-i-elsa-utredningen-maskade-uppgifter-gar-att-lasa",
       "capturedAt": "2026-11-17T17:07:32.539Z"
+    },
+    {
+      "filename": "1794938403194_0.png",
+      "headlineId": "2a07e945df2a1ef9ab45ec8327dc240d47a9be4b5d6cc248821587ff889ce384",
+      "articleUrl": "https://www.sverigesradio.se/artikel/moldaviens-luftrum-stangt-efter-krankning-av-ryska-dronare",
+      "capturedAt": "2026-11-17T18:00:03.194Z"
     }
   ]
 }
