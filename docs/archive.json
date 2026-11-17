@@ -46348,6 +46348,14 @@
     {
       "id": "a5a018b77f630646e5be4fdd6db4faca4167bd2995dbda88337f6615bb127d8a",
       "text": "Just nu: Sverige backar ny kandidat i Fifa-valet"
+    },
+    {
+      "id": "bfbeba32cb3b786989ff5d665a5e74ebe266e31cf07104ec82f528a1ad3fca29",
+      "text": "Just nu: Åker hem med guld – efter VM-brons"
+    },
+    {
+      "id": "27e7ae3496e4e6ff48650f4431bdbbd5b611d43a5398469c6ecc2a58bc5e9795",
+      "text": "Just nu: Melodifestivalen skrotar finalkvalet"
     }
   ],
   "captures": [
@@ -115866,6 +115874,18 @@
       "headlineId": "a5a018b77f630646e5be4fdd6db4faca4167bd2995dbda88337f6615bb127d8a",
       "articleUrl": "https://www.sverigesradio.se/artikel/svenska-beskedet-har-valt-kandidat-i-fifa-valet",
       "capturedAt": "2026-11-17T12:12:28.118Z"
+    },
+    {
+      "filename": "1794918448928_0.png",
+      "headlineId": "27e7ae3496e4e6ff48650f4431bdbbd5b611d43a5398469c6ecc2a58bc5e9795",
+      "articleUrl": "https://www.sverigesradio.se/artikel/finalkvalet-i-melodifestivalen-2027-skrotas",
+      "capturedAt": "2026-11-17T12:27:28.928Z"
+    },
+    {
+      "filename": "1794918448928_1.png",
+      "headlineId": "bfbeba32cb3b786989ff5d665a5e74ebe266e31cf07104ec82f528a1ad3fca29",
+      "articleUrl": "https://www.sverigesradio.se/artikel/reser-hem-med-guldmedalj-efter-vm-bronset-inte-jattebra-koll",
+      "capturedAt": "2026-11-17T12:27:28.928Z"
     }
   ]
 }
