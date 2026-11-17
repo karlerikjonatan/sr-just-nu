@@ -46340,6 +46340,10 @@
     {
       "id": "b6364a5042948d5e8d1c058097fa8c809ac17cfa1a44b523c6326243ed8a5ac4",
       "text": "Just nu: Släppta efter misstänkt gruppvåldtäkt"
+    },
+    {
+      "id": "5f2d24b3a05356de831e1baf56b1c1ca66d1b16bf372c05d1d2392aa1b914032",
+      "text": "Just nu: Flera radhus brinner i Södertälje"
     }
   ],
   "captures": [
@@ -115846,6 +115850,12 @@
       "headlineId": "793b942eb65b17a01e5904425aa45717f5b4762c0db3279bcb119dfd8a5a2642",
       "articleUrl": "https://www.sverigesradio.se/artikel/direktrapport-om-rysslandsbesked-inom-idrotten",
       "capturedAt": "2026-11-17T10:32:49.724Z"
+    },
+    {
+      "filename": "1794914556558_0.png",
+      "headlineId": "5f2d24b3a05356de831e1baf56b1c1ca66d1b16bf372c05d1d2392aa1b914032",
+      "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-radhusbrand-i-sodertalje-lagor-ska-sla-mot-fonstren",
+      "capturedAt": "2026-11-17T11:22:36.558Z"
     }
   ]
 }
