@@ -46332,6 +46332,14 @@
     {
       "id": "fe7df7a62daeb598e4e21fee82220c0c00620ebd1e222011789af1663539e2d7",
       "text": "Just nu: Internationella hockeyförbundet hackade"
+    },
+    {
+      "id": "793b942eb65b17a01e5904425aa45717f5b4762c0db3279bcb119dfd8a5a2642",
+      "text": "Just nu: Hockeyförbundets hemsida hackad"
+    },
+    {
+      "id": "b6364a5042948d5e8d1c058097fa8c809ac17cfa1a44b523c6326243ed8a5ac4",
+      "text": "Just nu: Släppta efter misstänkt gruppvåldtäkt"
     }
   ],
   "captures": [
@@ -115826,6 +115834,18 @@
       "headlineId": "fe7df7a62daeb598e4e21fee82220c0c00620ebd1e222011789af1663539e2d7",
       "articleUrl": "https://www.sverigesradio.se/artikel/direktrapport-om-rysslandsbesked-inom-idrotten",
       "capturedAt": "2026-11-17T10:22:28.198Z"
+    },
+    {
+      "filename": "1794911569724_0.png",
+      "headlineId": "b6364a5042948d5e8d1c058097fa8c809ac17cfa1a44b523c6326243ed8a5ac4",
+      "articleUrl": "https://www.sverigesradio.se/artikel/efter-misstankta-gruppvaldtakten-alla-pojkar-slappta-fran-haktet",
+      "capturedAt": "2026-11-17T10:32:49.724Z"
+    },
+    {
+      "filename": "1794911569724_1.png",
+      "headlineId": "793b942eb65b17a01e5904425aa45717f5b4762c0db3279bcb119dfd8a5a2642",
+      "articleUrl": "https://www.sverigesradio.se/artikel/direktrapport-om-rysslandsbesked-inom-idrotten",
+      "capturedAt": "2026-11-17T10:32:49.724Z"
     }
   ]
 }
