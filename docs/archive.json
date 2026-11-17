@@ -46392,6 +46392,10 @@
     {
       "id": "2a07e945df2a1ef9ab45ec8327dc240d47a9be4b5d6cc248821587ff889ce384",
       "text": "Just nu: Moldavien stänger luftrummet"
+    },
+    {
+      "id": "62a5545d28bda51840c60fb415b24e5a65f182e06ce56005b3cbc7432351ee61",
+      "text": "Just nu: Två debutanter från start mot Polen"
     }
   ],
   "captures": [
@@ -115976,6 +115980,12 @@
       "headlineId": "2a07e945df2a1ef9ab45ec8327dc240d47a9be4b5d6cc248821587ff889ce384",
       "articleUrl": "https://www.sverigesradio.se/artikel/moldaviens-luftrum-stangt-efter-krankning-av-ryska-dronare",
       "capturedAt": "2026-11-17T18:00:03.194Z"
+    },
+    {
+      "filename": "1794941850847_0.png",
+      "headlineId": "62a5545d28bda51840c60fb415b24e5a65f182e06ce56005b3cbc7432351ee61",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tva-debutanter-fran-start-mot-polen-extra-roligt",
+      "capturedAt": "2026-11-17T18:57:30.847Z"
     }
   ]
 }
