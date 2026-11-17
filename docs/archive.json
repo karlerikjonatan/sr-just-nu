@@ -46328,6 +46328,10 @@
     {
       "id": "19cecf3a2239acfba7e8ca16f7320404be11f0a605ab1d42ba941a3fa6d72cf9",
       "text": "Just nu: 70-åring misstänkt för mord på fru"
+    },
+    {
+      "id": "fe7df7a62daeb598e4e21fee82220c0c00620ebd1e222011789af1663539e2d7",
+      "text": "Just nu: Internationella hockeyförbundet hackade"
     }
   ],
   "captures": [
@@ -115816,6 +115820,12 @@
       "headlineId": "8fe3c18f746c34ceb90eeff488ea1a1b7533be664cf2c29405e7fdd0f43bea27",
       "articleUrl": "https://www.sverigesradio.se/artikel/elpriserna-spas-bli-hogre-an-krisvintern-2022",
       "capturedAt": "2026-11-17T10:07:50.324Z"
+    },
+    {
+      "filename": "1794910948198_0.png",
+      "headlineId": "fe7df7a62daeb598e4e21fee82220c0c00620ebd1e222011789af1663539e2d7",
+      "articleUrl": "https://www.sverigesradio.se/artikel/direktrapport-om-rysslandsbesked-inom-idrotten",
+      "capturedAt": "2026-11-17T10:22:28.198Z"
     }
   ]
 }
