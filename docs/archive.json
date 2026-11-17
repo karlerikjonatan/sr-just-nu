@@ -46312,6 +46312,10 @@
     {
       "id": "0e5a99a315c7a2d43f72924b60c75b911b6131dd2216e720b9be27edb32fa60b",
       "text": "Just nu: 200 000 höns döda efter sjukdom"
+    },
+    {
+      "id": "f228a3d80255fa24686171a0336ecf42b44610c0dab7ed10fe1a68276299f9f4",
+      "text": "Just nu: 200 000 höns avlivade"
     }
   ],
   "captures": [
@@ -115776,6 +115780,12 @@
       "headlineId": "0e5a99a315c7a2d43f72924b60c75b911b6131dd2216e720b9be27edb32fa60b",
       "articleUrl": "https://www.sverigesradio.se/artikel/200-000-hons-avlivade-i-eldsberga-det-ar-jattetufft",
       "capturedAt": "2026-11-17T08:52:42.020Z"
+    },
+    {
+      "filename": "1794905859078_0.png",
+      "headlineId": "f228a3d80255fa24686171a0336ecf42b44610c0dab7ed10fe1a68276299f9f4",
+      "articleUrl": "https://www.sverigesradio.se/artikel/200-000-hons-avlivade-i-eldsberga-det-ar-jattetufft",
+      "capturedAt": "2026-11-17T08:57:39.078Z"
     }
   ]
 }
