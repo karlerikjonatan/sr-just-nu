@@ -46372,6 +46372,10 @@
     {
       "id": "a6eea429d70f29b1acb7e859c0cfd8e780249bd440f1ab5aaeac09819164f955",
       "text": "Just nu: Störningar på gröna linjen i Stockholm"
+    },
+    {
+      "id": "8a79a67c22b86854680610aab9ecb6c7e61661f112daf11d849fa65668c5544b",
+      "text": "Just nu: Varnar för fågelinfluensa"
     }
   ],
   "captures": [
@@ -115926,6 +115930,12 @@
       "headlineId": "a6eea429d70f29b1acb7e859c0cfd8e780249bd440f1ab5aaeac09819164f955",
       "articleUrl": "https://www.sverigesradio.se/artikel/stora-storningar-pa-grona-linjen",
       "capturedAt": "2026-11-17T14:12:29.278Z"
+    },
+    {
+      "filename": "1794925951738_0.png",
+      "headlineId": "8a79a67c22b86854680610aab9ecb6c7e61661f112daf11d849fa65668c5544b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-jordbruksverket-varnar-for-fagelinfluensa",
+      "capturedAt": "2026-11-17T14:32:31.738Z"
     }
   ]
 }
