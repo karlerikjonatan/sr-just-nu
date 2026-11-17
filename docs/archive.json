@@ -46320,6 +46320,14 @@
     {
       "id": "1d1f90ed40e73e1264eaf815a425bbdf86f3940ebf5ce7891d759e9c78e6d0cf",
       "text": "Just nu: Strömlöst i Volvo Cars lokaler"
+    },
+    {
+      "id": "8fe3c18f746c34ceb90eeff488ea1a1b7533be664cf2c29405e7fdd0f43bea27",
+      "text": "Just nu: Elpriserna spås bli högre än krisvintern"
+    },
+    {
+      "id": "19cecf3a2239acfba7e8ca16f7320404be11f0a605ab1d42ba941a3fa6d72cf9",
+      "text": "Just nu: 70-åring misstänkt för mord på fru"
     }
   ],
   "captures": [
@@ -115796,6 +115804,18 @@
       "headlineId": "1d1f90ed40e73e1264eaf815a425bbdf86f3940ebf5ce7891d759e9c78e6d0cf",
       "articleUrl": "https://www.sverigesradio.se/artikel/stromlost-i-delar-av-volvos-lokaler-raddningstjanst-pa-plats",
       "capturedAt": "2026-11-17T09:17:27.935Z"
+    },
+    {
+      "filename": "1794910070324_0.png",
+      "headlineId": "19cecf3a2239acfba7e8ca16f7320404be11f0a605ab1d42ba941a3fa6d72cf9",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kvinna-hittades-dod-hennes-man-misstanks-for-mord",
+      "capturedAt": "2026-11-17T10:07:50.324Z"
+    },
+    {
+      "filename": "1794910070324_1.png",
+      "headlineId": "8fe3c18f746c34ceb90eeff488ea1a1b7533be664cf2c29405e7fdd0f43bea27",
+      "articleUrl": "https://www.sverigesradio.se/artikel/elpriserna-spas-bli-hogre-an-krisvintern-2022",
+      "capturedAt": "2026-11-17T10:07:50.324Z"
     }
   ]
 }
