@@ -46308,6 +46308,10 @@
     {
       "id": "c51e589b6c9f6732f6fc45e448ab66aaeebc753532a8c4a1863581bd9169be05",
       "text": "Just nu: Bert Sundström slutar på SVT"
+    },
+    {
+      "id": "0e5a99a315c7a2d43f72924b60c75b911b6131dd2216e720b9be27edb32fa60b",
+      "text": "Just nu: 200 000 höns döda efter sjukdom"
     }
   ],
   "captures": [
@@ -115766,6 +115770,12 @@
       "headlineId": "c51e589b6c9f6732f6fc45e448ab66aaeebc753532a8c4a1863581bd9169be05",
       "articleUrl": "https://www.sverigesradio.se/artikel/bert-sundstrom-slutar-pa-svt",
       "capturedAt": "2026-11-17T07:37:28.401Z"
+    },
+    {
+      "filename": "1794905562020_0.png",
+      "headlineId": "0e5a99a315c7a2d43f72924b60c75b911b6131dd2216e720b9be27edb32fa60b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/200-000-hons-avlivade-i-eldsberga-det-ar-jattetufft",
+      "capturedAt": "2026-11-17T08:52:42.020Z"
     }
   ]
 }
