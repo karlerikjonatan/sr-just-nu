@@ -46380,6 +46380,10 @@
     {
       "id": "c7419929c3e10f18aff3a34a1f938f5be228fe722c702e85615c55c702dc7489",
       "text": "Just nu: Olycka i Karlskrona – fem till sjukhus"
+    },
+    {
+      "id": "6f4b86cc15a022c45d2de15358a75649534b2d9cc84b36c6e34086b4e70bea59",
+      "text": "Just nu: Huang ”redo att återvända till Nvidia”"
     }
   ],
   "captures": [
@@ -115946,6 +115950,12 @@
       "headlineId": "c7419929c3e10f18aff3a34a1f938f5be228fe722c702e85615c55c702dc7489",
       "articleUrl": "https://www.sverigesradio.se/artikel/fem-till-sjukhus-efter-frontalkrock--2",
       "capturedAt": "2026-11-17T16:02:39.355Z"
+    },
+    {
+      "filename": "1794934047467_0.png",
+      "headlineId": "6f4b86cc15a022c45d2de15358a75649534b2d9cc84b36c6e34086b4e70bea59",
+      "articleUrl": "https://www.sverigesradio.se/artikel/nvidias-tidigare-vd-jensen-huang-redo-att-atervanda",
+      "capturedAt": "2026-11-17T16:47:27.467Z"
     }
   ]
 }
