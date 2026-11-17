@@ -46296,6 +46296,10 @@
     {
       "id": "cdefb18d481f1cb581334a8bd9da43aff240c6ecab4e5a21c3c48b0eb22e3979",
       "text": "Just nu: Ryska attacker mot broar i Kyjiv"
+    },
+    {
+      "id": "43d46190bf25f5c8f51184b6f2cfda7061f5815bc0251060d30e45b72c81aa18",
+      "text": "Just nu: Tre döda efter flygkrasch i USA"
     }
   ],
   "captures": [
@@ -115736,6 +115740,12 @@
       "headlineId": "cdefb18d481f1cb581334a8bd9da43aff240c6ecab4e5a21c3c48b0eb22e3979",
       "articleUrl": "https://www.sverigesradio.se/artikel/ryska-attacker-mot-broar-i-kyjiv",
       "capturedAt": "2026-11-17T05:52:27.777Z"
+    },
+    {
+      "filename": "1794896272754_0.png",
+      "headlineId": "43d46190bf25f5c8f51184b6f2cfda7061f5815bc0251060d30e45b72c81aa18",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tre-doda-efter-flygkrasch-i-grand-canyon",
+      "capturedAt": "2026-11-17T06:17:52.754Z"
     }
   ]
 }
