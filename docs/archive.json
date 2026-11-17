@@ -46304,6 +46304,10 @@
     {
       "id": "80fc525247b667911aadf895b1db006669915180901ae7a4cf109fd686ad580f",
       "text": "Just nu: Dödshotade Amanda Lind – åtalas"
+    },
+    {
+      "id": "c51e589b6c9f6732f6fc45e448ab66aaeebc753532a8c4a1863581bd9169be05",
+      "text": "Just nu: Bert Sundström slutar på SVT"
     }
   ],
   "captures": [
@@ -115756,6 +115760,12 @@
       "headlineId": "80fc525247b667911aadf895b1db006669915180901ae7a4cf109fd686ad580f",
       "articleUrl": "https://www.sverigesradio.se/artikel/dodshotade-amanda-lind-mp-skrev-din-lilla-haschrokare",
       "capturedAt": "2026-11-17T06:47:28.331Z"
+    },
+    {
+      "filename": "1794901048401_0.png",
+      "headlineId": "c51e589b6c9f6732f6fc45e448ab66aaeebc753532a8c4a1863581bd9169be05",
+      "articleUrl": "https://www.sverigesradio.se/artikel/bert-sundstrom-slutar-pa-svt",
+      "capturedAt": "2026-11-17T07:37:28.401Z"
     }
   ]
 }
