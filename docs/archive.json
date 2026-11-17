@@ -46376,6 +46376,10 @@
     {
       "id": "8a79a67c22b86854680610aab9ecb6c7e61661f112daf11d849fa65668c5544b",
       "text": "Just nu: Varnar för fågelinfluensa"
+    },
+    {
+      "id": "c7419929c3e10f18aff3a34a1f938f5be228fe722c702e85615c55c702dc7489",
+      "text": "Just nu: Olycka i Karlskrona – fem till sjukhus"
     }
   ],
   "captures": [
@@ -115936,6 +115940,12 @@
       "headlineId": "8a79a67c22b86854680610aab9ecb6c7e61661f112daf11d849fa65668c5544b",
       "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-jordbruksverket-varnar-for-fagelinfluensa",
       "capturedAt": "2026-11-17T14:32:31.738Z"
+    },
+    {
+      "filename": "1794931359355_0.png",
+      "headlineId": "c7419929c3e10f18aff3a34a1f938f5be228fe722c702e85615c55c702dc7489",
+      "articleUrl": "https://www.sverigesradio.se/artikel/fem-till-sjukhus-efter-frontalkrock--2",
+      "capturedAt": "2026-11-17T16:02:39.355Z"
     }
   ]
 }
