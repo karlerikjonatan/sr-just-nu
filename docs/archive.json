@@ -46500,6 +46500,10 @@
     {
       "id": "a1d41875b0e3de25ff038d28bc0df15f3327fc2ac21405c403ea36962a86ba15",
       "text": "Just nu: Frontalkrock i Borås"
+    },
+    {
+      "id": "b119d8cefd26844b6ccf6c149db32732336ec75e47846c9c528ea485f4593e9f",
+      "text": "Just nu: Sveriges första asagravplats invigd"
     }
   ],
   "captures": [
@@ -116246,6 +116250,12 @@
       "headlineId": "a1d41875b0e3de25ff038d28bc0df15f3327fc2ac21405c403ea36962a86ba15",
       "articleUrl": "https://www.sverigesradio.se/artikel/frontalkrock-pa-riksvag-41-i-boras",
       "capturedAt": "2026-11-18T19:52:43.832Z"
+    },
+    {
+      "filename": "1795035751578_0.png",
+      "headlineId": "b119d8cefd26844b6ccf6c149db32732336ec75e47846c9c528ea485f4593e9f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/sveriges-forsta-begravningsplats-for-asatroende-i-molkom",
+      "capturedAt": "2026-11-18T21:02:31.578Z"
     }
   ]
 }
