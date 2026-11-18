@@ -46504,6 +46504,10 @@
     {
       "id": "b119d8cefd26844b6ccf6c149db32732336ec75e47846c9c528ea485f4593e9f",
       "text": "Just nu: Sveriges första asagravplats invigd"
+    },
+    {
+      "id": "42b1f00479a08220602df1080ec807a3e42f25fad5d518143f436155110e45b7",
+      "text": "Just nu: Norska skidstjärnan avslutar karriären"
     }
   ],
   "captures": [
@@ -116256,6 +116260,12 @@
       "headlineId": "b119d8cefd26844b6ccf6c149db32732336ec75e47846c9c528ea485f4593e9f",
       "articleUrl": "https://www.sverigesradio.se/artikel/sveriges-forsta-begravningsplats-for-asatroende-i-molkom",
       "capturedAt": "2026-11-18T21:02:31.578Z"
+    },
+    {
+      "filename": "1795039364726_0.png",
+      "headlineId": "42b1f00479a08220602df1080ec807a3e42f25fad5d518143f436155110e45b7",
+      "articleUrl": "https://www.sverigesradio.se/artikel/flugstad-ostberg-avslutar-karriaren",
+      "capturedAt": "2026-11-18T22:02:44.726Z"
     }
   ]
 }
