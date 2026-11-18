@@ -46484,6 +46484,10 @@
     {
       "id": "8d61bb14ae61f3073630790bbeedb3e8b9cc6079b1908b254d3bb4d18c65ed2e",
       "text": "Just nu: Lyko har hackats – varnar kunder"
+    },
+    {
+      "id": "869325fe8cfb19515b12e7876c16212ed655082e38a8328d6e4adb4328715dd9",
+      "text": "Just nu: Tågförseningar i hela landet"
     }
   ],
   "captures": [
@@ -116206,6 +116210,12 @@
       "headlineId": "8d61bb14ae61f3073630790bbeedb3e8b9cc6079b1908b254d3bb4d18c65ed2e",
       "articleUrl": "https://www.sverigesradio.se/artikel/lyko-har-hackats-kunduppgifter-har-lackt",
       "capturedAt": "2026-11-18T14:57:40.439Z"
+    },
+    {
+      "filename": "1795015051161_0.png",
+      "headlineId": "869325fe8cfb19515b12e7876c16212ed655082e38a8328d6e4adb4328715dd9",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tagforseningar-i-hela-landet-telefonstrul-hos-trafikverket",
+      "capturedAt": "2026-11-18T15:17:31.161Z"
     }
   ]
 }
