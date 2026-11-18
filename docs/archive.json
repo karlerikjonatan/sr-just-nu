@@ -46472,6 +46472,10 @@
     {
       "id": "496c9aa0d9009a1ab4d17f56d62a981d737c9d8084a8d5c7e067c9d0c2b08ab8",
       "text": "Just nu: Blackstenius saknas i svenska truppen"
+    },
+    {
+      "id": "cdc6199d8afb0648dc2dfa1d3a309494817315579d775c879e56910f782786e1",
+      "text": "Just nu: Körde dyngrak till gudstjänst – döms"
     }
   ],
   "captures": [
@@ -116176,6 +116180,12 @@
       "headlineId": "496c9aa0d9009a1ab4d17f56d62a981d737c9d8084a8d5c7e067c9d0c2b08ab8",
       "articleUrl": "https://www.sverigesradio.se/artikel/blackstenius-saknas-har-ar-svenska-truppen",
       "capturedAt": "2026-11-18T13:17:36.342Z"
+    },
+    {
+      "filename": "1795010250344_0.png",
+      "headlineId": "cdc6199d8afb0648dc2dfa1d3a309494817315579d775c879e56910f782786e1",
+      "articleUrl": "https://www.sverigesradio.se/artikel/hade-3-17-i-promille-pa-vag-till-gudstjanst-doms-for-rattfylla",
+      "capturedAt": "2026-11-18T13:57:30.344Z"
     }
   ]
 }
