@@ -46456,6 +46456,10 @@
     {
       "id": "5adb54fa64a010f37aba195a4385099d767d8fdd61c6344e7377616760fd63a9",
       "text": "Just nu: Par hade döda katter i kylskåp"
+    },
+    {
+      "id": "3f09df3b6c80f0489b50ac037c7eb7a7d9e04b9902fea76586bd88e46896f230",
+      "text": "Just nu: Utredning av Birgitta Ed pausas"
     }
   ],
   "captures": [
@@ -116136,6 +116140,12 @@
       "headlineId": "2f3ba46a6ad45bcc3c82e00c3a5cac75069807579bf793761785c8f24e5b60bc",
       "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-barnmisshandel-skadat-barn-tvangsomhandertas",
       "capturedAt": "2026-11-18T10:07:26.699Z"
+    },
+    {
+      "filename": "1795001845859_0.png",
+      "headlineId": "3f09df3b6c80f0489b50ac037c7eb7a7d9e04b9902fea76586bd88e46896f230",
+      "articleUrl": "https://www.sverigesradio.se/artikel/utredning-av-birgitta-ed-pausas",
+      "capturedAt": "2026-11-18T11:37:25.859Z"
     }
   ]
 }
