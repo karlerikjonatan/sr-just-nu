@@ -46408,6 +46408,10 @@
     {
       "id": "f3a59ffc9fb3657f7b0e1aa3a64edeee4be7085241e59f4a9a66da67e9c1ca62",
       "text": "Just nu: Bil voltat på E4 – en sitter fast"
+    },
+    {
+      "id": "0d28a358cae0033be8d93633cb95396581432f2d4801b47234230b6d684abe19",
+      "text": "Just nu: Bil har voltat på E4 – en sitter fast"
     }
   ],
   "captures": [
@@ -116016,6 +116020,12 @@
       "headlineId": "9b467286e99dac4b29d2519c4b22775b2dc8397aa831d243dbc80de143fe7b3a",
       "articleUrl": "https://www.sverigesradio.se/artikel/person-ranad-i-bostad-i-tenhult-flera-garningsman",
       "capturedAt": "2026-11-18T04:52:32.500Z"
+    },
+    {
+      "filename": "1794979052982_0.png",
+      "headlineId": "0d28a358cae0033be8d93633cb95396581432f2d4801b47234230b6d684abe19",
+      "articleUrl": "https://www.sverigesradio.se/artikel/bil-voltat-pa-e4a-harmanger-en-person-fast-i-bilen",
+      "capturedAt": "2026-11-18T05:17:32.982Z"
     }
   ]
 }
