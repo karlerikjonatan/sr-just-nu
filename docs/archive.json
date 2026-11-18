@@ -46480,6 +46480,10 @@
     {
       "id": "e6fd5c84ad398ee7ca1d6af34ae3817a6cceefec4431b322a11b3657d21cd05b",
       "text": "Just nu: Intagen försökte fly efter krasch"
+    },
+    {
+      "id": "8d61bb14ae61f3073630790bbeedb3e8b9cc6079b1908b254d3bb4d18c65ed2e",
+      "text": "Just nu: Lyko har hackats – varnar kunder"
     }
   ],
   "captures": [
@@ -116196,6 +116200,12 @@
       "headlineId": "e6fd5c84ad398ee7ca1d6af34ae3817a6cceefec4431b322a11b3657d21cd05b",
       "articleUrl": "https://www.sverigesradio.se/artikel/fangtransport-kraschade-intagen-forsokte-fly",
       "capturedAt": "2026-11-18T14:32:44.341Z"
+    },
+    {
+      "filename": "1795013860439_0.png",
+      "headlineId": "8d61bb14ae61f3073630790bbeedb3e8b9cc6079b1908b254d3bb4d18c65ed2e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lyko-har-hackats-kunduppgifter-har-lackt",
+      "capturedAt": "2026-11-18T14:57:40.439Z"
     }
   ]
 }
