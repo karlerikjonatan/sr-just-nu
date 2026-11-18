@@ -46464,6 +46464,10 @@
     {
       "id": "3bbe473306beee9f98baa0cf28f7f1e8f6e71c7949ce316821f3d9a2a664a281",
       "text": "Just nu: Två lastbilar i krock på E6"
+    },
+    {
+      "id": "72c453fb85a97c2d2b7f31a593ecafc8cd70333cf5b68f6aaf2793e85e2fb3d8",
+      "text": "Just nu: Kvinna våldtog väninna på affärsresa"
     }
   ],
   "captures": [
@@ -116156,6 +116160,12 @@
       "headlineId": "3bbe473306beee9f98baa0cf28f7f1e8f6e71c7949ce316821f3d9a2a664a281",
       "articleUrl": "https://www.sverigesradio.se/artikel/lastbilsolycka-pa-e6-utanfor-falkenberg",
       "capturedAt": "2026-11-18T12:32:34.318Z"
+    },
+    {
+      "filename": "1795006357513_0.png",
+      "headlineId": "72c453fb85a97c2d2b7f31a593ecafc8cd70333cf5b68f6aaf2793e85e2fb3d8",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kvinna-fran-landskrona-valdtog-sin-vaninna",
+      "capturedAt": "2026-11-18T12:52:37.513Z"
     }
   ]
 }
