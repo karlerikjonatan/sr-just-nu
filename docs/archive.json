@@ -46476,6 +46476,10 @@
     {
       "id": "cdc6199d8afb0648dc2dfa1d3a309494817315579d775c879e56910f782786e1",
       "text": "Just nu: Körde dyngrak till gudstjänst – döms"
+    },
+    {
+      "id": "e6fd5c84ad398ee7ca1d6af34ae3817a6cceefec4431b322a11b3657d21cd05b",
+      "text": "Just nu: Intagen försökte fly efter krasch"
     }
   ],
   "captures": [
@@ -116186,6 +116190,12 @@
       "headlineId": "cdc6199d8afb0648dc2dfa1d3a309494817315579d775c879e56910f782786e1",
       "articleUrl": "https://www.sverigesradio.se/artikel/hade-3-17-i-promille-pa-vag-till-gudstjanst-doms-for-rattfylla",
       "capturedAt": "2026-11-18T13:57:30.344Z"
+    },
+    {
+      "filename": "1795012364341_0.png",
+      "headlineId": "e6fd5c84ad398ee7ca1d6af34ae3817a6cceefec4431b322a11b3657d21cd05b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/fangtransport-kraschade-intagen-forsokte-fly",
+      "capturedAt": "2026-11-18T14:32:44.341Z"
     }
   ]
 }
