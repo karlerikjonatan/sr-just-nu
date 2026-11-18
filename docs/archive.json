@@ -46444,6 +46444,10 @@
     {
       "id": "59ab67f990b362e15735f9fd78c9738aee147c6712cc8c952515692cea9dd544",
       "text": "Just nu: Bands fast och rånades på krypto"
+    },
+    {
+      "id": "4c85760308562daa911917259f0b0a40dedea16e9b6a80c6ccccb908b16910d6",
+      "text": "Just nu: Överens om nytt kvittningssystem"
     }
   ],
   "captures": [
@@ -116106,6 +116110,12 @@
       "headlineId": "59ab67f990b362e15735f9fd78c9738aee147c6712cc8c952515692cea9dd544",
       "articleUrl": "https://www.sverigesradio.se/artikel/person-ranad-i-bostad-i-tenhult-flera-garningsman",
       "capturedAt": "2026-11-18T09:07:31.955Z"
+    },
+    {
+      "filename": "1794993461213_0.png",
+      "headlineId": "4c85760308562daa911917259f0b0a40dedea16e9b6a80c6ccccb908b16910d6",
+      "articleUrl": "https://www.sverigesradio.se/artikel/alla-partier-overens-om-nytt-kvittningssystem",
+      "capturedAt": "2026-11-18T09:17:41.213Z"
     }
   ]
 }
