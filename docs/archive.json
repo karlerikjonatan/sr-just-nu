@@ -46488,6 +46488,10 @@
     {
       "id": "869325fe8cfb19515b12e7876c16212ed655082e38a8328d6e4adb4328715dd9",
       "text": "Just nu: Tågförseningar i hela landet"
+    },
+    {
+      "id": "a0034c3f9c22ad52c3041d5bcead2ccc9f3bf7714db346b094ea7249e2e0bea2",
+      "text": "Just nu: Finsk-ryska vargen får leva"
     }
   ],
   "captures": [
@@ -116216,6 +116220,12 @@
       "headlineId": "869325fe8cfb19515b12e7876c16212ed655082e38a8328d6e4adb4328715dd9",
       "articleUrl": "https://www.sverigesradio.se/artikel/tagforseningar-i-hela-landet-telefonstrul-hos-trafikverket",
       "capturedAt": "2026-11-18T15:17:31.161Z"
+    },
+    {
+      "filename": "1795025255694_0.png",
+      "headlineId": "a0034c3f9c22ad52c3041d5bcead2ccc9f3bf7714db346b094ea7249e2e0bea2",
+      "articleUrl": "https://www.sverigesradio.se/artikel/fem-far-dodade-genetiskt-viktig-varg-far-inte-skjutas",
+      "capturedAt": "2026-11-18T18:07:35.694Z"
     }
   ]
 }
