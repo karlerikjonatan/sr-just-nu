@@ -46424,6 +46424,10 @@
     {
       "id": "82370734db9d5bc745a970fedda45a277aed2591aaafc685566a66ed6f07747b",
       "text": "Just nu: Stor brand på Stena Recycling"
+    },
+    {
+      "id": "11434a2a4066d22cd9d8450d64d37e91da953570658f35a272ef3c4b6e1513d4",
+      "text": "Just nu: Lägenhetsbrand i Kungsängen"
     }
   ],
   "captures": [
@@ -116056,6 +116060,12 @@
       "headlineId": "82370734db9d5bc745a970fedda45a277aed2591aaafc685566a66ed6f07747b",
       "articleUrl": "https://www.sverigesradio.se/artikel/stor-brand-pa-stena-recycling-ej-under-kontroll",
       "capturedAt": "2026-11-18T06:12:33.526Z"
+    },
+    {
+      "filename": "1794985650771_0.png",
+      "headlineId": "11434a2a4066d22cd9d8450d64d37e91da953570658f35a272ef3c4b6e1513d4",
+      "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-lagenhetsbrand-i-kungsangen",
+      "capturedAt": "2026-11-18T07:07:30.771Z"
     }
   ]
 }
