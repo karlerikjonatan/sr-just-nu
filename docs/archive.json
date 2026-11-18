@@ -46420,6 +46420,10 @@
     {
       "id": "1f3adcf63f11778e7cc150b0a52eb245476dadc1f981c5a9d6e8e2d66caaf641",
       "text": "Just nu: Det är årets julkapp"
+    },
+    {
+      "id": "82370734db9d5bc745a970fedda45a277aed2591aaafc685566a66ed6f07747b",
+      "text": "Just nu: Stor brand på Stena Recycling"
     }
   ],
   "captures": [
@@ -116046,6 +116050,12 @@
       "headlineId": "1f3adcf63f11778e7cc150b0a52eb245476dadc1f981c5a9d6e8e2d66caaf641",
       "articleUrl": "https://www.sverigesradio.se/artikel/blev-arets-julklapp",
       "capturedAt": "2026-11-18T06:02:33.988Z"
+    },
+    {
+      "filename": "1794982353526_0.png",
+      "headlineId": "82370734db9d5bc745a970fedda45a277aed2591aaafc685566a66ed6f07747b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/stor-brand-pa-stena-recycling-ej-under-kontroll",
+      "capturedAt": "2026-11-18T06:12:33.526Z"
     }
   ]
 }
