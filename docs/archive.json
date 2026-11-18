@@ -46492,6 +46492,10 @@
     {
       "id": "a0034c3f9c22ad52c3041d5bcead2ccc9f3bf7714db346b094ea7249e2e0bea2",
       "text": "Just nu: Finsk-ryska vargen får leva"
+    },
+    {
+      "id": "8656a437f11ef6ba05faa19b3dc47999e5e08514f68087f42bec767799d24348",
+      "text": "Just nu: Barn och två vuxna döda på Jylland"
     }
   ],
   "captures": [
@@ -116226,6 +116230,12 @@
       "headlineId": "a0034c3f9c22ad52c3041d5bcead2ccc9f3bf7714db346b094ea7249e2e0bea2",
       "articleUrl": "https://www.sverigesradio.se/artikel/fem-far-dodade-genetiskt-viktig-varg-far-inte-skjutas",
       "capturedAt": "2026-11-18T18:07:35.694Z"
+    },
+    {
+      "filename": "1795027360972_0.png",
+      "headlineId": "8656a437f11ef6ba05faa19b3dc47999e5e08514f68087f42bec767799d24348",
+      "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-mord-i-danmark-tva-vuxna-och-ett-barn-doda",
+      "capturedAt": "2026-11-18T18:42:40.972Z"
     }
   ]
 }
