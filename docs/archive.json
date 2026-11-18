@@ -46448,6 +46448,14 @@
     {
       "id": "4c85760308562daa911917259f0b0a40dedea16e9b6a80c6ccccb908b16910d6",
       "text": "Just nu: Överens om nytt kvittningssystem"
+    },
+    {
+      "id": "2f3ba46a6ad45bcc3c82e00c3a5cac75069807579bf793761785c8f24e5b60bc",
+      "text": "Just nu: Spädbarn tvångsomhändertas"
+    },
+    {
+      "id": "5adb54fa64a010f37aba195a4385099d767d8fdd61c6344e7377616760fd63a9",
+      "text": "Just nu: Par hade döda katter i kylskåp"
     }
   ],
   "captures": [
@@ -116116,6 +116124,18 @@
       "headlineId": "4c85760308562daa911917259f0b0a40dedea16e9b6a80c6ccccb908b16910d6",
       "articleUrl": "https://www.sverigesradio.se/artikel/alla-partier-overens-om-nytt-kvittningssystem",
       "capturedAt": "2026-11-18T09:17:41.213Z"
+    },
+    {
+      "filename": "1794996446699_0.png",
+      "headlineId": "5adb54fa64a010f37aba195a4385099d767d8fdd61c6344e7377616760fd63a9",
+      "articleUrl": "https://www.sverigesradio.se/artikel/makabra-upptackten-tio-doda-katter-i-kylskap",
+      "capturedAt": "2026-11-18T10:07:26.699Z"
+    },
+    {
+      "filename": "1794996446699_1.png",
+      "headlineId": "2f3ba46a6ad45bcc3c82e00c3a5cac75069807579bf793761785c8f24e5b60bc",
+      "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-barnmisshandel-skadat-barn-tvangsomhandertas",
+      "capturedAt": "2026-11-18T10:07:26.699Z"
     }
   ]
 }
