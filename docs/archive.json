@@ -46436,6 +46436,10 @@
     {
       "id": "9c857c4191c5745c33ba4afc532425e0eea66445e549221ff855bbabe3a9d9c5",
       "text": "Just nu: Buss i brand utanför Göteborg"
+    },
+    {
+      "id": "27d64caa4a2559b4dc3bca347b5db6750d8177e77bcc6e18806d527a12e463c8",
+      "text": "Just nu: Åtal för misstänkt bebismord"
     }
   ],
   "captures": [
@@ -116086,6 +116090,12 @@
       "headlineId": "9c857c4191c5745c33ba4afc532425e0eea66445e549221ff855bbabe3a9d9c5",
       "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-buss-i-brand-vid-delsjomotet",
       "capturedAt": "2026-11-18T08:17:29.330Z"
+    },
+    {
+      "filename": "1794991668630_0.png",
+      "headlineId": "27d64caa4a2559b4dc3bca347b5db6750d8177e77bcc6e18806d527a12e463c8",
+      "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-mamma-misstanks-ha-dodat-sin-bebis",
+      "capturedAt": "2026-11-18T08:47:48.630Z"
     }
   ]
 }
