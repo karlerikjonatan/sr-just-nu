@@ -46460,6 +46460,10 @@
     {
       "id": "3f09df3b6c80f0489b50ac037c7eb7a7d9e04b9902fea76586bd88e46896f230",
       "text": "Just nu: Utredning av Birgitta Ed pausas"
+    },
+    {
+      "id": "3bbe473306beee9f98baa0cf28f7f1e8f6e71c7949ce316821f3d9a2a664a281",
+      "text": "Just nu: Två lastbilar i krock på E6"
     }
   ],
   "captures": [
@@ -116146,6 +116150,12 @@
       "headlineId": "3f09df3b6c80f0489b50ac037c7eb7a7d9e04b9902fea76586bd88e46896f230",
       "articleUrl": "https://www.sverigesradio.se/artikel/utredning-av-birgitta-ed-pausas",
       "capturedAt": "2026-11-18T11:37:25.859Z"
+    },
+    {
+      "filename": "1795005154318_0.png",
+      "headlineId": "3bbe473306beee9f98baa0cf28f7f1e8f6e71c7949ce316821f3d9a2a664a281",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lastbilsolycka-pa-e6-utanfor-falkenberg",
+      "capturedAt": "2026-11-18T12:32:34.318Z"
     }
   ]
 }
