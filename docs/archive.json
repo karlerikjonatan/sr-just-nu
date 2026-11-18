@@ -46440,6 +46440,10 @@
     {
       "id": "27d64caa4a2559b4dc3bca347b5db6750d8177e77bcc6e18806d527a12e463c8",
       "text": "Just nu: Åtal för misstänkt bebismord"
+    },
+    {
+      "id": "59ab67f990b362e15735f9fd78c9738aee147c6712cc8c952515692cea9dd544",
+      "text": "Just nu: Bands fast och rånades på krypto"
     }
   ],
   "captures": [
@@ -116096,6 +116100,12 @@
       "headlineId": "27d64caa4a2559b4dc3bca347b5db6750d8177e77bcc6e18806d527a12e463c8",
       "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-mamma-misstanks-ha-dodat-sin-bebis",
       "capturedAt": "2026-11-18T08:47:48.630Z"
+    },
+    {
+      "filename": "1794992851955_0.png",
+      "headlineId": "59ab67f990b362e15735f9fd78c9738aee147c6712cc8c952515692cea9dd544",
+      "articleUrl": "https://www.sverigesradio.se/artikel/person-ranad-i-bostad-i-tenhult-flera-garningsman",
+      "capturedAt": "2026-11-18T09:07:31.955Z"
     }
   ]
 }
