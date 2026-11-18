@@ -46496,6 +46496,10 @@
     {
       "id": "8656a437f11ef6ba05faa19b3dc47999e5e08514f68087f42bec767799d24348",
       "text": "Just nu: Barn och två vuxna döda på Jylland"
+    },
+    {
+      "id": "a1d41875b0e3de25ff038d28bc0df15f3327fc2ac21405c403ea36962a86ba15",
+      "text": "Just nu: Frontalkrock i Borås"
     }
   ],
   "captures": [
@@ -116236,6 +116240,12 @@
       "headlineId": "8656a437f11ef6ba05faa19b3dc47999e5e08514f68087f42bec767799d24348",
       "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-mord-i-danmark-tva-vuxna-och-ett-barn-doda",
       "capturedAt": "2026-11-18T18:42:40.972Z"
+    },
+    {
+      "filename": "1795031563832_0.png",
+      "headlineId": "a1d41875b0e3de25ff038d28bc0df15f3327fc2ac21405c403ea36962a86ba15",
+      "articleUrl": "https://www.sverigesradio.se/artikel/frontalkrock-pa-riksvag-41-i-boras",
+      "capturedAt": "2026-11-18T19:52:43.832Z"
     }
   ]
 }
