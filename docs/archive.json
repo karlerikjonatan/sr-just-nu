@@ -46400,6 +46400,14 @@
     {
       "id": "655e387acc93be9fec3c50239eb067a110fdb4fe6645c1cdaa3412f0a639b6f5",
       "text": "Just nu: Sverige obesegrat i Nations League"
+    },
+    {
+      "id": "9b467286e99dac4b29d2519c4b22775b2dc8397aa831d243dbc80de143fe7b3a",
+      "text": "Just nu: Person rånades i bostad"
+    },
+    {
+      "id": "f3a59ffc9fb3657f7b0e1aa3a64edeee4be7085241e59f4a9a66da67e9c1ca62",
+      "text": "Just nu: Bil voltat på E4 – en sitter fast"
     }
   ],
   "captures": [
@@ -115996,6 +116004,18 @@
       "headlineId": "655e387acc93be9fec3c50239eb067a110fdb4fe6645c1cdaa3412f0a639b6f5",
       "articleUrl": "https://www.sverigesradio.se/artikel/sverige-gar-obesegrat-i-nations-league-efter-kryss-mot-polen",
       "capturedAt": "2026-11-17T21:42:33.880Z"
+    },
+    {
+      "filename": "1794977552500_0.png",
+      "headlineId": "f3a59ffc9fb3657f7b0e1aa3a64edeee4be7085241e59f4a9a66da67e9c1ca62",
+      "articleUrl": "https://www.sverigesradio.se/artikel/bil-voltat-pa-e4a-harmanger-en-person-fast-i-bilen",
+      "capturedAt": "2026-11-18T04:52:32.500Z"
+    },
+    {
+      "filename": "1794977552500_1.png",
+      "headlineId": "9b467286e99dac4b29d2519c4b22775b2dc8397aa831d243dbc80de143fe7b3a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/person-ranad-i-bostad-i-tenhult-flera-garningsman",
+      "capturedAt": "2026-11-18T04:52:32.500Z"
     }
   ]
 }
