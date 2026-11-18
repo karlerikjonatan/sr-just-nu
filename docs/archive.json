@@ -46416,6 +46416,10 @@
     {
       "id": "9682a251d63319050387db8bbdf7ab14dab99277419e2a1a53b78e51e5b19c3a",
       "text": "Just nu: Explosion vid flerfamiljshus i Helsingborg"
+    },
+    {
+      "id": "1f3adcf63f11778e7cc150b0a52eb245476dadc1f981c5a9d6e8e2d66caaf641",
+      "text": "Just nu: Det är årets julkapp"
     }
   ],
   "captures": [
@@ -116036,6 +116040,12 @@
       "headlineId": "9682a251d63319050387db8bbdf7ab14dab99277419e2a1a53b78e51e5b19c3a",
       "articleUrl": "https://www.sverigesradio.se/artikel/explosion-vid-flerfamiljshus-misstankt-fyrverkeripjas",
       "capturedAt": "2026-11-18T05:57:26.991Z"
+    },
+    {
+      "filename": "1794981753988_0.png",
+      "headlineId": "1f3adcf63f11778e7cc150b0a52eb245476dadc1f981c5a9d6e8e2d66caaf641",
+      "articleUrl": "https://www.sverigesradio.se/artikel/blev-arets-julklapp",
+      "capturedAt": "2026-11-18T06:02:33.988Z"
     }
   ]
 }
