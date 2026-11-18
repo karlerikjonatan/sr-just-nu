@@ -46432,6 +46432,10 @@
     {
       "id": "59cb5ad853afaff1635ebd0bdbabc301266e36d11957c99d60a1a275997be441",
       "text": "Just nu: Brist på vaccin mot lunginflammation"
+    },
+    {
+      "id": "9c857c4191c5745c33ba4afc532425e0eea66445e549221ff855bbabe3a9d9c5",
+      "text": "Just nu: Buss i brand utanför Göteborg"
     }
   ],
   "captures": [
@@ -116076,6 +116080,12 @@
       "headlineId": "59cb5ad853afaff1635ebd0bdbabc301266e36d11957c99d60a1a275997be441",
       "articleUrl": "https://www.sverigesradio.se/artikel/brist-pa-vaccin-mot-lunginflammation-aven-i-region-uppsala",
       "capturedAt": "2026-11-18T07:37:38.593Z"
+    },
+    {
+      "filename": "1794989849330_0.png",
+      "headlineId": "9c857c4191c5745c33ba4afc532425e0eea66445e549221ff855bbabe3a9d9c5",
+      "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-buss-i-brand-vid-delsjomotet",
+      "capturedAt": "2026-11-18T08:17:29.330Z"
     }
   ]
 }
