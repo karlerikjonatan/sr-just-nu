@@ -46600,6 +46600,10 @@
     {
       "id": "e72198081c8a63d89f1782c5c5f69c01cafded2e502692b65e71b2a1b9eb03dc",
       "text": "Just nu: Explosion nära Sveriges ambassad"
+    },
+    {
+      "id": "537021e0f956e34a5641db26f01fc4e4852d18eba29ab9952bbcb235ad96cd6c",
+      "text": "Just nu: Olycka vid Krokek – fyra till sjukhus"
     }
   ],
   "captures": [
@@ -116496,6 +116500,12 @@
       "headlineId": "e72198081c8a63d89f1782c5c5f69c01cafded2e502692b65e71b2a1b9eb03dc",
       "articleUrl": "https://www.sverigesradio.se/artikel/explosion-nara-sveriges-ambassad-i-kyjiv-personal-saker",
       "capturedAt": "2026-11-19T19:07:32.785Z"
+    },
+    {
+      "filename": "1795117352169_0.png",
+      "headlineId": "537021e0f956e34a5641db26f01fc4e4852d18eba29ab9952bbcb235ad96cd6c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/fyra-till-sjukhus-i-ambulans-efter-bilolycka",
+      "capturedAt": "2026-11-19T19:42:32.169Z"
     }
   ]
 }
