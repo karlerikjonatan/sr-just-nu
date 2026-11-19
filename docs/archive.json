@@ -46532,6 +46532,10 @@
     {
       "id": "abe7285426414c0dcc242854a281b96d792f49cb7b74d07307b1329690bede22",
       "text": "Just nu: Misstänkt mord i Enköping – en gripen"
+    },
+    {
+      "id": "92846399ab08607742687ddfb5e84fe6ad24f54d843e8819b47d4a4cba3ae7da",
+      "text": "Just nu: De kan prisas på P3 Guld"
     }
   ],
   "captures": [
@@ -116326,6 +116330,12 @@
       "headlineId": "abe7285426414c0dcc242854a281b96d792f49cb7b74d07307b1329690bede22",
       "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-misstankt-mord-pa-kvinna-man-gripen",
       "capturedAt": "2026-11-19T07:02:35.494Z"
+    },
+    {
+      "filename": "1795072052198_0.png",
+      "headlineId": "92846399ab08607742687ddfb5e84fe6ad24f54d843e8819b47d4a4cba3ae7da",
+      "articleUrl": "https://www.sverigesradio.se/artikel/artisterna-som-kan-prisas-pa-p3-guld",
+      "capturedAt": "2026-11-19T07:07:32.198Z"
     }
   ]
 }
