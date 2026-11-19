@@ -46596,6 +46596,10 @@
     {
       "id": "87078f1fed8435be19c8e94db0014a6afb4764afcd1505eb1066e44eada24133",
       "text": "Just nu: Sveriges dyraste tavla såld"
+    },
+    {
+      "id": "e72198081c8a63d89f1782c5c5f69c01cafded2e502692b65e71b2a1b9eb03dc",
+      "text": "Just nu: Explosion nära Sveriges ambassad"
     }
   ],
   "captures": [
@@ -116486,6 +116490,12 @@
       "headlineId": "87078f1fed8435be19c8e94db0014a6afb4764afcd1505eb1066e44eada24133",
       "articleUrl": "https://www.sverigesradio.se/artikel/hilma-af-klint-malning-sald-blev-sveriges-dyraste-tavla",
       "capturedAt": "2026-11-19T18:52:37.038Z"
+    },
+    {
+      "filename": "1795115252785_0.png",
+      "headlineId": "e72198081c8a63d89f1782c5c5f69c01cafded2e502692b65e71b2a1b9eb03dc",
+      "articleUrl": "https://www.sverigesradio.se/artikel/explosion-nara-sveriges-ambassad-i-kyjiv-personal-saker",
+      "capturedAt": "2026-11-19T19:07:32.785Z"
     }
   ]
 }
