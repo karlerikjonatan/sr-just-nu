@@ -46608,6 +46608,10 @@
     {
       "id": "27423fba2cab0a15a75e2bfc1e0acf4454b065cdea4ac666b4198b4286d1a314",
       "text": "Just nu: Krock utanför Norrköping – fyra till sjukhus"
+    },
+    {
+      "id": "e82c967a0fe6311558b590661973f424dc41a593e28ee945c9ed8995aadb3440",
+      "text": "Just nu: Äldre man död efter brand i radhus"
     }
   ],
   "captures": [
@@ -116516,6 +116520,12 @@
       "headlineId": "27423fba2cab0a15a75e2bfc1e0acf4454b065cdea4ac666b4198b4286d1a314",
       "articleUrl": "https://www.sverigesradio.se/artikel/fyra-till-sjukhus-i-ambulans-efter-bilolycka",
       "capturedAt": "2026-11-19T20:02:30.706Z"
+    },
+    {
+      "filename": "1795119447154_0.png",
+      "headlineId": "e82c967a0fe6311558b590661973f424dc41a593e28ee945c9ed8995aadb3440",
+      "articleUrl": "https://www.sverigesradio.se/artikel/person-dod-efter-brand-i-hillerstorp",
+      "capturedAt": "2026-11-19T20:17:27.154Z"
     }
   ]
 }
