@@ -46524,6 +46524,10 @@
     {
       "id": "8c09191eba5440e80fbabc2b8fc4ba23f55e034367a29008e73272c054b76199",
       "text": "Just nu: Van Gogh-tavla gick för rekordbelopp"
+    },
+    {
+      "id": "fcb3b4eac16310d37474f867f98d08903bd33891b7b3c726b518c6a77155930f",
+      "text": "Just nu: Då kan bensinmacken stå tom"
     }
   ],
   "captures": [
@@ -116306,6 +116310,12 @@
       "headlineId": "8c09191eba5440e80fbabc2b8fc4ba23f55e034367a29008e73272c054b76199",
       "articleUrl": "https://www.sverigesradio.se/artikel/van-gogh-tavla-sald-for-uppemot-tva-miljarder",
       "capturedAt": "2026-11-19T04:17:29.302Z"
+    },
+    {
+      "filename": "1795071451306_0.png",
+      "headlineId": "fcb3b4eac16310d37474f867f98d08903bd33891b7b3c726b518c6a77155930f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/bensin-och-diesel-blir-dyrare-risk-for-koer-vid-mackar",
+      "capturedAt": "2026-11-19T06:57:31.306Z"
     }
   ]
 }
