@@ -46548,6 +46548,10 @@
     {
       "id": "80aee0e836e4aaf65a377d2a96cceed3aa465f32ced2d0bd18b149e82e0453da",
       "text": "Just nu: Streamingtjänst läggs ned"
+    },
+    {
+      "id": "618e3ad2b3f3620242f3afb72bc41db8ce575e180bfeaa56042119368bc1f7dd",
+      "text": "Just nu: Volvo döms till böter på 23 miljoner"
     }
   ],
   "captures": [
@@ -116366,6 +116370,12 @@
       "headlineId": "80aee0e836e4aaf65a377d2a96cceed3aa465f32ced2d0bd18b149e82e0453da",
       "articleUrl": "https://www.sverigesradio.se/artikel/skyshowtime-lagger-ner",
       "capturedAt": "2026-11-19T07:42:31.462Z"
+    },
+    {
+      "filename": "1795075351045_0.png",
+      "headlineId": "618e3ad2b3f3620242f3afb72bc41db8ce575e180bfeaa56042119368bc1f7dd",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-klamdes-pa-volvo-ska-bota-23-miljoner",
+      "capturedAt": "2026-11-19T08:02:31.045Z"
     }
   ]
 }
