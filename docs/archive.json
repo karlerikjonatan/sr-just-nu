@@ -46556,6 +46556,10 @@
     {
       "id": "e6d72b199f4b627452a95ee4f45d4774d128bb6138bc15a42659fd443869aacb",
       "text": "Just nu: Man död i olycka utanför Vimmerby"
+    },
+    {
+      "id": "be259c0703207d53a4bf1fb81d605b65d0438d0607c3af0d59cea32e581a54ad",
+      "text": "Just nu: Tåg stoppat av polis – evakuerades"
     }
   ],
   "captures": [
@@ -116386,6 +116390,12 @@
       "headlineId": "e6d72b199f4b627452a95ee4f45d4774d128bb6138bc15a42659fd443869aacb",
       "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-ung-man-dod-efter-olycka",
       "capturedAt": "2026-11-19T10:27:42.304Z"
+    },
+    {
+      "filename": "1795084352133_0.png",
+      "headlineId": "be259c0703207d53a4bf1fb81d605b65d0438d0607c3af0d59cea32e581a54ad",
+      "articleUrl": "https://www.sverigesradio.se/artikel/stockholmstag-stoppades-av-polis-resenarer-evakuerades",
+      "capturedAt": "2026-11-19T10:32:32.133Z"
     }
   ]
 }
