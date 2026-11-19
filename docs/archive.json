@@ -46620,6 +46620,10 @@
     {
       "id": "0536ea67fda078d090e13a55e58f4c97f9f262e7e581371aa0e4437073049033",
       "text": "Just nu: Lastbil ligger tvärs över E20"
+    },
+    {
+      "id": "53d1b35baa115a83d92816967aa0c5ded8f449d26e636054102be6124245fd24",
+      "text": "Just nu: Kända flodhästen död – åt mössa"
     }
   ],
   "captures": [
@@ -116546,6 +116550,12 @@
       "headlineId": "0536ea67fda078d090e13a55e58f4c97f9f262e7e581371aa0e4437073049033",
       "articleUrl": "https://www.sverigesradio.se/artikel/lastbil-ligger-over-hela-e20",
       "capturedAt": "2026-11-19T21:27:27.850Z"
+    },
+    {
+      "filename": "1795125449745_0.png",
+      "headlineId": "53d1b35baa115a83d92816967aa0c5ded8f449d26e636054102be6124245fd24",
+      "articleUrl": "https://www.sverigesradio.se/artikel/den-kanda-flodhasten-fiona-dod-at-mossa",
+      "capturedAt": "2026-11-19T21:57:29.745Z"
     }
   ]
 }
