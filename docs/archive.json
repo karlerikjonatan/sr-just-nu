@@ -46528,6 +46528,10 @@
     {
       "id": "fcb3b4eac16310d37474f867f98d08903bd33891b7b3c726b518c6a77155930f",
       "text": "Just nu: Då kan bensinmacken stå tom"
+    },
+    {
+      "id": "abe7285426414c0dcc242854a281b96d792f49cb7b74d07307b1329690bede22",
+      "text": "Just nu: Misstänkt mord i Enköping – en gripen"
     }
   ],
   "captures": [
@@ -116316,6 +116320,12 @@
       "headlineId": "fcb3b4eac16310d37474f867f98d08903bd33891b7b3c726b518c6a77155930f",
       "articleUrl": "https://www.sverigesradio.se/artikel/bensin-och-diesel-blir-dyrare-risk-for-koer-vid-mackar",
       "capturedAt": "2026-11-19T06:57:31.306Z"
+    },
+    {
+      "filename": "1795071755494_0.png",
+      "headlineId": "abe7285426414c0dcc242854a281b96d792f49cb7b74d07307b1329690bede22",
+      "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-misstankt-mord-pa-kvinna-man-gripen",
+      "capturedAt": "2026-11-19T07:02:35.494Z"
     }
   ]
 }
