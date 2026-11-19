@@ -46520,6 +46520,10 @@
     {
       "id": "7bad9067cf41b1ee24dfba5e8d8bb6cb451456c416110ecfc5cd5d284ce657a2",
       "text": "Just nu: Van Gogh-tavla såld rekordbelopp"
+    },
+    {
+      "id": "8c09191eba5440e80fbabc2b8fc4ba23f55e034367a29008e73272c054b76199",
+      "text": "Just nu: Van Gogh-tavla gick för rekordbelopp"
     }
   ],
   "captures": [
@@ -116296,6 +116300,12 @@
       "headlineId": "7bad9067cf41b1ee24dfba5e8d8bb6cb451456c416110ecfc5cd5d284ce657a2",
       "articleUrl": "https://www.sverigesradio.se/artikel/van-gogh-tavla-sald-for-uppemot-tva-miljarder",
       "capturedAt": "2026-11-19T04:07:31.856Z"
+    },
+    {
+      "filename": "1795061849302_0.png",
+      "headlineId": "8c09191eba5440e80fbabc2b8fc4ba23f55e034367a29008e73272c054b76199",
+      "articleUrl": "https://www.sverigesradio.se/artikel/van-gogh-tavla-sald-for-uppemot-tva-miljarder",
+      "capturedAt": "2026-11-19T04:17:29.302Z"
     }
   ]
 }
