@@ -46588,6 +46588,10 @@
     {
       "id": "5edd73d9ccd94f007da2d36e435ede47fc62ffcf59d6374f84fc2a18cf6157f7",
       "text": "Just nu: Anthropic rusar i börsdebuten"
+    },
+    {
+      "id": "0889622ad03531517cc8602bc336c15e208eff9bcf61c1c57cb7473c340cf4ca",
+      "text": "Just nu: Dataläcka hos taxibolag"
     }
   ],
   "captures": [
@@ -116466,6 +116470,12 @@
       "headlineId": "5edd73d9ccd94f007da2d36e435ede47fc62ffcf59d6374f84fc2a18cf6157f7",
       "articleUrl": "https://www.sverigesradio.se/artikel/ai-jatten-anthropic-rusar",
       "capturedAt": "2026-11-19T17:37:28.022Z"
+    },
+    {
+      "filename": "1795112553999_0.png",
+      "headlineId": "0889622ad03531517cc8602bc336c15e208eff9bcf61c1c57cb7473c340cf4ca",
+      "articleUrl": "https://www.sverigesradio.se/artikel/dataintrang-hos-cabonline-kunduppgifter-lackta",
+      "capturedAt": "2026-11-19T18:22:33.999Z"
     }
   ]
 }
