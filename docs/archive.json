@@ -46564,6 +46564,10 @@
     {
       "id": "fb9a421d1481ab113d614931f3ad9f82e579a8881189b4bdeeecbeddd410844c",
       "text": "Just nu: Säger ja till ryska skidåkare"
+    },
+    {
+      "id": "0d1c95bdecbe71a3f047b15e1ea9590168ae788c07e13ffade4479f7ca40169c",
+      "text": "Just nu: Polisinsats i Borås"
     }
   ],
   "captures": [
@@ -116406,6 +116410,12 @@
       "headlineId": "fb9a421d1481ab113d614931f3ad9f82e579a8881189b4bdeeecbeddd410844c",
       "articleUrl": "https://www.sverigesradio.se/artikel/schweiz-sager-ja-till-ryska-skidakare",
       "capturedAt": "2026-11-19T11:17:42.707Z"
+    },
+    {
+      "filename": "1795089757158_0.png",
+      "headlineId": "0d1c95bdecbe71a3f047b15e1ea9590168ae788c07e13ffade4479f7ca40169c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-stort-polispadrag-pa-norrby",
+      "capturedAt": "2026-11-19T12:02:37.158Z"
     }
   ]
 }
