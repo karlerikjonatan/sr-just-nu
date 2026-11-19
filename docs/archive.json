@@ -46576,6 +46576,10 @@
     {
       "id": "eef4018a1e6f15f24709c56e3331276675c2ff8ac512fa0b45be967e506e5257",
       "text": "Just nu: 80-våningsskyskrapa träffad i Riyadh"
+    },
+    {
+      "id": "16013e21c7d26b3787e05cb64004288e65f7aac212d49a11115a8264a956b9e5",
+      "text": "Just nu: AI-jätten rusar över 30 procent"
     }
   ],
   "captures": [
@@ -116436,6 +116440,12 @@
       "headlineId": "eef4018a1e6f15f24709c56e3331276675c2ff8ac512fa0b45be967e506e5257",
       "articleUrl": "https://www.sverigesradio.se/artikel/skyskrapa-attackerad-i-saudiarabien",
       "capturedAt": "2026-11-19T16:27:29.404Z"
+    },
+    {
+      "filename": "1795107452559_0.png",
+      "headlineId": "16013e21c7d26b3787e05cb64004288e65f7aac212d49a11115a8264a956b9e5",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ai-jatten-anthropic-rusar",
+      "capturedAt": "2026-11-19T16:57:32.559Z"
     }
   ]
 }
