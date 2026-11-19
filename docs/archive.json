@@ -46560,6 +46560,10 @@
     {
       "id": "be259c0703207d53a4bf1fb81d605b65d0438d0607c3af0d59cea32e581a54ad",
       "text": "Just nu: Tåg stoppat av polis – evakuerades"
+    },
+    {
+      "id": "fb9a421d1481ab113d614931f3ad9f82e579a8881189b4bdeeecbeddd410844c",
+      "text": "Just nu: Säger ja till ryska skidåkare"
     }
   ],
   "captures": [
@@ -116396,6 +116400,12 @@
       "headlineId": "be259c0703207d53a4bf1fb81d605b65d0438d0607c3af0d59cea32e581a54ad",
       "articleUrl": "https://www.sverigesradio.se/artikel/stockholmstag-stoppades-av-polis-resenarer-evakuerades",
       "capturedAt": "2026-11-19T10:32:32.133Z"
+    },
+    {
+      "filename": "1795087062707_0.png",
+      "headlineId": "fb9a421d1481ab113d614931f3ad9f82e579a8881189b4bdeeecbeddd410844c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/schweiz-sager-ja-till-ryska-skidakare",
+      "capturedAt": "2026-11-19T11:17:42.707Z"
     }
   ]
 }
