@@ -46612,6 +46612,10 @@
     {
       "id": "e82c967a0fe6311558b590661973f424dc41a593e28ee945c9ed8995aadb3440",
       "text": "Just nu: Äldre man död efter brand i radhus"
+    },
+    {
+      "id": "42f350c25929fdfe9720b3fec6306027a93b67a247c512294602f8336599c050",
+      "text": "Just nu: Buss och lastbil i krock"
     }
   ],
   "captures": [
@@ -116526,6 +116530,12 @@
       "headlineId": "e82c967a0fe6311558b590661973f424dc41a593e28ee945c9ed8995aadb3440",
       "articleUrl": "https://www.sverigesradio.se/artikel/person-dod-efter-brand-i-hillerstorp",
       "capturedAt": "2026-11-19T20:17:27.154Z"
+    },
+    {
+      "filename": "1795121248196_0.png",
+      "headlineId": "42f350c25929fdfe9720b3fec6306027a93b67a247c512294602f8336599c050",
+      "articleUrl": "https://www.sverigesradio.se/artikel/buss-och-lastbil-krockade-i-halkan-sju-personer-inblandade",
+      "capturedAt": "2026-11-19T20:47:28.196Z"
     }
   ]
 }
