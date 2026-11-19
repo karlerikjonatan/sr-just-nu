@@ -46512,6 +46512,10 @@
     {
       "id": "ca0e4d234d58e36f63a11aed2d807981c26a6a1f3dd0abae07a633800630c300",
       "text": "Just nu: Krimbron attackerad igen"
+    },
+    {
+      "id": "fdabdb58e393aa4f1a83bdb93e9285d0f86b0c73496eb37c0b127cb531d52ddf",
+      "text": "Just nu: 11 000 strömlösa i Norrköping"
     }
   ],
   "captures": [
@@ -116276,6 +116280,12 @@
       "headlineId": "ca0e4d234d58e36f63a11aed2d807981c26a6a1f3dd0abae07a633800630c300",
       "articleUrl": "https://www.sverigesradio.se/artikel/krymbron-attackerad-igen",
       "capturedAt": "2026-11-19T01:17:35.072Z"
+    },
+    {
+      "filename": "1795059757087_0.png",
+      "headlineId": "fdabdb58e393aa4f1a83bdb93e9285d0f86b0c73496eb37c0b127cb531d52ddf",
+      "articleUrl": "https://www.sverigesradio.se/artikel/11000-utan-strom-i-norrkoping",
+      "capturedAt": "2026-11-19T03:42:37.087Z"
     }
   ]
 }
