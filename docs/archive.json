@@ -46568,6 +46568,10 @@
     {
       "id": "0d1c95bdecbe71a3f047b15e1ea9590168ae788c07e13ffade4479f7ca40169c",
       "text": "Just nu: Polisinsats i Borås"
+    },
+    {
+      "id": "415817356fbdc6e82d8acdb440bddc920b7f16e23dd88bbd594ed0d41291f624",
+      "text": "Just nu: SVT-profilen anmäler SVT"
     }
   ],
   "captures": [
@@ -116416,6 +116420,12 @@
       "headlineId": "0d1c95bdecbe71a3f047b15e1ea9590168ae788c07e13ffade4479f7ca40169c",
       "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-stort-polispadrag-pa-norrby",
       "capturedAt": "2026-11-19T12:02:37.158Z"
+    },
+    {
+      "filename": "1795091848570_0.png",
+      "headlineId": "415817356fbdc6e82d8acdb440bddc920b7f16e23dd88bbd594ed0d41291f624",
+      "articleUrl": "https://www.sverigesradio.se/artikel/carina-bergfeldt-anmaler-svt-efter-kritik-mot-hennes-serie",
+      "capturedAt": "2026-11-19T12:37:28.570Z"
     }
   ]
 }
