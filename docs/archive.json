@@ -46604,6 +46604,10 @@
     {
       "id": "537021e0f956e34a5641db26f01fc4e4852d18eba29ab9952bbcb235ad96cd6c",
       "text": "Just nu: Olycka vid Krokek – fyra till sjukhus"
+    },
+    {
+      "id": "27423fba2cab0a15a75e2bfc1e0acf4454b065cdea4ac666b4198b4286d1a314",
+      "text": "Just nu: Krock utanför Norrköping – fyra till sjukhus"
     }
   ],
   "captures": [
@@ -116506,6 +116510,12 @@
       "headlineId": "537021e0f956e34a5641db26f01fc4e4852d18eba29ab9952bbcb235ad96cd6c",
       "articleUrl": "https://www.sverigesradio.se/artikel/fyra-till-sjukhus-i-ambulans-efter-bilolycka",
       "capturedAt": "2026-11-19T19:42:32.169Z"
+    },
+    {
+      "filename": "1795118550706_0.png",
+      "headlineId": "27423fba2cab0a15a75e2bfc1e0acf4454b065cdea4ac666b4198b4286d1a314",
+      "articleUrl": "https://www.sverigesradio.se/artikel/fyra-till-sjukhus-i-ambulans-efter-bilolycka",
+      "capturedAt": "2026-11-19T20:02:30.706Z"
     }
   ]
 }
