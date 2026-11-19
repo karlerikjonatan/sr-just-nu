@@ -46544,6 +46544,10 @@
     {
       "id": "da8ee1f15dc70a940413b3cd99b16c18f4423b8ff12142b918d971fa1c3ae21a",
       "text": "Just nu: SkyShowtime läggs ned"
+    },
+    {
+      "id": "80aee0e836e4aaf65a377d2a96cceed3aa465f32ced2d0bd18b149e82e0453da",
+      "text": "Just nu: Streamingtjänst läggs ned"
     }
   ],
   "captures": [
@@ -116356,6 +116360,12 @@
       "headlineId": "da8ee1f15dc70a940413b3cd99b16c18f4423b8ff12142b918d971fa1c3ae21a",
       "articleUrl": "https://www.sverigesradio.se/artikel/skyshowtime-lagger-ner",
       "capturedAt": "2026-11-19T07:37:25.511Z"
+    },
+    {
+      "filename": "1795074151462_0.png",
+      "headlineId": "80aee0e836e4aaf65a377d2a96cceed3aa465f32ced2d0bd18b149e82e0453da",
+      "articleUrl": "https://www.sverigesradio.se/artikel/skyshowtime-lagger-ner",
+      "capturedAt": "2026-11-19T07:42:31.462Z"
     }
   ]
 }
