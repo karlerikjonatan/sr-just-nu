@@ -46516,6 +46516,10 @@
     {
       "id": "fdabdb58e393aa4f1a83bdb93e9285d0f86b0c73496eb37c0b127cb531d52ddf",
       "text": "Just nu: 11 000 strömlösa i Norrköping"
+    },
+    {
+      "id": "7bad9067cf41b1ee24dfba5e8d8bb6cb451456c416110ecfc5cd5d284ce657a2",
+      "text": "Just nu: Van Gogh-tavla såld rekordbelopp"
     }
   ],
   "captures": [
@@ -116286,6 +116290,12 @@
       "headlineId": "fdabdb58e393aa4f1a83bdb93e9285d0f86b0c73496eb37c0b127cb531d52ddf",
       "articleUrl": "https://www.sverigesradio.se/artikel/11000-utan-strom-i-norrkoping",
       "capturedAt": "2026-11-19T03:42:37.087Z"
+    },
+    {
+      "filename": "1795061251856_0.png",
+      "headlineId": "7bad9067cf41b1ee24dfba5e8d8bb6cb451456c416110ecfc5cd5d284ce657a2",
+      "articleUrl": "https://www.sverigesradio.se/artikel/van-gogh-tavla-sald-for-uppemot-tva-miljarder",
+      "capturedAt": "2026-11-19T04:07:31.856Z"
     }
   ]
 }
