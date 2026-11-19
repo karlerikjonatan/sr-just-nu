@@ -46536,6 +46536,10 @@
     {
       "id": "92846399ab08607742687ddfb5e84fe6ad24f54d843e8819b47d4a4cba3ae7da",
       "text": "Just nu: De kan prisas på P3 Guld"
+    },
+    {
+      "id": "8dea2ba1897dbd1fdd8b5dbc8b05e94da5260455cf24bfc3bfc51fdcd84c1659",
+      "text": "Just nu: Risk för köer vid bensinmackar"
     }
   ],
   "captures": [
@@ -116336,6 +116340,12 @@
       "headlineId": "92846399ab08607742687ddfb5e84fe6ad24f54d843e8819b47d4a4cba3ae7da",
       "articleUrl": "https://www.sverigesradio.se/artikel/artisterna-som-kan-prisas-pa-p3-guld",
       "capturedAt": "2026-11-19T07:07:32.198Z"
+    },
+    {
+      "filename": "1795072350086_0.png",
+      "headlineId": "8dea2ba1897dbd1fdd8b5dbc8b05e94da5260455cf24bfc3bfc51fdcd84c1659",
+      "articleUrl": "https://www.sverigesradio.se/artikel/bensin-och-diesel-blir-dyrare-risk-for-koer-vid-mackar",
+      "capturedAt": "2026-11-19T07:12:30.086Z"
     }
   ]
 }
