@@ -46508,6 +46508,10 @@
     {
       "id": "42b1f00479a08220602df1080ec807a3e42f25fad5d518143f436155110e45b7",
       "text": "Just nu: Norska skidstjärnan avslutar karriären"
+    },
+    {
+      "id": "ca0e4d234d58e36f63a11aed2d807981c26a6a1f3dd0abae07a633800630c300",
+      "text": "Just nu: Krimbron attackerad igen"
     }
   ],
   "captures": [
@@ -116266,6 +116270,12 @@
       "headlineId": "42b1f00479a08220602df1080ec807a3e42f25fad5d518143f436155110e45b7",
       "articleUrl": "https://www.sverigesradio.se/artikel/flugstad-ostberg-avslutar-karriaren",
       "capturedAt": "2026-11-18T22:02:44.726Z"
+    },
+    {
+      "filename": "1795051055072_0.png",
+      "headlineId": "ca0e4d234d58e36f63a11aed2d807981c26a6a1f3dd0abae07a633800630c300",
+      "articleUrl": "https://www.sverigesradio.se/artikel/krymbron-attackerad-igen",
+      "capturedAt": "2026-11-19T01:17:35.072Z"
     }
   ]
 }
