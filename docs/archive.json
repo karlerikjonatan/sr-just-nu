@@ -46572,6 +46572,10 @@
     {
       "id": "415817356fbdc6e82d8acdb440bddc920b7f16e23dd88bbd594ed0d41291f624",
       "text": "Just nu: SVT-profilen anmäler SVT"
+    },
+    {
+      "id": "eef4018a1e6f15f24709c56e3331276675c2ff8ac512fa0b45be967e506e5257",
+      "text": "Just nu: 80-våningsskyskrapa träffad i Riyadh"
     }
   ],
   "captures": [
@@ -116426,6 +116430,12 @@
       "headlineId": "415817356fbdc6e82d8acdb440bddc920b7f16e23dd88bbd594ed0d41291f624",
       "articleUrl": "https://www.sverigesradio.se/artikel/carina-bergfeldt-anmaler-svt-efter-kritik-mot-hennes-serie",
       "capturedAt": "2026-11-19T12:37:28.570Z"
+    },
+    {
+      "filename": "1795105649404_0.png",
+      "headlineId": "eef4018a1e6f15f24709c56e3331276675c2ff8ac512fa0b45be967e506e5257",
+      "articleUrl": "https://www.sverigesradio.se/artikel/skyskrapa-attackerad-i-saudiarabien",
+      "capturedAt": "2026-11-19T16:27:29.404Z"
     }
   ]
 }
