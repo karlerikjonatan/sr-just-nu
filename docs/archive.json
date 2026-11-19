@@ -46580,6 +46580,10 @@
     {
       "id": "16013e21c7d26b3787e05cb64004288e65f7aac212d49a11115a8264a956b9e5",
       "text": "Just nu: AI-jätten rusar över 30 procent"
+    },
+    {
+      "id": "19d10deee068c0d29e6ccf93f6121b2ed66ae7eb04ede546e10e0a58724a0cc5",
+      "text": "Just nu: Person död efter brand i radhus"
     }
   ],
   "captures": [
@@ -116446,6 +116450,12 @@
       "headlineId": "16013e21c7d26b3787e05cb64004288e65f7aac212d49a11115a8264a956b9e5",
       "articleUrl": "https://www.sverigesradio.se/artikel/ai-jatten-anthropic-rusar",
       "capturedAt": "2026-11-19T16:57:32.559Z"
+    },
+    {
+      "filename": "1795108048537_0.png",
+      "headlineId": "19d10deee068c0d29e6ccf93f6121b2ed66ae7eb04ede546e10e0a58724a0cc5",
+      "articleUrl": "https://www.sverigesradio.se/artikel/person-dod-efter-brand-i-hillerstorp",
+      "capturedAt": "2026-11-19T17:07:28.537Z"
     }
   ]
 }
