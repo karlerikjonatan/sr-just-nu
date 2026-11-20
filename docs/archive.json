@@ -46712,6 +46712,10 @@
     {
       "id": "e4336eb8d47a5f719520b59beedf52cf2a01f126d8fcffe4ee10240c37f70cdf",
       "text": "Just nu: Rapparen 1.Cuz döms till fängelse"
+    },
+    {
+      "id": "e515f9132dfcb61ecc668af25c14290e718c7bdd6ab7b88b1ab4f554f7e5bee1",
+      "text": "Just nu: 1.Cuz döms till fängelse"
     }
   ],
   "captures": [
@@ -116776,6 +116780,12 @@
       "headlineId": "e4336eb8d47a5f719520b59beedf52cf2a01f126d8fcffe4ee10240c37f70cdf",
       "articleUrl": "https://www.sverigesradio.se/artikel/rapparen-1-cuz-doms-till-fangelse-for-grovt-skattebrott",
       "capturedAt": "2026-11-20T13:57:29.321Z"
+    },
+    {
+      "filename": "1795184561460_0.webp",
+      "headlineId": "e515f9132dfcb61ecc668af25c14290e718c7bdd6ab7b88b1ab4f554f7e5bee1",
+      "articleUrl": "https://www.sverigesradio.se/artikel/rapparen-1-cuz-doms-till-fangelse-for-grovt-skattebrott",
+      "capturedAt": "2026-11-20T14:22:41.460Z"
     }
   ]
 }
