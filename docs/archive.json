@@ -46748,6 +46748,10 @@
     {
       "id": "e35547cf2149ec26489bab35f80a6dfae2014acec3235346496c97027175d249",
       "text": "Just nu: De vinner P4 Nästa Stjärna"
+    },
+    {
+      "id": "41366e521beb727762d61c47097e5d77d1fcf292212d510fcf55ab8e7cb62b17",
+      "text": "Just nu: Blodrött på USA-börserna"
     }
   ],
   "captures": [
@@ -116866,6 +116870,12 @@
       "headlineId": "e35547cf2149ec26489bab35f80a6dfae2014acec3235346496c97027175d249",
       "articleUrl": "https://www.sverigesradio.se/artikel/hans-valter-vinner-p4-nasta-stjarna-2026",
       "capturedAt": "2026-11-20T20:12:29.801Z"
+    },
+    {
+      "filename": "1795209156329_0.webp",
+      "headlineId": "41366e521beb727762d61c47097e5d77d1fcf292212d510fcf55ab8e7cb62b17",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ai-frossa-pa-borsen-arets-uppgang-raderad",
+      "capturedAt": "2026-11-20T21:12:36.329Z"
     }
   ]
 }
