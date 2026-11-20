@@ -46728,6 +46728,10 @@
     {
       "id": "027eb0303e7453882b9010a5a3cd98c08beb9bedc04bb9574ab39409cf032c17",
       "text": "Just nu: SVT granskar Carina Bergfeldt"
+    },
+    {
+      "id": "f927e47dc20ce389957ec56e3b70b5abefeb8a2b05c7f7c97c83621c8ac56b21",
+      "text": "Just nu: Tågstopp Haparanda–Boden"
     }
   ],
   "captures": [
@@ -116816,6 +116820,12 @@
       "headlineId": "027eb0303e7453882b9010a5a3cd98c08beb9bedc04bb9574ab39409cf032c17",
       "articleUrl": "https://www.sverigesradio.se/artikel/svt-granskar-carina-bergfeldt",
       "capturedAt": "2026-11-20T16:27:27.350Z"
+    },
+    {
+      "filename": "1795193247183_0.webp",
+      "headlineId": "f927e47dc20ce389957ec56e3b70b5abefeb8a2b05c7f7c97c83621c8ac56b21",
+      "articleUrl": "https://www.sverigesradio.se/artikel/stopp-i-tagtrafiken-mellan-haparanda-och-boden",
+      "capturedAt": "2026-11-20T16:47:27.183Z"
     }
   ]
 }
