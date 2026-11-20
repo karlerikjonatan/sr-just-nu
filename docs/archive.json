@@ -46696,6 +46696,18 @@
     {
       "id": "ef12a949849fe9b3daef73f2ece2ac2a3ca2781ff8eaa903754684a2f4412239",
       "text": "Just nu: Läckagelarm på Volvo – explosionsrisk"
+    },
+    {
+      "id": "fe2325e3bc3127c655683d5aded19149b43314047a035d9f31c956ec11566e1f",
+      "text": "Just nu: Kandidaterna till Jerringpriset"
+    },
+    {
+      "id": "13ae52b75b4e26858e744a76a4acee7a70bf587b7125c2761f9e63bc5f2947e2",
+      "text": "Just nu: Sparkas efter dansk realityskandal"
+    },
+    {
+      "id": "954550865ffdb9b248315d001c3281a0b326713ca1e9a7ad14b7838737fd191a",
+      "text": "Just nu: Allsvenska toppmötet kan skjutas upp"
     }
   ],
   "captures": [
@@ -116678,64 +116690,82 @@
       "capturedAt": "2026-11-20T07:42:30.550Z"
     },
     {
-      "filename": "1795162372571_0.png",
+      "filename": "1795162372571_0.webp",
       "headlineId": "f2ae4e521bc6c2051e4844d35d931dae2899094f971d03dc432dfa4fbc3cf8c1",
       "articleUrl": "https://www.sverigesradio.se/artikel/trier-och-vogt-far-goteborgs-filmfestivals-hederspris",
       "capturedAt": "2026-11-20T08:12:52.571Z"
     },
     {
-      "filename": "1795162963695_0.png",
+      "filename": "1795162963695_0.webp",
       "headlineId": "b7f59b61a1f105cd866b164932ead48ef415d6c8b5ac538ef97e415ffd14afcf",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-atalas-for-dodsolyckan-pa-ostermalm",
       "capturedAt": "2026-11-20T08:22:43.695Z"
     },
     {
-      "filename": "1795164753027_0.png",
+      "filename": "1795164753027_0.webp",
       "headlineId": "2da7b0aef8785cd873ef88575a65434710329549d82ed7cf336ecfbb247799a8",
       "articleUrl": "https://www.sverigesradio.se/artikel/e6-avstangd-i-falkenberg-efter-olycka-med-lastbil",
       "capturedAt": "2026-11-20T08:52:33.027Z"
     },
     {
-      "filename": "1795166252357_0.png",
+      "filename": "1795166252357_0.webp",
       "headlineId": "2ed6c32039b0d53c799ca7853f06154e208d2f2c8d6c068325f606b55648cc78",
       "articleUrl": "https://www.sverigesradio.se/artikel/flera-timmars-tagstopp-paverkar-sundsvall-umea",
       "capturedAt": "2026-11-20T09:17:32.357Z"
     },
     {
-      "filename": "1795170451518_0.png",
+      "filename": "1795170451518_0.webp",
       "headlineId": "78e8af9ffbb9fdd77decd017c070cf5a95fd67f19f64d8eb371c0ad2a9520791",
       "articleUrl": "https://www.sverigesradio.se/artikel/tva-ryska-robotar-och-en-dronare-har-krankt-polskt-luftrum",
       "capturedAt": "2026-11-20T10:27:31.518Z"
     },
     {
-      "filename": "1795171356978_0.png",
+      "filename": "1795171356978_0.webp",
       "headlineId": "7f7646d64d24b1a0a86ca10adec91d74fceefe4aa26a154cbe1a27569dfcdb11",
       "articleUrl": "https://www.sverigesradio.se/artikel/danskar-misstankts-ha-lejts-av-ryssland-for-att-doda-ukrainsk-rappare",
       "capturedAt": "2026-11-20T10:42:36.978Z"
     },
     {
-      "filename": "1795171647903_0.png",
+      "filename": "1795171647903_0.webp",
       "headlineId": "7c59b77d679939fa9085056e6b676b1a02cd5b4571dce2fc2ab1a49856cf1dea",
       "articleUrl": "https://www.sverigesradio.se/artikel/ryssland-misstanks-ha-lejt-danska-man-att-doda-ukrainsk-rappare",
       "capturedAt": "2026-11-20T10:47:27.903Z"
     },
     {
-      "filename": "1795172249513_0.png",
+      "filename": "1795172249513_0.webp",
       "headlineId": "b58d177f35adaaf0649fe8ad95a25f548518d1f39a0ab998fe2c15ec04bdb610",
       "articleUrl": "https://www.sverigesradio.se/artikel/lastbilsolycka-pa-e18-utanfor-karlstad",
       "capturedAt": "2026-11-20T10:57:29.513Z"
     },
     {
-      "filename": "1795174055889_0.png",
+      "filename": "1795174055889_0.webp",
       "headlineId": "42305ac5444b3dd8866761412a89b5eb4d9fc9c7aea06d293bdae04c43569134",
       "articleUrl": "https://www.sverigesradio.se/artikel/kemikalielarm-pa-volvo-i-eskilstuna-byggnad-utrymd",
       "capturedAt": "2026-11-20T11:27:35.889Z"
     },
     {
-      "filename": "1795174950822_0.png",
+      "filename": "1795174950822_0.webp",
       "headlineId": "ef12a949849fe9b3daef73f2ece2ac2a3ca2781ff8eaa903754684a2f4412239",
       "articleUrl": "https://www.sverigesradio.se/artikel/kemikalielarm-pa-volvo-i-eskilstuna-byggnad-utrymd",
       "capturedAt": "2026-11-20T11:42:30.822Z"
+    },
+    {
+      "filename": "1795181248755_0.webp",
+      "headlineId": "954550865ffdb9b248315d001c3281a0b326713ca1e9a7ad14b7838737fd191a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/viktiga-matchen-kan-stallas-in-pa-grund-av-snoovadret",
+      "capturedAt": "2026-11-20T13:27:28.755Z"
+    },
+    {
+      "filename": "1795181248755_1.webp",
+      "headlineId": "13ae52b75b4e26858e744a76a4acee7a70bf587b7125c2761f9e63bc5f2947e2",
+      "articleUrl": "https://www.sverigesradio.se/artikel/danska-tv-chefer-far-sluta-efter-wallbridgeprogram",
+      "capturedAt": "2026-11-20T13:27:28.755Z"
+    },
+    {
+      "filename": "1795181248755_2.webp",
+      "headlineId": "fe2325e3bc3127c655683d5aded19149b43314047a035d9f31c956ec11566e1f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/arets-kandidater-till-radiosportens-jerringpris-2026",
+      "capturedAt": "2026-11-20T13:27:28.755Z"
     }
   ]
 }
