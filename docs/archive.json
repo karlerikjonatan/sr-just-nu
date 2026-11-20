@@ -46660,6 +46660,10 @@
     {
       "id": "f2ae4e521bc6c2051e4844d35d931dae2899094f971d03dc432dfa4fbc3cf8c1",
       "text": "Just nu: Trier och Vogt får hederspris"
+    },
+    {
+      "id": "b7f59b61a1f105cd866b164932ead48ef415d6c8b5ac538ef97e415ffd14afcf",
+      "text": "Just nu: Åtalas för dödsolyckan på Östermalm"
     }
   ],
   "captures": [
@@ -116646,6 +116650,12 @@
       "headlineId": "f2ae4e521bc6c2051e4844d35d931dae2899094f971d03dc432dfa4fbc3cf8c1",
       "articleUrl": "https://www.sverigesradio.se/artikel/trier-och-vogt-far-goteborgs-filmfestivals-hederspris",
       "capturedAt": "2026-11-20T08:12:52.571Z"
+    },
+    {
+      "filename": "1795162963695_0.png",
+      "headlineId": "b7f59b61a1f105cd866b164932ead48ef415d6c8b5ac538ef97e415ffd14afcf",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-atalas-for-dodsolyckan-pa-ostermalm",
+      "capturedAt": "2026-11-20T08:22:43.695Z"
     }
   ]
 }
