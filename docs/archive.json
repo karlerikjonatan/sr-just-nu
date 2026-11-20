@@ -46656,6 +46656,10 @@
     {
       "id": "9a8fa07a78c1712d48ae3af09dc562f73fd31ef66375439823cc1017001dfd2c",
       "text": "Just nu: Uppgift: Svensk mördad i Filippinerna"
+    },
+    {
+      "id": "f2ae4e521bc6c2051e4844d35d931dae2899094f971d03dc432dfa4fbc3cf8c1",
+      "text": "Just nu: Trier och Vogt får hederspris"
     }
   ],
   "captures": [
@@ -116636,6 +116640,12 @@
       "headlineId": "9a8fa07a78c1712d48ae3af09dc562f73fd31ef66375439823cc1017001dfd2c",
       "articleUrl": "https://www.sverigesradio.se/artikel/uppgifter-svensk-kvinna-mordad-i-filippinerna",
       "capturedAt": "2026-11-20T07:42:30.550Z"
+    },
+    {
+      "filename": "1795162372571_0.png",
+      "headlineId": "f2ae4e521bc6c2051e4844d35d931dae2899094f971d03dc432dfa4fbc3cf8c1",
+      "articleUrl": "https://www.sverigesradio.se/artikel/trier-och-vogt-far-goteborgs-filmfestivals-hederspris",
+      "capturedAt": "2026-11-20T08:12:52.571Z"
     }
   ]
 }
