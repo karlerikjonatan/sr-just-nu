@@ -46724,6 +46724,10 @@
     {
       "id": "fbf5eb96c51a78637ab747d4085eac9439bd4c137a3fba101f3d7513e9c78a07",
       "text": "Just nu: Trafikolycka stoppar trafiken på E45"
+    },
+    {
+      "id": "027eb0303e7453882b9010a5a3cd98c08beb9bedc04bb9574ab39409cf032c17",
+      "text": "Just nu: SVT granskar Carina Bergfeldt"
     }
   ],
   "captures": [
@@ -116806,6 +116810,12 @@
       "headlineId": "fbf5eb96c51a78637ab747d4085eac9439bd4c137a3fba101f3d7513e9c78a07",
       "articleUrl": "https://www.sverigesradio.se/artikel/trafikolycka-stoppar-trafiken-pa-e45",
       "capturedAt": "2026-11-20T15:17:26.494Z"
+    },
+    {
+      "filename": "1795192047350_0.webp",
+      "headlineId": "027eb0303e7453882b9010a5a3cd98c08beb9bedc04bb9574ab39409cf032c17",
+      "articleUrl": "https://www.sverigesradio.se/artikel/svt-granskar-carina-bergfeldt",
+      "capturedAt": "2026-11-20T16:27:27.350Z"
     }
   ]
 }
