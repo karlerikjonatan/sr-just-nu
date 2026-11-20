@@ -46628,6 +46628,10 @@
     {
       "id": "f3467c0f1c83cdb63145c5f0c07dce0ae2ca8e146f21d8729fd6ad9f9cadd7a5",
       "text": "Just nu: Strul med pendeln i Stockholm"
+    },
+    {
+      "id": "294f6bfc70fccb74f566c410c4bafa97797c50f4bb0a6f769555bd7cb60c8e26",
+      "text": "Just nu: Tågstopp i Sundsvall – bom påkörd"
     }
   ],
   "captures": [
@@ -116566,6 +116570,12 @@
       "headlineId": "f3467c0f1c83cdb63145c5f0c07dce0ae2ca8e146f21d8729fd6ad9f9cadd7a5",
       "articleUrl": "https://www.sverigesradio.se/artikel/vaxelfel-i-haggvik-pendeltag-missar-stationer",
       "capturedAt": "2026-11-20T05:12:28.147Z"
+    },
+    {
+      "filename": "1795155153455_0.png",
+      "headlineId": "294f6bfc70fccb74f566c410c4bafa97797c50f4bb0a6f769555bd7cb60c8e26",
+      "articleUrl": "https://www.sverigesradio.se/artikel/pakord-bom-ger-stort-tagstopp",
+      "capturedAt": "2026-11-20T06:12:33.455Z"
     }
   ]
 }
