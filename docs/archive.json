@@ -46680,6 +46680,10 @@
     {
       "id": "7f7646d64d24b1a0a86ca10adec91d74fceefe4aa26a154cbe1a27569dfcdb11",
       "text": "Just nu: Danskar misstänkts ha lejts av Ryssland – för att döda ukrainsk rappare"
+    },
+    {
+      "id": "7c59b77d679939fa9085056e6b676b1a02cd5b4571dce2fc2ab1a49856cf1dea",
+      "text": "Just nu: Danskar misstänks ha lejts av Ryssland"
     }
   ],
   "captures": [
@@ -116696,6 +116700,12 @@
       "headlineId": "7f7646d64d24b1a0a86ca10adec91d74fceefe4aa26a154cbe1a27569dfcdb11",
       "articleUrl": "https://www.sverigesradio.se/artikel/danskar-misstankts-ha-lejts-av-ryssland-for-att-doda-ukrainsk-rappare",
       "capturedAt": "2026-11-20T10:42:36.978Z"
+    },
+    {
+      "filename": "1795171647903_0.png",
+      "headlineId": "7c59b77d679939fa9085056e6b676b1a02cd5b4571dce2fc2ab1a49856cf1dea",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ryssland-misstanks-ha-lejt-danska-man-att-doda-ukrainsk-rappare",
+      "capturedAt": "2026-11-20T10:47:27.903Z"
     }
   ]
 }
