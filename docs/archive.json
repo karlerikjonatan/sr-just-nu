@@ -46664,6 +46664,10 @@
     {
       "id": "b7f59b61a1f105cd866b164932ead48ef415d6c8b5ac538ef97e415ffd14afcf",
       "text": "Just nu: Åtalas för dödsolyckan på Östermalm"
+    },
+    {
+      "id": "2da7b0aef8785cd873ef88575a65434710329549d82ed7cf336ecfbb247799a8",
+      "text": "Just nu: Olycka i Falkenberg – E6 avstängd"
     }
   ],
   "captures": [
@@ -116656,6 +116660,12 @@
       "headlineId": "b7f59b61a1f105cd866b164932ead48ef415d6c8b5ac538ef97e415ffd14afcf",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-atalas-for-dodsolyckan-pa-ostermalm",
       "capturedAt": "2026-11-20T08:22:43.695Z"
+    },
+    {
+      "filename": "1795164753027_0.png",
+      "headlineId": "2da7b0aef8785cd873ef88575a65434710329549d82ed7cf336ecfbb247799a8",
+      "articleUrl": "https://www.sverigesradio.se/artikel/e6-avstangd-i-falkenberg-efter-olycka-med-lastbil",
+      "capturedAt": "2026-11-20T08:52:33.027Z"
     }
   ]
 }
