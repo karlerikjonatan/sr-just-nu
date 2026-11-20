@@ -46736,6 +46736,10 @@
     {
       "id": "636f1b5a75e8e178d47930d5789dd6582dd026bae49952216a1e1fe6107e1e29",
       "text": "Just nu: Gav pistoler till polis – döms"
+    },
+    {
+      "id": "f7707f49c0d01142783a4bd1c40e143392396c3dea70c1f5b259ef31291f1795",
+      "text": "Just nu: Trumps datacenterhot"
     }
   ],
   "captures": [
@@ -116836,6 +116840,12 @@
       "headlineId": "636f1b5a75e8e178d47930d5789dd6582dd026bae49952216a1e1fe6107e1e29",
       "articleUrl": "https://www.sverigesradio.se/artikel/19-aring-far-tolv-ars-fangelse-for-vapen-pa-sodermalm",
       "capturedAt": "2026-11-20T18:22:32.547Z"
+    },
+    {
+      "filename": "1795201954536_0.webp",
+      "headlineId": "f7707f49c0d01142783a4bd1c40e143392396c3dea70c1f5b259ef31291f1795",
+      "articleUrl": "https://www.sverigesradio.se/artikel/trumps-hot-inga-amerikanska-datacenter-utanfor-usa",
+      "capturedAt": "2026-11-20T19:12:34.536Z"
     }
   ]
 }
