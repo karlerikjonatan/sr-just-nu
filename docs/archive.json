@@ -46756,6 +46756,10 @@
     {
       "id": "a03c9ca6f7f4df30848b2f20638431db3f6828d195edfae8c6bd2ec1cc153594",
       "text": "Just nu: Nykomlingen slog Leksand"
+    },
+    {
+      "id": "08233b8488991bd5f021aa64e8000a4a2bc9f954944532664b44841b66ac61da",
+      "text": "Just nu: Två krockade med samma älg"
     }
   ],
   "captures": [
@@ -116886,6 +116890,12 @@
       "headlineId": "a03c9ca6f7f4df30848b2f20638431db3f6828d195edfae8c6bd2ec1cc153594",
       "articleUrl": "https://www.sverigesradio.se/artikel/skrallen-jumbon-visby-roma-besegrade-leksand",
       "capturedAt": "2026-11-20T21:22:35.066Z"
+    },
+    {
+      "filename": "1795215756353_0.webp",
+      "headlineId": "08233b8488991bd5f021aa64e8000a4a2bc9f954944532664b44841b66ac61da",
+      "articleUrl": "https://www.sverigesradio.se/artikel/dubbelolycka-i-tibro-buss-och-bil-krockade-med-samma-alg",
+      "capturedAt": "2026-11-20T23:02:36.353Z"
     }
   ]
 }
