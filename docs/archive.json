@@ -46632,6 +46632,10 @@
     {
       "id": "294f6bfc70fccb74f566c410c4bafa97797c50f4bb0a6f769555bd7cb60c8e26",
       "text": "Just nu: Tågstopp i Sundsvall – bom påkörd"
+    },
+    {
+      "id": "692c34d5d72b95c76cc7751434e2af3f350efbe10156b123481e8754db44b75e",
+      "text": "Just nu: ”Mycket halt” på E6 – flera olyckor"
     }
   ],
   "captures": [
@@ -116576,6 +116580,12 @@
       "headlineId": "294f6bfc70fccb74f566c410c4bafa97797c50f4bb0a6f769555bd7cb60c8e26",
       "articleUrl": "https://www.sverigesradio.se/artikel/pakord-bom-ger-stort-tagstopp",
       "capturedAt": "2026-11-20T06:12:33.455Z"
+    },
+    {
+      "filename": "1795155471784_0.png",
+      "headlineId": "692c34d5d72b95c76cc7751434e2af3f350efbe10156b123481e8754db44b75e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/halt-pa-vagarna-halland",
+      "capturedAt": "2026-11-20T06:17:51.784Z"
     }
   ]
 }
