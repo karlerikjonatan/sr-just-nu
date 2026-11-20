@@ -46652,6 +46652,10 @@
     {
       "id": "f80c2d5fd900b70719d2525b355813471979c63cda25c4f3946ef7b54ecfc5fc",
       "text": "Just nu: Uppgifter: Svensk mördad i Filippinerna"
+    },
+    {
+      "id": "9a8fa07a78c1712d48ae3af09dc562f73fd31ef66375439823cc1017001dfd2c",
+      "text": "Just nu: Uppgift: Svensk mördad i Filippinerna"
     }
   ],
   "captures": [
@@ -116626,6 +116630,12 @@
       "headlineId": "f80c2d5fd900b70719d2525b355813471979c63cda25c4f3946ef7b54ecfc5fc",
       "articleUrl": "https://www.sverigesradio.se/artikel/uppgifter-svensk-kvinna-mordad-i-filippinerna",
       "capturedAt": "2026-11-20T07:37:29.486Z"
+    },
+    {
+      "filename": "1795160550550_0.png",
+      "headlineId": "9a8fa07a78c1712d48ae3af09dc562f73fd31ef66375439823cc1017001dfd2c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/uppgifter-svensk-kvinna-mordad-i-filippinerna",
+      "capturedAt": "2026-11-20T07:42:30.550Z"
     }
   ]
 }
