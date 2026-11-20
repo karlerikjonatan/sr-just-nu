@@ -46684,6 +46684,10 @@
     {
       "id": "7c59b77d679939fa9085056e6b676b1a02cd5b4571dce2fc2ab1a49856cf1dea",
       "text": "Just nu: Danskar misstänks ha lejts av Ryssland"
+    },
+    {
+      "id": "b58d177f35adaaf0649fe8ad95a25f548518d1f39a0ab998fe2c15ec04bdb610",
+      "text": "Just nu: Olycka på E18 utanför Karlstad"
     }
   ],
   "captures": [
@@ -116706,6 +116710,12 @@
       "headlineId": "7c59b77d679939fa9085056e6b676b1a02cd5b4571dce2fc2ab1a49856cf1dea",
       "articleUrl": "https://www.sverigesradio.se/artikel/ryssland-misstanks-ha-lejt-danska-man-att-doda-ukrainsk-rappare",
       "capturedAt": "2026-11-20T10:47:27.903Z"
+    },
+    {
+      "filename": "1795172249513_0.png",
+      "headlineId": "b58d177f35adaaf0649fe8ad95a25f548518d1f39a0ab998fe2c15ec04bdb610",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lastbilsolycka-pa-e18-utanfor-karlstad",
+      "capturedAt": "2026-11-20T10:57:29.513Z"
     }
   ]
 }
