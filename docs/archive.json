@@ -46752,6 +46752,10 @@
     {
       "id": "41366e521beb727762d61c47097e5d77d1fcf292212d510fcf55ab8e7cb62b17",
       "text": "Just nu: Blodrött på USA-börserna"
+    },
+    {
+      "id": "a03c9ca6f7f4df30848b2f20638431db3f6828d195edfae8c6bd2ec1cc153594",
+      "text": "Just nu: Nykomlingen slog Leksand"
     }
   ],
   "captures": [
@@ -116876,6 +116880,12 @@
       "headlineId": "41366e521beb727762d61c47097e5d77d1fcf292212d510fcf55ab8e7cb62b17",
       "articleUrl": "https://www.sverigesradio.se/artikel/ai-frossa-pa-borsen-arets-uppgang-raderad",
       "capturedAt": "2026-11-20T21:12:36.329Z"
+    },
+    {
+      "filename": "1795209755066_0.webp",
+      "headlineId": "a03c9ca6f7f4df30848b2f20638431db3f6828d195edfae8c6bd2ec1cc153594",
+      "articleUrl": "https://www.sverigesradio.se/artikel/skrallen-jumbon-visby-roma-besegrade-leksand",
+      "capturedAt": "2026-11-20T21:22:35.066Z"
     }
   ]
 }
