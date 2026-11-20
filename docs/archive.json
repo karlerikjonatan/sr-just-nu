@@ -46692,6 +46692,10 @@
     {
       "id": "42305ac5444b3dd8866761412a89b5eb4d9fc9c7aea06d293bdae04c43569134",
       "text": "Just nu: Kemikalielarm på Volvo – explosionrisk"
+    },
+    {
+      "id": "ef12a949849fe9b3daef73f2ece2ac2a3ca2781ff8eaa903754684a2f4412239",
+      "text": "Just nu: Läckagelarm på Volvo – explosionsrisk"
     }
   ],
   "captures": [
@@ -116726,6 +116730,12 @@
       "headlineId": "42305ac5444b3dd8866761412a89b5eb4d9fc9c7aea06d293bdae04c43569134",
       "articleUrl": "https://www.sverigesradio.se/artikel/kemikalielarm-pa-volvo-i-eskilstuna-byggnad-utrymd",
       "capturedAt": "2026-11-20T11:27:35.889Z"
+    },
+    {
+      "filename": "1795174950822_0.png",
+      "headlineId": "ef12a949849fe9b3daef73f2ece2ac2a3ca2781ff8eaa903754684a2f4412239",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kemikalielarm-pa-volvo-i-eskilstuna-byggnad-utrymd",
+      "capturedAt": "2026-11-20T11:42:30.822Z"
     }
   ]
 }
