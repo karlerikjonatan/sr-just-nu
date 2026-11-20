@@ -65,8 +65,8 @@ deduplication are unchanged; the scraper still deduplicates by exact text.
 
 Triggered by cron-job.org every 5 minutes via `workflow_dispatch`, or manually
 through GitHub Actions. There is no GitHub Actions schedule. Each run installs
-deps with `npm ci`, runs
-`node index.js`, then commits and pushes any changes under `docs/`.
+deps with `npm ci`, migrates any remaining legacy PNG screenshots to lossless
+WebP, runs `node index.js`, then commits and pushes any changes under `docs/`.
 
 ## Data / state files
 
