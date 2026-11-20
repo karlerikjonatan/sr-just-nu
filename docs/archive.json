@@ -46732,6 +46732,10 @@
     {
       "id": "f927e47dc20ce389957ec56e3b70b5abefeb8a2b05c7f7c97c83621c8ac56b21",
       "text": "Just nu: Tågstopp Haparanda–Boden"
+    },
+    {
+      "id": "636f1b5a75e8e178d47930d5789dd6582dd026bae49952216a1e1fe6107e1e29",
+      "text": "Just nu: Gav pistoler till polis – döms"
     }
   ],
   "captures": [
@@ -116826,6 +116830,12 @@
       "headlineId": "f927e47dc20ce389957ec56e3b70b5abefeb8a2b05c7f7c97c83621c8ac56b21",
       "articleUrl": "https://www.sverigesradio.se/artikel/stopp-i-tagtrafiken-mellan-haparanda-och-boden",
       "capturedAt": "2026-11-20T16:47:27.183Z"
+    },
+    {
+      "filename": "1795198952547_0.webp",
+      "headlineId": "636f1b5a75e8e178d47930d5789dd6582dd026bae49952216a1e1fe6107e1e29",
+      "articleUrl": "https://www.sverigesradio.se/artikel/19-aring-far-tolv-ars-fangelse-for-vapen-pa-sodermalm",
+      "capturedAt": "2026-11-20T18:22:32.547Z"
     }
   ]
 }
