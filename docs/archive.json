@@ -46624,6 +46624,10 @@
     {
       "id": "53d1b35baa115a83d92816967aa0c5ded8f449d26e636054102be6124245fd24",
       "text": "Just nu: Kända flodhästen död – åt mössa"
+    },
+    {
+      "id": "f3467c0f1c83cdb63145c5f0c07dce0ae2ca8e146f21d8729fd6ad9f9cadd7a5",
+      "text": "Just nu: Strul med pendeln i Stockholm"
     }
   ],
   "captures": [
@@ -116556,6 +116560,12 @@
       "headlineId": "53d1b35baa115a83d92816967aa0c5ded8f449d26e636054102be6124245fd24",
       "articleUrl": "https://www.sverigesradio.se/artikel/den-kanda-flodhasten-fiona-dod-at-mossa",
       "capturedAt": "2026-11-19T21:57:29.745Z"
+    },
+    {
+      "filename": "1795151548147_0.png",
+      "headlineId": "f3467c0f1c83cdb63145c5f0c07dce0ae2ca8e146f21d8729fd6ad9f9cadd7a5",
+      "articleUrl": "https://www.sverigesradio.se/artikel/vaxelfel-i-haggvik-pendeltag-missar-stationer",
+      "capturedAt": "2026-11-20T05:12:28.147Z"
     }
   ]
 }
