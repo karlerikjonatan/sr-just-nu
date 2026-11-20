@@ -46648,6 +46648,10 @@
     {
       "id": "2f21ede9e6fe0816208a1d11c8c49abed8752e9c34dde3ac5d2af16bd9363254",
       "text": "Just nu: Direktrapport | Senaste nytt om läget i Västernorrland"
+    },
+    {
+      "id": "f80c2d5fd900b70719d2525b355813471979c63cda25c4f3946ef7b54ecfc5fc",
+      "text": "Just nu: Uppgifter: Svensk mördad i Filippinerna"
     }
   ],
   "captures": [
@@ -116616,6 +116620,12 @@
       "headlineId": "2f21ede9e6fe0816208a1d11c8c49abed8752e9c34dde3ac5d2af16bd9363254",
       "articleUrl": "https://www.sverigesradio.se/artikel/direktrapport-om-senaste-nytt-i-vasternorrland",
       "capturedAt": "2026-11-20T07:17:35.661Z"
+    },
+    {
+      "filename": "1795160249486_0.png",
+      "headlineId": "f80c2d5fd900b70719d2525b355813471979c63cda25c4f3946ef7b54ecfc5fc",
+      "articleUrl": "https://www.sverigesradio.se/artikel/uppgifter-svensk-kvinna-mordad-i-filippinerna",
+      "capturedAt": "2026-11-20T07:37:29.486Z"
     }
   ]
 }
