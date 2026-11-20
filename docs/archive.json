@@ -46644,6 +46644,10 @@
     {
       "id": "425623c5c86688c37a41f394b5b8f795406b9dde8de62576d1b077cf12f42b7f",
       "text": "Just nu: Flera olyckor i E18-rondell"
+    },
+    {
+      "id": "2f21ede9e6fe0816208a1d11c8c49abed8752e9c34dde3ac5d2af16bd9363254",
+      "text": "Just nu: Direktrapport | Senaste nytt om läget i Västernorrland"
     }
   ],
   "captures": [
@@ -116606,6 +116610,12 @@
       "headlineId": "425623c5c86688c37a41f394b5b8f795406b9dde8de62576d1b077cf12f42b7f",
       "articleUrl": "https://www.sverigesradio.se/artikel/flera-olyckor-pa-e18-halkbekampning-pagar",
       "capturedAt": "2026-11-20T06:47:30.824Z"
+    },
+    {
+      "filename": "1795159055661_0.png",
+      "headlineId": "2f21ede9e6fe0816208a1d11c8c49abed8752e9c34dde3ac5d2af16bd9363254",
+      "articleUrl": "https://www.sverigesradio.se/artikel/direktrapport-om-senaste-nytt-i-vasternorrland",
+      "capturedAt": "2026-11-20T07:17:35.661Z"
     }
   ]
 }
