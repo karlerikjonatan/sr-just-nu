@@ -46740,6 +46740,10 @@
     {
       "id": "f7707f49c0d01142783a4bd1c40e143392396c3dea70c1f5b259ef31291f1795",
       "text": "Just nu: Trumps datacenterhot"
+    },
+    {
+      "id": "2b51394bec146a3506c91ad7c82e8dbe154b9719620765386ab69d9bb17d3236",
+      "text": "Just nu: Mopedist svårt skadad efter krock"
     }
   ],
   "captures": [
@@ -116846,6 +116850,12 @@
       "headlineId": "f7707f49c0d01142783a4bd1c40e143392396c3dea70c1f5b259ef31291f1795",
       "articleUrl": "https://www.sverigesradio.se/artikel/trumps-hot-inga-amerikanska-datacenter-utanfor-usa",
       "capturedAt": "2026-11-20T19:12:34.536Z"
+    },
+    {
+      "filename": "1795202849910_0.webp",
+      "headlineId": "2b51394bec146a3506c91ad7c82e8dbe154b9719620765386ab69d9bb17d3236",
+      "articleUrl": "https://www.sverigesradio.se/artikel/mopedist-allvarlig-skadad-i-krock-med-personbil",
+      "capturedAt": "2026-11-20T19:27:29.910Z"
     }
   ]
 }
