@@ -19,7 +19,7 @@ cron (cron-job.org, every 5 min) → GitHub Actions workflow dispatch
   └─ node index.js
        ├─ Puppeteer loads sverigesradio.se
        ├─ finds new  <h2> headlines containing "Just nu:"
-       ├─ screenshots each one → docs/screenshots/<timestamp>_<i>.png
+       ├─ screenshots each one → docs/screenshots/<timestamp>_<i>.webp
        ├─ atomically updates docs/archive.json (headlines + captures)
        └─ regenerates docs/index.html
   └─ git commit + push  →  GitHub Pages serves docs/
@@ -34,8 +34,9 @@ cron (cron-job.org, every 5 min) → GitHub Actions workflow dispatch
 3. Scans every `<h2>`, keeps those containing `Just nu:` that haven't been seen,
    and resolves each to its source article URL (nearest ancestor/related anchor,
    made absolute).
-4. Screenshots each matching element into a staging directory and records its
-   headline reference, article link (when available), and capture time.
+4. Screenshots each matching element, encodes it as lossless WebP in a staging
+   directory, and records its headline reference, article link (when available),
+   and capture time.
 5. Publishes the complete batch and atomically replaces `docs/archive.json`,
    then regenerates the gallery shell. If capturing or saving state fails, the
    previous archive stays intact and images created by that attempt are removed,
@@ -72,7 +73,7 @@ deps with `npm ci`, runs
 | File | Purpose |
 | --- | --- |
 | `docs/archive.json` | Canonical versioned storage used by the scraper, gallery, and analytics. |
-| `docs/screenshots/*.png` | One screenshot per captured headline. |
+| `docs/screenshots/*.webp` | One losslessly encoded WebP screenshot per captured headline. |
 
 ### Archive schema (version 1)
 
@@ -84,7 +85,7 @@ deps with `npm ci`, runs
   ],
   "captures": [
     {
-      "filename": "1781809174400_0.png",
+      "filename": "1781809174400_0.webp",
       "headlineId": null,
       "articleUrl": null,
       "capturedAt": "2026-06-18T18:59:34.400Z"
@@ -114,6 +115,10 @@ directory, validates their contents, and refuses to overwrite an existing
 archive. Those legacy JSON files and the generated `docs/screenshots.json`
 manifest are no longer used or stored.
 
+The one-time `scripts/migrate-screenshots-to-webp.js` helper converts the existing
+screenshots losslessly, updates `docs/archive.json`, and removes the PNG files only
+after the WebP files and updated archive have been published successfully.
+
 Screenshots left unreferenced by an interrupted process are not imported or
 overwritten on retry. Temporary staging directories and JSON writes are ignored
 by Git. Actions serializes runs; do not run multiple local scrapers against the
@@ -137,5 +142,6 @@ Run the tests with `npm test`.
 
 ## Tech
 
-Plain Node.js (CommonJS), one dependency ([Puppeteer](https://pptr.dev/)). No build
-step, no framework.
+Plain Node.js (CommonJS), with
+[Puppeteer](https://pptr.dev/) for capture and [Sharp](https://sharp.pixelplumbing.com/)
+for lossless WebP encoding. No build step, no framework.

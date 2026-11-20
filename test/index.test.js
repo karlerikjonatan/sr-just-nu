@@ -4,12 +4,18 @@ const os = require('node:os');
 const path = require('node:path');
 const vm = require('node:vm');
 const test = require('node:test');
+const sharp = require('sharp');
 
 const { generateHTML, getElements, saveScreenshots, main } = require('../index');
 const { capturedAt, headlineId, loadArchive, saveArchive, validateArchive } = require('../archive');
 const { migrateArchive } = require('../scripts/migrate-archive');
+const { migrateScreenshotsToWebp } = require('../scripts/migrate-screenshots-to-webp');
 
 const emptyArchive = () => ({ schemaVersion: 1, headlines: [], captures: [] });
+const pngScreenshot = sharp(Buffer.from([
+  255, 0, 0, 255, 0, 255, 0, 127,
+  0, 0, 255, 255, 255, 255, 0, 255,
+]), { raw: { width: 2, height: 2, channels: 4 } }).png().toBuffer();
 
 function fixture(t, archive = emptyArchive()) {
   const directory = fs.mkdtempSync(path.join(os.tmpdir(), 'sr-just-nu-'));
@@ -24,7 +30,7 @@ function fixture(t, archive = emptyArchive()) {
 function item(text, href = null) {
   return {
     text, href,
-    element: { screenshot: async ({ path: file }) => fs.writeFileSync(file, 'image') },
+    element: { screenshot: async () => pngScreenshot },
   };
 }
 
@@ -51,8 +57,8 @@ function browser() {
 
 test('migration preserves text order, exact characters, all filenames and known URLs', () => {
   const texts = ['Just nu: A', 'Just nu: a', 'Just nu: A\u00a0B'];
-  const sources = { '100_10.png': 'https://example.com/article' };
-  const files = ['100_2.png', '100_10.png', '99_0.png'];
+  const sources = { '100_10.webp': 'https://example.com/article' };
+  const files = ['100_2.webp', '100_10.webp', '99_0.webp'];
   const archive = migrateArchive(texts, sources, files);
   assert.deepEqual(archive.headlines.map(h => h.text), texts);
   assert.deepEqual(archive.headlines.map(h => h.id), texts.map(headlineId));
@@ -63,12 +69,38 @@ test('migration preserves text order, exact characters, all filenames and known 
     assert.equal(capture.capturedAt, capturedAt(capture.filename));
   }
   assert.deepEqual(migrateArchive(texts, sources, files), archive);
-  assert.throws(() => migrateArchive(texts, { '1_0.png': 'https://example.com' }, files), /no screenshot/);
+  assert.throws(() => migrateArchive(texts, { '1_0.webp': 'https://example.com' }, files), /no screenshot/);
   assert.throws(() => migrateArchive([...texts, texts[0]], sources, files), /unique strings/);
 });
 
+test('historical screenshot migration preserves pixels and updates archive references', async t => {
+  const { archivePath, outputDir } = fixture(t);
+  const png = await pngScreenshot;
+  const pixels = await sharp(png).ensureAlpha().raw().toBuffer();
+  fs.writeFileSync(path.join(outputDir, '100_0.png'), png);
+  fs.writeFileSync(archivePath, `${JSON.stringify({
+    schemaVersion: 1,
+    headlines: [],
+    captures: [{
+      filename: '100_0.png',
+      headlineId: null,
+      articleUrl: null,
+      capturedAt: new Date(100).toISOString(),
+    }],
+  })}\n`);
+
+  assert.deepEqual(await migrateScreenshotsToWebp(outputDir, archivePath), { converted: 1, removed: 1 });
+  assert.equal(loadArchive(archivePath).captures[0].filename, '100_0.webp');
+  assert.deepEqual(await sharp(path.join(outputDir, '100_0.webp')).ensureAlpha().raw().toBuffer(), pixels);
+  assert.deepEqual(fs.readdirSync(outputDir), ['100_0.webp']);
+
+  fs.writeFileSync(path.join(outputDir, '100_0.png'), png);
+  assert.deepEqual(await migrateScreenshotsToWebp(outputDir, archivePath), { converted: 0, removed: 1 });
+  assert.deepEqual(fs.readdirSync(outputDir), ['100_0.webp']);
+});
+
 test('archive rejects invalid schema, duplicates, references, timestamps and URLs', () => {
-  const archive = migrateArchive(['Just nu: A'], {}, ['100_0.png']);
+  const archive = migrateArchive(['Just nu: A'], {}, ['100_0.webp']);
   const invalid = [
     null,
     { ...archive, schemaVersion: 2 },
@@ -78,7 +110,8 @@ test('archive rejects invalid schema, duplicates, references, timestamps and URL
     ...[
       { headlineId: 'unknown' },
       { headlineId: undefined },
-      { filename: '../100_0.png' },
+      { filename: '../100_0.webp' },
+      { filename: '100_0.png' },
       { capturedAt: 'wrong' },
       { articleUrl: 'not a URL' },
       { articleUrl: 'javascript:alert(1)' },
@@ -113,7 +146,7 @@ test('getElements deduplicates exact text within a run without normalizing it', 
 });
 
 test('successful batch links captures and preserves headline insertion order', async t => {
-  const old = migrateArchive(['Just nu: Old'], {}, ['99_0.png']);
+  const old = migrateArchive(['Just nu: Old'], {}, ['99_0.webp']);
   const { archivePath, outputDir } = fixture(t, old);
   const original = JSON.stringify(old);
   await saveScreenshots([
@@ -127,8 +160,8 @@ test('successful batch links captures and preserves headline insertion order', a
   assert.equal(archive.captures[1].articleUrl, null);
   assert.equal(archive.captures[2].headlineId, headlineId('Just nu: Latest'));
   assert.equal(archive.captures[2].articleUrl, 'https://example.com/latest');
-  assert.ok(archive.captures[1].filename.endsWith('_0.png'));
-  assert.ok(archive.captures[2].filename.endsWith('_1.png'));
+  assert.ok(archive.captures[1].filename.endsWith('_0.webp'));
+  assert.ok(archive.captures[2].filename.endsWith('_1.webp'));
   assert.deepEqual(fs.readdirSync(outputDir).sort(), archive.captures.slice(1).map(c => c.filename).sort());
 });
 
@@ -136,10 +169,7 @@ test('failed screenshot batch leaves archive intact, removes staged files, and c
   const { archivePath, outputDir } = fixture(t);
   const before = fs.readFileSync(archivePath, 'utf8');
   const failing = item('Just nu: Failure');
-  failing.element.screenshot = async ({ path: file }) => {
-    fs.writeFileSync(file, 'partial');
-    throw new Error('capture failed');
-  };
+  failing.element.screenshot = async () => { throw new Error('capture failed'); };
   await assert.rejects(saveScreenshots([item('Just nu: Success'), failing], outputDir, emptyArchive(), archivePath), /capture failed/);
   assert.equal(fs.readFileSync(archivePath, 'utf8'), before);
   assert.deepEqual(fs.readdirSync(outputDir), []);
@@ -150,7 +180,7 @@ test('failed screenshot batch leaves archive intact, removes staged files, and c
 test('archive replacement failure rolls back only this batch and retries successfully', async t => {
   const { archivePath, outputDir, directory } = fixture(t);
   const before = fs.readFileSync(archivePath, 'utf8');
-  fs.writeFileSync(path.join(outputDir, '1_0.png'), 'orphan');
+  fs.writeFileSync(path.join(outputDir, '1_0.webp'), 'orphan');
   const renameSync = fs.renameSync;
   t.after(() => { fs.renameSync = renameSync; });
   fs.renameSync = (source, destination) => {
@@ -159,7 +189,7 @@ test('archive replacement failure rolls back only this batch and retries success
   };
   await assert.rejects(saveScreenshots([item('Just nu: Retry')], outputDir, emptyArchive(), archivePath), /state write failure/);
   assert.equal(fs.readFileSync(archivePath, 'utf8'), before);
-  assert.deepEqual(fs.readdirSync(outputDir), ['1_0.png']);
+  assert.deepEqual(fs.readdirSync(outputDir), ['1_0.webp']);
   assert.deepEqual(fs.readdirSync(directory).sort(), ['archive.json', 'screenshots']);
   fs.renameSync = renameSync;
   await saveScreenshots([item('Just nu: Retry')], outputDir, emptyArchive(), archivePath);
@@ -191,7 +221,7 @@ test('image publication failure rolls back promoted files without removing a com
   let competingFile;
   t.after(() => { fs.linkSync = linkSync; });
   fs.linkSync = (source, destination) => {
-    if (destination.endsWith('_1.png')) {
+    if (destination.endsWith('_1.webp')) {
       competingFile = destination;
       fs.writeFileSync(destination, 'competing file');
     }
@@ -208,10 +238,10 @@ test('interrupted-run images are neither overwritten nor imported', async t => {
   const now = Date.now;
   Date.now = () => 100;
   t.after(() => { Date.now = now; });
-  fs.writeFileSync(path.join(outputDir, '100_0.png'), 'orphan');
+  fs.writeFileSync(path.join(outputDir, '100_0.webp'), 'orphan');
   await saveScreenshots([item('Just nu: New')], outputDir, emptyArchive(), archivePath);
-  assert.equal(fs.readFileSync(path.join(outputDir, '100_0.png'), 'utf8'), 'orphan');
-  assert.equal(loadArchive(archivePath).captures[0].filename, '101_0.png');
+  assert.equal(fs.readFileSync(path.join(outputDir, '100_0.webp'), 'utf8'), 'orphan');
+  assert.equal(loadArchive(archivePath).captures[0].filename, '101_0.webp');
 });
 
 test('main skips every write on no-change runs', async t => {
@@ -308,8 +338,8 @@ test('gallery reads unified archive, sorts numerically, and preserves image/link
       },
     };
   }
-  const archive = migrateArchive([], { '100_10.png': 'https://example.com/article' },
-    ['100_2.png', '99_20.png', '100_10.png', '101_0.png']);
+  const archive = migrateArchive([], { '100_10.webp': 'https://example.com/article' },
+    ['100_2.webp', '99_20.webp', '100_10.webp', '101_0.webp']);
   vm.runInNewContext(htmlScript(fs.readFileSync(file, 'utf8')), {
     document: {
       getElementById(id) {
@@ -330,7 +360,7 @@ test('gallery reads unified archive, sorts numerically, and preserves image/link
   const children = nodes.get('gallery').children;
   const images = children.map(child => child.tag === 'a' ? child.children[0] : child);
   assert.deepEqual(images.map(img => img.attributes.src),
-    ['101_0.png', '100_10.png', '100_2.png', '99_20.png'].map(f => `screenshots/${f}`));
+    ['101_0.webp', '100_10.webp', '100_2.webp', '99_20.webp'].map(f => `screenshots/${f}`));
   assert.equal(children[1].attributes.href, 'https://example.com/article');
   assert.equal(children[1].attributes.rel, 'noopener noreferrer');
   assert.equal(images[0].attributes.loading, 'lazy');

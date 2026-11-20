@@ -31,7 +31,7 @@ if (require.main === module) {
   if (fs.existsSync(ARCHIVE_PATH)) throw new Error('Archive already exists; refusing to overwrite');
   const texts = JSON.parse(fs.readFileSync(path.join(root, 'texts.json'), 'utf8'));
   const sources = JSON.parse(fs.readFileSync(path.join(root, 'screenshot-sources.json'), 'utf8'));
-  const files = fs.readdirSync(path.join(root, 'docs', 'screenshots')).filter(file => file.endsWith('.png'));
+  const files = fs.readdirSync(path.join(root, 'docs', 'screenshots')).filter(file => file.endsWith('.webp'));
   const archive = migrateArchive(texts, sources, files);
   saveArchive(archive);
   console.log(`Migrated ${archive.headlines.length} headlines and ${archive.captures.length} captures`);

@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const sharp = require('sharp');
 const { ARCHIVE_PATH, capturedAt, headlineId, loadArchive, saveArchive, validateArchive } = require('./archive');
 
 const URL = 'https://www.sverigesradio.se';
@@ -64,7 +65,7 @@ async function saveScreenshots(items, outputDir, archive, archivePath) {
   ]);
   let timestamp = Date.now();
   // Interrupted runs may leave unreferenced images. Never overwrite those files.
-  while (items.some((_, i) => existing.has(`${timestamp}_${i}.png`))) timestamp++;
+  while (items.some((_, i) => existing.has(`${timestamp}_${i}.webp`))) timestamp++;
   const stagingDirectory = fs.mkdtempSync(path.join(outputDir, '.capture-'));
   const promoted = [];
   const headlines = [];
@@ -72,8 +73,9 @@ async function saveScreenshots(items, outputDir, archive, archivePath) {
   try {
     for (let i = 0; i < items.length; i++) {
       const { element, text, href } = items[i];
-      const filename = `${timestamp}_${i}.png`;
-      await element.screenshot({ path: path.join(stagingDirectory, filename) });
+      const filename = `${timestamp}_${i}.webp`;
+      const screenshot = await element.screenshot();
+      await sharp(screenshot).webp({ lossless: true }).toFile(path.join(stagingDirectory, filename));
       const id = headlineId(text);
       headlines.push({ id, text });
       captures.push({ filename, headlineId: id, articleUrl: href ?? null, capturedAt: capturedAt(filename) });
@@ -168,8 +170,8 @@ function generateHTML(file = path.join(__dirname, 'docs', 'index.html')) {
         throw new Error('Unsupported archive schema');
       }
       items = data.captures.slice().sort(function (a, b) {
-        var partsA = a.filename.slice(0, -4).split('_');
-        var partsB = b.filename.slice(0, -4).split('_');
+        var partsA = a.filename.slice(0, -5).split('_');
+        var partsB = b.filename.slice(0, -5).split('_');
         return Number(partsB[0]) - Number(partsA[0]) || Number(partsB[1]) - Number(partsA[1]);
       }).map(function (capture) {
         return { f: capture.filename, href: capture.articleUrl };

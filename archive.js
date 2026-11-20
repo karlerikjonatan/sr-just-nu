@@ -3,7 +3,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 
 const ARCHIVE_PATH = path.join(__dirname, 'docs', 'archive.json');
-const SCREENSHOT_PATTERN = /^(\d+)_(\d+)\.png$/;
+const SCREENSHOT_PATTERN = /^(\d+)_(\d+)\.webp$/;
 
 function headlineId(text) {
   return crypto.createHash('sha256').update(text, 'utf8').digest('hex');

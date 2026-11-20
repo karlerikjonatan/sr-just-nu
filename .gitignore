@@ -140,3 +140,4 @@ dist
 # Incomplete archive writes/captures from interrupted scraper runs
 /docs/.archive-*.tmp
 /docs/screenshots/.capture-*/
+/docs/screenshots/.webp-migration-*/
