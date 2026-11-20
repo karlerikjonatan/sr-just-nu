@@ -46688,6 +46688,10 @@
     {
       "id": "b58d177f35adaaf0649fe8ad95a25f548518d1f39a0ab998fe2c15ec04bdb610",
       "text": "Just nu: Olycka på E18 utanför Karlstad"
+    },
+    {
+      "id": "42305ac5444b3dd8866761412a89b5eb4d9fc9c7aea06d293bdae04c43569134",
+      "text": "Just nu: Kemikalielarm på Volvo – explosionrisk"
     }
   ],
   "captures": [
@@ -116716,6 +116720,12 @@
       "headlineId": "b58d177f35adaaf0649fe8ad95a25f548518d1f39a0ab998fe2c15ec04bdb610",
       "articleUrl": "https://www.sverigesradio.se/artikel/lastbilsolycka-pa-e18-utanfor-karlstad",
       "capturedAt": "2026-11-20T10:57:29.513Z"
+    },
+    {
+      "filename": "1795174055889_0.png",
+      "headlineId": "42305ac5444b3dd8866761412a89b5eb4d9fc9c7aea06d293bdae04c43569134",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kemikalielarm-pa-volvo-i-eskilstuna-byggnad-utrymd",
+      "capturedAt": "2026-11-20T11:27:35.889Z"
     }
   ]
 }
