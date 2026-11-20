@@ -46708,6 +46708,10 @@
     {
       "id": "954550865ffdb9b248315d001c3281a0b326713ca1e9a7ad14b7838737fd191a",
       "text": "Just nu: Allsvenska toppmötet kan skjutas upp"
+    },
+    {
+      "id": "e4336eb8d47a5f719520b59beedf52cf2a01f126d8fcffe4ee10240c37f70cdf",
+      "text": "Just nu: Rapparen 1.Cuz döms till fängelse"
     }
   ],
   "captures": [
@@ -116766,6 +116770,12 @@
       "headlineId": "fe2325e3bc3127c655683d5aded19149b43314047a035d9f31c956ec11566e1f",
       "articleUrl": "https://www.sverigesradio.se/artikel/arets-kandidater-till-radiosportens-jerringpris-2026",
       "capturedAt": "2026-11-20T13:27:28.755Z"
+    },
+    {
+      "filename": "1795183049321_0.webp",
+      "headlineId": "e4336eb8d47a5f719520b59beedf52cf2a01f126d8fcffe4ee10240c37f70cdf",
+      "articleUrl": "https://www.sverigesradio.se/artikel/rapparen-1-cuz-doms-till-fangelse-for-grovt-skattebrott",
+      "capturedAt": "2026-11-20T13:57:29.321Z"
     }
   ]
 }
