@@ -63,8 +63,8 @@
         throw new Error('Unsupported archive schema');
       }
       items = data.captures.slice().sort(function (a, b) {
-        var partsA = a.filename.slice(0, -4).split('_');
-        var partsB = b.filename.slice(0, -4).split('_');
+        var partsA = a.filename.slice(0, -5).split('_');
+        var partsB = b.filename.slice(0, -5).split('_');
         return Number(partsB[0]) - Number(partsA[0]) || Number(partsB[1]) - Number(partsA[1]);
       }).map(function (capture) {
         return { f: capture.filename, href: capture.articleUrl };
