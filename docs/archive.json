@@ -46828,6 +46828,10 @@
     {
       "id": "fab1c0483411e4329019e6ba741c49ab4c575ba42872f789755c538c427fd4af",
       "text": "Just nu: Väg 21 avstängd vid Perstorp"
+    },
+    {
+      "id": "35e042af7bf3f18b81e163094f96149081d01b93dc528d06ce1cc4d70635a216",
+      "text": "Just nu: Lågor från balkong – brand i Skellefteå"
     }
   ],
   "captures": [
@@ -117066,6 +117070,12 @@
       "headlineId": "fab1c0483411e4329019e6ba741c49ab4c575ba42872f789755c538c427fd4af",
       "articleUrl": "https://www.sverigesradio.se/artikel/krock-pa-riksvag-21-avstangt-vid-perstorp",
       "capturedAt": "2026-11-21T16:27:32.084Z"
+    },
+    {
+      "filename": "1795294353759_0.webp",
+      "headlineId": "35e042af7bf3f18b81e163094f96149081d01b93dc528d06ce1cc4d70635a216",
+      "articleUrl": "https://www.sverigesradio.se/artikel/brand-i-flerfamiljshus-i-skelleftea-lagor-fran-balkong",
+      "capturedAt": "2026-11-21T20:52:33.759Z"
     }
   ]
 }
