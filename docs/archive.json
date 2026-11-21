@@ -46772,6 +46772,10 @@
     {
       "id": "06ce22a23f03c8233c30bdb82b027197c4e03fcf2b65e08fd9cbfe4ae3117f48",
       "text": "Just nu: Man påkörd i Gällivare"
+    },
+    {
+      "id": "d8742c05703e66b85311289ca6eb91e2fec96ddcb40bec22144e3b02a789639c",
+      "text": "Just nu: Stjärntrion saknas i Bruksvallarna"
     }
   ],
   "captures": [
@@ -116926,6 +116930,12 @@
       "headlineId": "06ce22a23f03c8233c30bdb82b027197c4e03fcf2b65e08fd9cbfe4ae3117f48",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-pakord-i-gallivare-i-natt-livshotande-skadad",
       "capturedAt": "2026-11-21T07:17:28.671Z"
+    },
+    {
+      "filename": "1795252047580_0.webp",
+      "headlineId": "d8742c05703e66b85311289ca6eb91e2fec96ddcb40bec22144e3b02a789639c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/pa-pallen-i-sprinten-stjarntrion-avstar-distansloppet",
+      "capturedAt": "2026-11-21T09:07:27.580Z"
     }
   ]
 }
