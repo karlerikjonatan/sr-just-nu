@@ -46792,6 +46792,10 @@
     {
       "id": "ddb17513805ebdb9a245ce43186c1c77c71f8b435365239a280bfea4b17eba56",
       "text": "Just nu: Landmärke i Göteborg har hackats"
+    },
+    {
+      "id": "01452239686979fa19579f4c6f61505bdb175343c4f93f465e92d31a5d2a3004",
+      "text": "Just nu: Bärgning stänger E4 vid Umeå"
     }
   ],
   "captures": [
@@ -116976,6 +116980,12 @@
       "headlineId": "ddb17513805ebdb9a245ce43186c1c77c71f8b435365239a280bfea4b17eba56",
       "articleUrl": "https://www.sverigesradio.se/artikel/dataintrang-pa-gothia-towers-14-000-kunder-kan-beroras",
       "capturedAt": "2026-11-21T10:57:27.224Z"
+    },
+    {
+      "filename": "1795264354404_0.webp",
+      "headlineId": "01452239686979fa19579f4c6f61505bdb175343c4f93f465e92d31a5d2a3004",
+      "articleUrl": "https://www.sverigesradio.se/artikel/e4-avstangd-vid-savar-lastbilsslap-ska-bargas",
+      "capturedAt": "2026-11-21T12:32:34.404Z"
     }
   ]
 }
