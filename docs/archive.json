@@ -46804,6 +46804,10 @@
     {
       "id": "b8a6f000250fb2efc48084d4f61b124b9cab2127c088e3dce88c670b2445194c",
       "text": "Just nu: Harry Kane har opererats"
+    },
+    {
+      "id": "3f366bd581111b79d69683b9a766e6c7fe423cf73b6dcb69048df9a7ddf88a29",
+      "text": "Just nu: Bilbrand på E18 utanför Stockholm"
     }
   ],
   "captures": [
@@ -117006,6 +117010,12 @@
       "headlineId": "b8a6f000250fb2efc48084d4f61b124b9cab2127c088e3dce88c670b2445194c",
       "articleUrl": "https://www.sverigesradio.se/artikel/harry-kane-har-opererats",
       "capturedAt": "2026-11-21T12:42:30.538Z"
+    },
+    {
+      "filename": "1795266447561_0.webp",
+      "headlineId": "3f366bd581111b79d69683b9a766e6c7fe423cf73b6dcb69048df9a7ddf88a29",
+      "articleUrl": "https://www.sverigesradio.se/artikel/bilbrand-pa-enkopingsvagen-avstangt-mot-stockholm",
+      "capturedAt": "2026-11-21T13:07:27.561Z"
     }
   ]
 }
