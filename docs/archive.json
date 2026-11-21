@@ -46784,6 +46784,10 @@
     {
       "id": "28e3eac18fac0003c9ca1c253dbdad17012905dd3fa2cdf2f1bdc427e916a4de",
       "text": "Just nu: Stjärntrio saknas i Bruksvallarna"
+    },
+    {
+      "id": "48c359f7fe33b4a2b148cba0f78afa216a29ad4118037a5fa047d540b68ea227",
+      "text": "Just nu: Svensk ledning efter första åket"
     }
   ],
   "captures": [
@@ -116956,6 +116960,12 @@
       "headlineId": "28e3eac18fac0003c9ca1c253dbdad17012905dd3fa2cdf2f1bdc427e916a4de",
       "articleUrl": "https://www.sverigesradio.se/artikel/pa-pallen-i-sprinten-stjarntrion-avstar-distansloppet",
       "capturedAt": "2026-11-21T09:52:34.387Z"
+    },
+    {
+      "filename": "1795257757460_0.webp",
+      "headlineId": "48c359f7fe33b4a2b148cba0f78afa216a29ad4118037a5fa047d540b68ea227",
+      "articleUrl": "https://www.sverigesradio.se/artikel/swenn-larsson-i-ledning-efter-forsta-aket-i-gurgl",
+      "capturedAt": "2026-11-21T10:42:37.460Z"
     }
   ]
 }
