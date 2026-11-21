@@ -46788,6 +46788,10 @@
     {
       "id": "48c359f7fe33b4a2b148cba0f78afa216a29ad4118037a5fa047d540b68ea227",
       "text": "Just nu: Svensk ledning efter första åket"
+    },
+    {
+      "id": "ddb17513805ebdb9a245ce43186c1c77c71f8b435365239a280bfea4b17eba56",
+      "text": "Just nu: Landmärke i Göteborg har hackats"
     }
   ],
   "captures": [
@@ -116966,6 +116970,12 @@
       "headlineId": "48c359f7fe33b4a2b148cba0f78afa216a29ad4118037a5fa047d540b68ea227",
       "articleUrl": "https://www.sverigesradio.se/artikel/swenn-larsson-i-ledning-efter-forsta-aket-i-gurgl",
       "capturedAt": "2026-11-21T10:42:37.460Z"
+    },
+    {
+      "filename": "1795258647224_0.webp",
+      "headlineId": "ddb17513805ebdb9a245ce43186c1c77c71f8b435365239a280bfea4b17eba56",
+      "articleUrl": "https://www.sverigesradio.se/artikel/dataintrang-pa-gothia-towers-14-000-kunder-kan-beroras",
+      "capturedAt": "2026-11-21T10:57:27.224Z"
     }
   ]
 }
