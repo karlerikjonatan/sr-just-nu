@@ -46776,6 +46776,10 @@
     {
       "id": "d8742c05703e66b85311289ca6eb91e2fec96ddcb40bec22144e3b02a789639c",
       "text": "Just nu: Stjärntrion saknas i Bruksvallarna"
+    },
+    {
+      "id": "d81c70d280fb81dab0f07bc784deb9ea4a383076b73f1bd44032d05a69e716ac",
+      "text": "Just nu: SMHI utökar snövarning"
     }
   ],
   "captures": [
@@ -116936,6 +116940,12 @@
       "headlineId": "d8742c05703e66b85311289ca6eb91e2fec96ddcb40bec22144e3b02a789639c",
       "articleUrl": "https://www.sverigesradio.se/artikel/pa-pallen-i-sprinten-stjarntrion-avstar-distansloppet",
       "capturedAt": "2026-11-21T09:07:27.580Z"
+    },
+    {
+      "filename": "1795254455159_0.webp",
+      "headlineId": "d81c70d280fb81dab0f07bc784deb9ea4a383076b73f1bd44032d05a69e716ac",
+      "articleUrl": "https://www.sverigesradio.se/artikel/smhi-vadervarnar-igen-gula-varningen-for-sno-tillbaka",
+      "capturedAt": "2026-11-21T09:47:35.159Z"
     }
   ]
 }
