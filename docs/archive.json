@@ -46816,6 +46816,14 @@
     {
       "id": "569c19ad49ec7e2cc843f8c438127345b784675f7dca9247d41a92b8a8e05b69",
       "text": "Just nu: Peer Gynt blir nordisk storfilm"
+    },
+    {
+      "id": "67e4a5eea39d257dcb83aaf53123eea0015c2c956df31015417da4f35274f8a6",
+      "text": "Just nu: Tung poäng i bottenstriden"
+    },
+    {
+      "id": "0deee422116641a6f31211d6eeeb72dfe281c414c966a4b3c034109dc0b62a69",
+      "text": "Just nu: Färjor ställs in – hårt väder"
     }
   ],
   "captures": [
@@ -117036,6 +117044,18 @@
       "headlineId": "569c19ad49ec7e2cc843f8c438127345b784675f7dca9247d41a92b8a8e05b69",
       "articleUrl": "https://www.sverigesradio.se/artikel/norska-nationaldramat-peer-gynt-blir-nordisk-storfilm",
       "capturedAt": "2026-11-21T14:17:29.053Z"
+    },
+    {
+      "filename": "1795276952473_0.webp",
+      "headlineId": "0deee422116641a6f31211d6eeeb72dfe281c414c966a4b3c034109dc0b62a69",
+      "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-flera-farjeavgangar-stalls-in-pa-grund-av-hart-vader",
+      "capturedAt": "2026-11-21T16:02:32.473Z"
+    },
+    {
+      "filename": "1795276952473_1.webp",
+      "headlineId": "67e4a5eea39d257dcb83aaf53123eea0015c2c956df31015417da4f35274f8a6",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tung-degerfors-poang-i-allsvenska-bottenstriden",
+      "capturedAt": "2026-11-21T16:02:32.473Z"
     }
   ]
 }
