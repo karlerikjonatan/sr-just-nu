@@ -46832,6 +46832,10 @@
     {
       "id": "35e042af7bf3f18b81e163094f96149081d01b93dc528d06ce1cc4d70635a216",
       "text": "Just nu: Lågor från balkong – brand i Skellefteå"
+    },
+    {
+      "id": "b70ac77fcb38424ad149a7a6e45e6682e94faade9e35ccf259222c6fc3538913",
+      "text": "Just nu: Huliganbråk på Östermalm"
     }
   ],
   "captures": [
@@ -117076,6 +117080,12 @@
       "headlineId": "35e042af7bf3f18b81e163094f96149081d01b93dc528d06ce1cc4d70635a216",
       "articleUrl": "https://www.sverigesradio.se/artikel/brand-i-flerfamiljshus-i-skelleftea-lagor-fran-balkong",
       "capturedAt": "2026-11-21T20:52:33.759Z"
+    },
+    {
+      "filename": "1795297958052_0.webp",
+      "headlineId": "b70ac77fcb38424ad149a7a6e45e6682e94faade9e35ccf259222c6fc3538913",
+      "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-brak-mellan-supportrar-pa-ostermalm-minst-en-skadad",
+      "capturedAt": "2026-11-21T21:52:38.052Z"
     }
   ]
 }
