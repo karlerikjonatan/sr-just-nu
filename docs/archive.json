@@ -46808,6 +46808,10 @@
     {
       "id": "3f366bd581111b79d69683b9a766e6c7fe423cf73b6dcb69048df9a7ddf88a29",
       "text": "Just nu: Bilbrand på E18 utanför Stockholm"
+    },
+    {
+      "id": "ea2d12f63e89b5afcd9cbb44fac81619b63d205f4a9812d6f6e6a0b08cbd1175",
+      "text": "Just nu: ”Peer Gynt” blir nordisk storfilm"
     }
   ],
   "captures": [
@@ -117016,6 +117020,12 @@
       "headlineId": "3f366bd581111b79d69683b9a766e6c7fe423cf73b6dcb69048df9a7ddf88a29",
       "articleUrl": "https://www.sverigesradio.se/artikel/bilbrand-pa-enkopingsvagen-avstangt-mot-stockholm",
       "capturedAt": "2026-11-21T13:07:27.561Z"
+    },
+    {
+      "filename": "1795270354974_0.webp",
+      "headlineId": "ea2d12f63e89b5afcd9cbb44fac81619b63d205f4a9812d6f6e6a0b08cbd1175",
+      "articleUrl": "https://www.sverigesradio.se/artikel/norska-nationaldramat-peer-gynt-blir-nordisk-storfilm",
+      "capturedAt": "2026-11-21T14:12:34.974Z"
     }
   ]
 }
