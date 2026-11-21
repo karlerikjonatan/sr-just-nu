@@ -46764,6 +46764,10 @@
     {
       "id": "d3d0251131d2f0aa6a1835f33751011c5cd72a27b3b1758d5088290509373701",
       "text": "Just nu: FBI ska ha hackats – igen"
+    },
+    {
+      "id": "4d3c459f18916e5bbe5d9a1272ed1128546a631872bf975a114ae2196ea674b5",
+      "text": "Just nu: Attacker mot Kyjiv – hus i lågor"
     }
   ],
   "captures": [
@@ -116906,6 +116910,12 @@
       "headlineId": "d3d0251131d2f0aa6a1835f33751011c5cd72a27b3b1758d5088290509373701",
       "articleUrl": "https://www.sverigesradio.se/artikel/cnn-fbi-har-hackade-igen-databaser-angripna",
       "capturedAt": "2026-11-21T03:17:27.762Z"
+    },
+    {
+      "filename": "1795243650542_0.webp",
+      "headlineId": "4d3c459f18916e5bbe5d9a1272ed1128546a631872bf975a114ae2196ea674b5",
+      "articleUrl": "https://www.sverigesradio.se/artikel/attacker-mot-kyjiv-bostadshus-i-lagor",
+      "capturedAt": "2026-11-21T06:47:30.542Z"
     }
   ]
 }
