@@ -46800,6 +46800,10 @@
     {
       "id": "0acaa2278303042d4d7b172283fdd22610352eada8ce450932f67a9ef356cdd0",
       "text": "Just nu: Stopp på E4 vid Umeå"
+    },
+    {
+      "id": "b8a6f000250fb2efc48084d4f61b124b9cab2127c088e3dce88c670b2445194c",
+      "text": "Just nu: Harry Kane har opererats"
     }
   ],
   "captures": [
@@ -116996,6 +117000,12 @@
       "headlineId": "0acaa2278303042d4d7b172283fdd22610352eada8ce450932f67a9ef356cdd0",
       "articleUrl": "https://www.sverigesradio.se/artikel/e4-avstangd-vid-savar-lastbilsslap-ska-bargas",
       "capturedAt": "2026-11-21T12:37:29.906Z"
+    },
+    {
+      "filename": "1795264950538_0.webp",
+      "headlineId": "b8a6f000250fb2efc48084d4f61b124b9cab2127c088e3dce88c670b2445194c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/harry-kane-har-opererats",
+      "capturedAt": "2026-11-21T12:42:30.538Z"
     }
   ]
 }
