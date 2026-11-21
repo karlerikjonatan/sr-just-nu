@@ -46760,6 +46760,10 @@
     {
       "id": "08233b8488991bd5f021aa64e8000a4a2bc9f954944532664b44841b66ac61da",
       "text": "Just nu: Två krockade med samma älg"
+    },
+    {
+      "id": "d3d0251131d2f0aa6a1835f33751011c5cd72a27b3b1758d5088290509373701",
+      "text": "Just nu: FBI ska ha hackats – igen"
     }
   ],
   "captures": [
@@ -116896,6 +116900,12 @@
       "headlineId": "08233b8488991bd5f021aa64e8000a4a2bc9f954944532664b44841b66ac61da",
       "articleUrl": "https://www.sverigesradio.se/artikel/dubbelolycka-i-tibro-buss-och-bil-krockade-med-samma-alg",
       "capturedAt": "2026-11-20T23:02:36.353Z"
+    },
+    {
+      "filename": "1795231047762_0.webp",
+      "headlineId": "d3d0251131d2f0aa6a1835f33751011c5cd72a27b3b1758d5088290509373701",
+      "articleUrl": "https://www.sverigesradio.se/artikel/cnn-fbi-har-hackade-igen-databaser-angripna",
+      "capturedAt": "2026-11-21T03:17:27.762Z"
     }
   ]
 }
