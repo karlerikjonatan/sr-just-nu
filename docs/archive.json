@@ -46824,6 +46824,10 @@
     {
       "id": "0deee422116641a6f31211d6eeeb72dfe281c414c966a4b3c034109dc0b62a69",
       "text": "Just nu: Färjor ställs in – hårt väder"
+    },
+    {
+      "id": "fab1c0483411e4329019e6ba741c49ab4c575ba42872f789755c538c427fd4af",
+      "text": "Just nu: Väg 21 avstängd vid Perstorp"
     }
   ],
   "captures": [
@@ -117056,6 +117060,12 @@
       "headlineId": "67e4a5eea39d257dcb83aaf53123eea0015c2c956df31015417da4f35274f8a6",
       "articleUrl": "https://www.sverigesradio.se/artikel/tung-degerfors-poang-i-allsvenska-bottenstriden",
       "capturedAt": "2026-11-21T16:02:32.473Z"
+    },
+    {
+      "filename": "1795278452084_0.webp",
+      "headlineId": "fab1c0483411e4329019e6ba741c49ab4c575ba42872f789755c538c427fd4af",
+      "articleUrl": "https://www.sverigesradio.se/artikel/krock-pa-riksvag-21-avstangt-vid-perstorp",
+      "capturedAt": "2026-11-21T16:27:32.084Z"
     }
   ]
 }
