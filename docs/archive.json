@@ -46812,6 +46812,10 @@
     {
       "id": "ea2d12f63e89b5afcd9cbb44fac81619b63d205f4a9812d6f6e6a0b08cbd1175",
       "text": "Just nu: ”Peer Gynt” blir nordisk storfilm"
+    },
+    {
+      "id": "569c19ad49ec7e2cc843f8c438127345b784675f7dca9247d41a92b8a8e05b69",
+      "text": "Just nu: Peer Gynt blir nordisk storfilm"
     }
   ],
   "captures": [
@@ -117026,6 +117030,12 @@
       "headlineId": "ea2d12f63e89b5afcd9cbb44fac81619b63d205f4a9812d6f6e6a0b08cbd1175",
       "articleUrl": "https://www.sverigesradio.se/artikel/norska-nationaldramat-peer-gynt-blir-nordisk-storfilm",
       "capturedAt": "2026-11-21T14:12:34.974Z"
+    },
+    {
+      "filename": "1795270649053_0.webp",
+      "headlineId": "569c19ad49ec7e2cc843f8c438127345b784675f7dca9247d41a92b8a8e05b69",
+      "articleUrl": "https://www.sverigesradio.se/artikel/norska-nationaldramat-peer-gynt-blir-nordisk-storfilm",
+      "capturedAt": "2026-11-21T14:17:29.053Z"
     }
   ]
 }
