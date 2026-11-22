@@ -46864,6 +46864,10 @@
     {
       "id": "ae17777571143e9763e99eefd18957d8363c3944b75c6225aaa4ea9a9464e843",
       "text": "Just nu: Tyskland förkastar förslag på COP31"
+    },
+    {
+      "id": "96428779c3b2dc565b631a6591fe29075a9300ac946ec55d31de8c5a74dff6c0",
+      "text": "Just nu: Köer på E18 nära Stockholm"
     }
   ],
   "captures": [
@@ -117156,6 +117160,12 @@
       "headlineId": "ae17777571143e9763e99eefd18957d8363c3944b75c6225aaa4ea9a9464e843",
       "articleUrl": "https://www.sverigesradio.se/artikel/senaste-nyheterna-fran-klimatmotet-cop31-2026",
       "capturedAt": "2026-11-22T09:32:37.225Z"
+    },
+    {
+      "filename": "1795343254491_0.webp",
+      "headlineId": "96428779c3b2dc565b631a6591fe29075a9300ac946ec55d31de8c5a74dff6c0",
+      "articleUrl": "https://www.sverigesradio.se/artikel/krock-pa-e18-enkopingsvagen-vagen-avstangd",
+      "capturedAt": "2026-11-22T10:27:34.491Z"
     }
   ]
 }
