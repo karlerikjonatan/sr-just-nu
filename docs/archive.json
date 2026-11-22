@@ -46860,6 +46860,10 @@
     {
       "id": "79cbb303abd99f1bb423bdba4c45da0931715ad853ae992321e1941212adbb57",
       "text": "Just nu: Föremål inkastat i lägenhet"
+    },
+    {
+      "id": "ae17777571143e9763e99eefd18957d8363c3944b75c6225aaa4ea9a9464e843",
+      "text": "Just nu: Tyskland förkastar förslag på COP31"
     }
   ],
   "captures": [
@@ -117146,6 +117150,12 @@
       "headlineId": "79cbb303abd99f1bb423bdba4c45da0931715ad853ae992321e1941212adbb57",
       "articleUrl": "https://www.sverigesradio.se/artikel/lagenhetsbrand-i-hastveda-utreds-som-misstankt-mordbrand",
       "capturedAt": "2026-11-22T08:52:45.494Z"
+    },
+    {
+      "filename": "1795339957225_0.webp",
+      "headlineId": "ae17777571143e9763e99eefd18957d8363c3944b75c6225aaa4ea9a9464e843",
+      "articleUrl": "https://www.sverigesradio.se/artikel/senaste-nyheterna-fran-klimatmotet-cop31-2026",
+      "capturedAt": "2026-11-22T09:32:37.225Z"
     }
   ]
 }
