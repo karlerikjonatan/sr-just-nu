@@ -46916,6 +46916,10 @@
     {
       "id": "ad2c924d1a4c1e10e4a471c93a992a2b7aba86e8ea92fec79ae60cb125009056",
       "text": "Just nu: Frontalkrock i Pajala – en till sjukhus"
+    },
+    {
+      "id": "c411b86c2d9a27fcee7f9fd51e35cc8aaba238e4b8f6358bec56dd485ddd5f43",
+      "text": "Just nu: Kollision på E4 – glashalt på vägen"
     }
   ],
   "captures": [
@@ -117286,6 +117290,12 @@
       "headlineId": "ad2c924d1a4c1e10e4a471c93a992a2b7aba86e8ea92fec79ae60cb125009056",
       "articleUrl": "https://www.sverigesradio.se/artikel/lastbil-och-personbil-i-frontalkrock-en-till-sjukhus",
       "capturedAt": "2026-11-22T17:32:29.856Z"
+    },
+    {
+      "filename": "1795370248841_0.webp",
+      "headlineId": "c411b86c2d9a27fcee7f9fd51e35cc8aaba238e4b8f6358bec56dd485ddd5f43",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lastbil-och-personbil-i-krock-pa-e4",
+      "capturedAt": "2026-11-22T17:57:28.841Z"
     }
   ]
 }
