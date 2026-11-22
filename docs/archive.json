@@ -46844,6 +46844,10 @@
     {
       "id": "996765404f6a5b891f524a9423385f5bd763f15de03612d6718047cb0717519e",
       "text": "Just nu: Två bilar fastnade i översvämning"
+    },
+    {
+      "id": "a0611c8e1db4113cbedd82f2e682d36127e9fb29944a927616127a426a7ac421",
+      "text": "Just nu: Tre grovt misshandlade i Visby"
     }
   ],
   "captures": [
@@ -117106,6 +117110,12 @@
       "headlineId": "996765404f6a5b891f524a9423385f5bd763f15de03612d6718047cb0717519e",
       "articleUrl": "https://www.sverigesradio.se/artikel/tva-bilar-fast-i-oversvammad-viadukt-i-skelleftehamn",
       "capturedAt": "2026-11-22T04:27:25.970Z"
+    },
+    {
+      "filename": "1795333349512_0.webp",
+      "headlineId": "a0611c8e1db4113cbedd82f2e682d36127e9fb29944a927616127a426a7ac421",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tre-personer-grovt-misshandlade-i-visby-i-natt",
+      "capturedAt": "2026-11-22T07:42:29.512Z"
     }
   ]
 }
