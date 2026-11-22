@@ -46840,6 +46840,10 @@
     {
       "id": "e5603ec55770bb7a9531db9a1a6ba4bbd1d46c9d98041fdbb5051501972ec726",
       "text": "Just nu: Två bilar fast i översvämmning"
+    },
+    {
+      "id": "996765404f6a5b891f524a9423385f5bd763f15de03612d6718047cb0717519e",
+      "text": "Just nu: Två bilar fastnade i översvämning"
     }
   ],
   "captures": [
@@ -117096,6 +117100,12 @@
       "headlineId": "e5603ec55770bb7a9531db9a1a6ba4bbd1d46c9d98041fdbb5051501972ec726",
       "articleUrl": "https://www.sverigesradio.se/artikel/tva-bilar-fast-i-oversvammad-viadukt-i-skelleftehamn",
       "capturedAt": "2026-11-22T01:02:46.259Z"
+    },
+    {
+      "filename": "1795321645970_0.webp",
+      "headlineId": "996765404f6a5b891f524a9423385f5bd763f15de03612d6718047cb0717519e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tva-bilar-fast-i-oversvammad-viadukt-i-skelleftehamn",
+      "capturedAt": "2026-11-22T04:27:25.970Z"
     }
   ]
 }
