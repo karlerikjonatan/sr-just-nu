@@ -46912,6 +46912,10 @@
     {
       "id": "da4f32d955fc39ec7166b2c9c130520b16af64277cf741f39cce326803fb92b8",
       "text": "Just nu: Glashalt på E4 – flera bilar i diket"
+    },
+    {
+      "id": "ad2c924d1a4c1e10e4a471c93a992a2b7aba86e8ea92fec79ae60cb125009056",
+      "text": "Just nu: Frontalkrock i Pajala – en till sjukhus"
     }
   ],
   "captures": [
@@ -117276,6 +117280,12 @@
       "headlineId": "da4f32d955fc39ec7166b2c9c130520b16af64277cf741f39cce326803fb92b8",
       "articleUrl": "https://www.sverigesradio.se/artikel/flera-fordon-i-diket-halka-pa-e4",
       "capturedAt": "2026-11-22T17:27:30.429Z"
+    },
+    {
+      "filename": "1795368749856_0.webp",
+      "headlineId": "ad2c924d1a4c1e10e4a471c93a992a2b7aba86e8ea92fec79ae60cb125009056",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lastbil-och-personbil-i-frontalkrock-en-till-sjukhus",
+      "capturedAt": "2026-11-22T17:32:29.856Z"
     }
   ]
 }
