@@ -46904,6 +46904,10 @@
     {
       "id": "653af7d198048f99fd62a36367bdebe7e356c813131b99607774069a7814fe90",
       "text": "Just nu: Svår olycka – helikopter kallas in"
+    },
+    {
+      "id": "ee34bf28aa932338fccb1d1af66d69424ebb8e5beb663e139bbbe75f6cc0d79f",
+      "text": "Just nu: Kraftig villabrand i Sollefteå"
     }
   ],
   "captures": [
@@ -117256,6 +117260,12 @@
       "headlineId": "653af7d198048f99fd62a36367bdebe7e356c813131b99607774069a7814fe90",
       "articleUrl": "https://www.sverigesradio.se/artikel/lastbilsolycka-soder-om-pajala",
       "capturedAt": "2026-11-22T16:17:38.372Z"
+    },
+    {
+      "filename": "1795366652166_0.webp",
+      "headlineId": "ee34bf28aa932338fccb1d1af66d69424ebb8e5beb663e139bbbe75f6cc0d79f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kraftig-villabrand-i-solleftea-lagor-slar-ut-genom-dorr",
+      "capturedAt": "2026-11-22T16:57:32.166Z"
     }
   ]
 }
