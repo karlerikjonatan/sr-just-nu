@@ -46872,6 +46872,10 @@
     {
       "id": "d5be419a136622e192acf948a0c47e0995cc148024f1c38b63f0ee8a9ee2f48a",
       "text": "Just nu: Orange varning för snö"
+    },
+    {
+      "id": "728660449c9a9889d9d693b8a3976e3f0f4c3cd474a0e044abe9f7c1c0a13228",
+      "text": "Just nu: Vändning i fallet Mohamed"
     }
   ],
   "captures": [
@@ -117176,6 +117180,12 @@
       "headlineId": "d5be419a136622e192acf948a0c47e0995cc148024f1c38b63f0ee8a9ee2f48a",
       "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-orange-varning-for-sno",
       "capturedAt": "2026-11-22T10:52:30.620Z"
+    },
+    {
+      "filename": "1795348349874_0.webp",
+      "headlineId": "728660449c9a9889d9d693b8a3976e3f0f4c3cd474a0e044abe9f7c1c0a13228",
+      "articleUrl": "https://www.sverigesradio.se/artikel/vandningen-polisen-och-do-kan-na-en-uppgorelse-i-fallet-mohamed",
+      "capturedAt": "2026-11-22T11:52:29.874Z"
     }
   ]
 }
