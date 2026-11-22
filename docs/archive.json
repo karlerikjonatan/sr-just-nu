@@ -46932,6 +46932,10 @@
     {
       "id": "f403c6cac147ca1494139b314aaafbf8728b183e42adbfa2c8a3abfcfcbb004c",
       "text": "Just nu: Största C-distriktet har bestämt sig"
+    },
+    {
+      "id": "87ca40784c1d55e65667c594ca42ff4a9def4bcdbc72f0c629349cacb7046bc0",
+      "text": "Just nu: Kraftig brand i Grumsvilla"
     }
   ],
   "captures": [
@@ -117326,6 +117330,12 @@
       "headlineId": "f403c6cac147ca1494139b314aaafbf8728b183e42adbfa2c8a3abfcfcbb004c",
       "articleUrl": "https://www.sverigesradio.se/artikel/regeringsbildningen-efter-valet-2026",
       "capturedAt": "2026-11-22T21:07:36.639Z"
+    },
+    {
+      "filename": "1795383447144_0.webp",
+      "headlineId": "87ca40784c1d55e65667c594ca42ff4a9def4bcdbc72f0c629349cacb7046bc0",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kraftig-brand-i-grums-oppna-lagor-fran-villa",
+      "capturedAt": "2026-11-22T21:37:27.144Z"
     }
   ]
 }
