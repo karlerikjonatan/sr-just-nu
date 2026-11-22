@@ -46856,6 +46856,10 @@
     {
       "id": "65d5eb260511cb85802a0c8d5e2273f891085acbe942c46a48f3efb9cf248130",
       "text": "Just nu: Sista minuten-förhandlingar på COP31"
+    },
+    {
+      "id": "79cbb303abd99f1bb423bdba4c45da0931715ad853ae992321e1941212adbb57",
+      "text": "Just nu: Föremål inkastat i lägenhet"
     }
   ],
   "captures": [
@@ -117136,6 +117140,12 @@
       "headlineId": "65d5eb260511cb85802a0c8d5e2273f891085acbe942c46a48f3efb9cf248130",
       "articleUrl": "https://www.sverigesradio.se/artikel/senaste-nyheterna-fran-klimatmotet-cop31-2026",
       "capturedAt": "2026-11-22T08:27:26.171Z"
+    },
+    {
+      "filename": "1795337565494_0.webp",
+      "headlineId": "79cbb303abd99f1bb423bdba4c45da0931715ad853ae992321e1941212adbb57",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lagenhetsbrand-i-hastveda-utreds-som-misstankt-mordbrand",
+      "capturedAt": "2026-11-22T08:52:45.494Z"
     }
   ]
 }
