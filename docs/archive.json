@@ -46924,6 +46924,10 @@
     {
       "id": "67829425e083114eaf0b3800f28aff6236b4c796c87feb39252e7dca9d62d5d3",
       "text": "Just nu: United överkört"
+    },
+    {
+      "id": "191936d660089ec820b443bc73760a290f7008ef5c3c06c1d6bde27fdc1ab399",
+      "text": "Just nu: United överkört i stormötet"
     }
   ],
   "captures": [
@@ -117306,6 +117310,12 @@
       "headlineId": "67829425e083114eaf0b3800f28aff6236b4c796c87feb39252e7dca9d62d5d3",
       "articleUrl": "https://www.sverigesradio.se/artikel/pochettinos-mardrom-i-debuten-united-overkort-av-liverpool",
       "capturedAt": "2026-11-22T18:42:32.104Z"
+    },
+    {
+      "filename": "1795374448518_0.webp",
+      "headlineId": "191936d660089ec820b443bc73760a290f7008ef5c3c06c1d6bde27fdc1ab399",
+      "articleUrl": "https://www.sverigesradio.se/artikel/pochettinos-mardrom-i-debuten-united-overkort-av-liverpool",
+      "capturedAt": "2026-11-22T19:07:28.518Z"
     }
   ]
 }
