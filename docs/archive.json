@@ -46908,6 +46908,10 @@
     {
       "id": "ee34bf28aa932338fccb1d1af66d69424ebb8e5beb663e139bbbe75f6cc0d79f",
       "text": "Just nu: Kraftig villabrand i Sollefteå"
+    },
+    {
+      "id": "da4f32d955fc39ec7166b2c9c130520b16af64277cf741f39cce326803fb92b8",
+      "text": "Just nu: Glashalt på E4 – flera bilar i diket"
     }
   ],
   "captures": [
@@ -117266,6 +117270,12 @@
       "headlineId": "ee34bf28aa932338fccb1d1af66d69424ebb8e5beb663e139bbbe75f6cc0d79f",
       "articleUrl": "https://www.sverigesradio.se/artikel/kraftig-villabrand-i-solleftea-lagor-slar-ut-genom-dorr",
       "capturedAt": "2026-11-22T16:57:32.166Z"
+    },
+    {
+      "filename": "1795368450429_0.webp",
+      "headlineId": "da4f32d955fc39ec7166b2c9c130520b16af64277cf741f39cce326803fb92b8",
+      "articleUrl": "https://www.sverigesradio.se/artikel/flera-fordon-i-diket-halka-pa-e4",
+      "capturedAt": "2026-11-22T17:27:30.429Z"
     }
   ]
 }
