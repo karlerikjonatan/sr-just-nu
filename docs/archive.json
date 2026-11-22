@@ -46836,6 +46836,10 @@
     {
       "id": "b70ac77fcb38424ad149a7a6e45e6682e94faade9e35ccf259222c6fc3538913",
       "text": "Just nu: Huliganbråk på Östermalm"
+    },
+    {
+      "id": "e5603ec55770bb7a9531db9a1a6ba4bbd1d46c9d98041fdbb5051501972ec726",
+      "text": "Just nu: Två bilar fast i översvämmning"
     }
   ],
   "captures": [
@@ -117086,6 +117090,12 @@
       "headlineId": "b70ac77fcb38424ad149a7a6e45e6682e94faade9e35ccf259222c6fc3538913",
       "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-brak-mellan-supportrar-pa-ostermalm-minst-en-skadad",
       "capturedAt": "2026-11-21T21:52:38.052Z"
+    },
+    {
+      "filename": "1795309366259_0.webp",
+      "headlineId": "e5603ec55770bb7a9531db9a1a6ba4bbd1d46c9d98041fdbb5051501972ec726",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tva-bilar-fast-i-oversvammad-viadukt-i-skelleftehamn",
+      "capturedAt": "2026-11-22T01:02:46.259Z"
     }
   ]
 }
