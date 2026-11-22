@@ -46848,6 +46848,10 @@
     {
       "id": "a0611c8e1db4113cbedd82f2e682d36127e9fb29944a927616127a426a7ac421",
       "text": "Just nu: Tre grovt misshandlade i Visby"
+    },
+    {
+      "id": "4952b1dd952f90951e126a8f779a64c8c0eb923f5deeda51d2d739881dfcee2e",
+      "text": "Just nu: Sista minuten-förhandlingar på COP"
     }
   ],
   "captures": [
@@ -117116,6 +117120,12 @@
       "headlineId": "a0611c8e1db4113cbedd82f2e682d36127e9fb29944a927616127a426a7ac421",
       "articleUrl": "https://www.sverigesradio.se/artikel/tre-personer-grovt-misshandlade-i-visby-i-natt",
       "capturedAt": "2026-11-22T07:42:29.512Z"
+    },
+    {
+      "filename": "1795335757417_0.webp",
+      "headlineId": "4952b1dd952f90951e126a8f779a64c8c0eb923f5deeda51d2d739881dfcee2e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/senaste-nyheterna-fran-klimatmotet-cop31-2026",
+      "capturedAt": "2026-11-22T08:22:37.417Z"
     }
   ]
 }
