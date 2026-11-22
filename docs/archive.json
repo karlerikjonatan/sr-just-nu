@@ -46892,6 +46892,10 @@
     {
       "id": "d4ef611f95e201e5cefc8900bb100c8cbc50a448b487082b5134160bd4d365f5",
       "text": "Just nu: Dramatisk skoterinsats"
+    },
+    {
+      "id": "c94d5d48fbe9a9cc2f8a4df19feee118ecb427b1311137725fd68bb16db2b9b7",
+      "text": "Just nu: Sätter guldpress på Hammarby"
     }
   ],
   "captures": [
@@ -117226,6 +117230,12 @@
       "headlineId": "d4ef611f95e201e5cefc8900bb100c8cbc50a448b487082b5134160bd4d365f5",
       "articleUrl": "https://www.sverigesradio.se/artikel/larm-om-skoter-genom-isen",
       "capturedAt": "2026-11-22T14:02:33.065Z"
+    },
+    {
+      "filename": "1795359452203_0.webp",
+      "headlineId": "c94d5d48fbe9a9cc2f8a4df19feee118ecb427b1311137725fd68bb16db2b9b7",
+      "articleUrl": "https://www.sverigesradio.se/artikel/sirius-succe-satter-guldpress-pa-hammarby",
+      "capturedAt": "2026-11-22T14:57:32.203Z"
     }
   ]
 }
