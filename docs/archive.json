@@ -46852,6 +46852,10 @@
     {
       "id": "4952b1dd952f90951e126a8f779a64c8c0eb923f5deeda51d2d739881dfcee2e",
       "text": "Just nu: Sista minuten-förhandlingar på COP"
+    },
+    {
+      "id": "65d5eb260511cb85802a0c8d5e2273f891085acbe942c46a48f3efb9cf248130",
+      "text": "Just nu: Sista minuten-förhandlingar på COP31"
     }
   ],
   "captures": [
@@ -117126,6 +117130,12 @@
       "headlineId": "4952b1dd952f90951e126a8f779a64c8c0eb923f5deeda51d2d739881dfcee2e",
       "articleUrl": "https://www.sverigesradio.se/artikel/senaste-nyheterna-fran-klimatmotet-cop31-2026",
       "capturedAt": "2026-11-22T08:22:37.417Z"
+    },
+    {
+      "filename": "1795336046171_0.webp",
+      "headlineId": "65d5eb260511cb85802a0c8d5e2273f891085acbe942c46a48f3efb9cf248130",
+      "articleUrl": "https://www.sverigesradio.se/artikel/senaste-nyheterna-fran-klimatmotet-cop31-2026",
+      "capturedAt": "2026-11-22T08:27:26.171Z"
     }
   ]
 }
