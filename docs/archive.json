@@ -46896,6 +46896,10 @@
     {
       "id": "c94d5d48fbe9a9cc2f8a4df19feee118ecb427b1311137725fd68bb16db2b9b7",
       "text": "Just nu: Sätter guldpress på Hammarby"
+    },
+    {
+      "id": "7c7d98f12ed9da7ab8e23ca2e96ad24aaf9a7eff8fc479dac30456720df9b1dc",
+      "text": "Just nu: Rosengård åker ur damallsvenskan"
     }
   ],
   "captures": [
@@ -117236,6 +117240,12 @@
       "headlineId": "c94d5d48fbe9a9cc2f8a4df19feee118ecb427b1311137725fd68bb16db2b9b7",
       "articleUrl": "https://www.sverigesradio.se/artikel/sirius-succe-satter-guldpress-pa-hammarby",
       "capturedAt": "2026-11-22T14:57:32.203Z"
+    },
+    {
+      "filename": "1795363363969_0.webp",
+      "headlineId": "7c7d98f12ed9da7ab8e23ca2e96ad24aaf9a7eff8fc479dac30456720df9b1dc",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kif-orebro-vann-kvalet-till-damallsvenskan-mot-rosengard",
+      "capturedAt": "2026-11-22T16:02:43.969Z"
     }
   ]
 }
