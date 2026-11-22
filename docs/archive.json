@@ -46900,6 +46900,10 @@
     {
       "id": "7c7d98f12ed9da7ab8e23ca2e96ad24aaf9a7eff8fc479dac30456720df9b1dc",
       "text": "Just nu: Rosengård åker ur damallsvenskan"
+    },
+    {
+      "id": "653af7d198048f99fd62a36367bdebe7e356c813131b99607774069a7814fe90",
+      "text": "Just nu: Svår olycka – helikopter kallas in"
     }
   ],
   "captures": [
@@ -117246,6 +117250,12 @@
       "headlineId": "7c7d98f12ed9da7ab8e23ca2e96ad24aaf9a7eff8fc479dac30456720df9b1dc",
       "articleUrl": "https://www.sverigesradio.se/artikel/kif-orebro-vann-kvalet-till-damallsvenskan-mot-rosengard",
       "capturedAt": "2026-11-22T16:02:43.969Z"
+    },
+    {
+      "filename": "1795364258372_0.webp",
+      "headlineId": "653af7d198048f99fd62a36367bdebe7e356c813131b99607774069a7814fe90",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lastbilsolycka-soder-om-pajala",
+      "capturedAt": "2026-11-22T16:17:38.372Z"
     }
   ]
 }
