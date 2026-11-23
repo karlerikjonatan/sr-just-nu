@@ -47016,6 +47016,10 @@
     {
       "id": "a4d2b6d91ebd9b3cb69916857fe755ad4efd7a60ce397856ca0d8e6435767c73",
       "text": "Just nu: Bryssels flygtrafik ligger nere"
+    },
+    {
+      "id": "148484e84ea162e9d1e73f63aa47ed36eb187bd9c25395f9e4d53f16193808dc",
+      "text": "Just nu: Värnpliktig skjuten under övning"
     }
   ],
   "captures": [
@@ -117536,6 +117540,12 @@
       "headlineId": "a4d2b6d91ebd9b3cb69916857fe755ad4efd7a60ce397856ca0d8e6435767c73",
       "articleUrl": "https://www.sverigesradio.se/artikel/bryssels-flygtrafik-ligger-nere-nar-tusentals-demonstrerar",
       "capturedAt": "2026-11-23T11:27:36.474Z"
+    },
+    {
+      "filename": "1795435049155_0.webp",
+      "headlineId": "148484e84ea162e9d1e73f63aa47ed36eb187bd9c25395f9e4d53f16193808dc",
+      "articleUrl": "https://www.sverigesradio.se/artikel/varnpliktig-skjuten-i-foten-under-ovning-i-karlstads-kommun",
+      "capturedAt": "2026-11-23T11:57:29.155Z"
     }
   ]
 }
