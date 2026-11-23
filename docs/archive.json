@@ -46996,6 +46996,10 @@
     {
       "id": "5ad1882fd4f205dead3a9bf6e6ed11433500ed066b9b609cc3e1923a30b430cf",
       "text": "Just nu: Lejon jagas i turkiskt bostadsområde"
+    },
+    {
+      "id": "1cd65b24917a64929c4729ee8d04e97b90472d0e9a1bda903246b244a706228b",
+      "text": "Just nu: Bombhot mot flera danska skolor"
     }
   ],
   "captures": [
@@ -117486,6 +117490,12 @@
       "headlineId": "5ad1882fd4f205dead3a9bf6e6ed11433500ed066b9b609cc3e1923a30b430cf",
       "articleUrl": "https://www.sverigesradio.se/artikel/lejon-i-bostadsomrade-i-istanbul-polisjakt-pagar",
       "capturedAt": "2026-11-23T09:42:51.373Z"
+    },
+    {
+      "filename": "1795427566388_0.webp",
+      "headlineId": "1cd65b24917a64929c4729ee8d04e97b90472d0e9a1bda903246b244a706228b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/bombhot-mot-flera-danska-skolor",
+      "capturedAt": "2026-11-23T09:52:46.388Z"
     }
   ]
 }
