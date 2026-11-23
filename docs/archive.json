@@ -46952,6 +46952,14 @@
     {
       "id": "1226d92b1b3333f2a9953cadaeda94ab700da3dba3f497d425639c811c85f663",
       "text": "Just nu: Snökaos i Uppland – bussar till ställs in"
+    },
+    {
+      "id": "18e3f0ae11ddb873bae0df0b4bf944e6fa8e74b808e4ec2c0f6631ff2b64ec67",
+      "text": "Just nu: Snökaos i Uppland – bussar ställs in"
+    },
+    {
+      "id": "7612c74184aa70b6906769c470be5c0236adff70c48433a807f7c35e26dcdabc",
+      "text": "Just nu: Tågförseningar och inställda avgångar"
     }
   ],
   "captures": [
@@ -117376,6 +117384,18 @@
       "headlineId": "1226d92b1b3333f2a9953cadaeda94ab700da3dba3f497d425639c811c85f663",
       "articleUrl": "https://www.sverigesradio.se/artikel/trafikolyckor-pa-e4-tre-singelolyckor-soder-om-uppsala",
       "capturedAt": "2026-11-23T06:32:32.433Z"
+    },
+    {
+      "filename": "1795417064651_0.webp",
+      "headlineId": "7612c74184aa70b6906769c470be5c0236adff70c48433a807f7c35e26dcdabc",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tagforseningar-och-installda-avgangar",
+      "capturedAt": "2026-11-23T06:57:44.651Z"
+    },
+    {
+      "filename": "1795417064651_1.webp",
+      "headlineId": "18e3f0ae11ddb873bae0df0b4bf944e6fa8e74b808e4ec2c0f6631ff2b64ec67",
+      "articleUrl": "https://www.sverigesradio.se/artikel/trafikolyckor-pa-e4-tre-singelolyckor-soder-om-uppsala",
+      "capturedAt": "2026-11-23T06:57:44.651Z"
     }
   ]
 }
