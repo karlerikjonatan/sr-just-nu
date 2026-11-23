@@ -46940,6 +46940,10 @@
     {
       "id": "93dd976ab1a2c695e0788a74e81e14cce69e6590e4fe907db079fb4c4302f129",
       "text": "Just nu: Dödssiffran stiger i Ukraina"
+    },
+    {
+      "id": "8213459d04ac33a450106fdf018282878582b18ce4d6095585b97ccc2b448071",
+      "text": "Just nu: Flera trafikolyckor – bil har voltat"
     }
   ],
   "captures": [
@@ -117346,6 +117350,12 @@
       "headlineId": "93dd976ab1a2c695e0788a74e81e14cce69e6590e4fe907db079fb4c4302f129",
       "articleUrl": "https://www.sverigesradio.se/artikel/dodssiffran-efter-ryska-attacken-stiger-till-tolv",
       "capturedAt": "2026-11-23T01:57:29.633Z"
+    },
+    {
+      "filename": "1795412856446_0.webp",
+      "headlineId": "8213459d04ac33a450106fdf018282878582b18ce4d6095585b97ccc2b448071",
+      "articleUrl": "https://www.sverigesradio.se/artikel/flera-olyckor-mellan-jonkoping-och-nassjo",
+      "capturedAt": "2026-11-23T05:47:36.446Z"
     }
   ]
 }
