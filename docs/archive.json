@@ -47020,6 +47020,10 @@
     {
       "id": "148484e84ea162e9d1e73f63aa47ed36eb187bd9c25395f9e4d53f16193808dc",
       "text": "Just nu: Värnpliktig skjuten under övning"
+    },
+    {
+      "id": "b91df0d1560a90bec6bb515410308ac9da9e6125b2fd6f5ac00aa787f526f070",
+      "text": "Just nu: Greta Thunberg döms"
     }
   ],
   "captures": [
@@ -117546,6 +117550,12 @@
       "headlineId": "148484e84ea162e9d1e73f63aa47ed36eb187bd9c25395f9e4d53f16193808dc",
       "articleUrl": "https://www.sverigesradio.se/artikel/varnpliktig-skjuten-i-foten-under-ovning-i-karlstads-kommun",
       "capturedAt": "2026-11-23T11:57:29.155Z"
+    },
+    {
+      "filename": "1795438054427_0.webp",
+      "headlineId": "b91df0d1560a90bec6bb515410308ac9da9e6125b2fd6f5ac00aa787f526f070",
+      "articleUrl": "https://www.sverigesradio.se/artikel/greta-thunberg-doms-for-olaga-intrang",
+      "capturedAt": "2026-11-23T12:47:34.427Z"
     }
   ]
 }
