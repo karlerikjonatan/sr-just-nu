@@ -46944,6 +46944,10 @@
     {
       "id": "8213459d04ac33a450106fdf018282878582b18ce4d6095585b97ccc2b448071",
       "text": "Just nu: Flera trafikolyckor – bil har voltat"
+    },
+    {
+      "id": "e6efe7f3c44616ee9fb2bb0736d46b307c87970ca18225c9a1cf2bc8f911f09b",
+      "text": "Just nu: Snö hindrar hemtjänst i Uppland"
     }
   ],
   "captures": [
@@ -117356,6 +117360,12 @@
       "headlineId": "8213459d04ac33a450106fdf018282878582b18ce4d6095585b97ccc2b448071",
       "articleUrl": "https://www.sverigesradio.se/artikel/flera-olyckor-mellan-jonkoping-och-nassjo",
       "capturedAt": "2026-11-23T05:47:36.446Z"
+    },
+    {
+      "filename": "1795414649108_0.webp",
+      "headlineId": "e6efe7f3c44616ee9fb2bb0736d46b307c87970ca18225c9a1cf2bc8f911f09b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/trafikolyckor-pa-e4-tre-singelolyckor-soder-om-uppsala",
+      "capturedAt": "2026-11-23T06:17:29.108Z"
     }
   ]
 }
