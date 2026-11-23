@@ -46988,6 +46988,10 @@
     {
       "id": "8beb96e32f7eb6f0975fbcb12bd8ca9946ad820aac614d291d905da91564655e",
       "text": "Just nu: Hundratals testas för mässling i Stockholm"
+    },
+    {
+      "id": "7af040124c371c67e62b4aca55ea5156521415e6d29b647419ca693f2b754a6c",
+      "text": "Just nu: Misstänkt mässlingutbrott i Stockholm"
     }
   ],
   "captures": [
@@ -117466,6 +117470,12 @@
       "headlineId": "8beb96e32f7eb6f0975fbcb12bd8ca9946ad820aac614d291d905da91564655e",
       "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-masslingsutbrott-i-stockholm-hundratals-ska-testas",
       "capturedAt": "2026-11-23T08:37:34.132Z"
+    },
+    {
+      "filename": "1795423351363_0.webp",
+      "headlineId": "7af040124c371c67e62b4aca55ea5156521415e6d29b647419ca693f2b754a6c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-masslingsutbrott-i-stockholm-hundratals-ska-testas",
+      "capturedAt": "2026-11-23T08:42:31.363Z"
     }
   ]
 }
