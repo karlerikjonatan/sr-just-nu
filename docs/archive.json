@@ -47028,6 +47028,10 @@
     {
       "id": "c4696aa596e9570e8454e2783cd0c88c97baa607157827c390b412ec3a9f7f5b",
       "text": "Just nu: De får arrangera fotbolls-VM"
+    },
+    {
+      "id": "ea816eb0a830aa21a2cc487898c38693292cef0133ef0154eec4148c85c0a929",
+      "text": "Just nu: Ny dna-bevisning i Brattåsmorden"
     }
   ],
   "captures": [
@@ -117566,6 +117570,12 @@
       "headlineId": "c4696aa596e9570e8454e2783cd0c88c97baa607157827c390b412ec3a9f7f5b",
       "articleUrl": "https://www.sverigesradio.se/artikel/klart-de-far-arrangera-fotbolls-vm-2031-och-2035",
       "capturedAt": "2026-11-23T15:42:32.989Z"
+    },
+    {
+      "filename": "1795450964232_0.webp",
+      "headlineId": "ea816eb0a830aa21a2cc487898c38693292cef0133ef0154eec4148c85c0a929",
+      "articleUrl": "https://www.sverigesradio.se/artikel/dubbelmordet-i-brattas-ny-bevisning-fran-avliden-person",
+      "capturedAt": "2026-11-23T16:22:44.232Z"
     }
   ]
 }
