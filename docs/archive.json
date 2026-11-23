@@ -47032,6 +47032,10 @@
     {
       "id": "ea816eb0a830aa21a2cc487898c38693292cef0133ef0154eec4148c85c0a929",
       "text": "Just nu: Ny dna-bevisning i Brattåsmorden"
+    },
+    {
+      "id": "49743991aeedbdd4948c4318173964c1921fbab395bbce0f3f99458cdf77d0f4",
+      "text": "Just nu: Bussolycka – tre till sjukhus"
     }
   ],
   "captures": [
@@ -117576,6 +117580,12 @@
       "headlineId": "ea816eb0a830aa21a2cc487898c38693292cef0133ef0154eec4148c85c0a929",
       "articleUrl": "https://www.sverigesradio.se/artikel/dubbelmordet-i-brattas-ny-bevisning-fran-avliden-person",
       "capturedAt": "2026-11-23T16:22:44.232Z"
+    },
+    {
+      "filename": "1795451851586_0.webp",
+      "headlineId": "49743991aeedbdd4948c4318173964c1921fbab395bbce0f3f99458cdf77d0f4",
+      "articleUrl": "https://www.sverigesradio.se/artikel/buss-korde-in-i-bil-pa-e45-tre-till-sjukhus",
+      "capturedAt": "2026-11-23T16:37:31.586Z"
     }
   ]
 }
