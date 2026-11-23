@@ -47000,6 +47000,10 @@
     {
       "id": "1cd65b24917a64929c4729ee8d04e97b90472d0e9a1bda903246b244a706228b",
       "text": "Just nu: Bombhot mot flera danska skolor"
+    },
+    {
+      "id": "feb94384fae33ca9263dba54fcc0820f5c8c32433d7912b01a565947217f52e9",
+      "text": "Just nu: Köer på E4 vid Gränna – lastbil har vält"
     }
   ],
   "captures": [
@@ -117496,6 +117500,12 @@
       "headlineId": "1cd65b24917a64929c4729ee8d04e97b90472d0e9a1bda903246b244a706228b",
       "articleUrl": "https://www.sverigesradio.se/artikel/bombhot-mot-flera-danska-skolor",
       "capturedAt": "2026-11-23T09:52:46.388Z"
+    },
+    {
+      "filename": "1795431449693_0.webp",
+      "headlineId": "feb94384fae33ca9263dba54fcc0820f5c8c32433d7912b01a565947217f52e9",
+      "articleUrl": "https://www.sverigesradio.se/artikel/stokigt-trafiklage-vid-granna-efter-lastbilsolycka",
+      "capturedAt": "2026-11-23T10:57:29.693Z"
     }
   ]
 }
