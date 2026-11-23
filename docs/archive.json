@@ -47036,6 +47036,10 @@
     {
       "id": "49743991aeedbdd4948c4318173964c1921fbab395bbce0f3f99458cdf77d0f4",
       "text": "Just nu: Bussolycka – tre till sjukhus"
+    },
+    {
+      "id": "e4a2103047df00cf543573542179af0ada21c5576ce7cd0dac27a97997d94ff2",
+      "text": "Just nu: Flis på riksväg 84 – välj annan väg"
     }
   ],
   "captures": [
@@ -117586,6 +117590,12 @@
       "headlineId": "49743991aeedbdd4948c4318173964c1921fbab395bbce0f3f99458cdf77d0f4",
       "articleUrl": "https://www.sverigesradio.se/artikel/buss-korde-in-i-bil-pa-e45-tre-till-sjukhus",
       "capturedAt": "2026-11-23T16:37:31.586Z"
+    },
+    {
+      "filename": "1795462048444_0.webp",
+      "headlineId": "e4a2103047df00cf543573542179af0ada21c5576ce7cd0dac27a97997d94ff2",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tappad-flis-pa-riksvag-84-valj-annan-vag",
+      "capturedAt": "2026-11-23T19:27:28.444Z"
     }
   ]
 }
