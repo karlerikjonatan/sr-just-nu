@@ -47024,6 +47024,10 @@
     {
       "id": "b91df0d1560a90bec6bb515410308ac9da9e6125b2fd6f5ac00aa787f526f070",
       "text": "Just nu: Greta Thunberg döms"
+    },
+    {
+      "id": "c4696aa596e9570e8454e2783cd0c88c97baa607157827c390b412ec3a9f7f5b",
+      "text": "Just nu: De får arrangera fotbolls-VM"
     }
   ],
   "captures": [
@@ -117556,6 +117560,12 @@
       "headlineId": "b91df0d1560a90bec6bb515410308ac9da9e6125b2fd6f5ac00aa787f526f070",
       "articleUrl": "https://www.sverigesradio.se/artikel/greta-thunberg-doms-for-olaga-intrang",
       "capturedAt": "2026-11-23T12:47:34.427Z"
+    },
+    {
+      "filename": "1795448552989_0.webp",
+      "headlineId": "c4696aa596e9570e8454e2783cd0c88c97baa607157827c390b412ec3a9f7f5b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/klart-de-far-arrangera-fotbolls-vm-2031-och-2035",
+      "capturedAt": "2026-11-23T15:42:32.989Z"
     }
   ]
 }
