@@ -46936,6 +46936,10 @@
     {
       "id": "87ca40784c1d55e65667c594ca42ff4a9def4bcdbc72f0c629349cacb7046bc0",
       "text": "Just nu: Kraftig brand i Grumsvilla"
+    },
+    {
+      "id": "93dd976ab1a2c695e0788a74e81e14cce69e6590e4fe907db079fb4c4302f129",
+      "text": "Just nu: Dödssiffran stiger i Ukraina"
     }
   ],
   "captures": [
@@ -117336,6 +117340,12 @@
       "headlineId": "87ca40784c1d55e65667c594ca42ff4a9def4bcdbc72f0c629349cacb7046bc0",
       "articleUrl": "https://www.sverigesradio.se/artikel/kraftig-brand-i-grums-oppna-lagor-fran-villa",
       "capturedAt": "2026-11-22T21:37:27.144Z"
+    },
+    {
+      "filename": "1795399049633_0.webp",
+      "headlineId": "93dd976ab1a2c695e0788a74e81e14cce69e6590e4fe907db079fb4c4302f129",
+      "articleUrl": "https://www.sverigesradio.se/artikel/dodssiffran-efter-ryska-attacken-stiger-till-tolv",
+      "capturedAt": "2026-11-23T01:57:29.633Z"
     }
   ]
 }
