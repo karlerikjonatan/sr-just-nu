@@ -46980,6 +46980,10 @@
     {
       "id": "b58fb9b73c7453a6831e1fca4cf7e93a2c07fee354bfebd0563e1467df3790b1",
       "text": "Just nu: Lastbil genom räcke: ”Kaosartat”"
+    },
+    {
+      "id": "10d3d0260a376d3f5ff6157d41910add90d09b908a32df6c24d0b96ea8fe4bef",
+      "text": "Just nu: Skolbuss gled in i ladugård i Tranemo"
     }
   ],
   "captures": [
@@ -117446,6 +117450,12 @@
       "headlineId": "b58fb9b73c7453a6831e1fca4cf7e93a2c07fee354bfebd0563e1467df3790b1",
       "articleUrl": "https://www.sverigesradio.se/artikel/lastbil-genom-vajerracket-pa-e4an-vittnet-latt-kaosartat",
       "capturedAt": "2026-11-23T07:57:31.462Z"
+    },
+    {
+      "filename": "1795422754974_0.webp",
+      "headlineId": "10d3d0260a376d3f5ff6157d41910add90d09b908a32df6c24d0b96ea8fe4bef",
+      "articleUrl": "https://www.sverigesradio.se/artikel/skolbuss-gled-av-vagen-in-i-ladugard-utanfor-manstad",
+      "capturedAt": "2026-11-23T08:32:34.974Z"
     }
   ]
 }
