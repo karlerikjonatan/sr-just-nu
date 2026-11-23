@@ -46960,6 +46960,10 @@
     {
       "id": "7612c74184aa70b6906769c470be5c0236adff70c48433a807f7c35e26dcdabc",
       "text": "Just nu: Tågförseningar och inställda avgångar"
+    },
+    {
+      "id": "2eef50959e93ec12ed9a0314578fd5a1d9f5dda263662f044035fb34ef653f30",
+      "text": "Just nu: Lastbil genom räcke på E4"
     }
   ],
   "captures": [
@@ -117396,6 +117400,12 @@
       "headlineId": "18e3f0ae11ddb873bae0df0b4bf944e6fa8e74b808e4ec2c0f6631ff2b64ec67",
       "articleUrl": "https://www.sverigesradio.se/artikel/trafikolyckor-pa-e4-tre-singelolyckor-soder-om-uppsala",
       "capturedAt": "2026-11-23T06:57:44.651Z"
+    },
+    {
+      "filename": "1795417352851_0.webp",
+      "headlineId": "2eef50959e93ec12ed9a0314578fd5a1d9f5dda263662f044035fb34ef653f30",
+      "articleUrl": "https://www.sverigesradio.se/artikel/flera-olyckor-mellan-jonkoping-och-nassjo",
+      "capturedAt": "2026-11-23T07:02:32.851Z"
     }
   ]
 }
