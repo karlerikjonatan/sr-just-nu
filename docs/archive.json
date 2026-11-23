@@ -46972,6 +46972,10 @@
     {
       "id": "f7e6b7ce0dcd330a68047ac184ee2f39afa39462f4cd5bdd347c044c5841e09c",
       "text": "Just nu: Lastbil genom räcke på E4: ”Kaosartat”"
+    },
+    {
+      "id": "bc82abba433dfd8fc2de0aeb3d9740faea61d8e5d5a352a889a6a50bf6dffe08",
+      "text": "Just nu: Kräkkaos i Växjö – förskola stängs"
     }
   ],
   "captures": [
@@ -117426,6 +117430,12 @@
       "headlineId": "4f38f2245d90b598781a8c6f45ec273698ca1d0528b0f86b00e5de75ef3338b3",
       "articleUrl": "https://www.sverigesradio.se/artikel/trafikolyckor-pa-e4-tre-singelolyckor-soder-om-uppsala",
       "capturedAt": "2026-11-23T07:42:38.915Z"
+    },
+    {
+      "filename": "1795420349493_0.webp",
+      "headlineId": "bc82abba433dfd8fc2de0aeb3d9740faea61d8e5d5a352a889a6a50bf6dffe08",
+      "articleUrl": "https://www.sverigesradio.se/artikel/forskola-i-vaxjo-haller-stangt-utbrott-av-magsjuka",
+      "capturedAt": "2026-11-23T07:52:29.493Z"
     }
   ]
 }
