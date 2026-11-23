@@ -47004,6 +47004,14 @@
     {
       "id": "feb94384fae33ca9263dba54fcc0820f5c8c32433d7912b01a565947217f52e9",
       "text": "Just nu: Köer på E4 vid Gränna – lastbil har vält"
+    },
+    {
+      "id": "0625dd2038ea05beab95e65f27cdcb177e64ccdc28c5092e89ea6a5269d8a561",
+      "text": "Just nu: Snö i Skåne"
+    },
+    {
+      "id": "256386c38779e37f8c21950885c6ffa828c0a602ace3613009e1d34c15862ed9",
+      "text": "Just nu: Lastbil har vält – köer på E4 vid Gränna"
     }
   ],
   "captures": [
@@ -117506,6 +117514,18 @@
       "headlineId": "feb94384fae33ca9263dba54fcc0820f5c8c32433d7912b01a565947217f52e9",
       "articleUrl": "https://www.sverigesradio.se/artikel/stokigt-trafiklage-vid-granna-efter-lastbilsolycka",
       "capturedAt": "2026-11-23T10:57:29.693Z"
+    },
+    {
+      "filename": "1795431751932_0.webp",
+      "headlineId": "256386c38779e37f8c21950885c6ffa828c0a602ace3613009e1d34c15862ed9",
+      "articleUrl": "https://www.sverigesradio.se/artikel/stokigt-trafiklage-vid-granna-efter-lastbilsolycka",
+      "capturedAt": "2026-11-23T11:02:31.932Z"
+    },
+    {
+      "filename": "1795431751932_1.webp",
+      "headlineId": "0625dd2038ea05beab95e65f27cdcb177e64ccdc28c5092e89ea6a5269d8a561",
+      "articleUrl": "https://www.sverigesradio.se/artikel/snofall-i-flera-delar-av-skane-under-mandagen",
+      "capturedAt": "2026-11-23T11:02:31.932Z"
     }
   ]
 }
