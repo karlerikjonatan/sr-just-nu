@@ -46948,6 +46948,10 @@
     {
       "id": "e6efe7f3c44616ee9fb2bb0736d46b307c87970ca18225c9a1cf2bc8f911f09b",
       "text": "Just nu: Snö hindrar hemtjänst i Uppland"
+    },
+    {
+      "id": "1226d92b1b3333f2a9953cadaeda94ab700da3dba3f497d425639c811c85f663",
+      "text": "Just nu: Snökaos i Uppland – bussar till ställs in"
     }
   ],
   "captures": [
@@ -117366,6 +117370,12 @@
       "headlineId": "e6efe7f3c44616ee9fb2bb0736d46b307c87970ca18225c9a1cf2bc8f911f09b",
       "articleUrl": "https://www.sverigesradio.se/artikel/trafikolyckor-pa-e4-tre-singelolyckor-soder-om-uppsala",
       "capturedAt": "2026-11-23T06:17:29.108Z"
+    },
+    {
+      "filename": "1795415552433_0.webp",
+      "headlineId": "1226d92b1b3333f2a9953cadaeda94ab700da3dba3f497d425639c811c85f663",
+      "articleUrl": "https://www.sverigesradio.se/artikel/trafikolyckor-pa-e4-tre-singelolyckor-soder-om-uppsala",
+      "capturedAt": "2026-11-23T06:32:32.433Z"
     }
   ]
 }
