@@ -46964,6 +46964,14 @@
     {
       "id": "2eef50959e93ec12ed9a0314578fd5a1d9f5dda263662f044035fb34ef653f30",
       "text": "Just nu: Lastbil genom räcke på E4"
+    },
+    {
+      "id": "4f38f2245d90b598781a8c6f45ec273698ca1d0528b0f86b00e5de75ef3338b3",
+      "text": "Just nu: Snöoväder i Uppland – bussar ställs in"
+    },
+    {
+      "id": "f7e6b7ce0dcd330a68047ac184ee2f39afa39462f4cd5bdd347c044c5841e09c",
+      "text": "Just nu: Lastbil genom räcke på E4: ”Kaosartat”"
     }
   ],
   "captures": [
@@ -117406,6 +117414,18 @@
       "headlineId": "2eef50959e93ec12ed9a0314578fd5a1d9f5dda263662f044035fb34ef653f30",
       "articleUrl": "https://www.sverigesradio.se/artikel/flera-olyckor-mellan-jonkoping-och-nassjo",
       "capturedAt": "2026-11-23T07:02:32.851Z"
+    },
+    {
+      "filename": "1795419758915_0.webp",
+      "headlineId": "f7e6b7ce0dcd330a68047ac184ee2f39afa39462f4cd5bdd347c044c5841e09c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lastbil-genom-vajerracket-pa-e4an-vittnet-latt-kaosartat",
+      "capturedAt": "2026-11-23T07:42:38.915Z"
+    },
+    {
+      "filename": "1795419758915_1.webp",
+      "headlineId": "4f38f2245d90b598781a8c6f45ec273698ca1d0528b0f86b00e5de75ef3338b3",
+      "articleUrl": "https://www.sverigesradio.se/artikel/trafikolyckor-pa-e4-tre-singelolyckor-soder-om-uppsala",
+      "capturedAt": "2026-11-23T07:42:38.915Z"
     }
   ]
 }
