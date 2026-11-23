@@ -46976,6 +46976,10 @@
     {
       "id": "bc82abba433dfd8fc2de0aeb3d9740faea61d8e5d5a352a889a6a50bf6dffe08",
       "text": "Just nu: Kräkkaos i Växjö – förskola stängs"
+    },
+    {
+      "id": "b58fb9b73c7453a6831e1fca4cf7e93a2c07fee354bfebd0563e1467df3790b1",
+      "text": "Just nu: Lastbil genom räcke: ”Kaosartat”"
     }
   ],
   "captures": [
@@ -117436,6 +117440,12 @@
       "headlineId": "bc82abba433dfd8fc2de0aeb3d9740faea61d8e5d5a352a889a6a50bf6dffe08",
       "articleUrl": "https://www.sverigesradio.se/artikel/forskola-i-vaxjo-haller-stangt-utbrott-av-magsjuka",
       "capturedAt": "2026-11-23T07:52:29.493Z"
+    },
+    {
+      "filename": "1795420651462_0.webp",
+      "headlineId": "b58fb9b73c7453a6831e1fca4cf7e93a2c07fee354bfebd0563e1467df3790b1",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lastbil-genom-vajerracket-pa-e4an-vittnet-latt-kaosartat",
+      "capturedAt": "2026-11-23T07:57:31.462Z"
     }
   ]
 }
