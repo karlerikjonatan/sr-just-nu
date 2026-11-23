@@ -46984,6 +46984,10 @@
     {
       "id": "10d3d0260a376d3f5ff6157d41910add90d09b908a32df6c24d0b96ea8fe4bef",
       "text": "Just nu: Skolbuss gled in i ladugård i Tranemo"
+    },
+    {
+      "id": "8beb96e32f7eb6f0975fbcb12bd8ca9946ad820aac614d291d905da91564655e",
+      "text": "Just nu: Hundratals testas för mässling i Stockholm"
     }
   ],
   "captures": [
@@ -117456,6 +117460,12 @@
       "headlineId": "10d3d0260a376d3f5ff6157d41910add90d09b908a32df6c24d0b96ea8fe4bef",
       "articleUrl": "https://www.sverigesradio.se/artikel/skolbuss-gled-av-vagen-in-i-ladugard-utanfor-manstad",
       "capturedAt": "2026-11-23T08:32:34.974Z"
+    },
+    {
+      "filename": "1795423054132_0.webp",
+      "headlineId": "8beb96e32f7eb6f0975fbcb12bd8ca9946ad820aac614d291d905da91564655e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-masslingsutbrott-i-stockholm-hundratals-ska-testas",
+      "capturedAt": "2026-11-23T08:37:34.132Z"
     }
   ]
 }
