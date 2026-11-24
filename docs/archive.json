@@ -47052,6 +47052,10 @@
     {
       "id": "ebbe215a29eb204ac255105fa8799174d2bba4638f34024a7293386d5417fe95",
       "text": "Just nu: Långa köer på E4 i norra Stockholm"
+    },
+    {
+      "id": "6ac9884697e3dc66a787226ac0692fab4d24613e7242697b122d9259b426d9a1",
+      "text": "Just nu: Priserna på julmaten går ner"
     }
   ],
   "captures": [
@@ -117626,6 +117630,12 @@
       "headlineId": "ebbe215a29eb204ac255105fa8799174d2bba4638f34024a7293386d5417fe95",
       "articleUrl": "https://www.sverigesradio.se/artikel/flerbilsolycka-vid-rotebro-e4-avstangd",
       "capturedAt": "2026-11-24T04:52:50.117Z"
+    },
+    {
+      "filename": "1795500149838_0.webp",
+      "headlineId": "6ac9884697e3dc66a787226ac0692fab4d24613e7242697b122d9259b426d9a1",
+      "articleUrl": "https://www.sverigesradio.se/artikel/julmaten-billigare-i-ar-forsta-gangen-sedan-2021",
+      "capturedAt": "2026-11-24T06:02:29.838Z"
     }
   ]
 }
