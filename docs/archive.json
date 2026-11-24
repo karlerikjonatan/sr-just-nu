@@ -47060,6 +47060,10 @@
     {
       "id": "542e2b426a6ddb7858981b21b4131052bd1f5abf4a523a7fa903bd1af7164afd",
       "text": "Just nu: Två SL-bussar i krock – 15 ombord"
+    },
+    {
+      "id": "e3d9f903e9e6d4b70b177d7ed38bf8e8f9c6586f4108bf1fbf1765ec730aeeaf",
+      "text": "Just nu: Häst fastfrusen i marken i Ronneby"
     }
   ],
   "captures": [
@@ -117646,6 +117650,12 @@
       "headlineId": "542e2b426a6ddb7858981b21b4131052bd1f5abf4a523a7fa903bd1af7164afd",
       "articleUrl": "https://www.sverigesradio.se/artikel/olycka-med-tva-sl-bussar-raddningsinsats-pagar",
       "capturedAt": "2026-11-24T06:12:32.630Z"
+    },
+    {
+      "filename": "1795502554552_0.webp",
+      "headlineId": "e3d9f903e9e6d4b70b177d7ed38bf8e8f9c6586f4108bf1fbf1765ec730aeeaf",
+      "articleUrl": "https://www.sverigesradio.se/artikel/hast-fastfrusen-i-marken",
+      "capturedAt": "2026-11-24T06:42:34.552Z"
     }
   ]
 }
