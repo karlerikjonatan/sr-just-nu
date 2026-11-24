@@ -47140,6 +47140,10 @@
     {
       "id": "6a415d4322321486c7ca9f48a8741311c15e39d1b1074c3e2a7452a991308f2a",
       "text": "Just nu: Tre ryssar i skidpremiären"
+    },
+    {
+      "id": "c480b3d3f748c2f9e24c2798937f01539f7b8bb8b3a7572a9d8e64649bbfa7d7",
+      "text": "Just nu: Man död i arbetsplatsolycka i Västerås"
     }
   ],
   "captures": [
@@ -117846,6 +117850,12 @@
       "headlineId": "6a415d4322321486c7ca9f48a8741311c15e39d1b1074c3e2a7452a991308f2a",
       "articleUrl": "https://www.sverigesradio.se/artikel/beskedet-tre-ryska-skidakare-till-skidpremiaren-i-ruka",
       "capturedAt": "2026-11-24T19:12:30.657Z"
+    },
+    {
+      "filename": "1795548452894_0.webp",
+      "headlineId": "c480b3d3f748c2f9e24c2798937f01539f7b8bb8b3a7572a9d8e64649bbfa7d7",
+      "articleUrl": "https://www.sverigesradio.se/artikel/en-person-dod-efter-arbetsplatsolycka-i-vasteras",
+      "capturedAt": "2026-11-24T19:27:32.894Z"
     }
   ]
 }
