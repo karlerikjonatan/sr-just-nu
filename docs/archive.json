@@ -47064,6 +47064,10 @@
     {
       "id": "e3d9f903e9e6d4b70b177d7ed38bf8e8f9c6586f4108bf1fbf1765ec730aeeaf",
       "text": "Just nu: Häst fastfrusen i marken i Ronneby"
+    },
+    {
+      "id": "d501ff0df08e488327556ffe60013790120a8340f4297062a51ce6c014c51e15",
+      "text": "Just nu: Häst död – frös fast i marken"
     }
   ],
   "captures": [
@@ -117656,6 +117660,12 @@
       "headlineId": "e3d9f903e9e6d4b70b177d7ed38bf8e8f9c6586f4108bf1fbf1765ec730aeeaf",
       "articleUrl": "https://www.sverigesradio.se/artikel/hast-fastfrusen-i-marken",
       "capturedAt": "2026-11-24T06:42:34.552Z"
+    },
+    {
+      "filename": "1795504955070_0.webp",
+      "headlineId": "d501ff0df08e488327556ffe60013790120a8340f4297062a51ce6c014c51e15",
+      "articleUrl": "https://www.sverigesradio.se/artikel/hast-fastfrusen-i-marken",
+      "capturedAt": "2026-11-24T07:22:35.070Z"
     }
   ]
 }
