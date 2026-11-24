@@ -47104,6 +47104,10 @@
     {
       "id": "140c904c743fe4d90c03db95ebe9f5b1c23e0a0751525939b6f65f5b538b2598",
       "text": "Just nu: Stöldkupp mot Karlskrona konserthus"
+    },
+    {
+      "id": "e67f9c523f0b23bad3458456dc0dae12d55de5e5552bf5eb9986af78fd1b963a",
+      "text": "Just nu: Husbrand i Ucklum"
     }
   ],
   "captures": [
@@ -117756,6 +117760,12 @@
       "headlineId": "140c904c743fe4d90c03db95ebe9f5b1c23e0a0751525939b6f65f5b538b2598",
       "articleUrl": "https://www.sverigesradio.se/artikel/fracka-stoldkuppen-designlampor-vart-450-000-kronor-borta",
       "capturedAt": "2026-11-24T12:32:41.804Z"
+    },
+    {
+      "filename": "1795529250521_0.webp",
+      "headlineId": "e67f9c523f0b23bad3458456dc0dae12d55de5e5552bf5eb9986af78fd1b963a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/hus-brinner-med-oppna-lagor-spridningsrisk-till-lada",
+      "capturedAt": "2026-11-24T14:07:30.521Z"
     }
   ]
 }
