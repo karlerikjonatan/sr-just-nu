@@ -47048,6 +47048,10 @@
     {
       "id": "8a79af3aaaff4a01608defb1df2299419169b89410523b769e6f067595cbe76c",
       "text": "Just nu: E4 avstängd efter olycka vid Rotebro"
+    },
+    {
+      "id": "ebbe215a29eb204ac255105fa8799174d2bba4638f34024a7293386d5417fe95",
+      "text": "Just nu: Långa köer på E4 i norra Stockholm"
     }
   ],
   "captures": [
@@ -117616,6 +117620,12 @@
       "headlineId": "8a79af3aaaff4a01608defb1df2299419169b89410523b769e6f067595cbe76c",
       "articleUrl": "https://www.sverigesradio.se/artikel/flerbilsolycka-vid-rotebro-e4-avstangd",
       "capturedAt": "2026-11-24T04:07:30.349Z"
+    },
+    {
+      "filename": "1795495970117_0.webp",
+      "headlineId": "ebbe215a29eb204ac255105fa8799174d2bba4638f34024a7293386d5417fe95",
+      "articleUrl": "https://www.sverigesradio.se/artikel/flerbilsolycka-vid-rotebro-e4-avstangd",
+      "capturedAt": "2026-11-24T04:52:50.117Z"
     }
   ]
 }
