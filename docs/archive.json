@@ -47128,6 +47128,10 @@
     {
       "id": "d57c6bc7d88d3d35e88bf492cbed2bd535665c0d3eefdc8ee55a2bc95e3704ce",
       "text": "Just nu: Misstänkt kidnappning – sex anhållna"
+    },
+    {
+      "id": "00e59a6eb38b24b3032d085a6fd81f196cf6111ab1cd070c808c5f69bb8abbc5",
+      "text": "Just nu: Löparstjärnan Evy Palm är död"
     }
   ],
   "captures": [
@@ -117816,6 +117820,12 @@
       "headlineId": "d57c6bc7d88d3d35e88bf492cbed2bd535665c0d3eefdc8ee55a2bc95e3704ce",
       "articleUrl": "https://www.sverigesradio.se/artikel/fyra-gripna-efter-stor-polisinsats-i-mellringe",
       "capturedAt": "2026-11-24T16:27:39.829Z"
+    },
+    {
+      "filename": "1795539457919_0.webp",
+      "headlineId": "00e59a6eb38b24b3032d085a6fd81f196cf6111ab1cd070c808c5f69bb8abbc5",
+      "articleUrl": "https://www.sverigesradio.se/artikel/loparstjarnan-evy-palm-ar-dod",
+      "capturedAt": "2026-11-24T16:57:37.919Z"
     }
   ]
 }
