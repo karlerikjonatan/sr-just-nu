@@ -47096,6 +47096,10 @@
     {
       "id": "fa4f68778a38dfc3e9cc7e1619be1d569f93512d220f0011367d434d2f30a9a0",
       "text": "Just nu: Misstänkt våldtäkt på sjukhus"
+    },
+    {
+      "id": "3056a5b73978a398bc838b38bd86ef12c7869fc188dcf4d011753847e22ee185",
+      "text": "Just nu: Stora tågstörningar efter växelfel"
     }
   ],
   "captures": [
@@ -117736,6 +117740,12 @@
       "headlineId": "fa4f68778a38dfc3e9cc7e1619be1d569f93512d220f0011367d434d2f30a9a0",
       "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-valdtakt-pa-sjukhus-i-vasteras-man-haktad",
       "capturedAt": "2026-11-24T10:37:31.784Z"
+    },
+    {
+      "filename": "1795521452498_0.webp",
+      "headlineId": "3056a5b73978a398bc838b38bd86ef12c7869fc188dcf4d011753847e22ee185",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tagstopp-paverkar-flera-strackor",
+      "capturedAt": "2026-11-24T11:57:32.498Z"
     }
   ]
 }
