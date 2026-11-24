@@ -47068,6 +47068,10 @@
     {
       "id": "d501ff0df08e488327556ffe60013790120a8340f4297062a51ce6c014c51e15",
       "text": "Just nu: Häst död – frös fast i marken"
+    },
+    {
+      "id": "69212ce0e81076da6ae7af6aaaf605794ef31a7d61ce236f8b747df75ad5ebbc",
+      "text": "Just nu: Brand på sågverk utanför Umeå"
     }
   ],
   "captures": [
@@ -117666,6 +117670,12 @@
       "headlineId": "d501ff0df08e488327556ffe60013790120a8340f4297062a51ce6c014c51e15",
       "articleUrl": "https://www.sverigesradio.se/artikel/hast-fastfrusen-i-marken",
       "capturedAt": "2026-11-24T07:22:35.070Z"
+    },
+    {
+      "filename": "1795506760008_0.webp",
+      "headlineId": "69212ce0e81076da6ae7af6aaaf605794ef31a7d61ce236f8b747df75ad5ebbc",
+      "articleUrl": "https://www.sverigesradio.se/artikel/brand-pa-sagverk-i-brattby-20-enheter-larmade",
+      "capturedAt": "2026-11-24T07:52:40.008Z"
     }
   ]
 }
