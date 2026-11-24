@@ -47116,6 +47116,10 @@
     {
       "id": "5b20c5e705b72273b6e15bddfbda5af91eb6be4cbc27f905fa0071b185882a51",
       "text": "Just nu: Bil i vattnet – glömde handbromsen"
+    },
+    {
+      "id": "c0225c851be05199d105e6661b270df0cb4a5bec82bda6d25bb67db884dca873",
+      "text": "Just nu: Senegal får tillbaka mästartiteln"
     }
   ],
   "captures": [
@@ -117786,6 +117790,12 @@
       "headlineId": "5b20c5e705b72273b6e15bddfbda5af91eb6be4cbc27f905fa0071b185882a51",
       "articleUrl": "https://www.sverigesradio.se/artikel/bil-och-bat-i-vattnet-vid-oster-malarstrand-i-vasteras",
       "capturedAt": "2026-11-24T14:27:30.936Z"
+    },
+    {
+      "filename": "1795530759591_0.webp",
+      "headlineId": "c0225c851be05199d105e6661b270df0cb4a5bec82bda6d25bb67db884dca873",
+      "articleUrl": "https://www.sverigesradio.se/artikel/domen-senegal-far-tillbaka-mastartiteln",
+      "capturedAt": "2026-11-24T14:32:39.591Z"
     }
   ]
 }
