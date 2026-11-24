@@ -47076,6 +47076,10 @@
     {
       "id": "5af3d3a8be948d3250af143d92898257def5671a674be22f05cb436ecb5aa2fa",
       "text": "Just nu: Bankchef stängs av efter granskning"
+    },
+    {
+      "id": "794b734e79f8493c8e9dea2bb9959ec8bd65b76914add6475e90beb94d1785f9",
+      "text": "Just nu: Chef på Riksbanken stängs av"
     }
   ],
   "captures": [
@@ -117686,6 +117690,12 @@
       "headlineId": "5af3d3a8be948d3250af143d92898257def5671a674be22f05cb436ecb5aa2fa",
       "articleUrl": "https://www.sverigesradio.se/artikel/riksbankens-it-chef-arbetsbefrias-efter-ekots-granskning",
       "capturedAt": "2026-11-24T08:52:30.892Z"
+    },
+    {
+      "filename": "1795510951310_0.webp",
+      "headlineId": "794b734e79f8493c8e9dea2bb9959ec8bd65b76914add6475e90beb94d1785f9",
+      "articleUrl": "https://www.sverigesradio.se/artikel/riksbankens-it-chef-arbetsbefrias-efter-ekots-granskning",
+      "capturedAt": "2026-11-24T09:02:31.310Z"
     }
   ]
 }
