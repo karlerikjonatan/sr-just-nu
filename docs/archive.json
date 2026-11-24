@@ -47136,6 +47136,10 @@
     {
       "id": "bd6f4f54a048a508ec1793308d1af67ccc5ad5320a6f11091b4397fc819d1384",
       "text": "Just nu: Bilbrand - E6 avstängd"
+    },
+    {
+      "id": "6a415d4322321486c7ca9f48a8741311c15e39d1b1074c3e2a7452a991308f2a",
+      "text": "Just nu: Tre ryssar i skidpremiären"
     }
   ],
   "captures": [
@@ -117836,6 +117840,12 @@
       "headlineId": "bd6f4f54a048a508ec1793308d1af67ccc5ad5320a6f11091b4397fc819d1384",
       "articleUrl": "https://www.sverigesradio.se/artikel/bilbrand-norr-om-halmstad-e6-avstangd-i-bada-riktningarna",
       "capturedAt": "2026-11-24T19:02:36.452Z"
+    },
+    {
+      "filename": "1795547550657_0.webp",
+      "headlineId": "6a415d4322321486c7ca9f48a8741311c15e39d1b1074c3e2a7452a991308f2a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/beskedet-tre-ryska-skidakare-till-skidpremiaren-i-ruka",
+      "capturedAt": "2026-11-24T19:12:30.657Z"
     }
   ]
 }
