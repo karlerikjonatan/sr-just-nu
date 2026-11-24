@@ -47144,6 +47144,10 @@
     {
       "id": "c480b3d3f748c2f9e24c2798937f01539f7b8bb8b3a7572a9d8e64649bbfa7d7",
       "text": "Just nu: Man död i arbetsplatsolycka i Västerås"
+    },
+    {
+      "id": "30460cad9034489e5d3a918b0d4c712b636ee9111047a8c40b2a06e92ebe74b1",
+      "text": "Just nu: Brand i radhus – fem till sjukhus"
     }
   ],
   "captures": [
@@ -117856,6 +117860,12 @@
       "headlineId": "c480b3d3f748c2f9e24c2798937f01539f7b8bb8b3a7572a9d8e64649bbfa7d7",
       "articleUrl": "https://www.sverigesradio.se/artikel/en-person-dod-efter-arbetsplatsolycka-i-vasteras",
       "capturedAt": "2026-11-24T19:27:32.894Z"
+    },
+    {
+      "filename": "1795550572126_0.webp",
+      "headlineId": "30460cad9034489e5d3a918b0d4c712b636ee9111047a8c40b2a06e92ebe74b1",
+      "articleUrl": "https://www.sverigesradio.se/artikel/fem-personer-till-sjukhus-efter-brand-i-helsingborg",
+      "capturedAt": "2026-11-24T20:02:52.126Z"
     }
   ]
 }
