@@ -47084,6 +47084,10 @@
     {
       "id": "7ce9a67762e0218351448c98da66a189ef35e5bad6254f01c53e89c09935c69e",
       "text": "Just nu: Storbrand på sågverk utanför Umeå"
+    },
+    {
+      "id": "39e6b8cc75099880dadc59e775922321c656248f89c92f4708ad67da50c51ce6",
+      "text": "Just nu: Larm om grovt brott på äldreboende"
     }
   ],
   "captures": [
@@ -117706,6 +117710,12 @@
       "headlineId": "7ce9a67762e0218351448c98da66a189ef35e5bad6254f01c53e89c09935c69e",
       "articleUrl": "https://www.sverigesradio.se/artikel/brand-pa-sagverk-i-brattby-20-enheter-larmade",
       "capturedAt": "2026-11-24T09:12:31.549Z"
+    },
+    {
+      "filename": "1795513974214_0.webp",
+      "headlineId": "39e6b8cc75099880dadc59e775922321c656248f89c92f4708ad67da50c51ce6",
+      "articleUrl": "https://www.sverigesradio.se/artikel/larm-om-allvarligt-brott-pa-aldreboende-pa-lidingo",
+      "capturedAt": "2026-11-24T09:52:54.214Z"
     }
   ]
 }
