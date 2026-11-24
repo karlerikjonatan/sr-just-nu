@@ -47108,6 +47108,10 @@
     {
       "id": "e67f9c523f0b23bad3458456dc0dae12d55de5e5552bf5eb9986af78fd1b963a",
       "text": "Just nu: Husbrand i Ucklum"
+    },
+    {
+      "id": "1862bd567847f51c5ec8ea52400a577314e88814c6fc2392273d3719574aa1c0",
+      "text": "Just nu: Hus brinner i Ucklum"
     }
   ],
   "captures": [
@@ -117766,6 +117770,12 @@
       "headlineId": "e67f9c523f0b23bad3458456dc0dae12d55de5e5552bf5eb9986af78fd1b963a",
       "articleUrl": "https://www.sverigesradio.se/artikel/hus-brinner-med-oppna-lagor-spridningsrisk-till-lada",
       "capturedAt": "2026-11-24T14:07:30.521Z"
+    },
+    {
+      "filename": "1795529554601_0.webp",
+      "headlineId": "1862bd567847f51c5ec8ea52400a577314e88814c6fc2392273d3719574aa1c0",
+      "articleUrl": "https://www.sverigesradio.se/artikel/hus-brinner-med-oppna-lagor-spridningsrisk-till-lada",
+      "capturedAt": "2026-11-24T14:12:34.601Z"
     }
   ]
 }
