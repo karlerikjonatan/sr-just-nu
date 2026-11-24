@@ -47100,6 +47100,10 @@
     {
       "id": "3056a5b73978a398bc838b38bd86ef12c7869fc188dcf4d011753847e22ee185",
       "text": "Just nu: Stora tågstörningar efter växelfel"
+    },
+    {
+      "id": "140c904c743fe4d90c03db95ebe9f5b1c23e0a0751525939b6f65f5b538b2598",
+      "text": "Just nu: Stöldkupp mot Karlskrona konserthus"
     }
   ],
   "captures": [
@@ -117746,6 +117750,12 @@
       "headlineId": "3056a5b73978a398bc838b38bd86ef12c7869fc188dcf4d011753847e22ee185",
       "articleUrl": "https://www.sverigesradio.se/artikel/tagstopp-paverkar-flera-strackor",
       "capturedAt": "2026-11-24T11:57:32.498Z"
+    },
+    {
+      "filename": "1795523561804_0.webp",
+      "headlineId": "140c904c743fe4d90c03db95ebe9f5b1c23e0a0751525939b6f65f5b538b2598",
+      "articleUrl": "https://www.sverigesradio.se/artikel/fracka-stoldkuppen-designlampor-vart-450-000-kronor-borta",
+      "capturedAt": "2026-11-24T12:32:41.804Z"
     }
   ]
 }
