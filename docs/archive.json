@@ -47056,6 +47056,10 @@
     {
       "id": "6ac9884697e3dc66a787226ac0692fab4d24613e7242697b122d9259b426d9a1",
       "text": "Just nu: Priserna på julmaten går ner"
+    },
+    {
+      "id": "542e2b426a6ddb7858981b21b4131052bd1f5abf4a523a7fa903bd1af7164afd",
+      "text": "Just nu: Två SL-bussar i krock – 15 ombord"
     }
   ],
   "captures": [
@@ -117636,6 +117640,12 @@
       "headlineId": "6ac9884697e3dc66a787226ac0692fab4d24613e7242697b122d9259b426d9a1",
       "articleUrl": "https://www.sverigesradio.se/artikel/julmaten-billigare-i-ar-forsta-gangen-sedan-2021",
       "capturedAt": "2026-11-24T06:02:29.838Z"
+    },
+    {
+      "filename": "1795500752630_0.webp",
+      "headlineId": "542e2b426a6ddb7858981b21b4131052bd1f5abf4a523a7fa903bd1af7164afd",
+      "articleUrl": "https://www.sverigesradio.se/artikel/olycka-med-tva-sl-bussar-raddningsinsats-pagar",
+      "capturedAt": "2026-11-24T06:12:32.630Z"
     }
   ]
 }
