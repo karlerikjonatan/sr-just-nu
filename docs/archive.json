@@ -47080,6 +47080,10 @@
     {
       "id": "794b734e79f8493c8e9dea2bb9959ec8bd65b76914add6475e90beb94d1785f9",
       "text": "Just nu: Chef på Riksbanken stängs av"
+    },
+    {
+      "id": "7ce9a67762e0218351448c98da66a189ef35e5bad6254f01c53e89c09935c69e",
+      "text": "Just nu: Storbrand på sågverk utanför Umeå"
     }
   ],
   "captures": [
@@ -117696,6 +117700,12 @@
       "headlineId": "794b734e79f8493c8e9dea2bb9959ec8bd65b76914add6475e90beb94d1785f9",
       "articleUrl": "https://www.sverigesradio.se/artikel/riksbankens-it-chef-arbetsbefrias-efter-ekots-granskning",
       "capturedAt": "2026-11-24T09:02:31.310Z"
+    },
+    {
+      "filename": "1795511551549_0.webp",
+      "headlineId": "7ce9a67762e0218351448c98da66a189ef35e5bad6254f01c53e89c09935c69e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/brand-pa-sagverk-i-brattby-20-enheter-larmade",
+      "capturedAt": "2026-11-24T09:12:31.549Z"
     }
   ]
 }
