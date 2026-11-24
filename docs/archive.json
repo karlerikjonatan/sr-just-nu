@@ -47120,6 +47120,10 @@
     {
       "id": "c0225c851be05199d105e6661b270df0cb4a5bec82bda6d25bb67db884dca873",
       "text": "Just nu: Senegal får tillbaka mästartiteln"
+    },
+    {
+      "id": "dfad5d9e70cda7874b0dd587143a824054ec2af3e27a4983ab23df45baf13469",
+      "text": "Just nu: Hus brinner i Ucklum – en till sjukhus"
     }
   ],
   "captures": [
@@ -117796,6 +117800,12 @@
       "headlineId": "c0225c851be05199d105e6661b270df0cb4a5bec82bda6d25bb67db884dca873",
       "articleUrl": "https://www.sverigesradio.se/artikel/domen-senegal-far-tillbaka-mastartiteln",
       "capturedAt": "2026-11-24T14:32:39.591Z"
+    },
+    {
+      "filename": "1795531050431_0.webp",
+      "headlineId": "dfad5d9e70cda7874b0dd587143a824054ec2af3e27a4983ab23df45baf13469",
+      "articleUrl": "https://www.sverigesradio.se/artikel/hus-brinner-med-oppna-lagor-spridningsrisk-till-lada",
+      "capturedAt": "2026-11-24T14:37:30.431Z"
     }
   ]
 }
