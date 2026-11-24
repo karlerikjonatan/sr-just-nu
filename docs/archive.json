@@ -47044,6 +47044,10 @@
     {
       "id": "67d81fb9c8800ae60854e424954bb9b5d248c0dade15fdb249c69f666523d0af",
       "text": "Just nu: Israelisk attack – minst tre dödade"
+    },
+    {
+      "id": "8a79af3aaaff4a01608defb1df2299419169b89410523b769e6f067595cbe76c",
+      "text": "Just nu: E4 avstängd efter olycka vid Rotebro"
     }
   ],
   "captures": [
@@ -117606,6 +117610,12 @@
       "headlineId": "67d81fb9c8800ae60854e424954bb9b5d248c0dade15fdb249c69f666523d0af",
       "articleUrl": "https://www.sverigesradio.se/artikel/gaza-minst-tre-palestinier-doda-i-israelisk-attack",
       "capturedAt": "2026-11-24T00:57:30.489Z"
+    },
+    {
+      "filename": "1795493250349_0.webp",
+      "headlineId": "8a79af3aaaff4a01608defb1df2299419169b89410523b769e6f067595cbe76c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/flerbilsolycka-vid-rotebro-e4-avstangd",
+      "capturedAt": "2026-11-24T04:07:30.349Z"
     }
   ]
 }
