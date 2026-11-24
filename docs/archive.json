@@ -47092,6 +47092,10 @@
     {
       "id": "53c76f286d2add8c480219cecdbb0f8d2e55dc00b664f2642d2a776ccc8dd40d",
       "text": "Just nu: Dyrare att skicka brev"
+    },
+    {
+      "id": "fa4f68778a38dfc3e9cc7e1619be1d569f93512d220f0011367d434d2f30a9a0",
+      "text": "Just nu: Misstänkt våldtäkt på sjukhus"
     }
   ],
   "captures": [
@@ -117726,6 +117730,12 @@
       "headlineId": "53c76f286d2add8c480219cecdbb0f8d2e55dc00b664f2642d2a776ccc8dd40d",
       "articleUrl": "https://www.sverigesradio.se/artikel/portot-hojs-sa-mycket-dyrare-blir-det-att-skicka-brev",
       "capturedAt": "2026-11-24T10:32:30.001Z"
+    },
+    {
+      "filename": "1795516651784_0.webp",
+      "headlineId": "fa4f68778a38dfc3e9cc7e1619be1d569f93512d220f0011367d434d2f30a9a0",
+      "articleUrl": "https://www.sverigesradio.se/artikel/misstankt-valdtakt-pa-sjukhus-i-vasteras-man-haktad",
+      "capturedAt": "2026-11-24T10:37:31.784Z"
     }
   ]
 }
