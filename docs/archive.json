@@ -47040,6 +47040,10 @@
     {
       "id": "e4a2103047df00cf543573542179af0ada21c5576ce7cd0dac27a97997d94ff2",
       "text": "Just nu: Flis på riksväg 84 – välj annan väg"
+    },
+    {
+      "id": "67d81fb9c8800ae60854e424954bb9b5d248c0dade15fdb249c69f666523d0af",
+      "text": "Just nu: Israelisk attack – minst tre dödade"
     }
   ],
   "captures": [
@@ -117596,6 +117600,12 @@
       "headlineId": "e4a2103047df00cf543573542179af0ada21c5576ce7cd0dac27a97997d94ff2",
       "articleUrl": "https://www.sverigesradio.se/artikel/tappad-flis-pa-riksvag-84-valj-annan-vag",
       "capturedAt": "2026-11-23T19:27:28.444Z"
+    },
+    {
+      "filename": "1795481850489_0.webp",
+      "headlineId": "67d81fb9c8800ae60854e424954bb9b5d248c0dade15fdb249c69f666523d0af",
+      "articleUrl": "https://www.sverigesradio.se/artikel/gaza-minst-tre-palestinier-doda-i-israelisk-attack",
+      "capturedAt": "2026-11-24T00:57:30.489Z"
     }
   ]
 }
