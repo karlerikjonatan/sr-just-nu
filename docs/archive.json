@@ -47124,6 +47124,10 @@
     {
       "id": "dfad5d9e70cda7874b0dd587143a824054ec2af3e27a4983ab23df45baf13469",
       "text": "Just nu: Hus brinner i Ucklum – en till sjukhus"
+    },
+    {
+      "id": "d57c6bc7d88d3d35e88bf492cbed2bd535665c0d3eefdc8ee55a2bc95e3704ce",
+      "text": "Just nu: Misstänkt kidnappning – sex anhållna"
     }
   ],
   "captures": [
@@ -117806,6 +117810,12 @@
       "headlineId": "dfad5d9e70cda7874b0dd587143a824054ec2af3e27a4983ab23df45baf13469",
       "articleUrl": "https://www.sverigesradio.se/artikel/hus-brinner-med-oppna-lagor-spridningsrisk-till-lada",
       "capturedAt": "2026-11-24T14:37:30.431Z"
+    },
+    {
+      "filename": "1795537659829_0.webp",
+      "headlineId": "d57c6bc7d88d3d35e88bf492cbed2bd535665c0d3eefdc8ee55a2bc95e3704ce",
+      "articleUrl": "https://www.sverigesradio.se/artikel/fyra-gripna-efter-stor-polisinsats-i-mellringe",
+      "capturedAt": "2026-11-24T16:27:39.829Z"
     }
   ]
 }
