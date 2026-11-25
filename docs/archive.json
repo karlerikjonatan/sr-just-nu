@@ -47244,6 +47244,10 @@
     {
       "id": "cc0830c1d6acb3de2fc0010db455fdbcde492ae1af455ab645b18bd84d3f4bea",
       "text": "Just nu: Slagsmål på E18 – en till sjukhus"
+    },
+    {
+      "id": "610860b418845cae476a9ac3eef879e9f1e2f408f8b4b22defcde8df77495397",
+      "text": "Just nu: Stjärnan står över skidpremiären"
     }
   ],
   "captures": [
@@ -118106,6 +118110,12 @@
       "headlineId": "9501e2d5b1b92658e6c0e39e1086b5e50d32e4255c6bf7f43b9d2c2d3dab248e",
       "articleUrl": "https://www.sverigesradio.se/artikel/trafikverket-varnar-for-blixthalka-pa-gotland",
       "capturedAt": "2026-11-25T19:32:30.017Z"
+    },
+    {
+      "filename": "1795638447651_0.webp",
+      "headlineId": "610860b418845cae476a9ac3eef879e9f1e2f408f8b4b22defcde8df77495397",
+      "articleUrl": "https://www.sverigesradio.se/artikel/anger-star-over-sprinten-i-varldscuppremiaren",
+      "capturedAt": "2026-11-25T20:27:27.651Z"
     }
   ]
 }
