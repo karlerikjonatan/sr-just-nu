@@ -47160,6 +47160,10 @@
     {
       "id": "175dc0cda7ad4fec240c8b88861bfc51b0462bdd265f8ec0137d7dfd111de305",
       "text": "Just nu: Pojkbandsstjärna åtalas för övergrepp"
+    },
+    {
+      "id": "7e9d75d7049c42f1c0cf7ca0ccddcf3dc3c3a80cf9568f2e686dc3e8c7ad2de9",
+      "text": "Just nu: Äldre man död efter brand på gård"
     }
   ],
   "captures": [
@@ -117896,6 +117900,12 @@
       "headlineId": "175dc0cda7ad4fec240c8b88861bfc51b0462bdd265f8ec0137d7dfd111de305",
       "articleUrl": "https://www.sverigesradio.se/artikel/backstreet-boys-stjarnan-atalas-for-sexualla-overgrepp",
       "capturedAt": "2026-11-25T03:52:31.891Z"
+    },
+    {
+      "filename": "1795582360382_0.webp",
+      "headlineId": "7e9d75d7049c42f1c0cf7ca0ccddcf3dc3c3a80cf9568f2e686dc3e8c7ad2de9",
+      "articleUrl": "https://www.sverigesradio.se/artikel/hus-brinner-med-oppna-lagor-spridningsrisk-till-lada",
+      "capturedAt": "2026-11-25T04:52:40.382Z"
     }
   ]
 }
