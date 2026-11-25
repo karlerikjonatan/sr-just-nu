@@ -47204,6 +47204,10 @@
     {
       "id": "a455d307a367bba4ede0b09721125d48dc83383cdd8acf6d518e7a8000544049",
       "text": "Just nu: Cyklist påkörd i Växjö – förd till sjukhus"
+    },
+    {
+      "id": "baf4ff03c0f3c17d9cc613ca5d49beb57e8449d6b58d0f88293bf367b926d9ae",
+      "text": "Just nu: Bäverbygge orsakar vägkaos i Österåker"
     }
   ],
   "captures": [
@@ -118006,6 +118010,12 @@
       "headlineId": "a455d307a367bba4ede0b09721125d48dc83383cdd8acf6d518e7a8000544049",
       "articleUrl": "https://www.sverigesradio.se/artikel/cyklist-pakord-i-vaxjo-ford-till-sjukhus--3",
       "capturedAt": "2026-11-25T12:17:27.337Z"
+    },
+    {
+      "filename": "1795611155819_0.webp",
+      "headlineId": "baf4ff03c0f3c17d9cc613ca5d49beb57e8449d6b58d0f88293bf367b926d9ae",
+      "articleUrl": "https://www.sverigesradio.se/artikel/baver-byggde-bo-oversvamning-och-avstangd-vag-i-osteraker",
+      "capturedAt": "2026-11-25T12:52:35.819Z"
     }
   ]
 }
