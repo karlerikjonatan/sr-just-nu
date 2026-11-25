@@ -47196,6 +47196,10 @@
     {
       "id": "ad881f46922f69aec71d373d837299292d44dd213af8642a653e9397ebbb31ef",
       "text": "Just nu: Man åtalas för grov våldtäkt"
+    },
+    {
+      "id": "9927cbe1a348c54a81cac650fd9b72eb20d738daaab158061e0258a3bb393acd",
+      "text": "Just nu: Två åtalas för mord vid badsjö"
     }
   ],
   "captures": [
@@ -117986,6 +117990,12 @@
       "headlineId": "ad881f46922f69aec71d373d837299292d44dd213af8642a653e9397ebbb31ef",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-atalas-for-grov-valdtakt-och-grovt-vapenbrott-pa-tjorn",
       "capturedAt": "2026-11-25T10:12:41.786Z"
+    },
+    {
+      "filename": "1795602147606_0.webp",
+      "headlineId": "9927cbe1a348c54a81cac650fd9b72eb20d738daaab158061e0258a3bb393acd",
+      "articleUrl": "https://www.sverigesradio.se/artikel/markbo-mordades-vid-badsjo-tva-atalas",
+      "capturedAt": "2026-11-25T10:22:27.606Z"
     }
   ]
 }
