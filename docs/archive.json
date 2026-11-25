@@ -47236,6 +47236,14 @@
     {
       "id": "b390966fefaf14a2eaf01dd430f8bac86b39b6d9e9fed228375327f91d4291bd",
       "text": "Just nu: Polen inför flygförbudzon"
+    },
+    {
+      "id": "9501e2d5b1b92658e6c0e39e1086b5e50d32e4255c6bf7f43b9d2c2d3dab248e",
+      "text": "Just nu: Blixthalka över hela Gotland"
+    },
+    {
+      "id": "cc0830c1d6acb3de2fc0010db455fdbcde492ae1af455ab645b18bd84d3f4bea",
+      "text": "Just nu: Slagsmål på E18 – en till sjukhus"
     }
   ],
   "captures": [
@@ -118086,6 +118094,18 @@
       "headlineId": "b390966fefaf14a2eaf01dd430f8bac86b39b6d9e9fed228375327f91d4291bd",
       "articleUrl": "https://www.sverigesradio.se/artikel/polen-infor-flygforbudzon-efter-flera-krankningar",
       "capturedAt": "2026-11-25T19:27:26.820Z"
+    },
+    {
+      "filename": "1795635150017_0.webp",
+      "headlineId": "cc0830c1d6acb3de2fc0010db455fdbcde492ae1af455ab645b18bd84d3f4bea",
+      "articleUrl": "https://www.sverigesradio.se/artikel/brak-pa-e18-i-vasteras-65-arig-forare-till-sjukhus",
+      "capturedAt": "2026-11-25T19:32:30.017Z"
+    },
+    {
+      "filename": "1795635150017_1.webp",
+      "headlineId": "9501e2d5b1b92658e6c0e39e1086b5e50d32e4255c6bf7f43b9d2c2d3dab248e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/trafikverket-varnar-for-blixthalka-pa-gotland",
+      "capturedAt": "2026-11-25T19:32:30.017Z"
     }
   ]
 }
