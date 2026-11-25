@@ -47216,6 +47216,10 @@
     {
       "id": "b6ab74f53df907bd506e62420e0c1f890a79d99c16658622b1d3ff9eace8b3fb",
       "text": "Just nu: Säffle kommun i stabsläge"
+    },
+    {
+      "id": "59fb330b0f1d605e3708dad5292c67eb2575c03f4cb826bb48ccf284b39c060c",
+      "text": "Just nu: Bibliotek runt om i landet hackade"
     }
   ],
   "captures": [
@@ -118036,6 +118040,12 @@
       "headlineId": "b6ab74f53df907bd506e62420e0c1f890a79d99c16658622b1d3ff9eace8b3fb",
       "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-stabslage-efter-flera-hundra-avvikelser-i-hemsjukvarden",
       "capturedAt": "2026-11-25T14:22:30.170Z"
+    },
+    {
+      "filename": "1795620752009_0.webp",
+      "headlineId": "59fb330b0f1d605e3708dad5292c67eb2575c03f4cb826bb48ccf284b39c060c",
+      "articleUrl": "https://www.sverigesradio.se/artikel/bibliotek-utsatta-for-hackerattacker-hemsidor-ligger-nere",
+      "capturedAt": "2026-11-25T15:32:32.009Z"
     }
   ]
 }
