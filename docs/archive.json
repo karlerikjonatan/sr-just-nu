@@ -47208,6 +47208,10 @@
     {
       "id": "baf4ff03c0f3c17d9cc613ca5d49beb57e8449d6b58d0f88293bf367b926d9ae",
       "text": "Just nu: Bäverbygge orsakar vägkaos i Österåker"
+    },
+    {
+      "id": "94a96209ced88733a37dfbc4906be4b0a9752c4ab66b575c4360ca9a1c34ca5a",
+      "text": "Just nu: Bäverbygge orsakar vägkaos"
     }
   ],
   "captures": [
@@ -118016,6 +118020,12 @@
       "headlineId": "baf4ff03c0f3c17d9cc613ca5d49beb57e8449d6b58d0f88293bf367b926d9ae",
       "articleUrl": "https://www.sverigesradio.se/artikel/baver-byggde-bo-oversvamning-och-avstangd-vag-i-osteraker",
       "capturedAt": "2026-11-25T12:52:35.819Z"
+    },
+    {
+      "filename": "1795615356570_0.webp",
+      "headlineId": "94a96209ced88733a37dfbc4906be4b0a9752c4ab66b575c4360ca9a1c34ca5a",
+      "articleUrl": "https://www.sverigesradio.se/artikel/baver-byggde-bo-oversvamning-och-avstangd-vag-i-osteraker",
+      "capturedAt": "2026-11-25T14:02:36.570Z"
     }
   ]
 }
