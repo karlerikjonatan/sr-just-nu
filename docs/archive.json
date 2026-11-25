@@ -47156,6 +47156,10 @@
     {
       "id": "d936c8cdca6df7420cc88e464be5e67ac4bf91e83918abb18cbe697cf19ed138",
       "text": "Just nu: Backstreet Boysstjärna åtalas"
+    },
+    {
+      "id": "175dc0cda7ad4fec240c8b88861bfc51b0462bdd265f8ec0137d7dfd111de305",
+      "text": "Just nu: Pojkbandsstjärna åtalas för övergrepp"
     }
   ],
   "captures": [
@@ -117886,6 +117890,12 @@
       "headlineId": "28eb1e6e5c2048e1cb415a322427043abfd49602321ccb1a6f774b9386e6a706",
       "articleUrl": "https://www.sverigesradio.se/artikel/polisen-utreder-grovt-brott-utanfor-bollnas",
       "capturedAt": "2026-11-25T03:37:36.387Z"
+    },
+    {
+      "filename": "1795578751891_0.webp",
+      "headlineId": "175dc0cda7ad4fec240c8b88861bfc51b0462bdd265f8ec0137d7dfd111de305",
+      "articleUrl": "https://www.sverigesradio.se/artikel/backstreet-boys-stjarnan-atalas-for-sexualla-overgrepp",
+      "capturedAt": "2026-11-25T03:52:31.891Z"
     }
   ]
 }
