@@ -47224,6 +47224,10 @@
     {
       "id": "053aa466447843134d65801fff301b3400811e623c177fba60352a457fe8646a",
       "text": "Just nu: Fick penisen amputerad av misstag"
+    },
+    {
+      "id": "8c0893d2584b3bb0c9c130ee5ac811ef8c674d0f63e535ceeeece5ee349ca488",
+      "text": "Just nu: Tågstopp Gävle – Örebro"
     }
   ],
   "captures": [
@@ -118056,6 +118060,12 @@
       "headlineId": "053aa466447843134d65801fff301b3400811e623c177fba60352a457fe8646a",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-fick-penisen-amputerad-efter-fel-cancerdiagnos",
       "capturedAt": "2026-11-25T16:22:32.139Z"
+    },
+    {
+      "filename": "1795626157901_0.webp",
+      "headlineId": "8c0893d2584b3bb0c9c130ee5ac811ef8c674d0f63e535ceeeece5ee349ca488",
+      "articleUrl": "https://www.sverigesradio.se/artikel/stopp-i-tagtrafiken-gavle-orebro",
+      "capturedAt": "2026-11-25T17:02:37.901Z"
     }
   ]
 }
