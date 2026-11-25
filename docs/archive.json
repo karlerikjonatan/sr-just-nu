@@ -47256,6 +47256,10 @@
     {
       "id": "23d8a8e297059b5b61d93adcc5764b35dcef561b66cb6a42c7341f5706676164",
       "text": "Just nu: Andy Taylor är död"
+    },
+    {
+      "id": "aeddd10b3ca2afca11166e253d701e8367c68a538905510b6119eec3fdf440c8",
+      "text": "Just nu: Olycka i Egypten – minst 31 döda"
     }
   ],
   "captures": [
@@ -118136,6 +118140,12 @@
       "headlineId": "23d8a8e297059b5b61d93adcc5764b35dcef561b66cb6a42c7341f5706676164",
       "articleUrl": "https://www.sverigesradio.se/artikel/andy-taylor-ar-dod-blev-65-ar",
       "capturedAt": "2026-11-25T22:22:31.459Z"
+    },
+    {
+      "filename": "1795649255640_0.webp",
+      "headlineId": "aeddd10b3ca2afca11166e253d701e8367c68a538905510b6119eec3fdf440c8",
+      "articleUrl": "https://www.sverigesradio.se/artikel/olycka-med-tankbil-i-egypten-minst-31-doda",
+      "capturedAt": "2026-11-25T23:27:35.640Z"
     }
   ]
 }
