@@ -47168,6 +47168,10 @@
     {
       "id": "ee09a9eaa0bc0ec9d2e080fb4073547e9ef92bb89a6ab328a4022d6d98cd7bb4",
       "text": "Just nu: Här är artisterna som uppträder på Musikhjälpen"
+    },
+    {
+      "id": "60d3eb4ce95b8b91413ff50731735a2e6f45713f1261a9aff79544280c8fd4b8",
+      "text": "Just nu: Här är artisterna i Musikhjälpen"
     }
   ],
   "captures": [
@@ -117916,6 +117920,12 @@
       "headlineId": "ee09a9eaa0bc0ec9d2e080fb4073547e9ef92bb89a6ab328a4022d6d98cd7bb4",
       "articleUrl": "https://www.sverigesradio.se/artikel/har-ar-artisterna-som-kommer-till-musikhjalpen",
       "capturedAt": "2026-11-25T06:07:37.995Z"
+    },
+    {
+      "filename": "1795587151947_0.webp",
+      "headlineId": "60d3eb4ce95b8b91413ff50731735a2e6f45713f1261a9aff79544280c8fd4b8",
+      "articleUrl": "https://www.sverigesradio.se/artikel/har-ar-artisterna-som-kommer-till-musikhjalpen",
+      "capturedAt": "2026-11-25T06:12:31.947Z"
     }
   ]
 }
