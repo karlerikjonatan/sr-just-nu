@@ -47248,6 +47248,10 @@
     {
       "id": "610860b418845cae476a9ac3eef879e9f1e2f408f8b4b22defcde8df77495397",
       "text": "Just nu: Stjärnan står över skidpremiären"
+    },
+    {
+      "id": "555985ef7deaf3639d5f6a70b694ce77ea48c1949cedfebfd58149ee98ed80be",
+      "text": "Just nu: Kerstin Öhlin Lejonklou är död"
     }
   ],
   "captures": [
@@ -118116,6 +118120,12 @@
       "headlineId": "610860b418845cae476a9ac3eef879e9f1e2f408f8b4b22defcde8df77495397",
       "articleUrl": "https://www.sverigesradio.se/artikel/anger-star-over-sprinten-i-varldscuppremiaren",
       "capturedAt": "2026-11-25T20:27:27.651Z"
+    },
+    {
+      "filename": "1795639355836_0.webp",
+      "headlineId": "555985ef7deaf3639d5f6a70b694ce77ea48c1949cedfebfd58149ee98ed80be",
+      "articleUrl": "https://www.sverigesradio.se/artikel/silversmed-kerstin-ohlin-lejonklou-dod-finns-pa-goldsmiths-i-london",
+      "capturedAt": "2026-11-25T20:42:35.836Z"
     }
   ]
 }
