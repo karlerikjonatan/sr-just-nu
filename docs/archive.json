@@ -47172,6 +47172,10 @@
     {
       "id": "60d3eb4ce95b8b91413ff50731735a2e6f45713f1261a9aff79544280c8fd4b8",
       "text": "Just nu: Här är artisterna i Musikhjälpen"
+    },
+    {
+      "id": "6eb04801bcc84e2d927aa8d58af3f48ef74c7c1f8f08fd269b10d77b44a6330b",
+      "text": "Just nu: Huawei döms i USA"
     }
   ],
   "captures": [
@@ -117926,6 +117930,12 @@
       "headlineId": "60d3eb4ce95b8b91413ff50731735a2e6f45713f1261a9aff79544280c8fd4b8",
       "articleUrl": "https://www.sverigesradio.se/artikel/har-ar-artisterna-som-kommer-till-musikhjalpen",
       "capturedAt": "2026-11-25T06:12:31.947Z"
+    },
+    {
+      "filename": "1795590757422_0.webp",
+      "headlineId": "6eb04801bcc84e2d927aa8d58af3f48ef74c7c1f8f08fd269b10d77b44a6330b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/huawei-domd-i-usa",
+      "capturedAt": "2026-11-25T07:12:37.422Z"
     }
   ]
 }
