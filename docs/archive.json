@@ -47176,6 +47176,10 @@
     {
       "id": "6eb04801bcc84e2d927aa8d58af3f48ef74c7c1f8f08fd269b10d77b44a6330b",
       "text": "Just nu: Huawei döms i USA"
+    },
+    {
+      "id": "7f345971b0c63957029dd002a3297f6c791bdc5a0b45e54c930fd650c61ab358",
+      "text": "Just nu: Ljög om vädret – polisanmäls"
     }
   ],
   "captures": [
@@ -117936,6 +117940,12 @@
       "headlineId": "6eb04801bcc84e2d927aa8d58af3f48ef74c7c1f8f08fd269b10d77b44a6330b",
       "articleUrl": "https://www.sverigesradio.se/artikel/huawei-domd-i-usa",
       "capturedAt": "2026-11-25T07:12:37.422Z"
+    },
+    {
+      "filename": "1795592558373_0.webp",
+      "headlineId": "7f345971b0c63957029dd002a3297f6c791bdc5a0b45e54c930fd650c61ab358",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tva-personer-polisanmals-for-att-ha-ljugit-om-vadret",
+      "capturedAt": "2026-11-25T07:42:38.373Z"
     }
   ]
 }
