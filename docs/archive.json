@@ -47232,6 +47232,10 @@
     {
       "id": "cb4ea485a37ae786a2bb848ca5bc6dd6ab82abe704b33e69976dd9faefbb783a",
       "text": "Just nu: Skidkytteparet har fått barn"
+    },
+    {
+      "id": "b390966fefaf14a2eaf01dd430f8bac86b39b6d9e9fed228375327f91d4291bd",
+      "text": "Just nu: Polen inför flygförbudzon"
     }
   ],
   "captures": [
@@ -118076,6 +118080,12 @@
       "headlineId": "cb4ea485a37ae786a2bb848ca5bc6dd6ab82abe704b33e69976dd9faefbb783a",
       "articleUrl": "https://www.sverigesradio.se/artikel/hanna-oberg-och-martin-ponsiluoma-har-fatt-barn",
       "capturedAt": "2026-11-25T18:07:26.941Z"
+    },
+    {
+      "filename": "1795634846820_0.webp",
+      "headlineId": "b390966fefaf14a2eaf01dd430f8bac86b39b6d9e9fed228375327f91d4291bd",
+      "articleUrl": "https://www.sverigesradio.se/artikel/polen-infor-flygforbudzon-efter-flera-krankningar",
+      "capturedAt": "2026-11-25T19:27:26.820Z"
     }
   ]
 }
