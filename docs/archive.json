@@ -47188,6 +47188,10 @@
     {
       "id": "e429019457289cf3b08b665b056fe03d6fcfc8fc8f0715984eb96bb0fac35a17",
       "text": "Just nu: Tågstopp Stockholm-Uppsala"
+    },
+    {
+      "id": "c6d4cdf36a0e025d03fab1888802a4819806c9564ba86ce95be82e268824654f",
+      "text": "Just nu: Stopp på Södra stambanan"
     }
   ],
   "captures": [
@@ -117966,6 +117970,12 @@
       "headlineId": "e429019457289cf3b08b665b056fe03d6fcfc8fc8f0715984eb96bb0fac35a17",
       "articleUrl": "https://www.sverigesradio.se/artikel/installda-avgangar-stockholm-uppsala-hela-dagen",
       "capturedAt": "2026-11-25T09:17:45.778Z"
+    },
+    {
+      "filename": "1795599151093_0.webp",
+      "headlineId": "c6d4cdf36a0e025d03fab1888802a4819806c9564ba86ce95be82e268824654f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/stopp-pa-sodra-stambanan--5",
+      "capturedAt": "2026-11-25T09:32:31.093Z"
     }
   ]
 }
