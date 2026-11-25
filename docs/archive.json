@@ -47252,6 +47252,10 @@
     {
       "id": "555985ef7deaf3639d5f6a70b694ce77ea48c1949cedfebfd58149ee98ed80be",
       "text": "Just nu: Kerstin Öhlin Lejonklou är död"
+    },
+    {
+      "id": "23d8a8e297059b5b61d93adcc5764b35dcef561b66cb6a42c7341f5706676164",
+      "text": "Just nu: Andy Taylor är död"
     }
   ],
   "captures": [
@@ -118126,6 +118130,12 @@
       "headlineId": "555985ef7deaf3639d5f6a70b694ce77ea48c1949cedfebfd58149ee98ed80be",
       "articleUrl": "https://www.sverigesradio.se/artikel/silversmed-kerstin-ohlin-lejonklou-dod-finns-pa-goldsmiths-i-london",
       "capturedAt": "2026-11-25T20:42:35.836Z"
+    },
+    {
+      "filename": "1795645351459_0.webp",
+      "headlineId": "23d8a8e297059b5b61d93adcc5764b35dcef561b66cb6a42c7341f5706676164",
+      "articleUrl": "https://www.sverigesradio.se/artikel/andy-taylor-ar-dod-blev-65-ar",
+      "capturedAt": "2026-11-25T22:22:31.459Z"
     }
   ]
 }
