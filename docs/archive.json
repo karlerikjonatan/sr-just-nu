@@ -47212,6 +47212,10 @@
     {
       "id": "94a96209ced88733a37dfbc4906be4b0a9752c4ab66b575c4360ca9a1c34ca5a",
       "text": "Just nu: Bäverbygge orsakar vägkaos"
+    },
+    {
+      "id": "b6ab74f53df907bd506e62420e0c1f890a79d99c16658622b1d3ff9eace8b3fb",
+      "text": "Just nu: Säffle kommun i stabsläge"
     }
   ],
   "captures": [
@@ -118026,6 +118030,12 @@
       "headlineId": "94a96209ced88733a37dfbc4906be4b0a9752c4ab66b575c4360ca9a1c34ca5a",
       "articleUrl": "https://www.sverigesradio.se/artikel/baver-byggde-bo-oversvamning-och-avstangd-vag-i-osteraker",
       "capturedAt": "2026-11-25T14:02:36.570Z"
+    },
+    {
+      "filename": "1795616550170_0.webp",
+      "headlineId": "b6ab74f53df907bd506e62420e0c1f890a79d99c16658622b1d3ff9eace8b3fb",
+      "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-stabslage-efter-flera-hundra-avvikelser-i-hemsjukvarden",
+      "capturedAt": "2026-11-25T14:22:30.170Z"
     }
   ]
 }
