@@ -47280,6 +47280,10 @@
     {
       "id": "1b4e227c18d2861146c29974d26168527dfc107d45c2087476a17893dcb955d1",
       "text": "Just nu: 13 döda efter gruvolycka i Indonesien"
+    },
+    {
+      "id": "4a72ddd6394bdb6b06727dc2f9d3873f70624917597151f2d06fcd510c8e179f",
+      "text": "Just nu: Fortsatt inställda avgångar Stockholm-Uppsala"
     }
   ],
   "captures": [
@@ -118196,6 +118200,12 @@
       "headlineId": "1b4e227c18d2861146c29974d26168527dfc107d45c2087476a17893dcb955d1",
       "articleUrl": "https://www.sverigesradio.se/artikel/minst-13-doda-efter-gruvolycka-i-indonesien",
       "capturedAt": "2026-11-26T05:57:44.554Z"
+    },
+    {
+      "filename": "1795673556078_0.webp",
+      "headlineId": "4a72ddd6394bdb6b06727dc2f9d3873f70624917597151f2d06fcd510c8e179f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/installda-avgangar-stockholm-uppsala-hela-dagen",
+      "capturedAt": "2026-11-26T06:12:36.078Z"
     }
   ]
 }
