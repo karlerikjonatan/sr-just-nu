@@ -47328,6 +47328,10 @@
     {
       "id": "fff3a818f73f4422ae0738b7328657a75d933e11c466e3be2b865f8b7420644e",
       "text": "Just nu: Allvarligt skadad man hittades utomhus i Stockholm"
+    },
+    {
+      "id": "a4ad93ae84057aa69d2a5a751fb12118daf751ddd27a5dc29dd258577b431dbe",
+      "text": "Just nu: Allvarligt skadad man hittades utomhus"
     }
   ],
   "captures": [
@@ -118316,6 +118320,12 @@
       "headlineId": "fff3a818f73f4422ae0738b7328657a75d933e11c466e3be2b865f8b7420644e",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-allvarligt-skadad-hittades-utomhus-i-stockholm",
       "capturedAt": "2026-11-26T11:47:32.036Z"
+    },
+    {
+      "filename": "1795693967237_0.webp",
+      "headlineId": "a4ad93ae84057aa69d2a5a751fb12118daf751ddd27a5dc29dd258577b431dbe",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-allvarligt-skadad-hittades-utomhus-i-stockholm",
+      "capturedAt": "2026-11-26T11:52:47.237Z"
     }
   ]
 }
