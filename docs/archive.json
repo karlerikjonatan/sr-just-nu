@@ -47268,6 +47268,10 @@
     {
       "id": "bf1fed0a3a220624775db6e7355ec3fd06b3898771512fac67404d94ee3337b7",
       "text": "Just nu: Kim Jong-Un vill bygga fler kärnvapen"
+    },
+    {
+      "id": "29a61222ef33f7d5a6349dafddaf5b6d3174cc3024cebcf4b54cd5a836599101",
+      "text": "Just nu: Totalstopp på riksväg 70"
     }
   ],
   "captures": [
@@ -118166,6 +118170,12 @@
       "headlineId": "bf1fed0a3a220624775db6e7355ec3fd06b3898771512fac67404d94ee3337b7",
       "articleUrl": "https://www.sverigesradio.se/artikel/kim-jong-un-vill-att-nordkorea-producerar-mer-karnvapen",
       "capturedAt": "2026-11-26T03:02:35.928Z"
+    },
+    {
+      "filename": "1795670846286_0.webp",
+      "headlineId": "29a61222ef33f7d5a6349dafddaf5b6d3174cc3024cebcf4b54cd5a836599101",
+      "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-mall-vag-skapa-kopia--11",
+      "capturedAt": "2026-11-26T05:27:26.286Z"
     }
   ]
 }
