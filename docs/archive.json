@@ -47320,6 +47320,10 @@
     {
       "id": "c061e6e21bec23dff393823a6b599ecd9522f2328254fc743452e5e6cf9eaa14",
       "text": "Just nu: Buss brinner – rökpelare över Hisingen"
+    },
+    {
+      "id": "5a51b485cc4b416396c18569b9b88953d2fb5ba6eae49b3fff09908338393628",
+      "text": "Just nu: Krisande flygbolag ställer in flyg"
     }
   ],
   "captures": [
@@ -118296,6 +118300,12 @@
       "headlineId": "c061e6e21bec23dff393823a6b599ecd9522f2328254fc743452e5e6cf9eaa14",
       "articleUrl": "https://www.sverigesradio.se/artikel/elbuss-brinner-stor-rokpelare-over-hisingen",
       "capturedAt": "2026-11-26T09:27:27.228Z"
+    },
+    {
+      "filename": "1795689162114_0.webp",
+      "headlineId": "5a51b485cc4b416396c18569b9b88953d2fb5ba6eae49b3fff09908338393628",
+      "articleUrl": "https://www.sverigesradio.se/artikel/krisande-flygbolag-staller-in-flyg",
+      "capturedAt": "2026-11-26T10:32:42.114Z"
     }
   ]
 }
