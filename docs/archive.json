@@ -47316,6 +47316,10 @@
     {
       "id": "6f3c07fbb8cb852750e948421edda8f1a88618c78b02179d49026a167c1fd922",
       "text": "Just nu: Kraftig explosion i Bangkok"
+    },
+    {
+      "id": "c061e6e21bec23dff393823a6b599ecd9522f2328254fc743452e5e6cf9eaa14",
+      "text": "Just nu: Buss brinner – rökpelare över Hisingen"
     }
   ],
   "captures": [
@@ -118286,6 +118290,12 @@
       "headlineId": "6f3c07fbb8cb852750e948421edda8f1a88618c78b02179d49026a167c1fd922",
       "articleUrl": "https://www.sverigesradio.se/artikel/kraftig-explosion-i-bangkok",
       "capturedAt": "2026-11-26T08:57:36.025Z"
+    },
+    {
+      "filename": "1795685247228_0.webp",
+      "headlineId": "c061e6e21bec23dff393823a6b599ecd9522f2328254fc743452e5e6cf9eaa14",
+      "articleUrl": "https://www.sverigesradio.se/artikel/elbuss-brinner-stor-rokpelare-over-hisingen",
+      "capturedAt": "2026-11-26T09:27:27.228Z"
     }
   ]
 }
