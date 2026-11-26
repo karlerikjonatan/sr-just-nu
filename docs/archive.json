@@ -47288,6 +47288,10 @@
     {
       "id": "d7e8bfc3aa847537433a2f4d0641b4611ba40ed2ef30c32fe10644465e4437c5",
       "text": "Just nu: Inställda tåg Stockholm-Uppsala"
+    },
+    {
+      "id": "8cf80aaa604e63a13c4d0834d57d2ebcd443b78ef8d799b300a62811658f0b18",
+      "text": "Just nu: Par rånades i hemmet"
     }
   ],
   "captures": [
@@ -118216,6 +118220,12 @@
       "headlineId": "d7e8bfc3aa847537433a2f4d0641b4611ba40ed2ef30c32fe10644465e4437c5",
       "articleUrl": "https://www.sverigesradio.se/artikel/installda-avgangar-stockholm-uppsala-hela-dagen",
       "capturedAt": "2026-11-26T06:22:29.301Z"
+    },
+    {
+      "filename": "1795675948473_0.webp",
+      "headlineId": "8cf80aaa604e63a13c4d0834d57d2ebcd443b78ef8d799b300a62811658f0b18",
+      "articleUrl": "https://www.sverigesradio.se/artikel/par-ranades-i-centrala-stockholm-nar-de-lag-och-sov",
+      "capturedAt": "2026-11-26T06:52:28.473Z"
     }
   ]
 }
