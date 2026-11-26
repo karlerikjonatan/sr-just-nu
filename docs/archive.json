@@ -47296,6 +47296,10 @@
     {
       "id": "7a8d538e45156f8e5b151247430f21f589f77e4b2e104e12e1e1985df8513d05",
       "text": "Just nu: Arbetsplatsolycka vid Slussen"
+    },
+    {
+      "id": "95b683343c422a4e89aa125828ad7d170cdb257665cc448fa07a9cb88762b574",
+      "text": "Just nu: Man föll fem meter i Stockholm"
     }
   ],
   "captures": [
@@ -118236,6 +118240,12 @@
       "headlineId": "7a8d538e45156f8e5b151247430f21f589f77e4b2e104e12e1e1985df8513d05",
       "articleUrl": "https://www.sverigesradio.se/artikel/arbetsplatsolycka-vid-slussen-man-foll-5-meter-fran-stallning",
       "capturedAt": "2026-11-26T07:12:34.002Z"
+    },
+    {
+      "filename": "1795677450523_0.webp",
+      "headlineId": "95b683343c422a4e89aa125828ad7d170cdb257665cc448fa07a9cb88762b574",
+      "articleUrl": "https://www.sverigesradio.se/artikel/arbetsplatsolycka-vid-slussen-man-foll-5-meter-fran-stallning",
+      "capturedAt": "2026-11-26T07:17:30.523Z"
     }
   ]
 }
