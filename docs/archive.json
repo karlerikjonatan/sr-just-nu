@@ -47332,6 +47332,14 @@
     {
       "id": "a4ad93ae84057aa69d2a5a751fb12118daf751ddd27a5dc29dd258577b431dbe",
       "text": "Just nu: Allvarligt skadad man hittades utomhus"
+    },
+    {
+      "id": "331e7ae32bfc38c6a54afe66dfc3da99df95318843102e4154f8215b5a318270",
+      "text": "Just nu: Man död på häktet i Flemingsberg"
+    },
+    {
+      "id": "6f4f5757f638e815a96cb9aa4cb7ac9fbe04981ed8c1316f94a233a2dfd5be73",
+      "text": "Just nu: Allvarligt skadad man hittad utomhus"
     }
   ],
   "captures": [
@@ -118326,6 +118334,18 @@
       "headlineId": "a4ad93ae84057aa69d2a5a751fb12118daf751ddd27a5dc29dd258577b431dbe",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-allvarligt-skadad-hittades-utomhus-i-stockholm",
       "capturedAt": "2026-11-26T11:52:47.237Z"
+    },
+    {
+      "filename": "1795694245950_0.webp",
+      "headlineId": "6f4f5757f638e815a96cb9aa4cb7ac9fbe04981ed8c1316f94a233a2dfd5be73",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-allvarligt-skadad-hittades-utomhus-i-stockholm",
+      "capturedAt": "2026-11-26T11:57:25.950Z"
+    },
+    {
+      "filename": "1795694245950_1.webp",
+      "headlineId": "331e7ae32bfc38c6a54afe66dfc3da99df95318843102e4154f8215b5a318270",
+      "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-man-dod-pa-haktet",
+      "capturedAt": "2026-11-26T11:57:25.950Z"
     }
   ]
 }
