@@ -47308,6 +47308,10 @@
     {
       "id": "b7e7849ecca1d7727e85484a515e0b9cf5bb7051c1c187706825834c3d7ccc28",
       "text": "Just nu: Tågförseningar i Nyköping"
+    },
+    {
+      "id": "4c46e8531d24c5a635a7e89e510acd69beb711c24a021bbc3532ffa0a18dcbea",
+      "text": "Just nu: Bocken rullar in"
     }
   ],
   "captures": [
@@ -118266,6 +118270,12 @@
       "headlineId": "b7e7849ecca1d7727e85484a515e0b9cf5bb7051c1c187706825834c3d7ccc28",
       "articleUrl": "https://www.sverigesradio.se/artikel/olycka-vid-jarnvagsbro-stopp-i-tagtrafiken",
       "capturedAt": "2026-11-26T08:02:34.208Z"
+    },
+    {
+      "filename": "1795682253142_0.webp",
+      "headlineId": "4c46e8531d24c5a635a7e89e510acd69beb711c24a021bbc3532ffa0a18dcbea",
+      "articleUrl": "https://www.sverigesradio.se/artikel/nu-rullar-bocken-in",
+      "capturedAt": "2026-11-26T08:37:33.142Z"
     }
   ]
 }
