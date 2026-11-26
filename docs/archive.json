@@ -47260,6 +47260,10 @@
     {
       "id": "aeddd10b3ca2afca11166e253d701e8367c68a538905510b6119eec3fdf440c8",
       "text": "Just nu: Olycka i Egypten – minst 31 döda"
+    },
+    {
+      "id": "bf52d9bded3a6b813e380a7ee49576dafb467f3d1be2af591578f5f46fe0c4b7",
+      "text": "Just nu: Isländskt sjödrama – fiskebåt sjönk"
     }
   ],
   "captures": [
@@ -118146,6 +118150,12 @@
       "headlineId": "aeddd10b3ca2afca11166e253d701e8367c68a538905510b6119eec3fdf440c8",
       "articleUrl": "https://www.sverigesradio.se/artikel/olycka-med-tankbil-i-egypten-minst-31-doda",
       "capturedAt": "2026-11-25T23:27:35.640Z"
+    },
+    {
+      "filename": "1795651948149_0.webp",
+      "headlineId": "bf52d9bded3a6b813e380a7ee49576dafb467f3d1be2af591578f5f46fe0c4b7",
+      "articleUrl": "https://www.sverigesradio.se/artikel/sjonod-utanfor-island-nar-fiskebat-sjonk",
+      "capturedAt": "2026-11-26T00:12:28.149Z"
     }
   ]
 }
