@@ -47324,6 +47324,10 @@
     {
       "id": "5a51b485cc4b416396c18569b9b88953d2fb5ba6eae49b3fff09908338393628",
       "text": "Just nu: Krisande flygbolag ställer in flyg"
+    },
+    {
+      "id": "fff3a818f73f4422ae0738b7328657a75d933e11c466e3be2b865f8b7420644e",
+      "text": "Just nu: Allvarligt skadad man hittades utomhus i Stockholm"
     }
   ],
   "captures": [
@@ -118306,6 +118310,12 @@
       "headlineId": "5a51b485cc4b416396c18569b9b88953d2fb5ba6eae49b3fff09908338393628",
       "articleUrl": "https://www.sverigesradio.se/artikel/krisande-flygbolag-staller-in-flyg",
       "capturedAt": "2026-11-26T10:32:42.114Z"
+    },
+    {
+      "filename": "1795693652036_0.webp",
+      "headlineId": "fff3a818f73f4422ae0738b7328657a75d933e11c466e3be2b865f8b7420644e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-allvarligt-skadad-hittades-utomhus-i-stockholm",
+      "capturedAt": "2026-11-26T11:47:32.036Z"
     }
   ]
 }
