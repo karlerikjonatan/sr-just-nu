@@ -47276,6 +47276,10 @@
     {
       "id": "b30596f8421ec78b5b85b0f99d5a8dcaa3fc96acc056524df65738507e00743f",
       "text": "Just nu: Minst 13 döda efter gruvolycka i Indonesien"
+    },
+    {
+      "id": "1b4e227c18d2861146c29974d26168527dfc107d45c2087476a17893dcb955d1",
+      "text": "Just nu: 13 döda efter gruvolycka i Indonesien"
     }
   ],
   "captures": [
@@ -118186,6 +118190,12 @@
       "headlineId": "b30596f8421ec78b5b85b0f99d5a8dcaa3fc96acc056524df65738507e00743f",
       "articleUrl": "https://www.sverigesradio.se/artikel/minst-13-doda-efter-gruvolycka-i-indonesien",
       "capturedAt": "2026-11-26T05:47:26.404Z"
+    },
+    {
+      "filename": "1795672664554_0.webp",
+      "headlineId": "1b4e227c18d2861146c29974d26168527dfc107d45c2087476a17893dcb955d1",
+      "articleUrl": "https://www.sverigesradio.se/artikel/minst-13-doda-efter-gruvolycka-i-indonesien",
+      "capturedAt": "2026-11-26T05:57:44.554Z"
     }
   ]
 }
