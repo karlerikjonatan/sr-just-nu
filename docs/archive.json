@@ -47352,6 +47352,10 @@
     {
       "id": "736da4c7e9a754e793b3bd63413de6c669a192c78911d7785cd24b662d1f1abf",
       "text": "Just nu: Samuelsson sköt bort sig: ”Illa, illa”"
+    },
+    {
+      "id": "b39fa7d527370fe8be52605744d5a1492b227cb277a6b3c4fc26189685248148",
+      "text": "Just nu: FC Rosengård förlorar sig kvar"
     }
   ],
   "captures": [
@@ -118376,6 +118380,12 @@
       "headlineId": "736da4c7e9a754e793b3bd63413de6c669a192c78911d7785cd24b662d1f1abf",
       "articleUrl": "https://www.sverigesradio.se/artikel/samuelsson-skot-bort-sig-i-premiaren-illa-illa-illa",
       "capturedAt": "2026-11-26T16:32:34.229Z"
+    },
+    {
+      "filename": "1795722749291_0.webp",
+      "headlineId": "b39fa7d527370fe8be52605744d5a1492b227cb277a6b3c4fc26189685248148",
+      "articleUrl": "https://www.sverigesradio.se/artikel/klart-fc-rosengard-forlorar-sig-kvar-i-allsvenskan",
+      "capturedAt": "2026-11-26T19:52:29.291Z"
     }
   ]
 }
