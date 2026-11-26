@@ -47272,6 +47272,10 @@
     {
       "id": "29a61222ef33f7d5a6349dafddaf5b6d3174cc3024cebcf4b54cd5a836599101",
       "text": "Just nu: Totalstopp på riksväg 70"
+    },
+    {
+      "id": "b30596f8421ec78b5b85b0f99d5a8dcaa3fc96acc056524df65738507e00743f",
+      "text": "Just nu: Minst 13 döda efter gruvolycka i Indonesien"
     }
   ],
   "captures": [
@@ -118176,6 +118180,12 @@
       "headlineId": "29a61222ef33f7d5a6349dafddaf5b6d3174cc3024cebcf4b54cd5a836599101",
       "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-mall-vag-skapa-kopia--11",
       "capturedAt": "2026-11-26T05:27:26.286Z"
+    },
+    {
+      "filename": "1795672046404_0.webp",
+      "headlineId": "b30596f8421ec78b5b85b0f99d5a8dcaa3fc96acc056524df65738507e00743f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/minst-13-doda-efter-gruvolycka-i-indonesien",
+      "capturedAt": "2026-11-26T05:47:26.404Z"
     }
   ]
 }
