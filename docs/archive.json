@@ -47312,6 +47312,10 @@
     {
       "id": "4c46e8531d24c5a635a7e89e510acd69beb711c24a021bbc3532ffa0a18dcbea",
       "text": "Just nu: Bocken rullar in"
+    },
+    {
+      "id": "6f3c07fbb8cb852750e948421edda8f1a88618c78b02179d49026a167c1fd922",
+      "text": "Just nu: Kraftig explosion i Bangkok"
     }
   ],
   "captures": [
@@ -118276,6 +118280,12 @@
       "headlineId": "4c46e8531d24c5a635a7e89e510acd69beb711c24a021bbc3532ffa0a18dcbea",
       "articleUrl": "https://www.sverigesradio.se/artikel/nu-rullar-bocken-in",
       "capturedAt": "2026-11-26T08:37:33.142Z"
+    },
+    {
+      "filename": "1795683456025_0.webp",
+      "headlineId": "6f3c07fbb8cb852750e948421edda8f1a88618c78b02179d49026a167c1fd922",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kraftig-explosion-i-bangkok",
+      "capturedAt": "2026-11-26T08:57:36.025Z"
     }
   ]
 }
