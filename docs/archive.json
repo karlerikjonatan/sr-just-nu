@@ -47264,6 +47264,10 @@
     {
       "id": "bf52d9bded3a6b813e380a7ee49576dafb467f3d1be2af591578f5f46fe0c4b7",
       "text": "Just nu: Isländskt sjödrama – fiskebåt sjönk"
+    },
+    {
+      "id": "bf1fed0a3a220624775db6e7355ec3fd06b3898771512fac67404d94ee3337b7",
+      "text": "Just nu: Kim Jong-Un vill bygga fler kärnvapen"
     }
   ],
   "captures": [
@@ -118156,6 +118160,12 @@
       "headlineId": "bf52d9bded3a6b813e380a7ee49576dafb467f3d1be2af591578f5f46fe0c4b7",
       "articleUrl": "https://www.sverigesradio.se/artikel/sjonod-utanfor-island-nar-fiskebat-sjonk",
       "capturedAt": "2026-11-26T00:12:28.149Z"
+    },
+    {
+      "filename": "1795662155928_0.webp",
+      "headlineId": "bf1fed0a3a220624775db6e7355ec3fd06b3898771512fac67404d94ee3337b7",
+      "articleUrl": "https://www.sverigesradio.se/artikel/kim-jong-un-vill-att-nordkorea-producerar-mer-karnvapen",
+      "capturedAt": "2026-11-26T03:02:35.928Z"
     }
   ]
 }
