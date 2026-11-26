@@ -47300,6 +47300,10 @@
     {
       "id": "95b683343c422a4e89aa125828ad7d170cdb257665cc448fa07a9cb88762b574",
       "text": "Just nu: Man föll fem meter i Stockholm"
+    },
+    {
+      "id": "6f6789ea3b01cc53a2d3a96f223b7b08f8d40107152f0c2880c19c480cf87ef3",
+      "text": "Just nu: Tågstopp i Nyköping"
     }
   ],
   "captures": [
@@ -118246,6 +118250,12 @@
       "headlineId": "95b683343c422a4e89aa125828ad7d170cdb257665cc448fa07a9cb88762b574",
       "articleUrl": "https://www.sverigesradio.se/artikel/arbetsplatsolycka-vid-slussen-man-foll-5-meter-fran-stallning",
       "capturedAt": "2026-11-26T07:17:30.523Z"
+    },
+    {
+      "filename": "1795679255540_0.webp",
+      "headlineId": "6f6789ea3b01cc53a2d3a96f223b7b08f8d40107152f0c2880c19c480cf87ef3",
+      "articleUrl": "https://www.sverigesradio.se/artikel/olycka-vid-jarnvagsbro-stopp-i-tagtrafiken",
+      "capturedAt": "2026-11-26T07:47:35.540Z"
     }
   ]
 }
