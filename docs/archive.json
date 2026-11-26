@@ -47356,6 +47356,10 @@
     {
       "id": "b39fa7d527370fe8be52605744d5a1492b227cb277a6b3c4fc26189685248148",
       "text": "Just nu: FC Rosengård förlorar sig kvar"
+    },
+    {
+      "id": "da03efedfef6f8802d912b814644ecb1548a83838fc61f1f4cd8c75eaf63816b",
+      "text": "Just nu: Egna C-distriktet sågar beslutet"
     }
   ],
   "captures": [
@@ -118386,6 +118390,12 @@
       "headlineId": "b39fa7d527370fe8be52605744d5a1492b227cb277a6b3c4fc26189685248148",
       "articleUrl": "https://www.sverigesradio.se/artikel/klart-fc-rosengard-forlorar-sig-kvar-i-allsvenskan",
       "capturedAt": "2026-11-26T19:52:29.291Z"
+    },
+    {
+      "filename": "1795724847541_0.webp",
+      "headlineId": "da03efedfef6f8802d912b814644ecb1548a83838fc61f1f4cd8c75eaf63816b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/c-i-stockholm-sagar-beslutet-kommer-inte-rosta-ja",
+      "capturedAt": "2026-11-26T20:27:27.541Z"
     }
   ]
 }
