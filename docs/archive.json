@@ -47284,6 +47284,10 @@
     {
       "id": "4a72ddd6394bdb6b06727dc2f9d3873f70624917597151f2d06fcd510c8e179f",
       "text": "Just nu: Fortsatt inställda avgångar Stockholm-Uppsala"
+    },
+    {
+      "id": "d7e8bfc3aa847537433a2f4d0641b4611ba40ed2ef30c32fe10644465e4437c5",
+      "text": "Just nu: Inställda tåg Stockholm-Uppsala"
     }
   ],
   "captures": [
@@ -118206,6 +118210,12 @@
       "headlineId": "4a72ddd6394bdb6b06727dc2f9d3873f70624917597151f2d06fcd510c8e179f",
       "articleUrl": "https://www.sverigesradio.se/artikel/installda-avgangar-stockholm-uppsala-hela-dagen",
       "capturedAt": "2026-11-26T06:12:36.078Z"
+    },
+    {
+      "filename": "1795674149301_0.webp",
+      "headlineId": "d7e8bfc3aa847537433a2f4d0641b4611ba40ed2ef30c32fe10644465e4437c5",
+      "articleUrl": "https://www.sverigesradio.se/artikel/installda-avgangar-stockholm-uppsala-hela-dagen",
+      "capturedAt": "2026-11-26T06:22:29.301Z"
     }
   ]
 }
