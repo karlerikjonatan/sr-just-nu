@@ -47340,6 +47340,10 @@
     {
       "id": "6f4f5757f638e815a96cb9aa4cb7ac9fbe04981ed8c1316f94a233a2dfd5be73",
       "text": "Just nu: Allvarligt skadad man hittad utomhus"
+    },
+    {
+      "id": "8535ce98fcb77197463de7c8a5f903e3aa5770869196d257e84fdd15062c0a4f",
+      "text": "Just nu: Tidigare ungdomsledare åtalas för sexbrott mot barn"
     }
   ],
   "captures": [
@@ -118346,6 +118350,12 @@
       "headlineId": "331e7ae32bfc38c6a54afe66dfc3da99df95318843102e4154f8215b5a318270",
       "articleUrl": "https://www.sverigesradio.se/artikel/just-nu-man-dod-pa-haktet",
       "capturedAt": "2026-11-26T11:57:25.950Z"
+    },
+    {
+      "filename": "1795704749196_0.webp",
+      "headlineId": "8535ce98fcb77197463de7c8a5f903e3aa5770869196d257e84fdd15062c0a4f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/tidigare-ungdomsledare-atalas-for-ett-trettiotal-sexbrott-mot-barn",
+      "capturedAt": "2026-11-26T14:52:29.196Z"
     }
   ]
 }
