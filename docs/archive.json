@@ -47348,6 +47348,10 @@
     {
       "id": "badc6f65c8b5a69ab7b9cfc9b5842ef061d298928d0db9a0f78369b80a6a89b8",
       "text": "Just nu: Trettiotal sexbrott mot barn"
+    },
+    {
+      "id": "736da4c7e9a754e793b3bd63413de6c669a192c78911d7785cd24b662d1f1abf",
+      "text": "Just nu: Samuelsson sköt bort sig: ”Illa, illa”"
     }
   ],
   "captures": [
@@ -118366,6 +118370,12 @@
       "headlineId": "badc6f65c8b5a69ab7b9cfc9b5842ef061d298928d0db9a0f78369b80a6a89b8",
       "articleUrl": "https://www.sverigesradio.se/artikel/tidigare-ungdomsledare-atalas-for-ett-trettiotal-sexbrott-mot-barn",
       "capturedAt": "2026-11-26T15:17:27.579Z"
+    },
+    {
+      "filename": "1795710754229_0.webp",
+      "headlineId": "736da4c7e9a754e793b3bd63413de6c669a192c78911d7785cd24b662d1f1abf",
+      "articleUrl": "https://www.sverigesradio.se/artikel/samuelsson-skot-bort-sig-i-premiaren-illa-illa-illa",
+      "capturedAt": "2026-11-26T16:32:34.229Z"
     }
   ]
 }
