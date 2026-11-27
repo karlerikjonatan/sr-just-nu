@@ -47424,6 +47424,14 @@
     {
       "id": "3083f9f18eb46c445fc20dba8b6c75b6f68044f5e5542279b61a3c0ae3aa81c8",
       "text": "Just nu: Drömstart för Elvira Öberg"
+    },
+    {
+      "id": "8396d84cf017a07b7a09e6010ce0b86f032ed4d6d7bfbd614ff5c3ba73846787",
+      "text": "Just nu: Kvinna räddad ur brinnande lägenhet"
+    },
+    {
+      "id": "ca091eec2e899735ef87134735e73aaf66fe1fa35850ea4a3869f68eb6519fd3",
+      "text": "Just nu: Sektledaren döms för 123 dråp"
     }
   ],
   "captures": [
@@ -118556,6 +118564,18 @@
       "headlineId": "3083f9f18eb46c445fc20dba8b6c75b6f68044f5e5542279b61a3c0ae3aa81c8",
       "articleUrl": "https://www.sverigesradio.se/artikel/elvira-obergs-dromstart-vann-premiaren-i-kontiolax",
       "capturedAt": "2026-11-27T16:32:35.922Z"
+    },
+    {
+      "filename": "1795799552904_0.webp",
+      "headlineId": "ca091eec2e899735ef87134735e73aaf66fe1fa35850ea4a3869f68eb6519fd3",
+      "articleUrl": "https://www.sverigesradio.se/artikel/den-kenyanske-sektledaren-doms-for-drap-pa-123-personer",
+      "capturedAt": "2026-11-27T17:12:32.904Z"
+    },
+    {
+      "filename": "1795799552904_1.webp",
+      "headlineId": "8396d84cf017a07b7a09e6010ce0b86f032ed4d6d7bfbd614ff5c3ba73846787",
+      "articleUrl": "https://www.sverigesradio.se/artikel/en-raddade-ur-brinnande-lagenhet-ford-till-sjukhus-med-helikopter",
+      "capturedAt": "2026-11-27T17:12:32.904Z"
     }
   ]
 }
