@@ -47372,6 +47372,10 @@
     {
       "id": "945291033ecb1e61ea75280f6cc168e6404b901beaeefb1d08abb156eb4adc74",
       "text": "Just nu: Lastbil har vält på E4 vid Mantorp"
+    },
+    {
+      "id": "56281b63c65d8ec6536e356f9c66d78e2f406a51ff21fe07fcd7f5c51335bc33",
+      "text": "Just nu: Mässlingsfall på flyg från Thailand"
     }
   ],
   "captures": [
@@ -118426,6 +118430,12 @@
       "headlineId": "945291033ecb1e61ea75280f6cc168e6404b901beaeefb1d08abb156eb4adc74",
       "articleUrl": "https://www.sverigesradio.se/artikel/lastbilsolycka-stanger-e4-utanfor-mantorp",
       "capturedAt": "2026-11-27T04:37:25.193Z"
+    },
+    {
+      "filename": "1795756952838_0.webp",
+      "headlineId": "56281b63c65d8ec6536e356f9c66d78e2f406a51ff21fe07fcd7f5c51335bc33",
+      "articleUrl": "https://www.sverigesradio.se/artikel/varningen-masslingsfall-pa-flyg-fran-thailand",
+      "capturedAt": "2026-11-27T05:22:32.838Z"
     }
   ]
 }
