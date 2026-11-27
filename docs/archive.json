@@ -47364,6 +47364,10 @@
     {
       "id": "fab1327b5c91d066c7c656251e3c1d04a51bdac0cca31b7b84d73d69473e63c5",
       "text": "Just nu: Storm i USA – över 900 000 strömlösa"
+    },
+    {
+      "id": "714e49b13b3944160c77a5a282d1ddf2d719707289402d988b22a09491ee4dc8",
+      "text": "Just nu: E4 avstängd vid Mantorp"
     }
   ],
   "captures": [
@@ -118406,6 +118410,12 @@
       "headlineId": "fab1327b5c91d066c7c656251e3c1d04a51bdac0cca31b7b84d73d69473e63c5",
       "articleUrl": "https://www.sverigesradio.se/artikel/ovader-i-usa-over-900-000-hushall-stromlosa",
       "capturedAt": "2026-11-27T01:02:30.003Z"
+    },
+    {
+      "filename": "1795753948148_0.webp",
+      "headlineId": "714e49b13b3944160c77a5a282d1ddf2d719707289402d988b22a09491ee4dc8",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lastbilsolycka-stanger-e4-utanfor-mantorp",
+      "capturedAt": "2026-11-27T04:32:28.148Z"
     }
   ]
 }
