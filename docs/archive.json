@@ -47384,6 +47384,10 @@
     {
       "id": "a898bba31dd3d1b5313a50b3dc697a90af1094632bd854141ad12cdc345b5624",
       "text": "Just nu: Brand i guldgruva  i Skellefteå"
+    },
+    {
+      "id": "115ddd32f27fbf96dc3571008b49dfed889cca35b1b8a2692fbccc00afa1854d",
+      "text": "Just nu: Guldgruva utryms efter brand"
     }
   ],
   "captures": [
@@ -118456,6 +118460,12 @@
       "headlineId": "a898bba31dd3d1b5313a50b3dc697a90af1094632bd854141ad12cdc345b5624",
       "articleUrl": "https://www.sverigesradio.se/artikel/brand-i-guldgruva-bil-brinner-under-jord",
       "capturedAt": "2026-11-27T08:12:32.347Z"
+    },
+    {
+      "filename": "1795769849504_0.webp",
+      "headlineId": "115ddd32f27fbf96dc3571008b49dfed889cca35b1b8a2692fbccc00afa1854d",
+      "articleUrl": "https://www.sverigesradio.se/artikel/brand-i-guldgruva-bil-brinner-under-jord",
+      "capturedAt": "2026-11-27T08:57:29.504Z"
     }
   ]
 }
