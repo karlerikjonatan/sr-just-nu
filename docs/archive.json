@@ -47440,6 +47440,10 @@
     {
       "id": "2971b904aa8b92bdba0b53bffa6210395fa4058df64df43e6be281530a25c3fd",
       "text": "Just nu: Onanist var skyltdocka"
+    },
+    {
+      "id": "066356d64aa6de271c7faf34e2cde45a24f89e998ddb5cecedb9981b7d950ac2",
+      "text": "Just nu: Sverige närmar sig VM"
     }
   ],
   "captures": [
@@ -118596,6 +118600,12 @@
       "headlineId": "2971b904aa8b92bdba0b53bffa6210395fa4058df64df43e6be281530a25c3fd",
       "articleUrl": "https://www.sverigesradio.se/artikel/larm-om-onanerande-man-i-sala-visade-sig-vara-skyltdocka",
       "capturedAt": "2026-11-27T20:07:31.253Z"
+    },
+    {
+      "filename": "1795810663723_0.webp",
+      "headlineId": "066356d64aa6de271c7faf34e2cde45a24f89e998ddb5cecedb9981b7d950ac2",
+      "articleUrl": "https://www.sverigesradio.se/artikel/sverige-vann-odesmatchen-narmar-sig-basket-vm",
+      "capturedAt": "2026-11-27T20:17:43.723Z"
     }
   ]
 }
