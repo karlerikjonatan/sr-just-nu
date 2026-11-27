@@ -47392,6 +47392,10 @@
     {
       "id": "ab13be187a15535356e0537f9df556ae223e0a8b55f0e9ba56de90551d0c5c09",
       "text": "Just nu: Birgitta Ohlsson: Kommer rösta nej"
+    },
+    {
+      "id": "cfe66c680e64d1c6af2330dd1643c1a8bf660d5ebacd11c851f9f1444dac7031",
+      "text": "Just nu: Svensk trippel på pallen i Ruka"
     }
   ],
   "captures": [
@@ -118476,6 +118480,12 @@
       "headlineId": "ab13be187a15535356e0537f9df556ae223e0a8b55f0e9ba56de90551d0c5c09",
       "articleUrl": "https://www.sverigesradio.se/artikel/regeringsbildningen-efter-valet-2026",
       "capturedAt": "2026-11-27T09:52:32.773Z"
+    },
+    {
+      "filename": "1795775856696_0.webp",
+      "headlineId": "cfe66c680e64d1c6af2330dd1643c1a8bf660d5ebacd11c851f9f1444dac7031",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ebba-andersson-slog-frida-karlsson-i-varldscuppremiaren",
+      "capturedAt": "2026-11-27T10:37:36.696Z"
     }
   ]
 }
