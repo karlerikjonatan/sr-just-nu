@@ -47368,6 +47368,10 @@
     {
       "id": "714e49b13b3944160c77a5a282d1ddf2d719707289402d988b22a09491ee4dc8",
       "text": "Just nu: E4 avstängd vid Mantorp"
+    },
+    {
+      "id": "945291033ecb1e61ea75280f6cc168e6404b901beaeefb1d08abb156eb4adc74",
+      "text": "Just nu: Lastbil har vält på E4 vid Mantorp"
     }
   ],
   "captures": [
@@ -118416,6 +118420,12 @@
       "headlineId": "714e49b13b3944160c77a5a282d1ddf2d719707289402d988b22a09491ee4dc8",
       "articleUrl": "https://www.sverigesradio.se/artikel/lastbilsolycka-stanger-e4-utanfor-mantorp",
       "capturedAt": "2026-11-27T04:32:28.148Z"
+    },
+    {
+      "filename": "1795754245193_0.webp",
+      "headlineId": "945291033ecb1e61ea75280f6cc168e6404b901beaeefb1d08abb156eb4adc74",
+      "articleUrl": "https://www.sverigesradio.se/artikel/lastbilsolycka-stanger-e4-utanfor-mantorp",
+      "capturedAt": "2026-11-27T04:37:25.193Z"
     }
   ]
 }
