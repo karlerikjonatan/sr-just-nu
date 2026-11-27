@@ -47416,6 +47416,10 @@
     {
       "id": "45b067d08176cdcfd6e54aa1a48e71658a1598a7021b260ff033d2c854e92636",
       "text": "Just nu: Då väcks åtalet för Rönningemordet"
+    },
+    {
+      "id": "825d42604d054368cdacb2207ace7dc5c4fa4183352ec80292ee49b2cf987977",
+      "text": "Just nu: Brandmän räddade man ur havet"
     }
   ],
   "captures": [
@@ -118536,6 +118540,12 @@
       "headlineId": "45b067d08176cdcfd6e54aa1a48e71658a1598a7021b260ff033d2c854e92636",
       "articleUrl": "https://www.sverigesradio.se/artikel/da-kommer-atalet-for-ronningemordet",
       "capturedAt": "2026-11-27T14:32:35.554Z"
+    },
+    {
+      "filename": "1795791450372_0.webp",
+      "headlineId": "825d42604d054368cdacb2207ace7dc5c4fa4183352ec80292ee49b2cf987977",
+      "articleUrl": "https://www.sverigesradio.se/artikel/man-halkade-ner-i-havet-raddades-av-lunchande-brandman",
+      "capturedAt": "2026-11-27T14:57:30.372Z"
     }
   ]
 }
