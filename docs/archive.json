@@ -47400,6 +47400,10 @@
     {
       "id": "13dbd609ee138880de4596aebee6c147ff307c29348ee9c2bed41e17a6b0768e",
       "text": "Just nu: USA:s försvar hackat, enligt källor"
+    },
+    {
+      "id": "bc073efc537495eb09c8a61292f5923d3aee73112199d18e0d69ee5383d74cd8",
+      "text": "Just nu: USA:s försvar hackat, uppger källor"
     }
   ],
   "captures": [
@@ -118496,6 +118500,12 @@
       "headlineId": "13dbd609ee138880de4596aebee6c147ff307c29348ee9c2bed41e17a6b0768e",
       "articleUrl": "https://www.sverigesradio.se/artikel/uppgifter-amerikanska-luftsforsvarets-plattform-har-hackats",
       "capturedAt": "2026-11-27T12:07:43.568Z"
+    },
+    {
+      "filename": "1795781551268_0.webp",
+      "headlineId": "bc073efc537495eb09c8a61292f5923d3aee73112199d18e0d69ee5383d74cd8",
+      "articleUrl": "https://www.sverigesradio.se/artikel/uppgifter-amerikanska-luftsforsvarets-plattform-har-hackats",
+      "capturedAt": "2026-11-27T12:12:31.268Z"
     }
   ]
 }
