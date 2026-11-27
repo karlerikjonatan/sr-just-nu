@@ -47396,6 +47396,10 @@
     {
       "id": "cfe66c680e64d1c6af2330dd1643c1a8bf660d5ebacd11c851f9f1444dac7031",
       "text": "Just nu: Svensk trippel på pallen i Ruka"
+    },
+    {
+      "id": "13dbd609ee138880de4596aebee6c147ff307c29348ee9c2bed41e17a6b0768e",
+      "text": "Just nu: USA:s försvar hackat, enligt källor"
     }
   ],
   "captures": [
@@ -118486,6 +118490,12 @@
       "headlineId": "cfe66c680e64d1c6af2330dd1643c1a8bf660d5ebacd11c851f9f1444dac7031",
       "articleUrl": "https://www.sverigesradio.se/artikel/ebba-andersson-slog-frida-karlsson-i-varldscuppremiaren",
       "capturedAt": "2026-11-27T10:37:36.696Z"
+    },
+    {
+      "filename": "1795781263568_0.webp",
+      "headlineId": "13dbd609ee138880de4596aebee6c147ff307c29348ee9c2bed41e17a6b0768e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/uppgifter-amerikanska-luftsforsvarets-plattform-har-hackats",
+      "capturedAt": "2026-11-27T12:07:43.568Z"
     }
   ]
 }
