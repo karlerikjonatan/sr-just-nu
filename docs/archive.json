@@ -47360,6 +47360,10 @@
     {
       "id": "da03efedfef6f8802d912b814644ecb1548a83838fc61f1f4cd8c75eaf63816b",
       "text": "Just nu: Egna C-distriktet sågar beslutet"
+    },
+    {
+      "id": "fab1327b5c91d066c7c656251e3c1d04a51bdac0cca31b7b84d73d69473e63c5",
+      "text": "Just nu: Storm i USA – över 900 000 strömlösa"
     }
   ],
   "captures": [
@@ -118396,6 +118400,12 @@
       "headlineId": "da03efedfef6f8802d912b814644ecb1548a83838fc61f1f4cd8c75eaf63816b",
       "articleUrl": "https://www.sverigesradio.se/artikel/c-i-stockholm-sagar-beslutet-kommer-inte-rosta-ja",
       "capturedAt": "2026-11-26T20:27:27.541Z"
+    },
+    {
+      "filename": "1795741350003_0.webp",
+      "headlineId": "fab1327b5c91d066c7c656251e3c1d04a51bdac0cca31b7b84d73d69473e63c5",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ovader-i-usa-over-900-000-hushall-stromlosa",
+      "capturedAt": "2026-11-27T01:02:30.003Z"
     }
   ]
 }
