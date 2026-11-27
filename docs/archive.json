@@ -47412,6 +47412,10 @@
     {
       "id": "eeba3e4f6d5415d582ca7bdeee9c347b386966fbe4a40d4275c807f3e463343e",
       "text": "Just nu: Pojke skadad i elsparkcykelkrock"
+    },
+    {
+      "id": "45b067d08176cdcfd6e54aa1a48e71658a1598a7021b260ff033d2c854e92636",
+      "text": "Just nu: Då väcks åtalet för Rönningemordet"
     }
   ],
   "captures": [
@@ -118526,6 +118530,12 @@
       "headlineId": "eeba3e4f6d5415d582ca7bdeee9c347b386966fbe4a40d4275c807f3e463343e",
       "articleUrl": "https://www.sverigesradio.se/artikel/elsparkcyklist-till-sjukhus-efter-trafikolycka-i-landskrona",
       "capturedAt": "2026-11-27T13:57:34.512Z"
+    },
+    {
+      "filename": "1795789955554_0.webp",
+      "headlineId": "45b067d08176cdcfd6e54aa1a48e71658a1598a7021b260ff033d2c854e92636",
+      "articleUrl": "https://www.sverigesradio.se/artikel/da-kommer-atalet-for-ronningemordet",
+      "capturedAt": "2026-11-27T14:32:35.554Z"
     }
   ]
 }
