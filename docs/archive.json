@@ -47408,6 +47408,10 @@
     {
       "id": "3083f1a56ca37962efff5aba26f76db7a246ed10bc66492824d0cf81346b4901",
       "text": "Just nu: Flygbolag ansöker om konkurs"
+    },
+    {
+      "id": "eeba3e4f6d5415d582ca7bdeee9c347b386966fbe4a40d4275c807f3e463343e",
+      "text": "Just nu: Pojke skadad i elsparkcykelkrock"
     }
   ],
   "captures": [
@@ -118516,6 +118520,12 @@
       "headlineId": "3083f1a56ca37962efff5aba26f76db7a246ed10bc66492824d0cf81346b4901",
       "articleUrl": "https://www.sverigesradio.se/artikel/norsk-flygbolag-ansoker-om-konkurs",
       "capturedAt": "2026-11-27T13:17:32.569Z"
+    },
+    {
+      "filename": "1795787854512_0.webp",
+      "headlineId": "eeba3e4f6d5415d582ca7bdeee9c347b386966fbe4a40d4275c807f3e463343e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/elsparkcyklist-till-sjukhus-efter-trafikolycka-i-landskrona",
+      "capturedAt": "2026-11-27T13:57:34.512Z"
     }
   ]
 }
