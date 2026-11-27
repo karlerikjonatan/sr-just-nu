@@ -47404,6 +47404,10 @@
     {
       "id": "bc073efc537495eb09c8a61292f5923d3aee73112199d18e0d69ee5383d74cd8",
       "text": "Just nu: USA:s försvar hackat, uppger källor"
+    },
+    {
+      "id": "3083f1a56ca37962efff5aba26f76db7a246ed10bc66492824d0cf81346b4901",
+      "text": "Just nu: Flygbolag ansöker om konkurs"
     }
   ],
   "captures": [
@@ -118506,6 +118510,12 @@
       "headlineId": "bc073efc537495eb09c8a61292f5923d3aee73112199d18e0d69ee5383d74cd8",
       "articleUrl": "https://www.sverigesradio.se/artikel/uppgifter-amerikanska-luftsforsvarets-plattform-har-hackats",
       "capturedAt": "2026-11-27T12:12:31.268Z"
+    },
+    {
+      "filename": "1795785452569_0.webp",
+      "headlineId": "3083f1a56ca37962efff5aba26f76db7a246ed10bc66492824d0cf81346b4901",
+      "articleUrl": "https://www.sverigesradio.se/artikel/norsk-flygbolag-ansoker-om-konkurs",
+      "capturedAt": "2026-11-27T13:17:32.569Z"
     }
   ]
 }
