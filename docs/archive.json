@@ -47380,6 +47380,10 @@
     {
       "id": "3cce172d2aa05ef652cf7be4ac552b5f868459e9501ca2428a53a92f78b6e89a",
       "text": "Just nu: Svenska artisten gör stor comeback"
+    },
+    {
+      "id": "a898bba31dd3d1b5313a50b3dc697a90af1094632bd854141ad12cdc345b5624",
+      "text": "Just nu: Brand i guldgruva  i Skellefteå"
     }
   ],
   "captures": [
@@ -118446,6 +118450,12 @@
       "headlineId": "3cce172d2aa05ef652cf7be4ac552b5f868459e9501ca2428a53a92f78b6e89a",
       "articleUrl": "https://www.sverigesradio.se/artikel/kapten-rod-gor-comeback-storsta-spelningen-hittills",
       "capturedAt": "2026-11-27T07:07:27.891Z"
+    },
+    {
+      "filename": "1795767152347_0.webp",
+      "headlineId": "a898bba31dd3d1b5313a50b3dc697a90af1094632bd854141ad12cdc345b5624",
+      "articleUrl": "https://www.sverigesradio.se/artikel/brand-i-guldgruva-bil-brinner-under-jord",
+      "capturedAt": "2026-11-27T08:12:32.347Z"
     }
   ]
 }
