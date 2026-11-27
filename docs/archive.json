@@ -47420,6 +47420,10 @@
     {
       "id": "825d42604d054368cdacb2207ace7dc5c4fa4183352ec80292ee49b2cf987977",
       "text": "Just nu: Brandmän räddade man ur havet"
+    },
+    {
+      "id": "3083f9f18eb46c445fc20dba8b6c75b6f68044f5e5542279b61a3c0ae3aa81c8",
+      "text": "Just nu: Drömstart för Elvira Öberg"
     }
   ],
   "captures": [
@@ -118546,6 +118550,12 @@
       "headlineId": "825d42604d054368cdacb2207ace7dc5c4fa4183352ec80292ee49b2cf987977",
       "articleUrl": "https://www.sverigesradio.se/artikel/man-halkade-ner-i-havet-raddades-av-lunchande-brandman",
       "capturedAt": "2026-11-27T14:57:30.372Z"
+    },
+    {
+      "filename": "1795797155922_0.webp",
+      "headlineId": "3083f9f18eb46c445fc20dba8b6c75b6f68044f5e5542279b61a3c0ae3aa81c8",
+      "articleUrl": "https://www.sverigesradio.se/artikel/elvira-obergs-dromstart-vann-premiaren-i-kontiolax",
+      "capturedAt": "2026-11-27T16:32:35.922Z"
     }
   ]
 }
