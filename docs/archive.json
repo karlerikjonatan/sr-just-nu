@@ -47432,6 +47432,10 @@
     {
       "id": "ca091eec2e899735ef87134735e73aaf66fe1fa35850ea4a3869f68eb6519fd3",
       "text": "Just nu: Sektledaren döms för 123 dråp"
+    },
+    {
+      "id": "4f3a7d615e3966df4f5b117405c0d5cc22074342a651852add5a4f944bac7d0b",
+      "text": "Just nu: Person svårt skadad i brand"
     }
   ],
   "captures": [
@@ -118576,6 +118580,12 @@
       "headlineId": "8396d84cf017a07b7a09e6010ce0b86f032ed4d6d7bfbd614ff5c3ba73846787",
       "articleUrl": "https://www.sverigesradio.se/artikel/en-raddade-ur-brinnande-lagenhet-ford-till-sjukhus-med-helikopter",
       "capturedAt": "2026-11-27T17:12:32.904Z"
+    },
+    {
+      "filename": "1795807052028_0.webp",
+      "headlineId": "4f3a7d615e3966df4f5b117405c0d5cc22074342a651852add5a4f944bac7d0b",
+      "articleUrl": "https://www.sverigesradio.se/artikel/en-raddade-ur-brinnande-lagenhet-ford-till-sjukhus-med-helikopter",
+      "capturedAt": "2026-11-27T19:17:32.028Z"
     }
   ]
 }
