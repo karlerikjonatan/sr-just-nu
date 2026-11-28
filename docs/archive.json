@@ -47468,6 +47468,10 @@
     {
       "id": "619ba42bd99efb3d74f98e67157218ff8b97d31a711288e559282662fc78a4dc",
       "text": "Just nu: Tonåring i krock – misstänkt rattfylleri"
+    },
+    {
+      "id": "7d95ee6805e6651b8e1f3459f18bfdf75e68b76ff4cd450e9a1b655e5e05d993",
+      "text": "Just nu: Fyllefest i Vemdalen – 35 utslängda"
     }
   ],
   "captures": [
@@ -118666,6 +118670,12 @@
       "headlineId": "619ba42bd99efb3d74f98e67157218ff8b97d31a711288e559282662fc78a4dc",
       "articleUrl": "https://www.sverigesradio.se/artikel/krock-med-a-traktor-tonarspojke-misstankt-for-brott",
       "capturedAt": "2026-11-28T08:32:29.848Z"
+    },
+    {
+      "filename": "1795855348379_0.webp",
+      "headlineId": "7d95ee6805e6651b8e1f3459f18bfdf75e68b76ff4cd450e9a1b655e5e05d993",
+      "articleUrl": "https://www.sverigesradio.se/artikel/fyllefest-i-vemdalen-35-utslangda",
+      "capturedAt": "2026-11-28T08:42:28.379Z"
     }
   ]
 }
