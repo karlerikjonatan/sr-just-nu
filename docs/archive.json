@@ -47492,6 +47492,10 @@
     {
       "id": "17d01d34fe22e9d6fafbc2d0228d562ec5f8fd5b29d539fcae56c0f13d3aea05",
       "text": "Just nu: Stor blågul succé i världscupen"
+    },
+    {
+      "id": "8f2fd4c3e979957d8d7753c981cdb8a7708d16b2db462591b753a53a7e71132f",
+      "text": "Just nu: Svensk seger i skidskytte-mixed"
     }
   ],
   "captures": [
@@ -118726,6 +118730,12 @@
       "headlineId": "17d01d34fe22e9d6fafbc2d0228d562ec5f8fd5b29d539fcae56c0f13d3aea05",
       "articleUrl": "https://www.sverigesradio.se/artikel/svensk-succe-i-sprinten-trippel-igen",
       "capturedAt": "2026-11-28T12:42:37.315Z"
+    },
+    {
+      "filename": "1795870646899_0.webp",
+      "headlineId": "8f2fd4c3e979957d8d7753c981cdb8a7708d16b2db462591b753a53a7e71132f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/samuelsson-och-halvarsson-fixade-svensk-succe-i-kontiolax",
+      "capturedAt": "2026-11-28T12:57:26.899Z"
     }
   ]
 }
