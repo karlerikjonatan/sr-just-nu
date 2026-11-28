@@ -47516,6 +47516,10 @@
     {
       "id": "f2b74e1b4408c6d111576764d422851cde2d5cef7c079d3d6d76a2d559163fd3",
       "text": "Just nu: Miljonkupp mot museum"
+    },
+    {
+      "id": "a70453e1b78c947b6493ccf5617901b496bcbcdf2a26f7b917e2c10e7495d2cf",
+      "text": "Just nu: Saab får miljardorder från Ukraina"
     }
   ],
   "captures": [
@@ -118786,6 +118790,12 @@
       "headlineId": "f2b74e1b4408c6d111576764d422851cde2d5cef7c079d3d6d76a2d559163fd3",
       "articleUrl": "https://www.sverigesradio.se/artikel/stold-pa-museum-konstverk-for-en-miljon-borta",
       "capturedAt": "2026-11-28T15:47:27.932Z"
+    },
+    {
+      "filename": "1795882649266_0.webp",
+      "headlineId": "a70453e1b78c947b6493ccf5617901b496bcbcdf2a26f7b917e2c10e7495d2cf",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ukraina-gor-mangmiljardorder-pa-giraffe-1x-radarer-hos-saab",
+      "capturedAt": "2026-11-28T16:17:29.266Z"
     }
   ]
 }
