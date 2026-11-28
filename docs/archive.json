@@ -47448,6 +47448,10 @@
     {
       "id": "bea61cbc9c4a7de8774f140b690a736ca4a7cb3ede68dd474b6f13c7944fc6f4",
       "text": "Just nu: Åtta döda efter helikopterkrasch"
+    },
+    {
+      "id": "17a6944bbefe407fc446904858549d8eed94135f803ae6f477f8a554c6923c75",
+      "text": "Just nu: Svenskan missar dagens skidpremiär"
     }
   ],
   "captures": [
@@ -118616,6 +118620,12 @@
       "headlineId": "bea61cbc9c4a7de8774f140b690a736ca4a7cb3ede68dd474b6f13c7944fc6f4",
       "articleUrl": "https://www.sverigesradio.se/artikel/atta-doda-efter-helikopterkrasch-i-peru",
       "capturedAt": "2026-11-28T03:12:34.416Z"
+    },
+    {
+      "filename": "1795847572852_0.webp",
+      "headlineId": "17a6944bbefe407fc446904858549d8eed94135f803ae6f477f8a554c6923c75",
+      "articleUrl": "https://www.sverigesradio.se/artikel/emma-ribom-sjuk-missar-varldscuppremiaren-i-ruka",
+      "capturedAt": "2026-11-28T06:32:52.852Z"
     }
   ]
 }
