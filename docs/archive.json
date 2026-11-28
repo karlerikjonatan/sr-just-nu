@@ -47500,6 +47500,10 @@
     {
       "id": "bc26c2747da00758f91f6f674ca3e23c349b284299b3f6df62ab70fa952e105f",
       "text": "Just nu: Flera till sjukhus – olycka i Stockholm"
+    },
+    {
+      "id": "0b69038a24956dcdeae5c53b5308ef83c02ed5784c5ab5c2c763618d3a4a44e3",
+      "text": "Just nu: Gordon Ramsay ska leda ”Top Gear”"
     }
   ],
   "captures": [
@@ -118746,6 +118750,12 @@
       "headlineId": "bc26c2747da00758f91f6f674ca3e23c349b284299b3f6df62ab70fa952e105f",
       "articleUrl": "https://www.sverigesradio.se/artikel/bil-har-kort-in-i-fastighet-i-centrala-stockholm",
       "capturedAt": "2026-11-28T13:02:38.930Z"
+    },
+    {
+      "filename": "1795874850388_0.webp",
+      "headlineId": "0b69038a24956dcdeae5c53b5308ef83c02ed5784c5ab5c2c763618d3a4a44e3",
+      "articleUrl": "https://www.sverigesradio.se/artikel/top-gear-gor-comeback-med-tv-kocken-gordon-ramsay",
+      "capturedAt": "2026-11-28T14:07:30.388Z"
     }
   ]
 }
