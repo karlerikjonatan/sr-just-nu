@@ -47496,6 +47496,10 @@
     {
       "id": "8f2fd4c3e979957d8d7753c981cdb8a7708d16b2db462591b753a53a7e71132f",
       "text": "Just nu: Svensk seger i skidskytte-mixed"
+    },
+    {
+      "id": "bc26c2747da00758f91f6f674ca3e23c349b284299b3f6df62ab70fa952e105f",
+      "text": "Just nu: Flera till sjukhus – olycka i Stockholm"
     }
   ],
   "captures": [
@@ -118736,6 +118740,12 @@
       "headlineId": "8f2fd4c3e979957d8d7753c981cdb8a7708d16b2db462591b753a53a7e71132f",
       "articleUrl": "https://www.sverigesradio.se/artikel/samuelsson-och-halvarsson-fixade-svensk-succe-i-kontiolax",
       "capturedAt": "2026-11-28T12:57:26.899Z"
+    },
+    {
+      "filename": "1795870958930_0.webp",
+      "headlineId": "bc26c2747da00758f91f6f674ca3e23c349b284299b3f6df62ab70fa952e105f",
+      "articleUrl": "https://www.sverigesradio.se/artikel/bil-har-kort-in-i-fastighet-i-centrala-stockholm",
+      "capturedAt": "2026-11-28T13:02:38.930Z"
     }
   ]
 }
