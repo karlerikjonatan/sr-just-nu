@@ -47444,6 +47444,10 @@
     {
       "id": "066356d64aa6de271c7faf34e2cde45a24f89e998ddb5cecedb9981b7d950ac2",
       "text": "Just nu: Sverige närmar sig VM"
+    },
+    {
+      "id": "bea61cbc9c4a7de8774f140b690a736ca4a7cb3ede68dd474b6f13c7944fc6f4",
+      "text": "Just nu: Åtta döda efter helikopterkrasch"
     }
   ],
   "captures": [
@@ -118606,6 +118610,12 @@
       "headlineId": "066356d64aa6de271c7faf34e2cde45a24f89e998ddb5cecedb9981b7d950ac2",
       "articleUrl": "https://www.sverigesradio.se/artikel/sverige-vann-odesmatchen-narmar-sig-basket-vm",
       "capturedAt": "2026-11-27T20:17:43.723Z"
+    },
+    {
+      "filename": "1795835554416_0.webp",
+      "headlineId": "bea61cbc9c4a7de8774f140b690a736ca4a7cb3ede68dd474b6f13c7944fc6f4",
+      "articleUrl": "https://www.sverigesradio.se/artikel/atta-doda-efter-helikopterkrasch-i-peru",
+      "capturedAt": "2026-11-28T03:12:34.416Z"
     }
   ]
 }
