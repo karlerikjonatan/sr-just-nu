@@ -47520,6 +47520,10 @@
     {
       "id": "a70453e1b78c947b6493ccf5617901b496bcbcdf2a26f7b917e2c10e7495d2cf",
       "text": "Just nu: Saab får miljardorder från Ukraina"
+    },
+    {
+      "id": "5e7e2c1ba03075b0b85c15fdff115b1956d117790d18d4b9c398d4c5981194ac",
+      "text": "Just nu: Saab får miljardorder"
     }
   ],
   "captures": [
@@ -118796,6 +118800,12 @@
       "headlineId": "a70453e1b78c947b6493ccf5617901b496bcbcdf2a26f7b917e2c10e7495d2cf",
       "articleUrl": "https://www.sverigesradio.se/artikel/ukraina-gor-mangmiljardorder-pa-giraffe-1x-radarer-hos-saab",
       "capturedAt": "2026-11-28T16:17:29.266Z"
+    },
+    {
+      "filename": "1795885656149_0.webp",
+      "headlineId": "5e7e2c1ba03075b0b85c15fdff115b1956d117790d18d4b9c398d4c5981194ac",
+      "articleUrl": "https://www.sverigesradio.se/artikel/ukraina-gor-mangmiljardorder-pa-giraffe-1x-radarer-hos-saab",
+      "capturedAt": "2026-11-28T17:07:36.149Z"
     }
   ]
 }
