@@ -47532,6 +47532,10 @@
     {
       "id": "646fade423525b0de4f17a79fe9f9a1221e96013476f8b58f3e8fedb84606104",
       "text": "Just nu: Missing people larmar – saknar folk"
+    },
+    {
+      "id": "dc44417d56266eb6a089087a07a0951ff06dce6436be0b634b8cf10bfc2a7552",
+      "text": "Just nu: Dramaten utrymd"
     }
   ],
   "captures": [
@@ -118826,6 +118830,12 @@
       "headlineId": "646fade423525b0de4f17a79fe9f9a1221e96013476f8b58f3e8fedb84606104",
       "articleUrl": "https://www.sverigesradio.se/artikel/missing-people-i-kronoberg-behover-fler-patrulledare",
       "capturedAt": "2026-11-28T19:17:35.293Z"
+    },
+    {
+      "filename": "1795895247232_0.webp",
+      "headlineId": "dc44417d56266eb6a089087a07a0951ff06dce6436be0b634b8cf10bfc2a7552",
+      "articleUrl": "https://www.sverigesradio.se/artikel/dramaten-utrymd-efter-brandlarm",
+      "capturedAt": "2026-11-28T19:47:27.232Z"
     }
   ]
 }
