@@ -47464,6 +47464,10 @@
     {
       "id": "4c5a4f9435d12c1bfbe5f85f48b19951ce990301010cf56c138bce1a81a46484",
       "text": "Just nu: Brand i ladugård – två till sjukhus"
+    },
+    {
+      "id": "619ba42bd99efb3d74f98e67157218ff8b97d31a711288e559282662fc78a4dc",
+      "text": "Just nu: Tonåring i krock – misstänkt rattfylleri"
     }
   ],
   "captures": [
@@ -118656,6 +118660,12 @@
       "headlineId": "4c5a4f9435d12c1bfbe5f85f48b19951ce990301010cf56c138bce1a81a46484",
       "articleUrl": "https://www.sverigesradio.se/artikel/brand-i-ladugard-i-bergsbyn-tva-till-sjukhus",
       "capturedAt": "2026-11-28T07:47:27.030Z"
+    },
+    {
+      "filename": "1795854749848_0.webp",
+      "headlineId": "619ba42bd99efb3d74f98e67157218ff8b97d31a711288e559282662fc78a4dc",
+      "articleUrl": "https://www.sverigesradio.se/artikel/krock-med-a-traktor-tonarspojke-misstankt-for-brott",
+      "capturedAt": "2026-11-28T08:32:29.848Z"
     }
   ]
 }
