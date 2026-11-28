@@ -47480,6 +47480,10 @@
     {
       "id": "e094094db7b88a421c212fee10045e7af0600b3e89f00170845cecc0d59e219d",
       "text": "Just nu: Olycka utanför Vara – E20 avstängd"
+    },
+    {
+      "id": "1c920093a8d3b4ad87ca456415641878863fe0307f273fe83ff140c0385887b5",
+      "text": "Just nu: Ny svensk trippel i världscupen"
     }
   ],
   "captures": [
@@ -118696,6 +118700,12 @@
       "headlineId": "e094094db7b88a421c212fee10045e7af0600b3e89f00170845cecc0d59e219d",
       "articleUrl": "https://www.sverigesradio.se/artikel/e20-avstangd-utanfor-vara-efter-olycka",
       "capturedAt": "2026-11-28T11:57:29.546Z"
+    },
+    {
+      "filename": "1795867952381_0.webp",
+      "headlineId": "1c920093a8d3b4ad87ca456415641878863fe0307f273fe83ff140c0385887b5",
+      "articleUrl": "https://www.sverigesradio.se/artikel/svensk-succe-i-sprinten-trippel-igen",
+      "capturedAt": "2026-11-28T12:12:32.381Z"
     }
   ]
 }
