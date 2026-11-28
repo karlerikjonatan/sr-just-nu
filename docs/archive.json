@@ -47528,6 +47528,10 @@
     {
       "id": "c86bae03e61a371c2217ca8031eb63df0a1d7638309f385c7fbbe6c6b24c4b14",
       "text": "Just nu: Misshandlad man sökte hjälp i butik"
+    },
+    {
+      "id": "646fade423525b0de4f17a79fe9f9a1221e96013476f8b58f3e8fedb84606104",
+      "text": "Just nu: Missing people larmar – saknar folk"
     }
   ],
   "captures": [
@@ -118816,6 +118820,12 @@
       "headlineId": "c86bae03e61a371c2217ca8031eb63df0a1d7638309f385c7fbbe6c6b24c4b14",
       "articleUrl": "https://www.sverigesradio.se/artikel/misshandlad-man-till-sjukhus-sokte-hjalp-i-butik",
       "capturedAt": "2026-11-28T18:57:25.169Z"
+    },
+    {
+      "filename": "1795893455293_0.webp",
+      "headlineId": "646fade423525b0de4f17a79fe9f9a1221e96013476f8b58f3e8fedb84606104",
+      "articleUrl": "https://www.sverigesradio.se/artikel/missing-people-i-kronoberg-behover-fler-patrulledare",
+      "capturedAt": "2026-11-28T19:17:35.293Z"
     }
   ]
 }
