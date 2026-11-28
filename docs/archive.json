@@ -47476,6 +47476,10 @@
     {
       "id": "5039fc34cde0ea2e1db9f9cef387d8dddb1d20525719d274eb3cdf6c40939e9e",
       "text": "Just nu: Bil körde in i hus i Stockholm"
+    },
+    {
+      "id": "e094094db7b88a421c212fee10045e7af0600b3e89f00170845cecc0d59e219d",
+      "text": "Just nu: Olycka utanför Vara – E20 avstängd"
     }
   ],
   "captures": [
@@ -118686,6 +118690,12 @@
       "headlineId": "5039fc34cde0ea2e1db9f9cef387d8dddb1d20525719d274eb3cdf6c40939e9e",
       "articleUrl": "https://www.sverigesradio.se/artikel/bil-har-kort-in-i-fastighet-i-centrala-stockholm",
       "capturedAt": "2026-11-28T10:07:29.066Z"
+    },
+    {
+      "filename": "1795867049546_0.webp",
+      "headlineId": "e094094db7b88a421c212fee10045e7af0600b3e89f00170845cecc0d59e219d",
+      "articleUrl": "https://www.sverigesradio.se/artikel/e20-avstangd-utanfor-vara-efter-olycka",
+      "capturedAt": "2026-11-28T11:57:29.546Z"
     }
   ]
 }
