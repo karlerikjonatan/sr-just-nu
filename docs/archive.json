@@ -47460,6 +47460,10 @@
     {
       "id": "cc2c6318b0ff04e57997805a48703622d788efe3e88831a165e24602a9466278",
       "text": "Just nu: Tog punggrepp på planen – stängs av"
+    },
+    {
+      "id": "4c5a4f9435d12c1bfbe5f85f48b19951ce990301010cf56c138bce1a81a46484",
+      "text": "Just nu: Brand i ladugård – två till sjukhus"
     }
   ],
   "captures": [
@@ -118646,6 +118650,12 @@
       "headlineId": "cc2c6318b0ff04e57997805a48703622d788efe3e88831a165e24602a9466278",
       "articleUrl": "https://www.sverigesradio.se/artikel/jesper-sankell-stangs-av-i-tre-matcher-efter-punggrepp",
       "capturedAt": "2026-11-28T07:17:34.966Z"
+    },
+    {
+      "filename": "1795852047030_0.webp",
+      "headlineId": "4c5a4f9435d12c1bfbe5f85f48b19951ce990301010cf56c138bce1a81a46484",
+      "articleUrl": "https://www.sverigesradio.se/artikel/brand-i-ladugard-i-bergsbyn-tva-till-sjukhus",
+      "capturedAt": "2026-11-28T07:47:27.030Z"
     }
   ]
 }
