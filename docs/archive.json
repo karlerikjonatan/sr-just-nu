@@ -47504,6 +47504,10 @@
     {
       "id": "0b69038a24956dcdeae5c53b5308ef83c02ed5784c5ab5c2c763618d3a4a44e3",
       "text": "Just nu: Gordon Ramsay ska leda ”Top Gear”"
+    },
+    {
+      "id": "a563d05a99e16b7cdbb6d0e78ba7ee5655aca78fa37f38d12e0ee26efcd59a84",
+      "text": "Just nu: TV-kocken ska leda ”Top Gear”"
     }
   ],
   "captures": [
@@ -118756,6 +118760,12 @@
       "headlineId": "0b69038a24956dcdeae5c53b5308ef83c02ed5784c5ab5c2c763618d3a4a44e3",
       "articleUrl": "https://www.sverigesradio.se/artikel/top-gear-gor-comeback-med-tv-kocken-gordon-ramsay",
       "capturedAt": "2026-11-28T14:07:30.388Z"
+    },
+    {
+      "filename": "1795875756205_0.webp",
+      "headlineId": "a563d05a99e16b7cdbb6d0e78ba7ee5655aca78fa37f38d12e0ee26efcd59a84",
+      "articleUrl": "https://www.sverigesradio.se/artikel/top-gear-gor-comeback-med-tv-kocken-gordon-ramsay",
+      "capturedAt": "2026-11-28T14:22:36.205Z"
     }
   ]
 }
