@@ -47524,6 +47524,10 @@
     {
       "id": "5e7e2c1ba03075b0b85c15fdff115b1956d117790d18d4b9c398d4c5981194ac",
       "text": "Just nu: Saab får miljardorder"
+    },
+    {
+      "id": "c86bae03e61a371c2217ca8031eb63df0a1d7638309f385c7fbbe6c6b24c4b14",
+      "text": "Just nu: Misshandlad man sökte hjälp i butik"
     }
   ],
   "captures": [
@@ -118806,6 +118810,12 @@
       "headlineId": "5e7e2c1ba03075b0b85c15fdff115b1956d117790d18d4b9c398d4c5981194ac",
       "articleUrl": "https://www.sverigesradio.se/artikel/ukraina-gor-mangmiljardorder-pa-giraffe-1x-radarer-hos-saab",
       "capturedAt": "2026-11-28T17:07:36.149Z"
+    },
+    {
+      "filename": "1795892245169_0.webp",
+      "headlineId": "c86bae03e61a371c2217ca8031eb63df0a1d7638309f385c7fbbe6c6b24c4b14",
+      "articleUrl": "https://www.sverigesradio.se/artikel/misshandlad-man-till-sjukhus-sokte-hjalp-i-butik",
+      "capturedAt": "2026-11-28T18:57:25.169Z"
     }
   ]
 }
