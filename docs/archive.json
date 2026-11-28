@@ -47472,6 +47472,10 @@
     {
       "id": "7d95ee6805e6651b8e1f3459f18bfdf75e68b76ff4cd450e9a1b655e5e05d993",
       "text": "Just nu: Fyllefest i Vemdalen – 35 utslängda"
+    },
+    {
+      "id": "5039fc34cde0ea2e1db9f9cef387d8dddb1d20525719d274eb3cdf6c40939e9e",
+      "text": "Just nu: Bil körde in i hus i Stockholm"
     }
   ],
   "captures": [
@@ -118676,6 +118680,12 @@
       "headlineId": "7d95ee6805e6651b8e1f3459f18bfdf75e68b76ff4cd450e9a1b655e5e05d993",
       "articleUrl": "https://www.sverigesradio.se/artikel/fyllefest-i-vemdalen-35-utslangda",
       "capturedAt": "2026-11-28T08:42:28.379Z"
+    },
+    {
+      "filename": "1795860449066_0.webp",
+      "headlineId": "5039fc34cde0ea2e1db9f9cef387d8dddb1d20525719d274eb3cdf6c40939e9e",
+      "articleUrl": "https://www.sverigesradio.se/artikel/bil-har-kort-in-i-fastighet-i-centrala-stockholm",
+      "capturedAt": "2026-11-28T10:07:29.066Z"
     }
   ]
 }
