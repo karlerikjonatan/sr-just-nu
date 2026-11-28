@@ -47456,6 +47456,10 @@
     {
       "id": "31141095e79b017757dbffa45166619d6ccba12766231901a8e5a5aa6a0a25a4",
       "text": "Just nu: Växjöspelaren stängs av efter punggrepp"
+    },
+    {
+      "id": "cc2c6318b0ff04e57997805a48703622d788efe3e88831a165e24602a9466278",
+      "text": "Just nu: Tog punggrepp på planen – stängs av"
     }
   ],
   "captures": [
@@ -118636,6 +118640,12 @@
       "headlineId": "31141095e79b017757dbffa45166619d6ccba12766231901a8e5a5aa6a0a25a4",
       "articleUrl": "https://www.sverigesradio.se/artikel/jesper-sankell-stangs-av-i-tre-matcher-efter-punggrepp",
       "capturedAt": "2026-11-28T07:07:38.714Z"
+    },
+    {
+      "filename": "1795850254966_0.webp",
+      "headlineId": "cc2c6318b0ff04e57997805a48703622d788efe3e88831a165e24602a9466278",
+      "articleUrl": "https://www.sverigesradio.se/artikel/jesper-sankell-stangs-av-i-tre-matcher-efter-punggrepp",
+      "capturedAt": "2026-11-28T07:17:34.966Z"
     }
   ]
 }
